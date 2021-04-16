@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+  <head>
+    <title>Income and Institutional Confidence   MPSA 2021</title>
+    <meta charset="utf-8" />
+    <meta name="author" content="Byunghwan Son   George Mason University" />
+    <meta name="date" content="2021-04-15" />
+    <link href="css/libs/remark-css-0.0.1/default.css" rel="stylesheet" />
+    <link href="css/libs/remark-css-0.0.1/default-fonts.css" rel="stylesheet" />
+    <link href="css/libs/font-awesome-5.1.0/css/all.css" rel="stylesheet" />
+    <link href="css/libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet" />
+    <link rel="stylesheet" href="css/footer.css" type="text/css" />
+    <link rel="stylesheet" href="css/color.css" type="text/css" />
+  </head>
+  <body>
+    <textarea id="source">
+class: center, middle, inverse, title-slide
+
+# Income and Institutional Confidence <br> MPSA 2021
+### Byunghwan Son <br> George Mason University
+### April 15, 2021
+
+---
+
+
+layout: true
+background-image: url(images/gmu_logo_bw.jpg)
+background-position: 100% 0%
+background-size: 10%
+
+
+
+
+&lt;script type="text/x-mathjax-config"&gt;
+MathJax.Hub.Config({
+  TeX: {
+    Macros: {
+      yellow: ["{\\color{yellow}{#1}}", 1],
+      orange: ["{\\color{orange}{#1}}", 1],
+      green: ["{\\color{green}{#1}}", 1],
+      red: ["{\\color{red}{#1}}", 1]
+    },
+    loader: {load: ['[tex]/color']},
+    tex: {packages: {'[+]': ['color']}}
+  }
+});
+&lt;/script&gt;
+
+
+---
+
+class: inverse, left, middle
+background-image: url(https://static.financialsense.com/historical/users/u165/images/2013/0102/mother-trust-government-wall-art.jpg)
+background-size: cover
+
+---
+
+class: inverse, left
+background-color: black
+
+# .red[Institutional Confidence]
+
+--
+
+## - A bunch of synonyms
+### : *political trust*; *trust in gov't*; *confidence in govt't*
+
+--
+
+## - "belief that institutions are doing .green[the right thing]"
+
+--
+
+## - Important
+### : &lt;i class="fas fa-dharmachakra"&gt;&lt;/i&gt; lynchpin of the basic workings of .yellow[democracy]
+### : &lt;i class="fas fa-heart-broken"&gt;&lt;/i&gt; reflects political disenchantment
+
+---
+
+class: inverse, left, top
+background-image: url(https://sevenpillarsinstitute.org/wp-content/uploads/2017/11/Political-Inequality.jpeg)
+background-size: contain
+
+# The Rich and The Poor
+
+--
+
+### different .yellow[external efficacy] 
+
+--
+
+### &lt;i class="fas fa-arrow-circle-right"&gt;&lt;/i&gt; .red[evaluative] of institutions
+
+---
+
+class: inverse, right, top
+background-image: url(https://media.giphy.com/media/1BdNuPXC6jp6OEAfbW/giphy.gif)
+background-size: contain
+background-position: center, middle
+
+# In a .red[bad] economy,&lt;br&gt; the rich to insitutions: 
+
+---
+
+class: inverse, left, middle
+
+# The rich are more .yellow[sensitive].
+
+--
+
+# The rich's confidence in institutions .green[increase] more than the poor's does when the economy is .green[good].
+
+--
+
+# The rich's confidence in institutions .red[decrease] more than the poor's does when the economy is .red[bad].
+
+
+---
+
+# Research Design
+
+### .blue[Data]: WVS (three waves), .orange[democratic] countries (polity&gt;5)
+
+--
+
+### .blue[DV]: Institutional Confidence (factor)
+
+--
+
+### .blue[IV]: RER (Rodrik 2008) &amp; Income
+
+--
+
+### .blue[Model]: multilevel mixed effect linear regression
+
+.large[Confidence in  Government] =
+
+`$$\beta_{0} + \beta_{1}{RER}_{i} + \beta_{2}{Income}_{ij} + \red{\beta_{3}}{RER}_{i} \times {Income}_{ij} + \kappa_{ij} +  \upsilon_{i} + \varepsilon_{ij}$$`
+
+---
+
+# Descriptive Statistics
+
+
+
+
+&lt;table style="text-align:center"&gt;&lt;caption&gt;&lt;strong&gt;Summary Statistics (based on the benchmark model)&lt;/strong&gt;&lt;/caption&gt;
+&lt;tr&gt;&lt;td colspan="8" style="border-bottom: 1px solid black"&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style="text-align:left"&gt;Statistic&lt;/td&gt;&lt;td&gt;N&lt;/td&gt;&lt;td&gt;Mean&lt;/td&gt;&lt;td&gt;St. Dev.&lt;/td&gt;&lt;td&gt;Min&lt;/td&gt;&lt;td&gt;Pctl(25)&lt;/td&gt;&lt;td&gt;Pctl(75)&lt;/td&gt;&lt;td&gt;Max&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td colspan="8" style="border-bottom: 1px solid black"&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style="text-align:left"&gt;Inst. Confidence&lt;/td&gt;&lt;td&gt;98,320&lt;/td&gt;&lt;td&gt;-0.050&lt;/td&gt;&lt;td&gt;0.844&lt;/td&gt;&lt;td&gt;-1.531&lt;/td&gt;&lt;td&gt;-0.567&lt;/td&gt;&lt;td&gt;0.572&lt;/td&gt;&lt;td&gt;2.042&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td style="text-align:left"&gt;income&lt;/td&gt;&lt;td&gt;98,320&lt;/td&gt;&lt;td&gt;0.157&lt;/td&gt;&lt;td&gt;2.255&lt;/td&gt;&lt;td&gt;-5.502&lt;/td&gt;&lt;td&gt;-1.453&lt;/td&gt;&lt;td&gt;1.712&lt;/td&gt;&lt;td&gt;8.222&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td style="text-align:left"&gt;RER&lt;/td&gt;&lt;td&gt;98,320&lt;/td&gt;&lt;td&gt;0.100&lt;/td&gt;&lt;td&gt;0.393&lt;/td&gt;&lt;td&gt;-0.850&lt;/td&gt;&lt;td&gt;-0.171&lt;/td&gt;&lt;td&gt;0.406&lt;/td&gt;&lt;td&gt;0.887&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td style="text-align:left"&gt;age&lt;/td&gt;&lt;td&gt;98,320&lt;/td&gt;&lt;td&gt;-0.383&lt;/td&gt;&lt;td&gt;15.459&lt;/td&gt;&lt;td&gt;-35.862&lt;/td&gt;&lt;td&gt;-12.479&lt;/td&gt;&lt;td&gt;10.553&lt;/td&gt;&lt;td&gt;55.521&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td style="text-align:left"&gt;male&lt;/td&gt;&lt;td&gt;98,320&lt;/td&gt;&lt;td&gt;0.515&lt;/td&gt;&lt;td&gt;0.500&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;td&gt;1&lt;/td&gt;&lt;td&gt;1&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td style="text-align:left"&gt;interst in politics&lt;/td&gt;&lt;td&gt;98,320&lt;/td&gt;&lt;td&gt;0.111&lt;/td&gt;&lt;td&gt;0.903&lt;/td&gt;&lt;td&gt;-1.967&lt;/td&gt;&lt;td&gt;-0.564&lt;/td&gt;&lt;td&gt;0.734&lt;/td&gt;&lt;td&gt;2.390&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td style="text-align:left"&gt;education&lt;/td&gt;&lt;td&gt;98,320&lt;/td&gt;&lt;td&gt;0.149&lt;/td&gt;&lt;td&gt;2.068&lt;/td&gt;&lt;td&gt;-5.794&lt;/td&gt;&lt;td&gt;-1.573&lt;/td&gt;&lt;td&gt;1.830&lt;/td&gt;&lt;td&gt;4.947&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td style="text-align:left"&gt;interpersonal trust&lt;/td&gt;&lt;td&gt;98,320&lt;/td&gt;&lt;td&gt;0.278&lt;/td&gt;&lt;td&gt;0.448&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;td&gt;1&lt;/td&gt;&lt;td&gt;1&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td style="text-align:left"&gt;ideology&lt;/td&gt;&lt;td&gt;98,320&lt;/td&gt;&lt;td&gt;0.012&lt;/td&gt;&lt;td&gt;2.260&lt;/td&gt;&lt;td&gt;-5.601&lt;/td&gt;&lt;td&gt;-1.476&lt;/td&gt;&lt;td&gt;1.347&lt;/td&gt;&lt;td&gt;6.561&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td style="text-align:left"&gt;ln(GDP per capita)&lt;/td&gt;&lt;td&gt;98,320&lt;/td&gt;&lt;td&gt;9.256&lt;/td&gt;&lt;td&gt;1.317&lt;/td&gt;&lt;td&gt;6.153&lt;/td&gt;&lt;td&gt;8.595&lt;/td&gt;&lt;td&gt;10.548&lt;/td&gt;&lt;td&gt;11.425&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td style="text-align:left"&gt;economic growth&lt;/td&gt;&lt;td&gt;98,320&lt;/td&gt;&lt;td&gt;3.347&lt;/td&gt;&lt;td&gt;3.645&lt;/td&gt;&lt;td&gt;-14.193&lt;/td&gt;&lt;td&gt;2.359&lt;/td&gt;&lt;td&gt;5.162&lt;/td&gt;&lt;td&gt;13.208&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td style="text-align:left"&gt;financial crisis&lt;/td&gt;&lt;td&gt;98,320&lt;/td&gt;&lt;td&gt;0.116&lt;/td&gt;&lt;td&gt;0.321&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;td&gt;1&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td colspan="8" style="border-bottom: 1px solid black"&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+
+---
+
+# Institutional Confidence, RER, and Income
+
+
+
+![](MPSA2021_myslides_files/figure-html/scatter-1.png)&lt;!-- --&gt;
+
+---
+
+# The Benchmark Result
+
+![](MPSA2021_myslides_files/figure-html/unnamed-chunk-4-1.png)&lt;!-- --&gt;
+---
+class: inverse, left, middle
+background-color: black
+
+# But .yellow[wait], 
+# an **alternative** explanation might still work!
+
+--
+
+## What if it's all b/c *the rich have more to .green[earn] and .red[lose]*?
+   
+   
+      
+---
+
+# The idea of a causal mediation
+
+.center[![:scale 110%](images/diagram.jpg)
+
+]
+```
+
+---
+
+# The result, however.
+.center[![:scale 70%](images/med.jpeg)
+]
+
+---
+
+# Conclusion
+
+.content-box-green[
+### The rich are more .red[sensitive] than the poor to national economic conditions in forming institutional confidence
+]
+
+--
+
+.content-box-yellow[
+### The findings might shed some light on how .red[backsliding] happens.
+]
+
+--
+
+.content-box-purple[
+### A rare attempt to show how international .red[financial] subject can affect political opinions.
+]
+    </textarea>
+<style data-target="print-only">@media screen {.remark-slide-container{display:block;}.remark-slide-scaler{box-shadow:none;}}</style>
+<script src="css/libs/remark-latest.min.js"></script>
+<script src="css/macros.js"></script>
+<script>var slideshow = remark.create({
+"highlightStyle": "github",
+"seal": false
+});
+if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
+  window.dispatchEvent(new Event('resize'));
+});
+(function(d) {
+  var s = d.createElement("style"), r = d.querySelector(".remark-slide-scaler");
+  if (!r) return;
+  s.type = "text/css"; s.innerHTML = "@page {size: " + r.style.width + " " + r.style.height +"; }";
+  d.head.appendChild(s);
+})(document);
+
+(function(d) {
+  var el = d.getElementsByClassName("remark-slides-area");
+  if (!el) return;
+  var slide, slides = slideshow.getSlides(), els = el[0].children;
+  for (var i = 1; i < slides.length; i++) {
+    slide = slides[i];
+    if (slide.properties.continued === "true" || slide.properties.count === "false") {
+      els[i - 1].className += ' has-continuation';
+    }
+  }
+  var s = d.createElement("style");
+  s.type = "text/css"; s.innerHTML = "@media print { .has-continuation { display: none; } }";
+  d.head.appendChild(s);
+})(document);
+// delete the temporary CSS (for displaying all slides initially) when the user
+// starts to view slides
+(function() {
+  var deleted = false;
+  slideshow.on('beforeShowSlide', function(slide) {
+    if (deleted) return;
+    var sheets = document.styleSheets, node;
+    for (var i = 0; i < sheets.length; i++) {
+      node = sheets[i].ownerNode;
+      if (node.dataset["target"] !== "print-only") continue;
+      node.parentNode.removeChild(node);
+    }
+    deleted = true;
+  });
+})();
+(function() {
+  "use strict"
+  // Replace <script> tags in slides area to make them executable
+  var scripts = document.querySelectorAll(
+    '.remark-slides-area .remark-slide-container script'
+  );
+  if (!scripts.length) return;
+  for (var i = 0; i < scripts.length; i++) {
+    var s = document.createElement('script');
+    var code = document.createTextNode(scripts[i].textContent);
+    s.appendChild(code);
+    var scriptAttrs = scripts[i].attributes;
+    for (var j = 0; j < scriptAttrs.length; j++) {
+      s.setAttribute(scriptAttrs[j].name, scriptAttrs[j].value);
+    }
+    scripts[i].parentElement.replaceChild(s, scripts[i]);
+  }
+})();
+(function() {
+  var links = document.getElementsByTagName('a');
+  for (var i = 0; i < links.length; i++) {
+    if (/^(https?:)?\/\//.test(links[i].getAttribute('href'))) {
+      links[i].target = '_blank';
+    }
+  }
+})();</script>
+
+<script>
+slideshow._releaseMath = function(el) {
+  var i, text, code, codes = el.getElementsByTagName('code');
+  for (i = 0; i < codes.length;) {
+    code = codes[i];
+    if (code.parentNode.tagName !== 'PRE' && code.childElementCount === 0) {
+      text = code.textContent;
+      if (/^\\\((.|\s)+\\\)$/.test(text) || /^\\\[(.|\s)+\\\]$/.test(text) ||
+          /^\$\$(.|\s)+\$\$$/.test(text) ||
+          /^\\begin\{([^}]+)\}(.|\s)+\\end\{[^}]+\}$/.test(text)) {
+        code.outerHTML = code.innerHTML;  // remove <code></code>
+        continue;
+      }
+    }
+    i++;
+  }
+};
+slideshow._releaseMath(document);
+</script>
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+(function () {
+  var script = document.createElement('script');
+  script.type = 'text/javascript';
+  script.src  = 'https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML';
+  if (location.protocol !== 'file:' && /^https?:/.test(script.src))
+    script.src  = script.src.replace(/^https?:/, '');
+  document.getElementsByTagName('head')[0].appendChild(script);
+})();
+</script>
+  </body>
+</html>
