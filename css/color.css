@@ -13,7 +13,8 @@
  *
  **************/
 
-
+.Huge { font-size: 300% }
+.huge { font-size: 200% }
 .Large { font-size: 144% }
 .large { font-size: 120% }
 .small { font-size: 90% }
@@ -24,6 +25,7 @@
 .black { color: black; }
 .red { color: red; }
 .blue { color: blue; }
+.Blue { color: #6666ff; }
 .green { color: green; }
 .yellow { color: yellow; }
 .orange { color: orange; }
@@ -84,6 +86,11 @@ blockquote, .blockquote {
 .text-shadow {
   text-shadow: 0 0 4px #424242;
 }
+
+
+
+.left-column ~ * { clear: unset; }
+.left-column + * { clear: both; }
 
 
 /******************
