@@ -140,3 +140,9 @@ blockquote, .blockquote {
     width: 100%;
     flex: 1 1 auto;
 }
+
+
+/* for aligning .pull-left and -right  */
+
+.pull-right ~ * { clear: unset; }
+.pull-right + * { clear: both; }

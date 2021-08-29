@@ -1,0 +1,389 @@
+---
+title: ".green[Introduction] <br> GLOA 610"
+subtitle: "What are economic globalization and development? <br> .yellow[A Primer]"
+author: "Byunghwan Son <br> George Mason University"
+date: " "
+#########################################
+linkcolor: red
+citecolor: blue
+urlcolor: blueß
+output: 
+  xaringan::moon_reader:
+    seal: false
+  #    self-contained: TRUE
+  chakra: css/libs/remark-latest.min.js
+css: ["default", 
+      "css/footer.css", 
+      "css/color.css", 
+      #          "xaringan-themer.css",
+      default-fonts]
+lib_dir: css/libs
+nature:
+  ratio: '16:9'
+  highlightStyle: github
+beforeInit: "css/macros.js"
+# seal: false  
+#bibliography: /Users/bson3/Dropbox/latex/mybib2.bib
+#remotes::install_github('yihui/xaringan', upgrade = TRUE)
+---
+
+```{r setup, include=FALSE}
+# to use FontAwesome
+htmltools::tagList(rmarkdown::html_dependency_font_awesome())
+library(fs)
+# library(magick)  
+
+```
+
+class: middle, left, center
+background-color: black
+background-size: cover
+background-image: url(https://news.cgtn.com/news/2020-09-22/Xi-Jinping-says-economic-globalization-an-inevitable-trend-TZXXClGkH6/img/b50106bb18354767a8c7c412d0fbb645/b50106bb18354767a8c7c412d0fbb645.jpeg)
+
+
+.content-box-blue[
+# .green[Introduction to GLOA 610]
+
+### What are .blue[economic globalization] and .red[development]? <br><br> .orange[A Primer]
+
+]
+
+---
+
+class: inverse, middle, center
+background-color: black
+
+# .huge[Some theoretical foundations]
+
+--
+
+## .yellow[.Large[Like, really big ones]]
+
+--
+
+### 'how to develop?'
+
+---
+class: top
+background-image: url(https://media.giphy.com/media/MhHmVf60oEZQQ/giphy.gif?cid=ecf05e47wyguiojdr6lp3hw89uxrsmbjrhb34txk6v0wq5ck&rid=giphy.gif&ct=g)
+background-size: contain
+
+# It's really going back and forth between two schools of thoughts (.blue[market] vs. .red[state]).
+
+--
+  
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+
+# often determined by global .green[circumstances].
+---
+
+## .orange[Dominant] narratives in global political economy
+
+.left-column[
+### Modernization Theory
+
+### Neoclassical Responses
+
+### Developmental State
+
+### the 2000s
+]
+
+.right-column[
+
+]
+
+---
+
+
+## .orange[Dominant] narratives in global political economy
+
+.right-column[
+
+### - Weberian Tradition (e.g., 'Protestant Ethic')
+
+### - What is economic growth?
+
+ $$ Output = f(L^\alpha \times K^{1-\alpha})  $$
+
+### - For .red[developing] economies: 
+
+- .Large[active roles of .red[government] in reforms (+ Keynesian experience)] 
+
+]
+
+.left-column[
+### .red[Modernization Theory]
+
+### Neoclassical Responses
+
+### Developmental State
+
+### the 2000s
+]
+
+
+
+---
+
+
+## .orange[Dominant] narratives in global political economy
+
+.right-column[
+.![](https://media.giphy.com/media/l0ErJaDQ2Q3onCenS/giphy.gif?cid=ecf05e47ep5910nhirzakpc9xyxnosr2hg52zqytld0ibo7e&rid=giphy.gif&ct=g)
+### - the (promised) growth did happen [the 60s].
+### - maybe the government is the problem -> austerity!
+### - cf., *the '.green[dependency]' theory* 
+]
+
+.left-column[
+### Modernization Theory
+
+### .red[Neoclassical Responses]
+
+### Developmental State
+
+### the 2000s
+]
+
+
+---
+
+
+## .orange[Dominant] narratives in global political economy
+
+.right-column[
+![](https://media.giphy.com/media/HAvn2OeKPe61G/giphy.gif?cid=790b76119545a7aa0e2086d00d8d3a22c6ed01b806aa4094&rid=giphy.gif&ct=g)
+
+### - East Asian economies 70s-90s (*'4 Asian Tigers'*)
+
+### - .blue[government] is actually key to success
+
+### - if it is .green[autonomous], that is.
+
+### - cf., rentier state; state capture
+]
+
+.left-column[
+### Modernization Theory
+
+### Neoclassical Responses
+
+### .red[Developmental State]
+
+### the 2000s
+]
+
+
+
+---
+
+
+## .orange[Dominant] narratives in global political economy
+
+.right-column[
+
+### - Commodity boom: a counter to all (BRICS!)
+
+![](https://media.giphy.com/media/JThsilCoOJKBwDAF4j/giphy.gif?cid=ecf05e474c75r5poxm8exomydcg6ecglixjs4a6gvxmly4k1&rid=giphy.gif&ct=g)
+
+### - but, Vietnam?
+
+
+]
+
+.left-column[
+### Modernization Theory
+
+### Neoclassical Responses
+
+### Developmental State
+
+### .red[the 2000s]
+]
+
+
+---
+
+class: inverse, middle, center
+background-color: black
+
+# .large[The overall pattern is that <br> the global economy has been <br> .red[grown] and .yellow[liberalized] over time.] 
+
+--
+
+# For better or worse.
+
+---
+
+
+class: inverse, middle, center
+background-color: black
+
+# .huge[How did the .red[people] react?]
+
+---
+
+# Popular Reactions to Econ Globalization <br> (two .green[extreme] positions)
+
+--
+
+.pull-left[
+.content-box-blue[
+## .red[Int'l Egalitarian Left]
+
+### - relatively new populist movement
+
+### - int'l alliance of egalitarianism
+
+### - anti-corporate globalism
+
+### - pro-conservation
+
+]
+]
+
+--
+
+.pull-right[
+.content-box-yellow[
+
+## .blue[Economic Nationalism]
+
+### - anti-elite appeal 
+
+### - help the 'undeserving' .red[<i class="fas fa-times"></i>]
+
+### - internation populist solidarity
+
+### - anti-conservation
+]
+]
+---
+
+class: inverse, middle
+background-color: black
+
+## - Now, we're going to look at some data on the .red[effect of globalization].
+
+## - Let's assume that over time, globalization progressed (which is not wrong). So in all graphs here, .yellow[the x-axis (Year)] actually represents globalization.
+
+---
+
+
+
+# First, GDP per capita
+
+```{r, message=FALSE, echo=FALSE, warning=FALSE, results="asis", fig.width=12, fig.height=8, cache=T}
+# install.packages('WDI')
+library(tidyverse)
+library(WDI)
+library(ggplot2)
+
+var = c('GDPpc' = 'NY.GDP.PCAP.KD',
+        'Growth' = 'NY.GDP.MKTP.KD.ZG',
+        'Infant.Mortality' = 'SP.MOR.INFA.ZT',
+        'School' = 'SE.PRM.ENRR',
+        'Life.Exp' = 'SP.DYN.LE00.IN',
+        'Poverty' = 'SI.POV.DDAY')
+
+wdi <- WDI(indicator=var,
+            start=1960,
+            country='all',
+            end=2020, extra = TRUE)
+wdi %>% 
+  mutate(oecd = 
+           case_when(country == "OECD members" ~ "oecd",
+                     country != "OECD members" ~ "non-oecd")) -> wdi
+
+
+wdi %>%
+  ggplot(aes(year, GDPpc, color=oecd)) +
+  geom_smooth(alpha=0.25) +
+  labs(x = "Year",
+       y = "GDP per capita") +
+  theme(legend.title = element_blank()) +
+  scale_color_manual(values=c("red", "blue")) +
+  theme(legend.text = element_text(size=13),
+        axis.text=element_text(size=15),
+        axis.title=element_text(size=15))
+
+```
+
+---
+
+
+# But what about the .red[speed] of development?
+
+```{r, message=FALSE, echo=FALSE, warning=FALSE, results="asis", fig.width=12, fig.height=8, cache=T}
+
+wdi %>%
+  ggplot(aes(year, Growth, color=oecd)) +
+  geom_smooth(alpha=0.25) +
+  labs(x = "Year",
+       y = "GDP Growth Rates") +
+  theme(legend.title = element_blank()) +
+  scale_color_manual(values=c("red", "blue")) +
+  theme(legend.text = element_text(size=13),
+        axis.text=element_text(size=15),
+        axis.title=element_text(size=15))
+
+```
+
+---
+
+
+
+# Third, Life Expectancy
+
+```{r, message=FALSE, echo=FALSE, warning=FALSE, results="asis", fig.width=12, fig.height=8, cache=T}
+
+wdi %>%
+  ggplot(aes(year, Life.Exp, color=oecd)) +
+  geom_smooth(alpha=0.25) +
+  labs(x = "Year",
+       y = "Life Expectancy at Birth") +
+  theme(legend.title = element_blank()) +
+  scale_color_manual(values=c("red", "blue")) +
+  theme(legend.text = element_text(size=13),
+        axis.text=element_text(size=15),
+        axis.title=element_text(size=15))
+
+```
+
+---
+
+
+
+# Forth, poverty ($1.9 a day in PPP terms)
+
+```{r, message=FALSE, echo=FALSE, warning=FALSE, results="asis", fig.width=12, fig.height=8, cache=T}
+
+ggplot(data=wdi %>%
+       filter(year>1989) %>%
+         filter(region != "NA"), 
+       aes(x=year, y=Poverty, color=region),
+       alpha=0.25) +
+  geom_smooth() +
+  labs(x = "Year",
+       y = "Population % Under Poverty") +
+  theme(legend.title = element_blank()) +
+  theme(legend.text = element_text(size=13),
+        axis.text=element_text(size=15),
+        axis.title=element_text(size=15))
+
+```
+
