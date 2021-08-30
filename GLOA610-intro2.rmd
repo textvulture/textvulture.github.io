@@ -297,7 +297,7 @@ background-color: black
 
 # First, GDP per capita
 
-```{r, message=FALSE, echo=FALSE, warning=FALSE, results="asis", fig.width=12, fig.height=6, cache=T}
+```{r, message=FALSE, echo=FALSE, warning=FALSE, results="asis", fig.width=16, fig.height=6, cache=T}
 # install.packages('WDI')
 library(tidyverse)
 library(WDI)
@@ -338,7 +338,7 @@ wdi %>%
 
 # But what about the .red[speed] of development?
 
-```{r, message=FALSE, echo=FALSE, warning=FALSE, results="asis", fig.width=12, fig.height=6, cache=T}
+```{r, message=FALSE, echo=FALSE, warning=FALSE, results="asis", fig.width=16, fig.height=6, cache=T}
 
 wdi %>%
   ggplot(aes(year, Growth, color=oecd)) +
@@ -359,7 +359,7 @@ wdi %>%
 
 # Third, Life Expectancy
 
-```{r, message=FALSE, echo=FALSE, warning=FALSE, results="asis", fig.width=12, fig.height=6, cache=T}
+```{r, message=FALSE, echo=FALSE, warning=FALSE, results="asis", fig.width=16, fig.height=6, cache=T}
 
 wdi %>%
   ggplot(aes(year, Life.Exp, color=oecd)) +
@@ -380,7 +380,7 @@ wdi %>%
 
 # Forth, poverty ($1.9 a day in PPP terms)
 
-```{r, message=FALSE, echo=FALSE, warning=FALSE, results="asis", fig.width=12, fig.height=6, cache=T}
+```{r, message=FALSE, echo=FALSE, warning=FALSE, results="asis", fig.width=16, fig.height=6, cache=T}
 
 ggplot(data=wdi %>%
        filter(year>1989) %>%
