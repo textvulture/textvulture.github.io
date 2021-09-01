@@ -1,0 +1,118 @@
+---
+title: ".green[Autocratization and Populism in Asia] <br> GLOA 400-001"
+author: "Byunghwan Son <br> George Mason University"
+date: " "
+#########################################
+linkcolor: red
+citecolor: blue
+urlcolor: blueß
+output: 
+  xaringan::moon_reader:
+    seal: false
+    nature:
+      ratio: '16:9'
+      highlightStyle: github
+  #    self-contained: TRUE
+  chakra: css/libs/remark-latest.min.js
+css: ["default", 
+      "css/footer.css", 
+      "css/color.css", 
+      #          "xaringan-themer.css",
+      default-fonts]
+lib_dir: css/libs
+beforeInit: "css/macros.js"
+# seal: false  
+#bibliography: /Users/bson3/Dropbox/latex/mybib2.bib
+#remotes::install_github('yihui/xaringan', upgrade = TRUE)
+---
+
+```{r setup, include=FALSE}
+# to use FontAwesome
+#htmltools::tagList(rmarkdown::html_dependency_font_awesome())
+library(fs)
+library(fontawesome)
+# library(magick)  
+library(ggplot2)
+
+```
+
+class: inverse, center, middle
+background-color: #19194d
+
+# .huge[Why Do We Care?]
+
+--
+
+# .Large[Because, .yellow[Political Globalization]]
+
+---
+
+class: inverse, left, top
+background-image: url(https://media.giphy.com/media/ZW44yxLZRDdNS/giphy.gif)
+background-size: contain
+
+--
+
+# When people think about political globalization,
+
+--
+
+# they often think of a 'World Government,' 
+
+--
+
+---
+
+class: inverse, middle, center
+background-color:  #808000
+
+# .huge[Not entirely crazy], <br> because political globalization entails:
+
+--
+
+## `r fa("share-alt", fill="black")` homogenization of the .red[form] of poltics
+
+--
+
+## `r fa("chart-line", fill="black")` rise of other actors
+
+---
+
+# What homogeneization? (.green[V-dem] data)
+
+--
+
+```{r echo=FALSE, error=FALSE, message=FALSE, warning=FALSE, fig.width=20, fig.height=9, cache=TRUE}
+library(vdemdata)
+library(tidyverse)
+
+df <- vdem %>%
+  select(year, v2x_polyarchy, v2x_libdem) %>%
+  gather(key="variable", value="value", -year)
+
+ggplot(df, aes(x = year, y=value)) +
+  geom_smooth(aes(color=variable)) +
+  geom_point(aes(color=variable), size=2, alpha=1/25) +
+  labs(x = "year", y="Democracy Index") +
+  theme_minimal() +
+  scale_color_manual(labels = c("Electoral Democracy", "Liberal Democracy"),
+                     values = c("blue", "red")) +
+  theme(axis.text=element_text(size=30),
+        axis.title=element_text(size=35),
+        legend.position = "bottom",
+        legend.text=element_text(size=35),
+        legend.title = element_blank()) 
+
+```
+---
+
+# So .red[what we're talking about] matters for political globalization
+
+--
+
+## - democratization cases in Asia
+
+## - a backsliding case in Asia: the Philippines (populism)
+
+---
+
