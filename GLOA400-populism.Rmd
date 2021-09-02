@@ -36,6 +36,18 @@ library(ggplot2)
 
 ```
 
+class: inverse, middle, right
+background-image: url(https://images.squarespace-cdn.com/content/v1/5497331ae4b0148a6141bd47/1529717706598-9KB3VOGO0G1BGOOXMJ3U/BLOG-podcast-populism-the-new-populism-1482659671-9641-005.jpg?format=1500w)
+background-size: 60%
+background-position: left
+background-color: black
+
+# .large[.green[Autocratization <br> and <br> Populism in Asia]] 
+
+# GLOA 400-001
+
+---
+
 class: inverse, center, middle
 background-color: #19194d
 
@@ -59,7 +71,6 @@ background-size: contain
 
 # they often think of a 'World Government,' 
 
---
 
 ---
 
@@ -74,7 +85,7 @@ background-color:  #808000
 
 --
 
-## `r fa("chart-line", fill="black")` rise of other actors
+## `r fa("chart-line", fill="black")` rise of institutions
 
 ---
 
@@ -106,7 +117,10 @@ ggplot(df, aes(x = year, y=value)) +
 ```
 ---
 
-# So .red[what we're talking about] matters for political globalization
+class: inverse, middle
+background-color: #563f46
+
+# So, .red[what we're talking about] matters for political globalization
 
 --
 
@@ -116,3 +130,125 @@ ggplot(df, aes(x = year, y=value)) +
 
 ---
 
+class: inverse, middle, center
+background-color: black
+
+# .Large[What does political globalization (democratization) in Asia look like?]
+
+--
+
+# .red[confusing], because the traditional, textbook explanations don't work here.
+
+---
+
+
+# Textbook #1: democratization happens with .red[economic development] (GDP per capita)
+
+--
+
+.center[
+```{r, echo=FALSE, out.width='60%'}
+knitr::include_graphics('images/gdp400.png')
+```
+]
+
+---
+
+# Textbook #2: democratization happens with increasing .red[income inequality] (Gini index)
+
+--
+
+.center[
+```{r, echo=FALSE, out.width='60%'}
+knitr::include_graphics('images/gini400.png')
+```
+]
+
+---
+
+class: inverse, left
+background-image: url(https://www.wired.com/wp-content/uploads/2015/03/855.gif)
+background-size: cover
+
+# .Large[Then how <br> do we explain <br> the .yellow[Asian] cases?]
+
+---
+class: inverse
+
+.pull-left[
+# Hint: most democratization episodes are .yellow[not] revolutions.
+.center[ 
+```{r, echo=FALSE, out.width='120%'}
+knitr::include_graphics(path="https://c.tenor.com/tOVFV6hNMsIAAAAM/lenin-vladimir-lenin.gif")
+```
+]
+]
+
+--
+
+.pull-right[
+# They are instead the stories of .red[elite concessions].
+.center[
+```{r, echo=FALSE, out.width='90%'}
+knitr::include_graphics(path="https://c.tenor.com/gwN3ilPlMaIAAAAC/nick-offerman-ron-swanson.gif")
+```
+]
+]
+
+---
+
+class: inverse
+background-color: #6b5b95
+
+# So when do dictators concede? (Slater & Wong 2003)
+
+--
+
+
+### - Asian Developmental States: Taiwan, South Korea, Indonesia
+
+--
+
+.center[
+```{r, echo=FALSE, out.width='60%'}
+knitr::include_graphics('images/Slater_Wang_2013.jpg')
+```
+]
+
+---
+
+class: inverse, top, right
+background-image: url(https://arc-anglerfish-arc2-prod-pmn.s3.amazonaws.com/public/7DWQUYSNFVC25DQAA74RFMA44U.jpg)
+background-size: cover
+
+--
+
+# The Philippines: <br> A case of .red[populist] backsliding
+
+---
+
+# Populism (Arugay & Slater 2019)
+
+.center[
+![](images/Philippines.jpg)
+]
+
+---
+
+# The Philippines: A breeding ground for populism
+
+<br>
+<br>
+<br>
+
+.center[
+```{r, echo=FALSE, out.width='120%'}
+knitr::include_graphics("images/Phil_timeline.jpg")
+```
+]
+
+---
+
+background-color: black
+background-image: url(https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iPpGrFZB6NGY/v0/-1x-1.png)
+background-size: contain
