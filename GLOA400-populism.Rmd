@@ -34,6 +34,8 @@ library(fontawesome)
 # library(magick)  
 library(ggplot2)
 
+setwd("/Users/bson3/Documents/GitHub/textvulture.github.io/")
+
 ```
 
 class: inverse, middle, right
@@ -126,7 +128,7 @@ background-color: #563f46
 
 ## - democratization cases in Asia
 
-## - a backsliding case in Asia: the Philippines (populism)
+## - backsliding cases in Asia: the Philippines (populism) & Cambodia (backsliding)
 
 ---
 
@@ -217,6 +219,41 @@ knitr::include_graphics('images/Slater_Wang_2013.jpg')
 
 ---
 
+# The tales of going backward: the Philippines & Cambodia
+
+```{r, echo=FALSE, fig.width=16}
+
+library(vdem) #remotes::install_github("xmarquez/vdem")
+library(dplyr)
+
+df <- extract_vdem(
+  include_sd = TRUE,
+  name_pattern = "v2x_polyarchy"
+) 
+
+df %>% 
+  filter(year>1970) %>%
+  rename(country = vdem_country_name) %>%
+  filter(country == "Philippines" | country == "Cambodia")  %>%  
+  ggplot(aes(x = year, 
+             y= v2x_polyarchy,
+             color=country)) +
+    geom_line(size=2, alpha=1) +
+    geom_ribbon(aes(ymin=v2x_polyarchy_codelow, 
+                    ymax=v2x_polyarchy_codehigh,
+                    x=year, fill=country, 
+                    alpha=1/15)) +
+  theme(legend.text = element_text(size=20),
+        axis.text=element_text(size=20),
+        axis.title=element_text(size=20)) +
+  guides(alpha = 'none') +
+  labs(y="Democracy Index")
+
+
+```
+
+---
+
 class: inverse, top, right
 background-image: url(https://arc-anglerfish-arc2-prod-pmn.s3.amazonaws.com/public/7DWQUYSNFVC25DQAA74RFMA44U.jpg)
 background-size: cover
@@ -252,3 +289,42 @@ knitr::include_graphics("images/Phil_timeline.jpg")
 background-color: black
 background-image: url(https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iPpGrFZB6NGY/v0/-1x-1.png)
 background-size: contain
+
+---
+
+class: inverse, center, middle
+background-color: black
+
+# .huge[Backsliding in Cambodia]
+
+---
+
+background-image: url(https://www.democratic-erosion.com/wp-content/uploads/2018/03/HUN-SEN.jpg)
+background-size: contain
+
+---
+
+class: inverse
+background-color: #6b5b95
+
+# Cambodian Backsliding and China (Loughlin 2021)
+
+## `r fa("feather-alt")` reaction to a political 'crisis': CNRP's rise (2012) and fall (2017)
+
+--
+
+  -  .Large[from .yellow[competitive] to .red[hegemonic] authoritarianism]
+  - .Large[single-party election in 2018 (Cambodian People's Party)]
+
+--
+
+## `r fa("feather-alt")` "authoritarian linkage" to justify backsliding and repression
+
+--
+
+  - .Large[investment from China]
+  - .Large[importing Chinese discourse ('.green[non-interference]' and '.green[right to develop]')]
+
+
+
+## 
