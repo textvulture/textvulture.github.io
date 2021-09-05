@@ -34,7 +34,8 @@ library(fontawesome)
 # library(magick)  
 library(ggplot2)
 
-setwd("/Users/bson3/Documents/GitHub/textvulture.github.io/")
+#setwd("/Users/bson3/Documents/GitHub/textvulture.github.io/")
+#setwd("/Users/kalka/Documents/GitHub/textvulture.github.io/")
 
 ```
 
@@ -221,7 +222,7 @@ knitr::include_graphics('images/Slater_Wang_2013.jpg')
 
 # The tales of going backward: the Philippines & Cambodia
 
-```{r, echo=FALSE, fig.width=16}
+```{r, echo=FALSE, warning=FALSE, message=FALSE, fig.width=16}
 
 library(vdem) #remotes::install_github("xmarquez/vdem")
 library(dplyr)
@@ -309,22 +310,37 @@ background-color: #6b5b95
 
 # Cambodian Backsliding and China (Loughlin 2021)
 
+--
+
 ## `r fa("feather-alt")` reaction to a political 'crisis': CNRP's rise (2012) and fall (2017)
 
 --
 
-  -  .Large[from .yellow[competitive] to .red[hegemonic] authoritarianism]
-  - .Large[single-party election in 2018 (Cambodian People's Party)]
+  - .Large[from .yellow[competitive] to .red[hegemonic] authoritarianism]
+  - .Large[result: single-party election in 2018 (Cambodian People's Party)]
 
 --
 
-## `r fa("feather-alt")` "authoritarian linkage" to justify backsliding and repression
+## `r fa("feather-alt")` "authoritarian linkage" 
 
 --
 
-  - .Large[investment from China]
-  - .Large[importing Chinese discourse ('.green[non-interference]' and '.green[right to develop]')]
+  - .Large[elite cooperation: investment from China] 
+   - .Large[.orange[business tycoons]; .orange[military]].Large[: `r fa("shield")` against Western pressure]
+  - .Large[`r fa("download")` Chinese discourse ] `r fa("arrow-circle-right")`` .Large[justification for repression]
+  - .Large['.yellow[non-interference]' & '.yellow[right to develop]']
+  - .Large[CNRP a 'Trojan Horse' of US]
+  
+---
+
+class: inverse, top, left
+background-image: url(https://media1.giphy.com/media/4lYRJD6tcidlC/200.gif)
+background-size: contain
+
+# .yellow[Asian political globalization runs *both* ways]
+
+--
+
+# Some democratization with some backsliding
 
 
-
-## 
