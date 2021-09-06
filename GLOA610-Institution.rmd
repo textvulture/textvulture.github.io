@@ -54,8 +54,6 @@ class: inverse
 background-image: url(https://thumbs.gfycat.com/FickleBraveAcornbarnacle-size_restricted.gif)
 background-size: cover
 
---
-
 # If you're starting a small business in the .yellow[19c West],
 
 --
@@ -188,7 +186,7 @@ ggplot(df, aes(x = e_wbgi_gee, y=e_migdppcln)) +
 class: inverse, center, middle
 background-color: black
 
-# .huge[Why were <br> .yellow[some] European countries were <br> more advanced than .red[others]?]
+# .huge[Why were <br> .yellow[some] European countries <br> more advanced than .red[others]?]
 
 --
 
