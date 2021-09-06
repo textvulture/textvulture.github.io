@@ -1,0 +1,10 @@
+"0","library(fs)"
+"2","Warning:"
+"2"," package ‘fs’ was built under R version 4.0.5
+"
+"0","library(fontawesome)"
+"2","Warning:"
+"2"," package ‘fontawesome’ was built under R version 4.0.5
+"
+"0","# library(magick)  "
+"0",""
