@@ -1,2 +1,0 @@
-"0","# to use FontAwesome"
-"0","htmltools::tagList(rmarkdown::html_dependency_font_awesome())"
