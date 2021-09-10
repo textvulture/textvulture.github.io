@@ -1,0 +1,222 @@
+---
+title: ".green[Trade and Development] <br> GLOA 610"
+author: "Byunghwan Son <br> George Mason University"
+date: " "
+#########################################
+linkcolor: red
+citecolor: blue
+urlcolor: blueß
+output: 
+  xaringan::moon_reader:
+    seal: false
+    nature:
+      ratio: '16:9'
+      highlightStyle: github
+  #    self-contained: TRUE
+  chakra: css/libs/remark-latest.min.js
+css: ["default", 
+      "css/footer.css", 
+      "css/color.css", 
+      #          "xaringan-themer.css",
+      default-fonts]
+lib_dir: css/libs
+beforeInit: "css/macros.js"
+# seal: false  
+#bibliography: /Users/bson3/Dropbox/latex/mybib2.bib
+#remotes::install_github('yihui/xaringan', upgrade = TRUE)
+---
+
+```{r setup, include=FALSE}
+# to use FontAwesome
+#htmltools::tagList(rmarkdown::html_dependency_font_awesome())
+library(fs)
+library(fontawesome)
+# library(magick)  
+library(ggplot2)
+
+#setwd("/Users/bson3/Documents/GitHub/textvulture.github.io/")
+#setwd("/Users/kalka/Documents/GitHub/textvulture.github.io/")
+
+```
+
+class: inverse, top, left
+background-image: url(https://cdn.dribbble.com/users/1592412/screenshots/5363567/trade.gif)
+background-size: cover
+background-position: center
+background-color: black
+
+# .large[.green[Trade and Development]]
+# GLOA 610
+
+---
+class: inverse, center, middle
+background-color: #7C7B75
+
+# .huge[
+Does trade make <br>.blue[poor] countries .blue[poorer] and <br>.red[rich] countries .red[richer]?
+]
+---
+
+
+# Trade Expansion Over Time 
+
+## developed: GDP per capita > .red[25k]
+
+```{r, message=FALSE, echo=FALSE, warning=FALSE, results="asis", fig.width=16, fig.height=6, cache=T}
+# install.packages('WDI')
+library(tidyverse)
+library(WDI)
+library(ggplot2)
+
+var = c('Trade.gdp' = 'NE.TRD.GNFS.ZS',
+        'Trade.volumn' = 'BN.GSR.GNFS.CD',
+        'GDPpc' = 'NY.GDP.PCAP.KD',
+        'tariff' = 'TM.TAX.MRCH.SM.AR.ZS')
+
+wdi <- WDI(indicator=var,
+           start=1960,
+           country = 'all',
+           end=2020,
+           extra=TRUE)
+
+wdi %>% 
+  drop_na(GDPpc) %>%
+  mutate(developed = 
+           case_when(GDPpc > 25000 ~ "developed",
+                     GDPpc < 25000 ~ "underdeveloped"
+                     )) -> wdi2
+
+wdi2 %>%
+  ggplot(aes(year, Trade.gdp, color=developed)) +
+  geom_smooth(alpha=0.25, size=3) +
+  labs(x="Year",
+       y="Trade/GDP") +
+  theme(legend.title = element_blank()) +
+  scale_color_manual(values=c("red", "blue")) +
+  theme(legend.text = element_text(size=13),
+        axis.text=element_text(size=15),
+        axis.title=element_text(size=15))
+
+```
+
+---
+# When looking at poor countries only (GDP per capita < .red[10k])
+
+
+```{r, message=FALSE, echo=FALSE, warning=FALSE, results="asis", fig.width=16, fig.height=6, cache=T}
+wdi2 %>%
+  filter(GDPpc < 10000) %>%
+  filter(Trade.gdp<200) %>%
+  ggplot(aes(Trade.gdp, GDPpc)) +
+  geom_smooth(alpha=0.25, size=3) +
+  geom_point(alpha=0.1, color='red', size=2) +
+  labs(y="GDP per capita",
+       x="Trade/GDP") +
+  theme(legend.title = element_blank()) +
+  theme(legend.text = element_text(size=13),
+        axis.text=element_text(size=15),
+        axis.title=element_text(size=15))
+
+```
+
+---
+
+# Trade Liberalization (average tariff rates)
+
+### *extreme outliers are dropped*
+
+```{r, message=FALSE, echo=FALSE, warning=FALSE, results="asis", fig.width=16, fig.height=6, cache=T}
+wdi2 %>%
+  filter(year>1985) %>%
+  filter(tariff<70) %>%
+  ggplot(aes(year, tariff, color=developed)) +
+  geom_smooth(alpha=0.25, size=3) +
+  labs(x="Year",
+       y="Tariff Rates") +
+  geom_point(alpha=0.1, size=3) +
+  theme(legend.title = element_blank()) +
+  scale_color_manual(values=c("red", "blue")) +
+  theme(legend.text = element_text(size=13),
+        axis.text=element_text(size=15),
+        axis.title=element_text(size=15))
+```
+
+---
+# Some textbook-line fundamentals
+
+## Ricardian Free Trade
+
+### Really a very stylized one: .red[not] that this is a reality!
+
+--
+
+.pull-left[
+### Some assumptions
+- .Large[two economies]
+- .Large[two products, same unit value]
+- .Large[10 workers for each economy]
+- .Large[people need both products]
+]
+
+--
+
+.pull-right[
+
+### Before trade
+
+.Large[
+|        	| Gun 	| Tequila 	|
+|:------:	|:---:	|:-------:	|
+|   US   	|  10 	|    5    	|
+| Mexico 	|  2  	|    4    	|
+]
+]
+
+---
+class: inverse, middle
+background-color: #A77305
+
+# .Large[ Some Modifications/Clarifications]
+
+# `r fa("book")` Heckscher-Olin Model
+
+# `r fa("book")` Factor price equalization
+
+# `r fa("book")` Stopler-Samuleson theorem
+
+---
+
+
+class: inverse, center, middle
+background-color: #62665D
+
+# .huge[That explains, .red[in principle], how trade promotes development.]
+
+---
+class: inverse, center, middle
+background-color: #A77305
+
+# .Huge[But, of course, the reality is a little different.]
+
+---
+
+# Generations of Trade Theories
+.Large[
+|                  	|  Mode of Trade 	| Factor Mobility 	| Divide over Trade 	|
+|:----------------:	|:--------------:	|:---------------:	|:-----------------:	|
+| Traditional (HO) 	| .red[inter]-industry 	|  factor-mobile  	|    inter-factor   	|
+| New Trade Theory 	| .red[intra]-industry 	| factor-specific 	|   inter-industry  	|
+|      New New     	|   inter-.red[firm]   	|  firm-specific  	|     inter-firm    	|
+]
+
+--
+
+# NTT (.green[firms], .red[not] countries, are the traders)
+
+.large[
+- only a few firms trade 1% `r fa("chevron-circle-right")` 81% 
+]
+--
+.large[- big, strong firms: better positioned politically]
+--
+.large[- "unrecoverable sunk cost"]
