@@ -1,0 +1,64 @@
+---
+title: ".green[Security in Asia] <br> GLOA 400"
+author: "Byunghwan Son <br> George Mason University"
+date: " "
+#########################################
+linkcolor: red
+citecolor: blue
+urlcolor: blueß
+output: 
+  xaringan::moon_reader:
+    seal: false
+    nature:
+      ratio: '16:9'
+      highlightStyle: github
+  #    self-contained: TRUE
+  chakra: css/libs/remark-latest.min.js
+css: ["default", 
+      "css/footer.css", 
+      "css/color.css", 
+      #          "xaringan-themer.css",
+      default-fonts]
+lib_dir: css/libs
+beforeInit: "css/macros.js"
+# seal: false  
+#bibliography: /Users/bson3/Dropbox/latex/mybib2.bib
+#remotes::install_github('yihui/xaringan', upgrade = TRUE)
+---
+
+```{r setup, include=FALSE}
+# to use FontAwesome
+#htmltools::tagList(rmarkdown::html_dependency_font_awesome())
+library(fs)
+library(fontawesome)
+# library(magick)  
+library(ggplot2)
+
+#setwd("/Users/bson3/Documents/GitHub/textvulture.github.io/")
+#setwd("/Users/kalka/Documents/GitHub/textvulture.github.io/")
+
+```
+
+class: inverse, top, right
+background-image: url(https://www.belfercenter.org/sites/default/files/styles/featured_image_1280x515_/public/images/publication/feature/senkaku_islands_dispute_by_al_jazeera_english_8.jpg?h=db7fce1d&itok=yfUI1t9z)
+background-size: cover
+
+# .Large[Conflict in Asia (GLOA400-001)]
+---
+
+class: inverse, center, middle
+background-color: #d64161
+
+# .huge[Globalization and Security]
+
+--
+
+# Does globalization make the world peaceful?
+
+---
+
+```{r, cache=TRUE, echo=FALSE, message=FALSE, warning=FALSE}
+# devtools::install_github("prio-data/priogrid")
+# https://rforpoliticalscience.com/category/ucdp-prio/
+
+```
