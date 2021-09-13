@@ -162,6 +162,35 @@ wdi2 %>%
 
 .pull-right[
 
+![](https://c.tenor.com/cogRcZUH8rQAAAAC/gun-drunk.gif)
+
+### Before trade
+
+.Large[
+|        	| Gun 	| Tequila 	|
+|:------:	|:---:	|:-------:	|
+|   US   	|  10 	|    5    	|
+| Mexico 	|  2  	|    4    	|
+]
+]
+
+---
+# Some textbook-line fundamentals
+
+## Ricardian Free Trade
+
+### Really a very stylized one: .red[not] that this is a reality!
+
+.pull-left[
+### Some assumptions
+- .Large[two economies]
+- .Large[two products, same unit value]
+- .Large[10 workers for each economy]
+- .Large[people need both products]
+]
+
+.pull-right[
+
 ### Before trade
 
 .Large[
@@ -180,9 +209,9 @@ background-color: #A77305
 
 # `r fa("book")` Heckscher-Olin Model
 
-# `r fa("book")` Factor price equalization
-
 # `r fa("book")` Stopler-Samuleson theorem
+
+# `r fa("book")` Factor price equalization
 
 ---
 
@@ -197,6 +226,58 @@ class: inverse, center, middle
 background-color: #A77305
 
 # .Huge[But, of course, the reality is a little different.]
+
+---
+
+# For example ...
+
+
+.right-column[
+.blockquote[
+# "Many of [the Western economies] protected their industries far more strongly than their current developing countries have done" (p. 127)
+]
+]
+
+.left-column[
+.center[
+```{r, message=FALSE, echo=FALSE, warning=FALSE, out.width='100%'}
+knitr::include_graphics('https://images-na.ssl-images-amazon.com/images/I/819g1GOFv2S.jpg')
+```
+]
+]
+
+---
+class: inverse, left, middle 
+background-color: #130654
+
+# `r fa("volume-up")` &nbsp; .red[Protectionism] has long been the subject of debate.
+
+# `r fa("bomb")` &nbsp; Global North-South political .red[tension]
+
+# `r fa("feather")` &nbsp; Heavily built in .yellow[GATT] (and WTO) rules
+
+
+---
+
+background-image: url(https://c.tenor.com/zEstiPSGLD0AAAAM/yeah-you-old-news-old-news.gif)
+background-size: contain
+
+---
+
+class: inverse, left, middle 
+background-color: #130654
+
+# .Huge[.red[Modern] debates on trade have moved away, though.] 
+
+---
+
+class: inverse, left, bottom 
+background-image: url(https://thumbs.gfycat.com/ScarceVengefulAmurstarfish-size_restricted.gif)
+background-size: contain
+
+
+# Now we debate over who win while others lose out of trade. 
+
 
 ---
 
@@ -220,3 +301,27 @@ background-color: #A77305
 .large[- big, strong firms: better positioned politically]
 --
 .large[- "unrecoverable sunk cost"]
+
+---
+
+class: inverse, center, middle 
+background-color: #334003
+
+# .huge[The Consequence: <br> Does trade take jobs away? What Kind of jobs?]
+
+--
+
+## Autor et al (2016); Owens & Johnston (2017)
+
+---
+
+
+class: inverse, center, middle 
+background-color: #40033F
+
+# .huge[What happens when there's an interruption?]
+
+--
+
+## Carter and Poast (2020)
+
