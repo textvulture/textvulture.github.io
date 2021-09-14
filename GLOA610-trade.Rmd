@@ -292,7 +292,7 @@ background-size: contain
 
 --
 
-# NTT (.green[firms], .red[not] countries, are the traders)
+# NNTT (.green[firms], .red[not] countries, are the traders)
 
 .large[
 - only a few firms trade 1% `r fa("chevron-circle-right")` 81% 
