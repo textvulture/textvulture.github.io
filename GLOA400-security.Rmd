@@ -223,7 +223,7 @@ background-size: cover
 class: inverse, middle, center
 background-color: 06363B
 
-# We actually know very little about 
+# We actually know very little about NK. 
 
 --
 
@@ -271,21 +271,17 @@ background-color: #0F0639
 
 --
 
-## - generally better informed about the outside world than we thought
+## - generally better informed about the outside world than we thought.
 
   - .Large[the balloons .red[`r fa("fly")`] &nbsp; ain't working]
 
 --
 
-## - citizens understand that the regime does not care
+## - citizens understand that the regime does not care.
 
 --
 
-## - citizens know .red[corruption] is rampant and are angry about it
-
---
-
-## - regime ratings were low
+## - regime ratings were generally low; people are dissatisfied.
 
 --
 
