@@ -33,6 +33,7 @@ library(fs)
 library(fontawesome)
 # library(magick)  
 library(ggplot2)
+library(tidyverse)
 
 #setwd("/Users/bson3/Documents/GitHub/textvulture.github.io/")
 #setwd("/Users/kalka/Documents/GitHub/textvulture.github.io/")
@@ -57,8 +58,235 @@ background-color: #d64161
 
 ---
 
-```{r, cache=TRUE, echo=FALSE, message=FALSE, warning=FALSE}
+background-image: url(http://media3.giphy.com/media/26tOW2rFXxIT3BPeE/giphy.gif)
+background-size: contain
+
+---
+class: inverse, center, middle
+background-color: #d64161
+
+# Could be .yellow[yes]: 'democratic' & 'capitalist' peace
+
+--
+
+# Could be .blue[no]: more connectivity, more disagreement
+
+--
+
+# What do data say?
+
+---
+
+# Global Data ('Correlates of War')
+
+```{r echo=FALSE, fig.height=8, fig.width=18, message=FALSE, warning=FALSE, cache=TRUE}
 # devtools::install_github("prio-data/priogrid")
 # https://rforpoliticalscience.com/category/ucdp-prio/
+# install.packages('peacesciencer')
+# install.packages('states')
+
+library(vdemdata)
+library(reshape2)
+
+df <- vdem %>%
+  select(year, 
+         COWcode,
+         e_civil_war, 
+         e_miinteco,
+         e_regionpol_6C) %>%
+  rename(civil.war = e_civil_war,
+         war = e_miinteco,
+         region = e_regionpol_6C)
+
+
+# 6=Asia
+
+df %>%
+  group_by(year) %>%
+  add_count() -> df
+
+df %>%
+  filter(!is.na(civil.war)) %>%
+  group_by(year) %>%
+  mutate(mean.civilwar = sum(civil.war)/n) -> df
+
+df %>%
+  filter(!is.na(war)) %>%
+  group_by(year) %>%
+  mutate(mean.war = sum(war)/n) -> df
+
+df %>%
+  ggplot(aes(x=year, alpha=0.5)) +
+  geom_line(aes(y=mean.war, color='a'), size=1.5, ) +
+  geom_line(aes(y=mean.civilwar, color='b'), size=1.5, ) +
+  labs(x = "Year",
+       y = "Average War") + 
+  theme(axis.text=element_text(size=20),
+        axis.title=element_text(size=20),
+        legend.title=element_text(size=20),
+        legend.text=element_text(size=20)) +
+        scale_color_manual(name = "War Types",
+                           labels = c("Interstate War","Civil War"), 
+                           values = c('a'='red', 'b'= 'blue')) +
+  scale_alpha(guide = 'none')
+
+
 
 ```
+
+---
+
+
+# Asia-Pacific Data ('Correlates of War')
+
+--
+
+```{r echo=FALSE, fig.height=8, fig.width=18, message=FALSE, warning=FALSE, cache=TRUE}
+# devtools::install_github("prio-data/priogrid")
+# https://rforpoliticalscience.com/category/ucdp-prio/
+# install.packages('peacesciencer')
+# install.packages('states')
+
+library(vdemdata)
+library(reshape2)
+
+df <- vdem %>%
+  select(year, 
+         COWcode,
+         e_civil_war, 
+         e_miinteco,
+         e_regionpol_6C) %>%
+  rename(civil.war = e_civil_war,
+         war = e_miinteco,
+         region = e_regionpol_6C)
+
+
+# 6=Asia
+
+df %>%
+  group_by(year) %>%
+  add_count() -> df
+
+df %>%
+  filter(!is.na(civil.war)) %>%
+  filter(region==6) %>%
+  group_by(year) %>%
+  mutate(mean.civilwar = sum(civil.war)/n) -> df
+
+df %>%
+  filter(!is.na(war)) %>%
+  group_by(year) %>%
+  mutate(mean.war = sum(war)/n) -> df
+
+df %>%
+  ggplot(aes(x=year, alpha=0.5)) +
+  geom_line(aes(y=mean.war, color='a'), size=1.5, ) +
+  geom_line(aes(y=mean.civilwar, color='b'), size=1.5, ) +
+  labs(x = "Year",
+       y = "Average War") + 
+  theme(axis.text=element_text(size=20),
+        axis.title=element_text(size=20),
+        legend.title=element_text(size=20),
+        legend.text=element_text(size=20)) +
+        scale_color_manual(name = "War Types",
+                           labels = c("Interstate War","Civil War"), 
+                           values = c('a'='red', 'b'= 'blue')) +
+  scale_alpha(guide = 'none')
+
+
+
+```
+
+---
+class: inverse, center, middle
+background-color: black
+
+# .huge[Potential Threats?]
+---
+
+class: inverse, left, top
+background-image: url(https://i.insider.com/545be442ecad046f71028e5a?width=840&format=jpeg)
+
+# .red[Threat #1: Territorial/Border Disputes]
+
+---
+
+class: inverse, left, top
+background-image: url(https://www.ctvnews.ca/polopoly_fs/1.5578436.1631488969!/httpImage/image.jpg_gen/derivatives/landscape_1020/image.jpg)
+background-size: cover
+
+# .red[Threat #2: His Regime]
+
+
+---
+
+class: inverse, middle, center
+background-color: 06363B
+
+# We actually know very little about 
+
+--
+
+# But much more than before.
+
+--
+
+# Mostly through defectors as well as Chinese traders.
+
+---
+
+# '.green[Exit Polls]' (Change et al. 2009): the setting
+
+--
+
+## `r fa("glasses")` &nbsp; A rare glimpse into North Korean society/people
+
+--
+
+## `r fa("question-circle")` &nbsp; "Are NK people .red[angry] at their government?"
+
+## `r fa("hand-rock")` &nbsp; Any sign of mass-mobilization or .red[collective action]?
+
+--
+
+## `r fa("microphone-alt")` &nbsp; Interview .red[1,300+] NK defectors (used only 700)
+
+## `r fa("smile-wink")` &nbsp; A very biased sample
+
+---
+
+
+# '.green[Exit Polls]' (Change et al. 2009): The findings ('satisfaction')
+
+.center[
+![](images/nk-exit.png)
+]
+
+
+---
+class: inverse
+background-color: #0F0639
+
+# '.green[Exit Polls]' (Change et al. 2009): The findings ('satisfaction')
+
+--
+
+## - generally better informed about the outside world than we thought
+
+  - .Large[the balloons .red[`r fa("fly")`] &nbsp; ain't working]
+
+--
+
+## - citizens understand that the regime does not care
+
+--
+
+## - citizens know .red[corruption] is rampant and are angry about it
+
+--
+
+## - regime ratings were low
+
+--
+
+# Then why .red[no] revolution???
