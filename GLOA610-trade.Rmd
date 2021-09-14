@@ -281,7 +281,7 @@ background-size: contain
 
 ---
 
-# Generations of Trade Theories
+# Generations of Trade Theories (.small[i.e., how .red[specilalization] happens])
 .Large[
 |                  	|  Mode of Trade 	| Factor Mobility 	| Divide over Trade 	|
 |:----------------:	|:--------------:	|:---------------:	|:-----------------:	|
