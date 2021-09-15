@@ -439,7 +439,7 @@ class: inverse, center, middle
 
 ---
 
-## Why increased support for the PM Abe during disputes?
+## More support for PM Abe during disputes? (Kobayashi & Katagiri 2018)
 
 : .Large[rally 'round the flag] vs. .red[.Large[reactive liberal]]
 
