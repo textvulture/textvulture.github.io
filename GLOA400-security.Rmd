@@ -286,3 +286,177 @@ background-color: #0F0639
 --
 
 # Then why .red[no] revolution???
+
+---
+
+# One big factor: .red[Fear] (and propaganda)
+
+.pull-left[
+.center[
+```{r echo=FALSE, out.width='80%'}
+knitr::include_graphics('https://i.pinimg.com/236x/c3/14/46/c31446ffb3201b08c6141058a281e6af--korean-painting-propaganda-art.jpg')
+```
+]
+]
+
+.pull-right[
+.center[
+```{r echo=FALSE, out.width='80%'}
+knitr::include_graphics('https://i.pinimg.com/originals/32/01/cd/3201cdab29192ce5ed941b2d6857cd1e.jpg')
+```
+]
+]
+
+---
+
+# 'The Authoritarian Toolbox' (Byman & Lind 2010)
+
+.pull-left[
+# Against People (.red[revolution])
+
+### - restrictive social policies
+
+### - manipulation of ideas & info
+
+### - use of force
+]
+
+--
+
+.pull-right[
+# Against Elites (.red[coup])
+
+### - co-optation
+
+### - manipulation of foreign govt's
+
+### - institutional coup-proofing
+
+]
+
+---
+
+class: inverse, center, middle
+background-color: red
+
+# .huge[Now, territorial disputes]
+
+--
+
+# South China Sea & Senkaku/Diaoyu Islands
+
+---
+
+class: top, right
+
+background-image: url(https://cms.qz.com/wp-content/uploads/2016/06/spratly-paracel-scarborough-v3.png?quality=75&strip=all&w=1880&h=1058&crop=1)
+background-size: contain
+
+# South China Sea Disputes
+
+---
+# Mischief Reef, Spratly Islands in 2012 (L) and 2020 (R)
+
+.pull-left[
+```{r echo=FALSE, out.width='110%'}
+knitr::include_graphics('https://i0.wp.com/amti.csis.org/wp-content/uploads/2018/02/mischief_jan24_2012_qb02_overview_28299305844_o-wm.jpg?zoom=2&w=592&h=453&ssl=1')
+```
+]
+
+--
+
+.pull-right[
+```{r echo=FALSE, out.width='110%'}
+knitr::include_graphics('https://i2.wp.com/amti.csis.org/wp-content/uploads/2018/02/Mischief_4_23_2020-webres-WM.jpg?zoom=2&w=785&h=607&ssl=1')
+```
+]
+---
+class: inverse, top, center
+background-image: url(https://multimedia.scmp.com/south-china-sea-disputes-maps/assets/west_london_reef_afp.jpg)
+background-size: contain
+
+# West London Reef (Spratly Islands), 2010 (L) and 2015 (R)
+
+---
+
+class: top, right
+
+background-image: url(https://cms.qz.com/wp-content/uploads/2016/06/spratly-paracel-scarborough-v3.png?quality=75&strip=all&w=1880&h=1058&crop=1)
+background-size: contain
+
+# South China Sea Disputes
+
+---
+
+# The Essence of the Disputes (De Castro 2020; Zhao 2020; Wiegand & Beuck 2020)
+
+### general rule: 200 NM EEZ (UNCLOS) ⇒ limited claim to sovereignty: .red[China disputes]
+
+--
+
+.pull-left[
+# .red[China]
+
+### - history; 'official takeover' of Parcels (1974) and Mischief Reef (1995)
+
+### - .green[strategic ambiguity -> clarity]
+
+### - economic sanctions
+
+]
+
+--
+
+.pull-right[
+# .orange[The Philippines]
+
+### - domestic laws 
+
+### - .green[multilateral, institutional solutions]?
+
+  - .Large[ASEAN; PCA]
+
+### - Duterte ambivalence/appeasement 
+]
+
+---
+
+class: inverse, center, middle
+background-color: #145A32
+
+# .huge[Senkaku/Diaoyu Disute]
+
+---
+
+background-color: black
+background-image: url(https://apjjf.org/data/lee_photo_A.jpg)
+background-size: contain
+
+---
+class: inverse, center, middle
+
+# Chinese assertiveness is not unique to the case, <br> but what about .green[Japan]?
+
+---
+
+## Why increased support for the PM Abe during disputes?
+
+: .Large[rally 'round the flag] vs. .red[.Large[reactive liberal]]
+
+--
+
+.pull-left[
+```{r echo=FALSE, out.width='80%'}
+knitr::include_graphics('images/kobayashi1.png')
+```
+]
+
+--
+
+.pull-right[
+```{r echo=F, out.width="800px"}
+knitr::include_graphics('images/kobayashi2.png')
+```
+]
+
+
