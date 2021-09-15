@@ -433,9 +433,12 @@ background-image: url(https://apjjf.org/data/lee_photo_A.jpg)
 background-size: contain
 
 ---
-class: inverse, center, middle
+class: inverse, bottom
+background-image: url(https://www.cp24.com/polopoly_fs/1.968055.1348407856!/httpImage/image.gif_gen/derivatives/landscape_620/image.gif)
+background-size: contain
 
-# Chinese assertiveness is not unique to the case, <br> but what about .green[Japan]?
+
+# Chinese assertiveness is not unique to the case, <br> but what about .red[Japan]?
 
 ---
 
