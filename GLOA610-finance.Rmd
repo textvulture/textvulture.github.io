@@ -1,0 +1,122 @@
+---
+title: ".green[Finance] <br> GLOA 610"
+author: "Byunghwan Son <br> George Mason University"
+date: " "
+#########################################
+linkcolor: red
+citecolor: blue
+urlcolor: blueß
+output: 
+  xaringan::moon_reader:
+    seal: false
+    nature:
+      ratio: '16:9'
+      highlightStyle: github
+  #    self-contained: TRUE
+  chakra: css/libs/remark-latest.min.js
+css: ["default", 
+      "css/footer.css", 
+      "css/color.css", 
+      #          "xaringan-themer.css",
+      default-fonts]
+lib_dir: css/libs
+beforeInit: "css/macros.js"
+# seal: false  
+#bibliography: /Users/bson3/Dropbox/latex/mybib2.bib
+#remotes::install_github('yihui/xaringan', upgrade = TRUE)
+---
+
+```{r setup, include=FALSE}
+# to use FontAwesome
+#htmltools::tagList(rmarkdown::html_dependency_font_awesome())
+library(fs)
+library(fontawesome)
+# library(magick)  
+library(ggplot2)
+library(tidyverse)
+
+#setwd("/Users/bson3/Documents/GitHub/textvulture.github.io/")
+#setwd("/Users/kalka/Documents/GitHub/textvulture.github.io/")
+
+```
+
+class: top, left
+background-image: url(https://www.intersystemsuki.com/wp-content/uploads/2020/06/finance.gif)
+background-size: contain
+
+# .Large[GLOA 610 <br> Global <br> .red[Finance]]
+
+---
+
+class: inverse
+background-color: black
+
+# Three Areas of Global 'Finance'
+
+--
+.pull-left[
+## 1) Currency Exchanges (exchange rates): $6 tn per day
+
+## 2) Debt ($100 tn)
+
+## 3) Other types of money flow (e.g., remittances: $6 bn)
+]
+
+--
+
+.pull-right[
+```{r, echo=F}
+knitr::include_graphics('https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iXl1JgMATIUE/v0/-1x-1.png')
+```
+]
+
+---
+class: inverse, center, middle
+background-color: #37145A
+
+# .huge[Let's talk about Debt first]
+
+## And thus, how it is related to development
+
+---
+class: inverse, center, middle
+background-color: red
+
+# .huge[Is Debt = Doom `r fa("skull")`?]
+
+--
+
+# B/C, foreign debt = losing independence?
+
+--
+
+# OMG, we owe to China a lot and we are thus doomed!
+
+---
+# An example: The Story of American Debt
+
+--
+.pull-left[
+.center[
+```{r, echo=F, out.width='90%'}
+knitr::include_graphics('https://cdn.howmuch.net/articles/Foreign-Curency-Draft9-4ddb.png')
+```
+]
+]
+
+--
+.pull-right[
+.center[
+```{r, echo=F, out.width='90%'}
+knitr::include_graphics('https://wolfstreet.com/wp-content/uploads/2018/10/US-Treasury-holdings-TIC-pie-2018-08.png')
+```
+]
+]
+
+---
+
+---
+
+# Debts are not necessairly bad. Might be necessary for development
+
+---
