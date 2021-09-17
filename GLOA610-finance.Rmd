@@ -114,9 +114,34 @@ knitr::include_graphics('https://wolfstreet.com/wp-content/uploads/2018/10/US-Tr
 ]
 
 ---
-
----
+class: inverse
+background-color: #37145A
 
 # Debts are not necessairly bad. Might be necessary for development
 
+# .red[sovereign debt]: sources of .green[development fund]
+
+# But too much sovereign debt spells trounble (i.e., 'original sin')
+
 ---
+
+# Is the US$ dominance coming to an end?
+
+--
+
+.pull-left[
+```{r, echo=F}
+knitr::include_graphics('images/dollar-skeptic.jpg')
+```
+]
+
+--
+
+.pull-right[
+# .huge[.green[Prasad 2014]]
+
+]
+
+---
+
+# currency exchanges, trade, and development
