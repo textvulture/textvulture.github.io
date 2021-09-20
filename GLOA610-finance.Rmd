@@ -217,7 +217,7 @@ knitr::include_graphics('https://wolfstreet.com/wp-content/uploads/2018/10/US-Tr
 
 .pull-left[
 ```{r, echo=F}
-knitr::include_graphics('images/dollar-skeptic.jpg')
+knitr::include_graphics('images/dollar-skeptic.JPG')
 ```
 ]
 
