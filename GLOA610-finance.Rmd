@@ -71,14 +71,107 @@ knitr::include_graphics('https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iXl1Jg
 ]
 
 ---
+class: inverse, bottom, right
+background-color: #37145A
+background-image: url(https://media.giphy.com/media/3oz8xMrLEYDnoHLbCE/giphy.gif)
+background-size: contain
+
+# .yellow[.huge[First, Exchange Rates]]
+
+---
+class: inverse
+background-color: #37145A
+background-image: url(https://cdn.britannica.com/13/145313-050-852A6F13/Exchange-rates-Suvarnabhumi-International-Airport-Thai-Bangkok.jpg)
+background-position: right
+background-size: 30%
+
+# Exchange rates <br> = value of a currency compared to another's <br> = the .red[price] of a currency
+
+--
+
+## 1. .yellow[nominal] exchange rates 
+
+- .large[need to know when travel abroad `r fa("plane")` -- a/depreciate)]
+- .large[instantaneously available]
+
+--
+
+## 2. .red[real] exchange rates 
+
+- .large[nominal X inflation rates: under/overvalued]
+- .large[estimates]
+- .large[considered an indicator .red[competitiveness] ]
+
+---
+
+# But, what competitiveness?
+
+--
+
+# : the .red[price] competitiveness of .green[tradables] 
+
+--
+
+# .red[under]valuation: good for exports ('beggar-thy-neighbor')
+
+--
+
+.pull-left[
+.content-box-yellow[.Large[
+## importing a BMW `r fa("car")`
+- `r fa("euro-sign")` 1 = `r fa("dollar-sign")` 1
+- `r fa("euro-sign")` 50k ⇒ `r fa("dollar-sign")` 50k 
+- amount paid to BMW: `r fa("euro-sign")` 50k
+]
+]
+]
+
+--
+
+.pull-right[
+.content-box-red[.Large[
+## importing a BMW `r fa("car")`
+- `r fa("euro-sign")` .red[2] = `r fa("dollar-sign")` 1
+- `r fa("euro-sign")` 50k ⇒ `r fa("dollar-sign")` 25k: sales `r fa("level-up-alt")` 
+- amount paid to BMW: `r fa("euro-sign")` .red[50k]
+- effect on US carmakers?
+]
+]
+]
+
+---
+class: inverse
+background-color: #d64161
+
+# .huge[So undervaluation is .yellow[all] good?]
+
+--
+
+## - serious welfare/distributional effects
+
+--
+
+## - not a universal national strategy (cf. 'currency manipulator')
+
+## - .orange[interest groups] would lobby for undervaluation
+
+--
+
+# * Broz and Werfel (2014); Steinberg and Shih (2012)
+
+
+---
+
 class: inverse, center, middle
 background-color: #37145A
 
-# .huge[Let's talk about Debt first]
+# .huge[Let's talk about Debt]
 
 ## And thus, how it is related to development
 
 ---
+
+
 class: inverse, center, middle
 background-color: red
 
@@ -90,10 +183,13 @@ background-color: red
 
 --
 
-# OMG, we owe to China a lot and we are thus doomed!
+# OMG, I remember we owe to China a lot! 
 
 ---
-# An example: The Story of American Debt
+class: inverse
+background-color:  #86af49
+
+# A quick cut-away: The Story of American Debt
 
 --
 .pull-left[
@@ -113,19 +209,9 @@ knitr::include_graphics('https://wolfstreet.com/wp-content/uploads/2018/10/US-Tr
 ]
 ]
 
----
-class: inverse
-background-color: #37145A
-
-# Debts are not necessairly bad. Might be necessary for development
-
-# .red[sovereign debt]: sources of .green[development fund]
-
-# But too much sovereign debt spells trounble (i.e., 'original sin')
 
 ---
-
-# Is the US$ dominance coming to an end?
+# But the .red[foreign share] seems pretty large. Is the US `r fa("dollar-sign")` dominance coming to an end?
 
 --
 
@@ -143,5 +229,82 @@ knitr::include_graphics('images/dollar-skeptic.jpg')
 ]
 
 ---
+class: inverse
+background-color: #37145A
 
-# currency exchanges, trade, and development
+.pull-left[
+# But aren't debts .red[all] bad?
+
+## - No, In particular, .red[sovereign debt]: sources of .green[development fund]
+
+# .red[Too much] sovereign debt spells trouble though (i.e., 'original sin')
+
+## - the more you borrow, the harder it is to borrow (credit rating)
+]
+
+--
+
+.pull-right[
+# Example: Moody's
+.center[
+```{r, echo=F, dpi=900}
+knitr::include_graphics('https://saylordotorg.github.io/text_personal-finance/section_20/2477783b832fc7bb254af9b421701e9a.jpg')
+```
+]
+]
+
+---
+
+class: inverse, center, middle
+background-image: url(https://images-media.currency.com/fee689ad/443b/5c0e/bc13/2badf78a88e0/on_page/1979-10000-treasury-bond.jpg)
+background-size: cover
+
+--
+
+# .huge[How does bond work?] 
+
+--
+
+# Domestic vs. foreign currency denomination?
+
+--
+
+# Ballard-Rosa, Mosely, and Wellhausen (2021)
+
+---
+class: inverse, left, bottom
+background-image: url(https://miro.medium.com/max/1400/1*Z-htNgpOFMVwdQHWLMrZ2Q.gif)
+background-size: contain
+
+# But sometimes (quite often) you cannot repay the debt
+
+--
+
+# You need bail-out: how does that work?
+
+--
+
+# Schneider and Tobin (2020)
+
+---
+
+class: inverse, right
+background-image: url(https://media.npr.org/assets/img/2014/07/08/ap100119031878-7f6996467cb683acd8ef14e5dcbde8a8e316fa3d-s300-c85.webp)
+background-size: contain
+
+#.huge[Remmitances]
+
+--
+
+# Debatable if it helps w/ development
+
+--
+
+# But is there any other effect?
+
+--
+
+# Tertytchnaya et al. (2018)
+
+
+
