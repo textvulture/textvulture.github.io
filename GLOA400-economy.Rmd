@@ -126,11 +126,21 @@ wdi %>%
 ---
 background-color: #f2ae72
 
-# .huge[Asia, where theories .red[don't] work (yet again).]
+# .huge[Asia, where theories do .red[not] work (yet again).]
 
 --
 
-# Let's see if existing theories (speculations) on development of Asia (and Latin America) work.
+# .yellow[`r fa("glasses")`] Let's see if existing theories (speculations) on development of Asia work.
+
+--
+
+# .yellow[`r fa("glasses")`] In particular, we will compare .red[Asia] with .blue[Latin America].
+
+---
+class: inverse, middle
+background-color: #2D0852
+
+# .huge[Q: Why we see some success cases in Asia, but not really in Latin America?]
 
 ---
 
@@ -147,17 +157,17 @@ class: inverse
 ```{r message=F, warning=F, error=F, echo=F, cache=T, fig.width=16}
 library(WDI)
 
-var2 = c('School' = 'SE.SEC.ENRR',
+var = c('School' = 'SE.SEC.ENRR',
          'GDPpc' = 'NY.GDP.PCAP.KD')
 
-wdi2 <- WDI(indicator=var2,
+wdi <- WDI(indicator=var,
            start=1970,
            country = 'all',
            end=2020,
            extra=TRUE)
 
 
-wdi2 %>%
+wdi %>%
   filter(region !="Aggregates") %>%
   filter(region == "East Asia & Pacific" | 
            region == "Latin America & Caribbean") %>%
@@ -175,16 +185,149 @@ wdi2 %>%
         axis.title=element_text(size=15),
         legend.position = 'bottom')
              
- ```
+```
  
 ---
 class: inverse
 background-image: url(https://media2.giphy.com/media/13yNFN1TlNCjC0/giphy.gif)
 background-size: contain
   
-# 2. Asia got so much foreign investment while all Latin America received was debt.
+# 2. Asia got so much .blue[foreign investment] while all Latin America received was debt.
+
+---
+# Foreign Direct Investment Inflow (% of GDP)  
+
+```{r message=F, warning=F, error=F, echo=F, cache=T, fig.width=16}
+library(WDI)
+library(tidyverse)
+
+var = c('FDI' = 'BX.KLT.DINV.WD.GD.ZS',
+         'GDPpc' = 'NY.GDP.PCAP.KD')
+
+wdi <- WDI(indicator=var,
+           start=1970,
+           country = 'all',
+           end=2020,
+           extra=TRUE)  
+
+wdi %>%
+  filter(region !="Aggregates") %>%
+  filter(region == "East Asia & Pacific" | 
+           region == "Latin America & Caribbean") %>%
+  filter(FDI<150) %>%
+  ggplot(aes(y = FDI, 
+             x = year,
+             color = region)) +
+  geom_point(alpha=0.1) +
+  geom_smooth(alpha=0.15) +
+  labs(x="Year",
+       y="FDI/GDP %") +
+  theme_minimal() +
+  theme(legend.title = element_blank()) +
+  scale_color_manual(values=c("red", "blue")) +
+  theme(legend.text = element_text(size=13),
+        axis.text=element_text(size=15),
+        axis.title=element_text(size=15),
+        legend.position = 'bottom')
+             
+```   
+
+---
+class: inverse, bottom
+background-image: url(http://33.media.tumblr.com/74016808f1a8d6afb9c8c6b450332c43/tumblr_nwmdohvEVo1tgrkdyo3_250.gif)
+background-size: cover
+
+# 3. Latin America protected their market too much while Asia didn't?
 
 ---
 
-  
-   
+# Average Tariff Barriers (%)
+
+```{r message=F, warning=F, error=F, echo=F, cache=T, fig.width=16}
+library(WDI)
+library(tidyverse)
+
+var = c('Tariff' = 'TM.TAX.MANF.SM.AR.ZS',
+         'GDPpc' = 'NY.GDP.PCAP.KD')
+
+wdi <- WDI(indicator=var,
+           start=1985,
+           country = 'all',
+           end=2020,
+           extra=TRUE)  
+
+wdi %>%
+  filter(region !="Aggregates") %>%
+  filter(region == "East Asia & Pacific" | 
+           region == "Latin America & Caribbean") %>%
+  ggplot(aes(y = Tariff, 
+             x = year,
+             color = region)) +
+  geom_point(alpha=0.25, size=2) +
+  geom_smooth(alpha=0.5) +
+  labs(x="Year",
+       y="Tariff Barriers") +
+  theme_minimal() +
+  theme(legend.title = element_blank()) +
+  scale_color_manual(values=c("red", "blue")) +
+  theme(legend.text = element_text(size=13),
+        axis.text=element_text(size=15),
+        axis.title=element_text(size=15),
+        legend.position = 'bottom')
+             
+```
+
+---
+
+class: inverse, center, middle
+background-color: #083D52
+
+# .huge[So what is it then that made the difference?]
+
+---
+
+# Several Contributing Factors (in Asia; but not in LA)
+
+--
+
+## 1. 'Developmental State'
+
+### `r fa("hand-point-right")` &nbsp; an .red[autonomous] state that can advance centralized development goals 
+
+### `r fa("hand-point-right")` &nbsp; minimized .green[undercainty/risk] ('good institutions'); induce investment; suppress costs
+
+### `r fa("hand-point-right")` &nbsp; 'no tarpoot' (Haggard 2004)
+
+--
+
+## 2. 'less dependency' (Kohli 2009)
+
+### `r fa("hand-point-right")` &nbsp; .red[external] autonomy in Asia `r fa("arrow-right")` less dependency
+
+### `r fa("hand-point-right")` &nbsp; higher savings rates
+
+---
+
+class: inverse, center, middle
+background-color: red
+
+# .huge[Emerging <br> Chinese Economic <br> Power?]
+
+---
+
+background-image: url(https://www.asiagreen.com/images/easyblog_articles/29/China-Belt-and-Road-Initiative-map.jpg)
+background-size: contain
+---
+
+# Belt & Road Initiative: How does it work?
+
+--
+
+1. .Large[Chinese lending on a specific project (usually .green[infrastructural])]
+
+--
+
+2. .Large[But can they repay?]
+
+
+
