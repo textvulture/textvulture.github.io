@@ -323,11 +323,93 @@ background-size: contain
 
 --
 
-1. .Large[Chinese lending on a specific project (usually .green[infrastructural])]
+1. .Large[Chinese .red[lending] on a specific project (usually .green[infrastructural])]
 
 --
 
-2. .Large[But can they repay?]
+2. .Large[But can they repay? -- an 'exclusive' access and the ripple effect]
 
+--
 
+3. .Large[The Moldivian Example:]
+
+<iframe width="600" height="320" src="https://www.youtube.com/embed/tpHoxMbWRkw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+---
+
+# A bigger (& more general) ripple effect: the Combodian case
+
+<iframe width="1024" height="520" src="https://www.youtube.com/embed/h-v-siVuvDE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+---
+
+class: inverse, center, middle
+background-color: #520839
+
+# .huge[So, BRI = CCP's Grand Strategy of Global Dominance?]
+
+--
+
+# OMG, China is building global checking points `r fa("skull")`!!
+
+---
+
+# Or maybe it's just a 'hot mess.'
+
+.blockquote[
+# .black[Jones (2020)]
+
+.green[.Large[.red[Chaos] is far more common than conspiracy in Chinese overseas investment practices. Strategic narratives do not guide BRI projects so much as create opportunities that self-interested actors can exploit. Beijing’s diplomats and regulators do not inspire specific projects so much as .red[clean up the mess] when things go wrong.]]
+]
+
+--
+
+# - most projects are driven by Chinese .red[local] governments.
+
+--
+
+# - political incentives to go all-in for the competition: BRI = .red[personalized] agenda
+
+---
+
+class: inverse, center, middle
+background-color: #520839
+
+# .huge[But China's economic rise <br> is quite real.]
+
+--
+
+# The Q is: to what extend?
+
+---
+
+# Will Chinese yuan (RMB) take over the US dollar `r fa("hand-holding-usd")`?
+
+--
+
+## Or at least, will it be a .red[hard] currency `r fa("money-bill")`?
+
+--
+
+.pull-left[
+.content-box-blue[
+## .blue[What it takes:]
+
+## - capital openness
+## - financialization
+## - monetary stability
+]
+]
+
+--
+
+.pull-right[
+.content-box-red[
+## .red[The reality:]
+
+## - elites opposed to openness 
+## - a long way to financialization
+## - central bankers
+]
+]
 
