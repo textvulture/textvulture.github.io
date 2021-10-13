@@ -1,0 +1,139 @@
+---
+title: ".green[Organizations] <br> GLOA 610-001"
+author: "Byunghwan Son <br> George Mason University"
+date: " "
+#########################################
+linkcolor: red
+citecolor: blue
+urlcolor: blueß
+output: 
+  xaringan::moon_reader:
+    seal: false
+    nature:
+      ratio: '16:9'
+      highlightStyle: github
+  #    self-contained: TRUE
+  chakra: css/libs/remark-latest.min.js
+css: ["default", 
+      "css/footer.css", 
+      "css/color.css", 
+      "css/cols.css",
+      #          "xaringan-themer.css",
+      default-fonts]
+lib_dir: css/libs
+beforeInit: "css/macros.js"
+# seal: false  
+#bibliography: /Users/bson3/Dropbox/latex/mybib2.bib
+#remotes::install_github('yihui/xaringan', upgrade = TRUE)
+---
+
+```{r setup, include=FALSE}
+# to use FontAwesome
+#htmltools::tagList(rmarkdown::html_dependency_font_awesome())
+library(fs)
+library(fontawesome)
+# library(magick)  
+library(ggplot2)
+
+```
+class: inverse, bottom, right
+background-image: url(https://mk0criptonoticijjgfa.kinstacdn.com/wp-content/uploads/2020/10/bretton-Woods-acuerdo-monetario-bitcoin.jpg)
+background-size: contain
+
+# International Economic Organizations <br> and Development
+# GLOA 610-001
+
+---
+background-image: url(https://c.tenor.com/wMgwsOy6N40AAAAC/baddies-are-we-the-baddies.gif)
+background-size: contain
+class: inverse
+
+# Are the likes of <br> IMF and World Bank <br> the baddies?
+
+---
+class: inverse, center, middle
+background-color: #1A0563
+
+# .huge[If things really don't work out, why?]
+
+--
+
+# .huge[Do we actually *know* how they work?]
+
+---
+class: inverse, center
+background-image: url(https://68.media.tumblr.com/55ad887647f2e40068edde0a71c1bad0/tumblr_mxkdpmC7xP1rsrbdko1_r1_400.gif)
+background-size: contain
+
+# Or, arn't we just assuming these are some evil-doers?
+
+---
+class: inverse, right, bottom
+background-image: url(http://insidestory.org.au/wp-content/uploads/bretton_woods.jpg)
+background-size: cover
+
+# .Large[An attempt to .red[prevent] another WW]
+
+---
+
+# .Large[The Bretton Woods System]
+
+--
+
+# What happened right before WWII?
+
+--
+
+
+.pull-left[
+.pull-left[![](https://c.tenor.com/R1RcnFR9EXQAAAAC/broke-fairlyoddparents.gif) 
+# .red[currency war]]
+
+
+.pull-right[![](https://c.tenor.com/asi_jQogc3IAAAAC/family-guy-peter-griffin.gif)
+# .green[protectionism] ]
+]
+
+
+.pull-right[
+.pull-left[![](https://i.gifer.com/8IQ.gif)
+# .blue[poverty]]
+]
+
+---
+class: inverse, center, middle
+background-color: #BF0EB4
+
+# .Huge[IMF]
+
+--
+
+# Stone (2004); Nooruddin & Woo (2015); Daoud et al. (2017)
+
+---
+class: inverse, center, middle
+background-color: #366409
+
+# .Huge[WTO (GATT)]
+
+--
+
+# Davis and Morse (2018) -- not really, but related
+
+---
+class: inverse, center, middle
+background-color: #093164
+
+# .Huge[The World Bank]
+
+--
+
+# Humphrey (2017)
+
+---
+class: inverse
+background-image: url(https://64.media.tumblr.com/439efbdcdbd2e0c89e3f71a87f5ae9c6/tumblr_ob3b9zx1191tlgqkgo1_500.gifv)
+background-size: cover
+
+# IEOs reflect 'certain' dimensions of the reality.
+
