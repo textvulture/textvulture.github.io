@@ -1,0 +1,54 @@
+---
+title: ".green[Asia Hate] <br> GLOA 400-001"
+author: "Byunghwan Son <br> George Mason University"
+date: " "
+#########################################
+linkcolor: red
+citecolor: blue
+urlcolor: blueß
+output: 
+  xaringan::moon_reader:
+    seal: false
+    nature:
+      ratio: '16:9'
+      highlightStyle: github
+  #    self-contained: TRUE
+  chakra: css/libs/remark-latest.min.js
+css: ["default", 
+      "css/footer.css", 
+      "css/color.css", 
+      #          "xaringan-themer.css",
+      default-fonts]
+lib_dir: css/libs
+beforeInit: "css/macros.js"
+# seal: false  
+#bibliography: /Users/bson3/Dropbox/latex/mybib2.bib
+#remotes::install_github('yihui/xaringan', upgrade = TRUE)
+---
+
+```{r setup, include=FALSE}
+# to use FontAwesome
+#htmltools::tagList(rmarkdown::html_dependency_font_awesome())
+library(fs)
+library(fontawesome)
+# library(magick)  
+library(ggplot2)
+
+```
+class: inverse, bottom, right
+background-image: url(http://www.rafu.com/wp-content/uploads/2015/07/Vincent-Chin-Rally-30.jpg)
+background-size: cover
+
+# Globaliztion in Asia (GLOA 400-001)
+## .texttt[Asia Hate and Covid-19]
+
+---
+
+```{r echo=FALSE, message=FALSE, error=FALSE, warning=FALSE}
+library(httr)
+library(jsonlite)
+
+# Work on FBI api: https://crime-data-explorer.app.cloud.gov/pages/docApi
+# and DataQuest: https://www.dataquest.io/blog/r-api-tutorial/
+
+```
