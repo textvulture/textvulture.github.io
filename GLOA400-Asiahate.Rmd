@@ -43,12 +43,48 @@ background-size: cover
 ## .texttt[Asia Hate and Covid-19]
 
 ---
+class: center, middle
 
-```{r echo=FALSE, message=FALSE, error=FALSE, warning=FALSE}
-library(httr)
-library(jsonlite)
+.center[![](https://www.ft.com/__origami/service/image/v2/images/raw/https%253A%252F%252Fs3-ap-northeast-1.amazonaws.com%252Fpsh-ex-ftnikkei-3937bb4%252Fimages%252F_aliases%252Farticleimage%252F2%252F8%252F7%252F8%252F33438782-4-eng-GB%252F20210407-Cover-Incident-rate-Slope.png?source=nar-cms)]
 
-# Work on FBI api: https://crime-data-explorer.app.cloud.gov/pages/docApi
-# and DataQuest: https://www.dataquest.io/blog/r-api-tutorial/
+---
 
-```
+class: inverse
+background-color: #646711
+
+# .huge[What we talk about:]
+
+--
+
+# 1. What is the .yellow[nature] of the Asian Hate?
+
+--
+
+# 2. Did the .yellow[pandemic] contribute to it?
+
+--
+
+# 3. What are the .yellow[consequences]?
+
+
+---
+
+class: left, middle
+background-image: url(https://c.tenor.com/GuGV3alDVGIAAAAM/im-not-really-in-the-mood-to-be-a-victim-of-a-hate-crime-tonight-david.gif)
+background-size: contain
+background-position: right
+
+# Asian Hate Crimes <br> are really .red[not] known <br> (in the Western World):
+
+--
+
+# - small in size
+
+--
+
+# - 'model immigrants'
+
+--
+
+# - weak organization
+
