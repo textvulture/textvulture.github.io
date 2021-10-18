@@ -1,0 +1,122 @@
+---
+title: ".green[Foreign Aid] <br> GLOA 610-001"
+author: "Byunghwan Son <br> George Mason University"
+date: " "
+#########################################
+linkcolor: red
+citecolor: blue
+urlcolor: blueß
+output: 
+  xaringan::moon_reader:
+    seal: false
+    nature:
+      ratio: '16:9'
+      highlightStyle: github
+  #    self-contained: TRUE
+  chakra: css/libs/remark-latest.min.js
+css: ["default", 
+      "css/footer.css", 
+      "css/color.css", 
+      # "css/xaringan-themer.css",
+      default-fonts]
+lib_dir: css/libs
+beforeInit: "css/macros.js"
+# seal: false  
+#bibliography: /Users/bson3/Dropbox/latex/mybib2.bib
+#remotes::install_github('yihui/xaringan', upgrade = TRUE)
+---
+
+```{r setup, include=FALSE}
+# to use FontAwesome
+#htmltools::tagList(rmarkdown::html_dependency_font_awesome())
+library(fs)
+library(fontawesome)
+# library(magick)  
+library(ggplot2)
+```
+
+class: inverse, right, bottom
+background-image: url(https://mediad.publicbroadcasting.net/p/shared/npr/201805/530259985.jpg)
+
+# .LARGE[Foreign Aid] <br> GLOA 610-001 <br> <br>
+
+---
+
+```{r, message=FALSE, echo=FALSE, warning=FALSE, results="asis", fig.width=16, fig.height=6, cache=T}
+library(tidyverse)
+library(WDI)
+library(ggplot2)
+
+var = c('ODApc' = "DT.ODA.ODAT.PC.ZS",
+        'ODApg' = "DC.ODA.TOTL.GN.ZS",
+        'GDPpc' = 'NY.GDP.PCAP.KD',
+        'tariff' = 'TM.TAX.MRCH.SM.AR.ZS')
+
+wdi <- WDI(indicator=var,
+           start=1960,
+           country = 'all',
+           end=2020,
+           extra=TRUE)
+
+wdi %>% 
+  drop_na(GDPpc) %>%
+  mutate(developed = 
+           case_when(GDPpc > 10000 ~ "developed",
+                     GDPpc < 10000 ~ "underdeveloped"
+                     )) -> wdi2
+
+# Aid dependence (aid per capita)
+
+
+wdi2 %>%
+  filter(developed == "underdeveloped") %>%
+  ggplot(aes(year, ODApc)) +
+    geom_smooth(alpha=0.25, size=1) + labs(x="Year",
+       y="Aid per capita") +
+  theme(legend.title = element_blank()) +
+  theme(legend.text = element_text(size=13),
+        axis.text=element_text(size=15),
+        axis.title=element_text(size=15))
+
+
+```
+
+---
+
+```{r, message=FALSE, echo=FALSE, warning=FALSE, results="asis", fig.width=16, fig.height=6, cache=T}
+
+# Aid Dependence (& of GNI)
+
+wdi2 %>%
+  ggplot(aes(year, ODApg)) +
+    geom_smooth(alpha=0.25, size=1) + labs(x="Year",
+       y="Aid, % of GNI") +
+  geom_point(alpha=0.1) +
+  theme(legend.title = element_blank()) +
+  theme(legend.text = element_text(size=13),
+        axis.text=element_text(size=15),
+        axis.title=element_text(size=15))
+
+```
+
+
+```{r, message=FALSE, echo=FALSE, warning=FALSE, results="asis", fig.width=16, fig.height=6, cache=T}
+
+
+# Development effect of aid dependence
+
+wdi2 %>%
+  filter(developed == "underdeveloped") %>%
+  filter(ODApc > 50) %>%
+  filter(ODApc < 1000) %>%
+  ggplot(aes(x=ODApc, y=GDPpc)) +
+    geom_smooth(alpha=0.25, size=1) +
+    geom_point(alpha=0.1, size=0.5) +
+    labs(x="Aid per capita",
+       y="GDP per capita") +
+  theme(legend.title = element_blank()) +
+  theme(legend.text = element_text(size=13),
+        axis.text=element_text(size=15),
+        axis.title=element_text(size=15))
+
+```
