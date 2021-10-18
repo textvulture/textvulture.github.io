@@ -33,6 +33,7 @@ library(fs)
 library(fontawesome)
 # library(magick)  
 library(ggplot2)
+library(knitr)
 ```
 
 
@@ -145,23 +146,26 @@ background-color: #88ACA4
 - .LARGE[.orange[How positively do you assess the foreign policy of [China]?]]
 
 ---
+class: middle, inverse
+background-color: #D6D4B7
 
-
-<div class="full-width-tinted">
-  <h1> .large[Gries and Turscanyi (2021), continued]</h1>
-</div><br><br>
-
---
 
 .pull-left[
-.left-half of Figure 1 here
+.center[![](/images/Gries-fig1.JPG)]
 ]
 
 --
 
 .pull-right[
-.figure 6 here
+.center[
 
+```{r echo=F}
+
+knitr::include_graphics("images/Gries-fig2.jpg")
+
+```
+
+]
 ]
 
 ---
