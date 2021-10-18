@@ -36,27 +36,26 @@ library(ggplot2)
 ```
 
 
-class: inverse, bottom, right
+class: inverse, bottom, right, clear
 background-image: url(http://www.rafu.com/wp-content/uploads/2015/07/Vincent-Chin-Rally-30.jpg)
 background-size: cover
 
-# Globaliztion in Asia (GLOA 400-001)
-## .texttt[Asia Hate and Covid-19]
+# .huge[Globaliztion in Asia] <br> (GLOA 400-001) <br> Asian Hate and the Pandemic 
 
 ---
-class: center, middle
+class: center, middle, clear
 
 .center[![](https://www.ft.com/__origami/service/image/v2/images/raw/https%253A%252F%252Fs3-ap-northeast-1.amazonaws.com%252Fpsh-ex-ftnikkei-3937bb4%252Fimages%252F_aliases%252Farticleimage%252F2%252F8%252F7%252F8%252F33438782-4-eng-GB%252F20210407-Cover-Incident-rate-Slope.png?source=nar-cms)]
 
 ---
 
 class: inverse, middle
-background-color: 
+background-color: #A188AC
 background-image: url(https://media.newyorker.com/photos/605e296db707becb8be3256e/master/pass/cover-STORYimage-kikuo_johnson_subway.jpg)
 background-position: right, bottom
 background-size: 42%
 
-# .Large[.green[What we talk about:]]
+# .Large[.orange[What we talk about:] ]
 
 --
 
@@ -93,5 +92,102 @@ background-position: right
 # - weak organization
 
 ---
+<div class="full-width-tinted">
+  <h1 style="font-size:70px">Is it (only) white supremacy that's at work?</h1>
+</div><br><br><br>
 
-class: header_background
+--
+
+.blockquote[
+### "This pervasiveness of ... .black[white supremacy] ... to the body politic of the United States, a body politic ... that in our political, cultural, and social imaginations remains overwhelming white, are dealt with forcefully and without much forethought. Meaning, anytime there has been .blue[a threat to the US] from an Asian nation ... people in the US have their axiety ... against any subjects associated with the Asian-enemy" .black[Ho (2020, 152)]]
+
+--
+<br>
+.content-box-army[
+## Perpetrators of Anti-Asian Hate Crimes
+
+- .Large[70-80% White]
+- .Large[70-80% Male]
+
+]
+
+---
+
+class: inverse, center, middle
+background-color: #88ACA4
+
+# .huge[So it's just <br> .blue[American] .red[White Supremacy?]]
+
+---
+
+<div class="full-width-tinted">
+  <h1> .large[Anti-Asian Hate or Anti-CCP?] .yellow[European] Examples</h1>
+</div><br>
+
+--
+
+# Gries and Turscanyi (2021) 
+
+--
+
+## - Anti-CCP sentiment .red[spills over] onto local Chinese [stereotyping].
+
+--
+
+## - Ideology .red[moderates] the spill-over effect.
+
+--
+
+# The Survey 
+
+- .LARGE[13 European countries (n=19k), Fall 2020]
+- .LARGE[.red[How are the Chinese people viewed in your country?]]
+- .LARGE[.orange[How positively do you assess the foreign policy of [China]?]]
+
+---
+
+
+<div class="full-width-tinted">
+  <h1> .large[Gries and Turscanyi (2021), continued]</h1>
+</div><br><br>
+
+--
+
+.pull-left[
+.left-half of Figure 1 here
+]
+
+--
+
+.pull-right[
+.figure 6 here
+
+]
+
+---
+<div class="full-width-tinted">
+  <h1> .Large[A bigger picture]</h1>
+</div><br>
+
+## What are the effects of the spill-over?
+
+--
+
+### - `r fa("user-tag")` A related study on .red[Chinese Students] in America
+
+--
+
+### - anti-CCP comments: .red[`r fa("bell-slash")`], but racist comments: .green[`r fa("bell")`]
+
+--
+
+## `r fa("exclamation-circle")` populist and/or nationalist political .red[elites] benefit from this mess (negative feedback structure)
+
+--
+
+### : .red[anti-CCP] ('China Virus') -> anti-Chinese sentiment in the West -> anti-West sentiment in China -> CCP & Western Populist emboldened -> .red[anti-CCP]
+
+---
+
+background-image: url(https://media2.giphy.com/media/dB16tYGyHzov7EzN5D/giphy.gif)
+background-size: contain
