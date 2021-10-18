@@ -33,7 +33,7 @@ library(fs)
 library(fontawesome)
 # library(magick)  
 library(ggplot2)
-library(knitr)
+
 ```
 
 
@@ -146,29 +146,27 @@ background-color: #88ACA4
 - .LARGE[.orange[How positively do you assess the foreign policy of [China]?]]
 
 ---
+
 class: middle, inverse
-background-color: #D6D4B7
+background-color: #D6D4B7 
 
 
 .pull-left[
-.center[![](/images/Gries-fig1.JPG)]
+.center[
+![](Gries-fig1.JPG)
+]
 ]
 
 --
 
 .pull-right[
 .center[
-
-```{r echo=F}
-
-knitr::include_graphics("images/Gries-fig2.jpg")
-
-```
-
+![](Gries-fig2.JPG)
 ]
 ]
 
 ---
+
 <div class="full-width-tinted">
   <h1> .Large[A bigger picture]</h1>
 </div><br>
