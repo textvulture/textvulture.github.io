@@ -1,0 +1,157 @@
+---
+title: ".green[Immigration in Asia] <br> GLOA 400-001"
+author: "Byunghwan Son <br> George Mason University"
+date: " "
+#########################################
+linkcolor: red
+citecolor: blue
+urlcolor: blueß
+output: 
+  xaringan::moon_reader:
+    seal: false
+    nature:
+      ratio: '16:9'
+      highlightStyle: github
+  #    self-contained: TRUE
+  chakra: css/libs/remark-latest.min.js
+css: ["default", 
+      "css/footer.css", 
+      "css/color.css", 
+      # "css/xaringan-themer.css",
+      default-fonts]
+lib_dir: css/libs
+beforeInit: "css/macros.js"
+# seal: false  
+#bibliography: /Users/bson3/Dropbox/latex/mybib2.bib
+#remotes::install_github('yihui/xaringan', upgrade = TRUE)
+---
+
+```{r setup, include=FALSE}
+# to use FontAwesome
+#htmltools::tagList(rmarkdown::html_dependency_font_awesome())
+library(fs)
+library(fontawesome)
+# library(magick)  
+library(ggplot2)
+```
+
+class: inverse, right, middle
+background-image: url(https://shrm-res.cloudinary.com/image/upload/c_crop,h_253,w_450,x_0,y_0/w_auto:100,w_1200,q_35,f_auto/v1/Tools%20and%20Samples/18_1489_HupPage_Rullup_Immigration_sp1tkt.jpg)
+
+# .huge[Immigration <br> in Asia] <br> GLOA 400-001 <br> <br>
+
+---
+
+```{r, include=F}
+library(tidyverse)
+library(WDI)
+library(ggplot2)
+
+
+var = c('m.stock' = "SM.POP.TOTL",
+        'm.stock.per' = 'SM.POP.TOTL.ZS',
+        'refugee.send' = 'SM.POP.REFG.OR',
+        'refugee.arrive' = 'SM.POP.REFG', 
+        'GDPpc' = 'NY.GDP.PCAP.KD')
+
+wdi <- WDI(indicator=var,
+           start=1985,
+           country = 'all',
+           end=2020,
+           extra=TRUE)
+```
+
+
+
+```{r, message=FALSE, echo=FALSE, warning=FALSE, results="asis", fig.width=16, fig.height=6, cache=T}
+
+wdi %>% 
+#  drop_na(m.stock) %>%
+  filter(country == "Korea, Rep." | 
+           country == "China" |
+           country == "Japan" |
+           country == "India" | 
+           country == "Indonesia" |
+           country == "Malaysia" |
+           country == "Bangladesh" |
+           country == "Thailand" |
+           country == "Philippines") %>%
+  ggplot(aes(y=m.stock.per, x=year, color=country)) +
+  geom_point(alpha=0.5, size=3) +
+  geom_smooth(alpha=0.25, size=1) +
+  labs(y="Migrant Stock % of population",
+       x="Year")
+
+
+```
+
+---
+
+```{r, message=FALSE, echo=FALSE, warning=FALSE, results="asis", fig.width=16, fig.height=6, cache=T}
+
+wdi %>% 
+#  drop_na(m.stock) %>%
+  filter(country == "Korea, Rep." | 
+           country == "China" |
+           country == "Japan" |
+           country == "India" | 
+           country == "Indonesia" |
+           country == "Malaysia" |
+           country == "Bangladesh" |
+           country == "Thailand" |
+           country == "Philippines") %>%
+  mutate(logGDP = log(GDPpc)) %>%
+  ggplot(aes(y=m.stock.per, x=logGDP, color=country)) +
+  geom_point(alpha=0.5, size=3) +
+  geom_smooth(aes(color=NULL), alpha=0.25, size=0.5) +
+  labs(y="Migrant Stock % of population",
+       x="GDP per capita, log-scale") 
+```
+
+---
+
+```{r, message=FALSE, echo=FALSE, warning=FALSE, results="asis", fig.width=16, fig.height=6, cache=T}
+
+wdi %>% 
+#  drop_na(m.stock) %>%
+  filter(country == "Korea, Rep." | 
+           country == "China" |
+           country == "Japan" |
+           country == "India" | 
+           country == "Indonesia" |
+           country == "Malaysia" |
+           country == "Bangladesh" |
+           country == "Thailand" |
+           country == "Philippines") %>%
+  mutate(logGDP = log(GDPpc)) %>%
+  mutate(log.ref1 = log(refugee.send)) %>%
+  ggplot(aes(y=log.ref1, x=year, color=country)) +
+  geom_point(alpha=0.5, size=3) +
+  geom_smooth(aes(color=NULL), alpha=0.25, size=0.5) +
+  labs(y="Refugee, origins, log-scale",
+       x="Year") 
+```
+
+---
+
+
+```{r, message=FALSE, echo=FALSE, warning=FALSE, results="asis", fig.width=16, fig.height=6, cache=T}
+
+wdi %>% 
+#  drop_na(m.stock) %>%
+  filter(country == "Korea, Rep." | 
+           country == "China" |
+           country == "Japan" |
+           country == "India" | 
+           country == "Indonesia" |
+           country == "Malaysia" |
+           country == "Bangladesh" |
+           country == "Thailand" |
+           country == "Philippines") %>%
+  mutate(log.ref2 = log(refugee.arrive)) %>%
+  ggplot(aes(y=log.ref2, x=year, color=country)) +
+  geom_point(alpha=0.5, size=3) +
+  geom_smooth(aes(color=NULL), alpha=0.25, size=0.5) +
+  labs(y="Refugee, arrive, log-scale",
+       x="Year") 
+```
