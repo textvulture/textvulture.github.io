@@ -16,6 +16,7 @@
 .HUGE { font-size: 400% }
 .Huge { font-size: 300% }
 .huge { font-size: 200% }
+.LARGE { font-size: 180% }
 .Large { font-size: 144% }
 .large { font-size: 120% }
 .small { font-size: 90% }
@@ -147,3 +148,16 @@ blockquote, .blockquote {
 
 .pull-right ~ * { clear: unset; }
 .pull-right + * { clear: both; }
+
+
+
+.full-width-tinted {
+  position: relative;  /* for child pseudo-element */
+  z-index: 0;
+  margin: -2.5rem -600rem;
+  top: 0;
+  /* add back negative margin value */
+  padding: 0.05rem 600rem;
+  background: #1abc9c;
+  color: white;
+}
