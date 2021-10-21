@@ -42,7 +42,12 @@ background-image: url(https://shrm-res.cloudinary.com/image/upload/c_crop,h_253,
 
 ---
 
-```{r, include=F, cache=T}
+<div class="full-width-tinted"><br>
+  <h1> .large[Immigration 'stock' (% population) Global] </h1> 
+</div><br><br> 
+
+
+```{r, message=FALSE, echo=FALSE, warning=FALSE, results="asis", fig.width=16, fig.height=7, cache=T}
 library(tidyverse)
 library(WDI)
 library(ggplot2)
@@ -59,7 +64,19 @@ wdi <- WDI(indicator=var,
            country = 'all',
            end=2020,
            extra=TRUE)
+
+wdi %>% 
+  filter(region != "Aggregates" ) %>%
+  ggplot(aes(y=m.stock.per, x=year, color=region)) +
+  geom_point(alpha=0.75, size=6) +
+  labs(y="Migrant Stock % of population",
+       x="Year") +
+  theme_minimal() +
+  theme(legend.position="bottom")
+
 ```
+
+---
 
 <div class="full-width-tinted"><br>
   <h1> .large[Immigration 'stock' (% population) in Asia trend ] </h1> 
