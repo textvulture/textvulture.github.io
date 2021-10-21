@@ -42,7 +42,7 @@ background-image: url(https://shrm-res.cloudinary.com/image/upload/c_crop,h_253,
 
 ---
 
-```{r, include=F}
+```{r, include=F, cache=T}
 library(tidyverse)
 library(WDI)
 library(ggplot2)
@@ -61,9 +61,11 @@ wdi <- WDI(indicator=var,
            extra=TRUE)
 ```
 
+<div class="full-width-tinted"><br>
+  <h1> .large[Immigration 'stock' (% population) in Asia trend ] </h1> 
+</div><br><br> 
 
-
-```{r, message=FALSE, echo=FALSE, warning=FALSE, results="asis", fig.width=16, fig.height=6, cache=T}
+```{r, message=FALSE, echo=FALSE, warning=FALSE, results="asis", fig.width=16, fig.height=7, cache=T}
 
 wdi %>% 
 #  drop_na(m.stock) %>%
@@ -80,14 +82,23 @@ wdi %>%
   geom_point(alpha=0.5, size=3) +
   geom_smooth(alpha=0.25, size=1) +
   labs(y="Migrant Stock % of population",
-       x="Year")
+       x="Year") +
+  theme_minimal() +
+  theme(legend.text = element_text(size=25),
+        axis.text=element_text(size=25),
+        axis.title=element_text(size=25))
 
 
 ```
 
 ---
 
-```{r, message=FALSE, echo=FALSE, warning=FALSE, results="asis", fig.width=16, fig.height=6, cache=T}
+<div class="full-width-tinted"><br>
+  <h1> .Large[Immigration and Economic Development] </h1> 
+</div><br><br> 
+
+
+```{r, message=FALSE, echo=FALSE, warning=FALSE, results="asis", fig.width=16, fig.height=7, cache=T}
 
 wdi %>% 
 #  drop_na(m.stock) %>%
@@ -105,12 +116,111 @@ wdi %>%
   geom_point(alpha=0.5, size=3) +
   geom_smooth(aes(color=NULL), alpha=0.25, size=0.5) +
   labs(y="Migrant Stock % of population",
-       x="GDP per capita, log-scale") 
+       x="GDP per capita, log-scale") +
+  theme_minimal() +
+  theme(legend.text = element_text(size=25),
+        axis.text=element_text(size=25),
+        axis.title=element_text(size=25))
 ```
 
 ---
 
-```{r, message=FALSE, echo=FALSE, warning=FALSE, results="asis", fig.width=16, fig.height=6, cache=T}
+background-image: url(https://www.economist.com/sites/default/files/20170211_WOM969_0.png)
+background-position: right
+background-size: contain
+
+# The .red[imbalance] <br> between <br> demand and supply
+
+
+---
+background-image: url(https://img.i-scmp.com/cdn-cgi/image/fit=contain,width=425,format=auto/sites/default/files/styles/768x768/public/images/methode/2018/08/28/7ce2731e-aa57-11e8-8796-d12ba807e6e9_1280x720_082342.JPG?itok=6OrbSrWl)
+background-position: right
+background-size: contain
+class: middle, inverse
+
+
+# Why are there <br> so .red[few] immigrants <br> in Taiwan, Japan, <BR> and South Korea?
+
+# - don't they need people?
+
+---
+
+<div class="full-width-tinted"><br>
+  <h1> .Large[The puzzle and the reality] </h1> 
+</div><br><br> 
+
+.pull-left[
+# The .red[Puzzle]
+
+.LARGE[
+- economic sustainability
+  - asset market
+  - manufacturing sectors
+- aging population
+
+]
+]
+
+--
+
+.pull-right[
+# The .orange[reality]
+.LARGE[
+- strict rules on manual labor migrant workers
+  - TW: 'population quality control' law
+  - JP: 'Trainee' program
+  - SK: Work permit system
+]
+]
+
+---
+
+class: inverse, right
+background-image: url(https://miro.medium.com/max/1400/1*749_JgHFM-ahH172aPrGTg.gif)
+background-size: contain
+
+
+# Why so restrictive?
+
+--
+
+## - public antagonism
+
+--
+
+## - changing economic structure
+
+--
+
+## - weak social actors (Japan)
+
+--
+
+## - lack of .yellow[information]?
+
+---
+
+<div class="full-width-tinted"><br>
+  <h1> .Large[Experiment: Japan] </h1> 
+</div><br><br> 
+
+--
+
+# Japanese public opinions about immigration policies
+
+### : .red[uninformed] vs. .blue[informed]
+
+--
+
+.center[![](Faccini.JPG)]
+
+---
+<div class="full-width-tinted"><br>
+  <h1> .Large[Asian Refugee .red[Origins]] </h1> 
+</div><br><br> 
+
+
+```{r, message=FALSE, echo=FALSE, warning=FALSE, results="asis", fig.width=16, fig.height=7, cache=T}
 
 wdi %>% 
 #  drop_na(m.stock) %>%
@@ -129,13 +239,20 @@ wdi %>%
   geom_point(alpha=0.5, size=3) +
   geom_smooth(aes(color=NULL), alpha=0.25, size=0.5) +
   labs(y="Refugee, origins, log-scale",
-       x="Year") 
+       x="Year") +
+  theme_minimal() +
+  theme(legend.text = element_text(size=25),
+        axis.text=element_text(size=25),
+        axis.title=element_text(size=25))
 ```
 
 ---
+<div class="full-width-tinted"><br>
+  <h1> .Large[Asian Refugee .orange[Destinations]] </h1> 
+</div><br><br> 
+ 
 
-
-```{r, message=FALSE, echo=FALSE, warning=FALSE, results="asis", fig.width=16, fig.height=6, cache=T}
+```{r, message=FALSE, echo=FALSE, warning=FALSE, results="asis", fig.width=16, fig.height=7, cache=T}
 
 wdi %>% 
 #  drop_na(m.stock) %>%
@@ -153,5 +270,10 @@ wdi %>%
   geom_point(alpha=0.5, size=3) +
   geom_smooth(aes(color=NULL), alpha=0.25, size=0.5) +
   labs(y="Refugee, arrive, log-scale",
-       x="Year") 
+       x="Year") +
+  theme_minimal() +
+  theme(legend.text = element_text(size=25),
+        axis.text=element_text(size=25),
+        axis.title=element_text(size=25))
 ```
+
