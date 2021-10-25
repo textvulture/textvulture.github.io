@@ -161,3 +161,8 @@ blockquote, .blockquote {
   background: #1abc9c;
   color: white;
 }
+
+.pulse {
+  -webkit-animation-name: pulse;
+  animation-name: pulse;
+}

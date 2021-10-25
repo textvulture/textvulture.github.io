@@ -34,6 +34,7 @@ library(fs)
 library(fontawesome)
 # library(magick)  
 library(ggplot2)
+library(tidyverse)
 ```
 
 class: inverse, right, bottom
@@ -79,9 +80,9 @@ background-position: right
 
 ```{r include=F, cache=T}
 
-library(tidyverse)
+
 library(WDI)
-library(ggplot2)
+
 
 var = c('ODApc' = "DT.ODA.ODAT.PC.ZS",
         'ODApg' = "DC.ODA.TOTL.GN.ZS",
