@@ -77,6 +77,22 @@ wdi %>%
                      )) -> wdi2
 
 ```     
+---
+class: inverse
+background-color: black
+.pull-left[
+.center[
+![](https://archive.org/download/TheRoadToWiganPier/Wigan.jpg)
+]
+]
+
+.pull-right[
+.center[
+```{r echo=F, out.width="80%"}
+knitr::include_graphics('https://mrbsemporium.com/wp-content/uploads/2018/10/9781529006346.jpg')
+```
+]
+]
 
 ---
 class: inverse
