@@ -1,0 +1,231 @@
+---
+title: ".green[Human Rights, Transnational Crimes, and Transitional Justice in Asia] <br> GLOA 400-001"
+author: "Byunghwan Son <br> George Mason University"
+date: " "
+#########################################
+linkcolor: red
+citecolor: blue
+urlcolor: blueß
+output: 
+  xaringan::moon_reader:
+    seal: false
+    nature:
+      ratio: '16:9'
+      highlightStyle: github
+  #    self-contained: TRUE
+  chakra: css/libs/remark-latest.min.js
+css: ["default", 
+      "css/footer.css", 
+      "css/color.css", 
+      # "css/xaringan-themer.css",
+      default-fonts]
+lib_dir: css/libs
+beforeInit: "css/macros.js"
+# seal: false  
+#bibliography: /Users/bson3/Dropbox/latex/mybib2.bib
+#remotes::install_github('yihui/xaringan', upgrade = TRUE)
+---
+
+```{r setup, include=FALSE}
+# to use FontAwesome
+#htmltools::tagList(rmarkdown::html_dependency_font_awesome())
+library(fs)
+library(fontawesome)
+# library(magick)  
+library(ggplot2)
+library(tidyverse)
+```
+
+class: inverse, right, bottom
+background-image: url(https://www.iberdrola.com/wcorp/gc/prod/en_US/corporativos/politica_respeto_DDHH_1_res/Politica_Respeto_DDHH.jpg)
+background-size: contain
+
+# .yellow[Human Rights], <br> .red[Transnational Crimes], <br> and <br> .green[Transitional Justice] <br> in Asia <br> GLOA 400-001
+
+---
+class: inverse
+background-image: url(https://i.pinimg.com/originals/b8/72/03/b872036e3cfdb41f6c282e3e536730ad.gif)
+background-size: contain
+
+# .yellow[What are we talking about?]
+
+---
+
+class: inverse, middle
+background-image: url(https://t3.ftcdn.net/jpg/00/97/87/00/360_F_97870083_DFLY0vKDqIefVTu8mKYBQnQgBdsA55t8.jpg)
+background-size: cover
+
+
+# What are we REALLY talking about?
+
+--
+
+## - The consequences of transnational human rights issues in Asia
+
+--
+
+## - Transnational Crimes (human trafficking; environmental crimes)
+
+--
+
+## - Transitional justice issues (the Rohyinga)
+---
+
+<div class="full-width-tinted"><br>
+  <h1> .Large[Physical Integrity in Asia (Vdem Data)] </h1>
+</div><br><br>
+
+```{r echo=FALSE, error=FALSE, message=FALSE, warning=FALSE, fig.width=20, fig.height=9, cache=TRUE}
+
+library(vdemdata)
+
+vdem %>%
+  filter(e_regionpol_6C == 6) %>%
+  select(year, v2cltort, v2clkill) %>%
+  filter(year>1900) %>%
+  gather(key="variable", value="value", -year) %>%
+  ggplot(aes(x = year, y=value)) +
+  geom_smooth(aes(color=variable)) +
+  geom_point(aes(color=variable), size=2, alpha=1/5) +
+  labs(x = "year", 
+       y = "Human Rights") +
+  scale_color_manual(labels = c("Freedom From Torture", 
+                 "Freedom From Political Killing"),
+                     values = c("blue", "red")) +
+  theme_minimal() +  
+  theme(axis.text=element_text(size=30),
+        axis.title=element_text(size=35),
+        legend.position = "bottom",
+        legend.text=element_text(size=35),
+        legend.title = element_blank()) 
+
+```
+
+
+---
+
+class: inverse
+background-image: url(https://www.imf.org/external/pubs/ft/fandd/2018/09/images/092018/caballero-chart1-lg.jpg)
+background-position: right
+background-size: contain
+
+# Asia 
+
+# = most profits <br> from human trafficiking
+
+# Mostly Southeast Asia
+
+# But also from .red[NK]
+
+---
+class: inverse, middle
+background-image: url(https://64.media.tumblr.com/97f1307a0cec9570541ce099e1931c66/4c861e28b8cf33fc-2f/s400x600/2ab3785e5fd2ece7d53517cc417a776728295816.gifv)
+background-size: contain
+background-position: right
+background-color: black
+
+# .huge[Maybe <br> something <br> about her story]
+
+---
+
+<div class="full-width-tinted"><br>
+  <h1> .large[Cross-border Trafficking of NK Women] </h1>
+</div><br><br>
+
+.Large[`r fa("ethereum")` **Development/origin**]
+ - .large[the mid-1990s .red[famine] `r fa("skull")` → the ‘Arduous March’ → population mobility `r fa("arrow-up")` → ‘illegal immigrants’ in China (50k–100k) → trafficking]
+ 
+--
+
+.Large[.blue[`r fa("id-badge")`] **The traffickers**]
+ - .large[young (20-40s) male & female; Chinese, Korean Chinese, and North Koreans]
+
+--
+
+.Large[.red[`r fa("id-badge")`] **The victims** ] 
+ - .large[wider age range than other cases: early 10s to late 30s]
+ - .large[more educated and employed than those in other cases]
+ - .large[consent under deception (with a plan to return soon) + abduction]
+
+--
+
+.Large[`r fa("wrench")` **Underlying factors**]: .large[gender imbalance (China) + famine & hardship (NK)]
+
+
+---
+class: inverse, center, middle
+background-image: url(https://img.etimg.com/thumb/msid-68266564,width-640,resizemode-4,imgsize-491753/south-asias-battle.jpg)
+background-size: cover
+
+# .Large[Environmental Crimes in Asia]
+
+--
+
+# illegal logging; toxic waste trading 
+
+--
+
+# .large[Security Issues?] 
+
+--
+
+## national and human security threat
+
+---
+
+## .center[Transnational Environmental Crimes (or 'problems') in Asia]
+
+.center[
+<iframe width="1024" height="500" src="https://www.youtube.com/embed/L59R5szrFZA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+]
+---
+
+## .center[Transnational Environmental Crimes (or 'problems') in Asia]
+
+.center[
+<iframe width="1024" height="500" src="https://www.youtube.com/embed/7BwNT0sV6eU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+]
+
+---
+class: inverse, bottom
+background-image: url(https://envato-shoebox-0.imgix.net/4f8b/355a-d894-4a3e-b478-e33519a7d7d6/DSC01266.jpg?auto=compress%2Cformat&fit=max&mark=https%3A%2F%2Felements-assets.envato.com%2Fstatic%2Fwatermark2.png&markalign=center%2Cmiddle&markalpha=18&w=700&s=7c23910e148e96d837f1d3727622e327)
+background-size: cover
+
+.blockquote[
+# Transitional Justice (ICTJ)
+
+.orange[.Large[the attempts of countries “emerging from periods of conflict and repression” to“address large scale or systematic human rights violations so numerous and soserious that the normal justice system will not be able to provide an adequateresponse.]]
+]
+
+---
+
+<div class="full-width-tinted"><br>
+  <h1> .Large[The Cambodian Case] </h1>
+</div><br><br>
+
+```{r echo=FALSE, error=FALSE, message=FALSE, warning=FALSE, fig.width=20, fig.height=9, cache=TRUE}
+
+vdem %>%
+  filter(country_name == "Cambodia") %>%
+  filter(year>1900) %>%
+  select(year, v2cltort, v2clkill) %>%
+  gather(key="variable", value="value", -year) %>%
+  ggplot(aes(x = year, y=value)) +
+  geom_smooth(aes(color=variable), alpha=0.5, size=1.5)  +
+  geom_vline(xintercept = 1968, linetype="dotted", 
+                color = "red", size=1.5) +
+  labs(x = "year", 
+       y = "Human Rights") +
+  scale_color_manual(labels = c("Freedom From Torture", 
+                 "Freedom From Political Killing"),
+                     values = c("blue", "red")) +
+  theme_minimal() +  
+  theme(axis.text=element_text(size=30),
+        axis.title=element_text(size=35),
+        legend.position = "bottom",
+        legend.text=element_text(size=35),
+        legend.title = element_blank())  
+  
+```
+
+
