@@ -39,8 +39,8 @@ library(ggplot2)
 library(tidyverse)
 # devtools::install_github('emitanaka/anicon')
 library(anicon)
-# devtools::install_github("dill/emoGG")
-# library(emoGG)
+#devtools::install_github("dill/emoGG")
+library(emoGG)
 ```
 
 class: inverse, right, middle
@@ -59,7 +59,8 @@ library(WDI)
 
 var = c('poverty' = 'SI.POV.DDAY',
         'GDPpc' = 'NY.GDP.PCAP.KD',
-        'inequality' = 'SI.POV.GINI'
+        'inequality' = 'SI.POV.GINI',
+        'Infant.Mortality' = 'SP.DYN.IMRT.IN'
         )
 
 wdi <- WDI(indicator=var,
@@ -76,6 +77,22 @@ wdi %>%
                      )) -> wdi2
 
 ```     
+---
+class: inverse
+background-color: black
+.pull-left[
+.center[
+![](https://archive.org/download/TheRoadToWiganPier/Wigan.jpg)
+]
+]
+
+.pull-right[
+.center[
+```{r echo=F, out.width="80%"}
+knitr::include_graphics('https://mrbsemporium.com/wp-content/uploads/2018/10/9781529006346.jpg')
+```
+]
+]
 
 ---
 class: inverse
@@ -121,6 +138,29 @@ wdi2 %>%
 
 ```
 
+---
+<div class="full-width-tinted"><br>
+  <h1> .Large[Global Poverty, .yellow[by infant mortality]] </h1>
+</div><br><br>
+
+```{r, message=FALSE, echo=FALSE, warning=FALSE, results="asis", fig.width=16, fig.height=6, cache=T}
+
+
+wdi2 %>%
+  ggplot(aes(x=year,
+             y=Infant.Mortality,
+             group=developed,
+             color=developed,
+             fill=developed)) +
+  geom_point(size=0.5, alpha=0.25) +
+  geom_smooth() +
+  theme_minimal() +
+  theme(legend.text = element_text(size=20),
+        axis.text=element_text(size=20),
+        axis.title=element_text(size=20)) +
+  labs(x="Year", y="Infant Mortality per 1k")
+
+```
 
 ---
 
@@ -200,7 +240,7 @@ background-size: 60%
   <h1> .large[Kuznets Curve?] </h1>
 </div><br><br>
 
-.Large[.orange[`r anicon::faa("lightbulb", animate = "flash")`] &nbsp; "The relationship between inequality and development is bell-shaped."]
+.Large[.orange[`r fa("lightbulb")`]] &nbsp; .Large["The relationship between inequality and development is bell-shaped."] 
 
 --
 
@@ -231,13 +271,31 @@ wdi2 %>%
 ]
 
 ---
+class: inverse, middle
+background-image: url(https://www.funnybeing.com/wp-content/uploads/2017/02/Oh-Your-Relationship-Status-Is-Its-Complicated.jpg)
+background-size: contain
+background-position: right
+background-color: black
+
+# So, <br> what's the relationship? 
+
+## - Econ Globalization
+## - Poverty
+## - Inequality
+
+--
+
+# .yellow[Rudra & Tirone (2017)]
+
+
+---
 
 class: inverse
 background-image: url(https://memegenerator.net/img/instances/55301890.jpg)
 background-position: right
 background-size: contain
 
-# But sometimes <br> globalization .red[does] <br> exacerbate inequality!
+# But wouldn't <br> globalization .red[does] <br> exacerbate inequality?
 
 --
 
@@ -245,7 +303,7 @@ background-size: contain
 
 --
 
-# Linardi & Rudra (2020)
+# .yellow[Linardi & Rudra (2020)]
 
 ---
 class: inverse
@@ -255,7 +313,7 @@ background-size: contain
 
 
 
-## Nothing seems to work (well). 
+## Nothing seems to work (.green[well]). 
 
 --
 
@@ -286,7 +344,7 @@ class: inverse
 background-image: url(https://64.media.tumblr.com/07fd4953d1fbe7d422523ab6eabfdb71/bf69424aa9f5c1e2-45/s540x810/3b64cd641624d8a38ffe0afabd13be814e55a71b.gifv)
 background-size: contain
 
-# .texttt[New Hope]: <br> .yellow[microfinancing] <br> .orange[cash-transfer]
+# .texttt[**New Hope**]: <br> .yellow[microfinancing] <br> .orange[cash-transfer] <br> .green[microcredit]
 
 ---
 
@@ -301,4 +359,27 @@ background-size: contain
 ## Attanasio et al. (2015); Banerjee et al. (2015a); Banerjee et al. (2015b)
 
 ---
+
+background-image: url(Banerjee2015.png)
+background-position: right
+background-size: contain
+
+# A closer look: <br> Banerjee et al. 2015b <br> ('.orange[Big Push]')
+
+--
+
+## Consumption and asset gains <br> of the .red[very poor]
+
+--
+
+### - six-country RCT
+
+--
+
+### - multi-dimensional support
+
+--
+
+## .green[Limitations?]
+
 
