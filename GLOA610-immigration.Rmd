@@ -1,0 +1,224 @@
+---
+title: ".green[Immigration] <br> GLOA 610-001"
+author: "Byunghwan Son <br> George Mason University"
+date: " "
+#########################################
+linkcolor: red
+citecolor: blue
+urlcolor: blueß
+output: 
+  xaringan::moon_reader:
+    seal: false
+    nature:
+      ratio: '16:9'
+      highlightStyle: github
+  #    self-contained: TRUE
+  chakra: css/libs/remark-latest.min.js
+css: ["default", 
+      "css/footer.css", 
+      "css/color.css", 
+      # "css/xaringan-themer.css",
+      default-fonts]
+lib_dir: css/libs
+beforeInit: "css/macros.js"
+# seal: false  
+#bibliography: /Users/bson3/Dropbox/latex/mybib2.bib
+#remotes::install_github('yihui/xaringan', upgrade = TRUE)
+
+---
+
+```{r setup, include=FALSE}
+# to use FontAwesome
+#htmltools::tagList(rmarkdown::html_dependency_font_awesome())
+library(fs)
+library(fontawesome)
+# library(magick)  
+library(ggplot2)
+#devtools::install_github("albert-ying/ohmyggplot") # not working for now
+#library(ohmyggplot) 
+library(tidyverse)
+# devtools::install_github('emitanaka/anicon')
+library(anicon)
+#devtools::install_github("dill/emoGG")
+library(emoGG)
+```
+
+class: inverse, center, top
+background-image: url(https://news.miami.edu/_assets/images-stories/2020/05/migrationsymp_hero_940x529.jpg)
+background-size: contain
+
+# .LARGE[Immigration] <br> GLOA 610-001 <br> <br>
+
+
+```{r message=FALSE, echo=FALSE, warning=FALSE, results="asis", fig.width=16, fig.height=7, cache=T}
+
+library(tidyverse)
+library(WDI)
+library(ggplot2)
+
+
+var = c('m.stock' = "SM.POP.TOTL",
+        'm.stock.per' = 'SM.POP.TOTL.ZS',
+        'refugee.send' = 'SM.POP.REFG.OR',
+        'refugee.arrive' = 'SM.POP.REFG', 
+        'GDPpc' = 'NY.GDP.PCAP.KD')
+
+wdi <- WDI(indicator=var,
+           start=1985,
+           country = 'all',
+           end=2020,
+           extra=TRUE)
+```
+
+---
+
+<div class="full-width-tinted"><br>
+  <h1> .large[Immigration 'stock' (% population) trend ] </h1> 
+</div><br><br> 
+
+```{r message=FALSE, echo=FALSE, warning=FALSE, results="asis", fig.width=16, fig.height=7, cache=T}
+
+wdi %>% 
+  drop_na(GDPpc) %>%
+  drop_na(m.stock.per) %>%
+  mutate(developed = 
+           case_when(GDPpc > 10000 ~ "developed",
+                     GDPpc < 10000 ~ "underdeveloped"
+                     )) %>%
+  ggplot(aes(y=m.stock.per, 
+             x=year,
+             color=developed)) +
+  geom_smooth() +
+  geom_jitter(alpha=0.15, 
+              width = 0.7,
+              size=5) +
+  labs(y="Migrant Stock % of population",
+       x="Year") +
+  theme_minimal() +
+  theme(legend.title = element_text(size=0),
+        legend.text = element_text(size=25),
+        axis.text=element_text(size=25),
+        axis.title=element_text(size=25))
+
+```     
+---
+
+<div class="full-width-tinted"><br>
+  <h1> .large[Refugees by Origins] </h1> 
+</div><br><br> 
+
+```{r message=FALSE, echo=FALSE, warning=FALSE, results="asis", fig.width=16, fig.height=7, cache=T}
+
+wdi %>% 
+  drop_na(GDPpc) %>%
+  drop_na(refugee.send) %>%
+  mutate(developed = 
+           case_when(GDPpc > 10000 ~ "developed",
+                     GDPpc < 10000 ~ "underdeveloped"
+                     )) %>%
+  mutate(log.ref1 = log(refugee.send)) %>%
+  ggplot(aes(y=log.ref1, 
+             x=year,
+             color=developed)) +
+  geom_smooth() +
+  geom_point(alhpa=0.2,
+             size=2) +
+  labs(y="Refugees by origins, log-scale",
+       x="Year") +
+  theme_minimal() +
+  theme(legend.title = element_text(size=0),
+        legend.text = element_text(size=25),
+        axis.text=element_text(size=25),
+        axis.title=element_text(size=25))
+
+```     
+
+---
+
+<div class="full-width-tinted"><br>
+  <h1> .large[Refugees by Destinations] </h1> 
+</div><br><br> 
+
+```{r message=FALSE, echo=FALSE, warning=FALSE, results="asis", fig.width=16, fig.height=7, cache=T}
+
+wdi %>% 
+  drop_na(GDPpc) %>%
+  drop_na(refugee.arrive) %>%
+  mutate(developed = 
+           case_when(GDPpc > 10000 ~ "developed",
+                     GDPpc < 10000 ~ "underdeveloped"
+                     )) %>%
+  mutate(log.ref2 = log(refugee.arrive)) %>%
+  ggplot(aes(y=log.ref2, 
+             x=year,
+             color=developed)) +
+  geom_smooth() +
+  geom_point(alhpa=0.2,
+             size=2) +
+  labs(y="Refugees by destinations, log-scale",
+       x="Year") +
+  theme_minimal() +
+  theme(legend.title = element_text(size=0),
+        legend.text = element_text(size=25),
+        axis.text=element_text(size=25),
+        axis.title=element_text(size=25))
+
+```   
+
+---
+class: inverse
+background-image: url(https://media1.giphy.com/media/lpt5YA1gY68yhJjGpm/giphy.gif)
+background-color: black
+background-position: right
+background-size: 70%
+
+# .Large[Where do immigrants <br> end up? <br> .yellow[Economic Interests?]] </h1> 
+
+--
+
+# Fitzgerald et al. (2014)
+
+
+---
+class: inverse
+background-color: black
+background-image: url(https://c.tenor.com/KOlhCrT47R0AAAAC/youre-stealing-from-us-stealing.gif)
+background-position: right
+background-size: contain
+
+# .Large[What do hosts think? <br> .yellow[Economic] Interests?] 
+
+# Hainmueller et al. (2015)
+
+--
+
+# .Large[But what about .red[Refugees]?]
+
+--
+
+# Hangartner et al. (2018); Alrababa’h (2021)
+
+---
+class: inverse
+background-image: url(https://cdn.dribbble.com/users/435189/screenshots/3667850/refugee-assimilate.gif)
+background-position: right
+background-color: black
+background-size: 50%
+
+# .Large[What can be done <br> for .yellow[integration]?] </h1> 
+
+--
+
+# Bansak et al. (2018)
+
+---
+
+# Image References
+
+- front page: https://news.miami.edu/_assets/images-stories/2020/05/migrationsymp_hero_940x529.jpg
+
+- https://media1.giphy.com/media/lpt5YA1gY68yhJjGpm/giphy.gif
+
+- https://c.tenor.com/KOlhCrT47R0AAAAC/youre-stealing-from-us-stealing.gif
+
+- https://cdn.dribbble.com/users/435189/screenshots/3667850/refugee-assimilate.gif

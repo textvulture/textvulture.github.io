@@ -1,0 +1,15 @@
+base
+fs
+fontawesome
+ggplot2
+tidyverse
+tibble
+tidyr
+readr
+purrr
+dplyr
+stringr
+forcats
+anicon
+emoGG
+WDI
