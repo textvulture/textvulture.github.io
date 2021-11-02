@@ -213,6 +213,29 @@ background-size: 50%
 
 ---
 
+# Banksak et al. (2018)
+
+### .red[`r fa("robot")`] &nbsp; *what could've happened if the algorithms were used ...*
+
+.pull-left[
+.center[
+.Large[USA]
+![](immigration_fig1.png)
+]
+
+]
+
+.pull-right[
+.center[
+.Large[Switzerland]
+![](immigration_fig2.png)
+]
+
+
+]
+
+---
+
 # Image References
 
 - front page: https://news.miami.edu/_assets/images-stories/2020/05/migrationsymp_hero_940x529.jpg
