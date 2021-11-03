@@ -186,7 +186,39 @@ background-size: cover
 <iframe width="1024" height="500" src="https://www.youtube.com/embed/7BwNT0sV6eU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 ]
 
+
 ---
+
+<div class="full-width-tinted"><br>
+  <h1> .Large[Maritime Piracy] </h1>
+</div><br><br>
+.blockquote[
+# UN Convention on the Law of the Sea (UNCLOS, 1982)
+.black[
+.Large[
+<br>
+a. any illegal acts of violence or detention, or any act of depredation, committed for private ends by the crew or the passengers of a private ship or a private aircraft, and directed:
+
+  - on the high seas, against another ship or aircraft, or against persons or property on board such ship or aircraft;
+
+  - against a ship, aircraft, persons or property in a place .red[outside the jurisdiction of any State];
+
+b. any act of .red[voluntary participation] in the operation of a ship or of an aircraft with knowledge of facts making it a pirate ship or aircraft;
+
+]
+]
+]
+
+---
+class: inverse, bottom, center
+background-image: url(piracy-asia.png)
+background-size: contain
+
+## Maritime Piracy in .orange[Asia], *Int'l Chamber of Commerce*
+
+
+---
+
 class: inverse, bottom
 background-image: url(https://envato-shoebox-0.imgix.net/4f8b/355a-d894-4a3e-b478-e33519a7d7d6/DSC01266.jpg?auto=compress%2Cformat&fit=max&mark=https%3A%2F%2Felements-assets.envato.com%2Fstatic%2Fwatermark2.png&markalign=center%2Cmiddle&markalpha=18&w=700&s=7c23910e148e96d837f1d3727622e327)
 background-size: cover
@@ -229,3 +261,8 @@ vdem %>%
 ```
 
 
+---
+class: inverse, center, middle
+background-image: url(https://www.myanmar-now.org/sites/myanmar-now.org/files/styles/header_image_large/public/news-images/h_56743637_0.jpg?itok=_6UtpMX7)
+
+# .Huge[**Transitional Justice <br> in Myanmar**]
