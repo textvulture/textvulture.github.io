@@ -1,0 +1,119 @@
+---
+title: ".green[Human Rights, Transnational Crimes, and Transitional Justice in Asia] <br> GLOA 610-001"
+author: "Byunghwan Son <br> George Mason University"
+date: " "
+#########################################
+linkcolor: red
+citecolor: blue
+urlcolor: blueß
+output: 
+  xaringan::moon_reader:
+    seal: false
+    nature:
+      ratio: '16:9'
+      highlightStyle: github
+  #    self-contained: TRUE
+  chakra: css/libs/remark-latest.min.js
+css: ["default", 
+      "css/footer.css", 
+      "css/color.css", 
+      # "css/xaringan-themer.css",
+      default-fonts]
+lib_dir: css/libs
+beforeInit: "css/macros.js"
+# seal: false  
+#bibliography: /Users/bson3/Dropbox/latex/mybib2.bib
+#remotes::install_github('yihui/xaringan', upgrade = TRUE)
+---
+
+```{r setup, include=FALSE}
+# to use FontAwesome
+#htmltools::tagList(rmarkdown::html_dependency_font_awesome())
+library(fs)
+library(fontawesome)
+# library(magick)  
+library(ggplot2)
+library(tidyverse)
+```
+
+class: inverse, left, top
+background-image: url(https://www.timeshighereducation.com/sites/default/files/styles/the_breaking_news_image_style/public/istock-530583132.jpg?itok=CekMzkG3)
+background-size: cover
+
+# .huge[**Global Economic Crisis <br> GLOA 610-001**]
+
+---
+
+```{r include=FALSE}
+
+library(WDI)
+library(lubridate)
+
+var = c('crisis' = "GFDD.OI.19",
+        'GDPpc' = 'NY.GDP.PCAP.KD')
+
+
+wdi <- WDI(indicator=var,
+           start=1960,
+           country = 'all',
+           end=2020,
+           extra=TRUE)
+
+```
+
+<div class="full-width-tinted"><br>
+  <h1> .large[Banking Crisis Trend ] </h1> 
+</div><br><br> 
+
+```{r message=FALSE, echo=FALSE, warning=FALSE, results="asis", fig.width=16, fig.height=7, cache=T}
+
+wdi %>%
+  drop %>%
+  drop_na(GDPpc) %>%
+  mutate(developed = 
+           case_when(GDPpc > 10000 ~ "developed",
+                     GDPpc < 10000 ~ "underdeveloped"
+                     )) %>%
+  ggplot(aes(y=crisis, 
+             x=year,
+             color=developed)) +
+  geom_smooth() +
+  labs(y="Ratio of Countries W/ A Banking Crisis",
+       x="Year") +
+  theme_minimal() +
+  theme(legend.title = element_text(size=0),
+        legend.text = element_text(size=25),
+        axis.text=element_text(size=25),
+        axis.title=element_text(size=25))
+
+```
+
+
+---
+
+```{r message=FALSE, echo=FALSE, warning=FALSE, results="asis", fig.width=16, fig.height=7, cache=T}
+
+wdi %>%
+  drop %>%
+  drop_na(GDPpc) %>%
+  drop_na(crisis) %>%
+  mutate(developed = 
+           case_when(GDPpc > 10000 ~ "developed",
+                     GDPpc < 10000 ~ "underdeveloped"
+                     )) %>%
+  group_by(year) %>%
+  summarise(y.crisis = sum(crisis)) %>%
+
+  ggplot(aes(x=year,
+             y=y.crisis)) +
+  geom_bar(stat = "identity") +
+    labs(y="# of Banking Crises") +
+  theme_minimal() +
+  theme(legend.title = element_text(size=0),
+        legend.text = element_text(size=25),
+        axis.text=element_text(size=25),
+        axis.title=element_text(size=25))
+
+```
+
+
