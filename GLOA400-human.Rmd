@@ -186,6 +186,25 @@ background-size: cover
 <iframe width="1024" height="500" src="https://www.youtube.com/embed/7BwNT0sV6eU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 ]
 
+---
+
+class: inverse
+background-color: black
+background-image: url(https://pics.loveforquotes.com/13-17-passing-the-buck-51696068.png)
+background-position: right
+
+# Why is the issue not addressed?
+
+- .large[despite the security consequences]
+
+--
+
+## - policymakers' lack of understanding
+
+--
+
+## - institutional incapacity & inertia
+
 
 ---
 
@@ -211,12 +230,31 @@ b. any act of .red[voluntary participation] in the operation of a ship or of an 
 
 ---
 class: inverse, bottom, center
-background-image: url(piracy-asia.png)
+background-image: url(https://cms.iccwbo.org/content/uploads/sites/3/2019/07/2019-02-imb20report6-e1562601036956.png)
 background-size: contain
 
-## Maritime Piracy in .orange[Asia], *Int'l Chamber of Commerce*
+---
+class: inverse
+background-image: url(https://oneearthfuture.org/sites/default/files/piracy-trends.jpg)
+background-color: black
+background-position: right
+background-size: 50%
 
+# **The trend**
 
+### - regional effort: multilateral responses 
+
+- .large[MSSP; ReCAAP]
+
+--
+
+### - made a good .yellow[pregress], but not quite enough
+
+--
+
+### - significant toll on regional .red[trade] volumes
+
+- .large[Morabito & Sergei (2018)]
 ---
 
 class: inverse, bottom
