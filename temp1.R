@@ -1,6 +1,7 @@
 library(WDI)
 library(tidyverse)
 library(plm)
+library(pmdplyr)
 
 var = c('crisis' = "GFDD.OI.19",
         'GDPpc' = 'NY.GDP.PCAP.KD',
@@ -15,7 +16,11 @@ wdi <- WDI(indicator=var,
 
 
 
-wdi <- pdata.frame(wdi,index=c("country","year"))
+wdi <- pdata.frame(wdi,index=c("country", "year"))
 
 wdi %>%
-  mutate(lexrate = lag(exrate, 1)) -> wdi2
+  transform(lexrate = plm::lag(wdi$exrate)) %>%
+  mutate(dep = (exrate-lexrate)/exrate) %>%
+  
+
+

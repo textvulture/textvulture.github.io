@@ -88,7 +88,8 @@ library(WDI)
 library(lubridate)
 
 var = c('crisis' = "GFDD.OI.19",
-        'GDPpc' = 'NY.GDP.PCAP.KD')
+        'GDPpc' = 'NY.GDP.PCAP.KD',
+        'exrate' = 'PA.NUS.FCRF')
 
 
 wdi <- WDI(indicator=var,
@@ -99,24 +100,29 @@ wdi <- WDI(indicator=var,
 
 ```
 
----
 <div class="full-width-tinted"><br>
-  <h1> .large[Banking Crisis Trend ] </h1> 
+  <h1> .large[Banking Crisis Trend, World Bank Data ] </h1> 
 </div><br><br> 
 
 ```{r message=FALSE, echo=FALSE, warning=FALSE, results="asis", fig.width=16, fig.height=7, cache=T}
 
 wdi %>%
-  drop %>%
-  drop_na(GDPpc) %>%
+  filter(GDPpc < 10000) %>%
+  drop_na(crisis) %>%
+  group_by(year) %>%
+  summarise(y.crisis = sum(crisis)) -> wdi2
+
+wdi %>%
   drop_na(crisis) %>%
   group_by(year) %>%
   summarise(y.crisis = sum(crisis)) %>%
-  ggplot(aes(x=year,
-             y=y.crisis)) +
-  geom_bar(stat = "identity",
-           fill='purple',
-           alpha=0.5) +
+  ggplot(aes(y=y.crisis, 
+             x=year)) +
+  geom_bar(aes(fill='developed'),
+           stat = "identity",   alpha=0.5) +
+  geom_bar(data=wdi2, 
+           aes(x=year, y=y.crisis, fill='underdeveloped'), 
+           stat = "identity") +
     labs(y="# of Banking Crises") +
   theme_minimal() +
   theme(legend.title = element_text(size=0),
@@ -129,33 +135,81 @@ wdi %>%
 ---
 
 <div class="full-width-tinted"><br>
-  <h1> .large[Banking Crisis Trend, Poor vs. Rich ] </h1> 
+  <h1> .large[Currency Crisis Trend, more than 10% depreciation] </h1> 
 </div><br><br> 
 
 ```{r message=FALSE, echo=FALSE, warning=FALSE, results="asis", fig.width=16, fig.height=7, cache=T}
 
+library(plm)
+
+
+wdi <- pdata.frame(wdi, index=c("country", "year"))
+
+
 wdi %>%
-  drop %>%
-  drop_na(GDPpc) %>%
-  mutate(developed = 
-           case_when(GDPpc > 10000 ~ "developed",
-                     GDPpc < 10000 ~ "underdeveloped"
-                     )) %>%
-  ggplot(aes(y=crisis, 
-             x=year,
-             color=developed)) +
-  geom_smooth() +
-  labs(y="Ratio of Countries W/ A Banking Crisis",
-       x="Year") +
+  transform(lexrate = plm::lag(wdi$exrate)) %>%
+  mutate(dep = (exrate-lexrate)/exrate) %>%
+  mutate(ccrisis = 
+           case_when(dep > 0.1 ~ 1,
+                     dep < 0.0999999 ~ 0,
+                     is.na(dep) ~ 0
+           )) %>%
+    filter(GDPpc<10000) %>%
+  drop_na(ccrisis) %>%
+  group_by(year) %>%
+  summarise(y.ccrisis = sum(ccrisis)) -> wdi2
+
+wdi %>%
+  transform(lexrate = plm::lag(wdi$exrate)) %>%
+  mutate(dep = (exrate-lexrate)/exrate) %>%
+  mutate(ccrisis = 
+           case_when(dep > 0.1 ~ 1,
+                     dep < 0.0999999 ~ 0,
+                     is.na(dep) ~ 0
+           )) %>%
+  drop_na(ccrisis) %>%
+  group_by(year) %>%
+  summarise(y.ccrisis = sum(ccrisis)) %>%
+  ggplot(aes(y=y.ccrisis, 
+             x=year)) +
+  geom_bar(aes(fill='developed'),
+           stat = "identity",   alpha=0.5) +
+  geom_bar(data=wdi2, 
+           aes(x=year, y=y.ccrisis, fill='underdeveloped'), 
+           stat = "identity") +
+  labs(y="# of Currency Crises") +
   theme_minimal() +
   theme(legend.title = element_text(size=0),
-        legend.text = element_text(size=25),
-        axis.text=element_text(size=25),
-        axis.title=element_text(size=25))
+        legend.text = element_text(size=15),
+        axis.text=element_text(size=15),
+        axis.text.x = element_text(angle = 75,
+                                   vjust = 0.5),
+        axis.title=element_text(size=15)) 
+
+
 
 ```
 
-
 ---
+class: inverse
+background-color: black
+background-image: url(https://i1.wp.com/228main.com/wp-content/uploads/2015/11/graph.jpg?resize=620%2C471&ssl=1)
+background-position: right
+background-size: 70%
 
+# Just .red[how]  does <br> a financial crisis <br> happen?
+
+--
+
+### Rodrigue (2006)
+
+--
+
+### Kindleberger (1979)
+
+- .large[mania]
+
+- .large[panic]
+
+- .large[crash]
 
