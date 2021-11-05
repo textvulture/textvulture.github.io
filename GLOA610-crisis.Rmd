@@ -43,8 +43,46 @@ background-size: cover
 # .huge[**Global Economic Crisis <br> GLOA 610-001**]
 
 ---
+class: inverse, middle, center
+background-image: url(https://epe.brightspotcdn.com/dims4/default/cfee7fb/2147483647/strip/true/crop/589x400+5+0/resize/840x570!/quality/90/?url=https%3A%2F%2Fepe-brightspot.s3.amazonaws.com%2F20%2F8d%2Fbc180f541b3e7d17d138e4c3b9c5%2F37modechay-img.jpg)
+background-size: cover
 
-```{r include=FALSE}
+# .HUGE[**Types of Crisis**]
+
+---
+
+class: inverse, middle, center
+background-image: url(https://wickedgoodgaming.com/wp-content/uploads/2019/10/bankrupt.gif)
+background-size: cover
+
+# .huge[**(Sovereign) Debt Crisis**]
+
+# *'The government cannot service the debt anymore'*
+
+---
+
+class: inverse, middle, center
+background-image: url(https://image.shutterstock.com/image-illustration/paris-police-hold-back-crowd-260nw-242294071.jpg)
+background-size: cover
+
+# .huge[**Banking Crisis**]
+
+# *'The bank doesn't have your money.'*
+
+---
+
+class: inverse, middle, center
+background-image: url(http://prod-upp-image-read.ft.com/8a4b2c44-c350-11e5-808f-8231cd71622e)
+background-size: cover
+
+# .huge[**Currency Crisis**]
+
+# *'The currency is now just a piece of paper.'*
+
+---
+
+
+```{r include=FALSE, cache=T}
 
 library(WDI)
 library(lubridate)
@@ -61,8 +99,37 @@ wdi <- WDI(indicator=var,
 
 ```
 
+---
 <div class="full-width-tinted"><br>
   <h1> .large[Banking Crisis Trend ] </h1> 
+</div><br><br> 
+
+```{r message=FALSE, echo=FALSE, warning=FALSE, results="asis", fig.width=16, fig.height=7, cache=T}
+
+wdi %>%
+  drop %>%
+  drop_na(GDPpc) %>%
+  drop_na(crisis) %>%
+  group_by(year) %>%
+  summarise(y.crisis = sum(crisis)) %>%
+  ggplot(aes(x=year,
+             y=y.crisis)) +
+  geom_bar(stat = "identity",
+           fill='purple',
+           alpha=0.5) +
+    labs(y="# of Banking Crises") +
+  theme_minimal() +
+  theme(legend.title = element_text(size=0),
+        legend.text = element_text(size=25),
+        axis.text=element_text(size=25),
+        axis.title=element_text(size=25))
+
+```
+
+---
+
+<div class="full-width-tinted"><br>
+  <h1> .large[Banking Crisis Trend, Poor vs. Rich ] </h1> 
 </div><br><br> 
 
 ```{r message=FALSE, echo=FALSE, warning=FALSE, results="asis", fig.width=16, fig.height=7, cache=T}
@@ -90,30 +157,5 @@ wdi %>%
 
 
 ---
-
-```{r message=FALSE, echo=FALSE, warning=FALSE, results="asis", fig.width=16, fig.height=7, cache=T}
-
-wdi %>%
-  drop %>%
-  drop_na(GDPpc) %>%
-  drop_na(crisis) %>%
-  mutate(developed = 
-           case_when(GDPpc > 10000 ~ "developed",
-                     GDPpc < 10000 ~ "underdeveloped"
-                     )) %>%
-  group_by(year) %>%
-  summarise(y.crisis = sum(crisis)) %>%
-
-  ggplot(aes(x=year,
-             y=y.crisis)) +
-  geom_bar(stat = "identity") +
-    labs(y="# of Banking Crises") +
-  theme_minimal() +
-  theme(legend.title = element_text(size=0),
-        legend.text = element_text(size=25),
-        axis.text=element_text(size=25),
-        axis.title=element_text(size=25))
-
-```
 
 
