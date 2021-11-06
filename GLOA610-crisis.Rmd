@@ -207,9 +207,51 @@ background-size: 70%
 
 ### Kindleberger (1979)
 
+- .large[*opportunity*]
+
 - .large[mania]
 
 - .large[panic]
 
 - .large[crash]
 
+### Oatley (2019)
+
+---
+
+class: inverse
+background-color: black
+background-image: url(https://c.tenor.com/5Egq59EfO1MAAAAC/dont-cry-for-me-argentina-evita.gif)
+background-position: right
+background-size: 77%
+
+# But, wouldn't governments <br> .yellow[rein in]  when the bubble <br> builds up?
+
+--
+
+## - .green[domestic] & <br> .red[global] contexts
+
+
+
+---
+
+class: inverse
+background-color: black
+
+<div class="full-width-tinted"><br>
+  <h1> .large[What can be done?] </h1> 
+</div><br><br> 
+
+# Cyclical and .green[counter]-cyclical policies?
+
+--
+
+### Farrell & Quiggin (2017)
+
+--
+
+# Can .yellow[democracy] do something about it?
+
+--
+
+### Remmer (1990)
