@@ -257,16 +257,19 @@ background-size: 50%
 - .large[Morabito & Sergei (2018)]
 ---
 
-class: inverse, bottom
-background-image: url(https://envato-shoebox-0.imgix.net/4f8b/355a-d894-4a3e-b478-e33519a7d7d6/DSC01266.jpg?auto=compress%2Cformat&fit=max&mark=https%3A%2F%2Felements-assets.envato.com%2Fstatic%2Fwatermark2.png&markalign=center%2Cmiddle&markalpha=18&w=700&s=7c23910e148e96d837f1d3727622e327)
-background-size: cover
+class: inverse, middle
+background-image: url(https://images.unsplash.com/photo-1589307904488-7d60ff29c975?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTJ8fGNvdXJ0fGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&w=1000&q=80)
+background-size: 50%
+background-position: left
+background-color: black
 
-.blockquote[
-# Transitional Justice (ICTJ)
+.pull-right[
 
-.orange[.Large[the attempts of countries “emerging from periods of conflict and repression” to“address large scale or systematic human rights violations so numerous and soserious that the normal justice system will not be able to provide an adequateresponse.]]
+# .yellow[**Transitional Justice (ICTJ)**]
+
+## the attempts of countries “emerging from periods of conflict and repression” to“address large scale or systematic human rights violations so numerous and serious that the .red[normal] justice system will .red[not] be able to provide an adequate response.
+
 ]
-
 ---
 
 <div class="full-width-tinted"><br>
@@ -302,5 +305,36 @@ vdem %>%
 ---
 class: inverse, center, middle
 background-image: url(https://www.myanmar-now.org/sites/myanmar-now.org/files/styles/header_image_large/public/news-images/h_56743637_0.jpg?itok=_6UtpMX7)
+background-size: cover
 
 # .Huge[**Transitional Justice <br> in Myanmar**]
+
+---
+
+# What happened in Myanmar: Ethnic Cleansing
+
+<iframe width="960" height="512" src="https://www.youtube.com/embed/1cZJJeOxQ-s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+---
+
+class: inverse
+background-color: black
+background-image:url(https://static01.nyt.com/images/2021/03/24/world/00myanmar-explainer-newtop/00myanmar-explainer-newtop-mediumSquareAt3X.jpg)
+background-size: 55%
+background-position: right
+
+# .Large[Is self-correction possible?] <br> &nbsp; &nbsp; .tiny[:  *if so, not a transitional justice situation*]
+
+--
+
+# .orange[`r fa("fist-raised")`] &nbsp; Domestic
+
+## - .yellow[coup]: accountability .red[`r fa("times-circle")`]
+
+## - 'national race' (Cheesman 2017)
+
+--
+
+# .orange[`r fa("globe")`] &nbsp; International
+
+## - Chinese involvement; UN

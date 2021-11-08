@@ -43,6 +43,32 @@ background-size: cover
 # .huge[**Global Economic Crisis <br> GLOA 610-001**]
 
 ---
+class: inverse
+background-image: url(https://www.brunswickgroup.com/media/3062/crisis.jpg?anchor=center&mode=crop&heightratio=0.5625&width=767&rnd=131871899560000000)
+background-size: cover
+
+
+# .Large[What is a .red[CRISIS] everybody talks about?]
+
+--
+
+## `r fa("microphone-alt")` &nbsp; Marxist Perspective
+
+--
+
+## `r fa("microphone-alt")` &nbsp; Critical Theory Perspective
+
+--
+
+## `r fa("microphone-alt")` &nbsp; Neoclassical Economics Perspective 
+
+--
+
+## - .red[Not wrong], but offer only a partial picture; little to no solution 
+
+# .yellow[`r fa("exclamation-circle")`] &nbsp; Really, an epistemological problem
+
+---
 class: inverse, middle, center
 background-image: url(https://epe.brightspotcdn.com/dims4/default/cfee7fb/2147483647/strip/true/crop/589x400+5+0/resize/840x570!/quality/90/?url=https%3A%2F%2Fepe-brightspot.s3.amazonaws.com%2F20%2F8d%2Fbc180f541b3e7d17d138e4c3b9c5%2F37modechay-img.jpg)
 background-size: cover
@@ -191,25 +217,100 @@ wdi %>%
 ```
 
 ---
+
 class: inverse
 background-color: black
-background-image: url(https://stray-reflections.com/storage/images/articles/16068579750.png)
-background-position: right
-background-size: 70%
+
+<div class="full-width-tinted"><br>
+  <h1> .large[Just .red[how] does a financial crisis happen?] </h1> 
+</div><br><br> 
+
+.right-column[
+
+```{r echo=F, out.height=450, out.width=700}
+knitr::include_graphics("https://stray-reflections.com/storage/images/articles/16068579750.png")
+```
+
+]
+
+.left-column[
+
+### Kindleberger (1979)
+
+### - .yellow[mania];
+
+### - .orange[panic];
+
+### - .red[crash]
+
+.black[]
+]
+
+---
+
+class: inverse
+background-color: black
 
 
 <div class="full-width-tinted"><br>
   <h1> .large[Just .red[how] does a financial crisis happen?] </h1> 
 </div><br><br> 
 
---
 
-## Kindleberger (1979)
+.right-column[
+.center[
+```{r echo=F, out.height=450, out.width=700}
+knitr::include_graphics("https://z822j1x8tde3wuovlgo7ue15-wpengine.netdna-ssl.com/wp-content/uploads/2013/11/131102-08.png")
+```
+]
+]
+
+.left-column[
+### Kindleberger (1979)
+
+### - .yellow[mania]
+
+### - .orange[panic] 
+
+### - .red[crash]
+
+.black[]
+]
 
 
---
+---
 
-## Oatley (2019)
+class: inverse
+background-color: black
+
+
+<div class="full-width-tinted"><br>
+  <h1> .large[Just .red[how] does a financial crisis happen?] </h1> 
+</div><br><br> 
+
+
+.right-column[
+.center[
+```{r echo=F, out.height=450, out.width=700}
+knitr::include_graphics("https://z822j1x8tde3wuovlgo7ue15-wpengine.netdna-ssl.com/wp-content/uploads/2013/11/131102-08.png")
+```
+]
+]
+
+.left-column[
+### Kindleberger (1979)
+
+### - .yellow[mania]
+
+### - .orange[panic] 
+
+### - .red[crash]
+
+### but also Oatley (2019)
+
+.black[]
+]
+
 
 ---
 
@@ -233,10 +334,10 @@ class: inverse
 background-color: black
 
 <div class="full-width-tinted"><br>
-  <h1> .large[What can be done?] </h1> 
+  <h1> .large[What can be done? (*post-hoc, at least*)] </h1> 
 </div><br><br> 
 
-# Cyclical and .green[counter]-cyclical policies?
+# Cyclical and .green[counter]-cyclical policies? (*why austerity?*)
 
 --
 
@@ -244,7 +345,7 @@ background-color: black
 
 --
 
-# Can .yellow[democracy] do something about it?
+# Can .yellow[democracy] do something about it? 
 
 --
 
