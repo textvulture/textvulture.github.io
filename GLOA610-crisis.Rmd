@@ -237,9 +237,9 @@ knitr::include_graphics("https://stray-reflections.com/storage/images/articles/1
 
 ### Kindleberger (1979)
 
-### - .yellow[mania];
+### - .yellow[mania]
 
-### - .orange[panic];
+### - .orange[panic]
 
 ### - .red[crash]
 
@@ -306,7 +306,9 @@ knitr::include_graphics("https://z822j1x8tde3wuovlgo7ue15-wpengine.netdna-ssl.co
 
 ### - .red[crash]
 
-### but also Oatley (2019)
+### Oatley (2019)
+
+- .large[.red[complex] system approach]
 
 .black[]
 ]
