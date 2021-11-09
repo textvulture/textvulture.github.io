@@ -51,7 +51,8 @@ background-size: cover
 library(WDI)
 
 var = c('CO2' = 'NY.ADJ.DCO2.GN.ZS',
-        'air' = 'EN.ATM.PM25.MC.M3')
+        'air' = 'EN.ATM.PM25.MC.M3',
+         'GDPpc' = 'NY.GDP.PCAP.KD')
 
 wdi <- WDI(indicator=var,
            start=1970,
@@ -72,6 +73,7 @@ wdi %>%
              country == "Mongolia" ~ "Mongolia",
              country != "East Asia & Pacific" ~ "Others"
            )) %>%
+  mutate(lnGDPpc = log2(GDPpc)) %>%
   filter(Asia != "Others")-> wdi2
   
 wdi %>%
@@ -87,6 +89,7 @@ wdi %>%
              country == "Mongolia" ~ "Mongolia",
              country != "East Asia & Pacific" ~ "Others"
            )) %>%
+  mutate(lnGDPpc = log2(GDPpc)) %>%
   filter(Asia == "Others")-> wdi3
 ```
 
@@ -101,7 +104,9 @@ wdi %>%
   ggplot(wdi2, aes(x=year,
              y=air
              )) +
-  geom_point(data=wdi2, aes(color=Asia), alpha=1, size=2) +
+  geom_point(data=wdi2, 
+             aes(color=Asia, size=lnGDPpc), 
+             alpha=0.5) +
   geom_point(data=wdi3, size=0.15, alpha=0.25, color='black') + 
   labs(x = "YEAR",
        y = "Air Pollution (mg per cubic meter)") +
@@ -125,7 +130,8 @@ wdi %>%
   ggplot(wdi2, aes(x=year,
              y=CO2
              )) +
-  geom_point(data=wdi2, aes(color=Asia), alpha=1, size=2) +
+  geom_point(data=wdi2, aes(color=Asia, size=lnGDPpc), 
+             alpha=0.5) +
   geom_point(data=wdi3, size=0.15, alpha=0.25, color='black') + 
   labs(x = "YEAR",
        y = "Economic Cost of CO2 (% GNI)") +
