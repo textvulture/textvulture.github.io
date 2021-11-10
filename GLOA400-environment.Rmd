@@ -46,7 +46,7 @@ background-size: cover
 
 
 
-```{r include=F}
+```{r include=F, cache=T}
 
 library(WDI)
 
@@ -143,5 +143,55 @@ wdi %>%
 
 ```
 
+---
+
+
+<div class="full-width-tinted"><br>
+  <h1> .large[Environmental Kuznets Curve]  </h1> 
+</div><br><br> 
+
+.pull-left[
+
+## The relationship b/w <br> .green[economic globalization] and .red[environmental degradation]
+
+### - Inverted U-curve shape (Zaidi et al. 2019)
+
+### - Distributive implications
+
+### - Reforms may incur economic costs: China (Xu et al. 2019)
+
+]
+
+.pull-right[
+
+.center[
+![](https://www.intelligenteconomist.com/wp-content/uploads/2018/03/Environmental-Kuznets-Curve-1.png)
+]
+]
+
 
 ---
+
+
+class: inverse
+background-image: url(http://cdn.statcdn.com/Infographic/images/normal/17239.jpeg)
+background-size: contain
+background-position: right
+background-color: #DF9A06
+
+# .LARGE[.red[`r fa("head-side-mask")`] Urban Air Pollution]
+
+--
+
+# South Asia -- Why seasonal?
+
+# Are urbanization <br> the .red[only] source of air pollution?
+
+--
+
+## - Biomass burning in the .green[rural] areas <br> (Bikkina et al.2019)
+
+
+
+
+
