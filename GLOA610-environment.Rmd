@@ -282,7 +282,7 @@ background-size: 100%
 background-position: left
 background-color: black
 
-# What are som <br> (fundamental) .red[threats] <br> to public health?
+# What are some <br> (fundamental) .red[threats] <br> to public health?
 
 --
 
