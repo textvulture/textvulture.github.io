@@ -198,7 +198,7 @@ background-color: black
 
 # - Bayer & Urpelainen (2016)
 
-# .Large[.green[Interest] groups]
+# .Large[.green[Old] problems, .red[new] issues]
 
 # - Economist (2019)
 
