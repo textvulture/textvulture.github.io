@@ -235,7 +235,7 @@ background-image: url(https://guardian.ng/wp-content/uploads/2020/09/education.j
 background-size: contain
 
 
-# .large[How do education .yellow[promote] development?]
+# .large[How does education .yellow[promote] development?]
 
 --
 
