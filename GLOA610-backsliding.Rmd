@@ -84,6 +84,17 @@ background-size: cover
 # .huge[.right[But is it <br> .red[necessarily] <br> right?]]
 
 ---
+
+class: inverse
+background-image: url(https://pbs.twimg.com/media/FEq4rUyVgAMaKpY?format=jpg&name=medium)
+background-size: 80%
+background-position: right
+background-color: black
+
+# .Large[.yellow[**SO. MUCH. <br> ECONOMIC. <br> ANXIETY**]]
+---
+
+
 .pull-left[
 <br>
 .center[
@@ -255,6 +266,8 @@ background-position: right
 - https://d21rhj7n383afu.cloudfront.net/washpost-production/The_Washington_Post/20210107/5ff6767d4cedfd00015fab72/5ff67838c9e77c0007a14669_1450955028646-chsuqu_t_1609988154811_640_360_400.gif
 
 - https://media0.giphy.com/media/wjgmCHInvS32MH2MZr/giphy.gif?cid=ecf05e47ftb77in7effypz3hapgnjr16ixxjp2qspnm2besr&rid=giphy.gif&ct=g
+
+- https://pbs.twimg.com/media/FEq4rUyVgAMaKpY?format=jpg&name=medium
 
 - https://media.istockphoto.com/photos/we-are-99-picture-id155132989?k=20&m=155132989&s=612x612&w=0&h=yHyr7cW7QmEBN2s66DumUZ_UM9cD3KU0jxiyfMxASek=
 
