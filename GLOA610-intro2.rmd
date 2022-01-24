@@ -299,6 +299,7 @@ background-color: black
 
 ```{r, message=FALSE, echo=FALSE, warning=FALSE, results="asis", fig.width=16, fig.height=6, cache=T}
 # install.packages('WDI')
+
 library(tidyverse)
 library(WDI)
 library(ggplot2)
@@ -329,7 +330,8 @@ wdi %>%
   scale_color_manual(values=c("red", "blue")) +
   theme(legend.text = element_text(size=13),
         axis.text=element_text(size=15),
-        axis.title=element_text(size=15))
+        axis.title=element_text(size=15)) +
+  theme_minimal()
 
 ```
 
@@ -349,7 +351,8 @@ wdi %>%
   scale_color_manual(values=c("red", "blue")) +
   theme(legend.text = element_text(size=13),
         axis.text=element_text(size=15),
-        axis.title=element_text(size=15))
+        axis.title=element_text(size=15)) +
+  theme_minimal()
 
 ```
 
@@ -370,7 +373,8 @@ wdi %>%
   scale_color_manual(values=c("red", "blue")) +
   theme(legend.text = element_text(size=13),
         axis.text=element_text(size=15),
-        axis.title=element_text(size=15))
+        axis.title=element_text(size=15)) +
+  theme_minimal()
 
 ```
 
@@ -393,7 +397,8 @@ ggplot(data=wdi %>%
   theme(legend.title = element_blank()) +
   theme(legend.text = element_text(size=13),
         axis.text=element_text(size=15),
-        axis.title=element_text(size=15))
+        axis.title=element_text(size=15)) +
+  theme_minimal()
 
 ```
 
