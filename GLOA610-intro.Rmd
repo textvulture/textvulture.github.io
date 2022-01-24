@@ -191,11 +191,13 @@ background-size: cover
 # .huge[It's lazy science at best.]
 ---
 
-
-background-color: #50394c
 class: inverse
+background-image: url(https://preventionlane.org/wp-content/uploads/2015/02/blackboard.jpg)
 
-# So please avoid using the blanket term 'neoliberalism' .yellow[in this class] (but def. do in *other* classes)
+<div class="full-width-tinted"><br>
+  <h1> So please avoid using the blanket term 'neoliberalism' .yellow[in this class] (but def. do in *other* classes)
+ </h1> 
+</div><br><br> 
 
 --
 
@@ -234,7 +236,9 @@ background-size: contain
 class: inverse
 background-image: url(https://preventionlane.org/wp-content/uploads/2015/02/blackboard.jpg)
 
-# Okay, we want to accomplish today:
+<div class="full-width-tinted"><br>
+  <h1> .huge[We want to accomplish today:] </h1> 
+</div><br><br> 
 
 # 1. overview of the syllabus
 
