@@ -1,5 +1,5 @@
 ---
-title: ".green[Introduction] <br> GLOA 610"
+title: "Introduction, GLOA610"
 author: "Byunghwan Son <br> George Mason University"
 date: " "
 #########################################
@@ -49,6 +49,8 @@ class: inverse, center, middle
 ---
 
 class: inverse, middle
+background-image: url(https://images.unsplash.com/photo-1459015508864-5fa6de29b58a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTZ8fGZvcmVzdCUyMGRhd258ZW58MHx8MHx8&w=1000&q=80)
+background-size: cover
 
 # Really glad to see you all today.
 
@@ -58,7 +60,7 @@ class: inverse, middle
 
 --
 
-# In the mean time, let's .yellowp[strictly] adhere to the safety rules: e.g., relentless and robust masking `r fa("head-side-mask")`.
+# In the mean time, let's .yellowp[strictly] adhere to the safety rules: e.g., relentless and robust masking .yellow[`r fa("head-side-mask")`].
 
 ---
 # Introduction: Byunghwan Son 
@@ -160,9 +162,9 @@ background-size: cover
 class: inverse
 background-color: black
 
-# So when a student taking 610 says:
+# So when someone says:
 
-.blockquote[.huge[*"People of* .green[country X] *are trapped in poverty, which has been perpetuated by .yellow[neoliberalism]"*]]
+.blockquote[.huge["*People of* country X *are trapped in poverty, which has been perpetuated by .yellow[neoliberalism*]"] ]
 
 --
 
@@ -175,20 +177,23 @@ background-color: black
 
 
 class: inverse, top
-background-image: url(https://media.giphy.com/media/l0EwYzW7Tm8Xkow9O/giphy-downsized-large.gif?cid=ecf05e47e41ywxmvd7fi8jnn5mnu8t10v89stcxbg7ut3brw&rid=giphy-downsized-large.gif&ct=g)
-background-size: cover
+background-image: url(https://c.tenor.com/SA4YQic_1QIAAAAd/austin-powers-dr-evil.gif)
+background-size: contain
+background-color: black
 
+--
+
+<br>
 # .huge[There isn't one ... not that I know of.]
 <br>
 <br>
 <br>
 <br>
 <br>
-<br>
-<br>
-<br>
 
-# .huge[It's lazy science at best.]
+--
+
+# .huge[It's .red[lazy] science at best.]
 ---
 
 class: inverse
@@ -201,11 +206,13 @@ background-image: url(https://preventionlane.org/wp-content/uploads/2015/02/blac
 
 --
 
-## - For conceptual accuracy and intellectual rigor.
+## - For conceptual accuracy and intellectual rigor 
+
+### (for training purposes; hence *only* in this class).
 
 --
 
-## - Be specific: 
+## - Instead, be specific: 
 
 ### isn't it 'privatization,' 'deregulation,' 'trade liberalization,' or 'austerity' that you .orange[actually] want to talk about when you say something along the line of '*the neoliberal reforms exacerbated the situation*'?
 
@@ -246,3 +253,19 @@ background-image: url(https://preventionlane.org/wp-content/uploads/2015/02/blac
 
 # 3. brief review of social science methods.
 
+---
+
+### Image Sources
+.tiny[
+- https://hive.rochesterregional.org/-/media/how-to-properly-wear-a-mask-copy.jpg?h=1056&w=1290&la=en&hash=B547AA40883BD31A0D1956102204C575632B8274&hash=B547AA40883BD31A0D1956102204C575632B8274
+
+- https://images.unsplash.com/photo-1459015508864-5fa6de29b58a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTZ8fGZvcmVzdCUyMGRhd258ZW58MHx8MHx8&w=1000&q=80
+
+- https://img.wallpapersafari.com/desktop/1024/576/56/91/p7HYat.jpg
+
+- https://media.giphy.com/media/l0EwYzW7Tm8Xkow9O/giphy-downsized-large.gif?cid=ecf05e47e41ywxmvd7fi8jnn5mnu8t10v89stcxbg7ut3brw&rid=giphy-downsized-large.gif&ct=g
+
+- https://preventionlane.org/wp-content/uploads/2015/02/blackboard.jpg
+
+- https://gifimage.net/wp-content/uploads/2018/05/say-my-name-gif-5.gif
+]
