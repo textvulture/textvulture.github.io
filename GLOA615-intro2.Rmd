@@ -317,7 +317,7 @@ background-color: #c94c4c
 
 .pull-right[.center[
 ```{r, echo=FALSE, out.width = '70%'}
-knitr::include_graphics('images/macron.jpg')
+knitr::include_graphics('https://www.ibtimes.com.au/sites/au.ibtimes.com/files/styles/v2_article_large/public/2020/08/07/macron-visited-shell-shocked-beirut-pledging-support-and.jpg?itok=ppKlNwT1')
 ```
 ]]
 
