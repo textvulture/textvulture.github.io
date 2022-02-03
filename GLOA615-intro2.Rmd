@@ -364,7 +364,7 @@ background-color: black
 
 .center[
 ```{r, echo=FALSE, out.width='80%'}
-knitr::include_graphics('images/banyan.jpg')
+knitr::include_graphics('banyan.jpg')
 ```
 ]
 
@@ -374,7 +374,7 @@ knitr::include_graphics('images/banyan.jpg')
 
 .center[
 ```{r, echo=FALSE, out.width='60%'}
-knitr::include_graphics('images/banyan2.jpg')
+knitr::include_graphics('banyan2.jpg')
 ```
 ]
 
@@ -392,7 +392,7 @@ knitr::include_graphics('images/banyan2.jpg')
 
 .center[
 ```{r, echo=FALSE, out.width='70%'}
-knitr::include_graphics('images/kpopgov.jpg')
+knitr::include_graphics('kpopgov.jpg')
 ```
 ]
 
