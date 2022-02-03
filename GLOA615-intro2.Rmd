@@ -330,7 +330,7 @@ background-color: black
 
 .center[
 ```{r, echo=FALSE, out.width = '90%'}
-knitr::include_graphics('avenell.jpg')
+knitr::include_graphics('http://textvulture.github.io/avenell.JPG')
 ```
 ]
 
