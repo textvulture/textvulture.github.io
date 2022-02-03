@@ -35,7 +35,6 @@ library(ggplot2)
 library(tidyverse)
 ```
 
----
 class: inverse, right
 background-image: url(https://penntoday.upenn.edu/sites/default/files/2020-09/iStock-521759159.jpg)
 
