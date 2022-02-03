@@ -390,11 +390,7 @@ knitr::include_graphics('banyan2.jpg')
 
 # Example of cherry-picking and reconstruction (3)
 
-.center[
-```{r, echo=FALSE, out.width='70%'}
-knitr::include_graphics('kpopgov.jpg')
-```
-]
+<iframe src="https://www.npr.org/sections/codeswitch/2015/04/13/399414351/how-the-south-korean-government-made-k-pop-a-thing" width="180%" height="120%" ></iframe>
 
 ---
 
