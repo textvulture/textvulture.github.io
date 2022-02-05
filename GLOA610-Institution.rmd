@@ -1,6 +1,5 @@
 ---
-title: ".green[Introduction] <br> GLOA 610"
-subtitle: "Institutions and Development"
+title: "Institutions and Development GLOA 610"
 author: "Byunghwan Son <br> George Mason University"
 date: " "
 #########################################
@@ -42,11 +41,11 @@ library(flagr)
 class: inverse, left
 background-image: url(https://i0.wp.com/calmatters.org/wp-content/uploads/2021/01/iStock_court_02.jpg?fit=2000%2C1333&ssl=1)
 background-position: right
-background-size: contain
+background-size: cover
 background-color: black
 
-# .huge[Institutions <br> & <br> Development]
-# GLOA 610
+# .huge[**Institutions & <br> Development**]
+# .huge[.texttt[GLOA 610]]
 
 ---
 
@@ -69,7 +68,8 @@ background-size: contain
 
 ---
 class: inverse
-background-color: #3e4444
+background-image: url(https://wallpaperaccess.com/full/1390893.jpg)
+background-size: cover
 
 # Institutions (North 1991)
 
@@ -84,15 +84,17 @@ background-color: #3e4444
 
 --
 
-.content-box-green[
+
 ### .red[The origin]: As the scope of transaction *grows*, the uncertainty also increases:
 
-- .black[.Large[agency-principal problem]]
+- .Large[.orange[agency-principal] problem]
 
-- .black[.Large[contract enforcement problem]]
+- .Large[.orange[contract enforcement] problem]
+
+--
 
 ### Development needs .red[impersonal enforcement `r fa("gavel")`]
-]
+
 
 ---
 
@@ -110,7 +112,8 @@ background-size: cover
 ---
 
 class: inverse
-background-color: #3e4444
+background-image: url(https://media.istockphoto.com/photos/chalkboard-back-to-school-theme-picture-id482968188?b=1&k=20&m=482968188&s=170667a&w=0&h=ByKSDUnnROrFuIg3wYAP2EE7e8pLVdi7_99TRSzIdxU=)
+background-size: cover
 
 # In particular, we will be talking about:
 
@@ -137,6 +140,8 @@ background-color: #3e4444
 ---
 
 class: inverse
+background-image: url(https://images.unsplash.com/photo-1578662996442-48f60103fc96?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1000&q=80)
+background-size: cover
 
 # `r fa("landmark")` &nbsp; Institutions matter a lot for development because it addresses one of the biggest fears in business: .red[uncertainty]
 
