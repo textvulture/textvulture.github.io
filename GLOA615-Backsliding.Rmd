@@ -80,11 +80,11 @@ background-color:  #808000
 
 --
 
-## `r fa("share-alt", fill="black")` homogenization of the .red[form] of poltics
+## `r fa("share-alt", fill="black")` .yellow[homogenization] of the forms of poltics
 
 --
 
-## `r fa("chart-line", fill="black")` rise of institutions
+## `r fa("chart-line", fill="black")` development of institutions
 
 ---
 
@@ -136,29 +136,43 @@ ggplot(df, aes(x = year, y=value)) +
 class: inverse, middle
 background-color: #563f46
 
-# So, .red[what we're talking about] matters for political globalization
+# .LARGE[It's *still* about .green[globalization]]
 
 --
 
-## - democratization cases in Asia
+# - democratization in Asia :: homogenization :: .yellow[political] globalization
 
-## - backsliding cases in Asia: the Philippines (populism) & Cambodia (backsliding)
+--
+
+# - backsliding in Asia :: derailing :: .yellow[political] .red[de]globalization 
+
+--
+
+## - Internally- (the Philippines) & Externally-driven (Cambodia) cases
 
 ---
 
-class: inverse, middle, center
+class: inverse
 background-color: black
 
-# .Large[What does political globalization (democratization) in Asia look like?]
+<div class="full-width-tinted"><br>
+  <h1> .large[What does political globalization look like in Asia?] </h1> 
+</div><br>
+
 
 --
+<br>
+<br>
+# .red[Hard to answer], 
 
-# .red[confusing], because the traditional, textbook explanations don't work here (.yellow[or] so diverse, it's a "natural laboratory").
+## because the traditional, textbook explanations don't work here (.yellow[or] "so diverse," it's a "natural laboratory").
 
+##  1) modernization theory `r fa(name="times-circle", fill="red")`
+## 2) contentious politics thesis `r fa(name="times-circle", fill="red")`
 ---
 
 
-# Textbook #1: democratization happens with .red[economic development] (GDP per capita)
+# Textbook #1: democratization happens with .red[economic development] (GDP per capita) -- .green[Modernization Theory]
 
 --
 
@@ -170,7 +184,7 @@ knitr::include_graphics('http://textvulture.github.io/images/gdp400.png')
 
 ---
 
-# Textbook #2: democratization happens with increasing .red[income inequality] (Gini index)
+# Textbook #2: democratization happens with increasing .red[income inequality] (Gini index) -- .green[Contentious Politics]
 
 --
 
