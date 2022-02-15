@@ -1,5 +1,5 @@
 ---
-title: ".green[Trade and Development] <br> GLOA 610"
+title: "Trade GLOA 610"
 author: "Byunghwan Son <br> George Mason University"
 date: " "
 #########################################
@@ -45,8 +45,8 @@ background-size: cover
 background-position: center
 background-color: black
 
-# .large[.green[Trade and Development]]
-# GLOA 610
+# .huge[**Trade and <br> Development**]
+# .Large[GLOA 610]
 
 ---
 class: inverse, center, middle
@@ -55,21 +55,24 @@ background-color: #7C7B75
 # .huge[
 Does trade make <br>.blue[poor] countries .blue[poorer] and <br>.red[rich] countries .red[richer]?
 ]
+
 ---
 
+<div class="full-width-tinted"><br>
+  <h1> .large[Growth of Trading Sectors in a National Economy] </h1> 
+</div>
+<br>
+- .large[developed: GDP per capita > .red[25k]]
 
-# Trade Expansion Over Time 
-
-## developed: GDP per capita > .red[25k]
-
-```{r, message=FALSE, echo=FALSE, warning=FALSE, results="asis", fig.width=16, fig.height=6, cache=T}
+```{r, message=FALSE, echo=FALSE, warning=FALSE, results="asis", fig.width=16, fig.height=7, cache=T}
 # install.packages('WDI')
 library(tidyverse)
 library(WDI)
 library(ggplot2)
 
 var = c('Trade.gdp' = 'NE.TRD.GNFS.ZS',
-        'Trade.volumn' = 'BN.GSR.GNFS.CD',
+        'imports' = 'NE.IMP.GNFS.CD',
+        'exports' = 'NE.EXP.GNFS.CD',
         'GDPpc' = 'NY.GDP.PCAP.KD',
         'tariff' = 'TM.TAX.MRCH.SM.AR.ZS')
 
@@ -85,25 +88,58 @@ wdi %>%
            case_when(GDPpc > 25000 ~ "developed",
                      GDPpc < 25000 ~ "underdeveloped"
                      )) -> wdi2
+```
+
+
+```{r, message=FALSE, echo=FALSE, warning=FALSE, results="asis", fig.width=16, fig.height=7, cache=T}
 
 wdi2 %>%
   ggplot(aes(year, Trade.gdp, color=developed)) +
   geom_smooth(alpha=0.25, size=3) +
   labs(x="Year",
        y="Trade/GDP") +
+  theme_minimal() +
   theme(legend.title = element_blank()) +
   scale_color_manual(values=c("red", "blue")) +
-  theme(legend.text = element_text(size=13),
-        axis.text=element_text(size=15),
-        axis.title=element_text(size=15))
+  theme(legend.text = element_text(size=25),
+        axis.text=element_text(size=20),
+        axis.title=element_text(size=20)) 
 
 ```
 
 ---
-# When looking at poor countries only (GDP per capita < .red[10k])
 
+# The .red[Volume] of Trade
 
-```{r, message=FALSE, echo=FALSE, warning=FALSE, results="asis", fig.width=16, fig.height=6, cache=T}
+```{r, message=FALSE, echo=FALSE, warning=FALSE, results="asis", fig.width=16, fig.height=7, cache=T}
+
+wdi2 %>% 
+  mutate(logTrade = log(imports + exports)) %>%
+  mutate(developed2 = 
+           case_when(country=="China" ~ "China",
+                     country != "China" & developed == "underdeveloped" ~ "underdeveloped",
+                     developed == "developed" ~ "developed" )) %>%
+  ggplot(aes(year, logTrade, color=developed2)) +
+  geom_smooth(alpha=0.25, size=3) +
+  theme_minimal() + 
+  labs(x="Year",
+       y="Volume of Trade, log-scale") +
+  theme(legend.title = element_blank()) +
+  scale_color_manual(values=c("red", "blue", "green")) +
+  theme(legend.text = element_text(size=25),
+        axis.text=element_text(size=20),
+        axis.title=element_text(size=20)) 
+
+```
+
+---
+
+<div class="full-width-tinted"><br>
+  <h1> When looking at poor countries only (GDP per capita < .red[10k]) </h1> 
+</div>
+<br><br>
+
+```{r, message=FALSE, echo=FALSE, warning=FALSE, results="asis", fig.width=16, fig.height=7.5, cache=T}
 wdi2 %>%
   filter(GDPpc < 10000) %>%
   filter(Trade.gdp<200) %>%
@@ -112,16 +148,19 @@ wdi2 %>%
   geom_point(alpha=0.1, color='red', size=2) +
   labs(y="GDP per capita",
        x="Trade/GDP") +
+  theme_minimal() +
   theme(legend.title = element_blank()) +
-  theme(legend.text = element_text(size=13),
-        axis.text=element_text(size=15),
-        axis.title=element_text(size=15))
+  theme(legend.text = element_text(size=25),
+        axis.text=element_text(size=20),
+        axis.title=element_text(size=20))
 
 ```
 
 ---
-
-# Trade Liberalization (average tariff rates)
+<div class="full-width-tinted"><br>
+  <h1> Trade Liberalization (average tariff rates) </h1> 
+</div>
+<br>
 
 ### *extreme outliers are dropped*
 
@@ -133,12 +172,13 @@ wdi2 %>%
   geom_smooth(alpha=0.25, size=3) +
   labs(x="Year",
        y="Tariff Rates") +
+  theme_minimal() +
   geom_point(alpha=0.1, size=3) +
   theme(legend.title = element_blank()) +
   scale_color_manual(values=c("red", "blue")) +
-  theme(legend.text = element_text(size=13),
-        axis.text=element_text(size=15),
-        axis.title=element_text(size=15))
+  theme(legend.text = element_text(size=25),
+        axis.text=element_text(size=20),
+        axis.title=element_text(size=20))
 ```
 
 ---
@@ -163,18 +203,71 @@ wdi2 %>%
 .pull-right[
 
 ![](https://c.tenor.com/cogRcZUH8rQAAAAC/gun-drunk.gif)
+]
 
-### Before trade
+---
+
+# Some textbook-line fundamentals
+
+## Ricardian Free Trade
+
+### Really a very stylized one: .red[not] that this is a reality!
+
+
+
+.pull-left[
+### Some assumptions
+- .Large[two economies]
+- .Large[two products, same unit value]
+- .Large[10 workers for each economy]
+- .Large[people need both products]
+]
+
+.pull-right[
+
+### Before trade (5 workers in each sector)
 
 .Large[
-|        	| Gun 	| Tequila 	|
-|:------:	|:---:	|:-------:	|
-|   US   	|  10 	|    5    	|
-| Mexico 	|  2  	|    4    	|
+|        	| Gun 	| Tequila 	| total |
+|:------:	|:---:	|:-------:	| :-------: |
+|   US   	|  10 	|    5    	| ? |
+| Mexico 	|  2  	|    4    	| ? |
 ]
 ]
 
 ---
+
+# Some textbook-line fundamentals
+
+## Ricardian Free Trade
+
+### Really a very stylized one: .red[not] that this is a reality!
+
+
+
+.pull-left[
+### Some assumptions
+- .Large[two economies]
+- .Large[two products, same unit value]
+- .Large[10 workers for each economy]
+- .Large[people need both products]
+]
+
+.pull-right[
+
+### .red[After] trade (specialization)
+
+.Large[
+|        	| Gun 	| Tequila 	        | total |
+|:------:	|:---:	|:-------:	        | :---------: |
+|   US   	|  100 	|    .green[0]    	| 75 `r fa("arrow-right")` *100*  |
+| Mexico 	|  .green[0]  	|    40    	| 30 `r fa("arrow-right")` *40*  |
+
+]
+]
+
+---
+
 # Some textbook-line fundamentals
 
 ## Ricardian Free Trade
@@ -228,23 +321,29 @@ background-color: #A77305
 # .Huge[But, of course, the reality is a little different.]
 
 ---
+class: inverse
+background-color: black
 
-# For example ...
 
+# .yellow[For example ...]
 
-.right-column[
+.pull-left[
+.center[
+```{r, message=FALSE, echo=FALSE, warning=FALSE, out.width='60%'}
+knitr::include_graphics('https://images-na.ssl-images-amazon.com/images/I/819g1GOFv2S.jpg')
+```
+]
+]
+
+--
+
+.pull-right[
 .blockquote[
 # "Many of [the Western economies] protected their industries far more strongly than their current developing countries have done" (p. 127)
 ]
 ]
 
-.left-column[
-.center[
-```{r, message=FALSE, echo=FALSE, warning=FALSE, out.width='100%'}
-knitr::include_graphics('https://images-na.ssl-images-amazon.com/images/I/819g1GOFv2S.jpg')
-```
-]
-]
+
 
 ---
 class: inverse, left, middle 
@@ -287,7 +386,18 @@ background-size: contain
 |:----------------:	|:--------------:	|:---------------:	|:-----------------:	|
 | Traditional (HO) 	| .red[inter]-industry 	|  factor-mobile  	|    inter-factor   	|
 | New Trade Theory 	| .red[intra]-industry 	| factor-specific 	|   inter-industry  	|
-|      New New     	|   inter-.red[firm]   	|  firm-specific  	|     inter-firm    	|
+|      New New     	|   inter-firm   	|  firm-specific  	|     inter-firm    	|
+]
+
+---
+
+# Generations of Trade Theories (.small[i.e., how .red[specilalization] happens])
+.Large[
+|                  	|  Mode of Trade 	| Factor Mobility 	| Divide over Trade 	|
+|:----------------:	|:--------------:	|:---------------:	|:-----------------:	|
+| Traditional (HO) 	| .red[inter]-industry 	|  factor-mobile  	|    inter-factor   	|
+| New Trade Theory 	| .red[intra]-industry 	| factor-specific 	|   inter-industry  	|
+|      New New     	|   .green[**inter-firm**]   	|  .green[**firm-specific**]  	|     .green[**inter-firm**]    	|
 ]
 
 --
