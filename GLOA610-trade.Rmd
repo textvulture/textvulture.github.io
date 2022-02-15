@@ -109,7 +109,10 @@ wdi2 %>%
 
 ---
 
-# The .red[Volume] of Trade
+<div class="full-width-tinted"><br>
+  <h1> .large[The .red[Volume] of Trade] </h1> 
+</div>
+<br>
 
 ```{r, message=FALSE, echo=FALSE, warning=FALSE, results="asis", fig.width=16, fig.height=7, cache=T}
 
@@ -325,7 +328,7 @@ class: inverse
 background-color: black
 
 
-# .yellow[For example ...]
+# .yellow[Traditional Challenges]
 
 .pull-left[
 .center[
@@ -424,7 +427,27 @@ background-color: #334003
 ## Autor et al (2016); Owens & Johnston (2017)
 
 ---
+class: middle, inverse
 
+```{r, echo=F, out.width="25%"}
+knitr::include_graphics("https://thumbs.gfycat.com/ActiveCheerfulBarnacle.webp")
+```
+<br><br>
+.Large["Why Don't They <br> Find a Job <br> *Elsewhere*?"]
+
+---
+class: middle, inverse 
+background-image: url(http://textvulture.github.io/images/Autor2016.png)
+background-size: 70%
+background-position: right
+
+```{r, echo=F, out.width="25%"}
+knitr::include_graphics("https://thumbs.gfycat.com/ActiveCheerfulBarnacle.webp")
+```
+<br><br>
+.Large["Why Don't They <br> Find a Job <br> *Elsewhere*?"]
+
+---
 
 class: inverse, center, middle 
 background-color: #40033F
