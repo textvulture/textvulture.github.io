@@ -135,13 +135,27 @@ ggplot(data = df2,
 
 
 ---
-
 class: inverse, right, middle
-background-image: url('http://textvulture.github.io/images/fh-img.png')
+background-image: url('http://textvulture.github.io/images/fh-img2.png')
 background-size: contain
 
-# **Political Freedom <br> in Hong Kong: <br>'Partly Free'**
+--
 
+# .Large[** But why is it <br> 'Partly Free'?**]
+
+---
+class: inverse
+background-color: black
+
+# Yuen & Cheng (2017)
+
+.blockquote[
+## "[Hong Kong] is ... a .yellow[liberal enclave] within authoritarian China. However [it] also has a semi-authoritarian system with strong state-corporatist elements, where the Chief Executive and half of the legislature are .red[not elected via universal suffrage], allowing both its authoritarian principal in Beijing and local elites to wield immense power." (p. 614)
+]
+
+--
+
+## .red[`r fa("smile-wink")`] traditional tactic: 'tolerance' [elite cohesion + counter-protest + court]
 ---
 
 background-image: url(https://www.reuters.com/investigates/special-report/assets/hongkong-protests-extradition-narrative/RTS2ICNT.jpg?v=134011231219)
