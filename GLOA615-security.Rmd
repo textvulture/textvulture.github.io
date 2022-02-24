@@ -247,6 +247,56 @@ background-position: right
 
 ## `r fa("hand-paper", fill='red')` but a big caveat.
 
+
+---
+class: inverse, bottom, right
+
+background-image: url(https://s.abcnews.com/images/International/north-korea-military-parade1-ap-mem-180208_16x9_992.jpg)
+background-size: contain
+
+# .huge[**the obvious: Nuke Threat**] 
+
+--
+
+# .huge[But is it predictable? `r fa("chart-line", fill="orange")`]
+---
+
+# A compounder: the media `r fa("tv", fill='orange')` (Kim et al. 2018)
+
+```{r echo=F, out.width='900px'}
+knitr::include_graphics('http://textvulture.github.io/images/Kim2018_equation.png')
+```
+
+--
+
+```{r echo=F, out.width='1200px'}
+knitr::include_graphics('http://textvulture.github.io/images/Kim2018_figure.png')
+```
+
+---
+class: inverse
+background-color: black
+background-image: url(https://static.mfah.com/images/escape-from-mogadishu.4969214601134635490.jpg?width=715)
+background-position: right
+background-size: contain
+
+# .large[.red[Only] Nuke Threats in E. Asia? <br> (Salisbury 2021)]
+
+#  `r fa("user-secret", fill='green')` diplomats as agents
+- .Large[brokering, fascilitation & espionage]
+- .Large[WMD and conventional arms]
+
+# `r fa("suitcase-rolling", fill='orange')` why prevalent?
+- .Large[convenience, privilege, security]
+
+
+---
+class: inverse, left, middle
+background-image: url(https://c.tenor.com/RkDlXZgnp9UAAAAC/how-not-dead.gif)
+background-size: cover
+
+# .large[**Despite sanctions `r fa("handshake-slash", fill='red')`, <br>the regime hasn't collapsed. <br> Why?**]
+
 ---
 
 # '.green[Exit Polls]' (Change et al. 2009): the setting
@@ -358,19 +408,6 @@ knitr::include_graphics('https://i.pinimg.com/originals/32/01/cd/3201cdab29192ce
 
 ]
 
----
-
-# A compounder: the media `r fa("tv", fill='orange')`
-
-```{r echo=F, out.width='900px'}
-knitr::include_graphics('http://textvulture.github.io/images/Kim2018_equation.png')
-```
-
-
-
----
-
-# What Kind of Threats?
 
 ---
 
