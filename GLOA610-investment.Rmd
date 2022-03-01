@@ -260,10 +260,10 @@ background-size: contain
 # .yellow[Blanton and Blanton (2007); Malesky and Mosley (2018)]
 
 ---
-class: inverse
+class: inverse, middle
 background-color: #1C1B1C
 
-.pull-left[![](https://cnnphilippines.com/.imaging/mte/demo-cnn-new/960/dam/cnn/2018/7/25/land-environmental-killings.png/jcr:content/land-environmental-killings.png)]
+.pull-left[![](https://github.com/textvulture/textvulture.github.io/blob/master/images/Christensen.png?raw=true)]
 
 --
 
