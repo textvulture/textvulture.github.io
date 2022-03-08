@@ -40,7 +40,7 @@ class: inverse, bottom, right
 background-image: url(https://mk0criptonoticijjgfa.kinstacdn.com/wp-content/uploads/2020/10/bretton-Woods-acuerdo-monetario-bitcoin.jpg)
 background-size: contain
 
-# International Economic Organizations <br> and Development
+# .Large[.yellow[**International <br> Economic Organizations <br> and Development**]]
 # GLOA 610-001
 
 ---
@@ -48,42 +48,52 @@ background-image: url(https://c.tenor.com/wMgwsOy6N40AAAAC/baddies-are-we-the-ba
 background-size: contain
 class: inverse
 
-# Are the likes of <br> IMF and World Bank <br> the baddies?
+# .Large[Are the likes of <br> IMF and World Bank <br> the baddies?]
 
 ---
 class: inverse, center, middle
 background-color: #1A0563
 
-# .huge[If things really don't work out, why?]
+# .huge[If ineffective, .yellow[why?]]
 
 --
 
-# .huge[Do we actually *know* how they work?]
+# .Large[Do we even *know* how they work?]
 
 ---
-class: inverse, center
+class: inverse, left, middle
 background-image: url(https://68.media.tumblr.com/55ad887647f2e40068edde0a71c1bad0/tumblr_mxkdpmC7xP1rsrbdko1_r1_400.gif)
-background-size: contain
+background-size: 62.5%
+background-color: black
+background-position: right
 
-# Or, arn't we just assuming these are some evil-doers?
+# .Large[Or, isn't it that <br> we just .yellow[assume] <br> they are some <br> evil-doers `r fa("skull-crossbones", fill="red")`?]
 
 ---
+background-image: url(https://thumbs.gfycat.com/AdorableHeartyIndianelephant.webp)
+background-size: contain
+class: inverse, center, middle
+
+# .Large[To actually understand how they work, we actually need to go back in .yellow[history].]
+
+---
+
 class: inverse, right, bottom
 background-image: url(http://insidestory.org.au/wp-content/uploads/bretton_woods.jpg)
 background-size: cover
 
-# .Large[An attempt to .red[prevent] another WW]
+# .Huge[**An attempt to .red[prevent] another World War.**]
 
 ---
+<div class="full-width-tinted"><br>
+  <h1> .large[The Bretton Woods System] </h1> 
+</div>
 
-# .Large[The Bretton Woods System]
+<br>
+- .Large[What happened right before WWII?]
+<br>
 
 --
-
-# What happened right before WWII?
-
---
-
 
 .pull-left[
 .pull-left[![](https://c.tenor.com/R1RcnFR9EXQAAAAC/broke-fairlyoddparents.gif) 
@@ -100,6 +110,9 @@ background-size: cover
 # .blue[poverty]]
 ]
 
+--
+
+# - Each .orange[pillar] tackles the challenges.
 ---
 class: inverse, center, middle
 background-color: #BF0EB4
@@ -131,9 +144,9 @@ background-color: #093164
 # Humphrey (2017)
 
 ---
-class: inverse
+class: inverse, bottom
 background-image: url(https://64.media.tumblr.com/439efbdcdbd2e0c89e3f71a87f5ae9c6/tumblr_ob3b9zx1191tlgqkgo1_500.gifv)
 background-size: cover
 
-# IEOs reflect 'certain' dimensions of the reality.
+# .large[.yellow[IEOs reflect certain dimensions of the reality.]]
 
