@@ -35,31 +35,31 @@ library(fontawesome)
 library(ggplot2)
 
 ```
-class: inverse, bottom, right
-background-image: url(https://aidc.org.za/wp-content/uploads/2019/04/IJMSBA4.38.1.png)
+class: inverse, center, middle
+background-image: url(https://i.ytimg.com/vi/pex8bksSoOo/maxresdefault.jpg)
 background-size: contain
 
-# Global Investment (GLOA610-001)
+# .Huge[**Global Investment (GLOA610-001)**]
 ---
 
 class: inverse, center, middle
 background-color: #b2ad7f
 
-# .huge[Foreign Direct Investment]
-
----
-
-class: inverse, center, middle
-background-color: #b2ad7f
-
-# .huge[Foreign .red[Direct] Investment]
+# .huge[**Foreign Direct Investment**]
 
 ---
 
 class: inverse, center, middle
 background-color: #b2ad7f
 
-# .huge[Foreign Direct .yellow[Investment]]
+# .huge[**Foreign .red[Direct] Investment**]
+
+---
+
+class: inverse, center, middle
+background-color: #b2ad7f
+
+# .huge[**Foreign Direct .yellow[Investment]**]
 
 ---
 
@@ -75,13 +75,13 @@ background-color: #630563
 
 --
 
-# vertically / horizontally structured
+# .yellow[vertically] / .green[horizontally] structured
 
 ---
 
 class: inverse, center, middle
-
-# .huge[Where did it come from?]
+background-image: url(https://c.tenor.com/_iyOtowIrvkAAAAC/when-did-that-start-curious.gif)
+background-size: contain
 
 ---
 
@@ -116,7 +116,7 @@ knitr::include_graphics('https://media0.giphy.com/media/10aADbYxnJlc9q/200.webp?
 class: inverse, middle
 background-color: #d64161
 
-# Is FDI bad for poor countries?
+# .Large[Is FDI .yellow[bad] for poor countries?]
 
 --
 
@@ -129,7 +129,7 @@ background-color: #d64161
 ---
 
 
-# Some data (FDI net inflow)
+# Some data (FDI .green[net] inflow)
 
 .center[
 
@@ -198,27 +198,55 @@ wdi2 %>%
         axis.text=element_text(size=15),
         axis.title=element_text(size=15))
 ```
-
 ]
 
 ---
-class: inverse, top, right
+
+class: inverse, middle
+
+background-color: black
+background-image: url(https://blogs.imf.org/wp-content/uploads/2021/12/COTW-FDI-update.gif)
+background-position: right
+background-size: contain
+
+# .large[`r fa("crown", fill="yellow")` Who are the <br top> hosts ?]
+
+# .large[`r fa("clock", fill="red")` Does it <br> change much?]
+
+
+---
+class: inverse, bottom
 background-image: url(https://64.media.tumblr.com/tumblr_m71o7giWON1rsmws3o1_r1_500.gifv)
 background-size: contain
 
-# It ain't no magic wand. 
+# .Large[It ain't .red[no] magic wand, <br> though it def helps .yellow[a lot]. ]
 
 ---
 class: inverse, center, middle
 background-color:  #86af49
 
-# .huge[What makes a country an attractive destination for investment?]
+# .huge[When are you .red[more] likely to host FDI?]
 
 --
 
 # Büthe and Milner(2014)
+ 
+---
+
+class: inverse, middle
+background-image: url(https://raw.githubusercontent.com/textvulture/textvulture.github.io/master/images/ft_taxdeal.png)
+background-color: black
+background-position: right
+background-size: contain
+
+# Are the rich countries <br> in pursuit of tax .yellow[cuts] <br> in .red[poor] countries? <br> #vulture # capitalism
+
+--
+
+# Complicatged: <br> Giles et al. (2021)
 
 ---
+
 class: inverse, center, middle
 background-image: url(https://cdn.cnn.com/cnnnext/dam/assets/210709094324-05-bangladesh-factory-fire-exlarge-169.jpg)
 background-size: contain
@@ -232,10 +260,10 @@ background-size: contain
 # .yellow[Blanton and Blanton (2007); Malesky and Mosley (2018)]
 
 ---
-class: inverse
+class: inverse, middle
 background-color: #1C1B1C
 
-.pull-left[![](https://cnnphilippines.com/.imaging/mte/demo-cnn-new/960/dam/cnn/2018/7/25/land-environmental-killings.png/jcr:content/land-environmental-killings.png)]
+.pull-left[![](https://github.com/textvulture/textvulture.github.io/blob/master/images/Christensen.png?raw=true)]
 
 --
 
@@ -252,4 +280,5 @@ background-image: url(https://media1.giphy.com/media/l3vRaha2CfPqoVaJW/giphy.gif
 background-size: contain
 
 
-# At the end of the day ...
+# .Large[At the end of the day ...]
+

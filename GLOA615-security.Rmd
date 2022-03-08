@@ -518,9 +518,9 @@ background-size: contain
 
 ---
 
-## More support for PM Abe during disputes? (Kobayashi & Katagiri 2018)
+## More support for PM Abe .red[during] disputes? (Kobayashi & Katagiri 2018)
 
-: .LARGE[`r fa("flag", fill='red')`Rally 'round the flag] .LARGE[**vs.**] .LARGE[`r fa("joint", fill='green')`Reactive liberal]
+: .content-box-yellow[.LARGE[`r fa("flag", fill='red')` Rally 'round the flag]] .LARGE[**vs.**] .content-box-red[.LARGE[`r fa("joint", fill='green')`Reactive liberal]]
 
 --
 
