@@ -1,0 +1,494 @@
+---
+title: "Economy, GLOA615"
+author: "Byunghwan Son <br> George Mason University"
+date: " "
+#########################################
+linkcolor: red
+citecolor: blue
+urlcolor: blueß
+output: 
+  xaringan::moon_reader:
+    seal: false
+    nature:
+      ratio: '16:9'
+      highlightStyle: github
+  #    self-contained: TRUE
+  chakra: css/libs/remark-latest.min.js
+css: ["default", 
+      "css/footer.css", 
+      "css/color.css", 
+      #          "xaringan-themer.css",
+      default-fonts]
+lib_dir: css/libs
+beforeInit: "css/macros.js"
+# seal: false  
+#bibliography: /Users/bson3/Dropbox/latex/mybib2.bib
+#remotes::install_github('yihui/xaringan', upgrade = TRUE)
+---
+
+```{r setup, include=FALSE}
+# to use FontAwesome
+#htmltools::tagList(rmarkdown::html_dependency_font_awesome())
+library(fs)
+library(fontawesome)
+library(tidyverse)
+
+```
+class: inverse, middle, center
+background-image: url(https://www.wbcsd.org/var/site/storage/images/programs/redefining-value/external-disclosure/the-reporting-exchange/news/green-growth-and-reporting-are-high-on-vietnam-s-agenda/65341-3-eng-GB/New-report-shows-green-growth-and-reporting-are-high-on-Vietnam-s-agenda_i1140.jpg)
+background-size: contain
+
+# .Huge[**Economic Globaliztion in Asia**]
+
+---
+class: inverse, middle
+background-color: #a2b9bc
+
+
+# .Large[Things to talk about]
+
+--
+
+## 1. Was Asia a 'miracle' case?
+
+--
+
+## 2. What was the key to some of the successes?
+
+--
+
+## 3. What is the Belt & Road and how does it (really) work?
+
+--
+
+## 4. Is RMB a supreme currency that will replace US Dollar?
+
+
+---
+
+# What does Asian Economic Growth look like?
+
+--
+
+```{r message=F, warning=F, error=F, echo=F, cache=T, fig.width=16}
+# install.packages('gganimate')
+library(gganimate)
+library(WDI)
+
+var = c('GDPpc' = 'NY.GDP.PCAP.KD',
+        'Life.exp' = 'SP.DYN.LE00.IN',
+        'Population' = 'SP.POP.TOTL')
+
+wdi <- WDI(indicator=var,
+           start=1960,
+           country = 'all',
+           end=2020,
+           extra=TRUE)
+
+wdi %>%
+  filter(region !="Aggregates") %>%
+  mutate(China.India = 
+           case_when(
+             region == "East Asia & Pacific" & 
+               country != "China" & country != "India" ~ "Asia",
+             country == "China" ~ "China",
+             country == "India" ~ "India"
+           )) %>%
+  ggplot(aes(x = log(`GDPpc`), 
+             y = `Life.exp`,                          
+             size = `Population`,
+             color = China.India)) +
+  geom_point(alpha = 0.35) +
+  geom_text(aes(x = 7.5, y = 60, label = year), 
+            size = 14, color = 'lightgrey') + 
+  guides(color=guide_legend(" ")) +
+  scale_color_manual(labels = c("Asia", "China", "India", "Others"),
+                     values = c("green", "red", "yellow", "gray")) +
+  scale_size(range = c(.1, 16), guide = FALSE) +
+  scale_x_continuous(limits = c(2.5, 12.5)) +  
+  scale_y_continuous(limits = c(30, 90)) + 
+  labs(x = "Log GDP per capita",
+       y = "Life Expectancy At Birth") +
+  theme_minimal() +
+  theme(legend.position = c(0.3, 0.9), 
+        legend.direction = "horizontal",
+        legend.text=element_text(size=15),
+        axis.text=element_text(size=15),
+        axis.title=element_text(size=15),
+  ) +
+  gganimate::transition_states(year, 
+                               transition_length = 1, 
+                               state_length = 1) +   
+  gganimate::ease_aes('cubic-in-out')
+
+```
+
+---
+class: inverse, middle
+background-color: black
+background-image: url(https://media0.giphy.com/media/THXafM2DiFKmCwZDfP/200w.gif?cid=e1bb72ff5aa41d63364356566b819db6)
+background-position: right
+background-size: contain
+
+
+
+# Asia, where theories <br> do .red[not] work (yet again).
+--
+
+## .yellow[`r fa("glasses")`&nbsp;] Let's see if existing theories (speculations) <br> on development of Asia work.
+
+--
+
+## .yellow[`r fa("glasses")`&nbsp;] We can first compare <br> .red[Asia] with .orange[Latin America].
+
+---
+class: inverse, middle
+background-color: #2D0852
+
+# .huge[Q: Why we see some success cases in Asia, but not really in Latin America?]
+
+---
+
+# One big caveat: the historical context (Broadberry et al. 2006)
+
+.center[
+```{r, echo=F, out.width="800px"}
+knitr::include_graphics("https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/1_AD_to_2003_AD_Historical_Trends_in_global_distribution_of_GDP_China_India_Western_Europe_USA_Middle_East.png/1024px-1_AD_to_2003_AD_Historical_Trends_in_global_distribution_of_GDP_China_India_Western_Europe_USA_Middle_East.png")
+```
+]
+---
+
+class: inverse, left, bottom
+background-image: url(https://thumbs.gfycat.com/ImpressiveOrganicFlies.webp)
+background-size: contain
+
+# .yellow[.large[**Let's challenge some theories out there.**]]
+---
+
+background-image: url(https://c.tenor.com/VDSF0Xz4V5cAAAAC/family-guy-you-doctor-yet.gif)
+background-size: contain
+class: inverse
+
+# .large[1\. Education (or '.yellow[Confucianism]' - Kwon 2007)?]
+
+---
+
+# Secondary Schooling Rates in .red[Asia] & .blue[Latin America]
+
+```{r message=F, warning=F, error=F, echo=F, cache=T, fig.width=16}
+library(WDI)
+
+var = c('School' = 'SE.SEC.ENRR',
+         'GDPpc' = 'NY.GDP.PCAP.KD')
+
+wdi <- WDI(indicator=var,
+           start=1970,
+           country = 'all',
+           end=2020,
+           extra=TRUE)
+
+
+wdi %>%
+  filter(region !="Aggregates") %>%
+  filter(region == "East Asia & Pacific" | 
+           region == "Latin America & Caribbean") %>%
+  ggplot(aes(y = School, 
+             x = year,
+             color = region)) +
+  geom_point(alpha=0.1) +
+  geom_smooth(alpha=0.15) +
+  labs(x="Year",
+       y="Secondary Schooling Rates") +
+  theme(legend.title = element_blank()) +
+  scale_color_manual(values=c("red", "blue")) +
+  theme(legend.text = element_text(size=13),
+        axis.text=element_text(size=15),
+        axis.title=element_text(size=15),
+        legend.position = 'bottom')
+             
+```
+ 
+---
+
+class: inverse
+background-color: black
+background-image: url(https://www.chinausfocus.com/d/file/201807/fcbae44c364920e1765804b9bc5983e5.jpg)
+background-size: contain
+background-position: right
+
+# **Confucius Ethics on Work/Profit**
+
+--
+
+## .yellow[*If wealth is attainable through work, <br> I will definitely pursue it <br>  Even when that means <br> I have to pull others' cart. <br> If it isn't attainable, <br> I'd rather do what I like.*]
+
+## .orange[*It is a disgrace to be rich in an unjust society.*]
+
+### - Confucius, The Analects
+
+---
+
+class: inverse, right, middle
+background-image: url(https://upload.wikimedia.org/wikipedia/commons/9/9e/1960_Protests_against_the_United_States-Japan_Security_Treaty_03.jpg)
+background-position: left
+background-size: contain
+
+## .right[.Large[*So* orderly <br> and <br> conforming <br> `r fa('grin-beam-sweat', fill='yellow')`]]
+
+---
+
+
+class: inverse
+background-image: url(https://media2.giphy.com/media/13yNFN1TlNCjC0/giphy.gif)
+background-size: contain
+  
+# 2. Asia got so much .blue[foreign investment] while all Latin America received was debt.
+
+---
+# Foreign Direct Investment Inflow (% of GDP)  
+
+```{r message=F, warning=F, error=F, echo=F, cache=T, fig.width=16}
+library(WDI)
+library(tidyverse)
+
+var = c('FDI' = 'BX.KLT.DINV.WD.GD.ZS',
+         'GDPpc' = 'NY.GDP.PCAP.KD')
+
+wdi <- WDI(indicator=var,
+           start=1970,
+           country = 'all',
+           end=2020,
+           extra=TRUE)  
+
+wdi %>%
+  filter(region !="Aggregates") %>%
+  filter(region == "East Asia & Pacific" | 
+           region == "Latin America & Caribbean") %>%
+  filter(FDI<150) %>%
+  ggplot(aes(y = FDI, 
+             x = year,
+             color = region)) +
+  geom_point(alpha=0.1) +
+  geom_smooth(alpha=0.15) +
+  labs(x="Year",
+       y="FDI/GDP %") +
+  theme_minimal() +
+  theme(legend.title = element_blank()) +
+  scale_color_manual(values=c("red", "blue")) +
+  theme(legend.text = element_text(size=13),
+        axis.text=element_text(size=15),
+        axis.title=element_text(size=15),
+        legend.position = 'bottom')
+             
+```   
+
+---
+class: inverse, bottom
+background-image: url(http://33.media.tumblr.com/74016808f1a8d6afb9c8c6b450332c43/tumblr_nwmdohvEVo1tgrkdyo3_250.gif)
+background-size: cover
+
+# 3. Latin America protected their market too much while Asia didn't?
+
+---
+
+# Average Tariff Barriers (%)
+
+```{r message=F, warning=F, error=F, echo=F, cache=T, fig.width=16}
+library(WDI)
+library(tidyverse)
+
+var = c('Tariff' = 'TM.TAX.MANF.SM.AR.ZS',
+         'GDPpc' = 'NY.GDP.PCAP.KD')
+
+wdi <- WDI(indicator=var,
+           start=1985,
+           country = 'all',
+           end=2020,
+           extra=TRUE)  
+
+wdi %>%
+  filter(region !="Aggregates") %>%
+  filter(region == "East Asia & Pacific" | 
+           region == "Latin America & Caribbean") %>%
+  ggplot(aes(y = Tariff, 
+             x = year,
+             color = region)) +
+  geom_point(alpha=0.25, size=2) +
+  geom_smooth(alpha=0.5) +
+  labs(x="Year",
+       y="Tariff Barriers") +
+  theme_minimal() +
+  theme(legend.title = element_blank()) +
+  scale_color_manual(values=c("red", "blue")) +
+  theme(legend.text = element_text(size=13),
+        axis.text=element_text(size=15),
+        axis.title=element_text(size=15),
+        legend.position = 'bottom')
+             
+```
+
+---
+
+class: inverse, center, middle
+background-color: #083D52
+
+# .huge[So what is it then that made the difference?]
+
+---
+<div class="full-width-tinted"><br>
+# Several Contributing Factors (in Asia; but not in LA) (1)
+</div><br>
+--
+
+## 1. 'Developmental State'
+
+### `r fa("hand-point-right")` &nbsp; an .red[autonomous] state that can advance centralized development goals 
+
+### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \- But autonomous from .orange[what]?
+
+--
+
+### `r fa("hand-point-right")` &nbsp; 'good institutions' (minimized .green[undercainty/risk]) ; induce investment; suppress costs
+
+### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \- ` &nbsp; But 'no tarpoot' (Haggard 2004): all the endogenous theoretical tensions
+
+--
+
+### `r fa("hand-point-right")` &nbsp; Post-1997 Crisis? `r fa("cloud-sun-rain", fill="blue")` '.red[Adaptive]' DS (Wong 2004).
+
+### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \- adapting to pressures (external and internal)
+ 
+
+---
+
+<div class="full-width-tinted"><br>
+# Several Contributing Factors (in Asia; but not in LA) (2)
+</div><br><br>
+--
+
+## 2. 'less dependency' (Kohli 2009)
+
+### `r fa("hand-point-right")` &nbsp; .red[external] autonomy in Asia `r fa("arrow-right")` less dependency
+
+### `r fa("hand-point-right")` &nbsp; higher savings rates
+
+### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \- but was it .red[really]?
+
+---
+
+
+
+
+
+
+
+
+
+
+---
+
+class: inverse, center, middle
+background-color: red
+
+# .huge[Emerging <br> Chinese Economic <br> Power?]
+
+---
+
+background-image: url(https://www.asiagreen.com/images/easyblog_articles/29/China-Belt-and-Road-Initiative-map.jpg)
+background-size: contain
+---
+
+# Belt & Road Initiative: How does it work?
+
+--
+
+1. .Large[Chinese .red[lending] on a specific project (usually .green[infrastructural])]
+
+--
+
+2. .Large[But can they repay? -- an 'exclusive' access and the ripple effect]
+
+--
+
+3. .Large[The Moldivian Example:]
+
+<iframe width="600" height="320" src="https://www.youtube.com/embed/tpHoxMbWRkw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+---
+
+# A bigger (& more general) ripple effect: the Combodian case
+
+<iframe width="1024" height="520" src="https://www.youtube.com/embed/h-v-siVuvDE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+---
+
+class: inverse, center, middle
+background-color: #520839
+
+# .huge[So, BRI = CCP's Grand Strategy of Global Dominance?]
+
+--
+
+# OMG, China is building global checking points `r fa("skull")`!!
+
+---
+
+# Or maybe it's just a 'hot mess.'
+
+.blockquote[
+# .black[Jones (2020)]
+
+.green[.Large[.red[Chaos] is far more common than conspiracy in Chinese overseas investment practices. Strategic narratives do not guide BRI projects so much as create opportunities that self-interested actors can exploit. Beijing’s diplomats and regulators do not inspire specific projects so much as .red[clean up the mess] when things go wrong.]]
+]
+
+--
+
+# - most projects are driven by Chinese .red[local] governments.
+
+--
+
+# - political incentives to go all-in for the competition: BRI = .red[personalized] agenda
+
+---
+
+class: inverse, center, middle
+background-color: #520839
+
+# .huge[But China's economic rise <br> is quite real.]
+
+--
+
+# The Q is: to what extend?
+
+---
+
+# Will Chinese yuan (RMB) take over the US dollar `r fa("hand-holding-usd")`?
+
+--
+
+## Or at least, will it be a .red[hard] currency `r fa("money-bill")`?
+
+--
+
+.pull-left[
+.content-box-blue[
+## .blue[What it takes:]
+
+## - capital openness
+## - financialization
+## - monetary stability
+]
+]
+
+--
+
+.pull-right[
+.content-box-red[
+## .red[The reality:]
+
+## - elites opposed to openness 
+## - a long way to financialization
+## - central bankers
+]
+]
+
