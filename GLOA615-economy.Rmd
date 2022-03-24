@@ -389,8 +389,10 @@ background-color: #083D52
 
 class: inverse, center, middle
 background-color: red
+background-image: url(https://www.ft.com/__origami/service/image/v2/images/raw/http%3A%2F%2Fcom.ft.imagepublish.upp-prod-eu.s3.amazonaws.com%2F18279b02-5819-11e7-80b6-9bfa4c1f83d2?fit=scale-down&source=next&width=700)
+background-size: contain
 
-# .huge[Emerging <br> Chinese Economic <br> Power?]
+# .Huge[**Emerging Chinese <br> Economic Power?**]
 
 ---
 
@@ -448,6 +450,32 @@ background-color: #520839
 --
 
 # - political incentives to go all-in for the competition: BRI = .red[personalized] agenda
+
+---
+
+class: inverse, middle
+background-image: url(https://www.voltairenet.org/IMG/arton193200.jpg)
+background-size: contain
+background-position: right
+background-color: black
+
+# .Large[But what about AIIB?]
+
+--
+
+## `r fa("flag", fill='green')` Isn it a Chinese .yellow[alternative] to WB?
+
+--
+
+## `r fa("car-side", fill='green')` Or is it a vehicle for .orange[BRI]?
+
+--
+
+## `r fa("window-close", fill='green')` Why was lending to .red[Russia] suspended?
+
+--
+
+# .yellow[Kaya and Woo (2021)]
 
 ---
 
