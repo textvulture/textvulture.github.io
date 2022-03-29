@@ -195,6 +195,7 @@ swiid_summary %>%
   <h1> .large[Some Examples, Inequality in Four Countries ] </h1>
 </div><br><br>
 
+--
 
 ```{r, message=FALSE, echo=FALSE, warning=FALSE, results="asis", fig.width=16, fig.height=6.5, cache=T}
 
@@ -301,7 +302,7 @@ background-color: black
 
 --
 
-# Sometimes. .red[Not] in the way <br> you think it does, though.
+# Sometimes. <br> .red[Not] in the way <br> you think it does, tho.
 
 --
 
@@ -331,14 +332,8 @@ background-size: contain
 
 --
 
-## So there's no way to <br> address poverty/inequality problem?
+## So there's .red[no] way to <br> address poverty/inequality problem?
 
-
----
-
-class: inverse
-background-image: url(https://media2.giphy.com/media/PgKhTkdv1ConwTwgYN/giphy.gif)
-background-size: contain
 
 ---
 
@@ -353,6 +348,7 @@ background-size: contain
 class: inverse, center, bottom
 background-image: url(https://static.independent.co.uk/2021/06/12/16/panakin.png)
 background-size: contain
+background-color: black
 
 # .huge[It should work, right? RIGHT?]
 
@@ -362,7 +358,7 @@ background-size: contain
 
 ---
 
-background-image: url(Banerjee2015.png)
+background-image: url(https://github.com/textvulture/textvulture.github.io/blob/master/images/Banerjee2015b.png?raw=true)
 background-position: right
 background-size: contain
 
