@@ -47,8 +47,9 @@ class: inverse, right, middle
 background-image: url(https://financialtribune.com/sites/default/files/styles/360x260/public/field/image/17january/04-ff-disparity_1379-ab.jpg?itok=y8xlpx7d)
 background-size: 60%
 background-position: left
+background-color: black
 
-# .LARGE[Poverty <br> & Inequality] <br> GLOA 610-001 <br> <br>
+# .LARGE[Poverty& <br> Inequality] <br> GLOA 610-001 <br> <br>
 
 
 ```{r include=F, cache=T}
@@ -119,7 +120,7 @@ class: inverse
   <h1> .Large[Global Poverty, .yellow[inflation adjusted]] </h1>
 </div><br><br>
 
-```{r, message=FALSE, echo=FALSE, warning=FALSE, results="asis", fig.width=16, fig.height=6, cache=T}
+```{r, message=FALSE, echo=FALSE, warning=FALSE, results="asis", fig.width=16, fig.height=6.5, cache=T}
 
 
 wdi2 %>%
@@ -143,7 +144,7 @@ wdi2 %>%
   <h1> .Large[Global Poverty, .yellow[by infant mortality]] </h1>
 </div><br><br>
 
-```{r, message=FALSE, echo=FALSE, warning=FALSE, results="asis", fig.width=16, fig.height=6, cache=T}
+```{r, message=FALSE, echo=FALSE, warning=FALSE, results="asis", fig.width=16, fig.height=6.5, cache=T}
 
 
 wdi2 %>%
@@ -195,7 +196,7 @@ swiid_summary %>%
 </div><br><br>
 
 
-```{r, message=FALSE, echo=FALSE, warning=FALSE, results="asis", fig.width=16, fig.height=6, cache=T}
+```{r, message=FALSE, echo=FALSE, warning=FALSE, results="asis", fig.width=16, fig.height=6.5, cache=T}
 
 name <- c("United States", 
           "Mexico", 
@@ -294,12 +295,13 @@ class: inverse
 background-image: url(https://memegenerator.net/img/instances/55301890.jpg)
 background-position: right
 background-size: contain
+background-color: black
 
-# But wouldn't <br> globalization .red[does] <br> exacerbate inequality?
+# But wouldn't <br> globalization <br> .red[exacerbate] inequality?
 
 --
 
-# .red[Not] in the way <br> you think it does, though.
+# Sometimes. .red[Not] in the way <br> you think it does, though.
 
 --
 
