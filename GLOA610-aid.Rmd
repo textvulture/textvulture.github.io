@@ -1,5 +1,5 @@
 ---
-title: ".green[Foreign Aid] <br> GLOA 610-001"
+title: "Foreign Aid, GLOA 610"
 author: "Byunghwan Son <br> George Mason University"
 date: " "
 #########################################
@@ -37,12 +37,21 @@ library(ggplot2)
 library(tidyverse)
 ```
 
-class: inverse, right, bottom
+class: inverse, center, middle
 background-image: url(https://mediad.publicbroadcasting.net/p/shared/npr/201805/530259985.jpg)
 
-# .LARGE[Foreign Aid] <br> GLOA 610-001 <br> <br>
+# .HUGE[**Foreign Aid**] <br> GLOA 610-001 <br> <br>
 
 ---
+
+class: inverse, bottom, center
+background-image: url(https://thumbs.gfycat.com/RealisticGrimHorsechestnutleafminer.webp)
+background-size: cover
+
+#.LARGE[Big Q: Is Foreign Aid .yellow[Bad]?]
+
+---
+
 class: middle, left
 background-image: url(https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/themes/2343691/settings_images/0WOr0f1sRsaMzpfVzLAy_white_man_s_burden_imperialism.png)
 background-size: contain
@@ -52,7 +61,28 @@ background-position: right
 
 
 ---
+<div class="full-width-tinted"><br>
+  <h1> .Large[What do we know about foreign aid?] </h1>
+</div><br><br>
 
+
+.pull-left[
+.center[
+```{r, echo=F, out.width="300px"}
+knitr::include_graphics("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQAxTOLW7BmYI0vxyErQIqwAyta1zzxVxIEgVtrdtlxH-NR1xBYi24ubXBBg_19X4Mfuz4&usqp=CAU")
+```
+]
+]
+
+.pull-right[
+```{r, echo=F, out.width="350px"}
+knitr::include_graphics("https://pbs.twimg.com/media/EALfGenWsAMvwdd.jpg")
+```
+]
+
+
+
+--- 
 <div class="full-width-tinted"><br>
   <h1> .Large[What do we know about foreign aid?] </h1>
 </div><br><br>
@@ -73,7 +103,7 @@ background-position: right
 
 ---
 <div class="full-width-tinted"><br>
-  <h1> .large[Trend: Avg Foreign Aid per capita (.red[GDPpc<10k])] </h1>
+  <h1> .large[Trend: .blue[Average] Aid per capita (.red[GDPpc<5k])] </h1>
 </div><br><br>
 
 
@@ -85,8 +115,8 @@ library(WDI)
 
 
 var = c('ODApc' = "DT.ODA.ODAT.PC.ZS",
-        'ODApg' = "DC.ODA.TOTL.GN.ZS",
-        'GDPpc' = 'NY.GDP.PCAP.KD',
+        'ODApg' = "DT.ODA.ODAT.GN.ZS",  
+        'GDPpc' = 'NY.GDP.PCAP.CD',
         'tariff' = 'TM.TAX.MRCH.SM.AR.ZS')
 
 wdi <- WDI(indicator=var,
@@ -109,39 +139,44 @@ wdi %>%
 
 
 wdi2 %>%
-  filter(developed == "underdeveloped") %>%
+  filter(GDPpc<5000) %>%
   ggplot(aes(year, ODApc)) +
     geom_smooth(alpha=0.5, size=2) + labs(x="Year",
        y="Aid per capita") +
+    theme_minimal() +
+    geom_point(size=1, alpha=0.1) +
+  annotate("text", label="extreme values are not depicted, though calculated for the global mean",
+           x=1995, y=180, size=10, color="red", alpha=0.5) +
   theme(legend.title = element_blank()) +
   theme(legend.text = element_text(size=25),
         axis.text=element_text(size=25),
         axis.title=element_text(size=25)) +
-  theme_minimal()
-
+  ylim(0, 200)
 
 ```
 
 ---
+
 <div class="full-width-tinted"><br>
-  <h1> .Large[Aid dependency? Foreign Aid as % of GNI] </h1>
-</div><br><br><br><br><br><br>
+  <h1> .large[Aid dependency? Aid as % of GNI (GDPpc<5k)] </h1>
+</div><br><br><br>
 
+```{r, message=FALSE, echo=FALSE, warning=FALSE, results="asis", fig.width=16, fig.height=7, cache=T}
 
-```{r, message=FALSE, echo=FALSE, warning=FALSE, results="asis", fig.width=16, fig.height=6, cache=T}
+# Aid Dependency (& of GNI)
 
-# Aid Dependence (& of GNI)
-
-wdi2 %>%
+wdi2 %>% 
+  filter(ODApg < 100) %>%
+  filter(GDPpc < 5000) %>%
   ggplot(aes(year, ODApg)) +
-    geom_smooth(alpha=0.25, size=1) + labs(x="Year",
+    geom_smooth(alpha=0.25, size=2) + labs(x="Year",
        y="Aid, % of GNI") +
-  geom_point(alpha=0.15, size=3) +
+    theme_minimal() +
+  geom_point(alpha=0.15, size=1) +
   theme(legend.title = element_blank()) +
   theme(legend.text = element_text(size=25),
         axis.text=element_text(size=25),
-        axis.title=element_text(size=25)) +
-  theme_minimal()
+        axis.title=element_text(size=25)) 
 
 ```
 
@@ -162,14 +197,14 @@ wdi2 %>%
   filter(ODApc < 1000) %>%
   ggplot(aes(x=ODApc, y=GDPpc)) +
     geom_smooth(alpha=0.25, size=1) +
-    geom_point(alpha=0.15, size=3) +
+    geom_point(alpha=0.55, size=1) +
     labs(x="Aid per capita",
        y="GDP per capita") +
+      theme_minimal() +
   theme(legend.title = element_blank()) +
   theme(legend.text = element_text(size=13),
         axis.text=element_text(size=15),
-        axis.title=element_text(size=15)) +
-  theme_minimal()
+        axis.title=element_text(size=15)) 
 
 ```
 
@@ -181,11 +216,11 @@ background-size: contain
 background-position: right
 
 
-# - How much does aid <br> account for in terms of <br> the .red[national economy]
+# How much does aid <br> account for <br> the .red[national economy]
 
 --
 
-# - How much do .yellow[people] <br> think  their government <br> spends in aid?
+# How much do .yellow[people] <br> think  their government <br> spends in aid?
 
 ---
 
@@ -260,10 +295,23 @@ background-size: contain
 ### - Williams (2018); Rentier State; Dutch Disease
 
 ---
-
-# Title page image:
+- Title page image:
 https://mediad.publicbroadcasting.net/p/shared/npr/201805/530259985.jpg
 
-# White Men's Burden image:
+- White Men's Burden image:
 https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/themes/2343691/settings_images/0WOr0f1sRsaMzpfVzLAy_white_man_s_burden_imperialism.png
 
+- Dead Aid image:
+https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQAxTOLW7BmYI0vxyErQIqwAyta1zzxVxIEgVtrdtlxH-NR1xBYi24ubXBBg_19X4Mfuz4&usqp=CAU
+
+- Aid Cartoon:
+https://pbs.twimg.com/media/EALfGenWsAMvwdd.jpg
+
+- Ronnie Chieng Gif: https://thumbs.gfycat.com/RealisticGrimHorsechestnutleafminer.webp
+
+- Other aid graphs
+  - https://www.economist.com/sites/default/files/images/print-edition/20180908_USC272.png
+  - https://www.kff.org/wp-content/uploads/2013/07/slide15.png
+  - https://cdn.statcdn.com/Infographic/images/normal/17610.jpeg
+  - 
+- White Men's Burden book image: https://images-na.ssl-images-amazon.com/images/I/91p0O3fU-CL.jpg
