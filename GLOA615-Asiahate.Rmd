@@ -122,17 +122,17 @@ background-color: black
   <h1 style="font-size:55px"> If .yellow[just] White Supremacy, similar for .red[all] minorities? </h1>
 </div><br><br>
 
-.pull-left[
-## Reny and Barreto (2020)
+## **Reny and Barreto (2020)**
 
-### - 'Othering' H: disease`r fa("virus", fill='red')` + stigmatized group `r fa("hand-pointer", fill='orange')` => blame `r fa("head-side-virus", fill="yellow")`! : only Asians
+- .large['Othering' H: disease`r fa("virus", fill='red')` + stigmatized group `r fa("hand-pointer", fill='orange')` => blame `r fa("head-side-virus", fill="yellow")`! : only Asians]
 
-### - "behavioral immune system' H: .yelllow[all] minorities
-]
+- .large["behavioral immune system' H: .yelllow[all] minorities]
+<br>›
+--
 
-.pull-right[
-
-]
+```{r echo=F, fig.align='center'}
+knitr::include_graphics("https://github.com/textvulture/textvulture.github.io/blob/master/images/Reny2020.png?raw=true")
+```
 
 ---
 
