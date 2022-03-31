@@ -130,7 +130,7 @@ background-color: black
 <br>›
 --
 
-```{r echo=F, fig.align='center'}
+```{r echo=F, fig.align='center', out.height=300}
 knitr::include_graphics("https://github.com/textvulture/textvulture.github.io/blob/master/images/Reny2020.png?raw=true")
 ```
 
