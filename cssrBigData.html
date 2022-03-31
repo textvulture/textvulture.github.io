@@ -25,7 +25,34 @@ background-image: url(https://thumbs.gfycat.com/AgreeableWigglyAmericanshorthair
 background-size: contain
 
 # .LARGE[**What people .yellow[think] Big Data is like**]
+---
+class: middle
 
+background-image: url(https://github.com/textvulture/textvulture.github.io/blob/master/images/bigdataPS.png?raw=true)
+background-position: right
+
+# .Large[What Big Data &lt;br&gt; people .orange[say] &lt;br&gt; Big Data is like]
+
+---
+
+# What .green[my] big data is like
+
+
+```r
+masterlist1 &lt;- data.frame()
+
+##############
+
+for (I in 1:500){
+  url_jsonlist &lt;- paste0("http://kobis.or.kr/kobisopenapi/webservice/rest/people/searchPeopleList.json?NOKEYSHOWN", I ,"")
+
+  temp1 &lt;- as.data.frame(fromJSON(url_jsonlist))
+  masterlist1 &lt;- plyr::rbind.fill(masterlist1, temp1)
+  Sys.sleep(1)
+}
+```
+
+---
     </textarea>
 <style data-target="print-only">@media screen {.remark-slide-container{display:block;}.remark-slide-scaler{box-shadow:none;}}</style>
 <script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
