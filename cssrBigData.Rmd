@@ -35,7 +35,15 @@ library(fontawesome)
 library(ggplot2)
 
 ```
- 
+
+class: inverse, bottom, right
+background-image: url(https://thumbs.gfycat.com/DentalNewCleanerwrasse.webp)
+background-size: cover
+
+# .Huge[Big Data and Me]
+
+# Byunghwan Son (GLOA)
+
 
 ---
 class: inverse, bottom
@@ -53,7 +61,11 @@ background-position: right
 
 ---
 
-# What .green[my] big data is like
+# What .green[my] big data is like (1): with an API
+
+.pull-left[
+
+.center[### Easier with API]
 
 ```{r, eval=F, echo=T}
 masterlist1 <- data.frame()
@@ -68,5 +80,82 @@ for (I in 1:500){
   Sys.sleep(1)
 }
 ```
+]
+
+--
+.center[### An Event Study Analysis (n=1.5 mil)]
+
+.pull-right[
+![](https://github.com/textvulture/textvulture.github.io/blob/master/images/EventStudyBList.jpeg?raw=true)
+]
+--
+
+.pull-right[
+
+
+]
+---
+
+# What .green[my] big data is like (2): w/o API or canned Package
+
+.pull-left[
+### The Petition site may look like:
+
+```{r, echo=F, fig.height=3}
+knitr::include_url("https://www1.president.go.kr/petitions/604660")
+```
+]
+
+--
+
+.pull-right[
+### n=60k: takes a lot of time `r fa("clock", fill="orange")`
+
+```{r, echo=T, eval=F, out.height="50%"}
+for (I in 21:100){
+  
+url_21_100 <- paste0("https://www1.president.go.kr/petitions/", I ,"")
+html_21_100 <- read_html(url_21_100)
+
+title <- html_21_100 %>%
+  html_elements(".petitionsView_title") %>%
+  html_text()
+#  ...
+# some similar lines
+#  ...
+temp_df <- data.frame(
+  title = title, info = info, content = content, agree = agree
+)
+}
+
+Sys.sleep(3)
+```
+
+]
 
 ---
+class: inverse 
+background-color: black
+background-image: url(https://thumbs.gfycat.com/FemininePlushHamster.webp)
+background-size: 45%
+background-position: right
+
+# .LARGE[Challenges]
+
+--
+
+# `r fa("calculator", fill="red")` Limited computational power 
+
+--
+
+# `r fa("poop", fill='orange')` Aggravates when:
+
+--
+
+### - ML estimators
+
+--
+
+### - multi-level, mixed effect models
+
+### - fixed effect model (many units)
