@@ -1,0 +1,121 @@
+---
+title: "BLACKLISTS"
+author: "Byunghwan Son <br> George Mason University"
+date: " "
+#########################################
+linkcolor: red
+citecolor: blue
+urlcolor: blueß
+output: 
+  xaringan::moon_reader:
+    seal: false
+    nature:
+      ratio: '16:9'
+      highlightStyle: github
+  #    self-contained: TRUE
+  chakra: css/libs/remark-latest.min.js
+css: ["default", 
+      "css/footer.css", 
+      "css/color.css", 
+      # "css/xaringan-themer.css",
+      default-fonts]
+lib_dir: css/libs
+beforeInit: "css/macros.js"
+# seal: false  
+#bibliography: /Users/bson3/Dropbox/latex/mybib2.bib
+#remotes::install_github('yihui/xaringan', upgrade = TRUE)
+---
+
+```{r setup, include=FALSE}
+# to use FontAwesome
+#htmltools::tagList(rmarkdown::html_dependency_font_awesome())
+library(fs)
+library(fontawesome)
+# library(magick)  
+library(ggplot2)
+
+```
+
+class: inverse, middle, center
+background-image: url(https://laughingsquid.com/wp-content/uploads/2018/03/video-killed-the-radio-star.gif?w=640)
+background-size: contain
+
+# .yellow[.Huge[**Blacklists Killed Video Stars**]]
+
+# **Byunghwan 'Ben' Son**
+
+## .green[**George Mason University**]
+
+---
+
+class: inverse, middle, center
+background-image: url(https://data.whicdn.com/images/193588708/original.gif)
+background-size: contain
+
+# .huge[No... not that Blacklist]
+
+---
+class: inverse
+background-color: black
+background-image: url(http://www.pn.or.kr/news/photo/201703/15075_29835_2154.jpg)
+background-position: right
+
+# `r fa("book", fill='orange')` Blacklists, literally
+
+--
+
+## - names of individuals and groups
+
+## - 'anti-government' or 'lefty' `r fa("flag", fill='red')`
+
+## - mostly using existing lists <br> (open letter signatories)
+
+--
+
+## - exclusion and disadvantage
+
+## - Govt: NIS, Blue House, MHST
+
+## - discrete operation
+
+--- 
+
+# The background: .orange[democratic backsliding] in SK
+## Compromised Freedom of Speech, in particular
+
+```{r, echo=F, warning=F, message=F, error=F, cache=T}
+library(vdem) #remotes::install_github("xmarquez/vdem")
+var <- c("v2x_freexp")
+
+country <- c("South Korea", 
+            "Hungary",
+            "Russia")
+  
+  
+expression <- extract_vdem(
+  include_sd = TRUE,
+  label_pattern = "expression"
+)
+
+library(geomtextpath)
+
+expression %>% 
+  filter(vdem_country_name == country) %>%
+  filter(year>1979) %>%
+  ggplot(aes(x=year, y=v2x_freexp, 
+             fill=vdem_country_name, label=vdem_country_name)) +
+    theme_minimal() +
+  geom_vline(xintercept = c(2008, 2017), color="gray", 
+                  linetype="longdash", alpha=0.85) +
+  geom_ribbon(aes(ymin = v2x_freexp_codelow,
+                  ymax = v2x_freexp_codehigh),
+                  alpha=0.2) +
+  geom_textline(aes(label=vdem_country_name,
+                    color=vdem_country_name)) +
+     theme(legend.position = "none",
+      axis.text=element_text(size=15),
+      axis.title=element_text(size=15)) +
+  labs(x="year", y="Freedom of Expression Index")
+
+```
+
