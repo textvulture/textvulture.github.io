@@ -32,7 +32,7 @@ beforeInit: "css/macros.js"
 library(fs)
 library(fontawesome)
 # library(magick)  
-library(ggplot2)
+library(tidyverse)
 
 ```
 
@@ -78,13 +78,14 @@ background-position: right
 
 ## - discrete operation
 
---- 
+---
 
-# The background: .orange[democratic backsliding] in SK
-## Compromised Freedom of Speech, in particular
+## The background: .orange[democratic backsliding] in South Korea <br> .small[Compromised .green[Freedom of Speech], in particular (V-dem)]
 
-```{r, echo=F, warning=F, message=F, error=F, cache=T}
+```{r, echo=F, warning=F, message=F, error=F, cache=T, fig.align='center', fig.width=11}
+
 library(vdem) #remotes::install_github("xmarquez/vdem")
+
 var <- c("v2x_freexp")
 
 country <- c("South Korea", 
@@ -106,16 +107,91 @@ expression %>%
              fill=vdem_country_name, label=vdem_country_name)) +
     theme_minimal() +
   geom_vline(xintercept = c(2008, 2017), color="gray", 
-                  linetype="longdash", alpha=0.85) +
+                  linetype="longdash", alpha=0.9) +
   geom_ribbon(aes(ymin = v2x_freexp_codelow,
                   ymax = v2x_freexp_codehigh),
                   alpha=0.2) +
   geom_textline(aes(label=vdem_country_name,
                     color=vdem_country_name)) +
      theme(legend.position = "none",
-      axis.text=element_text(size=15),
-      axis.title=element_text(size=15)) +
+      axis.text=element_text(size=20),
+      axis.title=element_text(size=20)) +
   labs(x="year", y="Freedom of Expression Index")
 
 ```
+
+---
+
+background-image: url(https://img.khan.co.kr/news/2015/11/04/l_2015110401000555600049501.jpg)
+background-position: right
+background-size: 40%
+
+# How to Get on the List
+
+.pull-left[
+```{r blacklist, echo=F, message=F, error=F, warning=F, result='asis'}
+
+library(kableExtra)
+
+txt_tbl <- data.frame(
+  List = c("1", "2", "3", "4"),
+  Based = c("2008", "2012", "2014", "2015"),
+  Pres = c("Lee", "Park", "Park", "Park"),
+  Reasons = c("critical of the govert; 'left-leaning' -- only 60 movie workers (but more, unidentified)",
+              "supporting the opposition presidential leader",
+              "participants of the open letter regarding the Sewol Ferry sinking; supporting the opposition candidate for Seoul Mayoral election",
+              "participants of the open letter criticising government handling of the Sewol Ferry sinking") 
+)
+
+
+kable(txt_tbl) %>%
+  kable_styling(full_width = F) %>%
+  kable_styling("striped", full_width = F) %>%
+  row_spec(0) %>% #, align = "center" seems to create an error: don't know why
+    add_footnote(c(" 'based' is the year in which the event that the list is based on occurred."), notation="symbol") #%>%
+#  column_spec(4, width = "10em")
+#  #kable_styling(latex_options="scale_down")
+
+```
+]
+
+
+---
+.content-box-green[
+# The Hypotheses
+
+### 1. Being blacklisted .red[decreases] a movie worker's chances of securing a movie job.
+
+### 2. The negative career effect of being blacklisted is larger for .red[non-actor] movie workers than for actors.
+]
+
+--
+
+.content-box-yellow[
+# The Data
+
+### A panel data set based on the KOBIS moive data base (API) matched with the Blacklists
+### N=1.6 mil, unbalanced; 2012 = treatment year
+]
+
+---
+
+#Trend
+
+.pull-left[![](https://github.com/textvulture/bkv/blob/main/count.jpeg?raw=true)]
+.pull-right[![]()]
+
+---
+
+## Model & Result
+
+.content-box-red[
+Difference-in-Difference (OLS)
+\begin{equation}
+ln(movies + 1) = \beta_0 + \beta_1Blacklisted_{it} \times Treatment_{t} + \mathbf X + FE(unit, year, role) + \epsilon_{it},
+\end{equation}
+]
+
+--
+
 
