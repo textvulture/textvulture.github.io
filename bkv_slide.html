@@ -66,7 +66,7 @@ background-position: right
 
 ## The background: .orange[democratic backsliding] in South Korea &lt;br&gt; .small[Compromised .green[Freedom of Speech], in particular (V-dem)]
 
-&lt;img src="bkv_slide_files/figure-html/unnamed-chunk-1-1.png" style="display: block; margin: auto;" /&gt;
+&lt;img src="bkv_slide_files/figure-html/unnamed-chunk-2-1.png" style="display: block; margin: auto;" /&gt;
 
 ---
 
@@ -141,23 +141,98 @@ background-size: 40%
 
 ---
 
-#Trend
+#Trend:
 
-.pull-left[![](https://github.com/textvulture/bkv/blob/main/count.jpeg?raw=true)]
-.pull-right[![]()]
+## Number (L) and Portion (R) of the .red[blacklisted]
+
+.pull-left[![](https://github.com/textvulture/textvulture.github.io/blob/master/images/bkv_count.jpeg?raw=true)]
+.pull-right[![](https://github.com/textvulture/textvulture.github.io/blob/master/images/bkv_count2.jpeg?raw=true)]
 
 ---
 
-## Model &amp; Result
+## Model &amp; Result (Difference-in-Difference)
 
 .content-box-red[
-Difference-in-Difference (OLS)
 `\begin{equation}
 ln(movies + 1) = \beta_0 + \beta_1Blacklisted_{it} \times Treatment_{t} + \mathbf X + FE(unit, year, role) + \epsilon_{it},
 \end{equation}`
 ]
 
 --
+
+
+
+&lt;br&gt;
+&lt;table style="NAborder-bottom: 0; width: auto !important; margin-left: auto; margin-right: auto;" class="table"&gt;
+ &lt;thead&gt;
+&lt;tr&gt;
+&lt;th style="empty-cells: hide;border-bottom:hidden;" colspan="1"&gt;&lt;/th&gt;
+&lt;th style="border-bottom:hidden;padding-bottom:0; padding-left:3px;padding-right:3px;text-align: center; " colspan="1"&gt;&lt;div style="border-bottom: 1px solid #ddd; padding-bottom: 5px; "&gt;(1)&lt;/div&gt;&lt;/th&gt;
+&lt;th style="border-bottom:hidden;padding-bottom:0; padding-left:3px;padding-right:3px;text-align: center; " colspan="1"&gt;&lt;div style="border-bottom: 1px solid #ddd; padding-bottom: 5px; "&gt;(2)&lt;/div&gt;&lt;/th&gt;
+&lt;th style="border-bottom:hidden;padding-bottom:0; padding-left:3px;padding-right:3px;text-align: center; " colspan="1"&gt;&lt;div style="border-bottom: 1px solid #ddd; padding-bottom: 5px; "&gt;(3)&lt;/div&gt;&lt;/th&gt;
+&lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;th style="text-align:left;"&gt;   &lt;/th&gt;
+   &lt;th style="text-align:center;"&gt; Baseline &lt;/th&gt;
+   &lt;th style="text-align:center;"&gt; Benchmark &lt;/th&gt;
+   &lt;th style="text-align:center;"&gt; Binary DV &lt;/th&gt;
+  &lt;/tr&gt;
+ &lt;/thead&gt;
+&lt;tbody&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;"&gt; Blacklisted `\(\times\)` post-2012 &lt;/td&gt;
+   &lt;td style="text-align:center;width: 7em; "&gt; -0.029*** &lt;/td&gt;
+   &lt;td style="text-align:center;width: 7em; "&gt; -0.025*** &lt;/td&gt;
+   &lt;td style="text-align:center;width: 7em; "&gt; -0.017*** &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;box-shadow: 0px 1px"&gt;  &lt;/td&gt;
+   &lt;td style="text-align:center;box-shadow: 0px 1pxwidth: 7em; "&gt; (0.004) &lt;/td&gt;
+   &lt;td style="text-align:center;box-shadow: 0px 1pxwidth: 7em; "&gt; (0.004) &lt;/td&gt;
+   &lt;td style="text-align:center;box-shadow: 0px 1pxwidth: 7em; "&gt; (0.003) &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;"&gt; Num.Obs. &lt;/td&gt;
+   &lt;td style="text-align:center;width: 7em; "&gt; 1216866 &lt;/td&gt;
+   &lt;td style="text-align:center;width: 7em; "&gt; 1216866 &lt;/td&gt;
+   &lt;td style="text-align:center;width: 7em; "&gt; 1216866 &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;"&gt; R2 &lt;/td&gt;
+   &lt;td style="text-align:center;width: 7em; "&gt; 0.506 &lt;/td&gt;
+   &lt;td style="text-align:center;width: 7em; "&gt; 0.585 &lt;/td&gt;
+   &lt;td style="text-align:center;width: 7em; "&gt; 0.535 &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;"&gt; Unit Fixed &lt;/td&gt;
+   &lt;td style="text-align:center;width: 7em; "&gt; `\(\checkmark\)` &lt;/td&gt;
+   &lt;td style="text-align:center;width: 7em; "&gt; `\(\checkmark\)` &lt;/td&gt;
+   &lt;td style="text-align:center;width: 7em; "&gt; `\(\checkmark\)` &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;"&gt; Year Fixed &lt;/td&gt;
+   &lt;td style="text-align:center;width: 7em; "&gt; `\(\checkmark\)` &lt;/td&gt;
+   &lt;td style="text-align:center;width: 7em; "&gt; `\(\checkmark\)` &lt;/td&gt;
+   &lt;td style="text-align:center;width: 7em; "&gt; `\(\checkmark\)` &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;"&gt; Role Fixed &lt;/td&gt;
+   &lt;td style="text-align:center;width: 7em; "&gt; `\(\checkmark\)` &lt;/td&gt;
+   &lt;td style="text-align:center;width: 7em; "&gt; `\(\checkmark\)` &lt;/td&gt;
+   &lt;td style="text-align:center;width: 7em; "&gt; `\(\checkmark\)` &lt;/td&gt;
+  &lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;tfoot&gt;
+&lt;tr&gt;
+&lt;td style="padding: 0; border:0;" colspan="100%"&gt;
+&lt;sup&gt;a&lt;/sup&gt; SEs clustered over units&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tfoot&gt;
+&lt;tfoot&gt;&lt;tr&gt;&lt;td style="padding: 0; " colspan="100%"&gt;
+&lt;sup&gt;&lt;/sup&gt; * p &amp;lt; 0.05, ** p &amp;lt; 0.01, *** p &amp;lt; 0.001&lt;/td&gt;&lt;/tr&gt;&lt;/tfoot&gt;
+&lt;/table&gt;
+
+---
 
 
     </textarea>

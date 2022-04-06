@@ -176,17 +176,18 @@ kable(txt_tbl) %>%
 
 ---
 
-#Trend
+#Trend:
 
-.pull-left[![](https://github.com/textvulture/bkv/blob/main/count.jpeg?raw=true)]
-.pull-right[![]()]
+## Number (L) and Portion (R) of the .red[blacklisted]
+
+.pull-left[![](https://github.com/textvulture/textvulture.github.io/blob/master/images/bkv_count.jpeg?raw=true)]
+.pull-right[![](https://github.com/textvulture/textvulture.github.io/blob/master/images/bkv_count2.jpeg?raw=true)]
 
 ---
 
-## Model & Result
+## Model & Result (Difference-in-Difference)
 
 .content-box-red[
-Difference-in-Difference (OLS)
 \begin{equation}
 ln(movies + 1) = \beta_0 + \beta_1Blacklisted_{it} \times Treatment_{t} + \mathbf X + FE(unit, year, role) + \epsilon_{it},
 \end{equation}
@@ -195,3 +196,46 @@ ln(movies + 1) = \beta_0 + \beta_1Blacklisted_{it} \times Treatment_{t} + \mathb
 --
 
 
+```{r include=F}
+load("C:\\Users\\kalka\\Documents\\GitHub\\bkv\\modelsummary.Rdata") #needs to be changed
+```
+<br>
+```{r, echo=F, message=F, error=F, warning=F, cache=T, results='asis'}
+library(modelsummary)
+library(kableExtra)
+
+model_list <- list("Baseline" = model1,
+            "Benchmark" = model2,
+            "Binary DV" = model3)
+
+relabel <- c("treatment:shock2012" = "Blacklisted $\\times$ post-2012")
+
+FE <- data.frame("Coefficients" = c("Unit Fixed", "Year Fixed", "Role Fixed"),
+                 "Baseline" = c("$\\checkmark$", "$\\checkmark$", "$\\checkmark$"),
+                 "Benchmark" = c("$\\checkmark$", "$\\checkmark$", "$\\checkmark$"),
+                 "Binary DV" = c("$\\checkmark$", "$\\checkmark$", "$\\checkmark$"))	
+
+
+modelsummary(model_list, 
+             #output = "latex", ## WHEN RENDERED IN TEX
+             coef_map = relabel,
+             coef_omit = "[^treatment:shock2012|treatment::0:shock2012|treatment::1:shock2012]",
+             stars =  c('*' = .05, '**' = .01, '***' = 0.001),
+             fmt = 3,
+             gof_omit = 'DF|R2 Adj.|Std.Errors|R2 Pseudo|R2 Within|[FE]|Log.Lik.|AIC|BIC',
+             add_rows = FE) %>%
+  add_header_above(c(" ", "(1)", "(2)", "(3)")) %>%
+  add_footnote(c("SEs clustered over units")) %>%
+  column_spec(2, width = "7em") %>%
+  column_spec(3, width = "7em") %>%
+  column_spec(4, width = "7em")
+
+
+```
+
+---
+
+```{r, include=F }
+rm(list = ls())
+
+```
