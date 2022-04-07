@@ -190,7 +190,7 @@ kable(txt_tbl) %>%
 
 #Trend:
 
-## Number (L) and Portion (R) of the .red[blacklisted]
+## Number (L) and Portion (R) of the .red[blacklisted] movieworkers (.violet[employed])
 
 .pull-left[![](https://github.com/textvulture/textvulture.github.io/blob/master/images/bkv_count.jpeg?raw=true)]
 .pull-right[![](https://github.com/textvulture/textvulture.github.io/blob/master/images/bkv_count2.jpeg?raw=true)]
