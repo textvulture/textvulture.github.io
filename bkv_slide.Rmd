@@ -57,7 +57,7 @@ background-size: contain
 ---
 class: inverse
 background-color: black
-background-image: url(http://www.pn.or.kr/news/photo/201703/15075_29835_2154.jpg)
+background-image: url(https://github.com/textvulture/textvulture.github.io/blob/master/images/blacklist_eg.jpeg?raw=true)
 background-position: right
 
 # `r fa("book", fill='orange')` Blacklists, literally
