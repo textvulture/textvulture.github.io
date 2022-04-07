@@ -40,7 +40,7 @@ class: inverse, middle, center
 background-image: url(https://laughingsquid.com/wp-content/uploads/2018/03/video-killed-the-radio-star.gif?w=640)
 background-size: contain
 
-# .yellow[.Huge[**Blacklists Killed Video Stars**]]
+# .yellow[.huge[**Blacklists Killed Video Stars**]] <br> Adverse Career Effect of Democratic Backsliding in South Korea
 
 # **Byunghwan 'Ben' Son**
 
@@ -77,6 +77,18 @@ background-position: right
 ## - Govt: NIS, Blue House, MHST
 
 ## - discrete operation
+
+---
+class: inverse, middle
+background-image: url(https://img.seoul.co.kr/img/upload/2016/12/08/SSI_20161208102613_O2.jpg)
+background-position: right
+background-color: black
+background-size: contain
+
+# "*Why have you not .red[sanctioned] <br> these [anti-government] <br> movie producers yet?*" <br><br> 
+
+## **Kim Ki-choon**, Park Geun-hye's <br> Chief Secretary, <br> after watching *The Attorney* <br> to **Yoo Jin-ryong**, <br> Minister of Culture, Sports and Tourism. 
+
 
 ---
 
@@ -197,7 +209,8 @@ ln(movies + 1) = \beta_0 + \beta_1Blacklisted_{it} \times Treatment_{t} + \mathb
 
 
 ```{r include=F}
-load("C:\\Users\\kalka\\Documents\\GitHub\\bkv\\modelsummary.Rdata") #needs to be changed
+#load("C:\\Users\\kalka\\Documents\\GitHub\\bkv\\modelsummary.Rdata") #needs to be changed
+load("/Users/bson3/Library/CloudStorage/OneDrive-GeorgeMasonUniversity-O365Production/GitHub/bkv/modelsummary.Rdata")
 ```
 <br>
 ```{r, echo=F, message=F, error=F, warning=F, cache=T, results='asis'}
@@ -235,7 +248,45 @@ modelsummary(model_list,
 
 ---
 
-```{r, include=F }
+# .Large[.green[Event Study] Approach]
+.pull-left[### Benchmark
+```{r, echo=F, fig.align='center'}
+knitr::include_graphics("https://github.com/textvulture/textvulture.github.io/blob/master/images/bkv_event.jpeg?raw=true")
+```
+]
+
+--
+
+.pull-right[### .red[Non]-actors
+```{r, echo=F, fig.align='center'}
+knitr::include_graphics("https://github.com/textvulture/textvulture.github.io/blob/master/images/bkv_non_actor.jpeg?raw=true")
+```
+]
+
+---
+
+class: inverse
+background-image: url(https://img2.yna.co.kr/photo/yna/YH/2017/06/14/PYH2017061410710001300_P2.jpg)
+background-position: right
+background-size: contain
+background-color: black
+
+# .large[**Conclusion**]
+
+## - backsliding messes with culture by <br> suppressing .yellow[freedom of speech]
+
+## - often unknown as operating .red[discretely]
+
+## - authoritarian toolkits .green[recycled]
+
+## - yet another reason why backsliding is bad
+
+## - democracy eventually worked .orange[this time]
+
+
+
+
+```{r, include=F, echo=F }
 rm(list = ls())
 
 ```
