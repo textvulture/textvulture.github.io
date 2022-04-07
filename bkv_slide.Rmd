@@ -87,7 +87,7 @@ background-size: contain
 
 # "*Why have you not .red[sanctioned] <br> these [anti-government] <br> movie producers yet?*" <br><br> 
 
-## **Kim Ki-choon**, Park Geun-hye's <br> Chief Secretary, <br> after watching *The Attorney* <br> to **Yoo Jin-ryong**, <br> Minister of Culture, Sports and Tourism. 
+## **Kim Ki-choon**, <br> Park Geun-hye's Chief Secretary, <br> after watching *The Attorney* <br> to **Yoo Jin-ryong**, <br> Minister of Culture, Sports and Tourism. 
 
 
 ---
@@ -183,7 +183,7 @@ kable(txt_tbl) %>%
 # The Data
 
 ### A panel data set based on the KOBIS moive data base (API) matched with the Blacklists
-### N=1.6 mil, unbalanced; 2012 = treatment year
+### N=1.6 mil, unbalanced; 2012 = treatment year (when most things *really* happened)
 ]
 
 ---
@@ -212,7 +212,7 @@ ln(movies + 1) = \beta_0 + \beta_1Blacklisted_{it} \times Treatment_{t} + \mathb
 #load("C:\\Users\\kalka\\Documents\\GitHub\\bkv\\modelsummary.Rdata") #needs to be changed
 load("/Users/bson3/Library/CloudStorage/OneDrive-GeorgeMasonUniversity-O365Production/GitHub/bkv/modelsummary.Rdata")
 ```
-<br>
+--
 ```{r, echo=F, message=F, error=F, warning=F, cache=T, results='asis'}
 library(modelsummary)
 library(kableExtra)
@@ -221,24 +221,28 @@ model_list <- list("Baseline" = model1,
             "Benchmark" = model2,
             "Binary DV" = model3)
 
-relabel <- c("treatment:shock2012" = "Blacklisted $\\times$ post-2012")
+relabel <- c("treatment:shock2012" = "Blacklisted \\(\\times\\) post-2012")
 
 FE <- data.frame("Coefficients" = c("Unit Fixed", "Year Fixed", "Role Fixed"),
-                 "Baseline" = c("$\\checkmark$", "$\\checkmark$", "$\\checkmark$"),
-                 "Benchmark" = c("$\\checkmark$", "$\\checkmark$", "$\\checkmark$"),
-                 "Binary DV" = c("$\\checkmark$", "$\\checkmark$", "$\\checkmark$"))	
+                 "Baseline" = c("\\(\\checkmark\\)", "\\(\\checkmark\\)", "\\(\\checkmark\\)"),
+                 "Benchmark" = c("\\(\\checkmark\\)", "\\(\\checkmark\\)", "\\(\\checkmark\\)"),
+                 "Binary DV" = c("\\(\\checkmark\\)", "\\(\\checkmark\\)", "\\(\\checkmark\\)"))
 
+# https://github.com/yihui/xaringan/issues/94
+                 
 
 modelsummary(model_list, 
              #output = "latex", ## WHEN RENDERED IN TEX
              coef_map = relabel,
+             format = 'html',
+             escape = F,
              coef_omit = "[^treatment:shock2012|treatment::0:shock2012|treatment::1:shock2012]",
              stars =  c('*' = .05, '**' = .01, '***' = 0.001),
              fmt = 3,
              gof_omit = 'DF|R2 Adj.|Std.Errors|R2 Pseudo|R2 Within|[FE]|Log.Lik.|AIC|BIC',
              add_rows = FE) %>%
   add_header_above(c(" ", "(1)", "(2)", "(3)")) %>%
-  add_footnote(c("SEs clustered over units")) %>%
+  add_footnote(c("SEs clustered over units; Comparable logit estimates were obtained")) %>%
   column_spec(2, width = "7em") %>%
   column_spec(3, width = "7em") %>%
   column_spec(4, width = "7em")
@@ -273,15 +277,23 @@ background-color: black
 
 # .large[**Conclusion**]
 
-## - backsliding messes with culture by <br> suppressing .yellow[freedom of speech]
+## `r fa("microphone-alt-slash", fill='yellow')` backsliding messes with culture by <br> suppressing .yellow[freedom of speech]
 
-## - often unknown as operating .red[discretely]
+--
 
-## - authoritarian toolkits .green[recycled]
+## `r fa("user-secret", fill='red')` often unknown as operating .red[discretely] 
 
-## - yet another reason why backsliding is bad
+--
 
-## - democracy eventually worked .orange[this time]
+## `r fa("recycle", fill="green")` authoritarian toolkits .green[recycled]
+
+--
+
+## `r fa("trash-alt", fill='orange')` another reason backsliding is .orange[undesirable]
+
+--
+
+## `r fa("fist-raised", fill='#948DF0')` democracy eventually worked .violet[this time]
 
 
 
