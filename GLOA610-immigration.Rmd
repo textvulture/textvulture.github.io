@@ -228,6 +228,20 @@ background-size: contain
 # Hangartner et al. (2018); Alrababa’h (2021)
 
 ---
+
+background-image: url(https://github.com/textvulture/textvulture.github.io/blob/master/images/Alrabab2021.png?raw=true)
+background-position: right
+background-size: contain
+class: middle
+
+# **Alrababa'h et al. (2021)**
+
+--
+
+# - non-western hosts
+# - economy `r fa("bell-slash", fill='red')`
+
+---
 class: inverse
 background-image: url(https://cdn.dribbble.com/users/435189/screenshots/3667850/refugee-assimilate.gif)
 background-position: right
