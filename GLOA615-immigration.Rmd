@@ -41,6 +41,21 @@ background-image: url(https://shrm-res.cloudinary.com/image/upload/c_crop,h_253,
 # .Huge[**Immigration in Asia**] <br> GLOA 615 
 
 ---
+class: inverse, middle
+background-image: url(https://64.media.tumblr.com/da0585ef7100160655a4dea6784c600c/tumblr_oc3chhgZ1C1rasnq9o1_1280.jpg)
+background-position: right
+background-size: contain
+
+# Traditional <br> Immigration in Asia
+## : The Chinese .red[Diaspora]
+
+--
+
+### - 16-17c
+
+### - 1920-30s
+
+---
 
 <div class="full-width-tinted"><br>
   <h1> .large[Immigration 'stock' (% population) Global] </h1> 
@@ -218,7 +233,7 @@ background-image: url(https://miro.medium.com/max/1400/1*749_JgHFM-ahH172aPrGTg.
 background-size: contain
 
 
-# Why so restrictive?
+## **Why so restrictive? (Peng 2016; Lee 2011)**
 
 --
 
@@ -239,20 +254,45 @@ background-size: contain
 ---
 
 <div class="full-width-tinted"><br>
-  <h1> .Large[Experiment: Japan] </h1> 
-</div><br><br> 
+  <h1> .Large[Experiment: Japan (Faccini et al. 2016)] </h1> 
+</div><br>
 
 --
 
-# Japanese public opinions about immigration policies
-
-### : .red[uninformed] vs. .blue[informed]
+# Japanese public opinions about immigration policies<br>: .red[uninformed] vs. .blue[informed]
 
 --
 
-.center[![](Faccini.JPG)]
+.center[![](https://github.com/textvulture/textvulture.github.io/blob/master/images/Faccini2016.png?raw=true)]
 
 ---
+<div class="full-width-tinted"><br>
+  <h1> How Do Changes Occur? (Yamanaka 2010; some updates) </h1> 
+</div><br><br> 
+
+.LARGE[
+```{r, echo=F, message=F, error=F, warning=F}
+library(kableExtra)
+
+txt_tbl <- data.frame(
+  Japan = c("increasingly net labor importer", "Industrial Trainee System (1990)",
+            "2019 Reform (still limited)", "Loose civil society groups"),
+  Factors = c("economy", "initial legal setup", "changes", "agents"),
+  S.Korea = c("increasingly net labor importer", "Industrial Trainee System (1991)",
+            "2004 Reform (working permit system)", "influential religious/labor groups")
+)
+
+kable(txt_tbl, format='html', align='ccc') %>%
+  kable_styling(full_width = F) %>%
+  kable_styling("striped", full_width = F) %>%
+#  row_spec(0, align='c') %>%
+  column_spec(2, bold=T, color='white', background='red')
+
+
+```
+]
+---
+
 <div class="full-width-tinted"><br>
   <h1> .Large[Asian Refugee .red[Origins]] </h1> 
 </div><br><br> 
