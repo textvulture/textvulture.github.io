@@ -1,5 +1,5 @@
 ---
-title: ".green[Human Rights, Transnational Crimes, and Transitional Justice in Asia] <br> GLOA 610-001"
+title: "Crisis, GLOA 610"
 author: "Byunghwan Son <br> George Mason University"
 date: " "
 #########################################
@@ -36,11 +36,11 @@ library(ggplot2)
 library(tidyverse)
 ```
 
-class: inverse, left, top
+class: inverse, center, middle
 background-image: url(https://www.timeshighereducation.com/sites/default/files/styles/the_breaking_news_image_style/public/istock-530583132.jpg?itok=CekMzkG3)
 background-size: cover
 
-# .huge[**Global Economic Crisis <br> GLOA 610-001**]
+# .HUGE[**Global Economic Crisis**] <br><br> GLOA 610
 
 ---
 class: inverse
@@ -326,7 +326,7 @@ background-size: 77%
 
 --
 
-## - .green[domestic] & <br> .red[global] contexts
+## or <br> are there <br> some .red[easier] options?
 
 
 
@@ -336,19 +336,15 @@ class: inverse
 background-color: black
 
 <div class="full-width-tinted"><br>
-  <h1> .large[What can be done? (*post-hoc, at least*)] </h1> 
+  <h1> .large[Consequences and Implications] </h1> 
 </div><br><br> 
 
-# Cyclical and .green[counter]-cyclical policies? (*why austerity?*)
+--
+
+# `r fa("lightbulb", fill='yellow')` Explains why .yellow[state]-oriented policies are rare
+
+# &nbsp; &nbsp; &nbsp; `r fa("bomb")` boom-and-bust
 
 --
 
-### Farrell & Quiggin (2017)
-
---
-
-# Can .yellow[democracy] do something about it? 
-
---
-
-### Remmer (1990)
+# `r fa("users-slash", fill='orange')` Depoliticization: .green[Hungary] and .red[Turkey]?
