@@ -40,7 +40,7 @@ class: inverse, center, middle
 background-image: url(https://www.timeshighereducation.com/sites/default/files/styles/the_breaking_news_image_style/public/istock-530583132.jpg?itok=CekMzkG3)
 background-size: cover
 
-# .HUGE[**Global Economic Crisis**] <br><br> GLOA 610
+# .HUGE[**Global Economic Crisis**] <br><br> **.green[GLOA] .yellow[610]**
 
 ---
 class: inverse
@@ -326,8 +326,33 @@ background-size: 77%
 
 --
 
-## or <br> are there <br> some .red[easier] options?
+## or <br><br>  are there <br> some .red[easier] options?
 
+---
+
+## 1) Cook up the numbers: Aragao and Linsi (2022, 99)
+.center[
+![](https://github.com/textvulture/textvulture.github.io/blob/master/images/Aragao2020.png?raw=true)
+]
+
+---
+class: inverse, middle
+
+background-image: url(https://www.economist.com/img/b/300/291/90/sites/default/files/images/print-edition/20120225_AMC632.gif)
+background-position: right
+background-size: contain
+background-color: #C6D9DF
+
+# .huge[**... which <br> became <br>an Endemic <br> Problem**]
+
+---
+
+class: inverse, middle
+background-image: url(https://i.guim.co.uk/img/media/a4ca6635c18aecb768584d5d90cfc3b6fbb38540/0_96_6000_3600/master/6000.jpg?width=465&quality=45&auto=format&fit=max&dpr=2&s=b499693ac35275058616a168cc3cd256)
+background-size: cover
+background-color: black
+
+# .huge[**2) and blame the IMF*.**] <br> .right[(Doesn't mean IMF is innocent...)]
 
 
 ---
