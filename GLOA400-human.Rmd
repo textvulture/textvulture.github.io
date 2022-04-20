@@ -1,5 +1,5 @@
 ---
-title: ".green[Human Rights, Transnational Crimes, and Transitional Justice in Asia] <br> GLOA 400-001"
+title: "Human Rights GLOA 615"
 author: "Byunghwan Son <br> George Mason University"
 date: " "
 #########################################
@@ -26,7 +26,7 @@ beforeInit: "css/macros.js"
 #remotes::install_github('yihui/xaringan', upgrade = TRUE)
 ---
 
-```{r setup, include=FALSE}
+```{r setup, include=FALSE, cache=T}
 # to use FontAwesome
 #htmltools::tagList(rmarkdown::html_dependency_font_awesome())
 library(fs)
@@ -36,11 +36,11 @@ library(ggplot2)
 library(tidyverse)
 ```
 
-class: inverse, right, bottom
-background-image: url(https://www.iberdrola.com/wcorp/gc/prod/en_US/corporativos/politica_respeto_DDHH_1_res/Politica_Respeto_DDHH.jpg)
-background-size: contain
+class: inverse, center, middle
+background-image: url(https://www.airbus.com/sites/g/files/jlcbta136/files/styles/airbus_480x480/public/2021-06/human-rights-illustration.jpg?itok=FgBpQEO2)
+background-size: cover
 
-# .yellow[Human Rights], <br> .red[Transnational Crimes], <br> and <br> .green[Transitional Justice] <br> in Asia <br> GLOA 400-001
+# .huge[**.yellow[Human Rights], <br> .red[Transnational Crimes], <br> .green[Transitional Justice] <br> in Asia <br> GLOA 615**]
 
 ---
 class: inverse
@@ -129,7 +129,7 @@ background-color: black
 ---
 
 <div class="full-width-tinted"><br>
-  <h1> .large[Cross-border Trafficking of NK Women] </h1>
+  <h1> Cross-border Trafficking of NK Women (Kim et al. 2009) </h1>
 </div><br><br>
 
 .Large[`r fa("ethereum")` **Development/origin**]
@@ -188,14 +188,12 @@ background-size: cover
 
 ---
 
-class: inverse
+class: inverse, middle
 background-color: black
 background-image: url(https://pics.loveforquotes.com/13-17-passing-the-buck-51696068.png)
 background-position: right
 
-# Why is the issue not addressed?
-
-- .large[despite the security consequences]
+# Why is the issue not addressed? <br> .Small[\- despite the security consequences]
 
 --
 
@@ -209,7 +207,7 @@ background-position: right
 ---
 
 <div class="full-width-tinted"><br>
-  <h1> .Large[Maritime Piracy] </h1>
+  <h1> Maritime Piracy: what are the .yellow[legal] boundaries? </h1>
 </div><br><br>
 .blockquote[
 # UN Convention on the Law of the Sea (UNCLOS, 1982)
@@ -338,3 +336,22 @@ background-position: right
 # .orange[`r fa("globe")`] &nbsp; International
 
 ## - Chinese involvement; UN
+
+---
+class: inverse
+background-image: url(https://s.wsj.net/public/resources/images/BN-XQ526_3kOwq_8V_20180227020502.jpg)
+background-position: right
+background-color: black
+background-size: contain
+
+# Another Current Case: <br> .yellow[Xinjiang] (Hendix and Noland)
+
+## 'Controversia' whether a genocide `r fa("users-slash", fill='red')` ?
+
+## Any responses?
+  .LARGE[
+- targeted sanctions
+- refugees
+- private sector initiatives
+  ]
+
