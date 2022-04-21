@@ -26,7 +26,7 @@ beforeInit: "css/macros.js"
 #remotes::install_github('yihui/xaringan', upgrade = TRUE)
 ---
 
-```{r setup, include=FALSE, cache=T}
+```{r setup, include=FALSE}
 # to use FontAwesome
 #htmltools::tagList(rmarkdown::html_dependency_font_awesome())
 library(fs)
@@ -56,7 +56,7 @@ background-image: url(https://t3.ftcdn.net/jpg/00/97/87/00/360_F_97870083_DFLY0v
 background-size: cover
 
 
-# What are we REALLY talking about?
+# .Large[What are we .red[REALLY] talking about?]
 
 --
 
@@ -64,11 +64,15 @@ background-size: cover
 
 --
 
-## - Transnational Crimes (human trafficking; environmental crimes)
+## - Transnational Crimes (human trafficking; environmental crimes; piracy)
 
 --
 
 ## - Transitional justice issues (the Rohyinga)
+
+--
+
+# `r fa("users", fill='yellow')` Topics of .orange[Human Security] 
 ---
 
 <div class="full-width-tinted"><br>
@@ -101,6 +105,14 @@ vdem %>%
 
 ```
 
+
+---
+class: middle, center, inverse
+background-image: url(https://www.adb.org/sites/default/files/styles/content_media/public/content-media/7763-human-trafficking.jpg?itok=MSvBYONb)
+background-size: contain
+
+
+# .Huge[**But Human Trafficking is Rampant in Asia**]
 
 ---
 
@@ -193,9 +205,11 @@ background-color: black
 background-image: url(https://pics.loveforquotes.com/13-17-passing-the-buck-51696068.png)
 background-position: right
 
-# Why is the issue not addressed? <br> .Small[\- despite the security consequences]
+# Why is the issue not addressed? <br> .yellow[.Small[\- despite the security consequences]]
 
 --
+
+## - Elliott (2017)
 
 ## - policymakers' lack of understanding
 
