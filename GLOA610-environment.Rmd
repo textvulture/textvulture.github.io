@@ -40,7 +40,7 @@ class: inverse, left, top
 background-image: url(https://static.dw.com/image/41289061_303.jpg)
 background-size: contain
 
-# .huge[**Environment, Health, and Education <br> GLOA 610-001**]
+# .huge[**Environment, Health, and Resource <br> GLOA 610**]
 
 
 
@@ -146,7 +146,11 @@ background-color: #DF9A06
 
 --
 
-## - Biomass burning in the .green[rural] areas 
+## - coal mining `r fa("dungeon", fill='black')`
+
+--
+
+## - biomass burning in the rural areas `r fa("fire-alt", fill='red')`
 
 ---
 
@@ -254,14 +258,19 @@ background-color: black
 ]
 
 ---
+
 class: inverse, bottom, center
 background-image: url(https://www.cadtm.org/local/cache-vignettes/L460xH259/arton10536-84fbb.jpg?1593847991)
 background-size: contain
 background-color: black
 
-# Is Resource (independence) <br> an Anti-Colonial Weapon?
+# .huge[Is Resource (Independence) <br> an '.yellow[Anti-Colonial] Weapon'?]
 
+---
+class: right
+background-position: left
+background-image: url(https://github.com/textvulture/textvulture.github.io/blob/master/images/Fails2020.png?raw=true)
+background-size: 75%
 
-
-
+# .Large[OR, just a lifeline <br> for .red[dictators]' ? <br> (Fails 2020)]
 
