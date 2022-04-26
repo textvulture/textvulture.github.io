@@ -1,5 +1,5 @@
 ---
-title: "Environment, Health, and Education <br> GLOA 610-001"
+title: "MISC. <br> GLOA 610"
 author: "Byunghwan Son <br> George Mason University"
 date: " "
 #########################################
@@ -95,10 +95,10 @@ wdi %>%
   labs(x = "YEAR",
        y = "Economic Cost of CO2 (% GNI)") +
   theme_minimal() +
-  theme(legend.title=element_text(size=15),
-        legend.text=element_text(size=15),
-        axis.text=element_text(size=15),
-        axis.title=element_text(size=15)) +
+  theme(legend.title=element_text(size=25),
+        legend.text=element_text(size=25),
+        axis.text=element_text(size=20),
+        axis.title=element_text(size=20)) +
   ylim(0, 20)
 ```
 
@@ -122,10 +122,10 @@ wdi %>%
   labs(x = "YEAR",
        y = "Air Pollution (mg per cubic meter)") +
   theme_minimal() +
-  theme(legend.title=element_text(size=15),
-        legend.text=element_text(size=15),
-        axis.text=element_text(size=15),
-        axis.title=element_text(size=15))
+  theme(legend.title=element_text(size=25),
+        legend.text=element_text(size=25),
+        axis.text=element_text(size=20),
+        axis.title=element_text(size=20))
 ```
 
 ---
@@ -196,55 +196,9 @@ background-color: black
 
 # .Large[Political .yellow[incentive] structure]
 
-# - Bayer & Urpelainen (2016)
-
 # .Large[.green[Old] problems, .red[new] issues]
 
 # - Economist (2019)
-
----
-
-<div class="full-width-tinted"><br>
-  <h1> .large[Educational Attainment (Primary)] </h1> 
-</div><br><br>
-
-
-```{r message=FALSE, echo=FALSE, warning=FALSE, results="asis", fig.width=16, fig.height=7, cache=T}
-
-wdi %>%
-  ggplot(aes(x=year,
-             y=school,
-             group=developed)) +
-  geom_point(aes(color=developed),
-             alpha=0.25, size=3) +
-  geom_smooth(aes(color=developed), 
-              alpha=0.5) +
-  labs(x = "YEAR",
-       y = "Primary School Enrollment (%)") +
-  theme_minimal() +
-  theme(legend.title=element_text(size=15),
-        legend.text=element_text(size=15),
-        axis.text=element_text(size=15),
-        axis.title=element_text(size=15))
-```
-
-
----
-class: inverse
-background-image: url(https://guardian.ng/wp-content/uploads/2020/09/education.jpg)
-background-size: contain
-
-
-# .large[How does education .yellow[promote] development?]
-
---
-
-# - Human Development <br> &nbsp;&nbsp; (sufficient .orange[or] necessary?)
-
---
-
-# - Other ways? .yellow[Blattman (2014)]
-
 
 
 ---
@@ -268,9 +222,9 @@ wdi %>%
   labs(x = "YEAR",
        y = "Life Expectancy at Brith") +
   theme_minimal() +
-  theme(legend.title=element_text(size=15),
-        legend.text=element_text(size=15),
-        axis.text=element_text(size=15),
+  theme(legend.title=element_text(size=25),
+        legend.text=element_text(size=25),
+        axis.text=element_text(size=25),
         axis.title=element_text(size=15))
 ```
 
