@@ -121,6 +121,39 @@ wdi %>%
 ```
 
 ---
+class: inverse
+background-image: url(http://cdn.statcdn.com/Infographic/images/normal/17239.jpeg)
+background-size: contain
+background-position: right
+
+
+
+
+
+---
+
+
+class: inverse
+background-image: url(http://cdn.statcdn.com/Infographic/images/normal/17239.jpeg)
+background-size: contain
+background-position: right
+background-color: #DF9A06
+
+# .LARGE[.red[`r fa("head-side-mask")`] Urban Air Pollution]
+
+--
+
+# South Asia -- Why seasonal?
+
+# Are urbanization <br> the .red[only] source of air pollution?
+
+--
+
+## - Biomass burning in the .green[rural] areas <br> (Bikkina et al.2019)
+
+
+
+---
 <div class="full-width-tinted"><br>
   <h1> $$ \text{Economic Effect: } CO_2 \text{          } \text{Damage, % of GNI} $$ </h1> 
 </div><br><br> 
@@ -145,17 +178,6 @@ wdi %>%
 ```
 
 ---
-<html>
-  <head> <title>Most Polluted Cities</title> </head>
-  <body>
-   <div id="map"></div>
-    <script
-      src="https://www.google.com/maps/@32.6779205,78.1432744,6z/data=!3m1!4b1!4m3!11m2!2sFibPvrHwRNy9vfiJDSgc2w!3e3"
-      defer
-    ></script>
-  </body>
-</html>
----
 
 <div class="full-width-tinted"><br>
   <h1> .large[Environmental Kuznets Curve]  </h1> 
@@ -179,28 +201,6 @@ wdi %>%
 ![](https://www.intelligenteconomist.com/wp-content/uploads/2018/03/Environmental-Kuznets-Curve-1.png)
 ]
 ]
-
-
----
-
-
-class: inverse
-background-image: url(http://cdn.statcdn.com/Infographic/images/normal/17239.jpeg)
-background-size: contain
-background-position: right
-background-color: #DF9A06
-
-# .LARGE[.red[`r fa("head-side-mask")`] Urban Air Pollution]
-
---
-
-# South Asia -- Why seasonal?
-
-# Are urbanization <br> the .red[only] source of air pollution?
-
---
-
-## - Biomass burning in the .green[rural] areas <br> (Bikkina et al.2019)
 
 
 
