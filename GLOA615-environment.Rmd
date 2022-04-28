@@ -121,12 +121,11 @@ wdi %>%
 ```
 
 ---
-class: inverse
-background-image: url(http://cdn.statcdn.com/Infographic/images/normal/17239.jpeg)
+class: inverse, top, right
+background-image: url(https://github.com/textvulture/textvulture.github.io/blob/master/images/polluted_cities.png?raw=true)
 background-size: contain
-background-position: right
 
-
+# .Large[.bluey[**Most Air-Polluted Cities in 2022**]]
 
 
 
@@ -155,7 +154,7 @@ background-color: #DF9A06
 
 ---
 <div class="full-width-tinted"><br>
-  <h1> $$ \text{Economic Effect: } CO_2 \text{          } \text{Damage, % of GNI} $$ </h1> 
+  <h1> $CO_2$ Emission, compared to the economy ($20 for each *t*) </h1> 
 </div><br><br> 
 
 ```{r echo=F, message=F, warning=F, error=F, cache=T, fig.width=16}
@@ -167,7 +166,7 @@ background-color: #DF9A06
              alpha=0.5) +
   geom_point(data=wdi3, size=0.15, alpha=0.25, color='black') + 
   labs(x = "YEAR",
-       y = "Economic Cost of CO2 (% GNI)") +
+       y = "CO2 emission (% GNI)") +
   theme_minimal() +
   theme(legend.title=element_text(size=15),
         legend.text=element_text(size=15),
@@ -191,7 +190,6 @@ background-color: #DF9A06
 
 ### - Distributive implications
 
-### - Reforms may incur economic costs: China (Xu et al. 2019)
 
 ]
 
@@ -204,5 +202,37 @@ background-color: #DF9A06
 
 
 
+---
 
+# Globalization, Financialization, and CO2 Emission <br> (Zaidi et al. 2019)
 
+.Large[
+- .red[technology] effect (globalization)
+- .orange[credit] effect (financialization)
+]
+
+```{r echo=F, out.width="70%", fig.align='center'}
+knitr::include_graphics("https://github.com/textvulture/textvulture.github.io/blob/master/images/Zaidi2019.png?raw=true")
+```
+
+---
+background-image: url(https://github.com/textvulture/textvulture.github.io/blob/master/images/Xu2019.png?raw=true)
+background-position: right
+background-size: 60%
+
+# Why Reforms are .red[Hard]? The Chinese Case (Xu et al. 2019)
+<br><br>
+
+### `r fa("bell", fill='orange')` MEP established in 2008 
+
+--
+
+### `r fa("arrow-down", fill='red')` polluting firms took a hit 
+
+--
+
+### `r fa("shield-alt", fill='purple')` SOEs were hurt less 
+
+--
+
+### `r fa("balance-scale-right", fill='#52580A')` implications for reforms? 
