@@ -178,6 +178,17 @@ background-color: #DF9A06
 
 ---
 
+background-image: url(https://github.com/textvulture/textvulture.github.io/blob/master/images/Mongolia_air.png?raw=true)
+ 
+---
+background-image: url(http://prod-upp-image-read.ft.com/d81d851e-a1de-11e4-bd03-00144feab7de)
+background-size: contain
+class: inverse
+
+# .huge[**Rapid Expansion of <br> the Coldest City in the World**]
+
+---
+
 <div class="full-width-tinted"><br>
   <h1> .large[Environmental Kuznets Curve]  </h1> 
 </div><br><br> 
