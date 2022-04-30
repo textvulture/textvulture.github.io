@@ -1,5 +1,5 @@
 ---
-title: ".green[Immigration] <br> GLOA 610-001"
+title: "Immigration GLOA 610"
 author: "Byunghwan Son <br> George Mason University"
 date: " "
 #########################################
@@ -47,7 +47,7 @@ class: inverse, center, top
 background-image: url(https://news.miami.edu/_assets/images-stories/2020/05/migrationsymp_hero_940x529.jpg)
 background-size: contain
 
-# .LARGE[Immigration] <br> GLOA 610-001 <br> <br>
+# .huge[**Immigration**, GLOA 610] <br> <br>
 
 
 ```{r message=FALSE, echo=FALSE, warning=FALSE, results="asis", fig.width=16, fig.height=7, cache=T}
@@ -166,37 +166,80 @@ wdi %>%
 ```   
 
 ---
-class: inverse
-background-image: url(https://media1.giphy.com/media/lpt5YA1gY68yhJjGpm/giphy.gif)
+class: inverse, middle
+background-image: url(https://thumbs.gfycat.com/CrispBabyishAfricanparadiseflycatcher-max-1mb.gif)
 background-color: black
 background-position: right
-background-size: 70%
+background-size: contain
 
-# .Large[Where do immigrants <br> end up? <br> .yellow[Economic Interests?]] </h1> 
+
+# Where do .red[immigrants] end up? 
+
+### What do they consider when they choose their new home `r fa("home", fill='yellow')`? 
 
 --
 
-# Fitzgerald et al. (2014)
+# - .yellow[Economic Interests?]
 
+--
+
+# - .green[Affinity?]
+
+---
+background-image: url(https://github.com/textvulture/textvulture.github.io/blob/master/images/Fitzgerald2014.png?raw=true)
+background-position: right
+
+# .Large[Fitzgerald et al. (2014)]
+## - The .bluey[conditional] effect of <br> economic incentives
+## - Political factors
 
 ---
 class: inverse
 background-color: black
-background-image: url(https://c.tenor.com/KOlhCrT47R0AAAAC/youre-stealing-from-us-stealing.gif)
+background-image: url(https://c.tenor.com/Cw777VnGhWwAAAAC/slamming-door-shutting-door.gif)
 background-position: right
 background-size: contain
 
-# .Large[What do hosts think? <br> .yellow[Economic] Interests?] 
+# .Large[What do .red[hosts] think?] 
 
-# Hainmueller et al. (2015)
+## When do they want to shut the door? `r fa("door-open")`
 
 --
 
-# .Large[But what about .red[Refugees]?]
+# - .yellow[Economic Interests?]
+
+# - .green[Affinity?]
+
+--
+
+# Hainmueller et al. (2015)
+
+---
+class: inverse, right, bottom
+background-image: url(https://www.stashmedia.tv/wp-content/uploads/Screenshot-2017-12-19-08.20.55-640x359.png)
+background-size: contain
+
+# .Large[What about .red[Refugees]?]
+
+# When are hosts reluctant?
 
 --
 
 # Hangartner et al. (2018); Alrababa’h (2021)
+
+---
+
+background-image: url(https://github.com/textvulture/textvulture.github.io/blob/master/images/Alrabab2021.png?raw=true)
+background-position: right
+background-size: contain
+class: middle
+
+# **Alrababa'h et al. (2021)**
+
+--
+
+# - non-western hosts
+# - economy `r fa("bell-slash", fill='red')`
 
 ---
 class: inverse
@@ -215,7 +258,7 @@ background-size: 50%
 
 # Banksak et al. (2018)
 
-### .red[`r fa("robot")`] &nbsp; *what could've happened if the algorithms were used ...*
+## .red[`r fa("robot")`] &nbsp; *what could've happened if the algorithms were used ...*
 
 .pull-left[
 .center[

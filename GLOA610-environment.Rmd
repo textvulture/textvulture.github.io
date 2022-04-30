@@ -1,5 +1,5 @@
 ---
-title: "Environment, Health, and Education <br> GLOA 610-001"
+title: "MISC. <br> GLOA 610"
 author: "Byunghwan Son <br> George Mason University"
 date: " "
 #########################################
@@ -40,7 +40,7 @@ class: inverse, left, top
 background-image: url(https://static.dw.com/image/41289061_303.jpg)
 background-size: contain
 
-# .huge[**Environment, Health, and Education <br> GLOA 610-001**]
+# .huge[**Environment, Health, and Resource <br> GLOA 610**]
 
 
 
@@ -95,10 +95,10 @@ wdi %>%
   labs(x = "YEAR",
        y = "Economic Cost of CO2 (% GNI)") +
   theme_minimal() +
-  theme(legend.title=element_text(size=15),
-        legend.text=element_text(size=15),
-        axis.text=element_text(size=15),
-        axis.title=element_text(size=15)) +
+  theme(legend.title=element_text(size=25),
+        legend.text=element_text(size=25),
+        axis.text=element_text(size=20),
+        axis.title=element_text(size=20)) +
   ylim(0, 20)
 ```
 
@@ -122,10 +122,10 @@ wdi %>%
   labs(x = "YEAR",
        y = "Air Pollution (mg per cubic meter)") +
   theme_minimal() +
-  theme(legend.title=element_text(size=15),
-        legend.text=element_text(size=15),
-        axis.text=element_text(size=15),
-        axis.title=element_text(size=15))
+  theme(legend.title=element_text(size=25),
+        legend.text=element_text(size=25),
+        axis.text=element_text(size=20),
+        axis.title=element_text(size=20))
 ```
 
 ---
@@ -146,7 +146,11 @@ background-color: #DF9A06
 
 --
 
-## - Biomass burning in the .green[rural] areas 
+## - coal mining `r fa("dungeon", fill='black')`
+
+--
+
+## - biomass burning in the rural areas `r fa("fire-alt", fill='red')`
 
 ---
 
@@ -196,55 +200,9 @@ background-color: black
 
 # .Large[Political .yellow[incentive] structure]
 
-# - Bayer & Urpelainen (2016)
-
 # .Large[.green[Old] problems, .red[new] issues]
 
 # - Economist (2019)
-
----
-
-<div class="full-width-tinted"><br>
-  <h1> .large[Educational Attainment (Primary)] </h1> 
-</div><br><br>
-
-
-```{r message=FALSE, echo=FALSE, warning=FALSE, results="asis", fig.width=16, fig.height=7, cache=T}
-
-wdi %>%
-  ggplot(aes(x=year,
-             y=school,
-             group=developed)) +
-  geom_point(aes(color=developed),
-             alpha=0.25, size=3) +
-  geom_smooth(aes(color=developed), 
-              alpha=0.5) +
-  labs(x = "YEAR",
-       y = "Primary School Enrollment (%)") +
-  theme_minimal() +
-  theme(legend.title=element_text(size=15),
-        legend.text=element_text(size=15),
-        axis.text=element_text(size=15),
-        axis.title=element_text(size=15))
-```
-
-
----
-class: inverse
-background-image: url(https://guardian.ng/wp-content/uploads/2020/09/education.jpg)
-background-size: contain
-
-
-# .large[How does education .yellow[promote] development?]
-
---
-
-# - Human Development <br> &nbsp;&nbsp; (sufficient .orange[or] necessary?)
-
---
-
-# - Other ways? .yellow[Blattman (2014)]
-
 
 
 ---
@@ -268,9 +226,9 @@ wdi %>%
   labs(x = "YEAR",
        y = "Life Expectancy at Brith") +
   theme_minimal() +
-  theme(legend.title=element_text(size=15),
-        legend.text=element_text(size=15),
-        axis.text=element_text(size=15),
+  theme(legend.title=element_text(size=25),
+        legend.text=element_text(size=25),
+        axis.text=element_text(size=25),
         axis.title=element_text(size=15))
 ```
 
@@ -282,8 +240,37 @@ background-size: 100%
 background-position: left
 background-color: black
 
-# What are some <br> (fundamental) .red[threats] <br> to public health?
+# .Large[What are some <br> (fundamental) .red[threats] <br> to public health?]
 
---
+---
 
-# Wigley et al. (2020)
+# Democratic Backsliding 
+
+.center[
+![](https://github.com/textvulture/textvulture.github.io/blob/master/images/Son2022_1.png?raw=true)
+]
+
+---
+
+# Democratic Backsliding as a .red[Threat] to .green[Public Health]
+.center[
+![](https://github.com/textvulture/textvulture.github.io/blob/master/images/Son2022_2.png?raw=true)
+]
+
+---
+
+class: inverse, bottom, center
+background-image: url(https://www.cadtm.org/local/cache-vignettes/L460xH259/arton10536-84fbb.jpg?1593847991)
+background-size: contain
+background-color: black
+
+# .huge[Is Resource (Independence) <br> an '.yellow[Anti-Colonial] Weapon'?]
+
+---
+class: right
+background-position: left
+background-image: url(https://github.com/textvulture/textvulture.github.io/blob/master/images/Fails2020.png?raw=true)
+background-size: 75%
+
+# .Large[OR, just a lifeline <br> for .red[dictators]' ? <br> (Fails 2020)]
+
