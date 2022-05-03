@@ -79,7 +79,7 @@ background-size: contain
 ---
 
 <div class="full-width-tinted"><br>
-  <h1> $$ CO_2 \text{ } \text{Damage, % of GNI} $$  </h1> 
+  <h1> $CO_2$ Emission, \$20 per t, % of GNI </h1> 
 </div><br><br>
 
 ```{r message=FALSE, echo=FALSE, warning=FALSE, results="asis", fig.width=16, fig.height=7, cache=T}
@@ -93,7 +93,7 @@ wdi %>%
   geom_smooth(aes(color=developed), 
               alpha=0.5) +
   labs(x = "YEAR",
-       y = "Economic Cost of CO2 (% GNI)") +
+       y = "CO2 (% GNI)") +
   theme_minimal() +
   theme(legend.title=element_text(size=25),
         legend.text=element_text(size=25),
