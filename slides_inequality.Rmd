@@ -53,8 +53,113 @@ background-size: cover
 
 ---
 
-class: inverse
+class: inverse, middle
 background-image: url(https://github.com/textvulture/textvulture.github.io/blob/master/images/pressian04182022.png?raw=true)
 background-size: contain
+background-color: white
+ 
+## .red[.right[The Reactionary after the Candle goes out, <br> the K-Trump Risk]]
 
-## .red[.right[The Reactionary after the Candle goes out, the K-Trump Risk]]
+---
+
+class: inverse
+background-image: url(https://github.com/textvulture/textvulture.github.io/blob/master/images/inequalitycitizen.jpg?raw=true)
+background-size: contain
+background-color: black
+
+# .huge[Two Empirical Questions]
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+## - Is there a substantial degree of inequality in S. Korea?
+
+## - Do people think it's unfair in the society?
+
+---
+
+# Gini Coefficient, South Korea (SWIID, SOLT 2020)
+
+```{r, include=F, cache=T}
+######## Gini, SWIID
+
+download("https://dataverse.harvard.edu/api/access/datafile/5678385", 
+         dest = 'swiid9_2.zip', mode='wb')
+unzip("swiid9_2.zip")
+load(file="swiid9_2/swiid9_2.rda")
+rm(swiid) #######3
+
+official <- data.frame(
+  year=c(2018:2020),
+  official_gini = c(35, 34, 33)
+) # SK government's official statistics (index.go.kr)
+```
+
+```{r gini, echo=F, message=F, error=F, warning=F, cache=T, fig.width=14}
+gini <- swiid_summary %>% 
+  filter(year>1964) %>%
+  ggplot(aes(x=year, y=gini_disp)) +
+  theme_minimal() +
+  geom_smooth(alpha=0.25, color='red', fill='red') +
+  geom_ribbon(data=swiid_summary %>%
+                filter(country=="Korea"),
+              aes(ymin = gini_disp-1.96*gini_disp_se,
+                  ymax = gini_disp+1.96*gini_disp_se, 
+                  linetype=NA), alpha = .2, fill='blue') +
+  geom_line(data=swiid_summary %>%
+              filter(country=="Korea"), size=1, color='blue') +
+  annotate(geom='text', x=1980, y=38, label="Global Average", color='red') +
+  annotate(geom='text',  x=1983.5, y=32, label="S. Korea", color="blue") +
+  labs(y="Gini Coefficient, Disposable Income") +
+  theme(axis.text=element_text(size=17),
+        axis.title=element_text(size=17),
+        legend.position = "none") +
+  geom_point(data=official, aes(y=official_gini, x=year), 
+             size=2, color='blue', alpha=0.5) +
+  geom_segment(aes(x=2013, y=35.5,
+                   xend=2017, yend=35),
+               arrow = arrow(length=unit(0.25, 'cm'))) +
+  annotate(geom='text', x=2003, y=35.5, 
+           'label' = "S. Korea Gov't official Gini", color='blue', alpha=0.75)
+
+gini
+
+```
+
+---
+
+# Public Opinions on Fairness <br> (KIPA 2021, average of 10 indicators)
+
+```{r fairnessall, echo=F, message=F, error=F, warning=F, cache=T, fig.width=16, fig.height=6.5}
+
+# Fairness, Composite 
+
+k2013_2020 %>%
+  group_by(year) %>%
+  summarise(mean = mean(fairness),
+            se = sd(fairness)/sqrt(n())) %>%
+  ggplot(aes(y=mean, x=year)) +
+  theme_minimal() +
+  geom_point(color='blue', size=2, alpha=0.85) +
+  geom_errorbar(aes(ymin = mean-1.96*se, ymax=mean+1.96*se)) +
+  labs(y="Average Fairness (1:v unfair - 4: v fair)") +
+  geom_line(color='blue', alpha=0.25) +
+  coord_cartesian(ylim=c(2.2, 2.6)) +
+  geom_hline(aes(yintercept=2.5),
+             linetype='dashed', color='red', alpha=0.5) + 
+    theme(axis.text=element_text(size=25),
+        axis.title=element_text(size=25),
+        legend.position = "none")  -> fairness_all
+
+fairness_all
+
+```
+
