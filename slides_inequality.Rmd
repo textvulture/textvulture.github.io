@@ -1,0 +1,54 @@
+---
+title: "Inequality SK"
+author: "Byunghwan Son <br> George Mason University"
+date: " "
+#########################################
+linkcolor: red
+citecolor: blue
+urlcolor: blueß
+output: 
+  xaringan::moon_reader:
+    seal: false
+    nature:
+      ratio: '4:3'
+      highlightStyle: github
+  #    self-contained: TRUE
+  chakra: css/libs/remark-latest.min.js
+css: ["default", 
+      "css/footer.css", 
+      "css/color.css", 
+      # "css/xaringan-themer.css",
+      default-fonts]
+lib_dir: css/libs
+beforeInit: "css/macros.js"
+# seal: false  
+#bibliography: /Users/bson3/Dropbox/latex/mybib2.bib
+#remotes::install_github('yihui/xaringan', upgrade = TRUE)
+---
+
+```{r setup, include=FALSE}
+# to use FontAwesome
+#htmltools::tagList(rmarkdown::html_dependency_font_awesome())
+library(fs)
+library(fontawesome)
+# library(magick)  
+library(ggplot2)
+library(tidyverse)
+library(downloader)
+library(here)
+library(haven)
+library(reshape2)
+library(cowplot)
+library(gt)
+
+k2013_2020 <- read_rds("/Users/bson3/Google Drive/international political economy/Brookings/inequality project/k2013_2020.rds")
+oecd <- read.csv("/Users/bson3/Google Drive/international political economy/Brookings/inequality project/OECD_HPI_2022-05-02.csv")
+```
+
+class: inverse, center, middle
+background-image: url(https://cbsnews2.cbsistatic.com/hub/i/r/2021/10/21/01d9f24d-5db4-4cf4-bbe0-814d9990a4f3/thumbnail/1200x630/a015009bed8ae02dd1c32693757cc515/south-korea-union-squid-game-protest-1236000724.jpg)
+background-size: cover
+
+# .huge[**How Inequality is .yellow[NOT] a threat to the South Korean Democracy**]  <br><br> Byunghwan 'Ben' Son
+
+---
