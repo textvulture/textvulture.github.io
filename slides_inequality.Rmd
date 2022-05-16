@@ -10,7 +10,7 @@ output:
   xaringan::moon_reader:
     seal: false
     nature:
-      ratio: '4:3'
+      ratio: '16:9'
       highlightStyle: github
   #    self-contained: TRUE
   chakra: css/libs/remark-latest.min.js
@@ -49,6 +49,12 @@ class: inverse, center, middle
 background-image: url(https://cbsnews2.cbsistatic.com/hub/i/r/2021/10/21/01d9f24d-5db4-4cf4-bbe0-814d9990a4f3/thumbnail/1200x630/a015009bed8ae02dd1c32693757cc515/south-korea-union-squid-game-protest-1236000724.jpg)
 background-size: cover
 
-# .huge[**How Inequality is .yellow[NOT] a threat to the South Korean Democracy**]  <br><br> Byunghwan 'Ben' Son
+# .huge[**How Inequality is .yellow[NOT] a threat to the South Korean Democracy**]  <br><br> Byunghwan 'Ben' Son (GMU)
 
 ---
+
+class: inverse
+background-image: url(https://github.com/textvulture/textvulture.github.io/blob/master/images/pressian04182022.png?raw=true)
+background-size: contain
+
+## .red[.right[The Reactionary after the Candle goes out, the K-Trump Risk]]
