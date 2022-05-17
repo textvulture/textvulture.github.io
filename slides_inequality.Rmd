@@ -41,8 +41,12 @@ library(reshape2)
 library(cowplot)
 library(gt)
 
-k2013_2020 <- read_rds("/Users/bson3/Google Drive/international political economy/Brookings/inequality project/k2013_2020.rds")
-oecd <- read.csv("/Users/bson3/Google Drive/international political economy/Brookings/inequality project/OECD_HPI_2022-05-02.csv")
+#k2013_2020 <- read_rds("/Users/kalka/Google Drive/international political economy/Brookings/inequality project/k2013_2020.rds")
+
+k2013_2020 <- read_rds(file = "C:/Users/kalka/Google Drive/international political economy/Brookings/inequality project/k2013_2020.rds")
+
+oecd <- read.csv(file = "C:\\Users\\kalka\\Google Drive\\international political economy\\Brookings\\inequality project\\OECD_HPI_2022-05-02.csv")
+
 ```
 
 class: inverse, center, middle
@@ -116,8 +120,8 @@ gini <- swiid_summary %>%
                   linetype=NA), alpha = .2, fill='blue') +
   geom_line(data=swiid_summary %>%
               filter(country=="Korea"), size=1, color='blue') +
-  annotate(geom='text', x=1980, y=38, label="Global Average", color='red') +
-  annotate(geom='text',  x=1983.5, y=32, label="S. Korea", color="blue") +
+  annotate(geom='text', x=1980, y=38, label="Global Average", color='red', size=7) +
+  annotate(geom='text',  x=1983.5, y=32, label="S. Korea", color="blue", size=7) +
   labs(y="Gini Coefficient, Disposable Income") +
   theme(axis.text=element_text(size=17),
         axis.title=element_text(size=17),
@@ -127,8 +131,8 @@ gini <- swiid_summary %>%
   geom_segment(aes(x=2013, y=35.5,
                    xend=2017, yend=35),
                arrow = arrow(length=unit(0.25, 'cm'))) +
-  annotate(geom='text', x=2003, y=35.5, 
-           'label' = "S. Korea Gov't official Gini", color='blue', alpha=0.75)
+  annotate(geom='text', x=2008, y=36, 
+           'label' = "S. Korea Gov't official Gini", size=7, color='blue', alpha=0.75)
 
 gini
 
@@ -136,7 +140,7 @@ gini
 
 ---
 
-# Public Opinions on Fairness <br> (KIPA 2021, average of 10 indicators)
+# Public Opinions on Fairness <br> .small[(Annual Social Integration Survey, average of 10 indicators)]
 
 ```{r fairnessall, echo=F, message=F, error=F, warning=F, cache=T, fig.width=16, fig.height=6.5}
 
@@ -151,7 +155,7 @@ k2013_2020 %>%
   geom_point(color='blue', size=2, alpha=0.85) +
   geom_errorbar(aes(ymin = mean-1.96*se, ymax=mean+1.96*se)) +
   labs(y="Average Fairness (1:v unfair - 4: v fair)") +
-  geom_line(color='blue', alpha=0.25) +
+  geom_line(color='blue', alpha=0.5, size=1.5) +
   coord_cartesian(ylim=c(2.2, 2.6)) +
   geom_hline(aes(yintercept=2.5),
              linetype='dashed', color='red', alpha=0.5) + 
@@ -165,32 +169,59 @@ fairness_all
 
 ---
 
-class: inverse
-background-image: url(https://github.com/textvulture/textvulture.github.io/blob/master/images/k_housing.jpg?raw=true)
-background-size: 50%
-background-position: right
-background-color: black
+.pull-left[
 
-## .Large[.orange[Implications]]
+## .large[.orange[`r fa("lightbulb")` Implications]]
 
---
+### - inequality no threat .green[yet] `r fa("bell-slash", fill='green')`
 
-## - inequality .red[no] threat to K-democracy
+### - The .red[potential] threat: <br> &nbsp;&nbsp; .purple[real estate] price `r fa("house-user", fill='purple')` (.red[wealth] gap)
 
---
+## .large[.orange[`r fa("hammer")` Policy Recommendations]]
 
-## - not entirely safe, however
+### - (further) .green[fiscal] expansion `r fa("funnel-dollar", fill='green')`
 
---
+### - .Blue[decentralization] (supply-side `r fa("project-diagram", fill='blue')`)
 
-## - real estate price (.red[wealth] gap)
+]
 
 --
 
-## .large[.orange[Policy Recommendations]]
+.pull-right[
 
-### - fiscal expansion (continue)
+### Changes in Housing Price (.red[OECD] cities)
 
-### - decentralization (supply-side housing policies)
+
+```{r, echo=F, fig.width=7}
+## Housing Price Chart
+
+oecd %>% 
+  filter(time == "1/1/2020") %>%
+  filter(dwelling =="Total") %>%
+  filter(level != "Country" ) %>%
+  summary(index) -> mean2
+
+
+housing2 <- oecd %>% 
+  filter(time == "1/1/2020") %>%
+  filter(dwelling =="Total") %>%
+  filter(level != "Country" ) %>%
+  mutate(kor = ifelse(country_name=="Korea", "Korea", "Others")) %>%
+  ggplot(aes(y=reorder(name, -index), x=index)) +
+  geom_bar(aes(fill=kor), stat="identity", alpha=0.5) +
+  theme_minimal() +
+  geom_vline(aes(xintercept=103.38), 
+             color="gray", linetype='dashed', size=1) +
+  labs(y=" ", x="Housing Price Index in 2020 (2017=100)") +
+  theme(legend.position = "none",
+        axis.text=element_text(size=6)) 
+
+housing2
+
+```
+
+]
+
+
 
 
