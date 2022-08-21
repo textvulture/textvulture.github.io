@@ -29,7 +29,7 @@ seal: false
 
 ```{r setup, include=FALSE}
 # to use FontAwesome
-# htmltools::tagList(rmarkdown::html_dependency_font_awesome())
+htmltools::tagList(rmarkdown::html_dependency_font_awesome())
 library(fs)
 library(fontawesome)
 # library(magick)  
@@ -78,13 +78,13 @@ knitr::include_graphics("images/worldcloud3.png")
 .pull-right[
 
 .large[
-`r fa("university")` George Mason University <br>
+`r fa("building-columns")` George Mason University <br>
 |- Associate Prof. of Global Affairs
 
 `r fa("graduation-cap")` PhD in political science (2013) <br>
 |- University of Missouri-Columbia
   
-`r fa("chalkboard-teacher")`  Research/Teaching   
+`r fa("chalkboard-user")`  Research/Teaching   
 |-   .red[politics of global finance]      <!-- the 'four space' rule --><br>
 |-   democratic backsliding  <br>
 |-   public opinion; big data; social media <br>
@@ -95,6 +95,17 @@ knitr::include_graphics("images/worldcloud3.png")
 |-   <i class="fas fa-home"></i> [ben-son.netlify.app](ben-son.netlify.app)  
 ]
 ]
+
+---
+background-color: black
+
+<center>
+
+```{r, echo=F, out.width="850px", center }
+knitr::include_graphics("images/iknowpoverty.jpg") 
+```
+
+</center>
 
 ---
 class: inverse
@@ -181,7 +192,6 @@ background-image: url(https://c.tenor.com/SA4YQic_1QIAAAAd/austin-powers-dr-evil
 background-size: contain
 background-color: black
 
---
 
 <br>
 # .huge[There isn't one ... not that I know of.]
@@ -189,7 +199,7 @@ background-color: black
 <br>
 <br>
 <br>
-<br>
+
 
 --
 
@@ -224,11 +234,13 @@ background-image: url(https://preventionlane.org/wp-content/uploads/2015/02/blac
 
 class: inverse, middle
 background-color: black
-background-image: url(https://gifimage.net/wp-content/uploads/2018/05/say-my-name-gif-5.gif)
+background-image: url(https://pbs.twimg.com/media/FaZFQ9QUsAAxo0v?format=jpg&name=large)
 background-position: right
 background-size: contain
 
 # .large[.yellow[*Oh, one more thing.*]]
+
+--
 
 # This ain't an .red[econ] class.
 
@@ -267,5 +279,5 @@ background-image: url(https://preventionlane.org/wp-content/uploads/2015/02/blac
 
 - https://preventionlane.org/wp-content/uploads/2015/02/blackboard.jpg
 
-- https://gifimage.net/wp-content/uploads/2018/05/say-my-name-gif-5.gif
+- https://pbs.twimg.com/media/FaZFQ9QUsAAxo0v?format=jpg&name=large
 ]
