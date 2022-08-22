@@ -8,6 +8,8 @@ citecolor: blue
 urlcolor: blueß
 output: 
   xaringan::moon_reader:
+    nature:
+      ratio: '16:9'
     seal: false
     self-contained: TRUE
   chakra: css/libs/remark-latest.min.js
@@ -17,9 +19,6 @@ css: ["default",
       #          "xaringan-themer.css",
       default-fonts]
 lib_dir: css/libs
-nature:
-  highlightStyle: github
-  ratio: 16:9
 beforeInit: "css/macros.js"
 seal: false  
 #bibliography: /Users/bson3/Dropbox/latex/mybib2.bib
@@ -29,37 +28,30 @@ seal: false
 # to use FontAwesome
 htmltools::tagList(rmarkdown::html_dependency_font_awesome())
 library(fs)
+library(fontawesome)
 # library(magick)  
 ```
 
-class: inverse, center, top
-background-image: url(https://hive.rochesterregional.org/-/media/how-to-properly-wear-a-mask-copy.jpg?h=1056&w=1290&la=en&hash=B547AA40883BD31A0D1956102204C575632B8274&hash=B547AA40883BD31A0D1956102204C575632B8274)
-background-size: cover
-
----
-
 class: inverse, middle
 background-color: black
+background-image: url(https://images.idgesg.net/images/article/2022/03/asia-fom-space-night_shutterstock_1422245984-100922022-large.jpg?auto=webp&quality=85,70)
 
-# .huge[Welcome to <br>  GLOA 400-01!]
+# .huge[**Welcome `r fa("snowman", fill="yellow")` to GLOA 400**] 
 
---
-
-# .right[Globalization in .huge[.yellow[Asia]]]
+# .right[.Huge[**Globalization in .yellow[Asia]**]]
 
 ---
 
 class: inverse, middle
+background-image: url(https://thumbs.gfycat.com/GrossDarlingEasternglasslizard-max-1mb.gif)
+background-size: contain
 
-# Really glad to see you all today.
-
---
-
-# We suffered a lot and I wish this is the .red[beginning] of a whole new chapter.
+# .Large[Really glad to see you all today.]
 
 --
 
-## .orange[I, btw, put a lot on slide now because of the masks if that wasn't obvious. I usually don't.]
+# .large[We .orange[suffered] a lot and I hope this is the .red[beginning] of a whole .yellow[new] chapter.]
+
 
 --
 
@@ -70,13 +62,16 @@ class: inverse, middle
 
 .pull-left[
 
-![](images/worldcloud3.png)
-]
+.center[
+```{r, echo=F, out.width='380px'}
+knitr::include_graphics("https://github.com/textvulture/textvulture.github.io/blob/master/images/worldcloud3.png?raw=true")
+```
+]]
 
 --
 
 .pull-right[
-
+.large[
 <i class="fas fa-university"></i> George Mason University <br>
 |   Associate Prof. of Global Affairs
 
@@ -90,9 +85,10 @@ class: inverse, middle
 |   Asian globalization   <br>
 
 <i class="far fa-address-book"></i> Contact  
-|   <i class="fas fa-envelope"></i> <bson3@gmu.edu>   
-|   <i class="fas fa-home"></i> [ben-son.netlify.app](ben-son.netlify.app)  
-
+|   `r fa("envelope")` <bson3@gmu.edu>   
+|   `r fa("home", fill="green")` [ben-son.netlify.app](ben-son.netlify.app)  
+|   `r fa("github", fill="purple")` [textvulture](https://github.com/textvulture)
+]
 ]
 
 ---
@@ -156,7 +152,7 @@ class: inverse
 
 ---
 
-# Q6. Malaysia is the most populous Muslim country in the world. [.blue[t]/.red[f]]
+# Q6. Malaysia is the most populous Muslim country. [.blue[t]/.red[f]]
 
 --
 # .red[False]. Indonesia is. ![](/images/indonesia-muslim.png)

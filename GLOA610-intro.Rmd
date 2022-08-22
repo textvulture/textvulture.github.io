@@ -35,32 +35,23 @@ library(fontawesome)
 # library(magick)  
 ```
 
-class: inverse, center, top
-background-image: url(https://hive.rochesterregional.org/-/media/how-to-properly-wear-a-mask-copy.jpg?h=1056&w=1290&la=en&hash=B547AA40883BD31A0D1956102204C575632B8274&hash=B547AA40883BD31A0D1956102204C575632B8274)
-background-size: contain
-background-color: white
-
----
-
 class: inverse, center, middle
+background-image: url(https://thumbs.gfycat.com/SilkyGrimyAsiaticgreaterfreshwaterclam.webp)
+background-size: contain
 
-# .HUGE[.yellow[Welcome to <br> GLOA 610]]
+# .HUGE[.yellow[**Welcome to <br> GLOA 610**]]
 
 ---
 
-class: inverse, middle
-background-image: url(https://images.unsplash.com/photo-1459015508864-5fa6de29b58a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTZ8fGZvcmVzdCUyMGRhd258ZW58MHx8MHx8&w=1000&q=80)
+class: inverse, bottom
+background-image: url(https://thumbs.gfycat.com/CrazyAliveIberianlynx.webp)
 background-size: cover
 
-# Really glad to see you all today.
+# .Large[Really glad to see you all today.]
 
 --
 
-# We've suffered .red[a lot] and I really hope that we're turning the corner. 
-
---
-
-# In the mean time, let's .yellowp[strictly] adhere to the safety rules: e.g., relentless and robust masking .yellow[`r fa("head-side-mask")`].
+# .large[We've suffered .red[a lot] and I really hope that we're turning the corner.] 
 
 ---
 # Introduction: Byunghwan Son 
@@ -78,13 +69,13 @@ knitr::include_graphics("images/worldcloud3.png")
 .pull-right[
 
 .large[
-`r fa("building-columns")` George Mason University <br>
+`r fa("university")` George Mason University <br>
 |- Associate Prof. of Global Affairs
 
 `r fa("graduation-cap")` PhD in political science (2013) <br>
 |- University of Missouri-Columbia
   
-`r fa("chalkboard-user")`  Research/Teaching   
+`r fa("chalkboard")`  Research/Teaching   
 |-   .red[politics of global finance]      <!-- the 'four space' rule --><br>
 |-   democratic backsliding  <br>
 |-   public opinion; big data; social media <br>
