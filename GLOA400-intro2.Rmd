@@ -6,8 +6,11 @@ date: " "
 linkcolor: red
 citecolor: blue
 urlcolor: blueß
-output: 
+output:
   xaringan::moon_reader:
+    seal: False
+    nature:
+      ratio: '16:9'
 #    seal: false
 #    self-contained: TRUE
   chakra: css/libs/remark-latest.min.js
@@ -17,9 +20,6 @@ css: ["default",
       #          "xaringan-themer.css",
       default-fonts]
 lib_dir: css/libs
-nature:
-  highlightStyle: github
-  ratio: 16:9
 beforeInit: "css/macros.js"
 seal: false  
 #bibliography: /Users/bson3/Dropbox/latex/mybib2.bib
@@ -30,24 +30,37 @@ seal: false
 htmltools::tagList(rmarkdown::html_dependency_font_awesome())
 library(fs)
 options(htmltools.dir.version = FALSE)
+library(fontawesome)
 # library(magick)  
 ```
 
+class: inverse, center, middle
+background-image: url(https://thumbs.gfycat.com/GlassKindIlladopsis-max-1mb.gif)
+background-size: contain
+
+# .Huge[**GLOA400 <br> .yellow[Introduction (2)**]]
+
+---
+
 class: inverse
 background-image: url(https://images.unsplash.com/photo-1578662996442-48f60103fc96?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8YmxhY2tib2FyZHxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&w=1000&q=80)
+background-size: cover
 
-# Today, we want to accomplish:
+# .huge[Today, we want to accomplish:]
 
-## - A brief review of what globalization is  <i class="fas fa-globe-asia"></i>
+# - A brief review of what globalization is  <i class="fas fa-globe-asia"></i>
 
-## - A brief review of the Asian History .red[<i class="fab fa-youtube"></i>]
+# - A brief review of the Asian History .red[<i class="fab fa-youtube"></i>]
 
-##- A little bit of Social Science Methodologies <i class="far fa-compass"></i>
+#- A little bit of Social Science Methodologies <i class="far fa-compass"></i>
+
 ---
+
 class: inverse, center, middle
 background-color: black
 
-# .huge[So, what is globalization?]
+# .huge[So, what is .orange[globalization?]]
+
 ---
 
 background-image: url(https://media.giphy.com/media/QaMhVZVwOvDiw/giphy.gif)
@@ -57,25 +70,25 @@ class: inverse, center, middle
 
 --
 
-# .yellow[No, seriously, what is it?]
+# .huge[.yellow[No, seriously, what is it?]]
 
 ---
 
 class: inverse
 
-# Do you remember .red[GLOA 101]? Was it ...
+# .Large[Do you remember .red[GLOA 101]? Was it ...]
 
 --
 
-### - unstoppable, inevitable economic and technological progress?
+## - unstoppable, inevitable economic and technological progress?
 
 --
 
-### - Americanization / Westernization that provoked backlash?
+## - Americanization / Westernization that provoked backlash?
 
 --
 
-### - A 'Globalist' elite conspiracy to take over the world?
+## - A 'Globalist' elite conspiracy to take over the world?
 
 --
 
@@ -89,9 +102,9 @@ class: inverse
 ]
 
 ---
-### What .red[connectivity]? Something like this:
+# What .red[connectivity]? Something like this:
 
-![](https://www.lboro.ac.uk/gawc/rb/images/rb439f2.jpg)
+![](https://ars.els-cdn.com/content/image/1-s2.0-S004896972105083X-ga1_lrg.jpg)
 ---
 # Globalization and History
 ## .center[.blue[Hyperglobalizers] vs. .red[Globalization Skeptics] ]
@@ -115,17 +128,27 @@ class: inverse
 ]
 ---
 
-# Our common understanding is ecclectic
+# Our common understanding is .red[ecclectic]
+
+.pull-left[
+```{r, echo=F, out.width="290px"}
+knitr::include_graphics("https://images-na.ssl-images-amazon.com/images/I/71sMtPieS4L.jpg")
+
+```
+
+]
 
 --
 
-.right-column[
-![](https://understandingsocietyglobaledition.files.wordpress.com/2013/11/20131121-091802.jpg)
+.pull-right[
+```{r, echo=F, out.width="590px"}
+knitr::include_graphics("https://understandingsocietyglobaledition.files.wordpress.com/2013/11/20131121-091802.jpg")
+
+```
+
 ]
 
-.left-column[
-![](https://images-na.ssl-images-amazon.com/images/I/71sMtPieS4L.jpg)
-]
+
 
 ---
 class: inverse, middle
