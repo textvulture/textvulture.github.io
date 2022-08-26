@@ -35,20 +35,27 @@ library(fs)
 
 ```
 
-class: inverse, right, middle
-background-position: left
-background-size: 72%
+class: inverse, center, middle
+background-size: contain
 background-image: url(https://media.npr.org/assets/img/2018/09/19/pall-mall-page_wide-9060f56daa1a028babd34cb29b1a3e4cd0a870aa.jpg?s=1400)
 
-# .large[.yellow[Orientalism]] 
+# .HUGE[.yellow[**Orientalism**] <br> **GLOA 400**] 
 
-# GLOA 400-01
+---
 
+
+class: inverse, center, bottom
+background-size: contain
+background-image: url(https://media.npr.org/assets/img/2018/09/19/pall-mall-page_wide-9060f56daa1a028babd34cb29b1a3e4cd0a870aa.jpg?s=1400)
+
+# .yellow[what ... are we seeing here?]
 
 ---
 
 class: inverse, middle
 background-color: black
+background-image: url(https://www.torch.ox.ac.uk/sites/default/files/styles/mt_image_medium/public/torch/images/article/orientalism_byzantine_image.png?itok=q4xqef7w)
+background-position: right
 
 # Why do we talk about this?
 
@@ -64,7 +71,7 @@ background-color: black
 
 --
 
-## interpretational/framing issues: self-serving, cherry-picking
+## interpretation/framing issues: self-serving, cherry-picking
 
 ---
 
