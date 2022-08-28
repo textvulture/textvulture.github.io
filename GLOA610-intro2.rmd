@@ -93,6 +93,8 @@ background-size: contain
 
 &nbsp;
 
+&nbsp;
+
 
 # Though often determined by global .green[circumstances].
 ---
@@ -430,4 +432,28 @@ background-position: right
 background-color: black
 
 # .huge[For <br> example,<br> why <br> .red[no] escape?]
+
+---
+class: inverse
+background-color: black
+background-image: url(https://openknowledge.worldbank.org/bitstream/handle/10986/36883/9781464817304.pdf.jpg?sequence=3&isAllowed=y)
+background-position: right, top
+
+#.huge[ .red[Hot] topics in 2022?]
+
+--
+
+## `r fa("hand-holding-dollar", fill='yellow')` varied responses to the pandemic
+
+### - the richer, the more aggresive? `r fa("arrow-right")` poverty/equity
+
+--
+
+## `r fa("sack-dollar", fill='yellow')` Sovereign debt problem
+
+### - restructuring and better contract
+
+--
+
+## `r fa("land-mine-on", fill='yellow')` Different risks to different income levels
 
