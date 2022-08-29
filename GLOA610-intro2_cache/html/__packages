@@ -1,4 +1,3 @@
-base
 fs
 tidyverse
 ggplot2
@@ -10,3 +9,4 @@ dplyr
 stringr
 forcats
 WDI
+fontawesome
