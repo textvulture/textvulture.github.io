@@ -34,9 +34,6 @@ library(fontawesome)
 # library(magick)  
 library(ggplot2)
 
-#setwd("/Users/bson3/Documents/GitHub/textvulture.github.io/")
-#setwd("/Users/kalka/Documents/GitHub/textvulture.github.io/")
-
 ```
 
 class: inverse, bottom, right
@@ -136,8 +133,10 @@ ggplot(data = df2,
 
 ---
 class: inverse, right, middle
-background-image: url('http://textvulture.github.io/images/fh-img2.png')
-background-size: contain
+
+<iframe src="https://freedomhouse.org/country/hong-kong/freedom-world/2022"></iframe>
+
+
 
 --
 
@@ -155,7 +154,7 @@ background-color: black
 
 --
 
-## .red[`r fa("smile-wink")`] traditional tactic: 'tolerance' [elite cohesion + counter-protest + court]
+## .red[`r fa("face-smile-wink")`] traditional tactic: 'tolerance' [elite cohesion + counter-protest + court]
 ---
 
 background-image: url(https://www.reuters.com/investigates/special-report/assets/hongkong-protests-extradition-narrative/RTS2ICNT.jpg?v=134011231219)
@@ -181,7 +180,7 @@ class: inverse, middle
 background-color: black
 
 .center[
-# .huge[Now, Online Censorship in China]
+# .huge[Now, Online Censorship in .red[China]]
 ]
 
 ---
@@ -205,7 +204,7 @@ background-size: contain
 
 --
 
-### .Large[ `r fa("th-large")`: the .green[types] of posts focused on]
+### .Large[ `r fa("table-cells-large")`: the .green[types] of posts focused on]
 
 
 .Large[
@@ -241,6 +240,7 @@ knitr::include_graphics('images/King2014_2.png')
 
 ---
 class: inverse
+background-color: black
 background-image: url(https://preventionlane.org/wp-content/uploads/2015/02/blackboard.jpg)
 
 # [Finding 1]
@@ -253,7 +253,7 @@ background-image: url(https://preventionlane.org/wp-content/uploads/2015/02/blac
 
 --
 
-# `r fa("question-circle", fill="green")` But wouldn't the censorship too obvious?
+# `r fa("circle-question", fill="green")` But wouldn't the censorship be too obvious?
 
 --
 

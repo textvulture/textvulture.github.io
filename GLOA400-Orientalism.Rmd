@@ -204,7 +204,7 @@ background-color: black
 
 .center[
 ```{r, echo=FALSE, out.width='80%'}
-knitr::include_graphics('images/banyan.jpg')
+knitr::include_graphics('https://github.com/textvulture/textvulture.github.io/blob/master/images/Banyan.JPG?raw=true')
 ```
 ]
 
@@ -214,7 +214,7 @@ knitr::include_graphics('images/banyan.jpg')
 
 .center[
 ```{r, echo=FALSE, out.width='60%'}
-knitr::include_graphics('images/banyan2.jpg')
+knitr::include_graphics('https://github.com/textvulture/textvulture.github.io/blob/master/images/Banyan2.JPG?raw=true')
 ```
 ]
 
@@ -232,7 +232,7 @@ knitr::include_graphics('images/banyan2.jpg')
 
 .center[
 ```{r, echo=FALSE, out.width='70%'}
-knitr::include_graphics('images/kpopgov.jpg')
+knitr::include_graphics('https://github.com/textvulture/textvulture.github.io/blob/master/images/kpopgov.JPG?raw=true')
 ```
 ]
 
@@ -241,4 +241,4 @@ knitr::include_graphics('images/kpopgov.jpg')
 class: inverse
 background-color: #d64161
 
-# .huge[When picking up your topic, ask yourself <br> if orientalism is at work. <br><br> Avoid a major cringe <i class="far fa-grimace"></i>.]
+# .huge[When picking up your topic, ask yourself <br> if orientalism is at work. <br><br> Avoid major cringe <i class="far fa-grimace"></i>.]
