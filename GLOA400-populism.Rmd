@@ -32,10 +32,10 @@ beforeInit: "css/macros.js"
 #remotes::install_github("coolbutuseless/flagon")
 library(fs)
 library(fontawesome)
-library(magick)  
+#library(magick)  
 library(ggplot2)
-library(emo)
-library(flagon)
+#library(emo)
+#library(flagon)
 
 #setwd("/Users/bson3/Documents/GitHub/textvulture.github.io/")
 #setwd("/Users/kalka/Documents/GitHub/textvulture.github.io/")
@@ -102,6 +102,7 @@ background-color: black
 --
 
 ```{r echo=FALSE, error=FALSE, message=FALSE, warning=FALSE, fig.width=20, fig.height=9, cache=TRUE}
+
 library(vdemdata)
 library(tidyverse)
 
@@ -123,6 +124,7 @@ ggplot(df, aes(x = year, y=value)) +
         legend.title = element_blank()) 
 
 ```
+
 ---
 
 class: inverse, middle
