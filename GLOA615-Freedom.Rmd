@@ -133,9 +133,9 @@ ggplot(data = df2,
 
 ---
 class: inverse, right, middle
-
-<iframe src="https://freedomhouse.org/country/hong-kong/freedom-world/2022"></iframe>
-
+background-image: url(https://github.com/textvulture/textvulture.github.io/blob/master/images/HK2022.JPG?raw=true)
+background-size: contain
+background-color: black
 
 
 --

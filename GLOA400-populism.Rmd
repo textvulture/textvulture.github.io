@@ -29,25 +29,27 @@ beforeInit: "css/macros.js"
 ```{r setup, include=FALSE}
 # to use FontAwesome
 #htmltools::tagList(rmarkdown::html_dependency_font_awesome())
+#remotes::install_github("coolbutuseless/flagon")
 library(fs)
 library(fontawesome)
-# library(magick)  
+library(magick)  
 library(ggplot2)
+library(emo)
+library(flagon)
 
 #setwd("/Users/bson3/Documents/GitHub/textvulture.github.io/")
 #setwd("/Users/kalka/Documents/GitHub/textvulture.github.io/")
 
 ```
 
-class: inverse, middle, right
+class: inverse, top, center
 background-image: url(https://images.squarespace-cdn.com/content/v1/5497331ae4b0148a6141bd47/1529717706598-9KB3VOGO0G1BGOOXMJ3U/BLOG-podcast-populism-the-new-populism-1482659671-9641-005.jpg?format=1500w)
-background-size: 60%
-background-position: left
+background-size: contain
+background-position: center
 background-color: black
 
-# .large[.green[Autocratization <br> and <br> Populism in Asia]] 
+# .Large[**Autocratization and Populism in Asia**] <br> GLOA 400
 
-# GLOA 400-001
 
 ---
 
@@ -68,27 +70,30 @@ background-size: contain
 
 --
 
-# When people think about political globalization,
+# .Large[When people think about political globalization,]
 
 --
 
-# they often think of a 'World Government,' 
+# .Large[they often think of a 'World Government.']
 
 
 ---
 
-class: inverse, middle, center
-background-color:  #808000
+class: inverse
+background-image: url(https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Ff07da747-42f8-4bb6-a36a-41fbc3b5803f_228x276.gif)
+background-size: contain
+background-position: right
+background-color: black
 
-# .huge[Not entirely crazy], <br> because political globalization entails:
+# .Large[Actually, <br> .red[not] entirely crazy], <br> bc political globalization entails:
 
 --
 
-## `r fa("share-alt", fill="black")` homogenization of the .red[form] of poltics
+## `r fa("share", fill="yellow")` homogenization of the .red[form] of poltics
 
 --
 
-## `r fa("chart-line", fill="black")` rise of institutions
+## `r fa("chart-line", fill="yellow")` rise of institutions
 
 ---
 
@@ -123,13 +128,19 @@ ggplot(df, aes(x = year, y=value)) +
 class: inverse, middle
 background-color: #563f46
 
-# So, .red[what we're talking about] matters for political globalization
+# So, what we're talking about matters <br> for .red[political globalization]
 
 --
 
-## - democratization cases in Asia
+## `r fa("leaf")` democratization cases in Asia
 
-## - backsliding cases in Asia: the Philippines (populism) & Cambodia (backsliding)
+## `r fa("leaf")` backsliding cases in Asia
+
+--
+
+### - the Philippines (populism)
+
+### - Cambodia (backsliding)
 
 ---
 
@@ -312,7 +323,7 @@ background-color: #6b5b95
 
 --
 
-## `r fa("feather-alt")` reaction to a political 'crisis': CNRP's rise (2012) and fall (2017)
+## `r fa("feather")` reaction to a political 'crisis': CNRP's rise (2012) and fall (2017)
 
 --
 
@@ -321,13 +332,13 @@ background-color: #6b5b95
 
 --
 
-## `r fa("feather-alt")` "authoritarian linkage" 
+## `r fa("feather")` "authoritarian linkage" 
 
 --
 
   - .Large[elite cooperation: investment from China] 
    - .Large[.orange[business tycoons]; .orange[military]].Large[: `r fa("shield")` against Western pressure]
-  - .Large[`r fa("download")` Chinese discourse ] `r fa("arrow-circle-right")`` .Large[justification for repression]
+  - .Large[`r fa("download")` Chinese discourse ] `r fa("arrow-right")`` .Large[justification for repression]
   - .Large['.yellow[non-interference]' & '.yellow[right to develop]']
   - .Large[CNRP a 'Trojan Horse' of US]
   
