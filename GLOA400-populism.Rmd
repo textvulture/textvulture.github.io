@@ -87,11 +87,7 @@ background-color: black
 
 # .Large[Actually, <br> .red[not] entirely crazy], <br> bc political globalization entails:
 
---
-
 ## `r fa("share", fill="yellow")` homogenization of the .red[form] of poltics
-
---
 
 ## `r fa("chart-line", fill="yellow")` rise of institutions
 
@@ -281,7 +277,7 @@ background-size: cover
 # Populism (Arugay & Slater 2019)
 
 .center[
-![](images/Philippines.jpg)
+![]("https://github.com/textvulture/textvulture.github.io/blob/master/images/Philippines.jpg?raw=true")
 ]
 
 ---
@@ -294,7 +290,7 @@ background-size: cover
 
 .center[
 ```{r, echo=FALSE, out.width='120%'}
-knitr::include_graphics("images/Phil_timeline.jpg")
+knitr::include_graphics("https://github.com/textvulture/textvulture.github.io/blob/master/images/Phil_timeline.jpg?raw=true")
 ```
 ]
 
@@ -303,6 +299,14 @@ knitr::include_graphics("images/Phil_timeline.jpg")
 background-color: black
 background-image: url(https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iPpGrFZB6NGY/v0/-1x-1.png)
 background-size: contain
+
+---
+
+class: inverse, center
+background-size: contain
+background-image: url(https://live-production.wcms.abc-cdn.net.au/8b2a54a026fd4dfab36ca9dcc2a25da3?impolicy=wcms_crop_resize&cropH=2658&cropW=4726&xPos=0&yPos=493&width=862&height=485)
+
+# .huge[the epilogue]
 
 ---
 
