@@ -1,5 +1,5 @@
 ---
-title: ".green[Autocratization and Populism in Asia] <br> GLOA 400-001"
+title: "Autocratization and Populism in Asia"
 author: "Byunghwan Son <br> George Mason University"
 date: " "
 #########################################
@@ -24,9 +24,11 @@ beforeInit: "css/macros.js"
 # seal: false  
 #bibliography: /Users/bson3/Dropbox/latex/mybib2.bib
 #remotes::install_github('yihui/xaringan', upgrade = TRUE)
+
 ---
 
 ```{r setup, include=FALSE}
+
 # to use FontAwesome
 #htmltools::tagList(rmarkdown::html_dependency_font_awesome())
 #remotes::install_github("coolbutuseless/flagon")
@@ -34,11 +36,6 @@ library(fs)
 library(fontawesome)
 #library(magick)  
 library(ggplot2)
-#library(emo)
-#library(flagon)
-
-#setwd("/Users/bson3/Documents/GitHub/textvulture.github.io/")
-#setwd("/Users/kalka/Documents/GitHub/textvulture.github.io/")
 
 ```
 
@@ -49,7 +46,6 @@ background-position: center
 background-color: black
 
 # .Large[**Autocratization and Populism in Asia**] <br> GLOA 400
-
 
 ---
 
@@ -87,9 +83,11 @@ background-color: black
 
 # .Large[Actually, <br> .red[not] entirely crazy], <br> bc political globalization entails:
 
-## `r fa("share", fill="yellow")` homogenization of the .red[form] of poltics
+--
 
-## `r fa("chart-line", fill="yellow")` rise of institutions
+## - homogenization of the .red[form] of poltics
+
+## - rise of institutions
 
 ---
 
@@ -130,9 +128,9 @@ background-color: #563f46
 
 --
 
-## `r fa("leaf")` democratization cases in Asia
+## - democratization cases in Asia
 
-## `r fa("leaf")` backsliding cases in Asia
+## - backsliding cases in Asia
 
 --
 
@@ -329,7 +327,7 @@ background-color: #6b5b95
 
 --
 
-## `r fa("feather")` reaction to a political 'crisis': CNRP's rise (2012) and fall (2017)
+## A reaction to a political 'crisis': CNRP's rise (2012) and fall (2017)
 
 --
 
@@ -338,13 +336,13 @@ background-color: #6b5b95
 
 --
 
-## `r fa("feather")` "authoritarian linkage" 
+## - "authoritarian linkage" 
 
 --
 
   - .Large[elite cooperation: investment from China] 
-   - .Large[.orange[business tycoons]; .orange[military]].Large[: `r fa("shield")` against Western pressure]
-  - .Large[`r fa("download")` Chinese discourse ] `r fa("arrow-right")`` .Large[justification for repression]
+   - .Large[.orange[business tycoons]; .orange[military]].Large[: -> against Western pressure]
+  - .Large[Chinese discourse] -> .Large[justification for repression]
   - .Large['.yellow[non-interference]' & '.yellow[right to develop]']
   - .Large[CNRP a 'Trojan Horse' of US]
   
