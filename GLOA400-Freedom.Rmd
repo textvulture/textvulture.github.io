@@ -1,5 +1,5 @@
 ---
-title: ".green[Autocratization and Populism in Asia] <br> GLOA 400-001"
+title: "Political Freedom in Asia"
 author: "Byunghwan Son <br> George Mason University"
 date: " "
 #########################################
@@ -34,9 +34,6 @@ library(fontawesome)
 # library(magick)  
 library(ggplot2)
 
-#setwd("/Users/bson3/Documents/GitHub/textvulture.github.io/")
-#setwd("/Users/kalka/Documents/GitHub/textvulture.github.io/")
-
 ```
 
 class: inverse, bottom, right
@@ -45,9 +42,9 @@ background-size: contain
 background-position: left
 background-color: black
 
-# .large[.green[Political Freedom in Asia]] 
+# .huge[**Political Freedom in Asia**]
 
-# GLOA 400-001
+# GLOA 400 
 
 ---
 class: inverse
@@ -59,48 +56,123 @@ background-size: cover
 ---
 
 class: inverse, center, middle
-background-image: url(https://preventionlane.org/wp-content/uploads/2015/02/blackboard.jpg)
+background-image: url(https://cdn2.opendemocracy.net/media/images/Tiphagne_VOcI8YM.width-800.jpg)
 background-size: cover
 
-# .huge[What does political freedom (and globalization) look like in Asia?]
+# .Huge[**What does political freedom look like in Asia?**]
 
 
 ---
 
-# Freedom House (inversed index) -- which one is which?
+# Political Freedom (freedom of speech, V-Dem data)
 
 --
-.center[
-```{r, echo=FALSE, out.width = '70%'}
-knitr::include_graphics('images/fh-asia.png')
+```{r, echo=F, message=F, error=F, warning=F, cache=T, fig.width=15, fig.height=7}
+
+
+library(vdem) #remotes::install_github("xmarquez/vdem")
+library(tidyverse)
+
+
+df <- extract_vdem(
+  include_sd = TRUE,
+  name_pattern = "v2x_freexp_altinf"
+)
+
+df %>% 
+  filter(year>1970) %>%
+  rename(country_name = vdem_country_name) %>%
+  mutate(Asia = 
+           case_when(extended_continent == "Asia" ~ "Asia",
+                     extended_continent != "Asia" ~ "Rest"),
+         selected = 
+           case_when(country_name == "China" ~ "China",
+                     country_name == "Japan" ~ "Japan",
+                     country_name == "South Korea" ~ "S.Korea",
+                     country_name == "Indonesia" ~ "Indonesia",
+                     country_name == "India" ~ "India",
+                     country_name == "Vietnam" ~ "Vietnam")) ->   df2
+
+
+ggplot(data = df2,
+       aes(x=year,
+             y=v2x_freexp_altinf)) + 
+  theme_minimal() +
+  geom_line(data = df2 %>% filter(!is.na(selected)),
+            aes(color=country_name,
+                size=1.2,
+                alpha=1/3)) +
+  geom_label(data = df2 %>% filter(!is.na(selected)) %>% 
+               filter(year==1987),
+             aes(label = country_name, 
+                 color = country_name)) +
+  geom_smooth(data = df2 %>% filter(Asia == "Rest"),
+              aes(x=year,
+                  y=v2x_freexp_altinf),
+              color="red",
+              alpha=1/2,
+              linetype="dashed") +
+  geom_smooth(data = df2 %>% filter(Asia == "Asia"),
+              aes(x=year,
+                  y=v2x_freexp_altinf),
+              color="brown",
+              alpha=1/2,
+              linetype="dashed"
+              ) +
+  labs(x = "year", y="Political Freedom (Vdem") +
+  theme(legend.position = "none",
+        axis.text=element_text(size=20),
+        axis.title=element_text(size=20)) +
+  annotate(geom="text", x=2002.5, y=0.7, 
+           label="The Rest of the World", color="red") +
+  annotate(geom="text", x=2005, y=0.45, 
+           label="Asia", color="brown")
+
 ```
+
+
+---
+class: inverse, right, middle
+background-image: url(https://github.com/textvulture/textvulture.github.io/blob/master/images/HK2022.JPG?raw=true)
+background-size: contain
+background-color: black
+
+
+--
+
+# .Large[** But why is it <br> 'Partly Free'?**]
+
+---
+class: inverse
+background-color: black
+
+# Yuen & Cheng (2017)
+
+.blockquote[
+## "[Hong Kong] is ... a .yellow[liberal enclave] within authoritarian China. However [it] also has a semi-authoritarian system with strong state-corporatist elements, where the Chief Executive and half of the legislature are .red[not elected via universal suffrage], allowing both its authoritarian principal in Beijing and local elites to wield immense power." (p. 614)
 ]
 
----
+--
 
-class: inverse
-background-image: url('images/fh-img.png')
-background-size: contain
-
-# Political Freedom in Hong Kong: 'Partly Free'
----
-
-class: inverse
-background-image: url('images/hk-election.png')
-
-# .red[1.Electoral Roll-back]
+## - traditional tactic: 'tolerance' [elite cohesion + counter-protest + court]
 ---
 
 background-image: url(https://www.reuters.com/investigates/special-report/assets/hongkong-protests-extradition-narrative/RTS2ICNT.jpg?v=134011231219)
 class: inverse
 
-# 2.Extradition Bill (and abductions)
+# .huge[**1.Extradition Bill (& abductions)**]
 
+---
+
+class: inverse
+background-image: url('images/hk-election.png')
+
+# .huge[.red[**2.Electoral Roll-back**]]
 ---
 class: inverse
 background-image: url(https://i.ytimg.com/vi/LJnt1FvCDbQ/maxresdefault.jpg)
 
-# .yellow[3.Brutal Repressions and Vicious Cycle]
+# .huge[.yellow[**3.Brutal Repressions and Vicious Cycle**]]
 
 ---
 
@@ -108,7 +180,7 @@ class: inverse, middle
 background-color: black
 
 .center[
-# .huge[Now, Online Censorship in China]
+# .huge[Now, Online Censorship in .red[China]]
 ]
 
 ---
@@ -124,11 +196,16 @@ background-size: contain
 
 ---
 
-# How does it work? (King, Pan, and Roberts 2014)
+# .orange[**How does it work? (King, Pan, and Roberts 2014)**]
 
-- .Large[online experiments + participatory observation + interviews]
+--
 
-- .Large[the .green[types] of posts focused on]
+### .Large[ <i class="fa-solid fa-microscope"></i>: online experiments + participatory observation + interviews]
+
+--
+
+### .Large[ <i class="fa-solid fa-table-cells-large"></i>: the .green[types] of posts focused on]
+
 
 .Large[
 |                 	| .red[non-collective action] 	| .blue[collective action] 	|
@@ -137,11 +214,9 @@ background-size: contain
 | .blue[anti-government] 	|           3           	|         4         	|
 ]
 
-# 
-
 --
 
-# which one is most likely censored?
+# - which one is most likely censored?
 
 ---
 
@@ -165,20 +240,32 @@ knitr::include_graphics('images/King2014_2.png')
 
 ---
 class: inverse
+background-color: black
 background-image: url(https://preventionlane.org/wp-content/uploads/2015/02/blackboard.jpg)
 
-# Finding 1
+# [Finding 1]
 
 # : The authorities are worried about '.yellow[collective action]' contents
 
-# Finding 2
+--
+
+# [Finding 2]
 
 # : Not much worried about .yellow[anti-government] contents
 
 --
 
-# But wouldn't the censorship too obvious?
+# - But wouldn't the censorship be too obvious?
 
 --
 
-# As a complementary strategy, CCP employs '.green[distraction]' tactics
+# : CCP employs '.green[distraction]' tactics
+
+---
+class: inverse
+background-image: url(https://ichef.bbci.co.uk/news/976/cpsprodpb/AA63/production/_121091634_china_nationalist_weibo_influencer_illustration_1_v2.jpg)
+background-size: contain
+
+# .huge[**50 Cent Party and *ziganwu***]
+
+
