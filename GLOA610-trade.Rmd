@@ -34,9 +34,6 @@ library(fontawesome)
 # library(magick)  
 library(ggplot2)
 
-#setwd("/Users/bson3/Documents/GitHub/textvulture.github.io/")
-#setwd("/Users/kalka/Documents/GitHub/textvulture.github.io/")
-
 ```
 
 class: inverse, top, left
@@ -49,12 +46,12 @@ background-color: black
 # .Large[GLOA 610]
 
 ---
-class: inverse, center, middle
-background-color: #7C7B75
+class: center
+background-color: #0CE4E8
 
-# .huge[
-Does trade make <br>.blue[poor] countries .blue[poorer] and <br>.red[rich] countries .red[richer]?
-]
+# .huge[.white[
+**Does trade make .blue[poor] countries .blue[poorer] and .red[rich] countries .red[richer]?** 
+]]
 
 ---
 
@@ -63,6 +60,8 @@ Does trade make <br>.blue[poor] countries .blue[poorer] and <br>.red[rich] count
 </div>
 <br>
 - .large[developed: GDP per capita > .red[25k]]
+
+--
 
 ```{r, message=FALSE, echo=FALSE, warning=FALSE, results="asis", fig.width=16, fig.height=7, cache=T}
 # install.packages('WDI')
@@ -110,7 +109,7 @@ wdi2 %>%
 ---
 
 <div class="full-width-tinted"><br>
-  <h1> .large[The .red[Volume] of Trade] </h1> 
+  <h1> .Large[The .red[Volume] of Trade] </h1> 
 </div>
 <br>
 
@@ -138,7 +137,7 @@ wdi2 %>%
 ---
 
 <div class="full-width-tinted"><br>
-  <h1> When looking at poor countries only (GDP per capita < .red[10k]) </h1> 
+  <h1> When looking at .yellow[**poor**] countries only (GDP per capita < .red[10k]) </h1> 
 </div>
 <br><br>
 
@@ -185,11 +184,12 @@ wdi2 %>%
 ```
 
 ---
-# Some textbook-line fundamentals
+# .large[Some textbook-line fundamentals] 
+
 
 ## Ricardian Free Trade
 
-### Really a very stylized one: .red[not] that this is a reality!
+.large[`r fa('triangle-exclamation', fill='red')` Really a very stylized one: .red[**not**] that this is a reality!]
 
 --
 
@@ -352,7 +352,7 @@ knitr::include_graphics('https://images-na.ssl-images-amazon.com/images/I/819g1G
 class: inverse, left, middle 
 background-color: #130654
 
-# `r fa("volume-up")` &nbsp; .red[Protectionism] has long been the subject of debate.
+# `r fa("volume-high")` &nbsp; .red[Protectionism] has long been the subject of debate.
 
 # `r fa("bomb")` &nbsp; Global North-South political .red[tension]
 
@@ -408,7 +408,7 @@ background-size: contain
 # NNTT (.green[firms], .red[not] countries, are the traders)
 
 .large[
-- only a few firms trade 1% `r fa("chevron-circle-right")` 81% 
+- only a few firms trade 1% `r fa("circle-chevron-up")` 81% 
 ]
 --
 .large[- big, strong firms: better positioned politically]
