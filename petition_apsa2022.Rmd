@@ -1,0 +1,74 @@
+---
+title: "Petiotion the Emotion"
+author: "Byunghwan Son <br> Myunghee Lee"
+date: " "
+#########################################
+linkcolor: red
+citecolor: blue
+urlcolor: blueß
+output: 
+  xaringan::moon_reader:
+    seal: false
+    nature:
+      ratio: '16:9'
+      highlightStyle: github
+  #    self-contained: TRUE
+  chakra: css/libs/remark-latest.min.js
+css: ["default", 
+#      "css/footer.css", 
+      "css/color.css", 
+      #          "xaringan-themer.css",
+      default-fonts]
+lib_dir: css/libs
+beforeInit: "css/macros.js"
+# seal: false  
+#bibliography: /Users/bson3/Dropbox/latex/mybib2.bib
+#remotes::install_github('yihui/xaringan', upgrade = TRUE)
+
+---
+
+```{r setup, include=FALSE}
+# to use FontAwesome
+#htmltools::tagList(rmarkdown::html_dependency_font_awesome())
+library(fs)
+library(fontawesome)
+# library(magick)  
+library(ggplot2)
+options(htmltools.preserve.raw = FALSE)
+
+```
+
+class: inverse, middle, center
+background-image: url(https://thumbs.gfycat.com/GranularHollowHochstettersfrog-size_restricted.gif)
+background-size: cover
+background-position: center
+background-color: black
+
+# .Huge[**Petition the Emotion**]
+
+# .orange[.large[*Nationalism in South Korean National Petition*]]
+
+# .Large[Myunghee Lee & Byunghwan Son]
+
+---
+
+class: inverse
+background-image: url(https://upload.wikimedia.org/wikipedia/commons/c/c6/Blackboard.png)
+background-size: cover
+
+# When do ordinary people engage with .orange[formal] politics?
+
+--
+
+# - voting literature
+
+# - party membership
+
+# - .yellow[petition]
+
+--
+
+## `r fa("hand-point-right", fill='yellow')` less studied in non-Western, online contexts
+
+---
+
