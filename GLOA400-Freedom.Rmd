@@ -268,4 +268,29 @@ background-size: contain
 
 # .huge[**50 Cent Party and *ziganwu***]
 
+---
+
+class: inverse
+background-position: right
+background-size: contain
+background-image: url(http://images.china.cn/attachement/jpg/site1007/20131227/001ec949c22b14272dc510.jpg)
+background-color: black
+
+# **Ziganwu**
+
+## - voluntary
+
+  - .large[but not entirely: local party officials .green[recruit] too.]
+
+--
+
+## - young (*'.red[the party is your idol.]'* )
+
+--
+
+  - .large[an issue of identity; uncompromisible]
+  
+  - .large[attacks on external and internal targets]
+  
+  - .large[the red guard of the 21c]
 
