@@ -35,6 +35,7 @@ library(fontawesome)
 # library(magick)  
 library(ggplot2)
 options(htmltools.preserve.raw = FALSE)
+knitr::opts_chunk$set(warning = FALSE, message = FALSE, error=F, echo=F)
 
 ```
 
@@ -71,4 +72,110 @@ background-size: cover
 ## `r fa("hand-point-right", fill='yellow')` less studied in non-Western, online contexts
 
 ---
+
+class: inverse
+background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSgj_4ySVjv0tlXKpKxHrc2jYutwR6fOqCmWw&usqp=CAU)
+background-color: black
+background-position: right
+background-size: contain
+
+## .Large[We think .red[nationalism] matters <br> because it's an .yellow[emotion]]
+
+--
+
+# `r fa("book")` grievance::.orange[emotion]
+
+--
+
+# `r fa("book")` .orange[emotion]::cost reduction 
+
+--
+
+# `r fa("hand-point-up", fill='red')` nationalism is a powerful .orange[emotion]
+- .Large['**collective narcissism**'] .large[(Cichocka and Cislak 2020)]
+- .Large[H: **nationalism -> political action**]
+
+---
+
+class: inverse
+background-image: url(https://image.ytn.co.kr/general/jpg/2018/0619/201806191120070570_img_3.jpg)
+background-position: right
+background-color: black
+background-size: contain
+
+# .LARGE[National Petition Data]
+
+## - Presidential Office
+
+## - August 2017 to May 2020
+
+## - web-crawling (`rvest`)
+
+## - 300k usuable petitions
+
+---
+
+# Petition Data (trend)
+
+
+.right[
+```{r count, fig.width=16}
+
+library(tidyverse)
+
+text_gamma2 <- readRDS("/Users/bson3/GitHub/apsa2022/text_gamma2.rds") #should be adjusted to the local computer environment!
+
+text_gamma3 <- text_gamma2 %>%
+  mutate(nationalismD1 = ifelse(nationalismAll>0, 1, nationalismAll)) %>%
+  mutate(nationalismD2 = ifelse(nationalismAll3>0, 1, nationalismAll3)) %>%
+  mutate(fe = year*100 + month) %>%
+  filter(!is.na(title))
+
+
+text_gamma3 %>%
+  arrange(date) %>%
+  ggplot(aes(x=date)) +
+  theme_minimal() +
+  geom_histogram(bins=57, 
+                 color=F,
+                 fill='red',
+                 alpha=0.45) +
+  geom_vline(xintercept = as.numeric(as.Date("2019-04-01")), 
+             color='blue',
+             linetype = 'longdash') +
+  theme(axis.text=element_text(size=20),
+        axis.title=element_text(size=20)) 
+
+
+```
+]
+
+---
+
+# Empirical Strategy: fixed effect regression
+
+.large[
+$$
+log(agree + 1) = \beta_1 nationalism_i + Topic.Scores + monthFE \times yearFE + categoryFE
+$$
+]
+
+---
+
+# Empirical Strategy: fixed effect regression
+
+```{r, echo=F, message=F, error=F, warning=F}
+
+library(xaringancolor)
+setup_colors(
+  red = "red",
+  green = "green",
+  blue = "blue"
+)
+
+```
+
+
+$$log(agree + 1) = \beta_1 nationalism_i + Topic.Scores + monthFE \times yearFE + categoryFE$$
+
 
