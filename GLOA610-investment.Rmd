@@ -267,18 +267,15 @@ background-size: contain
 
 ---
 
-class: inverse, middle
+class: inverse
 background-color: #1C1B1C
 
-.pull-right[
 # But wouldn't .red[MNCs] mess around, inciting strong backlash?
 
-# Christensen (2019)
-]
+### Christensen (2019)
 
 --
-
-.pull-left[![](https://github.com/textvulture/textvulture.github.io/blob/master/images/Christensen.png?raw=true)]
+![](https://github.com/textvulture/textvulture.github.io/blob/master/images/Christensen.png?raw=true)
 
 ---
 
