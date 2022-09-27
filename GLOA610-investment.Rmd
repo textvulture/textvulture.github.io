@@ -40,7 +40,7 @@ class: inverse, center, middle
 background-image: url(https://i.ytimg.com/vi/4wAqV-Oy2oE/maxresdefault.jpg)
 background-size: contain
 
-# .HUGE[**GLOBAL <br> INVESTMENT**] <br> .yellow[.Large[**GLOA610**]]
+# .orange[.HUGE[**GLOBAL <br> INVESTMENT**]] <br> .yellow[.Large[**GLOA610**]]
 ---
 
 class: inverse, center, middle
@@ -130,11 +130,11 @@ background-color: #d64161
 ---
 
 
-# Some data (FDI .green[net] inflow)
+# Some data (FDI .green[net] inflow, USD, logged scale)
 
 .center[
 
-```{r echo=F, message=F, error=F, warning=F, fig.width=18, cache=TRUE}
+```{r, fig.width=18, cache=TRUE}
 
 library(tidyverse)
 library(WDI)
@@ -165,8 +165,11 @@ wdi %>%
                      GDPpc < 25000 ~ "underdeveloped"
                      )) -> wdi2
 
-wdi2 %>%
-  ggplot(aes(year, FDI, color=developed)) +
+wdi2 %>% 
+  mutate(lnFDI = log10(abs(FDI + 1))) %>%
+  filter(FDI !=0) %>%
+  mutate(lnFDI = ifelse(FDI<0, lnFDI*(-1), lnFDI)) %>%
+  ggplot(aes(year, lnFDI, color=developed)) +
   geom_point(alpha=0.1,size=2) +
   geom_smooth(alpha=0.25, size=3) +
   labs(x="Year",
@@ -191,12 +194,13 @@ wdi2 %>%
   filter(FDI.GDP<150) %>%
   ggplot(aes(year, FDI.GDP, color=developed)) +
   geom_point(alpha=0.1,size=2) +
+  theme_minimal() +
   geom_smooth(alpha=0.25, size=3) +
   labs(x="Year",
        y="FDI inflow, % GDP") +
   theme(legend.title = element_blank()) +
   scale_color_manual(values=c("red", "blue")) +
-  theme(legend.text = element_text(size=13),
+  theme(legend.text = element_text(size=20),
         axis.text=element_text(size=15),
         axis.title=element_text(size=15))
 ```
@@ -262,6 +266,7 @@ background-size: contain
 # .yellow[Blanton and Blanton (2007); Malesky and Mosley (2018)]
 
 ---
+
 class: inverse, middle
 background-color: #1C1B1C
 
@@ -271,14 +276,14 @@ background-color: #1C1B1C
 # Christensen (2019)
 ]
 
--- 
+--
 
 .pull-left[![](https://github.com/textvulture/textvulture.github.io/blob/master/images/Christensen.png?raw=true)]
 
 ---
 
 class: inverse
-background-image: url(https://media1.giphy.com/media/l3vRaha2CfPqoVaJW/giphy.gif?cid=ecf05e474cr6lg8bwxmdtjl8bx7c2lkraf67goorgit40uf8&rid=giphy.gif&ct=g)
+background-image: url(https://thumbs.gfycat.com/CalmFixedFunnelweaverspider.webp)
 background-size: contain
 
 
