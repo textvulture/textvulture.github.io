@@ -1,5 +1,5 @@
 ---
-title: ".green[Investment] <br> GLOA 610-001"
+title: "Investment"
 author: "Byunghwan Son <br> George Mason University"
 date: " "
 #########################################
@@ -29,17 +29,18 @@ beforeInit: "css/macros.js"
 ```{r setup, include=FALSE}
 # to use FontAwesome
 #htmltools::tagList(rmarkdown::html_dependency_font_awesome())
-library(fs)
 library(fontawesome)
-# library(magick)  
 library(ggplot2)
+library(dplyr)
+knitr::opts_chunk$set(warning = FALSE, message = FALSE, error=F, echo=F)
+options(htmltools.preserve.raw = FALSE) # for fontawesome
 
 ```
 class: inverse, center, middle
-background-image: url(https://i.ytimg.com/vi/pex8bksSoOo/maxresdefault.jpg)
+background-image: url(https://i.ytimg.com/vi/4wAqV-Oy2oE/maxresdefault.jpg)
 background-size: contain
 
-# .Huge[**Global Investment (GLOA610-001)**]
+# .HUGE[**GLOBAL <br> INVESTMENT**] <br> .yellow[.Large[**GLOA610**]]
 ---
 
 class: inverse, center, middle
@@ -134,15 +135,16 @@ background-color: #d64161
 .center[
 
 ```{r echo=F, message=F, error=F, warning=F, fig.width=18, cache=TRUE}
+
 library(tidyverse)
 library(WDI)
-library(ggplot2)
 
-var = c('FDI.out' = 'BM.KLT.DINV.CD.WD',
-        'FDI.in' = 'BX.KLT.DINV.CD.WD',
+
+var = c(#'FDI.out' = 'BM.KLT.DINV.CD.WD',
+        #'FDI.in' = 'BX.KLT.DINV.CD.WD',
         'GDPpc' = 'NY.GDP.PCAP.KD',
         'FDI.GDP' = 'BX.KLT.DINV.WD.GD.ZS',
-        'FDI' = 'BN.KLT.DINV.CD')
+        'FDI' = 'BN.KLT.DINV.CD') # BX.KLT.DINV.CD.WD
 
 wdi <- WDI(indicator=var,
            start=1980,
@@ -205,7 +207,7 @@ wdi2 %>%
 class: inverse, middle
 
 background-color: black
-background-image: url(https://blogs.imf.org/wp-content/uploads/2021/12/COTW-FDI-update.gif)
+background-image: url(https://topforeignstocks.com/wp-content/uploads/2020/09/Top-Foreign-Direct-Investment-Host-Countries-2019.png)
 background-position: right
 background-size: contain
 
@@ -219,7 +221,7 @@ class: inverse, bottom
 background-image: url(https://64.media.tumblr.com/tumblr_m71o7giWON1rsmws3o1_r1_500.gifv)
 background-size: contain
 
-# .Large[It ain't .red[no] magic wand, <br> though it def helps .yellow[a lot]. ]
+# .Large[It ain't .red[no] magic wand, <br> though it definitely helps .yellow[a lot]. ]
 
 ---
 class: inverse, center, middle
@@ -239,7 +241,7 @@ background-color: black
 background-position: right
 background-size: contain
 
-# Are the rich countries <br> in pursuit of tax .yellow[cuts] <br> in .red[poor] countries? <br> #vulture # capitalism
+# Are firms from rich countries <br> in pursuit of tax .yellow[cuts] <br> in .red[poor] countries? <br> #vulture # capitalism
 
 --
 
@@ -253,7 +255,7 @@ background-size: contain
 
 --
 
-# .huge[But what about the <br> '.red[race-to-the-bottom]'???]
+# .huge[But what about the <br> '.red[**Race-To-The-Bottom**]'???]
 
 --
 
@@ -263,15 +265,15 @@ background-size: contain
 class: inverse, middle
 background-color: #1C1B1C
 
-.pull-left[![](https://github.com/textvulture/textvulture.github.io/blob/master/images/Christensen.png?raw=true)]
-
---
-
 .pull-right[
 # But wouldn't .red[MNCs] mess around, inciting strong backlash?
 
 # Christensen (2019)
 ]
+
+-- 
+
+.pull-left[![](https://github.com/textvulture/textvulture.github.io/blob/master/images/Christensen.png?raw=true)]
 
 ---
 
@@ -280,5 +282,5 @@ background-image: url(https://media1.giphy.com/media/l3vRaha2CfPqoVaJW/giphy.gif
 background-size: contain
 
 
-# .Large[At the end of the day ...]
+# .Large[**At the end of the day ...**]
 
