@@ -1,5 +1,5 @@
 ---
-title: ".green[Organizations] <br> GLOA 610-001"
+title: "Organizations, GLOA610"
 author: "Byunghwan Son <br> George Mason University"
 date: " "
 #########################################
@@ -36,12 +36,13 @@ library(fontawesome)
 library(ggplot2)
 
 ```
+
 class: inverse, bottom, right
 background-image: url(https://mk0criptonoticijjgfa.kinstacdn.com/wp-content/uploads/2020/10/bretton-Woods-acuerdo-monetario-bitcoin.jpg)
 background-size: contain
 
 # .Large[.yellow[**International <br> Economic Organizations <br> and Development**]]
-# GLOA 610-001
+# GLOA 610
 
 ---
 background-image: url(https://c.tenor.com/wMgwsOy6N40AAAAC/baddies-are-we-the-baddies.gif)
@@ -131,7 +132,7 @@ background-color: #366409
 
 --
 
-# Davis and Morse (2018) -- not really, but related
+# Basedow (2021), judicialization in WTO 
 
 ---
 class: inverse, center, middle
