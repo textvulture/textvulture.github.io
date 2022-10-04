@@ -1,5 +1,5 @@
 ---
-title: ".green[Economy] <br> GLOA 400-001"
+title: "Economy, GLOA 400"
 author: "Byunghwan Son <br> George Mason University"
 date: " "
 #########################################
@@ -33,20 +33,43 @@ library(fs)
 library(fontawesome)
 # library(magick)  
 library(ggplot2)
+knitr::opts_chunk$set(warning = FALSE, message = FALSE, error=F, echo=F)
+options(htmltools.preserve.raw = FALSE)
 
 ```
-class: inverse, top, right
+
+
+class: inverse, middle, center
 background-image: url(https://www.wbcsd.org/var/site/storage/images/programs/redefining-value/external-disclosure/the-reporting-exchange/news/green-growth-and-reporting-are-high-on-vietnam-s-agenda/65341-3-eng-GB/New-report-shows-green-growth-and-reporting-are-high-on-Vietnam-s-agenda_i1140.jpg)
 background-size: contain
 
-# Economic Globaliztion in Asia
+# .Huge[**Economic Globaliztion in Asia**] <br> **GLOA 400**
 
 ---
+
+class: inverse, middle, center
+background-image: url(https://img.theculturetrip.com/x/smart/wp-content/uploads/2019/04/vietnam--luciano-mortula-shutterstock.jpg)
+background-size: contain
+
+# .huge[**How Did This ...**]
+
+---
+
+class: inverse, middle, center
+background-image: url(https://www.wbcsd.org/var/site/storage/images/programs/redefining-value/external-disclosure/the-reporting-exchange/news/green-growth-and-reporting-are-high-on-vietnam-s-agenda/65341-3-eng-GB/New-report-shows-green-growth-and-reporting-are-high-on-Vietnam-s-agenda_i1140.jpg)
+background-size: contain
+
+# .huge[**Turn Into That?**]
+
+---
+
 class: inverse, middle
 background-color: #a2b9bc
+background-image: url(https://cdn.pixabay.com/photo/2014/04/02/17/04/blackboard-307835_960_720.png)
+background-size: contain
 
 
-# .Large[Things to talk about]
+# .Large[.yellow[**Things to talk about**]]
 
 --
 
@@ -55,6 +78,8 @@ background-color: #a2b9bc
 --
 
 ## 2. What was the key to some of the successes?
+  .Large[2-1. And are they a panacea?]
+
 
 --
 
@@ -286,7 +311,12 @@ background-color: #083D52
 
 ---
 
-# Several Contributing Factors (in Asia; but not in LA)
+class: inverse
+background-image: url(https://images.unsplash.com/photo-1578662996442-48f60103fc96?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8YmxhY2tib2FyZHxlbnwwfHwwfHw%3D&w=1000&q=80)
+background-size: cover
+
+
+# Several Contributing Factors (in Asia; but .red[not] in LA)
 
 --
 
@@ -294,7 +324,11 @@ background-color: #083D52
 
 ### `r fa("hand-point-right")` &nbsp; an .red[autonomous] state that can advance centralized development goals 
 
-### `r fa("hand-point-right")` &nbsp; minimized .green[undercainty/risk] ('good institutions'); induce investment; suppress costs
+--
+
+### `r fa("hand-point-right")` &nbsp; minimized .green[uncertainty/risk] ('good institutions'); induce investment; suppress costs
+
+--
 
 ### `r fa("hand-point-right")` &nbsp; 'no tarpoot' (Haggard 2004)
 
@@ -304,7 +338,56 @@ background-color: #083D52
 
 ### `r fa("hand-point-right")` &nbsp; .red[external] autonomy in Asia `r fa("arrow-right")` less dependency
 
+--
+
 ### `r fa("hand-point-right")` &nbsp; higher savings rates
+
+---
+
+background-image: url(https://www.yetnal.co.kr/data/item/1615366129/IMG_7543.JPG)
+background-position: right
+background-size: contain
+
+
+# So, .orange[independent] developmental <br> state is *the* answer?
+
+--
+
+## `r fa("hand-point-right", fill='green')` state-led developmental plans?
+
+--
+
+## `r fa("tractor", fill='green')` .red[New Village Movement (NVM)] in S. Korea
+
+### - 'exported' to sub-Saharan Africa
+
+--
+
+### - but not very effective
+
+--
+
+### - byproduct: unwanted .red[legacy] of developmental state
+
+---
+
+.Large[**The legacy: .red[unwavering] authoritarian loyalty** (Hong et al. 2022)]
+
+--
+
+.pull-left[
+
+![](https://github.com/textvulture/textvulture.github.io/blob/master/images/Hong2022_2.JPG?raw=true)
+
+]
+
+--
+
+.pull-right[
+
+![](https://github.com/textvulture/textvulture.github.io/blob/master/images/Hong2022_3.JPG?raw=true)
+
+]
 
 ---
 
@@ -383,7 +466,7 @@ background-color: #520839
 
 ---
 
-# Will Chinese yuan (RMB) take over the US dollar `r fa("hand-holding-usd")`?
+# Will Chinese yuan (RMB) take over the US dollar `r fa("hand-holding-dollar")`?
 
 --
 
