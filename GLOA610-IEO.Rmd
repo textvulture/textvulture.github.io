@@ -34,6 +34,8 @@ library(fs)
 library(fontawesome)
 # library(magick)  
 library(ggplot2)
+options(htmltools.preserve.raw = FALSE)
+knitr::opts_chunk$set(warning = FALSE, message = FALSE, error=F, echo=F)
 
 ```
 
@@ -45,11 +47,15 @@ background-size: contain
 # GLOA 610
 
 ---
-background-image: url(https://c.tenor.com/wMgwsOy6N40AAAAC/baddies-are-we-the-baddies.gif)
+background-image: url(https://media2.giphy.com/media/4Z9fSEFAuxpnlBVWQx/giphy.gif)
 background-size: contain
 class: inverse
 
-# .Large[Are the likes of <br> IMF and World Bank <br> the baddies?]
+# .Large[Are the likes of <br> IMF and World Bank <br> the .red[baddies?]]
+
+--
+
+# Or, are they just <br> .yellow[ineffective] at times?
 
 ---
 class: inverse, center, middle
