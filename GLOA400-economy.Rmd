@@ -482,7 +482,40 @@ background-color: #520839
 
 ---
 
-# Will the Chinese yuan (RMB) take over the US dollar `r fa("hand-holding-dollar")`?
+---
+
+background-image: url(https://www.imf.org/wp-content/uploads/2022/06/COTW-dollar-dominance-blog.jpg)
+background-position: right
+background-size: contain
+
+
+# .red[**RMB as Reserve Currency?**] 
+
+--
+
+## - The reserve structure <br> hasn't really changed over time.
+
+--
+
+## - The Other is really <br> emerging currencies.
+
+--
+
+## - RMB accounts for about <br> 1/4 of '.red[the other].'
+
+---
+
+# .red[**Who**] keeps RMB as their reserve currency?
+
+.center[
+![](https://www.imf.org/wp-content/uploads/2022/06/STA-RMB-Chart-Blog-Final-.jpg)
+]
+
+
+
+---
+
+# **Will** the Chinese yuan (RMB) take over the US dollar `r fa("hand-holding-dollar")`?
 
 --
 
@@ -512,33 +545,7 @@ background-color: #520839
 ]
 ]
 
----
 
-background-image: url(https://www.imf.org/wp-content/uploads/2022/06/COTW-dollar-dominance-blog.jpg)
-background-position: right
-background-size: contain
-
-# .red[**Hard Currencies?**] 
-
---
-
-## - The reserve structure <br> hasn't really changed over time.
-
---
-
-## - The Other is really <br> emerging currencies.
-
---
-
-## - RMB accounts for about <br> 1/4 of '.red[the other].'
-
----
-
-# .red[**Who**] keeps RMB as their reserve currency?
-
-.center[
-![](https://www.imf.org/wp-content/uploads/2022/06/STA-RMB-Chart-Blog-Final-.jpg)
-]
 
 
 
