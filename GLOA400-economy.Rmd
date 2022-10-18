@@ -437,40 +437,56 @@ background-color: #520839
 
 ---
 
-# Or maybe it's just a 'hot mess.'
+# Or, maybe it's just a 'hot mess.'
+
+--
 
 .blockquote[
-# .black[Jones (2020)]
+## .black[Jones (2020)]
 
-.green[.Large[.red[Chaos] is far more common than conspiracy in Chinese overseas investment practices. Strategic narratives do not guide BRI projects so much as create opportunities that self-interested actors can exploit. Beijing’s diplomats and regulators do not inspire specific projects so much as .red[clean up the mess] when things go wrong.]]
+.blue[.Large[.red[Chaos] is far more common than conspiracy in Chinese overseas investment practices. Strategic narratives do not guide BRI projects so much as create opportunities that self-interested actors can exploit. Beijing’s diplomats and regulators do not inspire specific projects so much as .red[clean up the mess] when things go wrong.]]
 ]
 
 --
 
-# - most projects are driven by Chinese .red[local] governments.
+- .Large[.green[**push-factor**]: driven by Chinese .red[local] governments] 
+--
+
+  - .large[political incentives to go all-in for the competition: BRI = .red[personalized] agenda]
+  
+--
+
+  - .large[highly leveraged local banks: debt `r fa("bomb", fill="red")`]
 
 --
 
-# - political incentives to go all-in for the competition: BRI = .red[personalized] agenda
+- .Large[.orange[**pull-factor**]: pork-barrel politics and corruption]
+--
+
+  - .large[Sri Lanka, Sierra Leone, and Kenya: inefficient & unsustainable]
 
 ---
 
 class: inverse, center, middle
 background-color: #520839
 
-# .huge[But China's economic rise <br> is quite real.]
+# .Large[But China's economic rise is quite real.]
 
 --
 
-# The Q is: to what extend?
+# To what extend?
+
+--
+
+# A 'new global economic hegemon'? 'Bi-polarity'? 
 
 ---
 
-# Will Chinese yuan (RMB) take over the US dollar `r fa("hand-holding-dollar")`?
+# Will the Chinese yuan (RMB) take over the US dollar `r fa("hand-holding-dollar")`?
 
 --
 
-## Or at least, will it be a .red[hard] currency `r fa("money-bill")`?
+## Or at least, will it be a .red[hard] currency `r fa("money-bill", fill='green')` in the near future?
 
 --
 
@@ -495,4 +511,35 @@ background-color: #520839
 ## - central bankers
 ]
 ]
+
+---
+
+background-image: url(https://www.imf.org/wp-content/uploads/2022/06/COTW-dollar-dominance-blog.jpg)
+background-position: right
+background-size: contain
+
+# .red[**Hard Currencies?**] 
+
+--
+
+## - The reserve structure <br> hasn't really changed over time.
+
+--
+
+## - The Other is really <br> emerging currencies.
+
+--
+
+## - RMB accounts for about <br> 1/4 of '.red[the other].'
+
+---
+
+# .red[**Who**] keeps RMB as their reserve currency?
+
+.center[
+![](https://www.imf.org/wp-content/uploads/2022/06/STA-RMB-Chart-Blog-Final-.jpg)
+]
+
+
+
 
