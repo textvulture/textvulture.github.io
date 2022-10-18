@@ -34,7 +34,8 @@ library(fs)
 library(fontawesome)
 # library(magick)  
 library(ggplot2)
-library(tidyverse)
+knitr::opts_chunk$set(warning = FALSE, message = FALSE, error=F, echo=F)
+options(htmltools.preserve.raw = FALSE)
 ```
 
 class: inverse, center, middle
@@ -82,7 +83,7 @@ knitr::include_graphics("https://pbs.twimg.com/media/EALfGenWsAMvwdd.jpg")
 
 
 
---- 
+---
 <div class="full-width-tinted"><br>
   <h1> .Large[What do we know about foreign aid?] </h1>
 </div><br><br>
@@ -99,6 +100,10 @@ knitr::include_graphics("https://pbs.twimg.com/media/EALfGenWsAMvwdd.jpg")
 --
 
 # - Are recipients growing increasingly .red[dependent] on aid?
+
+--
+
+# - Are these questions generally .blue[answerable]?
 
 
 ---
@@ -133,7 +138,7 @@ wdi %>%
                      )) -> wdi2
 ```                     
                      
-```{r, message=FALSE, echo=FALSE, warning=FALSE, results="asis", fig.width=16, fig.height=7, cache=T}
+```{r, results="asis", fig.width=16, fig.height=7, cache=T}
 
 # Aid dependence (aid per capita)
 
@@ -145,8 +150,10 @@ wdi2 %>%
        y="Aid per capita") +
     theme_minimal() +
     geom_point(size=1, alpha=0.1) +
-  annotate("text", label="extreme values are not depicted, though calculated for the global mean",
-           x=1995, y=180, size=10, color="red", alpha=0.5) +
+  annotate("text", label="- extreme values are not depicted, though calculated for the global mean",
+           x=1993, y=180, size=10, color="red", alpha=0.5) +
+    annotate("text", label="- each gray dot is ODApc in a given year ",
+           x=1995, y=160, size=10, color="red", alpha=0.5) +
   theme(legend.title = element_blank()) +
   theme(legend.text = element_text(size=25),
         axis.text=element_text(size=25),
@@ -276,7 +283,7 @@ background-size: contain
 
 --
 
-### - Kosack and Tobin (2006)
+### - .red[Kosack and Tobin (2006)]
 
 --
 
@@ -284,7 +291,7 @@ background-size: contain
 
 --
 
-### - Andersen et al. (2020)
+### - .red[Andersen et al. (2020)]
 
 --
 
@@ -292,7 +299,7 @@ background-size: contain
 
 --
 
-### - Williams (2018); Rentier State; Dutch Disease
+### - .red[Williams (2018); Dutch Disease?]
 
 ---
 - Title page image:
