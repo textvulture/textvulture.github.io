@@ -1,5 +1,5 @@
 ---
-title: ".green[Poverty and Inequality] <br> GLOA 610-001"
+title: "Poverty and Inequality <br> GLOA 610"
 author: "Byunghwan Son <br> George Mason University"
 date: " "
 #########################################
@@ -34,13 +34,8 @@ library(fs)
 library(fontawesome)
 # library(magick)  
 library(ggplot2)
-#devtools::install_github("albert-ying/ohmyggplot") # not working for now
-#library(ohmyggplot) 
-library(tidyverse)
-# devtools::install_github('emitanaka/anicon')
-library(anicon)
-#devtools::install_github("dill/emoGG")
-library(emoGG)
+knitr::opts_chunk$set(warning = FALSE, message = FALSE, error=F, echo=F)
+options(htmltools.preserve.raw = FALSE)
 ```
 
 class: inverse, right, middle
@@ -293,12 +288,12 @@ background-color: black
 ---
 
 class: inverse
-background-image: url(https://memegenerator.net/img/instances/55301890.jpg)
+background-image: url(https://i.natgeofe.com/n/1447c33f-f7fa-4386-b891-1d06acd05b2a/5_unequal-scenes---johannesburg-2_2x3.jpg)
 background-position: right
 background-size: contain
 background-color: black
 
-# But wouldn't <br> globalization <br> .red[exacerbate] inequality?
+# But wouldn't <br> globalization have .red[something] <br> to do with inequality?
 
 --
 
@@ -324,7 +319,7 @@ background-size: contain
 
 --
 
-## Finance/Trade/Investment <br> should work, but it's hard to come by.
+## Finance/Trade/Investment: <br> hard to come by.
 
 --
 
@@ -332,7 +327,7 @@ background-size: contain
 
 --
 
-## So there's .red[no] way to <br> address poverty/inequality problem?
+## So there's .red[no] way to address <br> poverty/inequality problem?
 
 
 ---
