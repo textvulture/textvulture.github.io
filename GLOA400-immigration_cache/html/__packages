@@ -1,4 +1,3 @@
-base
 fs
 fontawesome
 ggplot2
@@ -11,3 +10,6 @@ dplyr
 stringr
 forcats
 WDI
+kableExtra
+ggThemeAssist
+ggrepel

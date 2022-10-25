@@ -33,7 +33,8 @@ library(fs)
 library(fontawesome)
 # library(magick)  
 library(ggplot2)
-library(tidyverse)
+knitr::opts_chunk$set(warning = FALSE, message = FALSE, error=F, echo=F)
+options(htmltools.preserve.raw = FALSE)
 ```
 
 class: inverse, center, middle
@@ -339,7 +340,7 @@ background-position: right
 
 --
 
-# .orange[`r fa("fist-raised")`] &nbsp; Domestic
+# .orange[`r fa("hand-fist")`] &nbsp; Domestic
 
 ## - .yellow[coup]: accountability .red[`r fa("times-circle")`]
 
