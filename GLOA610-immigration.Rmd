@@ -34,13 +34,8 @@ library(fs)
 library(fontawesome)
 # library(magick)  
 library(ggplot2)
-#devtools::install_github("albert-ying/ohmyggplot") # not working for now
-#library(ohmyggplot) 
-library(tidyverse)
-# devtools::install_github('emitanaka/anicon')
-library(anicon)
-#devtools::install_github("dill/emoGG")
-library(emoGG)
+knitr::opts_chunk$set(warning = FALSE, message = FALSE, error=F, echo=F)
+options(htmltools.preserve.raw = FALSE)
 ```
 
 class: inverse, center, top
@@ -221,11 +216,11 @@ background-size: contain
 
 # .Large[What about .red[Refugees]?]
 
-# When are hosts reluctant?
+# When are hosts reluctant? .yellow[Contact Theory]?
 
 --
 
-# Hangartner et al. (2018); Alrababa’h (2021)
+# **Hangartner et al. (2018)**
 
 ---
 
