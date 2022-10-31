@@ -38,10 +38,10 @@ options(htmltools.preserve.raw = FALSE)
 ```
 
 class: inverse, center, middle
-background-image: url(https://www.airbus.com/sites/g/files/jlcbta136/files/styles/airbus_480x480/public/2021-06/human-rights-illustration.jpg?itok=FgBpQEO2)
+background-image: url(https://github.com/textvulture/textvulture.github.io/blob/master/images/humanBackground.jpg?raw=true)
 background-size: cover
 
-# .huge[**.yellow[Human Rights], <br> .red[Transnational Crimes], <br> .green[Transitional Justice] <br> in Asia <br> GLOA 400**]
+# .Huge[**Human Rights <br> in Asia <br> GLOA 400**]
 
 ---
 class: inverse
