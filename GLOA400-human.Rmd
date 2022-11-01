@@ -370,7 +370,7 @@ background-size: contain
 class: inverse
 background-image: url(https://raw.githubusercontent.com/textvulture/textvulture.github.io/master/images/darkGreenbackground.jpg)
 
-# .yellow[Another] reason why transtional justice is .red[hard]: `r fa("bullhorn", fill='orange')` Politics
+# .yellow[Another] reason transitional justice is .red[hard]: `r fa("bullhorn", fill='orange')` Politics
 
 --
 
