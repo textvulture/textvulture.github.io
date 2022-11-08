@@ -43,7 +43,8 @@
 .bolder { font-weight: bolder; }
 
 .texttt { font-family: 'Source Code Pro' }
-
+.times{ font-family: 'Times New Roman' }
+.georgia{ font-family: 'Georgia' }
 
 
 .tab { text-indent: 5em; }

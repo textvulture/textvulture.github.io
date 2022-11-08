@@ -45,11 +45,11 @@ background-size: cover
 
 ---
 class: inverse
-background-image: url(https://www.brunswickgroup.com/media/3062/crisis.jpg?anchor=center&mode=crop&heightratio=0.5625&width=767&rnd=131871899560000000)
+background-image: url(https://github.com/textvulture/textvulture.github.io/blob/master/images/waveBackground2.jpg?raw=true)
 background-size: cover
 
 
-# .Large[What is a .red[CRISIS] everybody talks about?]
+# .Large[What is a .bluey[**CRISIS**] everybody talks about?]
 
 --
 
@@ -61,13 +61,13 @@ background-size: cover
 
 --
 
-## `r fa("glasses", fill='blue')` &nbsp; Neoclassical Economics Perspective ('*what crisis?*')
+## `r fa("glasses", fill='violet')` &nbsp; Neoclassical Economics Perspective (.georgia[*'what crisis?'*])
 
 --
 
 ## - .red[Not wrong], but offer only a partial picture; little to no solution 
 
-# .yellow[`r fa("circle-exclamation")`] &nbsp; A .orange[big-picture] framework is rare.
+# `r fa("circle-exclamation", fill='gray')` &nbsp; A .orange[big-picture] framework is rare.
 
 ---
 class: inverse, middle, center
@@ -82,9 +82,9 @@ class: inverse, middle, center
 background-image: url(https://wickedgoodgaming.com/wp-content/uploads/2019/10/bankrupt.gif)
 background-size: cover
 
-# .huge[**(Sovereign) Debt Crisis**]
+# .Huge[**(Sovereign) <br> Debt Crisis**]
 
-# *'The government cannot service the debt anymore'*
+# *.yellow['The government cannot service the debt anymore'*]
 
 ---
 
@@ -92,9 +92,9 @@ class: inverse, middle, center
 background-image: url(https://image.shutterstock.com/image-illustration/paris-police-hold-back-crowd-260nw-242294071.jpg)
 background-size: cover
 
-# .huge[**Banking Crisis**]
+# .Huge[**Banking Crisis**]
 
-# *'The bank doesn't have your money.'*
+# .yellow[*'The bank doesn't have your money.'*]
 
 ---
 
@@ -102,9 +102,9 @@ class: inverse, middle, center
 background-image: url(http://prod-upp-image-read.ft.com/8a4b2c44-c350-11e5-808f-8231cd71622e)
 background-size: cover
 
-# .huge[**Currency Crisis**]
+# .Huge[**Currency Crisis**]
 
-# *'The currency is now just a piece of paper.'*
+# .yellow[*'The currency is now just a piece of paper.'*]
 
 ---
 
@@ -219,100 +219,39 @@ wdi %>%
 
 ---
 
-class: inverse
-background-color: black
+background-image: url(https://stray-reflections.com/storage/images/articles/16068579750.png)
+background-position: right
 
-<div class="full-width-tinted"><br>
-  <h1> .large[Just .red[how] does a financial crisis happen?] </h1> 
-</div><br><br> 
+# How Does A .red[Crisis] Happen? 
 
-.right-column[
 
-```{r echo=F, out.height=450, out.width=700}
-knitr::include_graphics("https://stray-reflections.com/storage/images/articles/16068579750.png")
-```
+## Kindleberger (1979)
 
-]
-
-.left-column[
-
-### Kindleberger (1979)
-
-### - .yellow[mania]
+### - .Blue[mania]
 
 ### - .orange[panic]
 
 ### - .red[crash]
 
-.black[]
-]
-
 ---
 
-class: inverse
-background-color: black
+background-image: url("https://z822j1x8tde3wuovlgo7ue15-wpengine.netdna-ssl.com/wp-content/uploads/2013/11/131102-08.png")
+background-position: right
+background-size: 65%
+
+# How Does A .red[Crisis] Happen? 
 
 
-<div class="full-width-tinted"><br>
-  <h1> .large[Just .red[how] does a financial crisis happen?] </h1> 
-</div><br><br> 
+## Kindleberger (1979)
 
+### - .Blue[mania]
 
-.right-column[
-.center[
-```{r echo=F, out.height=450, out.width=700}
-knitr::include_graphics("https://z822j1x8tde3wuovlgo7ue15-wpengine.netdna-ssl.com/wp-content/uploads/2013/11/131102-08.png")
-```
-]
-]
-
-.left-column[
-### Kindleberger (1979)
-
-### - .yellow[mania]
-
-### - .orange[panic] 
+### - .orange[panic]
 
 ### - .red[crash]
 
-.black[]
-]
-
-
----
-
-class: inverse
-background-color: black
-
-
-<div class="full-width-tinted"><br>
-  <h1> .large[Just .red[how] does a financial crisis happen?] </h1> 
-</div><br><br> 
-
-
-.right-column[
-.center[
-```{r echo=F, out.height=450, out.width=700}
-knitr::include_graphics("https://z822j1x8tde3wuovlgo7ue15-wpengine.netdna-ssl.com/wp-content/uploads/2013/11/131102-08.png")
-```
-]
-]
-
-.left-column[
-### Kindleberger (1979)
-
-### - .yellow[mania]
-
-### - .orange[panic] 
-
-### - .red[crash]
-
-### Oatley (2019)
-
-- .large[.red[complex] system approach]
-
-.black[]
-]
+## Oatley (2019)
+  - .Large[.times[complex system approach]]
 
 
 ---
@@ -327,33 +266,35 @@ background-size: 77%
 
 --
 
-## or <br><br>  are there <br> some .red[easier] options?
+## or maybe not
 
 ---
 
-## 1) Cook up the numbers: Aragao and Linsi (2022, 99)
+## `r fa("face-smile-wink", fill='green')` .violet[Cooking up] the numbers instead  (Aragao and Linsi 2022, 99)
 .center[
 ![](https://github.com/textvulture/textvulture.github.io/blob/master/images/Aragao2020.png?raw=true)
 ]
 
 ---
-class: inverse, middle
+class: middle
 
 background-image: url(https://www.economist.com/img/b/300/291/90/sites/default/files/images/print-edition/20120225_AMC632.gif)
 background-position: right
 background-size: contain
-background-color: #C6D9DF
+
 
 # .huge[**... which <br> became <br>an Endemic <br> Problem**]
 
 ---
 
 class: inverse, middle
-background-image: url(https://i.guim.co.uk/img/media/a4ca6635c18aecb768584d5d90cfc3b6fbb38540/0_96_6000_3600/master/6000.jpg?width=465&quality=45&auto=format&fit=max&dpr=2&s=b499693ac35275058616a168cc3cd256)
+background-image: url(https://www.aljazeera.com/wp-content/uploads/2021/12/Arg-IMF-protest2.jpg?w=770&resize=770%2C433)
 background-size: cover
 background-color: black
 
-# .huge[**2) and blame the IMF*.**] <br> .right[(Doesn't mean IMF is innocent...)]
+# .huge[**Don't forget blaming the IMF*.**]
+
+.yellow[.right[.large[(* not that IMF is innocent...)]]]
 
 
 ---
@@ -362,12 +303,12 @@ class: inverse
 background-color: black
 
 <div class="full-width-tinted"><br>
-  <h1> Consequences and Implications </h1> 
+  <h1> .Large[Consequences] </h1> 
 </div><br><br> 
 
 --
 
-## `r fa("lightbulb", fill='yellow')` Explains why .yellow[state]-oriented policies are rare: &nbsp; `r fa("bomb")` boom-and-bust <br>
+## So much liberalization even from a .red[left]-leaning government
 
 --
 
