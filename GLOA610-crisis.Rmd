@@ -33,7 +33,8 @@ library(fs)
 library(fontawesome)
 # library(magick)  
 library(ggplot2)
-library(tidyverse)
+knitr::opts_chunk$set(warning = FALSE, message = FALSE, error=F, echo=F)
+options(htmltools.preserve.raw = FALSE)
 ```
 
 class: inverse, center, middle
@@ -52,21 +53,21 @@ background-size: cover
 
 --
 
-## `r fa("microphone-alt")` &nbsp; Marxist Perspective (deterministic)
+## `r fa("star", fill='red')` &nbsp; Marxist Perspective (deterministic)
 
 --
 
-## `r fa("microphone-alt")` &nbsp; Critical Theory Perspective (e.g., .yellow[D&#246;nmez & Zemandl 2019])
+## `r fa("book", fill='yellow')` &nbsp; Critical Theory Perspective (e.g., .yellow[D&#246;nmez & Zemandl 2019])
 
 --
 
-## `r fa("microphone-alt")` &nbsp; Neoclassical Economics Perspective ('*what crisis?*')
+## `r fa("glasses", fill='blue')` &nbsp; Neoclassical Economics Perspective ('*what crisis?*')
 
 --
 
 ## - .red[Not wrong], but offer only a partial picture; little to no solution 
 
-# .yellow[`r fa("exclamation-circle")`] &nbsp; A .orange[big-picture] framework is rare.
+# .yellow[`r fa("circle-exclamation")`] &nbsp; A .orange[big-picture] framework is rare.
 
 ---
 class: inverse, middle, center
