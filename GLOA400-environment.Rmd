@@ -1,5 +1,5 @@
 ---
-title: "Environmental Issues in Asia <br> GLOA 400-001"
+title: "Environment GLOA 400"
 author: "Byunghwan Son <br> George Mason University"
 date: " "
 #########################################
@@ -33,14 +33,15 @@ library(fs)
 library(fontawesome)
 # library(magick)  
 library(ggplot2)
-library(tidyverse)
+knitr::opts_chunk$set(warning = FALSE, message = FALSE, error=F, echo=F)
+options(htmltools.preserve.raw = FALSE)
 ```
 
 class: inverse, right, top
 background-image: url(https://research.tamu.edu/wp-content/uploads/2014/01/AirPollution2.jpg)
 background-size: cover
 
-# .huge[**Environmental Issues <br> in Asia <br> GLOA 400-001**]
+# .huge[**Environmental Issues <br> in Asia <br> GLOA 400**]
 
 ---
 
@@ -115,59 +116,18 @@ wdi %>%
         legend.text=element_text(size=15),
         axis.text=element_text(size=15),
         axis.title=element_text(size=15)) +
-  xlim(1990, 2020)
+  xlim(1989, 2020)
 
 
 ```
 
 ---
-<div class="full-width-tinted"><br>
-  <h1> $$ \text{Economic Effect: } CO_2 \text{          } \text{Damage, % of GNI} $$ </h1> 
-</div><br><br> 
+class: inverse, top, right
+background-image: url(https://github.com/textvulture/textvulture.github.io/blob/master/images/polluted_cities.png?raw=true)
+background-size: contain
 
-```{r echo=F, message=F, warning=F, error=F, cache=T, fig.width=16}
+# .Large[.bluey[**Most Air-Polluted Cities in 2022**]]
 
-  ggplot(wdi2, aes(x=year,
-             y=CO2
-             )) +
-  geom_point(data=wdi2, aes(color=Asia, size=lnGDPpc), 
-             alpha=0.5) +
-  geom_point(data=wdi3, size=0.15, alpha=0.25, color='black') + 
-  labs(x = "YEAR",
-       y = "Economic Cost of CO2 (% GNI)") +
-  theme_minimal() +
-  theme(legend.title=element_text(size=15),
-        legend.text=element_text(size=15),
-        axis.text=element_text(size=15),
-        axis.title=element_text(size=15))
-
-```
-
----
-
-
-<div class="full-width-tinted"><br>
-  <h1> .large[Environmental Kuznets Curve]  </h1> 
-</div><br><br> 
-
-.pull-left[
-
-## The relationship b/w <br> .green[economic globalization] and .red[environmental degradation]
-
-### - Inverted U-curve shape (Zaidi et al. 2019)
-
-### - Distributive implications
-
-### - Reforms may incur economic costs: China (Xu et al. 2019)
-
-]
-
-.pull-right[
-
-.center[
-![](https://www.intelligenteconomist.com/wp-content/uploads/2018/03/Environmental-Kuznets-Curve-1.png)
-]
-]
 
 
 ---
@@ -193,5 +153,98 @@ background-color: #DF9A06
 
 
 
+---
+<div class="full-width-tinted"><br>
+  <h1> $CO_2$ Emission, compared to the economy ($20 for each *t*) </h1> 
+</div><br><br> 
+
+```{r echo=F, message=F, warning=F, error=F, cache=T, fig.width=16}
+
+  ggplot(wdi2, aes(x=year,
+             y=CO2
+             )) +
+  geom_point(data=wdi2, aes(color=Asia), size=2, 
+             alpha=0.5) +
+  geom_point(data=wdi3, size=0.15, alpha=0.25, color='black') + 
+  labs(x = "YEAR",
+       y = "CO2 emission (% GNI)") +
+  theme_minimal() +
+  theme(legend.title=element_text(size=15),
+        legend.text=element_text(size=15),
+        axis.text=element_text(size=15),
+        axis.title=element_text(size=15)) +
+  ylim(0, 25)
+
+```
+
+---
+
+background-image: url(https://github.com/textvulture/textvulture.github.io/blob/master/images/Mongolia_air.png?raw=true)
+ 
+---
+background-image: url(http://prod-upp-image-read.ft.com/d81d851e-a1de-11e4-bd03-00144feab7de)
+background-size: contain
+class: inverse
+
+# .huge[**Rapid Expansion of <br> the Coldest City in the World**]
+
+---
+
+<div class="full-width-tinted"><br>
+  <h1> .large[Environmental Kuznets Curve]  </h1> 
+</div><br><br> 
+
+.pull-left[
+
+## The relationship b/w <br> .green[economic globalization] and .red[environmental degradation]
+
+### - Inverted U-curve shape (Zaidi et al. 2019)
+
+### - Distributive implications
 
 
+]
+
+.pull-right[
+
+.center[
+![](https://www.intelligenteconomist.com/wp-content/uploads/2018/03/Environmental-Kuznets-Curve-1.png)
+]
+]
+
+
+
+---
+
+# Globalization, Financialization, and CO2 Emission <br> (Zaidi et al. 2019)
+
+.Large[
+- .red[technology] effect (globalization)
+- .orange[credit] effect (financialization)
+]
+
+```{r echo=F, out.width="70%", fig.align='center'}
+knitr::include_graphics("https://github.com/textvulture/textvulture.github.io/blob/master/images/Zaidi2019.png?raw=true")
+```
+
+---
+background-image: url(https://github.com/textvulture/textvulture.github.io/blob/master/images/Xu2019.png?raw=true)
+background-position: right
+background-size: 60%
+
+# Why Reforms are .red[Hard]? The Chinese Case (Xu et al. 2019)
+<br><br>
+
+### `r fa("bell", fill='orange')` MEP established in 2008 
+
+--
+
+### `r fa("arrow-down", fill='red')` polluting firms took a hit 
+
+--
+
+### `r fa("shield", fill='purple')` SOEs were hurt less 
+
+--
+
+### `r fa("scale-balanced", fill='#52580A')` implications for reforms? 
