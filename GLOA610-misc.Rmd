@@ -1,0 +1,304 @@
+---
+title: "MISC. <br> GLOA 610"
+author: "Byunghwan Son <br> George Mason University"
+date: " "
+#########################################
+linkcolor: red
+citecolor: blue
+urlcolor: blueß
+output: 
+  xaringan::moon_reader:
+    seal: false
+    nature:
+      ratio: '16:9'
+      highlightStyle: github
+  #    self-contained: TRUE
+  chakra: css/libs/remark-latest.min.js
+css: ["default", 
+      "css/footer.css", 
+      "css/color.css", 
+      # "css/xaringan-themer.css",
+      default-fonts]
+lib_dir: css/libs
+beforeInit: "css/macros.js"
+# seal: false  
+#bibliography: /Users/bson3/Dropbox/latex/mybib2.bib
+#remotes::install_github('yihui/xaringan', upgrade = TRUE)
+---
+
+```{r setup, include=FALSE}
+# to use FontAwesome
+#htmltools::tagList(rmarkdown::html_dependency_font_awesome())
+library(dplyr)
+library(tidyr)
+library(fs)
+library(fontawesome)
+# library(magick)  
+library(ggplot2)
+knitr::opts_chunk$set(warning = FALSE, message = FALSE, error=F, echo=F)
+options(htmltools.preserve.raw = FALSE)
+```
+
+class: inverse, left, top
+background-image: url(https://static.dw.com/image/41289061_303.jpg)
+background-size: contain
+
+# .huge[**Environment, Health, and Resource <br> GLOA 610**]
+
+
+
+```{r include=F, cache=T}
+
+library(WDI)
+
+var = c('CO2' = 'NY.ADJ.DCO2.GN.ZS',
+        'air' = 'EN.ATM.PM25.MC.M3',
+        'GDPpc' = 'NY.GDP.PCAP.KD',
+        'school' = 'SE.PRM.NENR',
+        'life' = 'SP.DYN.LE00.IN')
+
+wdi <- WDI(indicator=var,
+           start=1970,
+           country = 'all',
+           end=2020,
+           extra=TRUE)   %>%
+  filter(region !="Aggregates") %>%
+  drop_na(GDPpc) %>%
+  mutate(developed = 
+           case_when(
+             GDPpc > 10000 ~ "Developed",
+             GDPpc < 10000 ~ "Under-developed"
+           )) 
+```
+
+---
+class: inverse
+background-image: url(https://y.yarn.co/f7d655ee-6deb-41f7-b231-cd759fb34767_text.gif)
+background-size: contain
+
+# .huge[This week ...]
+
+
+---
+
+<div class="full-width-tinted"><br>
+  <h1> $CO_2$ Emission, $ 20 per t, % of GNI </h1> 
+</div><br><br>
+
+```{r message=FALSE, echo=FALSE, warning=FALSE, results="asis", fig.width=16, fig.height=7, cache=T}
+
+wdi %>%
+  ggplot(aes(x=year,
+             y=CO2,
+             group=developed)) +
+  geom_point(aes(color=developed),
+             alpha=0.25, size=2) +
+  geom_smooth(aes(color=developed), 
+              alpha=0.5) +
+  labs(x = "YEAR",
+       y = "CO2 (% GNI)") +
+  theme_minimal() +
+  theme(legend.title=element_text(size=25),
+        legend.text=element_text(size=25),
+        axis.text=element_text(size=20),
+        axis.title=element_text(size=20)) +
+  ylim(0, 20)
+```
+
+---
+
+<div class="full-width-tinted"><br>
+  <h1> .large[Air Pollution] </h1> 
+</div><br><br>
+
+```{r message=FALSE, echo=FALSE, warning=FALSE, results="asis", fig.width=16, fig.height=7, cache=T}
+
+wdi %>%
+  ggplot(aes(x=year,
+             y=air,
+             group=developed)) +
+  geom_point(aes(color=developed),
+             alpha=0.25, size=3) +
+  geom_smooth(aes(color=developed), 
+              alpha=0.5) +
+  xlim(1990, 2020) +
+  labs(x = "YEAR",
+       y = "Air Pollution (mg per cubic meter)") +
+  theme_minimal() +
+  theme(legend.title=element_text(size=25),
+        legend.text=element_text(size=25),
+        axis.text=element_text(size=20),
+        axis.title=element_text(size=20))
+```
+
+---
+
+background-image: url(http://cdn.statcdn.com/Infographic/images/normal/17239.jpeg)
+background-size: contain
+background-position: right
+background-color:  #f0f5f5
+
+
+
+# .LARGE[.red[`r fa("head-side-mask")`] Urban Air Pollution]
+
+--
+
+# What do they have in .Blue[common]?
+
+--
+
+```{r, cache=T, out.width="700px" }
+
+knitr::include_graphics("https://github.com/textvulture/textvulture.github.io/blob/master/images/polluted_cities.png?raw=true")
+
+```
+
+---
+
+
+
+---
+
+class: inverse, center
+background-image: url(https://media0.giphy.com/media/AkjrwuWU6RQQMrNOlg/200w.webp?cid=ecf05e47lsgynnhqs64j646in1ahczbmuehvpjc5g9dhlkwf&rid=200w.webp&ct=g)
+background-size: contain
+
+# .Large[Is .red[Degrowth] the Answer? (McAfee 2020)]
+
+
+
+---
+
+
+<div class="full-width-tinted"><br>
+  <h1> .large[Environmental Kuznets Curve]  </h1> 
+</div><br><br> 
+
+.pull-left[
+
+## The relationship b/w <br> .green[economic globalization] and .red[environmental degradation]
+
+### - Inverted U-curve shape 
+
+### - Global distributive implications
+
+### - Shapiro (2020)
+
+]
+
+.pull-right[
+
+.center[
+![](https://www.intelligenteconomist.com/wp-content/uploads/2018/03/Environmental-Kuznets-Curve-1.png)
+]
+]
+
+---
+
+background-image: url(https://www.economist.com/img/b/400/582/90/media-assets/image/20211113_WOC158.png)
+background-size: contain
+background-position: right
+
+# And it ain't all outsourcing
+
+```{r, out.width="550px"}
+
+knitr::include_graphics("https://infographics.economist.com/2021/20211113_WOC162/20211113_WOC162-Artboard_1.png")
+
+```
+
+
+---
+class: inverse, center
+background-image: url(https://media2.giphy.com/media/l4FGutmJNuKXQWAN2/giphy.gif)
+background-size: contain
+
+
+# .Large[**Why are reforms so hard (.yellow[domestically])**]?
+
+
+---
+class: inverse, middle
+background-image: url(http://sierraclub.typepad.com/.a/6a00d83451b96069e201543218b868970c-pi)
+background-size: contain
+background-position: right
+background-color: black
+
+
+# .Large[Political .yellow[incentive] structure]
+
+# .Large[.green[Old] problems, .red[new] issues]
+
+# - Economist (2019)
+
+
+---
+
+
+<div class="full-width-tinted"><br>
+  <h1> .large[Life Expectancy at Birth] </h1> 
+</div><br><br>
+
+
+```{r message=FALSE, echo=FALSE, warning=FALSE, results="asis", fig.width=16, fig.height=7, cache=T}
+
+wdi %>%
+  ggplot(aes(x=year,
+             y=life,
+             group=developed)) +
+  geom_point(aes(color=developed),
+             alpha=0.25, size=3) +
+  geom_smooth(aes(color=developed), 
+              alpha=0.5) +
+  labs(x = "YEAR",
+       y = "Life Expectancy at Brith") +
+  theme_minimal() +
+  theme(legend.title=element_text(size=25),
+        legend.text=element_text(size=25),
+        axis.text=element_text(size=25),
+        axis.title=element_text(size=15))
+```
+
+---
+
+class: inverse, right, middle
+background-image: url(https://cdn.theatlantic.com/thumbor/vuGrQmW3MKren03KqCdUxS9v5FU=/0x235:4512x2773/1600x900/media/img/mt/2017/10/AP_16301118100683/original.jpg)
+background-size: 100%
+background-position: left
+background-color: black
+
+# .Large[What are some <br> (fundamental) .red[threats] <br> to public health?]
+
+---
+
+# Democratic Backsliding 
+
+.center[
+![](https://github.com/textvulture/textvulture.github.io/blob/master/images/Son2022_1.png?raw=true)
+]
+
+---
+
+# Democratic Backsliding as a .red[Threat] to .green[Public Health]
+.center[
+![](https://github.com/textvulture/textvulture.github.io/blob/master/images/Son2022_2.png?raw=true)
+]
+
+---
+
+class: inverse, top, center
+background-image: url(https://www.cadtm.org/local/cache-vignettes/L460xH259/arton10536-84fbb.jpg?1593847991)
+background-size: contain
+background-color: black
+
+# .huge[**Is Resource Abundance <br> an '.yellow[Anti-Colonial] Weapon'?**]
+
+---
+class: right
+background-position: left
+background-image: url(https://github.com/textvulture/textvulture.github.io/blob/master/images/Fails2020.png?raw=true)
+background-size: 75%
+
+# .Large[OR, just a lifeline <br> for .red[dictators]' ? <br> (Fails 2020)]
+
