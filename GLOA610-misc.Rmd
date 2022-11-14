@@ -55,7 +55,8 @@ var = c('CO2' = 'NY.ADJ.DCO2.GN.ZS',
         'air' = 'EN.ATM.PM25.MC.M3',
         'GDPpc' = 'NY.GDP.PCAP.KD',
         'school' = 'SE.PRM.NENR',
-        'life' = 'SP.DYN.LE00.IN')
+        'life' = 'SP.DYN.LE00.IN',
+        'oilRent' = 'NY.GDP.PETR.RT.ZS')
 
 wdi <- WDI(indicator=var,
            start=1970,
@@ -264,7 +265,7 @@ wdi %>%
   labs(x = "YEAR",
        y = "Life Expectancy at Brith") +
   theme_minimal() +
-  theme(legend.title=element_text(size=25),
+  theme(legend.title=element_blank(),
         legend.text=element_text(size=25),
         axis.text=element_text(size=25),
         axis.title=element_text(size=15))
@@ -317,4 +318,83 @@ knitr::include_graphics("https://github.com/textvulture/textvulture.github.io/bl
 ```
 
 ---
+
+# But, still, .red[some] positive effect on the economy? (1)
+
+--
+
+```{r, cache=T, fig.width=16}
+
+wdi %>% ggplot(aes(y=log(GDPpc),
+             x=oilRent)) +
+  geom_point(aes(color=developed), alpha=0.25, size=3) +
+  geom_smooth(aes(color=developed), alpha=0.5, se=F) +
+  geom_smooth(color='black', alpha=0.5, se=F) +
+  labs(y = "GDP per capita, log-scale",
+       x = "Oil Rent (= oil money - production cost, % of GDP)") +
+  theme_minimal() +
+  theme(legend.title=element_blank(),
+        legend.text=element_text(size=25),
+        axis.text=element_text(size=25),
+        axis.title=element_text(size=15))
+
+
+```
+
+---
+
+# But, still, .red[some] positive effect on the economy? (2)
+  - only oil rent > 10%
+--
+
+```{r, cache=T, fig.width=16}
+
+wdi %>% 
+  filter(oilRent>10) %>%
+  ggplot(aes(y=log(GDPpc),
+             x=oilRent)) +
+  geom_point(aes(color=developed), alpha=0.25, size=3) +
+  geom_smooth(aes(color=developed), alpha=0.5, se=F) +
+  geom_smooth(color='black', alpha=0.5, se=F) +
+  labs(y = "GDP per capita, log-scale",
+       x = "Oil Rent (= oil money - production cost, % of GDP)") +
+  theme_minimal() +
+  theme(legend.title=element_text(size=25),
+        legend.text=element_text(size=25),
+        axis.text=element_text(size=25),
+        axis.title=element_text(size=15))
+
+
+```
+
+---
+
+# Often understood as <br> 'oil-curse'
+
+--
+
+# free revenue `r fa("arrow-up", fill='green')` `r fa("arrow-right")` accountability `r fa("arrow-down", fill='red')`
+
+
+---
+
+background-image: url(https://github.com/textvulture/textvulture.github.io/blob/master/images/Sigman2022.png?raw=true)
+background-position: right
+background-size: contain
+
+# `r fa("book-skull", fill='orange')` Often understood as <br> 'oil-curse'
+
+## free revenue `r fa("arrow-up", fill='green')` `r fa("arrow-right")` accountability `r fa("arrow-down", fill='red')`
+
+--
+
+## But, rank-and-file Bureaucrats?
+
+  - .Large[oil-curse `r fa("arrow-right-long")` `r fa("sack-xmark", fill='red')`?]
+
+--
+
+  - .Large[or, "disgruntled employees" `r fa("face-angry", fill='green')` ?]
+
+
 
