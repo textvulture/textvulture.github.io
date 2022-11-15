@@ -161,10 +161,6 @@ knitr::include_graphics("https://github.com/textvulture/textvulture.github.io/bl
 
 ---
 
-
-
----
-
 class: inverse, center, middle
 background-image: url(https://media0.giphy.com/media/AkjrwuWU6RQQMrNOlg/200w.webp?cid=ecf05e47lsgynnhqs64j646in1ahczbmuehvpjc5g9dhlkwf&rid=200w.webp&ct=g)
 background-size: contain
@@ -388,9 +384,9 @@ wdi %>%
 
 ---
 
-background-image: url(https://github.com/textvulture/textvulture.github.io/blob/master/images/Sigman2022.png?raw=true)
+background-image: url(https://github.com/textvulture/textvulture.github.io/blob/master/images/Sigman2022_2.png?raw=true)
 background-position: right
-background-size: 45%
+background-size: 35%
 
 # `r fa("book-skull", fill='orange')` Often understood as <br> 'oil-curse'
 
