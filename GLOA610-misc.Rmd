@@ -73,11 +73,15 @@ wdi <- WDI(indicator=var,
 ```
 
 ---
-class: inverse
-background-image: url(https://y.yarn.co/f7d655ee-6deb-41f7-b231-cd759fb34767_text.gif)
-background-size: contain
+class: inverse, right, bottom
+background-image: url(https://cdn.dribbble.com/users/27231/screenshots/3713219/source.gif)
+background-size: cover
 
-# .huge[This week ...]
+# .Large[**.red[non-]traditional stuff <br> in global political economy**] 
+
+--
+
+# **but still matters for .yellow[development]**
 
 
 ---
@@ -135,7 +139,7 @@ wdi %>%
 ---
 
 background-image: url(http://cdn.statcdn.com/Infographic/images/normal/17239.jpeg)
-background-size: contain
+background-size: 30%
 background-position: right
 background-color:  #f0f5f5
 
@@ -161,43 +165,45 @@ knitr::include_graphics("https://github.com/textvulture/textvulture.github.io/bl
 
 ---
 
-class: inverse, center
+class: inverse, center, middle
 background-image: url(https://media0.giphy.com/media/AkjrwuWU6RQQMrNOlg/200w.webp?cid=ecf05e47lsgynnhqs64j646in1ahczbmuehvpjc5g9dhlkwf&rid=200w.webp&ct=g)
 background-size: contain
 
-# .Large[Is .red[Degrowth] the Answer? (McAfee 2020)]
+# .huge[**Is .red[Degrowth] the Answer? <br> (McAfee 2020)**]
 
 
 
 ---
-
+background-image: url(https://www.intelligenteconomist.com/wp-content/uploads/2018/03/Environmental-Kuznets-Curve-1.png)
+background-size: 40%
+background-position: right
 
 <div class="full-width-tinted"><br>
   <h1> .large[Environmental Kuznets Curve]  </h1> 
 </div><br><br> 
 
-.pull-left[
 
-## The relationship b/w <br> .green[economic globalization] and .red[environmental degradation]
+## The relationship b/w <br> .green[economic globalization] and <br> .red[environmental degradation]
+
+--
 
 ### - Inverted U-curve shape 
 
+--
+
 ### - Global distributive implications
+
+--
 
 ### - Shapiro (2020)
 
-]
+  - .large[is global trade anti-environment?]
 
-.pull-right[
 
-.center[
-![](https://www.intelligenteconomist.com/wp-content/uploads/2018/03/Environmental-Kuznets-Curve-1.png)
-]
-]
 
 ---
 
-# .orange[Emmission is going down]
+# .orange[**Emmission is going down**]
 
 ```{r, out.width="550px"}
 
@@ -208,10 +214,10 @@ knitr::include_graphics("https://github.com/textvulture/textvulture.github.io/bl
 ---
 
 background-image: url(https://www.economist.com/img/b/400/582/90/media-assets/image/20211113_WOC158.png)
-background-size: contain
+background-size: 35%
 background-position: right
 
-# .orange[And it ain't all outsourcing]
+# .green[**And it ain't all outsourcing**]
 
 ```{r, out.width="550px"}
 
@@ -248,7 +254,7 @@ background-color: black
 
 
 <div class="full-width-tinted"><br>
-  <h1> .large[Life Expectancy at Birth] </h1> 
+  <h1> .large[**Life Expectancy at Birth**] </h1> 
 </div><br><br>
 
 
@@ -311,7 +317,7 @@ background-color: black
 
 # .large[OR, just a lifeline for .red[dictators]' ? (Fails 2020)]
 
-```{r, out.width="850px", fig.align='center'}
+```{r, out.width="850px", fig.align='center', cache=T}
 
 knitr::include_graphics("https://github.com/textvulture/textvulture.github.io/blob/master/images/Fails2020.png?raw=true")
 
@@ -344,7 +350,7 @@ wdi %>% ggplot(aes(y=log(GDPpc),
 ---
 
 # But, still, .red[some] positive effect on the economy? (2)
-  - only oil rent > 10%
+  - oil rent > 10% .red[only]
 --
 
 ```{r, cache=T, fig.width=16}
@@ -369,26 +375,30 @@ wdi %>%
 
 ---
 
-# Often understood as <br> 'oil-curse'
+# `r fa("book-skull", fill='orange')` Often understood as <br> 'oil-curse'
 
 --
-
-# free revenue `r fa("arrow-up", fill='green')` `r fa("arrow-right")` accountability `r fa("arrow-down", fill='red')`
-
-
----
-
-background-image: url(https://github.com/textvulture/textvulture.github.io/blob/master/images/Sigman2022.png?raw=true)
-background-position: right
-background-size: contain
-
-# `r fa("book-skull", fill='orange')` Often understood as <br> 'oil-curse'
 
 ## free revenue `r fa("arrow-up", fill='green')` `r fa("arrow-right")` accountability `r fa("arrow-down", fill='red')`
 
 --
 
 ## But, rank-and-file Bureaucrats?
+
+
+---
+
+background-image: url(https://github.com/textvulture/textvulture.github.io/blob/master/images/Sigman2022.png?raw=true)
+background-position: right
+background-size: 45%
+
+# `r fa("book-skull", fill='orange')` Often understood as <br> 'oil-curse'
+
+## free revenue `r fa("arrow-up", fill='green')` `r fa("arrow-right")` accountability `r fa("arrow-down", fill='red')`
+
+## But, rank-and-file Bureaucrats?
+
+### - Sigman et al. (2022)
 
   - .Large[oil-curse `r fa("arrow-right-long")` `r fa("sack-xmark", fill='red')`?]
 
