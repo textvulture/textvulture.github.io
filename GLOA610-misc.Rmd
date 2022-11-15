@@ -371,7 +371,7 @@ wdi %>%
 
 ---
 
-# `r fa("book-skull", fill='orange')` Often understood as <br> 'oil-curse'
+# `r fa("book-skull", fill='orange')` Often understood as 'oil-curse'
 
 --
 
@@ -388,7 +388,7 @@ background-image: url(https://github.com/textvulture/textvulture.github.io/blob/
 background-position: right
 background-size: 35%
 
-# `r fa("book-skull", fill='orange')` Often understood as <br> 'oil-curse'
+# `r fa("book-skull", fill='orange')` Often understood as 'oil-curse'
 
 ## free revenue `r fa("arrow-up", fill='green')` `r fa("arrow-right")` accountability `r fa("arrow-down", fill='red')`
 
@@ -396,11 +396,15 @@ background-size: 35%
 
 ### - Sigman et al. (2022)
 
-  - .Large[oil-curse `r fa("arrow-right-long")` `r fa("sack-xmark", fill='red')`?]
-
 --
 
-  - .Large[or, "disgruntled employees" `r fa("face-angry", fill='green')` ?]
+  - .Large[oil-curse or "disgruntled employees" `r fa("face-angry", fill='green')` ?] <br>
+  
+```{r, out.width="600px"}
+  
+  knitr::include_graphics("https://github.com/textvulture/textvulture.github.io/blob/master/images/Sigman2022_3.png?raw=true")
+  
+```
 
 
 
