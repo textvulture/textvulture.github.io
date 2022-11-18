@@ -1,0 +1,178 @@
+---
+title: "Deglobalization GLOA 610"
+author: "Byunghwan Son <br> George Mason University"
+date: " "
+#########################################
+linkcolor: red
+citecolor: blue
+urlcolor: blueß
+output: 
+  xaringan::moon_reader:
+    seal: false
+    nature:
+      ratio: '16:9'
+      highlightStyle: github
+  #    self-contained: TRUE
+  chakra: css/libs/remark-latest.min.js
+css: ["default", 
+      "css/footer.css", 
+      "css/color.css", 
+      # "css/xaringan-themer.css",
+      default-fonts]
+lib_dir: css/libs
+beforeInit: "css/macros.js"
+# seal: false  
+#bibliography: /Users/bson3/Dropbox/latex/mybib2.bib
+#remotes::install_github('yihui/xaringan', upgrade = TRUE)
+---
+
+```{r setup, include=FALSE}
+# to use FontAwesome
+#htmltools::tagList(rmarkdown::html_dependency_font_awesome())
+library(dplyr)
+library(tidyr)
+library(fs)
+library(fontawesome)
+# library(magick)  
+library(ggplot2)
+knitr::opts_chunk$set(warning = FALSE, message = FALSE, error=F, echo=F)
+options(htmltools.preserve.raw = FALSE)
+```
+
+class: center, middle, inverse
+background-image: url(https://github.com/textvulture/textvulture.github.io/blob/master/images/cloudBackground.jpg?raw=true)
+
+# .HUGE[**.red[de].yellow[globalization?]**]
+
+# .times[**GLOA 610**]
+
+---
+  
+```{r include=F, cache=T}
+
+library(WDI)
+
+var = c('GDPpc' = 'NY.GDP.PCAP.KD',
+        'trade' = 'TX.VAL.MRCH.CD.WT',
+        'tariff' = 'TM.TAX.MRCH.SM.AR.ZS',
+        'tourism' = 'ST.INT.TVLR.CD',
+        'migrantStock' = 'SM.POP.TOTL'
+        )
+
+wdi <- WDI(indicator=var,
+           start=1970,
+           country = 'all',
+           end=2021,
+           extra=TRUE)   %>%
+  filter(region !="Aggregates") %>%
+  drop_na(GDPpc) %>%
+  mutate(developed = 
+           case_when(
+             GDPpc > 10000 ~ "Developed",
+             GDPpc < 10000 ~ "Under-developed"
+           )) 
+```
+
+# Has the volume of .red[trade] been shrinking?
+
+```{r results="asis", fig.width=16, fig.height=7, cache=T}
+
+wdi %>% 
+  ggplot(aes(x=year,
+             y=log(trade),
+             group=developed)) +
+  geom_point(aes(color=developed),
+             alpha=0.25, size=2) +
+  geom_smooth(aes(color=developed), 
+              alpha=0.5) +
+  labs(x = "YEAR",
+       y = "Volume of Trade, log scale") +
+  theme_minimal() +
+  theme(legend.title=element_text(size=0),
+        legend.text=element_text(size=25),
+        axis.text=element_text(size=20),
+        axis.title=element_text(size=20)) +
+  ylim(12, 25)
+
+```
+
+---
+# .bluey[Migrants]?
+
+```{r results="asis", fig.width=16, fig.height=7, cache=T}
+
+wdi %>% 
+  ggplot(aes(x=year,
+             y=log(migrantStock),
+             group=developed)) +
+  geom_point(aes(color=developed),
+             alpha=0.25, size=2) +
+  geom_smooth(aes(color=developed), 
+              alpha=0.5) +
+  labs(x = "YEAR",
+       y = "Migrant Stock, log scale") +
+  theme_minimal() +
+  theme(legend.title=element_text(size=0),
+        legend.text=element_text(size=25),
+        axis.text=element_text(size=20),
+        axis.title=element_text(size=20)) 
+
+```
+
+---
+
+# .orange[Tariff?] .green[Tourism?]
+
+```{r results="asis", fig.width=16, fig.height=7, cache=T}
+
+fig1 <- wdi %>% filter(year>1993) %>%
+  filter(tariff<50) %>%
+  ggplot(aes(x=year,
+             y=tariff,
+             group=developed)) +
+  geom_point(aes(color=developed),
+             alpha=0.25, size=2) +
+  geom_smooth(aes(color=developed), 
+              alpha=0.5) +
+  labs(x = "YEAR",
+       y = "Tariff Rates (outliers dropped)") +
+  theme_minimal() +
+  theme(legend.title=element_text(size=0),
+        legend.text=element_text(size=25),
+        axis.text=element_text(size=20),
+        axis.title=element_text(size=20),
+        legend.position = 'bottom') 
+
+fig2 <- wdi %>% filter(year>1993) %>%
+  ggplot(aes(x=year,
+             y=log(tourism),
+             group=developed)) +
+  geom_point(aes(color=developed),
+             alpha=0.25, size=2) +
+  geom_smooth(aes(color=developed), 
+              alpha=0.5) +
+  labs(x = "YEAR",
+       y = "Tourism (receipts for travel items)") +
+  theme_minimal() +
+  theme(legend.title=element_text(size=0),
+        legend.text=element_text(size=25),
+        axis.text=element_text(size=20),
+        axis.title=element_text(size=20),
+        legend.position='bottom') 
+
+library(gridExtra)
+grid.arrange(fig1, fig2, ncol=2)
+
+```
+
+---
+
+class: inverse, center, middle
+background-image: url(https://github.com/textvulture/textvulture.github.io/blob/master/images/forestBackground3.jpg?raw=true)
+background-size: fill
+
+# .LARGE[**So what's all the fuss about?**]
+
+--
+
+# .times[Or, are we looking at .red[wrong] indicators?]
