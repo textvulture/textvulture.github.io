@@ -176,3 +176,134 @@ background-size: fill
 --
 
 # .times[Or, are we looking at .red[wrong] indicators?]
+
+---
+
+# First, what do we mean by .red[de]globalization?
+
+--
+
+.blockquote[## **.green[Globalization:]**
+.black[.Large[
+A .Yellow[**process**] of increasing and intensifying .violet[**connectivity**] b/w global actors
+]
+]
+]
+<br><br>
+
+--
+
+.blockquote[## ** .red[*De*globalization:]**
+.black[.Large[
+  - Globalization in reverse.
+  - decreasing and/or loosening connectivity
+  - less/weakening global actors
+]
+]
+]
+
+---
+
+
+# First, what do we mean by .red[de]globalization?
+
+
+.blockquote[## **.green[Globalization:]**
+.black[.Large[
+A .Yellow[**process**] of increasing and intensifying .violet[**connectivity**] b/w global actors
+]
+]
+]
+<br><br>
+
+
+.blockquote[## ** .red[*De*globalization:]**
+.black[.Large[
+  - Globalization in reverse.
+  - decreasing and/or loosening connectivity
+  - less/weakening global .red[actors]: .orange[institutions? organizations?]
+]
+]
+]
+
+---
+background-image: url(https://ichef.bbci.co.uk/news/640/cpsprodpb/636C/production/_109625452_eu_far_right_map_010519_map640-nc.png)
+background-size: 35%
+background-position: right
+
+## Is (im)migration the .red[root cause] of deglobalization? 
+
+---
+background-image: url(https://ichef.bbci.co.uk/news/640/cpsprodpb/636C/production/_109625452_eu_far_right_map_010519_map640-nc.png)
+background-size: 35%
+background-position: right
+
+## Is (im)migration the .red[root cause] of deglobalization? <br> .times[.tiny[why anti-globalization so strong a political movement?]]
+
+
+--
+
+- .large[because migrants `r fa("long-arrow-right", fill='red')` right-wing parties: .orange[anti]-EU?]
+
+--
+
+- .large[or is it the other way around?]
+
+--
+
+  - .large[backlash to globalization `r fa("long-arrow-right", fill='red')` anti-migration]
+
+--
+
+- .large[Leblang and Peters (2022): .green[labor market]]
+
+  - .large[the public: pro-migration `r fa("arrow-up")` or constant in the North]
+  
+--
+  - **but,** .large[.red[business] not as supportive anymore]
+
+--
+  - .large['superstar' firms and automation]
+
+--
+  - .large[freed conservative govts to go anti-immigration]
+
+--
+
+- .large[The .red[indirect] effect of globalization] 
+
+  - 'economic anxiety' (job losses; structural changes)?
+  
+---
+class: inverse, center, middle
+background-image: url(https://github.com/textvulture/textvulture.github.io/blob/master/images/wayBackground2.jpg?raw=true)
+background-size: cover
+
+# But maybe it's not just the .yellow[sentiment] or .yellow[right-wing politics]
+
+--
+
+# .huge[Deglobalization **.red[from within]**]
+
+---
+class: inverse
+background-image: url(https://github.com/textvulture/textvulture.github.io/blob/master/images/wayBackground.jpg?raw=true)
+background-size: cover
+
+# .Large[Poast (2022)]
+
+--
+
+# `r fa("sack-xmark", fill='red')` the financial globalization already demaged in 2008
+
+--
+
+# `r fa("link-slash", fill='red')` global supply chain disruptions
+
+--
+
+## - the pandemic
+
+--
+
+## - the trade war and onshoring efforts
