@@ -228,14 +228,14 @@ A .Yellow[**process**] of increasing and intensifying .violet[**connectivity**] 
 
 ---
 background-image: url(https://ichef.bbci.co.uk/news/640/cpsprodpb/636C/production/_109625452_eu_far_right_map_010519_map640-nc.png)
-background-size: 35%
+background-size: 30%
 background-position: right
 
 ## Is (im)migration the .red[root cause] of deglobalization? 
 
 ---
 background-image: url(https://ichef.bbci.co.uk/news/640/cpsprodpb/636C/production/_109625452_eu_far_right_map_010519_map640-nc.png)
-background-size: 35%
+background-size: 30%
 background-position: right
 
 ## Is (im)migration the .red[root cause] of deglobalization? <br> .times[.tiny[why anti-globalization so strong a political movement?]]
@@ -386,7 +386,7 @@ class: inverse, middle, center
 background-image: url(https://thumbs.gfycat.com/HighConsiderateBluewhale.webp)
 background-size: contain
 
-# .Large[So everything .red[rosy] and .Yellow[sunshine]?]
+# .Large[So it's all okay?]
 
 --
 
@@ -394,10 +394,43 @@ background-size: contain
 
 ---
 class: inverse
-background-image: url(https://c8.alamy.com/comp/2GEEYXX/close-shot-integrated-circuit-eprom-chip-on-us-100-franklin-hundred-dollar-bill-for-us-microchip-shortages-semiconductor-price-rises-2GEEYXX.jpg)
+background-image: url(https://github.com/textvulture/textvulture.github.io/blob/master/images/semiconductor.jpg?raw=true)
 background-size: contain
 background-position: right
+background-color: black
 
-# .large[CHIPS+] <br> .small[The CHIPS and Science Act of 2022] <br>
-Creating Helpful Incentives to Produce Semiconductors
+# .large[**CHIPS+**] (.small[*CHIPS and Science Act of 2022*])
+--
 
+.large[.yellow[: Creating Helpful Incentives to Produce Semiconductors]]
+--
+
+- .large[$ 280M pkg: domestic semiconductor .violet[manufacturing]]
+--
+
+- .large[
+.red[geopolitical] and .green[natural] risks
+]
+--
+
+- .large[
+a comeback of .orange[industrial policy]?
+]
+--
+
+- .large[
+ameliorate the ills of globalization? (domestic)
+]
+--
+
+- .large[
+counter .red[Chinese] growth on the tech fields
+]
+
+--
+
+### And then, .large[.Yellow[**Inflation Reduction Act**]]
+
+--
+
+### `r fa("handshake-slash", fill='yellow')` A complete departure from 90s' globalization?
