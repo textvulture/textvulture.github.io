@@ -64,7 +64,7 @@ background-size: contain
 
 --
 
-## mostly about .bluey['how to develop?']
+## mostly about 'how to develop?'
 
 ---
 class: top
@@ -235,7 +235,7 @@ background-image: url(https://www.aces.edu/wp-content/uploads/2020/05/shuttersto
 
 --
 
-# For .bluey[**better**] or .red[**worse**].
+# For .green[**better**] or .red[**worse**].
 
 ---
 
@@ -243,7 +243,7 @@ background-image: url(https://www.aces.edu/wp-content/uploads/2020/05/shuttersto
 class: inverse, middle, center
 background-color: black
 background-image: url(https://cdn.adf.org.au/media/images/crowded-street-yellow.2e16d0ba.fill-1524x683.jpg)
-background-size: cover
+background-size: contain
 
 # .HUGE[**.yellow[How did the] .red[people] .yellow[react?]**]
 
@@ -343,7 +343,7 @@ background-color: black
 
 # First, GDP per capita
 
-```{r, include=FALSE, cache=T}
+```{r, message=FALSE, echo=FALSE, warning=FALSE, results="asis", fig.width=16, fig.height=6, cache=T}
 # install.packages('WDI')
 
 library(tidyverse)
@@ -361,21 +361,16 @@ WDI(indicator=var,
             start=1960,
             country='all',
             end=2021, extra = TRUE) %>% 
-			mutate(economy = 
+			mutate(developed = 
 			case_when( GDPpc > 20000 ~ "developed",
                        GDPpc < 20000 ~ "developing")) -> wdi
-```
 
-
-```{r, message=FALSE, echo=FALSE, warning=FALSE, results="asis", fig.width=16, fig.height=6, cache=T}
 
 wdi %>%
-  filter(!is.na(economy)) %>%
-  ggplot(aes(year, log(GDPpc), color=economy)) +
-  geom_point(size=0.1, alpha=0.1) +
+  ggplot(aes(year, GDPpc, color=developed)) +
   geom_smooth(alpha=0.25) +
   labs(x = "Year",
-       y = "GDP per capita, log-scale") +
+       y = "GDP per capita") +
     theme_minimal() +
   theme(legend.title = element_blank()) +
   scale_color_manual(values=c("red", "blue")) +
@@ -394,14 +389,11 @@ wdi %>%
 ```{r, message=FALSE, echo=FALSE, warning=FALSE, results="asis", fig.width=16, fig.height=6, cache=T}
 
 wdi %>%
-  filter(!is.na(economy)) %>%
-  ggplot(aes(year, Growth, color=economy)) +
+  ggplot(aes(year, Growth, color=oecd)) +
   geom_smooth(alpha=0.25) +
-  geom_point(size=0.1, alpha=0.1) +
   labs(x = "Year",
        y = "GDP Growth Rates") +
   theme_minimal() +
-  ylim(-10, 10) +
   theme(legend.title = element_blank()) +
   scale_color_manual(values=c("red", "blue")) +
   theme(legend.text = element_text(size=20),
@@ -419,10 +411,9 @@ wdi %>%
 
 ```{r, message=FALSE, echo=FALSE, warning=FALSE, results="asis", fig.width=16, fig.height=6, cache=T}
 
-wdi %>%  filter(!is.na(economy)) %>%
-  ggplot(aes(year, Life.Exp, color=economy)) +
+wdi %>%
+  ggplot(aes(year, Life.Exp, color=oecd)) +
   geom_smooth(alpha=0.25) +
-  geom_point(size=0.1, alpha=0.1) +
   labs(x = "Year",
        y = "Life Expectancy at Birth") +
     theme_minimal() +

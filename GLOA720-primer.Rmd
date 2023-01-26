@@ -1,0 +1,58 @@
+---
+title: "GLOA720, Primer"
+author: "Byunghwan Son <br> George Mason University"
+date: " "
+#########################################
+linkcolor: red
+citecolor: blue
+urlcolor: blueß
+output: 
+  xaringan::moon_reader:
+    seal: false
+    nature:
+      ratio: '16:9'
+      highlightStyle: github
+  #    self-contained: TRUE
+  chakra: css/libs/remark-latest.min.js
+css: ["default", 
+      "css/footer.css", 
+      "css/color.css", 
+      #          "xaringan-themer.css",
+      default-fonts]
+lib_dir: css/libs
+beforeInit: "css/macros.js"
+# seal: false  
+#bibliography: /Users/bson3/Dropbox/latex/mybib2.bib
+#remotes::install_github('yihui/xaringan', upgrade = TRUE)
+---
+
+```{r setup, include=FALSE}
+# to use FontAwesome
+htmltools::tagList(rmarkdown::html_dependency_font_awesome())
+library(fs)
+# library(magick)  
+library(fontawesome)
+
+```
+
+class: inverse, top, center
+background-color: black
+background-size: cover
+background-image: url(https://textvulture.github.io/images/halfBackground.jpg)
+
+
+# .huge[.large[**Social Science Methods**] <br> .Blue[**A Primer (GLOA 720)]**]
+
+---
+
+class: inverse, middle, center
+background-image: url(https://github.com/textvulture/textvulture.github.io/blob/master/images/forestBackground2.jpg?raw=true)
+
+# .Huge[.yellow[**The fundamentals are important.**]]
+
+---
+class: inverse
+background-image: url(https://media4.giphy.com/media/JsTJO6J9BSsEvlxnIg/200w.gif?cid=6c09b952unpldt5y3xk5p2x8be78r9y441yt6zxggq359z9s&rid=200w.gif&ct=g)
+background-size: contain
+
+# .Huge[But,]
