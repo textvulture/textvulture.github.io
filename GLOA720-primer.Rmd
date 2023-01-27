@@ -48,7 +48,7 @@ background-image: url(https://textvulture.github.io/images/halfBackground.jpg)
 class: inverse, middle, center
 background-image: url(https://github.com/textvulture/textvulture.github.io/blob/master/images/forestBackground2.jpg?raw=true)
 
-# .Huge[.yellow[**The fundamentals are important.**]]
+# .Huge[.ivory[**The fundamentals are important.**]]
 
 ---
 class: inverse
@@ -59,4 +59,26 @@ background-size: contain
 
 ---
 
+class: inverse
+background-image: url(https://github.com/textvulture/textvulture.github.io/blob/master/images/sandwatch.jpg?raw=true)
+background-size: contain
+background-position: right
+background-color: black
 
+# Let's make the .ivory[**best**] out of it.
+
+--
+
+# We talk about:
+
+--
+
+### - what is science and how do we do it `r fa("flask", fill='#12F0DA')`
+
+--
+
+### - what are variable, argument, hypothesis, test, <br> and research question? `r fa('clipboard-question', fill='orange')`
+
+--
+
+### - what do we mean by the holy two-by-two table? `r fa("table-cells-large", fill='purple')`

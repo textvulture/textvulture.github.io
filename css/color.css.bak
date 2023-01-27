@@ -40,7 +40,6 @@
 .violet { color: #948DF0; }
 .white { color: #FCFEFE; }
 .Yellow { color: #ffaf00; }
-.ivory { color: #FDFED9; }
 
 .bold { font-weight: bold; }
 .bolder { font-weight: bolder; }
