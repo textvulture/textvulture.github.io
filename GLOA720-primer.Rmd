@@ -82,3 +82,59 @@ background-color: black
 --
 
 ### - what do we mean by the holy two-by-two table? `r fa("table-cells-large", fill='purple')`
+
+---
+
+class: center, bottom
+
+![](https://textvulture.github.io/images/Steinberg_1.JPG)
+
+---
+
+class: center, bottom
+
+![](https://textvulture.github.io/images/Steinberg_2.JPG)
+
+---
+
+class: center, bottom
+
+![](https://textvulture.github.io/images/Steinberg_3.JPG)
+
+---
+
+class: center, bottom
+
+![](https://textvulture.github.io/images/Steinberg_4.JPG)
+
+---
+
+class: center, bottom
+
+![](https://textvulture.github.io/images/Steinberg_5.JPG)
+
+---
+
+class: center, bottom
+
+![](https://textvulture.github.io/images/Steinberg_6.JPG)
+
+---
+
+class: center, bottom
+
+![](https://textvulture.github.io/images/Steinberg_7.JPG)
+
+---
+
+class: center, bottom
+
+![](https://textvulture.github.io/images/Steinberg_8.JPG)
+
+
+
+
+
+
+
+
