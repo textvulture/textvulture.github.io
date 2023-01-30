@@ -29,6 +29,8 @@ beforeInit: "css/macros.js"
 ```{r setup, include=FALSE}
 # to use FontAwesome
 htmltools::tagList(rmarkdown::html_dependency_font_awesome())
+knitr::opts_chunk$set(warning = FALSE, message = FALSE, error=F, echo=F)
+options(htmltools.preserve.raw = FALSE)
 library(fs)
 # library(magick)  
 library(fontawesome)
@@ -106,6 +108,31 @@ class: center, bottom
 class: center, bottom
 
 ![](https://textvulture.github.io/images/Steinberg_4.JPG)
+
+---
+
+# So the **holy** two-by-two table is:
+
+```{r}
+
+library(kableExtra)
+text <- data.frame( 
+Government = c("Support", "Not Support"),
+Yes = c("A", "B"),
+No = c("C", "D")
+)
+
+kbl(text, booktabs = T,
+    align=rep('c', 3)) %>%
+  kable_styling(font_size = 45) %>%
+  column_spec(1, bold = T, width = '10em', color = 'green') %>%
+  column_spec(2, width = "10em") %>%
+  column_spec(3, width = "10em") %>%
+  add_header_above(c(" " = 1, "Currency Crisis" = 2)) 
+
+```
+
+
 
 ---
 
