@@ -140,7 +140,7 @@ knitr::include_graphics("https://2.bp.blogspot.com/-MjVaq_H_dBE/VDFwHWtem5I/AAAA
 
   - .large[clear, parsimonious, relevant, and generalizable-within-boundary *proposition*]
   
-  - .large[about the relationship between two or more variables]
+  - .large[about the relationship between two or more variables; the '.red[why]' question]
   
   - .large[Model: the world simplified for the argument]
 
@@ -158,26 +158,30 @@ knitr::include_graphics("https://2.bp.blogspot.com/-MjVaq_H_dBE/VDFwHWtem5I/AAAA
 
 --
 
-.left-column[
+.pull-left[
 
-![]("https://textvulture.github.io/images/basic720.jpg")
+```{r}
+knitr::include_graphics("https://raw.githubusercontent.com/textvulture/textvulture.github.io/master/images/basic720.jpg")
+```
+
 ]
 
 --
 
-.right-column[
+.pull-right[
 
 ```{r}
+
 library(kableExtra)
 text <- data.frame( 
 Independent.Variable = c("High", "Low"),
-No = c("A", "B"),
-Yes = c("C", "D")
+No = c("A", "C"),
+Yes = c("B", "D")
 )
 
-kbl(text, booktabs = T,
+kbl(text, booktabs = T, 
     align=rep('c', 3)) %>%
-  kable_styling(font_size = 11)  %>%
+  kable_styling(font_size = 20) %>%
   add_header_above(c(" " = 1, "Dependent.Variable" = 2)) 
 ```
 
@@ -222,19 +226,15 @@ background-size: contain
 
 class: inverse, middle
 background-color: black
-background-image: url(https://textvulture.github.io/images/Steinberg_3_1.JPG)
+background-image: url(https://textvulture.github.io/images/Steinberg_3_1.jpeg)
 background-size: contain
 
 ---
 
-class: inverse
-background-color: black
 background-image: url(https://textvulture.github.io/images/Steinberg_4.JPG)
 background-size: contain
-background-position: right
 
-# Theory + <br> Argument
-
+# .right[.red[and/or argument]]
 
 ---
 
@@ -254,9 +254,9 @@ background-position: right
 
 library(kableExtra)
 text <- data.frame( 
-Government = c("High", "Low"),
-No = c("A", "B"),
-Yes = c("C", "D")
+Govt.Support = c("High", "Low"),
+No = c("A", "C"),
+Yes = c("B", "D")
 )
 
 kbl(text, booktabs = T,
