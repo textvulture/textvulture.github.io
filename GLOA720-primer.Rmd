@@ -43,7 +43,7 @@ background-size: cover
 background-image: url(https://textvulture.github.io/images/halfBackground.jpg)
 
 
-# .huge[.large[**Social Science Methods**] <br> .Blue[**A Primer (GLOA 720)]**]
+# .huge[.Yellow[.large[**Social Science Methods**]] <br> .Blue[**A Primer (GLOA 720)]**]
 
 ---
 
@@ -84,6 +84,74 @@ background-color: black
 --
 
 ### - what do we mean by the holy two-by-two table? `r fa("table-cells-large", fill='purple')`
+
+---
+
+background-image: url(https://raw.githubusercontent.com/textvulture/textvulture.github.io/master/images/halfBackground5.jpg)
+background-size: contain
+background-position: right
+background-color: #f0f4f5
+
+# What *Science* `r fa("microscope", fill='green')`?
+
+--
+
+### - Knowledge .green[accumulation]: we all make contributions to human knowledge
+
+--
+
+```{r}
+
+knitr::include_graphics("https://2.bp.blogspot.com/-MjVaq_H_dBE/VDFwHWtem5I/AAAAAAAABBE/SB10YTB1amg/s1600/Extending%2BFrontier%2Bof%2BKnowledge.jpg")
+
+```
+
+--
+
+### - the need for standardized .green[methodology] (`r fa("not-equal", fill='red')` methods)
+
+--
+
+### - continues to .green[evolve]
+
+---
+
+# The Process of (Social) Science .tiny[(working example = 'democratic peace')]
+
+1. .Large[The Nature (the 'reality') `r fa("pagelines", fill='green')`]
+
+--
+
+2. .Large[Discovering .Yellow[Research Questions] (a simple question) `r fa("person-circle-question", fill='Purple')`] 
+
+--
+
+  - .large["There is no such thing as a logical methods of having new ideas ... [it is really] an '.red[irrational element]' or a '.red[creative intuition]'"]
+
+--
+
+  - .large[.green[tradition]; .orange[personal interests]; .bluey[boundary crossing]; .Blue[thought experiments] - but be critical, wild, and test-driving]
+
+--
+
+3. .Large[Constructing .green[Theories] (or Argument) `r fa("microphone-lines", fill='purple')`]
+
+--
+
+  - .large[clear, parsimonious, relevant, and generalizable-within-boundary *proposition*]
+  
+  - .large[about the relationship between two or more variables]
+  
+  - .large[Model: the world simplified for the argument]
+
+--
+
+4. .Large[Designing Empirics `r fa("chart-bar", fill='blue')`]
+
+---
+
+# Whichever method you use, it comes down to a simple table
+
 
 ---
 
