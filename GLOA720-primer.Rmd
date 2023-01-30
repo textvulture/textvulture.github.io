@@ -89,37 +89,76 @@ background-color: black
 
 class: center, bottom
 
+<div class="full-width-tinted"><br>
+  <h1> .large[Let's talk about an .Blue[example].] </h1> 
+</div><br><br> 
+
+
 ![](https://textvulture.github.io/images/Steinberg_1.JPG)
 
 ---
 
-class: center, bottom
+class: inverse
+background-color: black
+background-position: right
+background-image: url(https://textvulture.github.io/images/Steinberg_2.JPG)
+background-size: contain
 
-![](https://textvulture.github.io/images/Steinberg_2.JPG)
+# Introduction
+
+--
+
+## - Motivation?
+
+--
+
+## - What is the .red['problem']?
+---
+
+class: inverse, middle
+background-color: black
+background-image: url(https://textvulture.github.io/images/Steinberg_3.JPG)
+background-size: contain
 
 ---
 
-class: center, bottom
-
-![](https://textvulture.github.io/images/Steinberg_3.JPG)
-
----
-
-class: center, bottom
-
-![](https://textvulture.github.io/images/Steinberg_4.JPG)
+class: inverse, middle
+background-color: black
+background-image: url(https://textvulture.github.io/images/Steinberg_3_1.JPG)
+background-size: contain
 
 ---
 
-# So the **holy** two-by-two table is:
+class: inverse
+background-color: black
+background-image: url(https://textvulture.github.io/images/Steinberg_4.JPG)
+background-size: contain
+background-position: right
+
+# Theory + <br> Argument
+
+
+---
+
+class: top, center
+background-image: url(https://textvulture.github.io/images/Steinberg_5.JPG)
+background-size: contain
+background-position: right
+
+# .Huge[.orange[**The Hypothesis**]]
+
+---
+
+
+# .Large[So the .Blue[**holy**] two-by-two table is:]
 
 ```{r}
 
 library(kableExtra)
 text <- data.frame( 
-Government = c("Support", "Not Support"),
-Yes = c("A", "B"),
-No = c("C", "D")
+Government = c("High", "Low"),
+No = c("A", "B"),
+Yes = c("C", "D")
 )
 
 kbl(text, booktabs = T,
@@ -132,14 +171,6 @@ kbl(text, booktabs = T,
 
 ```
 
-
-
----
-
-class: center, bottom
-
-![](https://textvulture.github.io/images/Steinberg_5.JPG)
-
 ---
 
 class: center, bottom
@@ -148,15 +179,17 @@ class: center, bottom
 
 ---
 
-class: center, bottom
+class: center, middle
+background-image: url(https://textvulture.github.io/images/Steinberg_7.JPG)
+background-size: contain
 
-![](https://textvulture.github.io/images/Steinberg_7.JPG)
+# .Huge[.Yellow[Report the **Result**]]
 
 ---
 
-class: center, bottom
+background-image: url(https://textvulture.github.io/images/Steinberg_8.JPG)
+background-size: contain
 
-![](https://textvulture.github.io/images/Steinberg_8.JPG)
 
 
 
