@@ -150,8 +150,38 @@ knitr::include_graphics("https://2.bp.blogspot.com/-MjVaq_H_dBE/VDFwHWtem5I/AAAA
 
 ---
 
-# Whichever method you use, it comes down to a simple table
+## Whichever method you use, it comes down to a .red[holy] table
 
+--
+
+### variables: factors of interest whose values .Yellow[vary]
+
+--
+
+.left-column[
+
+![]("https://textvulture.github.io/images/basic720.jpg")
+]
+
+--
+
+.right-column[
+
+```{r}
+library(kableExtra)
+text <- data.frame( 
+Independent.Variable = c("High", "Low"),
+No = c("A", "B"),
+Yes = c("C", "D")
+)
+
+kbl(text, booktabs = T,
+    align=rep('c', 3)) %>%
+  kable_styling(font_size = 11)  %>%
+  add_header_above(c(" " = 1, "Dependent.Variable" = 2)) 
+```
+
+]
 
 ---
 
