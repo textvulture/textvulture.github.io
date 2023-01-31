@@ -31,7 +31,7 @@ beforeInit: "css/macros.js"
 # to use FontAwesome
 htmltools::tagList(rmarkdown::html_dependency_font_awesome())
 library(fs)
-# library(magick)  
+options(htmltools.preserve.raw = FALSE)
 library(fontawesome)
 
 ```
@@ -99,7 +99,7 @@ background-size: contain
 # Though often determined by global .green[circumstances].
 ---
 
-## .orange[Dominant] narratives in global political economy
+## .orange[Dominant] narratives in the global political economy
 
 .left-column[
 ### Modernization Theory
@@ -126,7 +126,7 @@ background-size: contain
 
 ### - What is economic growth?
 
- $$ Output = f(L^\alpha \times K^{1-\alpha})  $$
+ $$ Output = L^\alpha \times K^{1-\alpha}  $$
 
 ### - For .red[developing] economies: 
 
@@ -153,7 +153,7 @@ background-size: contain
 
 .right-column[
 .![](https://media.giphy.com/media/l0ErJaDQ2Q3onCenS/giphy.gif?cid=ecf05e47ep5910nhirzakpc9xyxnosr2hg52zqytld0ibo7e&rid=giphy.gif&ct=g)
-### - the (promised) growth did happen [the 60s].
+### - growth happened [60s]; but .purple[not] for all; many crisses [70s]
 ### - maybe the government is the problem -> austerity!
 ### - cf., *the '.green[dependency]' theory* 
 ]
@@ -177,11 +177,9 @@ background-size: contain
 .right-column[
 ![](https://media.giphy.com/media/HAvn2OeKPe61G/giphy.gif?cid=790b76119545a7aa0e2086d00d8d3a22c6ed01b806aa4094&rid=giphy.gif&ct=g)
 
-### - East Asian economies in the 70s-90s (*'Four Asian Tigers'*)
+### - East Asian economies in the 70s-90s ('Four Asian Tigers' `r fa("face-grimace", fill='green')`)
 
-### - .blue[government] is actually key to success
-
-### - if it is .green[autonomous] as well as effective, that is.
+### - .blue[government] is actually key to success? If it is .green[autonomous] 
 
 ### - cf., 'rentier state'; 'state capture'
 ]
@@ -227,11 +225,11 @@ background-size: contain
 
 ---
 
-class: inverse, middle, center
+class: inverse, middle, right
 background-color: black
 background-image: url(https://www.aces.edu/wp-content/uploads/2020/05/shutterstock_174839018-scaled-e1588865190888.jpg)
 
-# .Large[**The overall pattern is that <br> the global economy has <br> .red[grown] and been .yellow[liberalized] over time.**] 
+# .Large[**The overall pattern is that <br> the global economy has <br> .red[grown] and been <br> .yellow[liberalized] over time.**] 
 
 --
 
@@ -245,7 +243,7 @@ background-color: black
 background-image: url(https://cdn.adf.org.au/media/images/crowded-street-yellow.2e16d0ba.fill-1524x683.jpg)
 background-size: cover
 
-# .HUGE[**.yellow[How did the] .red[people] .yellow[react?]**]
+# .Huge[**.yellow[How did the] .red[people] .yellow[react?]**]
 
 ---
 
@@ -324,7 +322,7 @@ background-color: black
 
 --
 
-### Otherwise, painful moments `r fa("face-tired", fill='red')` may ensue. For example:
+### Otherwise, embarrassment `r fa("face-tired", fill='red')` may ensue. For example:
 
 --
 
@@ -341,7 +339,9 @@ background-color: black
 ---
 
 
-# First, GDP per capita
+# First, .green[**GDP per capita**]
+
+--
 
 ```{r, include=FALSE, cache=T}
 # install.packages('WDI')
@@ -367,7 +367,7 @@ WDI(indicator=var,
 ```
 
 
-```{r, message=FALSE, echo=FALSE, warning=FALSE, results="asis", fig.width=16, fig.height=6, cache=T}
+```{r, message=FALSE, echo=FALSE, warning=FALSE, results="asis", fig.width=16, fig.height=7.5, cache=T}
 
 wdi %>%
   filter(!is.na(economy)) %>%
@@ -389,9 +389,11 @@ wdi %>%
 ---
 
 
-# But what about the .red[speed] of development?
+# But what about the .red[speed] of development? .green[**GDP growth rates**]
 
-```{r, message=FALSE, echo=FALSE, warning=FALSE, results="asis", fig.width=16, fig.height=6, cache=T}
+--
+
+```{r, message=FALSE, echo=FALSE, warning=FALSE, results="asis", fig.width=16, fig.height=7.5, cache=T}
 
 wdi %>%
   filter(!is.na(economy)) %>%
@@ -415,9 +417,12 @@ wdi %>%
 
 
 
-# Third, Life Expectancy
+# Third, .green[**Life Expectancy at Birth**]
 
-```{r, message=FALSE, echo=FALSE, warning=FALSE, results="asis", fig.width=16, fig.height=6, cache=T}
+--
+
+
+```{r, message=FALSE, echo=FALSE, warning=FALSE, results="asis", fig.width=16, fig.height=7.5, cache=T}
 
 wdi %>%  filter(!is.na(economy)) %>%
   ggplot(aes(year, Life.Exp, color=economy)) +
@@ -439,16 +444,19 @@ wdi %>%  filter(!is.na(economy)) %>%
 
 
 
-# Forth, poverty ($1.9 a day in PPP terms)
+# Forth, .green[**Poverty Rates**] (people with $1.9 a day in *PPP* terms)
 
-```{r, message=FALSE, echo=FALSE, warning=FALSE, results="asis", fig.width=16, fig.height=6, cache=T}
+--
+
+```{r, message=FALSE, echo=FALSE, warning=FALSE, results="asis", fig.width=16, fig.height=7.5, cache=T}
 
 ggplot(data=wdi %>%
        filter(year>1989) %>%
          filter(region != "NA"), 
-       aes(x=year, y=Poverty, color=region),
-       alpha=0.25) +
-  geom_smooth() +
+       aes(x=year, y=Poverty, color=region)
+       ) +
+#  geom_smooth(aes(alpha=0.1), size=3, se=F) +
+  stat_smooth(geom='line', size=4, alpha=0.65, se=FALSE) +
   theme_minimal() +
   labs(x = "Year",
        y = "Population % Under Poverty") +
