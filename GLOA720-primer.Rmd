@@ -61,7 +61,7 @@ background-size: contain
 
 ---
 
-class: inverse
+class: inverse, middle
 background-image: url(https://github.com/textvulture/textvulture.github.io/blob/master/images/sandwatch.jpg?raw=true)
 background-size: contain
 background-position: right
@@ -79,7 +79,7 @@ background-color: black
 
 --
 
-### - what are variable, argument, hypothesis, test, <br> and research question? `r fa('clipboard-question', fill='orange')`
+### - what does a research paper look like? `r fa('clipboard-question', fill='orange')`
 
 --
 
@@ -96,7 +96,7 @@ background-color: #f0f4f5
 
 --
 
-### - Knowledge .green[accumulation]: we all make contributions to human knowledge
+### - Knowledge .green[accumulation]: we all make contributions to human knowledge.
 
 --
 
@@ -108,15 +108,15 @@ knitr::include_graphics("https://2.bp.blogspot.com/-MjVaq_H_dBE/VDFwHWtem5I/AAAA
 
 --
 
-### - the need for standardized .green[methodology] (`r fa("not-equal", fill='red')` methods)
+### - the need for standardized .green[methodology] (`r fa("not-equal", fill='red')` methods).
 
 --
 
-### - continues to .green[evolve]
+### - the process is .green[inference] `r fa("code-branch", fill='green')`.
 
 ---
 
-# The Process of (Social) Science .tiny[(working example = 'democratic peace')]
+# The Process of (Social) Science .tiny[(working example = 'democratic peace' `r fa("peace", fill='red')`)]
 
 1. .Large[The Nature (the 'reality') `r fa("pagelines", fill='green')`]
 
@@ -146,7 +146,7 @@ knitr::include_graphics("https://2.bp.blogspot.com/-MjVaq_H_dBE/VDFwHWtem5I/AAAA
 
 --
 
-4. .Large[Designing Empirics `r fa("chart-bar", fill='blue')`]
+4. .Large[Designing Empirics `r fa("chart-bar", fill='blue')`: to be talked about later]
 
 ---
 
@@ -187,6 +187,26 @@ kbl(text, booktabs = T,
 
 ]
 
+---
+.content-box-blue[
+## 1. Introduction (+ Literature Review)
+]
+
+.content-box-yellow[
+## 2. (Literature Review +) Argument/Hypothesis
+]
+
+.content-box-army[
+## 3. Research Design
+]
+
+.content-box-purple[
+## 4. Empirical Analysis
+]
+
+.content-box-red[
+## 5. Conclusion
+]
 ---
 
 class: center, bottom
@@ -281,15 +301,34 @@ class: center, middle
 background-image: url(https://textvulture.github.io/images/Steinberg_7.JPG)
 background-size: contain
 
-# .Huge[.Yellow[Report the **Result**]]
+# .Huge[.Yellow[Report the **Result**] & .red[check **robustness**]]
 
 ---
 
 background-image: url(https://textvulture.github.io/images/Steinberg_8.JPG)
 background-size: contain
 
+---
 
+class: inverse
+background-color: black
+background-image: url(https://media.tenor.com/lR41lyFzdD0AAAAM/nothing-new-arun-maini.gif)
+background-size: contain
+background-position: right
 
+# This is a quick recap <br> (of 605).
+
+--
+
+# Nothing here is new or <br> surprising.
+
+--
+
+# But these are <br>fundamentals.
+
+--
+
+# We should be on <br> the same page now.
 
 
 
