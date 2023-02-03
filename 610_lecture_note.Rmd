@@ -92,9 +92,20 @@ knitr::include_graphics("https://www.historicgames.com/gamemakers/papermill.jpg"
 
 Modernization theory itself did not really concern too much about the role of the government. But if we think about the period immediately after the end of the Second World War, the implication here is simple: strong government activism. And the goal is to ditch the traditional social structure or, perhaps, anything deemed 'old' and push forward with the policies that could maximize production factors such as education, public health, trade, and investment. And it had to happen fast particularly for the newly independent countries in the developing world. Who else but the government could take this job?
 
-In many places, strong government activism was emphasized. Old customs and traditions were thrown away in the name of modernization and reform. The post-war economic boom that lasted until the mid-1960s seemed to vindicate this approach.
+In many places, strong government activism was emphasized. Old customs and traditions were thrown away in the name of modernization and reform. The post-war economic boom that lasted until the mid-1960s seemed to vindicate this approach. Although not everybody enjoyed a great deal of success, the mood was optimistic.
 
-Then came the late 1960s and early 70s where numerous economic problems broke loose in the developing world (See @UN2017 for details).
+Then came the late 1960s and early 70s where numerous economic problems broke loose in the developing world (See @UN2017 for details). Starting in the late 1960s, a slew of problems started showing up in the developing world. Debt crises were suddenly not too uncommon. But it was 1972 when the historically unprecedented level of economic turmoil really broke out. It started with the oil crisis and quickly put a large number of developing countries in a very vulnerable position as they were highly indebted to foreign financial institutions. The end of the gold standard in this period only exacerbated the already bad situation. We can talk about this in much more detail later in the semester.
+
+When serious problems emerged, a diagnosis ensued. Naturally, it was a critique of what was dominant in the previous era---strong government activism. After all the dust of post-war recovery was settled and the initial enthusiasm subsided, people found out that the national governments around the world had a lot of problems. Nepotism and corruption were common. Unstable political environments including violent political events such as coups often got in the way of economic development. So the 'large' government was identified as the primary culprit of the global economic woes.
+
+The remedy in this period---the 1970s and perhaps early 1980s---suggest to the problem then was naturally curtailing the 'overgrown' roles of the government. With particular attention to addressing corruption, inefficiency, and rent-seeking, the primary policy objective was to cut government spending. Privatization and deregulation followed later. The world, particularly the developing world where the problems were so severe that international economic organizations and western governments had to step in for 'rescue,' was effectively austerity. Government spending was slashed out and many aspects of developing economies were 'liberalized' from government control. The policy vehicle through which these policies were 'enforced' onto the otherwise reluctant developing countries was the structural adjustment programs (SAPs)---the conditions attached to the rescue packages offered to developing countries in deep trouble. And this was also when the SAPs earned the bad name.
+
+But not everybody bought into the idea of limiting government activism as a good solution for the developing world's problems.
+
+
+
+
+
 
 # References {-}
 
