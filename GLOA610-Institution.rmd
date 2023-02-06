@@ -1,5 +1,5 @@
 ---
-title: "Institutions and Development GLOA 610"
+title: "Institutions, GLOA 610"
 author: "Byunghwan Son <br> George Mason University"
 date: " "
 #########################################
@@ -27,15 +27,14 @@ beforeInit: "css/macros.js"
 
 ```{r setup, include=FALSE}
 # to use FontAwesome
-htmltools::tagList(rmarkdown::html_dependency_font_awesome())
+# htmltools::tagList(rmarkdown::html_dependency_font_awesome())
 library(fs)
 library(fontawesome)
-# devtools::install_github("hadley/emo")
-# devtools::install_github("JohnCoene/flagr")
 library(flagr)
-# library(emo)
-# library(magick)  
-
+library(dplyr)
+library(ggplot2)
+knitr::opts_chunk$set(warning = FALSE, message = FALSE, error=F, echo=F)
+options(htmltools.preserve.raw = FALSE) # prevents fa breakdown
 ```
 
 class: inverse, left
@@ -44,8 +43,8 @@ background-position: right
 background-size: cover
 background-color: black
 
-# .huge[**Institutions & <br> Development**]
-# .huge[.texttt[GLOA 610]]
+# .yellow[.Huge[**Institutions & <br> Development**]]
+# .huge[.times[GLOA 610]]
 
 ---
 
@@ -57,7 +56,7 @@ background-size: cover
 
 --
 
-# what .red[scares] you the most?
+# what .red[scares] you the most `r fa("face-grimace")`?
 
 ---
 class: inverse
@@ -103,11 +102,11 @@ class: inverse
 background-image: url(https://media1.giphy.com/media/wR4bJk4jF5Tl6/200.gif)
 background-size: cover
 
-# So this week, we need to go back-and-forth over the history.
+# .Large[.yellow[So this week, we need to go back-and-forth over the .red[history.]]]
 
 --
 
-# The origins of institutional strength often go .yellow[way back].
+# .Yellow[The origins of institutional strength often go] .yellow[way back].
 
 ---
 
@@ -115,7 +114,7 @@ class: inverse
 background-image: url(https://media.istockphoto.com/photos/chalkboard-back-to-school-theme-picture-id482968188?b=1&k=20&m=482968188&s=170667a&w=0&h=ByKSDUnnROrFuIg3wYAP2EE7e8pLVdi7_99TRSzIdxU=)
 background-size: cover
 
-# In particular, we will be talking about:
+# .Large[In particular, we will be talking about:]
 
 --
 
@@ -131,7 +130,7 @@ background-size: cover
 
 --
 
-## - an application: which institution is better?
+## - an application: which institution is .red[better]?
 
 --
 
@@ -139,28 +138,78 @@ background-size: cover
 
 ---
 
-class: inverse
-background-image: url(https://images.unsplash.com/photo-1578662996442-48f60103fc96?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1000&q=80)
-background-size: cover
+background-image: url(https://phoneky.co.uk/thumbs/screensavers/down/places/beacon_G0ms1N0l.gif)
+background-size: contain
+background-position: right
 
-# `r fa("landmark")` &nbsp; Institutions matter a lot for development because it addresses one of the biggest fears in business: .red[uncertainty]
+# `r fa("landmark")` &nbsp; Institutions `r fa("arrow-right")` development 
+
+## Addresses one of the biggest fears 
+
+## : .red[uncertainty]
 
 --
 
-# `r fa("landmark")` &nbsp; When institution = contract enforcement, it shows a dark side of the business (e.g., vulture capitalism)
+## - clarifies boundaries
+
+## - public information
+
+## - articulates consequences
 
 --
 
-# `r fa("landmark")` &nbsp; But it really is about corruption, whose relationship with development is more than 'well-established.'
+## - increases credibility
 
 ---
 
-# Some data for example: good institutions and development
+background-image: url(https://miro.medium.com/max/800/0*AXgnCR1u_1sKpeLc.jpg)
+background-size: contain
+background-position: right
 
-```{r, echo=FALSE, warning=FALSE, message=FALSE, fig.width=18, cache=TRUE}
+
+# `r fa("landmark")` Sometimes a bad name
+
+## institutional '.red[quality]' 
+
+--
+
+## when institution = enforcement
+
+### e.g., vulture capitalism
+
+---
+background-image: url(https://media.tenor.com/Akhn78VlM8kAAAAM/el-lleve-shake-hands.gif)
+background-position: right
+background-size: contain
+
+
+# .large[`r fa("landmark")` Most common measure `r fa("magnifying-glass", fill='purple')` ]
+
+--
+
+## - **.green[judicial independence]**; **.orange[tax collection]**
+
+--
+
+## - discretion-reduction
+
+## - power-constraining
+
+--
+
+ - .Large[.times[*will my property be just taken away?*]]
+
+--
+
+# - .red[corruption-control]
+
+---
+
+# Some data for example: .red[institutions] and .green[development]
+
+```{r, cache=TRUE}
 
 library(vdemdata) # devtools::install_github("vdeminstitute/vdemdata")
-library(tidyverse)
 
 df <- vdem %>%
     select(year, 
@@ -168,17 +217,18 @@ df <- vdem %>%
      v2x_polyarchy,
      e_wbgi_gee) 
 
-# %>%  gather(key="variable", value="value", -year)
+```
 
+```{r, fig.width=15, fig.height=7, cache=TRUE, fig.align='center'}
 ggplot(df, aes(x = e_wbgi_gee, y=e_migdppcln)) +
   geom_smooth(size=2) +
   geom_point(size=4, alpha=1/10, color="red") +
   labs(x = "Government Effectiveness (WB)", y="log(GDP per capita), Maddison") +
   theme_minimal() +
-  theme(axis.text=element_text(size=30),
-        axis.title=element_text(size=35),
+  theme(axis.text=element_text(size=20),
+        axis.title=element_text(size=25),
         legend.position = "bottom",
-        legend.text=element_text(size=35),
+        legend.text=element_text(size=25),
         legend.title = element_blank()) 
  
 
@@ -190,46 +240,50 @@ ggplot(df, aes(x = e_wbgi_gee, y=e_migdppcln)) +
 
 class: inverse
 background-color: black
+background-image: url("https://www.nps.gov/articles/images/Middle-Passage-Map-Final-reduced-size.jpg")
+background-size: contain
+background-position: right
 
-# Why were .yellow[some] European countries richer than .red[others]?
-
-.right-column[
-```{r echo=F, out.width="650px"}
-knitr::include_graphics("https://www.nps.gov/articles/images/Middle-Passage-Map-Final-reduced-size.jpg")
-```
-]
+# .Large[Why were .yellow[some] <br> European countries <br> richer than others?]
 
 --
 
-.left-column[
+
 # AJR (2005)
-]
+
+
+--
+
+# structure vs. institution
 
 
 
 ---
+
+background-image: url(http://textvulture.github.io/images/sokoloff.png)
+background-size: 60%
+background-position: right
+
+# .large[How come .red[Canada] is much richer than .blue[Belize] ]
+
+--
+
+### - AJR (2001)
+
+### - Sokoloff and Engerman (2000)
+
+### - what kind of .Yellow[institutions]?
+
+---
+
 
 class: inverse
-background-color: black
-
-<div class="full-width-tinted"><br>
-  <h1> .large[How come .red[Canada] is much richer than .blue[Belize] ] </h1> 
-</div><br><br> 
-
---
-
-### - AJR (2001); Sokoloff and Engerman (2000)
-
-```{r echo=F, out.width="700px"}
-knitr::include_graphics("http://textvulture.github.io/images/sokoloff.png")
-```
----
-
-
-class: inverse, center, middle
 background-color:  #034f84
+background-image: url(https://static.dw.com/image/18277176_1006.jpg)
+background-position: bottom
+background-size: contain
 
-# .huge[Why is Africa constantly mired in conflict (and thus little development?)]
+# Why is Africa constantly mired in conflict (and thus little development?)
 
 --
 
