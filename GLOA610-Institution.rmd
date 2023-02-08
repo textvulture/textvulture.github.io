@@ -164,19 +164,19 @@ background-position: right
 
 ## Addresses one of the biggest fears 
 
-## : .red[uncertainty]
+## : .red[uncertainty] on .green[**property rights**]
 
 --
 
-## - clarifies boundaries
+### - clarifies boundaries
 
-## - public info (common understanding)
+### - public info (common understanding)
 
-## - articulates consequences (deterrence)
+### - articulates consequences (deterrence)
 
 --
 
-## - increases credibility `r fa("arrow-right")` predictability
+## - credibility `r fa("arrow-right")` predictability
 
 ---
 
@@ -185,13 +185,13 @@ background-size: contain
 background-position: right
 
 
-# `r fa("landmark")` Sometimes a bad name
-
-## institutional '.red[quality]' 
+# `r fa("landmark")` Sometimes, got a .red[bad] name
 
 --
+ 
+## - when institution = enforcement
 
-## when institution = enforcement
+## - .red[unfettered] protection of property rights
 
 ### e.g., vulture capitalism
 
