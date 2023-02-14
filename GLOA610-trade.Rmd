@@ -481,11 +481,11 @@ background-color: #40033F
 ## Carter and Poast (2020)
 
 ---
+class: inverse
+background-image: url(https://github.com/textvulture/textvulture.github.io/blob/master/images/waveBackground.jpg?raw=true)
+background-size: 120%
 
-class: middle, center, inverse
-background-color: #0080ff
-
-# .Large[But, trade still ruins workers lives, right?]
+# .Large[But, trade still ruins workers lives, right?] <br> Like, .red[R]ace to .red[T]he .red[B]ottom `r fa("skull", fill='pink')`
 
 --
 
