@@ -380,6 +380,10 @@ knitr::include_graphics('https://images-na.ssl-images-amazon.com/images/I/819g1G
 ---
 class: inverse, left, middle 
 background-color: #130654
+background-image: url(https://github.com/textvulture/textvulture.github.io/blob/master/images/darkGreenbackground.jpg?raw=true)
+background-size: 115%
+
+# .orange[Traditional] Debates on Trade:
 
 # `r fa("volume-high")` &nbsp; .red[Protectionism] has long been the subject of debate.
 
@@ -439,10 +443,12 @@ background-size: contain
 
 ---
 
-class: inverse, center, middle 
+class: inverse
 background-color: #334003
+background-image: url(https://raw.githubusercontent.com/textvulture/textvulture.github.io/master/images/waveBackground2.jpg)
+background-size: 110%
 
-# .huge[The Consequence: <br> Does trade take jobs away? What Kind of jobs?]
+# .Large[The Consequence: <br> Does trade (shock) take jobs away? <br> What .bluey[kind] of jobs?]
 
 --
 
@@ -458,6 +464,17 @@ knitr::include_graphics("https://thumbs.gfycat.com/ActiveCheerfulBarnacle.webp")
 .Large["Why Don't They <br> Find a Job <br> *Elsewhere*?"]
 
 ---
+class: inverse
+background-image: url(https://github.com/textvulture/textvulture.github.io/blob/master/images/waveBackground.jpg?raw=true)
+background-size: 120%
+
+# .Large[But, trade still ruins workers lives, right?] <br> Like, .red[R]ace to .red[T]he .red[B]ottom `r fa("skull", fill='pink')`
+
+--
+
+# Guasti and Koenig-Archibigi (2022)
+
+---
 class: middle, inverse 
 background-image: url(http://textvulture.github.io/images/Autor2016.png)
 background-size: 70%
@@ -471,23 +488,13 @@ knitr::include_graphics("https://thumbs.gfycat.com/ActiveCheerfulBarnacle.webp")
 
 ---
 
-class: inverse, center, middle 
-background-color: #40033F
+class: inverse
+background-image: url(https://github.com/textvulture/textvulture.github.io/blob/master/images/borderBackground.jpg?raw=true)
+background-size: 110%
 
-# .huge[What happens when there's an interruption?]
+# .large[What happens when there's an interruption?] <br> Like, in borders.
 
 --
 
 ## Carter and Poast (2020)
-
----
-class: inverse
-background-image: url(https://github.com/textvulture/textvulture.github.io/blob/master/images/waveBackground.jpg?raw=true)
-background-size: 120%
-
-# .Large[But, trade still ruins workers lives, right?] <br> Like, .red[R]ace to .red[T]he .red[B]ottom `r fa("skull", fill='pink')`
-
---
-
-# Guasti and Koenig-Archibigi (2022)
 
