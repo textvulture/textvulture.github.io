@@ -388,16 +388,6 @@ background-size: contain
 
 ---
 
-class: inverse, left, bottom 
-background-image: url(https://thumbs.gfycat.com/ScarceVengefulAmurstarfish-size_restricted.gif)
-background-size: contain
-
-
-# Now we debate over who win while others lose out of trade. 
-
-
----
-
 # Generations of Trade Theories (.small[i.e., how .red[specilalization] happens])
 .Large[
 |                  	|  Mode of Trade 	| Factor Mobility 	| Divide over Trade 	|
@@ -423,7 +413,7 @@ background-size: contain
 # NNTT (.green[firms], .red[not] countries, are the traders)
 
 .large[
-- only a few firms trade 1% `r fa("circle-chevron-up")` 81% 
+- only a few (1%) firms trade `r fa("circle-chevron-up")` 81% (.texttt[Kim & Osgood 2019])
 ]
 --
 .large[- big, strong firms: better positioned politically]
@@ -444,13 +434,18 @@ background-size: 110%
 ## Owens & Johnston (2017); also Autor et al. (2016)
 
 ---
-class: middle, inverse
+
+class: middle, inverse 
+background-image: url(http://textvulture.github.io/images/Autor2016.png)
+background-size: 70%
+background-position: right
 
 ```{r, echo=F, out.width="25%"}
 knitr::include_graphics("https://thumbs.gfycat.com/ActiveCheerfulBarnacle.webp")
 ```
 <br><br>
 .Large["Why Don't They <br> Find a Job <br> *Elsewhere*?"]
+
 
 ---
 class: inverse
@@ -462,18 +457,6 @@ background-size: 120%
 --
 
 # Guasti and Koenig-Archibigi (2022)
-
----
-class: middle, inverse 
-background-image: url(http://textvulture.github.io/images/Autor2016.png)
-background-size: 70%
-background-position: right
-
-```{r, echo=F, out.width="25%"}
-knitr::include_graphics("https://thumbs.gfycat.com/ActiveCheerfulBarnacle.webp")
-```
-<br><br>
-.Large["Why Don't They <br> Find a Job <br> *Elsewhere*?"]
 
 ---
 
