@@ -43,7 +43,8 @@ background-size: cover
 background-position: center
 background-color: black
 
-# .huge[**Trade and <br> Development**]
+# .times[.orange[.Large[**Trade and <br> Development**]]]
+
 # .Large[GLOA 610]
 
 ---
@@ -52,8 +53,10 @@ background-image: url(https://raw.githubusercontent.com/textvulture/textvulture.
 background-size: cover
 
 # .huge[
-**Does trade make .bluey[poor] countries .blue[poorer] and <br>.pink[rich] countries .red[richer]?** 
+**Does trade make .Blue[poor] countries .blue[poorer] and <br>.pink[rich] countries .red[richer]?** 
 ]
+
+# Or, poor .orange[people] poorer and rich .blue[people] richer?
 
 ---
 
@@ -299,35 +302,21 @@ wdi2 %>%
 
 ---
 
-# Some textbook-line fundamentals
+class: inverse, center, middle
+background-image: url(https://raw.githubusercontent.com/textvulture/textvulture.github.io/master/images/background_glass.jpg)
+background-size: 110%
+background-color: purple
 
-## Ricardian Free Trade
 
-### Really a very stylized one: .red[not] that this is a reality!
+# .huge[The key lies <br> more in '.bluey[**specialization**]' <br>and less in '.red[**free**].' ]
 
-.pull-left[
-### Some assumptions
-- .Large[two economies]
-- .Large[two products, same unit value]
-- .Large[10 workers for each economy]
-- .Large[people need both products]
-]
-
-.pull-right[
-
-### Before trade
-
-.Large[
-|        	| Gun 	| Tequila 	|
-|:------:	|:---:	|:-------:	|
-|   US   	|  10 	|    5    	|
-| Mexico 	|  2  	|    4    	|
-]
-]
 
 ---
+
 class: inverse, middle
 background-color: #A77305
+background-image: url(https://raw.githubusercontent.com/textvulture/textvulture.github.io/master/images/forestBackground3.jpg)
+
 
 # .Large[ Some Modifications/Clarifications]
 
@@ -357,7 +346,7 @@ class: inverse
 background-color: black
 
 
-# .yellow[Traditional Challenges]
+# .yellow[Heterodox Critiques]
 
 .pull-left[
 .center[
@@ -380,10 +369,10 @@ knitr::include_graphics('https://images-na.ssl-images-amazon.com/images/I/819g1G
 ---
 class: inverse, left, middle 
 background-color: #130654
-background-image: url(https://github.com/textvulture/textvulture.github.io/blob/master/images/darkGreenbackground.jpg?raw=true)
+background-image: url(https://github.com/textvulture/textvulture.github.io/blob/master/images/blackboardBackground.jpg?raw=true)
 background-size: 115%
 
-# .orange[Traditional] Debates on Trade:
+# .times[.Large[.orange[Traditional] Debates on Trade:]]
 
 # `r fa("volume-high")` &nbsp; .red[Protectionism] has long been the subject of debate.
 
