@@ -31,8 +31,9 @@ beforeInit: "css/macros.js"
 #htmltools::tagList(rmarkdown::html_dependency_font_awesome())
 library(fs)
 library(fontawesome)
-# library(magick)  
+library(dplyr)
 library(ggplot2)
+options(htmltools.preserve.raw = FALSE)
 
 ```
 
@@ -46,12 +47,13 @@ background-color: black
 # .Large[GLOA 610]
 
 ---
-class: center
-background-color: #0CE4E8
+class: right
+background-image: url(https://raw.githubusercontent.com/textvulture/textvulture.github.io/master/images/background_White.jpg)
+background-size: cover
 
-# .huge[.white[
-**Does trade make .blue[poor] countries .blue[poorer] and .red[rich] countries .red[richer]?** 
-]]
+# .huge[
+**Does trade make .bluey[poor] countries .blue[poorer] and <br>.pink[rich] countries .red[richer]?** 
+]
 
 ---
 
@@ -59,7 +61,7 @@ background-color: #0CE4E8
   <h1> .large[Growth of Trading Sectors in a National Economy] </h1> 
 </div>
 <br>
-- .large[developed: GDP per capita > .red[25k]]
+- .large[developed: GDP per capita > .red[20k]]
 
 --
 
@@ -78,14 +80,14 @@ var = c('Trade.gdp' = 'NE.TRD.GNFS.ZS',
 wdi <- WDI(indicator=var,
            start=1960,
            country = 'all',
-           end=2020,
+           end=2021,
            extra=TRUE)
 
 wdi %>% 
   drop_na(GDPpc) %>%
   mutate(developed = 
-           case_when(GDPpc > 25000 ~ "developed",
-                     GDPpc < 25000 ~ "underdeveloped"
+           case_when(GDPpc > 20000 ~ "developed",
+                     GDPpc < 20000 ~ "underdeveloped"
                      )) -> wdi2
 ```
 
@@ -137,13 +139,39 @@ wdi2 %>%
 ---
 
 <div class="full-width-tinted"><br>
-  <h1> When looking at .yellow[**poor**] countries only (GDP per capita < .red[10k]) </h1> 
+  <h1> Looking at very .yellow[**poor**] countries only (GDP per capita < .red[5k]) </h1> 
 </div>
 <br><br>
 
-```{r, message=FALSE, echo=FALSE, warning=FALSE, results="asis", fig.width=16, fig.height=7.5, cache=T}
+
+```{r, message=FALSE, echo=FALSE, warning=FALSE, results="asis", fig.width=10.75, fig.height=6.25, cache=T}
 wdi2 %>%
-  filter(GDPpc < 10000) %>%
+  filter(GDPpc < 5000) %>%
+  filter(Trade.gdp<125) %>%
+  ggplot(aes(Trade.gdp, GDPpc)) +
+  geom_smooth(alpha=0.25, size=3) +
+  geom_point(alpha=0.1, color='red', size=2) +
+  labs(y="GDP per capita",
+       x="Trade/GDP") +
+  theme_minimal() +
+  theme(legend.title = element_blank()) +
+  theme(legend.text = element_text(size=25),
+        axis.text=element_text(size=20),
+        axis.title=element_text(size=20))
+
+```
+
+---
+
+<div class="full-width-tinted"><br>
+  <h1> Looking at very .yellow[**poor**] countries only (GDP per capita < .red[5k]) </h1> 
+</div>
+<br><br>
+
+
+```{r, message=FALSE, echo=FALSE, warning=FALSE, results="asis", fig.width=16, cache=T}
+wdi2 %>%
+  filter(GDPpc < 5000) %>%
   filter(Trade.gdp<200) %>%
   ggplot(aes(Trade.gdp, GDPpc)) +
   geom_smooth(alpha=0.25, size=3) +
@@ -157,6 +185,7 @@ wdi2 %>%
         axis.title=element_text(size=20))
 
 ```
+
 
 ---
 <div class="full-width-tinted"><br>
@@ -184,7 +213,7 @@ wdi2 %>%
 ```
 
 ---
-# .large[Some textbook-line fundamentals] 
+# .Yellow[.large[Some textbook-line fundamentals `r fa("book")`] ]
 
 
 ## Ricardian Free Trade
@@ -210,12 +239,11 @@ wdi2 %>%
 
 ---
 
-# Some textbook-line fundamentals
+# .Yellow[.large[Some textbook-line fundamentals `r fa("book")`] ]
 
 ## Ricardian Free Trade
 
-### Really a very stylized one: .red[not] that this is a reality!
-
+.large[`r fa('triangle-exclamation', fill='red')` Really a very stylized one: .red[**not**] that this is a reality!]
 
 
 .pull-left[
@@ -240,12 +268,12 @@ wdi2 %>%
 
 ---
 
-# Some textbook-line fundamentals
+# .Yellow[.large[Some textbook-line fundamentals `r fa("book")`] ]
+
 
 ## Ricardian Free Trade
 
-### Really a very stylized one: .red[not] that this is a reality!
-
+.large[`r fa('triangle-exclamation', fill='red')` Really a very stylized one: .red[**not**] that this is a reality!]
 
 
 .pull-left[
@@ -313,15 +341,16 @@ background-color: #A77305
 
 
 class: inverse, center, middle
-background-color: #62665D
+background-image: url(https://github.com/textvulture/textvulture.github.io/blob/master/images/forestBackground2.jpg?raw=true)
 
 # .huge[That explains, .red[in principle], how trade promotes development.]
 
 ---
-class: inverse, center, middle
-background-color: #A77305
+class: inverse, center, bottom
+background-image: url(https://raw.githubusercontent.com/textvulture/textvulture.github.io/master/images/forestBackground4.jpg)
+background-size: 120%
 
-# .Huge[But, of course, the reality is a little different.]
+# .large[But, of course, the reality is a little different.]
 
 ---
 class: inverse
@@ -363,13 +392,6 @@ background-color: #130654
 
 background-image: url(https://c.tenor.com/zEstiPSGLD0AAAAM/yeah-you-old-news-old-news.gif)
 background-size: contain
-
----
-
-class: inverse, left, middle 
-background-color: #130654
-
-# .Huge[.red[Modern] debates on trade have moved away, though.] 
 
 ---
 
@@ -424,7 +446,7 @@ background-color: #334003
 
 --
 
-## Autor et al (2016); Owens & Johnston (2017)
+## Owens & Johnston (2017); also Autor et al. (2016)
 
 ---
 class: middle, inverse
@@ -457,4 +479,15 @@ background-color: #40033F
 --
 
 ## Carter and Poast (2020)
+
+---
+
+class: middle, center, inverse
+background-color: #0080ff
+
+# .Large[But, trade still ruins workers lives, right?]
+
+--
+
+# Guasti and Koenig-Archibigi (2022)
 

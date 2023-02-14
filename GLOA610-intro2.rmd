@@ -29,7 +29,7 @@ beforeInit: "css/macros.js"
 
 ```{r setup, include=FALSE}
 # to use FontAwesome
-htmltools::tagList(rmarkdown::html_dependency_font_awesome())
+# htmltools::tagList(rmarkdown::html_dependency_font_awesome())
 library(fs)
 options(htmltools.preserve.raw = FALSE)
 library(fontawesome)
