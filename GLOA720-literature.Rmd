@@ -37,15 +37,13 @@ knitr::opts_chunk$set(warning = FALSE, message = FALSE, error=F, echo=F)
 
 class: inverse, middle, center
 background-color: black
-background-image: url(https://media.tenor.com/vajzsKs7CacAAAAC/library.gif)
-background-size: cover
+background-image: url(https://i.gifer.com/4KPr.gif)
+background-size: 110%
 
 
-# .LARGE[**How .red[NOT] to write <br> a .yellow[bad] literature review**]
+# .huge[**How .red[NOT] to write <br> a .yellow[bad] literature review**]
 
-# .times[A Practical Guide]
-
-# GLOA 720
+# .times[A Practical Guide] (GLOA 720)
 
 ---
 
@@ -71,9 +69,9 @@ background-size: 100%
 class: inverse, left, bottom
 background-color: black
 background-image: url(https://media.tenor.com/5R1whvx7pOkAAAAC/lost-johntravolta.gif)
-background-size: 100%
+background-size: 115%
 
-# .LARGE[After looking around a bit:]
+# .LARGE[But after digging in a bit:]
 
 ---
 
@@ -127,7 +125,7 @@ background-size: 100%
 
 --
 
-  - not only because it's a big deal in the real-world
+  - not .pink[only] because it's a big deal in the real-world
   
 --
 
@@ -189,7 +187,7 @@ class: inverse, center, middle
 background-image: url(https://github.com/textvulture/textvulture.github.io/blob/master/images/background_oldPaper.jpg?raw=true)
 background-size: cover
 
-# .large[So the first step is find a network of literature to see what's insufficiently done.]
+# .large[So the first step is find a .bluey[network] of literature to see what's insufficiently done.]
 
 ---
 
@@ -270,7 +268,7 @@ class: inverse
 background-image: url(https://raw.githubusercontent.com/textvulture/textvulture.github.io/master/images/blackboardBackground.jpg)
 background-size: 115%
 
-# What Helps?
+# What .Yellow[Helps]?
 
 --
 
@@ -289,7 +287,7 @@ background-size: 115%
   
 ---
 
-# Let's see an example
+# Let's see an .red[example]
 
 --
 
@@ -367,10 +365,17 @@ background-image: url(https://media.tenor.com/nBwqHiRlhygAAAAM/i-got-what-you-ne
 background-size: 100%
 
 # So maybe .bluey[a study] <br>that .yellow[overcomes] <br>these limitations is need. 
+--
+
+# The job is to **.green[convince]!**
+
+--
+
+# Avoid just saying: <br> A said a, B said b, and C said c
 
 ---
 
-# Good Sources to Find Literature of Your Interest
+# Good .purple[Sources] to Find Literature of Your Interest
 
 ### - the literature review section of any academic research (and thus, the references/bibliography)
 --
@@ -391,10 +396,16 @@ class: inverse
 background-image: url(https://github.com/textvulture/textvulture.github.io/blob/master/images/background_leftEmpty.jpg?raw=true)
 background-size: 100%
 
-# Some Caveats
+# Keep in mind
 
 ### - There could exist a whole body of literature under your nose.
 
 ### - You don't summarize the entire field. Literature review is an instrument. 
 
 ### - Some studies are better than others. 
+
+### - A good literature review naturally makes a good conlcusion
+
+### - Sometimes, just knowing the main argument is enough
+
+### - It's meant to be painful.
