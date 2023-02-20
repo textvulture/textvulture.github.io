@@ -1,0 +1,134 @@
+---
+title: "Literature GLOA720"
+author: "Byunghwan Son <br> George Mason University"
+date: " "
+#########################################
+linkcolor: red
+citecolor: blue
+urlcolor: blueß
+output: 
+  xaringan::moon_reader:
+    seal: false
+    nature:
+      ratio: '16:9'
+      highlightStyle: github
+  #    self-contained: TRUE
+  chakra: css/libs/remark-latest.min.js
+css: ["default", 
+      "css/footer.css", 
+      "css/color.css", 
+      #          "xaringan-themer.css",
+      default-fonts]
+lib_dir: css/libs
+beforeInit: "css/macros.js"
+# seal: false  
+#bibliography: /Users/bson3/Dropbox/latex/mybib2.bib
+#remotes::install_github('yihui/xaringan', upgrade = TRUE)
+---
+
+```{r setup, include=FALSE}
+# to use FontAwesome
+# htmltools::tagList(rmarkdown::html_dependency_font_awesome())
+library(fs)
+options(htmltools.preserve.raw = FALSE)
+library(fontawesome)
+
+```
+
+class: inverse, middle, center
+background-color: black
+background-image: url(https://media.tenor.com/vajzsKs7CacAAAAC/library.gif)
+background-size: cover
+
+
+# .LARGE[**How .red[NOT] to write <br> a .yellow[bad] literature review**]
+
+# .times[A Practical Guide]
+
+# GLOA 720
+
+---
+
+
+class: inverse, middle, center
+background-color: black
+background-image: url(https://media.tenor.com/GxfSlJG_H7AAAAAd/confusion-visible-confusion.gif)
+background-size: contain
+
+# .huge[Why do people say <br> literature review is so .red[hard?]]
+
+---
+
+class: inverse, left, top
+background-color: black
+background-image: url(https://media.tenor.com/7YbmXq_ixXIAAAAM/zhukov.gif)
+background-size: 100%
+
+# .yellow[.Large[When you have <br> your topic sorted out:]]
+
+---
+
+class: inverse, left, bottom
+background-color: black
+background-image: url(https://media.tenor.com/5R1whvx7pOkAAAAC/lost-johntravolta.gif)
+background-size: 100%
+
+# .LARGE[After looking around a bit:]
+
+---
+
+class: inverse, right, middle
+background-color: black
+background-image: url(https://github.com/textvulture/textvulture.github.io/blob/master/images/background_rightEmpty.jpg?raw=true)
+background-size: 100%
+
+
+# .LARGE[Much of this frustration comes <br> from a misunderstanding of <br> .yellow[literature review].]
+
+--
+
+# .Large[.bluey[Some practical advice today]]
+
+---
+
+class: inverse
+background-color: #090909
+background-image: url(https://media.licdn.com/dms/image/C4E12AQHhygTAbuGDfA/article-cover_image-shrink_600_2000/0/1548610957339?e=2147483647&v=beta&t=4zOqhjPBhOSFGkh6TKnNDOIAFysg2nBJ7B8ajkUvVlk)
+background-size: 100%
+
+# What literature review is all about:
+
+---
+
+class: inverse
+background-image: url(https://c4.wallpaperflare.com/wallpaper/118/697/306/light-bulb-minimalism-wallpaper-preview.jpg)
+background-size: 100%
+
+
+# .Large[Literature Review]
+
+--
+
+# .red[Literature] Review
+
+- .Large[existing studies `r fa("book", fill='green')`]
+--
+
+- .Large[existing studies on the .yellow[subject]]
+--
+
+- .Large[existing studies on the .yellow[theory]]
+
+--
+
+# Literature .red[Review]
+
+- .Large[evaluate the existing research to demonstrate what you do .orange[matters]]
+
+--
+
+  - not only because it's a big deal in the real-world
+  
+--
+
+- .Large[identify `r fa("magnifying-glass", fill='purple')`: what is .yellow[insufficient] in the existing studies]
