@@ -32,7 +32,7 @@ beforeInit: "css/macros.js"
 library(fs)
 options(htmltools.preserve.raw = FALSE)
 library(fontawesome)
-
+knitr::opts_chunk$set(warning = FALSE, message = FALSE, error=F, echo=F)
 ```
 
 class: inverse, middle, center
@@ -101,7 +101,7 @@ background-size: 100%
 ---
 
 class: inverse
-background-image: url(https://c4.wallpaperflare.com/wallpaper/118/697/306/light-bulb-minimalism-wallpaper-preview.jpg)
+background-image: url(https://github.com/textvulture/textvulture.github.io/blob/master/images/background_leftEmpty3.jpeg?raw=true)
 background-size: 100%
 
 
@@ -132,3 +132,163 @@ background-size: 100%
 --
 
 - .Large[identify `r fa("magnifying-glass", fill='purple')`: what is .yellow[insufficient] in the existing studies]
+
+
+---
+
+.large[ .red[Now] it makes sense why a research paper usually looks like this:]
+
+.content-box-grey[
+### .center[Introduction]
+]
+
+.content-box-red[
+### .center[Literature Review]
+]
+
+.content-box-grey[
+### .center[Theory & Argument & Hypothesis]
+]
+
+.content-box-grey[
+### .center[Research Design & Empirical Analysis]
+]
+
+.content-box-grey[
+### .center[Conclusion]
+]
+
+---
+
+# How to SHOW my research matters
+--
+
+#### many, many different ways, but
+
+--
+
+.content-box-green[
+### *.times[there was this obvious problem that they .red[implied] all along]*<br>: theory-challenging; theory-confirming]
+
+--
+
+.content-box-yellow[
+### *.times[they are fighting over this and it's been .red[inconclusive]]*<br>: synthesizing
+]
+
+--
+
+.content-box-red[
+### *.times[the haven't touched upon this very important .red[area] at all]*<br>: literature-expanding (very tricky)
+
+]
+
+---
+
+class: inverse, center, middle
+background-image: url(https://github.com/textvulture/textvulture.github.io/blob/master/images/background_oldPaper.jpg?raw=true)
+background-size: cover
+
+# .large[So the first step is find a network of literature to see what's insufficiently done.]
+
+---
+
+class: inverse, center, middle
+background-image: url(https://media.tenor.com/1_DBOhTvniEAAAAd/library-shelves.gif)
+background-size: 120%
+
+# .LARGE[.yellow["But my topic's so .bluey[unique] that there's few studies on it."]]
+
+---
+
+# .Large[Don't give me that.]
+--
+
+## - because that ain't possible
+
+## 
+
+--
+
+```{r}
+
+library(kableExtra)
+text <- data.frame(
+  variables = c("Explanatory", "Outcome", "Empirics"),
+  Explanatory= c(" ", " ", " "),
+  Outcome = c(" ", " ", " "),
+  Empirics = c(" ", " ", " ")
+)
+
+kbl(text, booktabs = T, escape = F, align=rep('c', 3)) %>%
+  kable_paper(full_width = T, html_font='Cambria') %>% 
+  add_header_above(c(" " =  1, "Existing Studies" = 3)) %>%
+  pack_rows("Your Project", 1, 3) %>%
+  row_spec(1:3, bold = T, background = '#F6F6ED') %>%
+  row_spec(0, color="Black", align='center') %>%
+  column_spec(1, background = '#EEEDF6') 
+
+```
+
+---
+
+
+# .Large[Don't give me that.]
+
+## - because that ain't possible
+
+## The only thing to .Yellow[avoid:]
+
+
+```{r}
+
+library(kableExtra)
+text <- data.frame(
+  variables = c("Explanatory", "Outcome", "Empirics"),
+  Explanatory= c("identical?", " ", " "),
+  Outcome = c(" ", "identical?", " "),
+  Empirics = c(" ", " ", "identical?")
+)
+
+text[1,2] = cell_spec(text[1,2], color = "white", background='red')
+text[2,3] = cell_spec(text[2,3], color = "white", background='red')
+text[3,4] = cell_spec(text[3,4], color = "white", background='red')
+
+kbl(text, booktabs = T, escape = F, align=rep('c', 3)) %>%
+  kable_paper(full_width = T, html_font='Cambria') %>% 
+  add_header_above(c(" " =  1, "Existing Studies" = 3)) %>%
+  pack_rows("Your Project", 1, 3) %>%
+  row_spec(1:3, bold = T, background = '#F6F6ED') %>%
+  row_spec(0, color="Black", align='center') %>%
+  column_spec(1, background = '#EEEDF6') 
+
+```
+
+---
+
+class: inverse
+background-image: url(https://raw.githubusercontent.com/textvulture/textvulture.github.io/master/images/blackboardBackground.jpg)
+background-size: 115%
+
+# What Helps?
+
+--
+
+## - read and mimic (the 'literature review' sections of .yellow[academic articles])
+
+--
+
+## - have a several-sentence .yellow[summary] for each study that you draw on
+  - .Large[*usually* that's all you need]
+  
+--
+
+## - group them together (e.g., tagging)
+  - .Large[imagine a .yellow[map] of a bunch of bodies of literature]
+  - .Large[.yellow[Zotero] <img src="https://www.zotero.org/support/_media/logo/zotero_512x512x32.png" width="30" style="display: inline-block; margin: 0" /> works best for this purpose]
+  
+---
+
+
+
+
