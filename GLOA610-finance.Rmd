@@ -34,18 +34,17 @@ library(fontawesome)
 # library(magick)  
 library(ggplot2)
 library(tidyverse)
-
-#setwd("/Users/bson3/Documents/GitHub/textvulture.github.io/")
-#setwd("/Users/kalka/Documents/GitHub/textvulture.github.io/")
+knitr::opts_chunk$set(warning = FALSE, message = FALSE, error=F, echo=F)
+options(htmltools.preserve.raw = FALSE)
 
 ```
 
-class: top, left
+class: top, left, middle
 background-image: url(https://www.intersystemsuki.com/wp-content/uploads/2020/06/finance.gif)
 background-size: 80%
 background-position: right
 
-# .huge[**GLOA 610** <br> *Global <br> Finance*]
+# .huge[.Blue[**Global <br> Finance**]] <br><br> GLOA 610
 
 ---
 
@@ -133,7 +132,7 @@ background-size: 30%
 .content-box-red[.Large[
 ## importing a BMW `r fa("car")`
 - `r fa("euro-sign")` .red[2] = `r fa("dollar-sign")` 1
-- `r fa("euro-sign")` 50k ⇒ `r fa("dollar-sign")` 25k: sales `r fa("level-up-alt")` 
+- `r fa("euro-sign")` 50k ⇒ `r fa("dollar-sign")` 25k: sales `r fa("turn-up")` 
 - amount paid to BMW: `r fa("euro-sign")` .red[50k]
 - *effect on US automakers?*
 ]
@@ -143,6 +142,8 @@ background-size: 30%
 ---
 class: inverse
 background-color: #d64161
+background-image: url(https://raw.githubusercontent.com/textvulture/textvulture.github.io/master/images/background_leftEmpty2.jpg)
+background-size: 140%
 
 # .huge[So undervaluation is .yellow[all] good?]
 
@@ -156,8 +157,7 @@ background-color: #d64161
 
 ## - .orange[interest groups] would lobby for undervaluation (.green[sometimes])
 
---
-
+--5
 # Broz and Werfel (2014); Steinberg and Shih (2012)
 
 
@@ -165,6 +165,8 @@ background-color: #d64161
 
 class: inverse, center, middle
 background-color: #37145A
+background-image: url(https://raw.githubusercontent.com/textvulture/textvulture.github.io/master/images/forestBackground.jpg)
+background-size: 100%
 
 # .huge[Let's talk about Debt]
 
@@ -187,15 +189,13 @@ background-color: red
 # OMG, I remember we owe China *a lot* ! 
 
 ---
-class: inverse
-background-color:  #86af49
 
-# A quick .yellow[cut-away]: The Story of American Debt
+# A quick .Yellow[cut-away]: The Story of American Debt
 
 --
 .pull-left[
 .center[
-```{r, echo=F, out.width='90%'}
+```{r, echo=F, out.width='95%'}
 knitr::include_graphics('https://cdn.howmuch.net/articles/Foreign-Curency-Draft9-4ddb.png')
 ```
 ]
@@ -204,7 +204,7 @@ knitr::include_graphics('https://cdn.howmuch.net/articles/Foreign-Curency-Draft9
 --
 .pull-right[
 .center[
-```{r, echo=F, out.width='90%'}
+```{r, echo=F, out.width='95%'}
 knitr::include_graphics('https://wolfstreet.com/wp-content/uploads/2018/10/US-Treasury-holdings-TIC-pie-2018-08.png')
 ```
 ]
@@ -212,7 +212,7 @@ knitr::include_graphics('https://wolfstreet.com/wp-content/uploads/2018/10/US-Tr
 
 
 ---
-# But the .red[foreign share] seems pretty large. Is the US `r fa("dollar-sign")` dominance coming to an end?
+# Aren't people still say the US `r fa("dollar-sign", fill='green')` dominance is ending?
 
 --
 
@@ -225,8 +225,9 @@ knitr::include_graphics('images/dollar-skeptic.JPG')
 --
 
 .pull-right[
-# .huge[.green[Prasad 2014]]
-
+```{r, out.width='60%', fig.align='center'}
+knitr::include_graphics('https://pup-assets.imgix.net/onix/images/9780691168524.jpg')
+```
 ]
 
 ---
@@ -258,17 +259,19 @@ knitr::include_graphics('https://saylordotorg.github.io/text_personal-finance/se
 
 ---
 
-class: inverse, center, middle
-background-image: url(https://images-media.currency.com/fee689ad/443b/5c0e/bc13/2badf78a88e0/on_page/1979-10000-treasury-bond.jpg)
-background-size: cover
+class: inverse, middle
+background-image: url(https://www.glabarre.com/item_images/5k%20us%20bond.jpg)
+background-size: contain
+background-position: right
+background-color: black
 
 --
 
-# .Huge[**How does bond work?**] 
+# .huge[**How does bond work?**] 
 
 --
 
-# .yellow[**Domestic vs. foreign currency denomination?**]
+# .Blue[**Domestic vs. foreign currency denomination?**]
 
 --
 
@@ -300,7 +303,7 @@ background-color: black
 
 --
 
-## `r fa("balance-scale", fill="yellow")` Debatable if it helps development
+## `r fa("scale-balanced", fill="yellow")` Debatable if it helps development
 
 --
 
@@ -308,7 +311,7 @@ background-color: black
 
 --
 
-## `r fa("vote-yea", fill="red")` But is there any other effect?
+## `r fa("check-to-slot", fill="red")` But is there any other effect?
 
 --
 
