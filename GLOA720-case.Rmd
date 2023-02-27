@@ -132,6 +132,12 @@ background-color: black
 
 .pull-left[
 
+### Skocpol (1979), simplified
+
+|                | revolution                  | .red[no] revolution                 |
+|----------------|-----------------------------|-------------------------------|
+| elite split    | Russia; France; China (20c) |                               |
+| .red[no] elite split |                             | Britain; Germany; China (19c) |
 
 
 ]
@@ -139,7 +145,11 @@ background-color: black
 --
 
 .pull-right[
+### Geddes (1990)
 
+```{r, out.width="80%"}
+knitr::include_graphics("https://github.com/textvulture/textvulture.github.io/blob/master/images/Geddes1990.png?raw=true")
+```
 
 ]
 
