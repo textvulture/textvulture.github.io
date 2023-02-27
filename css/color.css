@@ -127,6 +127,16 @@ blockquote, .blockquote {
   padding: 0px 20px 0px 20px;
   width: 100%;
 }
+
+.content-box-long {
+    box-sizing: border-box;
+    border-radius: 15px;
+    margin: 10 10 15px;
+    overflow: hidden;
+    padding: 10px 20px 10px 20px;
+    width: 100%;
+}
+
 .content-box-blue { background-color: #F0F8FF; }
 .content-box-gray { background-color: #e2e2e2; }
 .content-box-grey {	background-color: #F5F5F5; }
@@ -146,6 +156,8 @@ blockquote, .blockquote {
 .content-box-yellow .remark-inline-code { 
   background: none;
 }
+
+.content-box-long { background-color: green;}
 
 .full-width {
     display: flex;

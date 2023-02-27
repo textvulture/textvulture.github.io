@@ -136,21 +136,419 @@ background-color: black
 ---
 
 class: inverse
-background-image:
+background-image: url(https://github.com/textvulture/textvulture.github.io/blob/master/images/background_leftEmpty3.jpeg?raw=true)
 background-size: 100%
 background-position:
 background-color: black
 
-# Implementation
+# .yellow[Actual] Implementation
+
+--
+
+- .large[.pink[Soaking and Poking]: case immersion]
+
+  - exploratory, but goes on detail
+  - literature review should be semi-established before this for '.bluey[focus]'
+
+--
+
+- .large[.Green[Identifying] the Variables]
+
+  - Independent, Dependent, and Control Variables
+  - Operationalization: what would you mean by '*stronger*'; '*increase*' ?
+  - particularly important for qualitative research: '.bluey[structure]'
+
+--
+
+- .large[.Yellow[explanation]]
+
+  - developing the narrative/aruement
+  - describe the relationship between the IV and DV
+  - with a structure, description = analysis
+
+--
+
+- .large[**Robustness**] (optional?)
+
+  - demonstrate the alternative explanations don't work
+  - could be just a good explanation of the control variables
+
+---
+
+# Structured Designes (Mill's methods)
+
+--
+
+
+&lt;br&gt;
+&lt;style type="text/css"&gt;
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg .tg-6igk{border-color:inherit;font-family:"Times New Roman", Times, serif !important;font-size:28px;text-align:left;
+  vertical-align:top}
+.tg .tg-zev6{background-color:#000000;border-color:inherit;font-size:28px;text-align:left;vertical-align:top}
+.tg .tg-9htw{background-color:#34ff34;border-color:inherit;font-size:28px;text-align:left;vertical-align:top}
+.tg .tg-bq5v{border-color:inherit;font-size:28px;text-align:left;vertical-align:top}
+.tg .tg-6ut3{background-color:#c0c0c0;border-color:inherit;font-size:28px;text-align:left;vertical-align:top}
+.tg .tg-yvrh{background-color:#fcff2f;border-color:inherit;font-size:28px;text-align:left;vertical-align:top}
+.tg .tg-lz8j{background-color:#9698ed;border-color:inherit;font-size:28px;text-align:left;vertical-align:top}
+.tg .tg-3k3k{background-color:#340096;border-color:inherit;font-size:28px;text-align:left;vertical-align:top}
+&lt;/style&gt;
+&lt;table class="tg"&gt;
+&lt;thead&gt;
+  &lt;tr&gt;
+    &lt;th class="tg-6igk"&gt;&lt;span style="font-weight:bold"&gt;Most Similar&lt;/span&gt;&lt;/th&gt;
+    &lt;th class="tg-bq5v"&gt;Independent&lt;/th&gt;
+    &lt;th class="tg-bq5v"&gt;Control 1&lt;/th&gt;
+    &lt;th class="tg-bq5v"&gt;Control 2&lt;/th&gt;
+    &lt;th class="tg-bq5v"&gt;outcome&lt;/th&gt;
+  &lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+  &lt;tr&gt;
+    &lt;td class="tg-bq5v"&gt;case A&lt;/td&gt;
+    &lt;td class="tg-6ut3"&gt;&lt;/td&gt;
+    &lt;td class="tg-yvrh"&gt;&lt;/td&gt;
+    &lt;td class="tg-9htw"&gt;&lt;/td&gt;
+    &lt;td class="tg-lz8j"&gt;&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td class="tg-bq5v"&gt;case B&lt;/td&gt;
+    &lt;td class="tg-zev6"&gt;&lt;/td&gt;
+    &lt;td class="tg-yvrh"&gt;&lt;/td&gt;
+    &lt;td class="tg-9htw"&gt;&lt;/td&gt;
+    &lt;td class="tg-3k3k"&gt;&lt;/td&gt;
+  &lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+--
+
+&lt;style type="text/css"&gt;
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg .tg-6igk{border-color:inherit;font-family:"Times New Roman", Times, serif !important;font-size:28px;text-align:left;
+  vertical-align:top}
+.tg .tg-9htw{background-color:#34ff34;border-color:inherit;font-size:28px;text-align:left;vertical-align:top}
+.tg .tg-kpsx{background-color:#cb0000;border-color:inherit;font-size:28px;text-align:left;vertical-align:top}
+.tg .tg-e876{background-color:#3531ff;border-color:inherit;font-size:28px;text-align:left;vertical-align:top}
+.tg .tg-i1j7{background-color:#986536;border-color:inherit;font-size:28px;text-align:left;vertical-align:top}
+.tg .tg-bq5v{border-color:inherit;font-size:28px;text-align:left;vertical-align:top}
+.tg .tg-6ut3{background-color:#c0c0c0;border-color:inherit;font-size:28px;text-align:left;vertical-align:top}
+.tg .tg-yvrh{background-color:#fcff2f;border-color:inherit;font-size:28px;text-align:left;vertical-align:top}
+&lt;/style&gt;
+&lt;table class="tg"&gt;
+&lt;thead&gt;
+  &lt;tr&gt;
+    &lt;th class="tg-6igk"&gt;&lt;span style="font-weight:bold"&gt;Most Different&lt;/span&gt;&lt;/th&gt;
+    &lt;th class="tg-bq5v"&gt;Independent&lt;/th&gt;
+    &lt;th class="tg-bq5v"&gt;Control 1&lt;/th&gt;
+    &lt;th class="tg-bq5v"&gt;Control 2&lt;/th&gt;
+    &lt;th class="tg-bq5v"&gt;outcome&lt;/th&gt;
+  &lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+  &lt;tr&gt;
+    &lt;td class="tg-bq5v"&gt;case A&lt;/td&gt;
+    &lt;td class="tg-6ut3"&gt;&lt;/td&gt;
+    &lt;td class="tg-yvrh"&gt;&lt;/td&gt;
+    &lt;td class="tg-e876"&gt;&lt;/td&gt;
+    &lt;td class="tg-i1j7"&gt;&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td class="tg-bq5v"&gt;case B&lt;/td&gt;
+    &lt;td class="tg-6ut3"&gt;&lt;/td&gt;
+    &lt;td class="tg-kpsx"&gt;&lt;/td&gt;
+    &lt;td class="tg-9htw"&gt;&lt;/td&gt;
+    &lt;td class="tg-i1j7"&gt;&lt;/td&gt;
+  &lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+--
+
+## .center[.Yellow[**Structured**] and .bluey[**Focused**]?]
 
 ---
 
 
-class: inverse
 background-image:
+background-size: 100%
+
+
+.content-box-yellow[
+.center[# An example (Pepinski 2009)]
+]
+
+.right-column[
+
+&lt;style type="text/css"&gt;
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  overflow:hidden;padding:16px 20px;word-break:normal;}
+.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  font-weight:normal;overflow:hidden;padding:16px 20px;word-break:normal;}
+.tg .tg-2bn0{font-size:26px;text-align:center;vertical-align:top}
+.tg .tg-bzci{font-size:20px;text-align:center;vertical-align:top}
+.tg .tg-60hs{font-size:20px;text-align:left;vertical-align:top}
+.tg .tg-7hap{font-size:20px;font-weight:bold;text-align:left;vertical-align:top}
+&lt;/style&gt;
+&lt;table class="tg"&gt;
+&lt;thead&gt;
+  &lt;tr&gt;
+    &lt;th class="tg-60hs"&gt;&lt;/th&gt;
+    &lt;th class="tg-2bn0"&gt;Malaysia&lt;/th&gt;
+    &lt;th class="tg-2bn0"&gt;Indonesia&lt;/th&gt;
+  &lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+  &lt;tr&gt;
+    &lt;td class="tg-7hap"&gt;region&lt;/td&gt;
+    &lt;td class="tg-bzci" colspan="2"&gt;Southeast Asia&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td class="tg-7hap"&gt;economy&lt;/td&gt;
+    &lt;td class="tg-bzci" colspan="2"&gt;middle-income&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td class="tg-7hap"&gt;religion&lt;/td&gt;
+    &lt;td class="tg-bzci" colspan="2"&gt;Islam&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td class="tg-7hap"&gt;political coalition&lt;/td&gt;
+    &lt;td class="tg-bzci"&gt;&lt;span style="color:#009901"&gt;native&lt;/span&gt; elites + &lt;br&gt;&lt;span style="color:#009901"&gt;native&lt;/span&gt; business&lt;/td&gt;
+    &lt;td class="tg-bzci"&gt;&lt;span style="color:#009901"&gt;native&lt;/span&gt; elites + &lt;br&gt;&lt;span style="color:#FE0000"&gt;Chinese&lt;/span&gt; business&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td class="tg-7hap"&gt;post-1997 crisis&lt;/td&gt;
+    &lt;td class="tg-bzci"&gt;authoritarian &lt;br&gt;resilience&lt;/td&gt;
+    &lt;td class="tg-bzci"&gt;authoritarian &lt;br&gt;breakdown&lt;/td&gt;
+  &lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+]
+
+.left-column[
+
+![](https://m.media-amazon.com/images/I/61NDJf6h7kL._AC_UF1000,1000_QL80_.jpg)
+
+]
+
+---
+
+class: inverse, middle
+background-image: url(https://media.tenor.com/vCqeFaYFM-wAAAAM/spaghetti-messy.gif)
+background-size: contain
+background-position: right
+background-color: black
+
+# .yellow[.Large[But the actual writing &lt;br&gt; isn't this neat &amp; simple.]]
+
+--
+
+# .red[Need to go step-by-step &lt;br&gt; using another example.]
+
+---
+
+background-size: 100%
+background-image: url(https://github.com/textvulture/textvulture.github.io/blob/master/images/case_title.png?raw=true)
+
+---
+
+background-size: 100%
+background-image: url(https://github.com/textvulture/textvulture.github.io/blob/master/images/case_overall.png?raw=true)
+background-size: 55%
+background-position: right
+
+# .content-box-green[Give the general context]
+
+--
+
+# - basic background
+
+--
+
+# - some of the factors &lt;br&gt;of interest
+
+--
+
+# - overview of the &lt;br&gt; empirical approach
+
+---
+
+# .content-box-green[Literature Review, of course]
+
+.pull-left[
+
+![](https://github.com/textvulture/textvulture.github.io/blob/master/images/case_litreview1.png?raw=true)
+
+]
+
+--
+
+.pull-right[
+
+![](https://github.com/textvulture/textvulture.github.io/blob/master/images/case_litreview2.png?raw=true)
+
+]
+
+---
+
+class: middle
+background-image: url(https://github.com/textvulture/textvulture.github.io/blob/master/images/case_IV.png?raw=true)
+background-position: right
+background-size: 55%
+
+# .content-box-red[Argument and &lt;br&gt;Variable Description]
+
+# - explain clearly &lt;br&gt; what to expect if &lt;br&gt; the arugment holds
+
+---
+
+.content-box-green[
+# Now, finally, the empirical analysis: the three cases
+]
+
+![](https://github.com/textvulture/textvulture.github.io/blob/master/images/case1.png?raw=true)
+
+--
+
+![](https://github.com/textvulture/textvulture.github.io/blob/master/images/case2.png?raw=true)
+
+--
+
+![](https://github.com/textvulture/textvulture.github.io/blob/master/images/case3.png?raw=true)
+
+---
+
+background-image: url(https://github.com/textvulture/textvulture.github.io/blob/master/images/case_alternative.png?raw=true)
+background-position: right
+background-size: 55%
+
+# .content-box-purple[Alternative Explanation &lt;br&gt;(robustness checek)]
+
+--
+
+## - what are some plausible &lt;br&gt; explanations that can &lt;br&gt; .orange[screw up] my finding?
+
+
+## - can my arguement couter them?
+
+---
+
+class: inverse, center, middle
+background-image: url(https://github.com/textvulture/textvulture.github.io/blob/master/images/night_background5.jpg?raw=true)
 background-size: 100%
 background-position:
 background-color: black
+
+# .huge[**Comparative .yellow[Historical] Analysis**]
+
+---
+
+class: inverse, right, middle
+background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_wL7NfbVhbZX2Fn82aqBzRv0MCZXpimIeRCuLraPyFeyve3fNtDLE6-Gv60vMStTDFL8&amp;usqp=CAU)
+background-size: contain
+background-position: left
+background-color: black
+
+## "By means of comparative analysis, &lt;br&gt; I want to preserve a sense of &lt;br&gt; .yellow[historical particularity] &lt;br&gt; as far as I can, while still &lt;br&gt; .red[comparing different counts]" &lt;br&gt;&lt;br&gt; -- Reinhard Bendix (1976)
+
+---
+
+class: inverse
+background-image: url(https://github.com/textvulture/textvulture.github.io/blob/master/images/blackboardBackground.jpg?raw=true)
+background-size: cover
+
+.content-box-red[
+# Comparative Historical Analysis: Case Study, but over time.
+]
+
+### - Sequence matters.
+
+  - .large[often, though not always, used for causal inference (hence the discussions about necessary and sufficient causes in Mahoney (2004))]
+
+--
+
+### - methods
+
+  - .large[variants of Mill's methods, but with .yellow[sequence]]; often *descriptive* and *typological*
+  
+  - .large[.yellow[process tracing]: a complete anatomy of the intervening process]
+  
+    - sequence arguments: good at showing *how*; less of causal inference
+  
+  - .large[others: formal theory and fuzzy sets: .red[not] very recommendable]
+
+
+---
+
+class: inverse, right, top
+background-image: url(http://forgifs.com/gallery/d/361741-3/Girl-dominoes-fail.gif)
+background-size: 120%
+background-position:
+background-color: black
+
+# **Process Tracing**
+
+## - Make sure .yellow[all] steps count.
+
+---
+
+.content-box-grey[
+# An easy example: Ziblatt (2009), the second half
+]
+
+--
+
+.center[
+![](https://github.com/textvulture/textvulture.github.io/blob/master/images/case_process.png?raw=true)
+]
+
+---
+
+.content-box-grey[
+# An easy example: Ziblatt (2009), the second half
+]
+
+### - Late 19C Germany; **Hypothesis**: high land inequality <svg aria-hidden="true" role="img" viewBox="0 0 448 512" style="height:1em;width:0.88em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:red;overflow:visible;position:relative;"><path d="M438.6 278.6l-160 160C272.4 444.9 264.2 448 256 448s-16.38-3.125-22.62-9.375c-12.5-12.5-12.5-32.75 0-45.25L338.8 288H32C14.33 288 .0016 273.7 .0016 256S14.33 224 32 224h306.8l-105.4-105.4c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0l160 160C451.1 245.9 451.1 266.1 438.6 278.6z"/></svg> electoral fraud
+
+--
+
+- .content-box-red[existence of strong landed elites]
+  
+--
+
+- .content-box-yellow[the adoption of universal male suffrage in Germany]
+
+--
+
+- .content-box-green[landed elites social power erodes]
+
+--
+
+- .content-box-red[landed elites pressure local officials (appointment; revenue)]
+
+--
+
+- .content-box-yellow[local officials remove voters from voter rolls]
+
+--
+
+- .content-box-green[systemic electoral fraud observed]
+
+--
+
+### - each chain is .red[causally bound]: .times[*why the next step had to happen*]
+
+### - .red[never] a mere chronology
     </textarea>
 <style data-target="print-only">@media screen {.remark-slide-container{display:block;}.remark-slide-scaler{box-shadow:none;}}</style>
 <script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
