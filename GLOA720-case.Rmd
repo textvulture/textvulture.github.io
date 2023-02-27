@@ -1,0 +1,154 @@
+---
+title: "Case Study, GLOA720"
+author: "Byunghwan Son <br> George Mason University"
+date: " "
+#########################################
+linkcolor: red
+citecolor: blue
+urlcolor: blueß
+output: 
+  xaringan::moon_reader:
+    seal: false
+    nature:
+      ratio: '16:9'
+      highlightStyle: github
+  #    self-contained: TRUE
+  chakra: css/libs/remark-latest.min.js
+css: ["default", 
+      "css/footer.css", 
+      "css/color.css", 
+      #          "xaringan-themer.css",
+      default-fonts]
+lib_dir: css/libs
+beforeInit: "css/macros.js"
+# seal: false  
+#bibliography: /Users/bson3/Dropbox/latex/mybib2.bib
+#remotes::install_github('yihui/xaringan', upgrade = TRUE)
+---
+
+```{r setup, include=FALSE}
+# to use FontAwesome
+#htmltools::tagList(rmarkdown::html_dependency_font_awesome())
+library(fs)
+library(fontawesome)
+# library(magick)  
+library(ggplot2)
+library(tidyverse)
+knitr::opts_chunk$set(warning = FALSE, message = FALSE, error=F, echo=F)
+options(htmltools.preserve.raw = FALSE)
+
+```
+
+class: middle
+background-image: url(https://f.hubspotusercontent40.net/hubfs/1951043/Case_Studies.gif)
+background-color: white
+background-size: 50%
+background-position: right
+
+# .times[.Large[.red[Case Studies], <br> .Yellow[Historical Analysis], <br> & .Blue[Process Tracing]]]
+
+# GLOA 720, Method Recap (1)
+
+---
+
+class: inverse, center, middle
+background-image: url(https://github.com/textvulture/textvulture.github.io/blob/master/images/night_background2.jpg?raw=true)
+background-size: 100%
+background-position:
+background-color: black
+
+# .huge[**Any case study is a .yellow[comparative] analysis.**]
+
+---
+
+class: inverse, middle
+background-image: url(https://media2.giphy.com/media/10xinIqWrdnrTa/giphy.gif)
+background-size: contain
+background-position: right
+background-color: black
+
+# Even .yellow[w/o] a fancy case <br> to compare yours with.
+
+--
+
+# .Large[Because you <br> can always <br> compare to <br>.red[yourself.]]
+
+---
+
+class: inverse, middle
+background-image: url(https://github.com/textvulture/textvulture.github.io/blob/master/images/night_background1.jpg?raw=true)
+background-size: 100%
+background-position:
+background-color: black
+
+# .Large[The job is .red[not] just to describe.] <br> .Green[We ain't no reporters.]
+
+--
+
+# It is to .yellow[analyze.] In essence, we are doing:
+
+--
+
+## - within-case comparison: sub-units or over-time
+
+## - across-case: [.red[apples] vs. .red[apples]] or [.red[apples] vs. .orange[oranges]] 
+
+  - .Large[Or against a .Green[normal] group]
+
+---
+
+class: inverse
+background-image:
+background-size: 100%
+background-position:
+background-color: black
+
+# Things to care about: .Yellow[**Structured**] and .bluey[**Focused**] comparison
+
+--
+
+# .bluey[**Focused**]
+
+  - .large[not all, but only .yellow[select] aspects of each case: consult the .red[literature] `r fa("book")`]
+
+  - .large[discussions stay within the purview of the variables identified]
+
+--
+
+# .Yellow[**Structured**] 
+
+  - .large[Units at the same level (or category)]
+
+  - .large[Equal treatment: all variables for each case.]
+
+  - .large[Don't exclude the ones that don't fit the story. E.g., Skocpol 1979]
+
+
+---
+
+# An .Yellow[example] of selection bias in case study: <br> Skocpol (1979) *State and Social Revolution*
+
+  - .large[the idea: external military threat > elite split > chances for revolution]
+
+.pull-left[
+
+
+
+]
+
+--
+
+.pull-right[
+
+
+]
+
+
+---
+
+
+class: inverse
+background-image:
+background-size: 100%
+background-position:
+background-color: black
