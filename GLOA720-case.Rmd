@@ -130,9 +130,11 @@ background-color: black
 
   - .large[the idea: external military threat > elite split > chances for revolution]
 
+--
+
 .pull-left[
 
-### Skocpol (1979), simplified
+### .green[Skocpol (1979)], simplified
 
 |                | revolution                  | .red[no] revolution                 |
 |----------------|-----------------------------|-------------------------------|
@@ -145,7 +147,7 @@ background-color: black
 --
 
 .pull-right[
-### Geddes (1990)
+### .Blue[Geddes (1990)]
 
 ```{r, out.width="80%"}
 knitr::include_graphics("https://github.com/textvulture/textvulture.github.io/blob/master/images/Geddes1990.png?raw=true")
@@ -153,6 +155,16 @@ knitr::include_graphics("https://github.com/textvulture/textvulture.github.io/bl
 
 ]
 
+
+---
+
+class: inverse
+background-image:
+background-size: 100%
+background-position:
+background-color: black
+
+# Implementation
 
 ---
 
