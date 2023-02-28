@@ -17,7 +17,6 @@ output:
 css: ["default", 
       "css/footer.css", 
       "css/color.css", 
-      #          "xaringan-themer.css",
       default-fonts]
 lib_dir: css/libs
 beforeInit: "css/macros.js"
@@ -27,7 +26,6 @@ beforeInit: "css/macros.js"
 ---
 
 ```{r setup, include=FALSE}
-# to use FontAwesome
 #htmltools::tagList(rmarkdown::html_dependency_font_awesome())
 library(fontawesome)
 library(ggplot2)
@@ -36,31 +34,40 @@ knitr::opts_chunk$set(warning = FALSE, message = FALSE, error=F, echo=F)
 options(htmltools.preserve.raw = FALSE) # for fontawesome
 
 ```
+
+
 class: inverse, center, middle
-background-image: url(https://i.ytimg.com/vi/4wAqV-Oy2oE/maxresdefault.jpg)
+background-image: url(https://researchleap.com/wp-content/uploads/2018/04/IJMSBA4.38.1.jpg)
 background-size: contain
 
-# .orange[.HUGE[**GLOBAL <br> INVESTMENT**]] <br> .yellow[.Large[**GLOA610**]]
----
-
-class: inverse, center, middle
-background-color: #b2ad7f
-
-# .huge[**Foreign Direct Investment**]
+# .super[.bluey[.boldest[GLOBAL INVESTMENT]]] <br> .yellow[.LARGE[**GLOA610**]]
 
 ---
 
 class: inverse, center, middle
-background-color: #b2ad7f
+background-color: black
+background-image: url(https://github.com/textvulture/textvulture.github.io/blob/master/images/night_background8.jpg?raw=true)
+background-size: 100%
 
-# .huge[**Foreign .red[Direct] Investment**]
+# .Huge[**Foreign Direct Investment**]
 
 ---
 
 class: inverse, center, middle
-background-color: #b2ad7f
+background-color: black
+background-image: url(https://github.com/textvulture/textvulture.github.io/blob/master/images/night_background8.jpg?raw=true)
+background-size: 100%
 
-# .huge[**Foreign Direct .yellow[Investment]**]
+# .Huge[**Foreign .red[Direct] Investment**]
+
+---
+
+class: inverse, center, middle
+background-color: black
+background-image: url(https://github.com/textvulture/textvulture.github.io/blob/master/images/night_background8.jpg?raw=true)
+background-size: 100%
+
+# .Huge[**Foreign Direct .yellow[Investment]**]
 
 ---
 
@@ -69,14 +76,17 @@ background-size: contain
 
 ---
 
-class: inverse, middle, center
-background-color: #630563
+class: left
+background-image: url(https://cdn.dribbble.com/users/168137/screenshots/2929193/furge_anim_dr.gif)
+background-size: 60%
+background-position: right
+background-color: white
 
-# .huge[Multinational Corporations]
+# .bluey[.huge[**Multinational <br> Corporations**]]
 
 --
 
-# .yellow[vertically] / .green[horizontally] structured
+# .Yellow[vertical] <br> .green[horizontal] <br> integrations
 
 ---
 
@@ -86,7 +96,7 @@ background-size: contain
 
 ---
 
-# The origin (Frieden 1994)
+# The origin (Frieden 1994): .red[colonization] vs. .blue[investment]?
 
 --
 
@@ -101,7 +111,6 @@ knitr::include_graphics('https://media1.giphy.com/media/9zyzB4cjMoDDXuqkiR/200.w
 ]
 
 --
-
 .pull-right[
 # site-specificity .blue[low]
 
@@ -115,26 +124,28 @@ knitr::include_graphics('https://media0.giphy.com/media/10aADbYxnJlc9q/200.webp?
 ---
 
 class: inverse, middle
-background-color: #d64161
+background-color: black
+background-image: url(https://github.com/textvulture/textvulture.github.io/blob/master/images/night_background6.jpg?raw=true)
+background-size: 100%
 
 # .Large[Is FDI .yellow[bad] for poor countries?]
 
 --
 
-# What is the relationship with development?
+# Does it .bluey[promote] development?
 
 --
 
-# Are there some bad consequences?
+# Are there .pink[bad] consequences?
 
 ---
 
 
-# Some data (FDI .green[net] inflow, USD, logged scale)
+# FDI .green[net] inflow, USD, logged scale
 
 .center[
 
-```{r, fig.width=18, cache=TRUE}
+```{r, cache=TRUE}
 
 library(tidyverse)
 library(WDI)
@@ -149,7 +160,7 @@ var = c(#'FDI.out' = 'BM.KLT.DINV.CD.WD',
 wdi <- WDI(indicator=var,
            start=1980,
            country = 'all',
-           end=2020,
+           end=2022,
            extra=TRUE)
 
 #wdi %>%
@@ -161,10 +172,13 @@ wdi <- WDI(indicator=var,
 wdi %>% 
   drop_na(GDPpc) %>%
   mutate(developed = 
-           case_when(GDPpc > 25000 ~ "developed",
-                     GDPpc < 25000 ~ "underdeveloped"
+           case_when(GDPpc > 20000 ~ "developed",
+                     GDPpc < 20000 ~ "underdeveloped"
                      )) -> wdi2
 
+```
+
+```{r, fig.width=18, fig.height=8, cache=TRUE}
 wdi2 %>% 
   mutate(lnFDI = log10(abs(FDI + 1))) %>%
   filter(FDI !=0) %>%
@@ -174,22 +188,23 @@ wdi2 %>%
   geom_smooth(alpha=0.25, size=3) +
   labs(x="Year",
        y="Gross FDI net inflow") +
+  theme_minimal() +
   theme(legend.title = element_blank()) +
   scale_color_manual(values=c("red", "blue")) +
-  theme(legend.text = element_text(size=13),
-        axis.text=element_text(size=15),
-        axis.title=element_text(size=15))
+  theme(legend.text = element_text(size=20),
+        axis.text=element_text(size=20),
+        axis.title=element_text(size=20))
 
 ```
 ]
 
 ---
 
-# Some data (FDI, per GDP)
+# FDI, .Blue[per GDP] .tiny[(`r fa("signs-post")` how much of the .pink[national economy] does it account for?)]
 
 .center[
 
-```{r echo=F, message=F, error=F, warning=F, fig.width=18, cache=TRUE}
+```{r, fig.width=18, fig.height=8, cache=TRUE}
 wdi2 %>%
   filter(FDI.GDP<150) %>%
   ggplot(aes(year, FDI.GDP, color=developed)) +
@@ -201,10 +216,21 @@ wdi2 %>%
   theme(legend.title = element_blank()) +
   scale_color_manual(values=c("red", "blue")) +
   theme(legend.text = element_text(size=20),
-        axis.text=element_text(size=15),
-        axis.title=element_text(size=15))
+        axis.text=element_text(size=20),
+        axis.title=element_text(size=20))
 ```
 ]
+
+---
+
+class: inverse, middle
+
+background-color: black
+
+# .large[`r fa("crown", fill="yellow")` Who are the <br top> hosts ?]
+
+# .large[`r fa("clock", fill="red")` Does it <br> change much?]
+
 
 ---
 
@@ -223,15 +249,18 @@ background-size: contain
 ---
 class: inverse, bottom
 background-image: url(https://64.media.tumblr.com/tumblr_m71o7giWON1rsmws3o1_r1_500.gifv)
-background-size: contain
+background-size: 115%
 
 # .Large[It ain't .red[no] magic wand, <br> though it definitely helps .yellow[a lot]. ]
 
 ---
-class: inverse, center, middle
-background-color:  #86af49
 
-# .huge[When are you .red[more] likely to host FDI?]
+class: inverse, center, middle
+background-color: black
+background-image: url(https://raw.githubusercontent.com/textvulture/textvulture.github.io/master/images/waveBackground.jpg)
+background-size: 100%
+
+# .Huge[**What attracts FDI?**]
 
 --
 
@@ -253,13 +282,13 @@ background-size: contain
 
 ---
 
-class: inverse, center, middle
+class: inverse, center
 background-image: url(https://cdn.cnn.com/cnnnext/dam/assets/210709094324-05-bangladesh-factory-fire-exlarge-169.jpg)
 background-size: contain
 
 --
 
-# .huge[But what about the <br> '.red[**Race-To-The-Bottom**]'???]
+# .LARGE[But what about the <br> .times[.red[**Race-To-The-Bottom**]]???]
 
 --
 
@@ -269,13 +298,22 @@ background-size: contain
 
 class: inverse
 background-color: #1C1B1C
+background-image: url(https://ichef.bbci.co.uk/news/768/cpsprodpb/14110/production/_85829128_85829127.jpg)
+background-size: 100%
 
-# But wouldn't .red[MNCs] mess around, inciting strong backlash?
+# .yellow[What about other negative consequences? ]
 
-### Christensen (2019)
+## .yellow[For example, wouldn't .orange[MNCs] incite strong backlash?]
+
+### .bluey[Christensen (2019)]
 
 --
-![](https://github.com/textvulture/textvulture.github.io/blob/master/images/Christensen.png?raw=true)
+
+```{r, align='center', out.width="80%"}
+
+knitr::include_graphics("https://github.com/textvulture/textvulture.github.io/blob/master/images/Christensen.png?raw=true")
+
+```
 
 ---
 

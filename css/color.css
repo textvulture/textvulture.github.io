@@ -14,6 +14,7 @@
  **************/
 
 .HUGE { font-size: 400% }
+
 .Huge { font-size: 300% }
 .huge { font-size: 200% }
 .LARGE { font-size: 180% }
@@ -24,6 +25,9 @@
 .Small { font-size: 75% }
 .scriptsize { font-size: 70% }
 .tiny { font-size: 60% }
+
+.HUGE { font-size: 400% }
+.super { font-size: 350% }
 
 .black { color: black; }
 .red { color: red; }
@@ -46,6 +50,7 @@
 
 .bold { font-weight: bold; }
 .bolder { font-weight: bolder; }
+.boldest { font-weight: 1000; }
 
 .texttt { font-family: 'Source Code Pro' }
 .times{ font-family: 'Times New Roman' }
