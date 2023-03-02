@@ -176,6 +176,20 @@ blockquote, .blockquote {
 .pull-right ~ * { clear: unset; }
 .pull-right + * { clear: both; }
 
+```{css echo=FALSE}
+.right-column{
+  padding-top: 0;
+}
+```
+
+.pull-left2 {
+  float: left;
+  width: 27%;
+}
+.pull-right2 {
+  float: right;
+  width: 72%;
+}
 
 
 .full-width-tinted {

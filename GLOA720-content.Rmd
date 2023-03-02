@@ -1,0 +1,163 @@
+---
+title: "Text & Discourse, GLOA720"
+author: "Byunghwan Son <br> George Mason University"
+date: " "
+#########################################
+linkcolor: red
+citecolor: blue
+urlcolor: blueß
+output: 
+  xaringan::moon_reader:
+    seal: false
+    nature:
+      ratio: '16:9'
+      highlightStyle: github
+  #    self-contained: TRUE
+  chakra: css/libs/remark-latest.min.js
+css: ["default", 
+      "css/footer.css", 
+      "css/color.css", 
+      #          "xaringan-themer.css",
+      default-fonts]
+lib_dir: css/libs
+beforeInit: "css/macros.js"
+# seal: false  
+#bibliography: /Users/bson3/Dropbox/latex/mybib2.bib
+#remotes::install_github('yihui/xaringan', upgrade = TRUE)
+---
+
+```{r setup, include=FALSE}
+# to use FontAwesome
+# htmltools::tagList(rmarkdown::html_dependency_font_awesome())
+library(fs)
+options(htmltools.preserve.raw = FALSE)
+library(fontawesome)
+knitr::opts_chunk$set(warning = FALSE, message = FALSE, error=F, echo=F)
+```
+
+background-image: url(https://images.squarespace-cdn.com/content/v1/5bb7f7778dfc8cb81e4ae060/1601663612087-ZWOVTMLENO7A55RXXLF7/me.gif)
+background-size: 45%
+background-position: left
+
+# .right[.huge[**.red[Discourse] <br> & .Yellow[Social Media] <br> .green[Analysis]**]]
+
+### .right[.LARGE[GLOA720, <br> Method Refresher (2)]]]
+
+---
+
+class: middle, center
+background-image: url(https://github.com/textvulture/textvulture.github.io/blob/master/images/halfBackground4.jpg?raw=true)
+background-color: black
+background-size: 100%
+
+# broadly referred to as <br><br> .Huge[.Yellow[**Content Analysis**]]
+
+
+---
+
+class: inverse, middle, left
+background-image: url(https://images.theconversation.com/files/378226/original/file-20210112-17-bcb7xi.JPG?ixlib=rb-1.1.0&q=45&auto=format&w=1200&h=1200.0&fit=crop)
+background-color: black
+background-size: contain
+background-position: right
+
+# Looking at what people wrote/said
+
+--
+
+# Figuring out what they were .red[actually] saying
+
+---
+
+background-image: url(https://github.com/textvulture/textvulture.github.io/blob/master/images/background_White2.jpg?raw=true)
+background-size: 120%
+
+
+# It can be a research method .Yellow[on its own].
+
+--
+
+## - .red[interpreting] the discourses themselves should be the end goal.
+
+## - hard to have a single recipe: .green[data-dependent]
+
+--
+
+# Or, a tool for a different method
+
+--
+
+## - e.g., .red[comparing] two groups' speeches to show their different group-level perspectives.
+
+---
+
+class: inverse
+background-image: url(https://github.com/textvulture/textvulture.github.io/blob/master/images/background_leftEmpty2.jpg?raw=true)
+background-size: 140%
+
+## .boldest[Discourse Analysis]
+
+--
+
+### .Yellow[Capturing] the 'social meaning' of texts is the key
+  - .large[probably most time-consuming (if done right)]
+  - .large[fully accounting for the .Yellow[circumstances & contexts] is necessary]
+  - .large[often not done well even by accomplished scholars]
+  
+--
+
+### .Green[Traditionally], focused on elite writings (structured)
+  - .large[the State of the Union]
+  - .large[congressional hearing transcripts]
+  - .large[court documents]
+  
+--
+
+### .bluey[Recently], ordinary people's writing (social media, 'natural language')
+  - .large[should avoid exotification: 'look at this outrageous tweet `r fa("twitter", fill='yellow')`']
+  - .large[automated text analysis and machine learning flourishing]
+
+---
+
+.content-box-red[
+# .center[Critical Discourse Analysis]
+]
+
+### :texts are but .green[social constructs] and cannot be explained w/o contexts
+
+--
+
+.left-column[
+![](https://images-na.ssl-images-amazon.com/images/I/41OrPndfKUL._SX320_BO1,204,203,200_.jpg)
+]
+
+---
+
+.content-box-red[
+# .center[Critical Discourse Analysis]
+]
+
+### :texts are but .green[social constructs] and cannot be explained w/o contexts
+
+
+.right-column[
+
+<br>
+
+.blockquote[
+### The manifest discourse ... is really no more than the prepresive presence of what it does not say.
+]
+
+.blockquote[
+### The History of ideas ... relates work with institutions, social customs or behaviour, techniques, and unrecorded needs and practices
+]
+
+
+### widely incorporated in disourse analysis in general, even when not labeled as 'critical.'
+]
+
+
+.left-column[
+![](https://images-na.ssl-images-amazon.com/images/I/41OrPndfKUL._SX320_BO1,204,203,200_.jpg)
+]
+
