@@ -410,12 +410,15 @@ background-size: 52%
 
 ---
 
+class: left, bottom
+background-image: url(https://github.com/textvulture/textvulture.github.io/blob/master/images/RussiaTrollEconomist.png?raw=true)
+background-size: contain
 
-
+## .Purple[**Common use of social media data** <br>The Economist (2022)]
 
 ---
 
-.LARGE[Online .red[Forensic] Analysis]
+.LARGE[Other examples]
 
 .pull-left[
 - .large[**FiveThirtyEight study**]
@@ -434,3 +437,6 @@ knitr::include_graphics("https://fivethirtyeight.com/wp-content/uploads/2018/07/
 knitr::include_graphics("https://github.com/textvulture/textvulture.github.io/blob/master/images/Stukal2022.png?raw=true")
 ```
 ]
+
+---
+
