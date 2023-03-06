@@ -35,6 +35,8 @@ library(fontawesome)
 knitr::opts_chunk$set(warning = FALSE, message = FALSE, error=F, echo=F)
 ```
 
+
+
 background-image: url(https://images.squarespace-cdn.com/content/v1/5bb7f7778dfc8cb81e4ae060/1601663612087-ZWOVTMLENO7A55RXXLF7/me.gif)
 background-size: 45%
 background-position: left
@@ -120,7 +122,7 @@ background-size: 140%
 ---
 
 .content-box-red[
-# .center[Critical Discourse Analysis]
+# .center[.red[Critical] Discourse Analysis]
 ]
 
 ### :texts are but .green[social constructs] and cannot be explained w/o contexts
@@ -134,7 +136,7 @@ background-size: 140%
 ---
 
 .content-box-red[
-# .center[Critical Discourse Analysis]
+# .center[.red[Critical] Discourse Analysis]
 ]
 
 ### :texts are but .green[social constructs] and cannot be explained w/o contexts
@@ -153,11 +155,186 @@ background-size: 140%
 ]
 
 
-### widely incorporated in disourse analysis in general, even when not labeled as 'critical.'
+### - widely incorporated in disourse analysis in general <br> - hard to say there's a .pink[coherent] method (often, literature = method).
 ]
 
 
 .left-column[
 ![](https://images-na.ssl-images-amazon.com/images/I/41OrPndfKUL._SX320_BO1,204,203,200_.jpg)
 ]
+
+---
+
+.content-box-yellow[
+# .center[.orange[Traditional] Text Analysis]
+]
+
+---
+
+background-image: url(https://images-na.ssl-images-amazon.com/images/I/51D7ZZln13L._SX330_BO1,204,203,200_.jpg)
+background-position: 95% 70%
+background-size: 25%
+
+
+.content-box-yellow[
+# .center[.orange[Traditional] Text Analysis]
+]
+
+--
+
+### Establish the .red[backgrounds] and contexts.
+
+  - .large[Who is the author/speaker?]
+  - .large[What was the occasion?]
+  - .large[What were their previous discourses were like?]
+
+--
+
+### Get the .orange[theories] ready.
+
+  - .large[the theoretical framework (from literature review)]
+  - .large['rational actor model' in this case]
+  
+--
+
+### Capture the .blue[text] and offer the .Blue[meaning].
+
+  - .large[corpus; repeated themes; subjects]
+  
+---
+
+class: inverse
+background-color: black
+background-image: url(https://media1.popsugar-assets.com/files/thumbor/jkDuWicric-517WE8QGsrnfq6WU/fit-in/1024x1024/filters:format_auto-!!-:strip_icc-!!-/2020/05/07/760/n/45101125/83957840ab980613_parks20/i/When-He-Was-All-Us-Trying-to-Escape-Our-Problems.gif)
+background-size: contain
+
+--
+
+# But this is a method not very kind to researchers.
+
+--
+
+# You need to .yellow[master] all the contexts even before working on it.
+
+--
+
+# The evidence doesn't talk you; you have to really .green[discover] it!
+
+---
+
+class: inverse
+background-image: url(https://media1.giphy.com/media/Puo0hQn7ELdVwl65r0/200.gif)
+background-size: contain
+
+# .red[Well-structured], .yellow[public texts] are the exceptions
+
+--
+
+## - the State of the Union Speeches
+
+## - opinion columns
+
+## - legal documents
+
+---
+
+class: inverse
+background-image: url(https://github.com/textvulture/textvulture.github.io/blob/master/images/background_leftEmpty3.jpeg?raw=true)
+background-size: 100%
+
+# .yellow[Usually, though, the texts you have are <br> .white['natural languages.']]
+
+--
+
+### Such as those obtained from .red[social media]: <br> - not just `r fa("facebook", fill='#3b5998')`, `r fa("twitter", fill='#00acee')`, `r fa("reddit-alien", fill='orange')`; but also comments in `r fa("youtube", fill='red')` or news articles.
+
+--
+
+### **.Green[Advantages]**
+
+  - .large[the context is known; easy to ascertain]
+  - .large[a large volume of texts are easily obtainable]
+  - .large[individual .bluey[noise] can be .red[canceled] out if N is large enough]
+  - .large[less bias: sincere accounts when anonymous]
+  
+--
+
+### **.pink[Disadvantages]**
+
+  - .large[hard to generalize, *sometimes*]
+  - .large[trolls `r fa("ghost", fill='yellow')`; fake accounts]
+
+---
+
+class: inverse
+background-image: url(https://github.com/textvulture/textvulture.github.io/blob/master/images/glassBackground.jpg?raw=true)
+background-size: 100%
+
+# .Blue[Qualitative] Text Analysis
+
+--
+
+### 1. .Green[Identifying] competing narratives / discourses (combined with .yellow[comparative case study])
+
+--
+
+### 2. .pink[Challenging] the mainstream narrative (social media as '.red[liberation] techonology')
+
+--
+
+### 3. .Yellow[Exploratory] analysis: 'what kind of .bluey[conversations] do they have?'
+
+--
+
+## * either way:
+
+  - .Large[identifying the concepts and corresponding languages is the key `r fa("key", fill='red')`]
+  
+  - .Large[essentially building a '.yellow[dictionary]' `r fa("book")` ]
+
+---
+
+class: inverse, middle, center
+background-image: url(https://github.com/textvulture/textvulture.github.io/blob/master/images/waveBackground3.jpg?raw=true)
+background-size: 100%
+
+
+# .HUGE[**An Example**]
+
+---
+
+# Types of .orange[affective] stance in the .green[movement] in .red[social media]
+
+.center[
+![](https://github.com/textvulture/textvulture.github.io/blob/master/images/discourse1.png?raw=true)
+]
+  
+---
+
+# 1. Offer the .Blue[context]
+
+.pull-left[
+
+.Large[**the event**]
+
+```{r, out.width='85%'}
+knitr::include_graphics("https://github.com/textvulture/textvulture.github.io/blob/master/images/discourse2.png?raw=true")
+```
+
+]
+
+--
+
+.pull-right[
+
+.Large[**the (traditional) media**]
+
+```{r, out.width="85%"}
+knitr::include_graphics("https://github.com/textvulture/textvulture.github.io/blob/master/images/discourse3.png?raw=true")
+```
+
+]
+
+
+
 
