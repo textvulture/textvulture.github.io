@@ -336,5 +336,95 @@ knitr::include_graphics("https://github.com/textvulture/textvulture.github.io/bl
 ]
 
 
+---
+
+class: middle
+background-image: url("https://github.com/textvulture/textvulture.github.io/blob/master/images/discourse4.png?raw=true")
+background-position: right
+background-size: 52%
+# Of course, a literature review
+
+### .large[.orange[short], <br>but effective]
+### .large[.Blue[situates] the research method <br> in the large literature]
+
+---
+
+class: middle
+background-image: url("https://github.com/textvulture/textvulture.github.io/blob/master/images/discourse5.png?raw=true")
+background-position: right
+background-size: 52%
+
+# Data and Method
+
+## - .green[data sources]
+
+## - .orange[unit of analysis]
+
+## - .red[.times[*specific*]] and .blue[.times[*clear*]]
+
+---
+
+# Empirical Analysis (typology making)
+
+--
+
+- .Large[.red[NOT] shown in the paper: going through .Yellow[all the text data] (maybe multiple times) and coming down to several categories to present]
+- .Large[.green[examples] best represent each category are presented.]
+
+--
+
+<br>
+.LARGE['**Discursive structure of the campaign**']
+
+.right-column[![](https://github.com/textvulture/textvulture.github.io/blob/master/images/discourse6.png?raw=true)] 
+.left-column[#.pink['actions']]
+
+--
+
+<br>
+.right-column[![](https://github.com/textvulture/textvulture.github.io/blob/master/images/discourse7.png?raw=true)] 
+.left-column[#.bluey['prayers']]
+
+---
+
+# Other ways: social media texts as a .red[public opinion survey]
+
+.content-box-green[
+.LARGE[the opportunities]
+
+  - .Large[less priming effect]
+  - .Large[extensive reach (time, space, people)]
+  - .Large[cheap]
+
+]
+
+--
+
+.content-box-red[
+.LARGE[the challenges]
+
+  - .Large['identifying' opinions]
+  - .Large[representativeness]
+  - .Large[a pretty steep learning curve]
+]
+
+---
 
 
+
+
+---
+
+.LARGE[Online .red[Forensic] Analysis]
+
+.pull-left[
+.large[FiveThirtyEight study]
+
+![](https://fivethirtyeight.com/wp-content/uploads/2018/07/roeder-russiantweets-2.png?w=1150)
+]
+
+--
+
+.pull-right[
+![]()
+]
