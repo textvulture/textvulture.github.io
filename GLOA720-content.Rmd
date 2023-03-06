@@ -418,13 +418,19 @@ background-size: 52%
 .LARGE[Online .red[Forensic] Analysis]
 
 .pull-left[
-.large[FiveThirtyEight study]
+- .large[**FiveThirtyEight study**]
 
-![](https://fivethirtyeight.com/wp-content/uploads/2018/07/roeder-russiantweets-2.png?w=1150)
+```{r, out.width='95%'}
+knitr::include_graphics("https://fivethirtyeight.com/wp-content/uploads/2018/07/roeder-russiantweets-2.png?w=1150")
+```
 ]
 
 --
 
 .pull-right[
-![]()
+- .large[**Stukal et al. 2022**]
+
+```{r, out.width='90%'}
+knitr::include_graphics("https://github.com/textvulture/textvulture.github.io/blob/master/images/Stukal2022.png?raw=true")
+```
 ]
