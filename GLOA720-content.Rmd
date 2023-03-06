@@ -121,50 +121,6 @@ background-size: 140%
 
 ---
 
-.content-box-red[
-# .center[.red[Critical] Discourse Analysis]
-]
-
-### :texts are but .green[social constructs] and cannot be explained w/o contexts
-
---
-
-.left-column[
-![](https://images-na.ssl-images-amazon.com/images/I/41OrPndfKUL._SX320_BO1,204,203,200_.jpg)
-]
-
----
-
-.content-box-red[
-# .center[.red[Critical] Discourse Analysis]
-]
-
-### :texts are but .green[social constructs] and cannot be explained w/o contexts
-
-
-.right-column[
-
-<br>
-
-.blockquote[
-### The manifest discourse ... is really no more than the prepresive presence of what it does not say.
-]
-
-.blockquote[
-### The History of ideas ... relates work with institutions, social customs or behaviour, techniques, and unrecorded needs and practices
-]
-
-
-### - widely incorporated in disourse analysis in general <br> - hard to say there's a .pink[coherent] method (often, literature = method).
-]
-
-
-.left-column[
-![](https://images-na.ssl-images-amazon.com/images/I/41OrPndfKUL._SX320_BO1,204,203,200_.jpg)
-]
-
----
-
 .content-box-yellow[
 # .center[.orange[Traditional] Text Analysis]
 ]
@@ -218,7 +174,7 @@ background-size: contain
 
 --
 
-# The evidence doesn't talk you; you have to really .green[discover] it!
+# The evidence doesn't talk to you; you have to really .green[discover] it!
 
 ---
 
@@ -265,6 +221,51 @@ background-size: 100%
   - .large[trolls `r fa("ghost", fill='yellow')`; fake accounts]
 
 ---
+
+.content-box-red[
+# .center[.red[Critical] Discourse Analysis]
+]
+
+### :texts are but .green[social constructs] and cannot be explained w/o contexts
+
+--
+
+.left-column[
+![](https://images-na.ssl-images-amazon.com/images/I/41OrPndfKUL._SX320_BO1,204,203,200_.jpg)
+]
+
+---
+
+.content-box-red[
+# .center[.red[Critical] Discourse Analysis]
+]
+
+### :texts are but .green[social constructs] and cannot be explained w/o contexts
+
+
+.right-column[
+
+<br>
+
+.blockquote[
+### The manifest discourse ... is really no more than the prepresive presence of what it does not say.
+]
+
+.blockquote[
+### The History of ideas ... relates work with institutions, social customs or behaviour, techniques, and unrecorded needs and practices
+]
+
+
+### - widely incorporated (to various degrees) in disourse analysis in general <br> - hard to say there's a .pink[coherent] method (often, literature = method).
+]
+
+
+.left-column[
+![](https://images-na.ssl-images-amazon.com/images/I/41OrPndfKUL._SX320_BO1,204,203,200_.jpg)
+]
+
+---
+
 
 class: inverse
 background-image: url(https://github.com/textvulture/textvulture.github.io/blob/master/images/glassBackground.jpg?raw=true)
@@ -440,3 +441,8 @@ knitr::include_graphics("https://github.com/textvulture/textvulture.github.io/bl
 
 ---
 
+class: inverse, bottom
+background-image: url(https://media4.giphy.com/media/8dYmJ6Buo3lYY/giphy.gif)
+background-size: 100%
+
+# .large[A lot of texts to read, no matter the method.]
