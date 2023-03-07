@@ -58,30 +58,49 @@ class: inverse
 # Or, are they just <br> .yellow[ineffective] at times?
 
 ---
-class: inverse, center, middle
-background-color: #1A0563
 
-# .huge[If ineffective, .yellow[why?]]
-
---
-
-# .Large[Do we even *know* how they work?]
-
----
 class: inverse, left, middle
 background-image: url(https://68.media.tumblr.com/55ad887647f2e40068edde0a71c1bad0/tumblr_mxkdpmC7xP1rsrbdko1_r1_400.gif)
 background-size: 62.5%
 background-color: black
 background-position: right
 
-# .Large[Or, isn't it that <br> we just .yellow[assume] <br> they are some <br> evil-doers `r fa("skull-crossbones", fill="red")`?]
+# .large[It could be that <br> we just .yellow[assume] <br> they are some <br> evil-doers `r fa("skull-crossbones", fill="red")`.]
 
 ---
-background-image: url(https://thumbs.gfycat.com/AdorableHeartyIndianelephant.webp)
+
+background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTU6ZNLYxQuiRKptTHwp_PjfYC_GPsMpJjrldvPRairxWTH34Eps8Je-F4weztXRRffWYo&usqp=CAU)
 background-size: contain
+background-position: right
+
+# In fact, it is quite likely <br> much of the criticism leveled on <br> .red[IEO]s are built on .orange[this guy]'s critique <br> of (supposedly) American-led <br>capitalism.
+
+--
+
+# - The .pink[evil-doer ideas], in particular.
+
+# - Ken Rogoff's rant (2002)
+
+---
+
+class: inverse, middle
+background-color: #1A0563
+background-image: url(https://github.com/textvulture/textvulture.github.io/blob/master/images/waveBackground2.jpg?raw=true)
+background-size: 100%
+
+# It is in fact quite likely that most of the vocal critiques just don't understand .red[what IEOs do]. 
+
+--
+
+# Perhaps in part because IMF and WB only deal with .yellow[difficult situations] in the first placce
+
+---
+
+background-image: url(https://thumbs.gfycat.com/AdorableHeartyIndianelephant.webp)
+background-size: 100%
 class: inverse, center, middle
 
-# .Large[To actually understand how they work, we actually need to go back in .yellow[history].]
+# .Large[To actually understand how they work, we need to go back in .yellow[history].]
 
 --
 
@@ -220,6 +239,10 @@ background-size: 100%
 
 --
 
+# or mulilateral development banks in general
+
+--
+
 # Humphrey (2017)
 
 ---
@@ -264,5 +287,5 @@ background-size: cover
 
 --
 
-# What could be done, going forward?
+# What could be done, going forward? (The Nature 2021)
 
