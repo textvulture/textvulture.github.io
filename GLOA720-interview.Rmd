@@ -152,7 +152,7 @@ background-color: black
 ### Rapport (put them at ease)
 --
 
-- .large[relax them by using ordinary languages (*talk w/ you* instead of *interview you*)]
+- .large[ordinary languages (*talk w/ you* instead of *interview you*)]
 --
 
 - .large[but don't have too much fun]
@@ -175,7 +175,148 @@ background-color: black
 - .large['give me an example']
 --
 
-- .large['prompts'-- follow-ups; hints; specifiers; correctors]
+- .large['prompts': follow-ups; hints; specifiers; correctors]
 
+---
+
+background-image: url(https://raw.githubusercontent.com/textvulture/textvulture.github.io/master/images/Fujii_1.png)
+background-position: right
+background-size: contain
+
+# How to write <br> using interview data? 
+
+---
+
+background-image: url(https://raw.githubusercontent.com/textvulture/textvulture.github.io/master/images/Fujii_2.png)
+background-position: right
+background-size: contain
+
+# First, give some <br> empirical context
+
+# Using some data <br> collected from the interview.
+
+---
+
+
+background-image: url(https://raw.githubusercontent.com/textvulture/textvulture.github.io/master/images/Fujii_3.png)
+background-position: right
+background-size: contain
+
+
+# Of course, literature review
+
+## Helps understand <br> what to focus
+
+---
+
+background-image: url(https://raw.githubusercontent.com/textvulture/textvulture.github.io/master/images/Fujii_4.png)
+background-position: right
+background-size: contain
+
+# Method (1)
+
+## Interview sites
+
+## Interviewees
+
+## (more later)
+
+
+---
+
+background-image: url(https://raw.githubusercontent.com/textvulture/textvulture.github.io/master/images/Fujii_5.png)
+background-position: right
+background-size: contain
+
+# Method (2) 
+
+## Interview Protocol
+
+### details of <br> implementation
+
+### transparency
+
+
+---
+
+background-image: url(https://raw.githubusercontent.com/textvulture/textvulture.github.io/master/images/Fujii_6.png)
+background-position: right
+background-size: contain
+
+# Method (3)
+
+## Interview method
+
+## size & whom
+
+---
+
+background-image: url(https://raw.githubusercontent.com/textvulture/textvulture.github.io/master/images/Fujii_7.png)
+background-position: right
+background-size: contain
+
+# Method (3)
+
+## Interview method
+
+## size & whom
+
+---
+
+background-image: url(https://raw.githubusercontent.com/textvulture/textvulture.github.io/master/images/Fujii_8.png)
+background-position: right
+background-size: contain
+
+# Use of Data (1)
+
+## describe
+
+## explain
+
+## .pink[analysis]
+
+---
+
+background-image: url(https://raw.githubusercontent.com/textvulture/textvulture.github.io/master/images/Fujii_9.png)
+background-position: right
+background-size: contain
+
+# Use of Data (2)
+
+## whole conversation <br> (if necessary)
+
+---
+
+background-image: url(https://raw.githubusercontent.com/textvulture/textvulture.github.io/master/images/Fujii_10.png)
+background-position: right
+background-size: contain
+
+# Use of Data (3)
+
+## Comparison (1)
+
+---
+
+background-image: url(https://raw.githubusercontent.com/textvulture/textvulture.github.io/master/images/Fujii_12.png)
+background-position: right
+background-size: contain
+
+# Use of Data (3)
+
+## Comparison (2)
+
+---
+
+background-image: url(https://raw.githubusercontent.com/textvulture/textvulture.github.io/master/images/Fujii_13.png)
+background-position: right
+background-size: contain
+
+# Conclusion
+
+## Back to the literature
+
+---
+
+# Survey
 
 
