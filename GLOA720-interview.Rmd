@@ -319,4 +319,15 @@ background-size: contain
 
 # Survey
 
+## too wide an area to be condensed
+
+## all the caveats apply
+
+--
+
+```{r}
+
+knitr::include_graphics("https://raw.githubusercontent.com/textvulture/textvulture.github.io/master/images/Jones2013.png")
+
+```
 
