@@ -41,9 +41,9 @@ options(htmltools.preserve.raw = FALSE)
 class: inverse, center, middle
 background-image: url(https://www.gannett-cdn.com/media/2019/05/23/USATODAY/usatsports/gettyimages-963146454.jpg?width=1200&disable=upscale&format=pjpg&auto=webp)
 background-size: 100%
-background-color: black
+background-color: black 
 
-# .Huge[**Poverty & Inequality**] <br> .bluey[.LARGE[**GLOA 610**]] <br>
+# .Huge[**.stretch[Poverty & Inequality]**] <br> .bluey[.LARGE[**GLOA 610**]] <br>
 
 
 ```{r include=F, cache=T}
@@ -72,7 +72,10 @@ wdi %>%
                      )) -> wdi2
 
 ```     
+
+
 ---
+
 class: inverse
 background-color: black
 .pull-left[
