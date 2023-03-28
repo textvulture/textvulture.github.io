@@ -354,16 +354,25 @@ class: inverse
 background-image: url(https://64.media.tumblr.com/07fd4953d1fbe7d422523ab6eabfdb71/bf69424aa9f5c1e2-45/s540x810/3b64cd641624d8a38ffe0afabd13be814e55a71b.gifv)
 background-size: contain
 
-# .texttt[**New Hope**]: <br> .yellow[microfinancing] <br> .orange[cash-transfer] <br> .green[microcredit]
+# .texttt[.Large[**New Hope**]]: <br> .yellow[microfinancing] <br> .orange[cash-transfer] <br> .Green[microcredit]
 
 ---
 
 class: inverse, center, bottom
-background-image: url(https://static.independent.co.uk/2021/06/12/16/panakin.png)
+background-image: url(https://raw.githubusercontent.com/textvulture/textvulture.github.io/master/images/rightright.jpeg)
 background-size: contain
 background-color: black
 
-# .huge[It should work, right? RIGHT?]
+# .huge[It should work, right?]
+
+---
+
+class: inverse, center, bottom
+background-image: url(https://raw.githubusercontent.com/textvulture/textvulture.github.io/master/images/rightright.jpeg)
+background-size: contain
+background-color: black
+
+# .huge[It should work, right? .bluey[RIGHT?]]
 
 --
 
@@ -389,8 +398,8 @@ background-size: contain
 
 ### - multi-dimensional support
 
---
+---
 
-## .green[Limitations?]
+
 
 
