@@ -1,5 +1,5 @@
 ---
-title: "Poverty and Inequality <br> GLOA 610"
+title: "Poverty-Inequality GLOA 610"
 author: "Byunghwan Son <br> George Mason University"
 date: " "
 #########################################
@@ -38,13 +38,12 @@ knitr::opts_chunk$set(warning = FALSE, message = FALSE, error=F, echo=F)
 options(htmltools.preserve.raw = FALSE)
 ```
 
-class: inverse, right, middle
-background-image: url(https://financialtribune.com/sites/default/files/styles/360x260/public/field/image/17january/04-ff-disparity_1379-ab.jpg?itok=y8xlpx7d)
-background-size: 60%
-background-position: left
-background-color: black
+class: inverse, center, middle
+background-image: url(https://www.gannett-cdn.com/media/2019/05/23/USATODAY/usatsports/gettyimages-963146454.jpg?width=1200&disable=upscale&format=pjpg&auto=webp)
+background-size: 100%
+background-color: black 
 
-# .LARGE[Poverty& <br> Inequality] <br> GLOA 610-001 <br> <br>
+# .Huge[**.stretch[Poverty & Inequality]**] <br> .bluey[.LARGE[**GLOA 610**]] <br>
 
 
 ```{r include=F, cache=T}
@@ -73,7 +72,10 @@ wdi %>%
                      )) -> wdi2
 
 ```     
+
+
 ---
+
 class: inverse
 background-color: black
 .pull-left[
@@ -91,6 +93,24 @@ knitr::include_graphics('https://mrbsemporium.com/wp-content/uploads/2018/10/978
 ]
 
 ---
+
+class: inverse, center, middle
+background-image: url(https://raw.githubusercontent.com/textvulture/textvulture.github.io/master/images/blackboardBackground.jpg)
+background-size: 100%
+
+
+# .huge[poverty `r fa('not-equal', fill='red')` development]
+
+--
+
+# .huge[inequality `r fa('not-equal', fill='red')` development]
+
+--
+
+# .huge[inequality `r fa('not-equal', fill='yellow')` poverty]
+
+---
+
 class: inverse
 
 <div class="full-width-tinted"><br>
@@ -187,23 +207,29 @@ swiid_summary %>%
 ---
 
 <div class="full-width-tinted"><br>
-  <h1> .large[Some Examples, Inequality in Four Countries ] </h1>
+  <h1> Inequality in Some Countries </h1>
 </div><br><br>
 
 --
 
 ```{r, message=FALSE, echo=FALSE, warning=FALSE, results="asis", fig.width=16, fig.height=6.5, cache=T}
 
+library(ggrepel)
+
 name <- c("United States", 
-          "Mexico", 
+          "China", 
           "India",
-          "Iran")
+          "Sweden",
+          "Canada")
 
 swiid_summary %>%
   filter(country==name) %>%
+  group_by(country) %>%
+  mutate(max_year = max(year)) %>%
+  mutate(label = if_else(year == max_year, as.character(country), NA_character_)) %>%
   ggplot(aes(x=year,
              y=gini_disp, 
-             group=country,
+             #group=country,
              color=country, 
              fill=country)) +
   geom_line() +
@@ -211,7 +237,11 @@ swiid_summary %>%
                   ymax = gini_disp+1.96*gini_disp_se), 
               alpha = .25, color=NA) +
   theme_minimal() +
-  theme(legend.text = element_text(size=20),
+  geom_label_repel(aes(label=label), fill=NA,
+                   nudge_x = 1, nudge_y = -1, size=8) +
+  theme(legend.position = "none",
+    #legend.title = element_text(size=20),
+        #legend.text = element_text(size=20),
         axis.text=element_text(size=20),
         axis.title=element_text(size=20)) +
   labs(x="Year", y="Gini Coefficient")
@@ -220,24 +250,10 @@ swiid_summary %>%
 ```   
 
 ---
-class: inverse
-background-image: url(https://milescorak.files.wordpress.com/2016/05/branko-milanovice-global-inequality-elephant-curve.png?w=640)
-background-position: right
-background-size: 60%
 
-# .huge[Elephant 🐘]
+# Kuznet's Curve?
 
-## If inequality & poverty .yellow[`r fa("arrow-down")`], <br> why so much talk of <br> inequality .red[now]?
-
-### source: Milanovic (2020)
-
----
-
-<div class="full-width-tinted"><br>
-  <h1> .large[Kuznets Curve?] </h1>
-</div><br><br>
-
-.Large[.orange[`r fa("lightbulb")`]] &nbsp; .Large["The relationship between inequality and development is bell-shaped."] 
+.times[.Large[.orange[`r fa("lightbulb")`]] &nbsp; .Large["The relationship between inequality and development is bell-shaped."]]
 
 --
 
@@ -269,6 +285,30 @@ wdi2 %>%
 
 ---
 class: inverse, middle
+background-color: black
+
+# If inequality & poverty .yellow[`r fa("arrow-down")`], <br> why so much talk of <br> inequality .red[now]?
+
+--
+
+# Elephant 🐘 Story
+
+---
+class: inverse, middle
+background-color: black
+background-image: url(https://milescorak.files.wordpress.com/2016/05/branko-milanovice-global-inequality-elephant-curve.png?w=640)
+background-position: right
+
+
+# If inequality & poverty .yellow[`r fa("arrow-down")`], <br> why so much talk of <br> inequality .red[now]?
+
+# Elephant 🐘 Story
+
+### source: Milanovic (2020)
+
+---
+
+class: inverse, middle
 background-image: url(https://www.funnybeing.com/wp-content/uploads/2017/02/Oh-Your-Relationship-Status-Is-Its-Complicated.jpg)
 background-size: contain
 background-position: right
@@ -288,26 +328,10 @@ background-color: black
 ---
 
 class: inverse
-background-image: url(https://i.natgeofe.com/n/1447c33f-f7fa-4386-b891-1d06acd05b2a/5_unequal-scenes---johannesburg-2_2x3.jpg)
-background-position: right
-background-size: contain
-background-color: black
-
-# But wouldn't <br> globalization have .red[something] <br> to do with inequality?
-
---
-
-# Sometimes. <br> .red[Not] in the way <br> you think it does, tho.
-
---
-
-# .yellow[Linardi & Rudra (2020)]
-
----
-class: inverse
 background-image: url(https://c.tenor.com/VC-fg8LcaaAAAAAM/passando-mesmo-oh-brother.gif)
 background-position: right
 background-size: contain
+background-color: black
 
 
 
@@ -315,7 +339,7 @@ background-size: contain
 
 --
 
-## FDI, foreign aid, or economic <br> globalization in general.
+## FDI and foreign aid: ineffective.
 
 --
 
@@ -323,9 +347,6 @@ background-size: contain
 
 --
 
-## The positive effect is <br> probably too small/slow.
-
---
 
 ## So there's .red[no] way to address <br> poverty/inequality problem?
 
@@ -336,16 +357,25 @@ class: inverse
 background-image: url(https://64.media.tumblr.com/07fd4953d1fbe7d422523ab6eabfdb71/bf69424aa9f5c1e2-45/s540x810/3b64cd641624d8a38ffe0afabd13be814e55a71b.gifv)
 background-size: contain
 
-# .texttt[**New Hope**]: <br> .yellow[microfinancing] <br> .orange[cash-transfer] <br> .green[microcredit]
+# .texttt[.Large[**New Hope**]]: <br> .yellow[microfinancing] <br> .orange[cash-transfer] <br> .Green[microcredit]
 
 ---
 
 class: inverse, center, bottom
-background-image: url(https://static.independent.co.uk/2021/06/12/16/panakin.png)
+background-image: url(https://raw.githubusercontent.com/textvulture/textvulture.github.io/master/images/rightright.jpeg)
 background-size: contain
 background-color: black
 
-# .huge[It should work, right? RIGHT?]
+# .huge[It should work, right?]
+
+---
+
+class: inverse, center, bottom
+background-image: url(https://raw.githubusercontent.com/textvulture/textvulture.github.io/master/images/rightright.jpeg)
+background-size: contain
+background-color: black
+
+# .huge[It should work, right? .bluey[RIGHT?]]
 
 --
 
@@ -371,8 +401,47 @@ background-size: contain
 
 ### - multi-dimensional support
 
+---
+
+# But what about some .Blue[other positive] effects?
+
+---
+
+# But what about some .Blue[other positive] effects? <br> .tiny[.times[(Premand et al. 2023)]]
+
+.pull-left[
+
+```{r}
+
+knitr::include_graphics("https://github.com/textvulture/textvulture.github.io/blob/master/images/Premand1.png?raw=true")
+
+```
+
+]
+
 --
 
-## .green[Limitations?]
+.pull-right[
+
+```{r}
+
+knitr::include_graphics("https://github.com/textvulture/textvulture.github.io/blob/master/images/Premand2.png?raw=true")
+
+```
+
+
+]
+
+---
+
+class: inverse, center, middle
+background-image: url(https://github.com/textvulture/textvulture.github.io/blob/master/images/forestBackground3.jpg?raw=true)
+background-size: 115%
+
+# So, what do we know about inequality & poverty .yellow[now]?
+
+
+
+
 
 

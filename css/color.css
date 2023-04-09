@@ -29,6 +29,8 @@
 .HUGE { font-size: 400% }
 .super { font-size: 350% }
 
+.stretch { font-stretch: condensed; }
+
 .black { color: black; }
 .red { color: red; }
 .blue { color: blue; }

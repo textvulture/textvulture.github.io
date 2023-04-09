@@ -1,4 +1,3 @@
-base
 fs
 fontawesome
 ggplot2
@@ -13,3 +12,5 @@ forcats
 anicon
 emoGG
 WDI
+kableExtra
+ggrepel
