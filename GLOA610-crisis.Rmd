@@ -227,32 +227,17 @@ background-position: right
 
 ## Kindleberger (1979)
 
-### - .Blue[mania]
+## - .Blue[mania]
 
-### - .orange[panic]
+## - .orange[panic]
 
-### - .red[crash]
+## - .red[crash]
 
----
-
-background-image: url("https://z822j1x8tde3wuovlgo7ue15-wpengine.netdna-ssl.com/wp-content/uploads/2013/11/131102-08.png")
-background-position: right
-background-size: 65%
-
-# How Does A .red[Crisis] Happen? 
-
-
-## Kindleberger (1979)
-
-### - .Blue[mania]
-
-### - .orange[panic]
-
-### - .red[crash]
+--
 
 ## Oatley (2019)
-  - .Large[.times[complex system approach]]
-
+  - .Large[Global Financial Crisis 2007-8]
+  - .Large['complex system approach']
 
 ---
 
@@ -313,3 +298,18 @@ background-color: black
 --
 
 ![](https://github.com/textvulture/textvulture.github.io/blob/master/images/Campello2014.png?raw=true)
+
+---
+
+class: inverse
+background-image: url(https://media.tenor.com/uT0nKBzWC1QAAAAM/its-everywhere-anywhere.gif)
+background-size: contain
+background-position: right
+background-color: black
+
+
+# .LARGE[Crises are ubiquotous;]
+
+--
+
+# .large[but they are all .yellow[different].]
