@@ -153,7 +153,7 @@ background-color:  #f0f5f5
 
 --
 
-```{r, cache=T, out.width="700px" }
+```{r, cache=T, out.width="625px" }
 
 knitr::include_graphics("https://github.com/textvulture/textvulture.github.io/blob/master/images/polluted_cities.png?raw=true")
 
@@ -161,15 +161,6 @@ knitr::include_graphics("https://github.com/textvulture/textvulture.github.io/bl
 
 ---
 
-class: inverse, center, middle
-background-image: url(https://media0.giphy.com/media/AkjrwuWU6RQQMrNOlg/200w.webp?cid=ecf05e47lsgynnhqs64j646in1ahczbmuehvpjc5g9dhlkwf&rid=200w.webp&ct=g)
-background-size: contain
-
-# .huge[**Is .red[Degrowth] the Answer? <br> (McAfee 2020)**]
-
-
-
----
 background-image: url(https://www.intelligenteconomist.com/wp-content/uploads/2018/03/Environmental-Kuznets-Curve-1.png)
 background-size: 40%
 background-position: right
@@ -195,6 +186,13 @@ background-position: right
 
   - .large[is global trade anti-environment?]
 
+---
+
+class: inverse, center, middle
+background-image: url(https://media0.giphy.com/media/AkjrwuWU6RQQMrNOlg/200w.webp?cid=ecf05e47lsgynnhqs64j646in1ahczbmuehvpjc5g9dhlkwf&rid=200w.webp&ct=g)
+background-size: contain
+
+# .huge[**Is .red[Degrowth] the Answer? <br> (McAfee 2020)**]
 
 
 ---
@@ -229,6 +227,10 @@ background-size: 100%
 
 
 # .Large[**Why are reforms so hard (.yellow[domestically])?**]
+
+--
+
+# Why so difficult to be divorced with .bluey[coal] `r fa("fire", fill='red')`?
 
 
 ---
@@ -294,6 +296,9 @@ background-color: black
 ---
 
 # Democratic Backsliding as a .red[Threat] to .green[Public Health]
+
+--
+
 .center[
 ![](https://github.com/textvulture/textvulture.github.io/blob/master/images/Son2022_2.png?raw=true)
 ]
@@ -311,7 +316,7 @@ background-color: black
 
 ---
 
-# .large[OR, just a lifeline for .red[dictators]' ? (Fails 2020)]
+# OR, just a lifeline for .red[only some people] ? (Fails 2020)
 
 ```{r, out.width="900px", fig.align='center', cache=T}
 
