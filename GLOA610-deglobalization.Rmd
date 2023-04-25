@@ -42,9 +42,83 @@ options(htmltools.preserve.raw = FALSE)
 class: center, middle, inverse
 background-image: url(https://github.com/textvulture/textvulture.github.io/blob/master/images/cloudBackground.jpg?raw=true)
 
-# .HUGE[**.red[de].yellow[globalization?]**]
+# .HUGE[**.red[De].yellow[globalization?]**]
 
 # .times[**GLOA 610**]
+
+---
+
+class: inverse
+background-image: url(https://github.com/textvulture/textvulture.github.io/blob/master/images/factoryBackground1.png?raw=true)
+background-size: 100%
+
+# .Large[**What we're talking about**] (.tiny[in terms of .bluey[economic] globalization]):
+
+--
+<br>
+
+## - any indications of shriking interactions? (#.pink[volume])
+
+--
+
+## - any signs of worsening sentiments or signs? (#.pink[migrants])
+
+--
+
+## - or is it a challenge to the West-led global order (#.pink[China] #.pink[finance])?
+
+--
+
+## - or something else? (#.pink[reshoring])
+
+---
+
+# First, what do we mean by .red[de]globalization?
+
+--
+
+.blockquote[## **.green[Globalization:]**
+.black[.Large[
+A .Yellow[**process**] of increasing and intensifying .violet[**connectivity**] b/w global actors
+]
+]
+]
+<br><br>
+
+--
+
+.blockquote[## ** .red[*De*globalization:]**
+.black[.Large[
+  - Globalization in reverse.
+  - decreasing and/or loosening connectivity
+  - less/weakening global actors
+]
+]
+]
+
+---
+
+
+# First, what do we mean by .red[de]globalization?
+
+
+.blockquote[## **.green[Globalization:]**
+.black[.Large[
+A .Yellow[**process**] of increasing and intensifying .violet[**connectivity**] b/w global actors
+]
+]
+]
+<br><br>
+
+
+.blockquote[## ** .red[*De*globalization:]**
+.black[.Large[
+  - Globalization in reverse.
+  - decreasing and/or loosening connectivity
+  - less/weakening global .red[actors]: .orange[institutions? organizations?]
+]
+]
+]
 
 ---
   
@@ -73,21 +147,23 @@ wdi <- WDI(indicator=var,
            )) 
 ```
 
-# Has the volume of .red[trade] been shrinking?
+# Has the volume of .red[trade] been shrinking? <br> .tiny[(developed: GDPpc > USD 10k)]
 
 ```{r results="asis", fig.width=16, fig.height=7, cache=T}
 
 wdi %>% 
   ggplot(aes(x=year,
-             y=log(trade),
-             group=developed)) +
+             y=log(trade))) +
   geom_point(aes(color=developed),
-             alpha=0.25, size=2) +
+             alpha=0.25, size=0.25) +
   geom_smooth(aes(color=developed), 
               alpha=0.5) +
+  geom_smooth(aes(color='orange'), size=2, se=FALSE, linetype='dashed') +
   labs(x = "YEAR",
        y = "Volume of Trade, log scale") +
   theme_minimal() +
+  scale_color_manual(values = c("red", "orange", "blue" ),
+                     labels = c("developed", "Overall", "Under-developed")) +
   theme(legend.title=element_text(size=0),
         legend.text=element_text(size=25),
         axis.text=element_text(size=20),
@@ -97,7 +173,7 @@ wdi %>%
 ```
 
 ---
-# .bluey[Migrants]?
+# .Blue[Migrants]?
 
 ```{r results="asis", fig.width=16, fig.height=7, cache=T}
 
@@ -167,6 +243,18 @@ grid.arrange(fig1, fig2, ncol=2)
 
 ---
 
+## But maybe global econ institutions aren't relied upon .pink[anymore]?
+
+--
+
+### - Use of .Blue[WTO Dispute Settlement Mechanism] (source: WTO)
+
+.center[
+![](https://www.wto.org/images/img_dsb/dispustatschart8_e.png)
+]
+
+---
+
 class: inverse, center, middle
 background-image: url(https://github.com/textvulture/textvulture.github.io/blob/master/images/forestBackground3.jpg?raw=true)
 background-size: fill
@@ -179,54 +267,6 @@ background-size: fill
 
 ---
 
-# First, what do we mean by .red[de]globalization?
-
---
-
-.blockquote[## **.green[Globalization:]**
-.black[.Large[
-A .Yellow[**process**] of increasing and intensifying .violet[**connectivity**] b/w global actors
-]
-]
-]
-<br><br>
-
---
-
-.blockquote[## ** .red[*De*globalization:]**
-.black[.Large[
-  - Globalization in reverse.
-  - decreasing and/or loosening connectivity
-  - less/weakening global actors
-]
-]
-]
-
----
-
-
-# First, what do we mean by .red[de]globalization?
-
-
-.blockquote[## **.green[Globalization:]**
-.black[.Large[
-A .Yellow[**process**] of increasing and intensifying .violet[**connectivity**] b/w global actors
-]
-]
-]
-<br><br>
-
-
-.blockquote[## ** .red[*De*globalization:]**
-.black[.Large[
-  - Globalization in reverse.
-  - decreasing and/or loosening connectivity
-  - less/weakening global .red[actors]: .orange[institutions? organizations?]
-]
-]
-]
-
----
 background-image: url(https://ichef.bbci.co.uk/news/640/cpsprodpb/636C/production/_109625452_eu_far_right_map_010519_map640-nc.png)
 background-size: 30%
 background-position: right
@@ -266,7 +306,7 @@ background-position: right
   - .large['superstar' firms and automation]
 
 --
-  - .large[freed conservative govts to go anti-immigration]
+  - .large[allows conservative/populist govts to go anti-immigration]
 
 --
 
@@ -279,11 +319,7 @@ class: inverse, center, middle
 background-image: url(https://github.com/textvulture/textvulture.github.io/blob/master/images/wayBackground2.jpg?raw=true)
 background-size: cover
 
-# But maybe it's not just the .yellow[sentiment] or .yellow[right-wing politics]
-
---
-
-# .huge[Deglobalization **.red[from within]**]
+# Maybe there are some signs of .yellow[stress] to the system, though.
 
 ---
 class: inverse
@@ -312,7 +348,7 @@ background-size: cover
 class: inverse
 background-color: black
 
-# .large[Wait, did he say **.bluey[financial globalization?]**] <br> .small['Cause I hear the .red[crumbling sounds!!]] (.tiny[spoiler: Brawley 2021])
+# .large[Wait, did he say **.bluey[financial globalization?]**] <br> .small['Cause I hear the .red[crumbling sounds!!]]
 
 --
 
@@ -434,3 +470,19 @@ counter .red[Chinese] growth on the tech fields
 --
 
 ### `r fa("handshake-slash", fill='yellow')` A complete departure from 90s' globalization?
+
+---
+
+## But what about things that .red[cannot] be reshored? (e.g., .blue[cobalt]) (1)
+
+--
+
+.center[
+![](https://www.ft.com/__origami/service/image/v2/images/raw/https%3A%2F%2Fd6c748xw2pzm8.cloudfront.net%2Fprod%2F7ccc7460-bf56-11ed-8d24-1df0c5b816c1-standard.png?dpr=1&fit=scale-down&quality=highest&source=next&width=700)]
+
+---
+
+## But what about things that .red[cannot] be reshored? (e.g., .blue[cobalt]) (2)
+
+.center[
+![](https://www.ft.com/__origami/service/image/v2/images/raw/https%3A%2F%2Fd6c748xw2pzm8.cloudfront.net%2Fprod%2F560a8e10-be8a-11ed-b917-cbe2aff3902c-standard.png?dpr=1&fit=scale-down&quality=highest&source=next&width=700)]
