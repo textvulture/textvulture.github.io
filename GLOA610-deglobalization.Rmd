@@ -348,7 +348,7 @@ background-size: cover
 class: inverse
 background-color: black
 
-# .large[Wait, did he say **.bluey[financial globalization?]**] <br> .small['Cause I hear the .red[crumbling sounds!!]]
+# .large[Wait, did he say **.bluey[financial globalization?]**] <br> .times[.tiny['Cause I hear the .red[crumbling sounds] (of West-led global order)!!]]
 
 --
 
@@ -367,11 +367,11 @@ background-image: url(https://i.pinimg.com/originals/98/c6/d8/98c6d84ab84a7c4ba5
 background-position: right
 background-size: contain
 
-# Is .Blue[financial globalization] doomed?
+## Is .Blue[financial globalization] doomed?
 
 --
 
-## - **SWIFT** <br> .tiny[Society for Worldwide interbank Financial Telecommunications] 
+### - **SWIFT** <br> .tiny[Society for Worldwide interbank Financial Telecommunications] 
 --
 
 - .large[`r fa("whatsapp", fill='#2596be')` for bankers, private (or not!)]
@@ -388,23 +388,23 @@ background-image: url(https://i.pinimg.com/originals/98/c6/d8/98c6d84ab84a7c4ba5
 background-position: right
 background-size: contain
 
-# Is .Blue[financial globalization] doomed?
+## Is .Blue[financial globalization] doomed?
 
-## - **SWIFT** <br> .tiny[Society for Worldwide interbank Financial Telecommunications] 
+### - **SWIFT** <br> .tiny[Society for Worldwide interbank Financial Telecommunications] 
 
 - .large[`r fa("whatsapp", fill='#2596be')` for bankers, private (or not!)]
 
 --
 
-## - **CHIPS** <br> .tiny[Clearing House Interbank Payments System]
+### - **CHIPS** <br> .tiny[Clearing House Interbank Payments System]
 --
 
 - .large[actual transactions, US banks, Fed-owned]
 
 --
 
-## - **CIPS** <br> .tiny[Cross-Border Interbank Payments System]
--- 
+### - **CIPS** <br> .tiny[Cross-Border Interbank Payments System]
+--
 
 - .large[still reliant on SWIFT]
 
@@ -441,16 +441,16 @@ background-color: black
 .large[.yellow[: Creating Helpful Incentives to Produce Semiconductors]]
 --
 
-- .large[$ 280M pkg: domestic semiconductor .violet[manufacturing]]
+- .large[$280bn pkg: .violet[domestic] semiconductor .violet[manufacturing]]
 --
 
 - .large[
-.red[geopolitical] and .green[natural] risks
+.pink[geopolitical] and .Green[natural] risks
 ]
 --
 
 - .large[
-a comeback of .orange[industrial policy]?
+.orange['industrial policy']? (Danzman 2023)
 ]
 --
 
@@ -486,3 +486,11 @@ counter .red[Chinese] growth on the tech fields
 
 .center[
 ![](https://www.ft.com/__origami/service/image/v2/images/raw/https%3A%2F%2Fd6c748xw2pzm8.cloudfront.net%2Fprod%2F560a8e10-be8a-11ed-b917-cbe2aff3902c-standard.png?dpr=1&fit=scale-down&quality=highest&source=next&width=700)]
+
+---
+
+class: inverse, left, bottom
+background-image: url(https://i.gifer.com/1jyg.gif)
+background-size: 100%
+
+# .Large[Maybe not deglobalization, <br> but a .orange[new] kind.]
