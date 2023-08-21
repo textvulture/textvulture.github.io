@@ -30,6 +30,7 @@ seal: false
 ```{r setup, include=FALSE}
 # to use FontAwesome
 htmltools::tagList(rmarkdown::html_dependency_font_awesome())
+options(htmltools.preserve.raw = FALSE)
 library(fs)
 library(fontawesome)
 # library(magick)  
@@ -54,7 +55,7 @@ background-size: cover
 # .large[We've suffered .red[a lot] and I really hope that we're turning the corner.] 
 
 ---
-# Introduction: Byunghwan Son 
+# Instructor: Byunghwan Son 
 
 .pull-left[
 
@@ -69,7 +70,7 @@ knitr::include_graphics("images/worldcloud3.png")
 .pull-right[
 
 .large[
-`r fa("university")` George Mason University <br>
+`r fa("building-columns")` George Mason University (2014--) <br>
 |- Associate Prof. of Global Affairs
 
 `r fa("graduation-cap")` PhD in political science (2013) <br>
@@ -257,6 +258,20 @@ background-image: url(https://preventionlane.org/wp-content/uploads/2015/02/blac
 # 3. brief review of social science methods.
 
 ---
+
+<iframe src="https://textvulture.github.io/syllabi/GLOA610_Syllabus_online_F2023.pdf" width="300%" height="98%">
+</iframe>
+
+---
+class: center, top, inverse
+
+background-image: url(https://github.com/textvulture/textvulture.github.io/blob/master/images/deskBackground3.png?raw=true)
+background-size: cover
+
+# .Large[Go to Blackboard & sign up for .pink[two] spots.]
+
+---
+
 
 ### Image Sources
 .tiny[
