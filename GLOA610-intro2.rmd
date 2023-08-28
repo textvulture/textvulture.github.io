@@ -491,7 +491,7 @@ background-color: black
 background-image: url(https://openknowledge.worldbank.org/bitstream/handle/10986/36883/9781464817304.pdf.jpg?sequence=3&isAllowed=y)
 background-position: right, top
 
-#.huge[ .red[Hot] topics in 2022?]
+#.huge[ .red[Hot] topics in 2022-3?]
 
 --
 
