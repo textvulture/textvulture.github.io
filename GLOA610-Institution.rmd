@@ -196,9 +196,6 @@ background-position: right
 ### e.g., vulture capitalism
 
 ---
-background-image: url(https://media.tenor.com/Akhn78VlM8kAAAAM/el-lleve-shake-hands.gif)
-background-position: right
-background-size: contain
 
 
 # .large[`r fa("landmark")` Most common measure `r fa("magnifying-glass", fill='purple')` ]
@@ -213,18 +210,31 @@ background-size: contain
 
 ## - power-constraining
 
---
+
+---
+
+background-image: url(https://media.tenor.com/Akhn78VlM8kAAAAM/el-lleve-shake-hands.gif)
+background-position: right
+background-size: contain
+
+
+# .large[`r fa("landmark")` Most common measure `r fa("magnifying-glass", fill='purple')` ]
+
+## - **.green[judicial independence]**; **.orange[tax collection]**
+
+## - discretion-reduction
+
+## - power-constraining
+
 
  - .Large[.times[*will my property be just taken away?*]]
 
---
 
 # - .red[corruption-control]
 
 ---
 
-# Empirical example: .red[institutions] and .green[development] 
-- .large[.orange[pooled] global sample]
+# data: .red[institutions] and .green[development]  (.orange[pooled] global sample)
 
 ```{r, cache=TRUE}
 
@@ -254,26 +264,52 @@ ggplot(df, aes(x = e_wbgi_gee, y=e_migdppcln)) +
 
 ```
 
+---
+
+class: inverse
+background-image: url(https://github.com/textvulture/textvulture.github.io/blob/master/images/forestBackground3.jpg?raw=true)
+background-size: cover
+
+
+# .yellow[What] makes good and bad institutions?
+
+--
+
+# .pink[Where] does the difference come from?
+
+---
+class: inverse, bottom
+background-color: black
+
+# .yellow[Why were some European countries richer than others?]
+
+--
+
+# AJR (2005)
 
 ---
 
 class: inverse, bottom
 background-color: black
-background-image: url("https://www.nps.gov/articles/images/Middle-Passage-Map-Final-reduced-size.jpg")
+background-image: url("https://cdn.britannica.com/12/189412-049-D5A55A4F/flow-triangular-trade-Europe-slave-goods-North.jpg?w=740&h=416&c=crop")
 background-size: contain
 background-position: right
 
-# .large[Why were .yellow[some] <br> European countries <br> richer than others?]
-
---
-
+# .yellow[Why were some European countries richer than others?]
 
 # AJR (2005)
 
+---
+class: inverse, middle, center
+background-image: url(https://github.com/textvulture/textvulture.github.io/blob/master/images/night_background4.jpg?raw=true)
+background-size: 100%
 
---
+# .LARGE[But what about .pink[beyond] Europe?]
 
-# structure vs. institution
+---
+
+
+# .large[How come .red[Canada] is much richer than .blue[Belize] ]
 
 ---
 
@@ -292,7 +328,15 @@ background-position: right
 ### - what kind of .Yellow[institutions]?
 
 ---
+class: inverse
+background-color:  #034f84
+background-position: bottom
+background-size: contain
 
+# Why is .Yellow[Africa] mired in conflict (and thus little development?)
+
+
+---
 
 class: inverse
 background-color:  #034f84
@@ -302,7 +346,6 @@ background-size: contain
 
 # Why is .Yellow[Africa] mired in conflict (and thus little development?)
 
---
 
 <br>
 # .yellow[Michalopoulos and Papaioannou (2016)]
@@ -313,15 +356,16 @@ background-image: url(https://i.pinimg.com/736x/e6/1d/19/e61d197cea451b394221b8e
 background-size: contain
 background-position: right
 
-# .Large[Which institution is <br> better for development, <br> .orange[**democracy**] or .bluey[**autocracy**]?]
+# .large[Olson (1993)]
+
+--
+
+# Which is better for .pink[development], <br> .Green[**democracy**] or .Blue[**autocracy**]?
 
 --
 
 # What kind of autocracy?
 
---
-
-# Olson (1993)
 
 
 
