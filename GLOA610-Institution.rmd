@@ -49,14 +49,14 @@ background-color: black
 ---
 
 class: inverse
-background-image: url(https://thumbs.gfycat.com/FickleBraveAcornbarnacle-size_restricted.gif)
+background-image: url(https://i.gifer.com/38Wj.gif)
 background-size: cover
 
 # If you're a small business owner <br> in the .yellow[Wild West] `r fa("hat-cowboy", fill='orange')`,
 
 --
 
-# what .purple[scares] you the most `r fa("face-grimace")`?
+# what .pink[scares] you the most `r fa("face-grimace")`?
 
 ---
 
@@ -68,11 +68,13 @@ background-position: right
 
 ---
 
-class: inverse, bottom
-background-image: url(https://thumbs.gfycat.com/DifficultDelectableFulmar-size_restricted.gif)
+class: inverse, middle
+background-image: url(https://i.gifer.com/origin/e4/e487321f6d45b094d555f5c6d787e3d5_w200.gif)
 background-size: contain
+background-position: right
+background-color: black
 
-# .Large[Is there a way to put this .yellow[anxiety] to bed?]
+# .Large[Is there a way <br> to put this .yellow[anxiety] <br> to bed?]
 
 ---
 class: inverse
