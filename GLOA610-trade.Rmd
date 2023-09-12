@@ -34,6 +34,7 @@ library(fontawesome)
 library(dplyr)
 library(ggplot2)
 options(htmltools.preserve.raw = FALSE)
+knitr::opts_chunk$set(warning = FALSE, message = FALSE, error=F, echo=F)
 
 ```
 
@@ -68,9 +69,9 @@ background-size: cover
 
 --
 
-```{r, message=FALSE, echo=FALSE, warning=FALSE, results="asis", fig.width=16, fig.height=7, cache=T}
+```{r, message=FALSE, echo=FALSE, warning=FALSE, cache=T}
 # install.packages('WDI')
-library(tidyverse)
+library(dplyr)
 library(WDI)
 library(ggplot2)
 
@@ -78,12 +79,14 @@ var = c('Trade.gdp' = 'NE.TRD.GNFS.ZS',
         'imports' = 'NE.IMP.GNFS.CD',
         'exports' = 'NE.EXP.GNFS.CD',
         'GDPpc' = 'NY.GDP.PCAP.KD',
-        'tariff' = 'TM.TAX.MRCH.SM.AR.ZS')
+        'tariff' = 'TM.TAX.MRCH.SM.AR.ZS',
+        'totalMexport' = 'TX.VAL.MRCH.CD.WT', # merchandise exports
+        'totalSexport' = 'BX.GSR.NFSV.CD') # service exports
 
 wdi <- WDI(indicator=var,
            start=1960,
            country = 'all',
-           end=2021,
+           end=2022,
            extra=TRUE)
 
 wdi %>% 
@@ -91,7 +94,48 @@ wdi %>%
   mutate(developed = 
            case_when(GDPpc > 20000 ~ "developed",
                      GDPpc < 20000 ~ "underdeveloped"
-                     )) -> wdi2
+           )) -> wdi2
+
+wdi %>%
+  group_by(year) %>%
+  mutate(worldM = ifelse(country == 
+                          'World', 
+                         totalMexport, 
+                         totalMexport[country == 'World'])) %>%
+  mutate(worldS = ifelse(country == 
+                           'World', 
+                         totalSexport, 
+                         totalSexport[country == 'World'])) %>%
+  ungroup() %>%
+  mutate(shareM = totalMexport/worldM,
+         shareS = totalSexport/worldS) %>%
+  drop_na(GDPpc) %>%
+  filter(year==2019) %>%
+  filter(region != "Aggregates") -> wdi3 # to drop regional aggregates
+
+data1 <- wdi3 %>%
+  arrange(desc(shareM)) %>% 
+  select(country, shareM)
+
+data2 <- wdi3 %>%
+  arrange(desc(shareS)) %>% 
+  select(country, shareS)
+
+top_n <- 10
+top_cat1 <- data1[1:top_n, ]
+top_cat2 <- data2[1:top_n, ]
+
+rest_share1 <- 1 - sum(top_cat1$shareM)
+rest_share2 <- 1 - sum(top_cat2$shareS)
+
+rest1 <- data.frame(country = "The Rest", shareM = rest_share1)
+rest2 <- data.frame(country = "The Rest", shareS = rest_share2)
+
+comM <- rbind(top_cat1, rest1)
+
+comS <- rbind(rest2, top_cat2)
+
+top_cat_colors <- scales::hue_pal()(top_n)
 ```
 
 
@@ -142,21 +186,21 @@ wdi2 %>%
 ---
 
 <div class="full-width-tinted"><br>
-  <h1> Looking at very .yellow[**poor**] countries only (GDP per capita < .red[5k]) </h1> 
+  <h1> Trade and Development </h1> 
 </div>
 <br><br>
 
 
-```{r, message=FALSE, echo=FALSE, warning=FALSE, results="asis", fig.width=10.75, fig.height=6.25, cache=T}
+```{r, message=FALSE, echo=FALSE, warning=FALSE, results="asis", fig.width=12.5, fig.height=6.5, cache=T, fig.align='center'}
 wdi2 %>%
-  filter(GDPpc < 5000) %>%
   filter(Trade.gdp<125) %>%
-  ggplot(aes(Trade.gdp, GDPpc)) +
+  ggplot(aes(Trade.gdp, log(GDPpc))) +
   geom_smooth(alpha=0.25, size=3) +
   geom_point(alpha=0.1, color='red', size=2) +
-  labs(y="GDP per capita",
+  labs(y="GDP per capita, log",
        x="Trade/GDP") +
   theme_minimal() +
+  ylim(4, 12.5) + 
   theme(legend.title = element_blank()) +
   theme(legend.text = element_text(size=25),
         axis.text=element_text(size=20),
@@ -172,15 +216,16 @@ wdi2 %>%
 <br><br>
 
 
-```{r, message=FALSE, echo=FALSE, warning=FALSE, results="asis", fig.width=16, cache=T}
+```{r, message=FALSE, echo=FALSE, warning=FALSE, results="asis", fig.width=12.5, fig.height=6.5, cache=T, fig.align='center'}
 wdi2 %>%
   filter(GDPpc < 5000) %>%
-  filter(Trade.gdp<200) %>%
-  ggplot(aes(Trade.gdp, GDPpc)) +
+  filter(Trade.gdp<125) %>%
+  ggplot(aes(Trade.gdp, log(GDPpc))) +
   geom_smooth(alpha=0.25, size=3) +
-  geom_point(alpha=0.1, color='red', size=2) +
+  geom_point(alpha=0.1, color='green', size=2) +
   labs(y="GDP per capita",
        x="Trade/GDP") +
+  ylim(4, 12.5) +
   theme_minimal() +
   theme(legend.title = element_blank()) +
   theme(legend.text = element_text(size=25),
@@ -189,8 +234,8 @@ wdi2 %>%
 
 ```
 
-
 ---
+
 <div class="full-width-tinted"><br>
   <h1> Trade Liberalization (average tariff rates) </h1> 
 </div>
@@ -209,11 +254,56 @@ wdi2 %>%
   theme_minimal() +
   geom_point(alpha=0.1, size=3) +
   theme(legend.title = element_blank()) +
-  scale_color_manual(values=c("red", "blue")) +
+  scale_color_manual(values=c("green", "blue")) +
   theme(legend.text = element_text(size=25),
         axis.text=element_text(size=20),
         axis.title=element_text(size=20))
 ```
+
+---
+
+
+class: inverse, center, middle
+background-image: url(https://github.com/textvulture/textvulture.github.io/blob/master/images/night_background2.jpg?raw=true)
+background-size: 100%
+
+# .Large[So, we trade, <br>we develop?]
+
+---
+
+
+class: inverse
+background-color: black
+
+
+# .yellow[Heterodox Critiques]
+
+.pull-left[
+.center[
+```{r, message=FALSE, echo=FALSE, warning=FALSE, out.width='60%'}
+knitr::include_graphics('https://images-na.ssl-images-amazon.com/images/I/819g1GOFv2S.jpg')
+```
+]
+]
+
+--
+
+.pull-right[
+.blockquote[
+# "Many of [the Western economies] protected their industries far more strongly than their current developing countries have done" (p. 127)
+]
+]
+
+---
+class: inverse, center, middle
+background-image: url(https://github.com/textvulture/textvulture.github.io/blob/master/images/greenbackground2.jpg?raw=true)
+background-size: 100%
+
+# .Large[So, (free) trade is not the answer?]
+
+--
+
+# .pink[How] is trade supposed to generate .bluey[develpoment]?
 
 ---
 # .Yellow[.large[Some textbook-line fundamentals `r fa("book")`] ]
@@ -342,44 +432,27 @@ background-size: 120%
 # .large[But, of course, the reality is a little different.]
 
 ---
-class: inverse
-background-color: black
 
-
-# .yellow[Heterodox Critiques]
-
-.pull-left[
-.center[
-```{r, message=FALSE, echo=FALSE, warning=FALSE, out.width='60%'}
-knitr::include_graphics('https://images-na.ssl-images-amazon.com/images/I/819g1GOFv2S.jpg')
-```
-]
-]
-
---
-
-.pull-right[
-.blockquote[
-# "Many of [the Western economies] protected their industries far more strongly than their current developing countries have done" (p. 127)
-]
-]
-
-
-
----
-class: inverse, left, middle 
+class: inverse 
 background-color: #130654
 background-image: url(https://github.com/textvulture/textvulture.github.io/blob/master/images/blackboardBackground.jpg?raw=true)
 background-size: 115%
 
-# .times[.Large[.orange[Traditional] Debates on Trade:]]
+# .times[.large[Traditional Debates on Trade:]]
 
-# `r fa("volume-high")` &nbsp; .red[Protectionism] has long been the subject of debate.
+## `r fa("volume-high", fill='orange')` &nbsp; Protectionism has long been the subject of debate.
 
-# `r fa("bomb")` &nbsp; Global North-South political .red[tension]
+## `r fa("feather", fill='green')` &nbsp; on GATT (and WTO) rules
 
-# `r fa("feather")` &nbsp; Heavily built in .yellow[GATT] (and WTO) rules
+## `r fa("bomb", fill='red')` &nbsp; Global North-South political tension
 
+--
+
+## `r fa("hand-point-right")` based on old ideas such .orange[mercantilism]; .green[liberalism]; or .red[critical perspective]
+
+--
+
+## `r fa("hand-point-right", fill='yellow')` common understanding: trade happens b/w .pink[countries].
 
 ---
 
@@ -388,18 +461,24 @@ background-size: contain
 
 ---
 
-# Generations of Trade Theories (.small[i.e., how .red[specilalization] happens])
-.Large[
-|                  	|  Mode of Trade 	| Factor Mobility 	| Divide over Trade 	|
-|:----------------:	|:--------------:	|:---------------:	|:-----------------:	|
-| Traditional (HO) 	| .red[inter]-industry 	|  factor-mobile  	|    inter-factor   	|
-| New Trade Theory 	| .red[intra]-industry 	| factor-specific 	|   inter-industry  	|
-|      New New     	|   inter-firm   	|  firm-specific  	|     inter-firm    	|
+# NNTT (.green[firms], .red[not] countries, are the traders)
+
+.large[
+- only a few (1%) firms trade `r fa("circle-chevron-up")` 81% (.texttt[Kim & Osgood 2019])
 ]
+--
 
----
+.large[
+- big, strong firms: better positioned politically]
+--
 
-# Generations of Trade Theories (.small[i.e., how .red[specilalization] happens])
+.large[
+- "unrecoverable sunk cost"]
+
+--
+
+.Large[`r fa("pen-nib")` Generations of Trade Theories (.small[i.e., how .red[specilalization] happens])]
+
 .Large[
 |                  	|  Mode of Trade 	| Factor Mobility 	| Divide over Trade 	|
 |:----------------:	|:--------------:	|:---------------:	|:-----------------:	|
@@ -408,17 +487,43 @@ background-size: contain
 |      New New     	|   .green[**inter-firm**]   	|  .green[**firm-specific**]  	|     .green[**inter-firm**]    	|
 ]
 
---
+---
 
-# NNTT (.green[firms], .red[not] countries, are the traders)
+# .pink[Caveat]: this is only about the big picture, because in 2019:
 
-.large[
-- only a few (1%) firms trade `r fa("circle-chevron-up")` 81% (.texttt[Kim & Osgood 2019])
+.pull-left[
+.large[Export of .red[Merchandise] Share]
+
+```{r, cache=T}
+comM %>%
+  ggplot(aes(x="", y=shareM, fill=country)) +
+  geom_bar(stat = 'identity', width = 1) +
+  coord_polar(theta = "y") +
+  theme_void() +
+  scale_fill_manual(values = c(top_cat_colors, "black"),
+                    breaks = c(top_cat1$country, "The Rest")) +
+  theme(legend.text = element_text(size=15))
+```
 ]
+
 --
-.large[- big, strong firms: better positioned politically]
---
-.large[- "unrecoverable sunk cost"]
+
+.pull-right[
+.large[Export of .red[Service] Share]
+
+```{r, cache=T}
+comS %>%
+  ggplot(aes(x="", y=shareS, fill=country)) +
+  geom_bar(stat = 'identity', width = 1) +
+  coord_polar(theta = "y") +
+  theme_void() +
+  scale_fill_manual(values = c(top_cat_colors, "black"),
+                    breaks = c(top_cat2$country, "The Rest")) +
+  theme(legend.text = element_text(size=15))
+```
+]
+
+
 
 ---
 
@@ -427,24 +532,15 @@ background-color: #334003
 background-image: url(https://raw.githubusercontent.com/textvulture/textvulture.github.io/master/images/waveBackground2.jpg)
 background-size: 110%
 
-# .Large[The Consequence: <br> Does trade (shock) take jobs away? <br> What .bluey[kind] of jobs?]
+# .Large[**.orange[The Consequence:]**] <br> Does trade (shock) take jobs away? What .bluey[kind] of jobs?
 
 --
 
-## Owens & Johnston (2017); also Autor et al. (2016)
+## - Caliendo & Parro (2023)
 
----
+--
 
-class: middle, inverse 
-background-image: url(http://textvulture.github.io/images/Autor2016.png)
-background-size: 70%
-background-position: right
-
-```{r, echo=F, out.width="25%"}
-knitr::include_graphics("https://thumbs.gfycat.com/ActiveCheerfulBarnacle.webp")
-```
-<br><br>
-.Large["Why Don't They <br> Find a Job <br> *Elsewhere*?"]
+## - Owens & Johnston (2017)
 
 
 ---
@@ -456,7 +552,9 @@ background-size: 120%
 
 --
 
-# Guasti and Koenig-Archibigi (2022)
+# - Guasti and Koenig-Archibigi (2022)
+
+# - Do we actually observe it between .Green[competitors]?
 
 ---
 
@@ -464,9 +562,9 @@ class: inverse
 background-image: url(https://github.com/textvulture/textvulture.github.io/blob/master/images/borderBackground.jpg?raw=true)
 background-size: 110%
 
-# .large[What happens when there's an interruption?] <br> Like, in borders.
+# .large[What happens when there's an .yellow[interruption]?] <br> : Like, in borders `r fa("road-barrier", fill='red')` 
 
 --
 
-## Carter and Poast (2020)
+## - Carter and Poast (2020)
 
