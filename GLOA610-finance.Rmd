@@ -50,25 +50,22 @@ background-position: right
 
 class: inverse
 background-color: black
+background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSm8iyhqitY7a6JP3AyfNXCxPzZGc6GM4DvPA&usqp=CAU)
+background-size: contain
+background-position: right
 
-# .Large[Three Areas of Global 'Finance']
+## .Large[Three Areas of Global 'Finance']
 
 --
-.pull-left[
-## 1) Currency Exchanges (exchange rates): $6 tn per day
+
+## 1) Currency Exchanges (exchange rates) <br>: $6 tn .yellow[per day]
+--
 
 ## 2) Debt ($100 tn)
-
-## 3) Other types of money flow (e.g., remittances: $6 bn)
-]
-
 --
 
-.pull-right[
-```{r, echo=F}
-knitr::include_graphics('https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iXl1JgMATIUE/v0/-1x-1.png')
-```
-]
+## 3) Other types of money flow <br> (e.g., remittances: $6 bn)
+
 
 ---
 class: inverse, bottom, right
@@ -155,7 +152,7 @@ background-size: 140%
 
 ## - not a universal national strategy (cf. 'currency manipulator')
 
-## - .orange[interest groups] would lobby for undervaluation (.green[sometimes])
+## - .orange[interest groups] would lobby for undervaluation (.Green[sometimes])
 
 --
 # Broz and Werfel (2014); Steinberg and Shih (2012)
