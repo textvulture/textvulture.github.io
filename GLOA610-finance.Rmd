@@ -82,34 +82,41 @@ background-image: url(https://cdn.britannica.com/13/145313-050-852A6F13/Exchange
 background-position: right
 background-size: 30%
 
-# **Exchange rates** <br> = value of a currency compared to another's <br> = the .red[price] of a currency
+## **Exchange rates** 
 
 --
 
-## 1. .yellow[nominal] exchange rates 
+### = value of a currency compared to another's <br> = the .Green[price] of a currency
+
+--
+
+### 1. .yellow[nominal] exchange rates 
 
 - .large[need to know when travel abroad `r fa("plane")` : a-/depreciate)]
 - .large[instantaneously available]
 
 --
 
-## 2. .red[real] exchange rates 
+### 2. .pink[real] exchange rates 
 
 - .large[nominal] ** $\times$ ** .large[inflation rates: under/overvalued]
 - .large[estimates]
-- .large[considered an indicator .red[competitiveness] ]
+
+--
+
+### overall, considered an indicator .pink[competitiveness]
 
 ---
 
-# .Large[But, what competitiveness?]
+# .large[But, what competitiveness?]
 
 --
 
-# : the .red[price] competitiveness of .green[tradables] 
+## : the .red[price] competitiveness of .green[tradables] 
 
 --
 
-# .red[under]valuation: good for exports ('beggar-thy-neighbor')
+## .red[under]valuation: good for exports ('beggar-thy-neighbor')
 
 --
 
@@ -150,12 +157,14 @@ background-size: 140%
 
 --
 
-## - not a universal national strategy (cf. 'currency manipulator')
+## - not a universally sought-after strategy (cf. 'currency manipulator')
+
+--
 
 ## - .orange[interest groups] would lobby for undervaluation (.Green[sometimes])
 
 --
-# Broz and Werfel (2014); Steinberg and Shih (2012)
+# .pink[Broz and Werfel (2014)]; .bluey[Steinberg and Shih (2012)]
 
 
 ---
@@ -209,7 +218,7 @@ knitr::include_graphics('https://wolfstreet.com/wp-content/uploads/2018/10/US-Tr
 
 
 ---
-# Aren't people still say the US `r fa("dollar-sign", fill='green')` dominance is ending?
+# Aren't people still saying the US `r fa("dollar-sign", fill='green')` dominance is ending?
 
 --
 
