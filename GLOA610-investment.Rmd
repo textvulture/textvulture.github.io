@@ -36,11 +36,13 @@ options(htmltools.preserve.raw = FALSE) # for fontawesome
 ```
 
 
-class: inverse, center, middle
-background-image: url(https://researchleap.com/wp-content/uploads/2018/04/IJMSBA4.38.1.jpg)
+class: left, middle
+background-image: url(https://cdn.howmuch.net/articles/fourtune-100-%281%29-ee33.jpg)
 background-size: contain
+background-position: right
+background-color: white
 
-# .super[.bluey[.boldest[GLOBAL INVESTMENT]]] <br> .yellow[.LARGE[**GLOA610**]]
+# .Huge[.Blue[**GLOBAL <br>INVESTMENT** <br> (& MNCs)]] <br><br> .orange[.Large[**GLOA 610**]]
 
 ---
 
@@ -128,11 +130,11 @@ background-color: black
 background-image: url(https://github.com/textvulture/textvulture.github.io/blob/master/images/night_background6.jpg?raw=true)
 background-size: 100%
 
-# .Large[Is FDI .yellow[bad] for poor countries?]
+# .Large[**Things to talk about:**]
 
 --
 
-# Does it .bluey[promote] development?
+# Does it .bluey[promote] development? How much?
 
 --
 
@@ -140,6 +142,31 @@ background-size: 100%
 
 ---
 
+class: inverse, middle
+background-color: black
+
+# .large[`r fa("crown", fill="yellow")` Who are the <br top> hosts ?]
+
+# .large[`r fa("clock", fill="red")` Does it <br> change much?]
+
+# .large[`r fa("circle-exclamation", fill="green")` Does it <br> matter?]
+
+---
+
+class: inverse, middle
+
+background-color: black
+background-image: url(https://www.imf.org/wp-content/uploads/2021/12/COTW-FDI-update.gif)
+background-position: right
+background-size: contain
+
+# .large[`r fa("crown", fill="yellow")` Who are the <br top> hosts ?]
+
+# .large[`r fa("clock", fill="red")` Does it <br> change much?]
+
+# .large[`r fa("circle-exclamation", fill="green")` Does it <br> matter?]
+
+---
 
 # FDI .green[net] inflow, USD, in 100 million USD
 
@@ -222,33 +249,10 @@ wdi2 %>%
 ```
 ]
 
----
-
-class: inverse, middle
-
-background-color: black
-
-# .large[`r fa("crown", fill="yellow")` Who are the <br top> hosts ?]
-
-# .large[`r fa("clock", fill="red")` Does it <br> change much?]
-
-
----
-
-class: inverse, middle
-
-background-color: black
-background-image: url(https://topforeignstocks.com/wp-content/uploads/2020/09/Top-Foreign-Direct-Investment-Host-Countries-2019.png)
-background-position: right
-background-size: contain
-
-# .large[`r fa("crown", fill="yellow")` Who are the <br top> hosts ?]
-
-# .large[`r fa("clock", fill="red")` Does it <br> change much?]
-
 
 ---
 class: inverse, bottom
+background-color: black
 background-image: url(https://64.media.tumblr.com/tumblr_m71o7giWON1rsmws3o1_r1_500.gifv)
 background-size: 115%
 
@@ -275,7 +279,7 @@ background-color: black
 background-position: right
 background-size: contain
 
-# Are firms from rich countries <br> in pursuit of tax .yellow[cuts] <br> in .red[poor] countries? <br> #vulture # capitalism
+# Are firms from rich countries <br> in pursuit of tax .yellow[cuts] <br> in .red[poor] countries? <br> #vulture # capitalism?
 
 --
 
@@ -302,9 +306,9 @@ background-color: #1C1B1C
 background-image: url(https://ichef.bbci.co.uk/news/768/cpsprodpb/14110/production/_85829128_85829127.jpg)
 background-size: 100%
 
-# .yellow[What about other negative consequences? ]
+# .orange[What about other negative consequences? ]
 
-## .yellow[For example, wouldn't .orange[MNCs] incite strong backlash?]
+## .yellow[For example, wouldn't .pink[MNCs] incite strong backlash?]
 
 ### .bluey[Christensen (2019)]
 
