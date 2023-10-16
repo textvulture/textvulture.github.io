@@ -389,16 +389,16 @@ background-size: 100%
 
 ---
 
-### Is aid stolen?
+background-image: url(https://github.com/textvulture/textvulture.github.io/blob/master/images/Williams2018.JPG?raw=true)
+background-position: right
+background-size: contain
 
----
-
-### - .red[Andersen et al. (2020)]
-
---
-
-### Any other problems (Incompetion; peace-making)
+# Sometimes, <br>aid projects are .pink[incomplete].
 
 --
 
-### - .red[Williams (2018)]; .red[Sexton & Zürcher (2023)]
+# Because of corruption?
+
+--
+
+## - .red[Williams (2018)]; .red[Sexton & Zürcher (2023)]
