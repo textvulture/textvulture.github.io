@@ -323,7 +323,7 @@ background-size: contain
 
 --
 
-### Conventional explanation (dutch disease)
+### `r fa("book", fill='orange')` Conventional explanation (dutch disease)
 --
 
 ### Is FDI better than foreign aid?
@@ -342,8 +342,8 @@ background-size: contain
 
 --
 
-### Any other problems?
+### Any other problems (Incompetion; peace-making)
 
 --
 
-### - .red[Williams (2018)]
+### - .red[Williams (2018)]; .red[Sexton & Zürcher (2023)]
