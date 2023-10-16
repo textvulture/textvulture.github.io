@@ -205,6 +205,15 @@ blockquote, .blockquote {
 }
 
 
+.left-align {
+    text-align: left;
+}
+
+.right-align {
+    text-align: right;
+}
+
+
 .full-width-tinted {
   position: relative;  /* for child pseudo-element */
   z-index: 0;

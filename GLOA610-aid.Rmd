@@ -112,11 +112,7 @@ background-image: url(https://github.com/textvulture/textvulture.github.io/blob/
 background-size: 100%
 background-color: black
 
-# .Large[We might want to .pink[know] (in general):]
-
---
-
-## - whether foreign aid is some kind of .bluey[imperialist] apparatus;
+# .Large[We discuss:]
 
 --
 
@@ -124,9 +120,22 @@ background-color: black
 
 --
 
-## by looking at some .red[data `r fa("chart-column")`]
+## - if aid doesn't work, .pink[how] and .bluey[why]?
+
+--
+
+## first, let's look at some .red[data `r fa("chart-column")`]
 
 ---
+
+class: inverse, middle
+background-image: url(https://github.com/textvulture/textvulture.github.io/blob/master/images/night_background6.jpg?raw=true)
+background-size: 100%
+
+# .Large[The .pink['trap'] thesis (1): <br>.yellow[Have developing countries been increasingly dependent on aid?]]
+
+---
+
 <div class="full-width-tinted"><br>
   <h1> .large[How much: Aid per capita (.yellow[GDPpc<5k])] </h1>
 </div><br><br>
@@ -184,6 +193,7 @@ wdi2 %>%
 
 ---
 
+
 <div class="full-width-tinted"><br>
   <h1> .large[Aid dependency? Aid/GNI, % (GDPpc<5k)] </h1>
 </div><br><br><br>
@@ -208,6 +218,14 @@ wdi2 %>%
 ```
 
 ---
+
+class: inverse, middle
+background-image: url(https://github.com/textvulture/textvulture.github.io/blob/master/images/night_background4.jpg?raw=true)
+background-size: 100%
+
+# .Large[The .pink['trap'] thesis (2): <br>.yellow[Has aid suppressed development in poor countries?]]
+---
+
 <div class="full-width-tinted"><br>
   <h1> .large[Aid/GNI and development] </h1>
 </div><br><br><br>
@@ -282,6 +300,7 @@ Source: New York Times
 
 # What do *.pink[people]* <br> in the donor-side <br> consider?
 
+# .Yellow[Baker (2015)]
 
 ---
 
@@ -307,7 +326,7 @@ background-size: 100%
 
 --
 
-# - Independence and sovereignty?
+# - .bluey[Dependence] vs. .pink[Sovereignty]?
 
 --
 
@@ -315,28 +334,37 @@ background-size: 100%
 
 ---
 
-background-image: url(https://images-na.ssl-images-amazon.com/images/I/91p0O3fU-CL.jpg)
+class: inverse
+background-image: url(https://github.com/textvulture/textvulture.github.io/blob/master/images/wayBackground.jpg?raw=true)
 background-position: right
-background-size: contain
+background-size: 100%
 
-# .green[Is foreign aid ineffective? How/Why?]
+# .large[The Consequence:] <br>Is foreign aid .yellow[ineffective?] <br> .pink[How]/.Green[Why]?
 
 --
 
-### `r fa("book", fill='orange')` Conventional explanation (dutch disease)
---
+<br>
+<br>
+<br>
+
+
+.right-align[
+# `r fa("book", fill='orange')` .large[Conventional <br> Explanation]: <br> .bluey[Dutch Disease]
+]
+
+---
 
 ### Is FDI better than foreign aid?
 
---
+---
 
 ### - .red[Kosack and Tobin (2006)]
 
---
+---
 
 ### Is aid stolen?
 
---
+---
 
 ### - .red[Andersen et al. (2020)]
 
