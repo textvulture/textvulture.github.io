@@ -160,6 +160,14 @@ knitr::include_graphics("https://github.com/textvulture/textvulture.github.io/bl
 ```
 
 ---
+class: inverse, middle
+background-image: url(https://github.com/textvulture/textvulture.github.io/blob/master/images/background_leftEmpty.jpg?raw=true)
+background-size: 100%
+
+# All these problems..., are they driven by economic globalization (and thus development)?
+
+---
+
 
 background-image: url(https://www.intelligenteconomist.com/wp-content/uploads/2018/03/Environmental-Kuznets-Curve-1.png)
 background-size: 40%
@@ -207,11 +215,22 @@ knitr::include_graphics("https://github.com/textvulture/textvulture.github.io/bl
 
 ---
 
+class: inverse, middle
+background-image: url(https://media.tenor.com/G4XrtEyRKxMAAAAM/baeapes-nfts.gif)
+background-position: right
+background-size: contain
+background-color: black
+
+# .Large[Wait, <br> but isn't it all <br> because of <br> .pink[off-shoring?]]
+
+
+---
+
 background-image: url(https://www.economist.com/img/b/400/582/90/media-assets/image/20211113_WOC158.png)
 background-size: 35%
 background-position: right
 
-# .green[**And it ain't all outsourcing**]
+# .green[**It ain't all outsourcing**]
 
 ```{r, out.width="550px"}
 
