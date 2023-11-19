@@ -126,12 +126,13 @@ A .Yellow[**process**] of increasing and intensifying .violet[**connectivity**] 
 
 library(WDI)
 
-var = c('GDPpc' = 'NY.GDP.PCAP.KD',
-        'trade' = 'TX.VAL.MRCH.CD.WT',
+var = c('GDPpc' = 'NY.GDP.PCAP.KN',
+        'trade' = 'TG.VAL.TOTL.GD.ZS',
         'tariff' = 'TM.TAX.MRCH.SM.AR.ZS',
         'tourism' = 'ST.INT.TVLR.CD',
-        'migrantStock' = 'SM.POP.TOTL'
-        )
+        'migrantStock' = 'SM.POP.TOTL',
+        'trade_all' = 'NE.TRD.GNFS.ZS'
+)
 
 wdi <- WDI(indicator=var,
            start=1970,
@@ -139,28 +140,30 @@ wdi <- WDI(indicator=var,
            end=2021,
            extra=TRUE)   %>%
   filter(region !="Aggregates") %>%
-  drop_na(GDPpc) %>%
   mutate(developed = 
            case_when(
-             GDPpc > 10000 ~ "Developed",
-             GDPpc < 10000 ~ "Under-developed"
+             income == "High income" ~ "Developed",
+             income == "Upper middle income" ~ "Developed",
+             income == "Lower middle income" ~ "Underdeveloped",
+             income == "Low income" ~ "Underdeveloped"
            )) 
+
 ```
 
-# Has the volume of .red[trade] been shrinking? <br> .tiny[(developed: GDPpc > USD 10k)]
+# Has the volume of .red[trade] been shrinking? <br> .tiny[(developed: WB classification)]
 
-```{r results="asis", fig.width=16, fig.height=7, cache=T}
+```{r results="asis", fig.width=16, fig.height=7}
 
 wdi %>% 
   ggplot(aes(x=year,
-             y=log(trade))) +
+             y=trade_all)) +
   geom_point(aes(color=developed),
-             alpha=0.25, size=0.25) +
+             alpha=0.25, size=0.25, se=F) +
   geom_smooth(aes(color=developed), 
-              alpha=0.5) +
+              alpha=0.5, se=F) +
   geom_smooth(aes(color='orange'), size=2, se=FALSE, linetype='dashed') +
   labs(x = "YEAR",
-       y = "Volume of Trade, log scale") +
+       y = "All Trade % of GDP") +
   theme_minimal() +
   scale_color_manual(values = c("red", "orange", "blue" ),
                      labels = c("developed", "Overall", "Under-developed")) +
@@ -173,33 +176,38 @@ wdi %>%
 ```
 
 ---
-# .Blue[Migrants]?
 
-```{r results="asis", fig.width=16, fig.height=7, cache=T}
+# Has the volume of .red[trade] been shrinking? (merchandise) <br> .tiny[(developed: WB classification)]
+
+```{r results="asis", fig.width=16, fig.height=7}
 
 wdi %>% 
   ggplot(aes(x=year,
-             y=log(migrantStock),
-             group=developed)) +
+             y=trade)) +
   geom_point(aes(color=developed),
-             alpha=0.25, size=2) +
+             alpha=0.25, size=0.25, se=F) +
   geom_smooth(aes(color=developed), 
-              alpha=0.5) +
+              alpha=0.5, se=F) +
+  geom_smooth(aes(color='orange'), size=2, se=FALSE, linetype='dashed') +
   labs(x = "YEAR",
-       y = "Migrant Stock, log scale") +
+       y = "Merchandize Trade % of GDP") +
   theme_minimal() +
+  scale_color_manual(values = c("red", "orange", "blue" ),
+                     labels = c("developed", "Overall", "Under-developed")) +
   theme(legend.title=element_text(size=0),
         legend.text=element_text(size=25),
         axis.text=element_text(size=20),
-        axis.title=element_text(size=20)) 
+        axis.title=element_text(size=20)) +
+  ylim(12, 25)
 
 ```
+
 
 ---
 
 # .orange[Tariff?] .green[Tourism?]
 
-```{r results="asis", fig.width=16, fig.height=7, cache=T}
+```{r results="asis", fig.width=16, fig.height=7}
 
 fig1 <- wdi %>% filter(year>1993) %>%
   filter(tariff<50) %>%
@@ -418,11 +426,22 @@ knitr::include_graphics("https://github.com/textvulture/textvulture.github.io/bl
 ```
 
 ---
+
+# Besides, stories about .pink[trade war] might be a bit .red[overblown]
+
+```{r, out.width="650px", fig.align = 'center'}
+knitr::include_graphics("https://pbs.twimg.com/media/FwymH-KWIAEQKko?format=png&name=large")
+
+```
+
+source: Brad Setser (https://pbs.twimg.com/media/FwymH-KWIAEQKko?format=png&name=large) 
+
+---
 class: inverse, middle, center
-background-image: url(https://thumbs.gfycat.com/HighConsiderateBluewhale.webp)
+background-image: url(https://reactiongifs.me/cdn-cgi/imagedelivery/S36QsAbHn6yI9seDZ7V8aA/48e80e16-93a0-4d96-421d-1a83abf08d00/w=640)
 background-size: contain
 
-# .Large[So it's all okay?]
+# .LARGE[So it's all okay?]
 
 --
 
