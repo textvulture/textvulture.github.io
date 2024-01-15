@@ -1,4 +1,4 @@
-/************************************
+ ************************************
  *
  * Template-independent CSS code for formatting xaringan presentations
  * https://github.com/yihui/xaringan/tree/master/inst/rmarkdown/templates/xaringan/resources
@@ -14,7 +14,9 @@
  **************/
 
 .HUGE { font-size: 400% }
-.Huge { font-size: 300% }
+
+.HugE { font-size: 300% }
+.Huge { font-size: 250% }
 .huge { font-size: 200% }
 .LARGE { font-size: 180% }
 .Large { font-size: 144% }
@@ -25,11 +27,17 @@
 .scriptsize { font-size: 70% }
 .tiny { font-size: 60% }
 
+.HUGE { font-size: 400% }
+.super { font-size: 350% }
+
+.stretch { font-stretch: condensed; }
+
 .black { color: black; }
 .red { color: red; }
 .blue { color: blue; }
 .Blue { color: #6666ff; }
 .green { color: green; }
+.Green { color: #A2D7A0; }
 .yellow { color: yellow; }
 .orange { color: orange; }
 .purple { color: purple; }
@@ -40,9 +48,12 @@
 .violet { color: #948DF0; }
 .white { color: #FCFEFE; }
 .Yellow { color: #ffaf00; }
+.ivory { color: #FDFED9; }
+.pink { color: #ff8080; }
 
 .bold { font-weight: bold; }
 .bolder { font-weight: bolder; }
+.boldest { font-weight: 1000; }
 
 .texttt { font-family: 'Source Code Pro' }
 .times{ font-family: 'Times New Roman' }
@@ -50,7 +61,6 @@
 
 
 .tab { text-indent: 5em; }
-
 
 /* USYD blockquote */
 blockquote, .blockquote {
@@ -97,9 +107,20 @@ blockquote, .blockquote {
 }
 
 
+.pull-right ~ * { clear: unset; }
+.pull-right + * { clear: both; }
 
-.left-column ~ * { clear: unset; }
-.left-column + * { clear: both; }
+
+
+
+.column {
+  display: inline-block;
+  width: calc(100% / 3);
+  box-sizing: border-box;
+  float: left;
+  padding: 0 10px;
+  vertical-align: top;
+}
 
 
 /******************
@@ -124,6 +145,16 @@ blockquote, .blockquote {
   padding: 0px 20px 0px 20px;
   width: 100%;
 }
+
+.content-box-long {
+    box-sizing: border-box;
+    border-radius: 15px;
+    margin: 10 10 15px;
+    overflow: hidden;
+    padding: 10px 20px 10px 20px;
+    width: 100%;
+}
+
 .content-box-blue { background-color: #F0F8FF; }
 .content-box-gray { background-color: #e2e2e2; }
 .content-box-grey {	background-color: #F5F5F5; }
@@ -144,6 +175,8 @@ blockquote, .blockquote {
   background: none;
 }
 
+.content-box-long { background-color: green;}
+
 .full-width {
     display: flex;
     width: 100%;
@@ -151,11 +184,30 @@ blockquote, .blockquote {
 }
 
 
-/* for aligning .pull-left and -right  */
 
-.pull-right ~ * { clear: unset; }
-.pull-right + * { clear: both; }
+```{css echo=FALSE}
+.right-column{
+  padding-top: 0;
+}
+```
 
+.pull-left2 {
+  float: left;
+  width: 27%;
+}
+.pull-right2 {
+  float: right;
+  width: 72%;
+}
+
+
+.left-align {
+    text-align: left;
+}
+
+.right-align {
+    text-align: right;
+}
 
 
 .full-width-tinted {
@@ -172,4 +224,16 @@ blockquote, .blockquote {
 .pulse {
   -webkit-animation-name: pulse;
   animation-name: pulse;
+}
+
+.banner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: green;
+  color: #ffffff;
+  height: 50px;
+  font-size: 24px;
+  font-weight: bold;
+  color: white;
 }

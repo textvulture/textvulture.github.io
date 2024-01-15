@@ -62,7 +62,6 @@
 
 .tab { text-indent: 5em; }
 
-
 /* USYD blockquote */
 blockquote, .blockquote {
   display: block;
@@ -108,9 +107,6 @@ blockquote, .blockquote {
 }
 
 
-
-.left-column ~ * { clear: unset; }
-.left-column + * { clear: both; }
 
 
 .column {
@@ -184,10 +180,6 @@ blockquote, .blockquote {
 }
 
 
-/* for aligning .pull-left and -right  */
-
-.pull-right ~ * { clear: unset; }
-.pull-right + * { clear: both; }
 
 ```{css echo=FALSE}
 .right-column{

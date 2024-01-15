@@ -30,7 +30,11 @@ htmltools::tagList(rmarkdown::html_dependency_font_awesome())
 library(fs)
 library(fontawesome)
 # library(magick)  
+knitr::opts_chunk$set(warning = FALSE, message = FALSE, error=F, echo=F)
+options(htmltools.preserve.raw = FALSE)
+
 ```
+
 
 class: inverse, middle
 background-color: black
@@ -42,20 +46,21 @@ background-image: url(https://images.idgesg.net/images/article/2022/03/asia-fom-
 
 ---
 
-class: inverse, middle
-background-image: url(https://thumbs.gfycat.com/GrossDarlingEasternglasslizard-max-1mb.gif)
+class: inverse
+background-image: url(https://i.pinimg.com/originals/f6/8d/b1/f68db1eaff0b3e815ca60e7e1b010ad0.gif)
 background-size: contain
 
-# .Large[Really glad to see you all today.]
+# .Large[**Really** glad to see you all today.]
 
 --
 
-# .large[We .orange[suffered] a lot and I hope this is the .red[beginning] of a whole .yellow[new] chapter.]
-
+# .bluey[This course is not offered frequently enough, so I am please that we get to talk about this] .yellow[important] .bluey[subject together.]
 
 --
 
-## so who am I?
+# But it ain't a special-topic course. It's a capstone course where you do your independent research. .pink[More] about this later.
+
+## *Before all that, who am I?*
 
 ---
 # Introduction: Byunghwan Son 
@@ -82,7 +87,7 @@ knitr::include_graphics("https://github.com/textvulture/textvulture.github.io/bl
 |   politics of global finance      <!-- the 'four space' rule --><br>
 |   democratic backsliding  <br>
 |   public opinion survey <br>
-|   Asian globalization   <br>
+|   political economy in Asian <br>
 
 <i class="far fa-address-book"></i> Contact  
 |   `r fa("envelope")` <bson3@gmu.edu>   
@@ -107,12 +112,17 @@ class: inverse
 
 ---
 
+
 # Q1. The opening of the Chinese economy started in the 1970s? [.blue[t]/.red[f]]
 
 --
-### .blue[True]. Deng's 'four modernizations' (1979)
 
-![](https://theatlas.com/i/atlas_H17CUxt8X.png)
+.pull-left[## .blue[True]. Deng's 'four modernizations' (1979)]
+
+.pull-right[.center[![](https://chineseposters.net/sites/default/files/images/e15-456.jpg)]]
+
+
+
 ---
 
 # Q2. For about 75% of the all post-war years, Japan's Liberal Democratic Party was the ruling party. [.blue[t]/.red[f]]
@@ -127,7 +137,11 @@ class: inverse
 # Q3. Thailand was briefly colonized by Imperial Japan during WW2. [.blue[t]/.red[f]]
 
 --
-.pull-left[![](https://i.pinimg.com/originals/68/3a/f9/683af96a570a8a5ea9a429d36a1b01ea.jpg)]
+.pull-left[
+```{r, out.width="80%"}
+knitr::include_graphics("https://i.pinimg.com/originals/68/3a/f9/683af96a570a8a5ea9a429d36a1b01ea.jpg")
+```
+]
 .pull-right[# .red[False]. Thailand, just like Ethiopia, is one of the few countries in the Global South that was never colonized by imperialists.]
 
 ---
@@ -135,8 +149,13 @@ class: inverse
 # Q4. There are elections and a constitution in North Korea.[.blue[t]/.red[f]]
 
 --
+
+<br>
+
 .pull-left[
-# .blue[True]. But not very competitive elections. The constitution was even amended several times.
+# .blue[True]. 
+
+## Though not at all competitive elections. The constitution was even amended several times.
 ]
 .pull-right[![](https://cdn.cnn.com/cnnnext/dam/assets/150721141007-kim-jong-un-votes-local-election-full-169.jpeg)]
 
@@ -145,30 +164,58 @@ class: inverse
 # Q5. China, Japan, and South Korea are part of ASEAN. [.blue[t]/.red[f]]
 
 --
+
+<br>
+<br>
+
 .pull-left[
-# .orange[kind of]. There's ASEAN+3 which plays a significant role in the workings of the org.
+# .red[Not exactly]. 
+
+## But there's .pink[ASEAN+3] framework which plays a significant role in the workings of the org.
 ]
-.pull-right[![](https://www.economist.com/sites/default/files/images/2014/03/blogs/economist-explains/20140308_blp506.jpg)]
+
+.pull-right[![](https://study-asean.mgimo.ru/images/4490916.jpg)]
 
 ---
 
 # Q6. Malaysia is the most populous Muslim country. [.blue[t]/.red[f]]
 
 --
-# .red[False]. Indonesia is. ![](/images/indonesia-muslim.png)
+
+.left-column[
+# .red[False]. Indonesia is.
+]
+
+.right-column[
+
+```{r, fig.align='center', out.width="600px"}
+
+knitr::include_graphics("https://ca-times.brightspotcdn.com/dims4/default/5098570/2147483647/strip/false/crop/512x393+0+0/resize/512x393!/quality/75/?url=https%3A%2F%2Fcalifornia-times-brightspot.s3.amazonaws.com%2F9c%2Fb7%2F28002c0bf96f9002ed5c92a99fd6%2Fsdut-graphic-shows-countries-with-th-20160829")
+
+```
+
+]
+
 ---
 
-# Q7. Until the 20th century, Japan was ethnically homogeneous society.
+# Q7. Until 20C, Japan was ethnically homogeneous society.
 
 --
 
-.pull-left[
-![](https://www.slowfood.com/wp-content/uploads/2017/10/IMG_1272-2-e1509098252313.jpg)
+
+.left-column[
+# .red[False]. Okinawans and Ainus
 ]
 
-.pull-right[
-# .red[False]. Okinawan and Ainu]
+.right-column[
 
+```{r, fig.align='center', out.width="650px"}
+
+knitr::include_graphics("https://borgenproject.org/wp-content/uploads/2746187012_3522752372_b-e1631385441344.jpg")
+
+```
+
+]
 
 ---
 
@@ -194,3 +241,17 @@ background-image: url(https://media.giphy.com/media/8dYmJ6Buo3lYY/giphy.gif?cid=
 background-size: cover
 
 # Okay, let's talk about the syllabus now.
+
+---
+background-color: black
+
+
+<iframe
+
+width="1200"
+height="650"
+
+src="https://textvulture.github.io/syllabi/GLOA400_Syllabus.pdf"
+>
+
+</iframe>
