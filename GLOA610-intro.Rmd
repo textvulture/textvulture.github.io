@@ -39,7 +39,7 @@ library(fontawesome)
 ```
 
 class: inverse, center, middle
-background-image: url(https://thumbs.gfycat.com/SilkyGrimyAsiaticgreaterfreshwaterclam.webp)
+background-image: url(https://i.pinimg.com/originals/3b/af/8f/3baf8f136f4e4f89c3fdb9c166676fca.gif)
 background-size: contain
 
 # .HUGE[.yellow[**Welcome to <br> GLOA 610**]]
@@ -47,14 +47,14 @@ background-size: contain
 ---
 
 class: inverse, bottom
-background-image: url(https://thumbs.gfycat.com/CrazyAliveIberianlynx.webp)
+background-image: url(https://i.pinimg.com/originals/5e/11/ac/5e11aca261ae40746983ac7efa1770d7.gif)
 background-size: cover
 
 # .Large[Really glad to see you all today.]
 
 --
 
-# We start .yellow[slow], but hope we accomplish .bluey[a lot] in the end.
+# This wasn't the ideal start I wanted, but we will end strong.
 
 ---
 
@@ -83,7 +83,7 @@ knitr::include_graphics("images/worldcloud3.png")
 |-   .red[politics of global finance]      <!-- the 'four space' rule --><br>
 |-   democratic backsliding  <br>
 |-   public opinion; big data; social media <br>
-|-   Globalization in Asia   <br>
+|-   Political economy in Asia   <br>
 
 `r fa("address-book")` Contact  
 |-   <i class="fas fa-envelope"></i> <bson3@gmu.edu>   
@@ -92,6 +92,14 @@ knitr::include_graphics("images/worldcloud3.png")
 ]
 
 ---
+class: top, center, inverse
+background-image: url(https://media.giphy.com/media/UKkes2qN2T70s/giphy.gif)
+background-size: 100%
+
+# .LARGE[.yellow[Ruthless Pragamtism]]
+
+---
+
 background-color: black
 
 <center>
@@ -274,7 +282,7 @@ background-image: url(https://preventionlane.org/wp-content/uploads/2015/02/blac
 
 ---
 
-<iframe src="https://textvulture.github.io/syllabi/GLOA610_Syllabus_inperson_F2023.pdf" width="300%" height="98%">
+<iframe src="https://textvulture.github.io/syllabi/GLOA610_Syllabus.pdf" width="300%" height="98%">
 </iframe>
 
 ---
