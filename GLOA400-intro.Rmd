@@ -1,5 +1,5 @@
 ---
-title: ".green[Introduction] <br> GLOA 400"
+title: "Intro, GLOA400"
 author: "Byunghwan Son <br> George Mason University"
 date: " "
 #########################################
@@ -97,6 +97,26 @@ knitr::include_graphics("https://github.com/textvulture/textvulture.github.io/bl
 ]
 
 ---
+class: inverse
+background-color: black
+background-image: url(https://media3.giphy.com/media/jVHko6VTOTzwKSAw8Q/200w.gif?cid=82a1493b6xeu1vbub4btr5in3i3jmn1v0tunad8e2lzhxh2i&ep=v1_gifs_related&rid=200w.gif&ct=g)
+background-position: right
+background-size: contain
+
+
+
+
+# Now, tell us about .pink[you].
+
+## - Your name
+
+## - Your concentration
+
+## - You area of interest <br>(country, region, themes)
+
+
+---
+
 background-color: black
 class: inverse
 
