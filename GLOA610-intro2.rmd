@@ -306,13 +306,19 @@ background-size: cover
 
 ---
 
-## Oh, another thing. The numbers are .red[adjusted] `r fa("arrow-right")` they can be compared.
+## Oh, another thing. The numbers are .red[adjusted] `r fa("arrow-right")` for fair comparison.
+
+--
 
 - .large[PPP (purchasing power parity): .orange[same] `r fa("money-bill", fill='green')` can buy different things in different countries.]
 
 --
 
-![](https://a.c-dn.net/c/content/dam/publicsites/igcom/uk/images/ContentImage/Nominal_vs_PPP_GDP@2x.png)
+```{r, out.width="90%", echo=FALSE}
+
+knitr::include_graphics("https://a.c-dn.net/c/content/dam/publicsites/igcom/uk/images/ContentImage/Nominal_vs_PPP_GDP@2x.png")
+
+```
 
 ---
 
@@ -416,7 +422,7 @@ wdi %>%
 
 ---
 
-# Two and a half, <br>.green[GDP not really a good indicator?]
+# What if, though, <br>.green[GDP not really a good indicator?]
 
 ---
 
@@ -425,7 +431,7 @@ background-position: right
 background-size: contain
 
 
-# Two and a half, <br>.green[GDP not really a good indicator?]
+# What if, though, <br>.green[GDP not really a good indicator?]
 
 ## Martinez (2022)
 
