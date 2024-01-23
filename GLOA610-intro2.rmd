@@ -415,7 +415,10 @@ wdi %>%
 
 ---
 
+# Two and a half, .green[GDP not really a good indicator?]
 
+
+---
 
 # Third, .green[**Life Expectancy at Birth**]
 
@@ -477,35 +480,39 @@ background-size: contain
 
 ---
 
-class: inverse, middle
-background-image: url(https://www.economist.com/img/b/1000/914/90/sites/default/files/20171014_WOC647.png)
-background-size: contain
-background-position: right
+class: inverse
 background-color: black
 
-# .huge[For <br> example,<br> why <br> .red[no] escape?]
+#.Large[Development in .pink[2023?]]
+
 
 ---
 class: inverse
 background-color: black
-background-image: url(https://openknowledge.worldbank.org/bitstream/handle/10986/36883/9781464817304.pdf.jpg?sequence=3&isAllowed=y)
-background-position: right, top
+background-image: url(https://www.worldbank.org/content/dam/photos/780x439/2023/apr/WDR-2023-Launch-PPT.jpg)
+background-position: top right
+background-size: 40%
 
-#.huge[ .red[Hot] topics in 2022-3?]
+#.Large[Development in .pink[2023?]]
 
---
 
-## `r fa("hand-holding-dollar", fill='yellow')` varied responses to the pandemic
 
-### - the richer, the more aggresive? `r fa("arrow-right")` poverty/equity
-
---
-
-## `r fa("sack-dollar", fill='yellow')` Sovereign debt problem
-
-### - restructuring and better contract
+## - .orange[Modern] development policies: <br> .red[not] just about macroeconomic indicators.
 
 --
 
-## `r fa("land-mine-on", fill='yellow')` Different risks to different income levels
+## - more .Green[interesting], but .bluey[practical], stuff
 
+### `r fa("hand-holding-dollar", fill='yellow')` poverty reduction (for individuals)
+
+--
+
+### `r fa("sack-dollar", fill='yellow')` development of sender country
+
+--
+
+### `r fa("land-mine-on", fill='yellow')` development of host country
+
+--
+
+### `r fa("people-roof", fill='yellow')` gender and society angles
