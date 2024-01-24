@@ -34,14 +34,15 @@ beforeInit: "css/macros.js"
 #remotes::install_github("coolbutuseless/flagon")
 library(fs)
 library(fontawesome)
-#library(magick)  
+options(htmltools.preserve.raw = FALSE)
 library(ggplot2)
+library(dplyr)
 
 ```
 
 class: inverse, top, center
 background-image: url(https://images.squarespace-cdn.com/content/v1/5497331ae4b0148a6141bd47/1529717706598-9KB3VOGO0G1BGOOXMJ3U/BLOG-podcast-populism-the-new-populism-1482659671-9641-005.jpg?format=1500w)
-background-size: contain
+background-size: 100%
 background-position: center
 background-color: black
 
@@ -60,17 +61,18 @@ background-color: #19194d
 
 ---
 
-class: inverse, left, top
+class: inverse, left, middle
 background-image: url(https://media.giphy.com/media/ZW44yxLZRDdNS/giphy.gif)
-background-size: contain
+background-size: 55%
+background-position: right
 
 --
 
-# .Large[When people think about political globalization,]
+# When people think about <br>.pink[political globalization],
 
 --
 
-# .Large[they often think of a 'World Government.']
+# they often think of a <br>.yellow[**World Government**].
 
 
 ---
@@ -81,17 +83,25 @@ background-size: contain
 background-position: right
 background-color: black
 
-# .Large[Actually, <br> .red[not] entirely crazy], <br> bc political globalization entails:
+# Actually, .red[not] entirely crazy. <br> Political globalization entails:
 
 --
 
+## - importance of .green[institutions]
+
 ## - homogenization of the .red[form] of poltics
 
-## - rise of institutions
+--
+
+# These conditions then .Green[further] <br>accelerate political globalization.
+
+--
+
+### Crumbling democratic institutions <br>`r fa("hand-point-left", fill="purple")``r fa("hand-point-right", fill="orange")` political .pink[deglobalization].
 
 ---
 
-# What homogeneization? (.green[V-dem] data)
+# What kind of .pink[*homogeneization*]? (.green[V-dem] data)
 
 --
 
@@ -122,32 +132,41 @@ ggplot(df, aes(x = year, y=value)) +
 ---
 
 class: inverse, middle
-background-color: #563f46
+background-color: black
+background-image: url(https://www.visualcapitalist.com/wp-content/uploads/2023/04/Democracy_Around_the_World_2022_Asia.jpg)
+background-position: right
+background-size: contain
 
-# So, what we're talking about matters <br> for .red[political globalization]
 
---
-
-## - democratization cases in Asia
-
-## - backsliding cases in Asia
+# Status of democracy <br> `r fa("hand-point-right")` .red[political globalization]
 
 --
 
-### - the Philippines (populism)
+## - .Green[democratization] cases in Asia
 
-### - Cambodia (backsliding)
+- .large[🇹🇼 Taiwan]
+- .large[🇰🇷 S. Korea]
+- .large[🇮🇩Indonesia]
+
+## - .orange[autocratization] cases in Asia
+
+--
+
+- .large[🇵🇭 the Philippines (populism)]
+- .large[🇰🇭 Cambodia (backsliding)]
 
 ---
 
 class: inverse, middle, center
 background-color: black
+background-image: url(https://t4.ftcdn.net/jpg/01/26/47/67/360_F_126476734_u4kON6kiQHn8TBv0TStYsqV9HDgNQUFA.jpg)
+background-size: 120%
 
-# .Large[What does political globalization (democratization) in Asia look like?]
+# .Large[.yellow[What does political globalization (democratization) in Asia look like?]]
 
 --
 
-# .red[confusing], because the traditional, textbook explanations don't work here.
+# .bluey[How textbook explanations don't work in Asia.]
 
 ---
 
