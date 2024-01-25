@@ -319,6 +319,21 @@ background-size: contain
 
 ---
 
+background-image: url(https://github.com/textvulture/textvulture.github.io/blob/master/images/Gasuya2023.png?raw=true)
+background-position: right
+background-size: 30%
+
+
+# Different Reasons
+
+## Gasuya (2023)
+
+## Experiments in the Philippines
+
+
+
+---
+
 class: inverse, center
 background-size: contain
 background-image: url(https://live-production.wcms.abc-cdn.net.au/8b2a54a026fd4dfab36ca9dcc2a25da3?impolicy=wcms_crop_resize&cropH=2658&cropW=4726&xPos=0&yPos=493&width=862&height=485)
