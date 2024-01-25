@@ -289,19 +289,36 @@ background-size: cover
 
 # The Philippines: <br> A case of .red[populist] backsliding
 
+--
+
+### - shock to the political .orange[connectedness]
+
+--
+
+### - regional (international) cooperation harder
+
+--
+
+### - US-Phil; Phil-China; ASEAN
+
 ---
 
-# Populism 
+# .red[Populism]: 
 
+---
+# .red[Populism]: .Small[leaders .orange[un]constrained in the name of .pink['the people']]
+
+--
+
+<br>
 .center[
-![]("https://github.com/textvulture/textvulture.github.io/blob/master/images/backsliding_concept.jpg?raw=true")
+![](https://github.com/textvulture/textvulture.github.io/blob/master/images/backsliding_concept.jpg?raw=true)
 ]
 
 ---
 
 # The Philippines: A breeding ground for populism <br>(Arugay & Slater 2019)
 
-<br>
 <br>
 <br>
 
