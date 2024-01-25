@@ -291,15 +291,15 @@ background-size: cover
 
 ---
 
-# Populism (Arugay & Slater 2019)
+# Populism 
 
 .center[
-![]("https://github.com/textvulture/textvulture.github.io/blob/master/images/Philippines.jpg?raw=true")
+![]("https://github.com/textvulture/textvulture.github.io/blob/master/images/backsliding_concept.jpg?raw=true")
 ]
 
 ---
 
-# The Philippines: A breeding ground for populism
+# The Philippines: A breeding ground for populism <br>(Arugay & Slater 2019)
 
 <br>
 <br>
