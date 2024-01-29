@@ -336,11 +336,22 @@ background-size: contain
 
 ---
 
-# Why So extremely & .pink[persistently] popular?
+class: inverse, middle
+background-image: url(https://media4.s-nbcnews.com/i/msnbc/Components/Photos/060224/060224_phillippines_bcol_1p.jpg)
+background-position: right
+background-size: contain
+background-color: black
+
+
+## Why so .Green[extremely] & .pink[persistently] popular?
 
 --
 
-# Can we really call it a problem?
+# Can we really call it a .yellow[problem]?
+
+--
+
+# Or, is he actually .Blue[that] popular?
 
 ---
 
@@ -474,10 +485,14 @@ class: inverse, top, left
 background-image: url(https://media1.giphy.com/media/4lYRJD6tcidlC/200.gif)
 background-size: contain
 
-# .yellow[Asian political globalization runs *both* ways]
+# .yellow[Asian political globalization runs *both* ways.]
 
 --
 
-# Some democratization with some backsliding
+# Some political globalization with some .pink[de]-globalization
+
+--
+
+## .bluey[But in a long-run], <br>Asian democracy (& political globalization) has come a long way despite some notable resistance.
 
 
