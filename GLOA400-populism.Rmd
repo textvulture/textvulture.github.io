@@ -336,26 +336,97 @@ background-size: contain
 
 ---
 
-background-image: url(https://github.com/textvulture/textvulture.github.io/blob/master/images/Gasuya2023.png?raw=true)
-background-position: right
-background-size: 30%
+# Why So extremely & .pink[persistently] popular?
+
+--
+
+# Can we really call it a problem?
+
+---
+
+# Kasuya & Miwa (2023): Social .pink[Desirability] Bias
+
+## The experiment
+
+--
+
+.content-box-blue[
+
+### Of the politicians on this list, <br>.red[how many] do you approve of in terms of performance of duties?
+
+]
+
+--
+
+.content-box-red[
+
+.large[*for .green[control ]group*]
+
+- MANUEL QUEZON
+- FERDINAND MARCOS
+- CORAZON “CORY” AQUINO
+
+]
+
+---
 
 
-# Different Reasons
+# Kasuya & Miwa (2023): Social .pink[Desirability] Bias
 
-## Kasuya & Miwa (2023)
+## The experiment
 
-## Experiments in the Philippines
+.content-box-blue[
 
+### Of the politicians on this list, <br>.red[how many] do you approve of in terms of performance of duties?
+
+]
+
+.content-box-red[
+
+.large[*for .bluey[treatment] group*]
+
+- MANUEL QUEZON
+- FERDINAND MARCOS
+- CORAZON “CORY” AQUINO
+- .blue[RODRIGO “DIGONG” DUTERTE]
+
+]
+
+--
+
+### And then asked a .orange[direct] approval rating question on Duterte.
+
+---
+
+# Kasuya & Miwa (2023): Social .pink[Desirability] Bias
+
+--
+
+- .large[
+[treatment] - [control] = [direct question]: no bias
+]
+
+- .large[
+[treatment] - [control] `r fa("less-than", fill="red")` [direct question]: bias (fearing the regime)
+]
+
+--
+
+```{r, echo=FALSE, out.width="60%", fig.align='center'}
+
+knitr::include_graphics("https://github.com/textvulture/textvulture.github.io/blob/master/images/Kasuya2023_2.JPG?raw=true")
+
+```
 
 
 ---
+
 
 class: inverse, center
 background-size: contain
 background-image: url(https://live-production.wcms.abc-cdn.net.au/8b2a54a026fd4dfab36ca9dcc2a25da3?impolicy=wcms_crop_resize&cropH=2658&cropW=4726&xPos=0&yPos=493&width=862&height=485)
 
-# .huge[the epilogue]
+# .huge[**After populism?**]
 
 ---
 
