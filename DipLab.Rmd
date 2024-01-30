@@ -43,20 +43,24 @@ class: inverse, center, middle
 background-image: url(https://images2.goabroad.com/image/upload/images2/program_content/generic-study-abroad-in-south-korea-1-1579237565.jpg)
 background-size: 100%
 background-color: black
+<br>
+<br>
+<br>
+# .huge[Who chooses S. Korea for .yellow[study abroad?]]
 
-# .Large[Who chooses S. Korea for .yellow[study abroad]]?
+# .right[.bluey[Diplomacy Lab] (.pink[GLOA 400])]
 
-# .Green[Diplomacy Lab] (.pink[GLOA 400])
-
-# **Byunghwan Son**
+# .right[**Byunghwan Son**]
 
 ---
 
 # The underlying empirical context (1): asymmetry
 
+--
+
 ### Number of foreign students in S.Korea (2022) by .pink[country]
 
-```{r, fig.width = 14, fig.height = 6}
+```{r, fig.width = 14, fig.height = 5}
 
 data2 <- read_xlsx("foreignStudents2.xlsx")
 
@@ -81,6 +85,8 @@ data2 %>%
 
 ```
 
+data source: https://www.yna.co.kr/view/AKR20230323102300371
+
 ---
 
 # The underlying situation (2): imbalance
@@ -89,7 +95,7 @@ data2 %>%
 
 ### Foreign Students by .pink[Region] (2021 data)
 
-```{r, fig.width = 14, fig.height = 6}
+```{r, fig.width = 14, fig.height = 5.5}
 
 data <- read_xlsx("foreignStudents.xlsx")
 
@@ -109,7 +115,7 @@ data %>%
   labs(y= "total foreign students",
        x= " ") +
   guides(fill = guide_legend(title = NULL))  +
-  theme(axis.text.x = element_text(angle = 90, vjust = 0.5, hjust = 1, size = 25),
+  theme(axis.text.x = element_text(angle = 90, vjust = 0.5, hjust = 1, size = 15),
         axis.text.y = element_text(size = 25),
         axis.title.y = element_text(size = 25),
         axis.title.x = element_text(size = 25),
@@ -117,6 +123,8 @@ data %>%
 
 
 ```
+
+data source: Korean Educational Statistics Service
 
 ---
 
@@ -167,7 +175,7 @@ knitr::include_graphics("https://github.com/textvulture/textvulture.github.io/bl
 --
 
 .content-box-yellow[
-- .large[what's been offered so far?]
+- .large[what's been offered so far? (why not working?)]
 
 - .large[recommendations based on .red[Q1]]
 ]
