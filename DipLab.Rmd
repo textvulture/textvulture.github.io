@@ -1,0 +1,70 @@
+---
+title: "Diplomacy Lab"
+author: "Byunghwan Son <br> George Mason University"
+date: " "
+#########################################
+linkcolor: red
+citecolor: blue
+urlcolor: blueß
+output: 
+  xaringan::moon_reader:
+    seal: false
+    nature:
+      ratio: '16:9'
+      highlightStyle: github
+#    self-contained: TRUE
+  chakra: css/libs/remark-latest.min.js
+css: ["default", 
+      "css/footer.css", 
+      "css/color.css", 
+#          "xaringan-themer.css",
+      default-fonts]
+lib_dir: css/libs
+beforeInit: "css/macros.js"
+---
+
+```{r setup, include=FALSE}
+# to use FontAwesome
+# htmltools::tagList(rmarkdown::html_dependency_font_awesome())
+library(fs)
+library(fontawesome)
+library(flagr)
+library(dplyr)
+library(ggplot2)
+knitr::opts_chunk$set(warning = FALSE, message = FALSE, error=F, echo=F)
+options(htmltools.preserve.raw = FALSE) # prevents fa breakdown
+```
+
+
+class: inverse, center, middle
+background-image: url(https://images2.goabroad.com/image/upload/images2/program_content/generic-study-abroad-in-south-korea-1-1579237565.jpg)
+background-size: 100%
+background-color: black
+
+# .Large[Who chooses S. Korea for .yellow[study abroad]]?
+
+# .Green[Diplomacy Lab] (.pink[GLOA 400])
+
+# **Byunghwan Son**
+
+---
+
+class: inverse
+background-image: url(https://y.yarn.co/8ac1aeff-f4f5-4c58-8ea2-be557c843529_text.gif)
+background-size: contain
+
+---
+
+
+# Seriously, .pink[who] chooses S. Korea for .Green[what reasons]?
+
+--
+
+## We know very little about this.
+
+-- 
+
+
+
+
+---
