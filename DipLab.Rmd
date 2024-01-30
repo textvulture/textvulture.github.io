@@ -31,8 +31,11 @@ library(fontawesome)
 library(flagr)
 library(dplyr)
 library(ggplot2)
+library(readxl)
+
 knitr::opts_chunk$set(warning = FALSE, message = FALSE, error=F, echo=F)
 options(htmltools.preserve.raw = FALSE) # prevents fa breakdown
+
 ```
 
 
@@ -49,16 +52,32 @@ background-color: black
 
 ---
 
-# The underlying situation (1): asymmetry
+# The underlying empirical context (1): asymmetry
 
-```{r}
+### Number of foreign students in S.Korea (2022) by .pink[country]
 
-library(dplyr)
-library(ggplot2)
-library(readxl)
+```{r, fig.width = 14, fig.height = 6}
 
-data <- read_xlsx("foreignStudents.xlsx")
+data2 <- read_xlsx("foreignStudents2.xlsx")
 
+data2 %>% 
+  mutate(type = case_when(
+    country == "US" ~ "US",
+    TRUE ~ "Rest"
+  )
+         ) %>%
+  ggplot(aes(y=total,
+                     x=reorder(country, -total),
+             fill=type)) + 
+  geom_bar(stat = "identity") + 
+  theme_minimal() +
+  labs(y= "total foreign students",
+       x= " ") +
+  theme(legend.position = "none",
+        axis.text.y = element_text(size = 25),
+        axis.text.x = element_text(size = 25),
+        axis.title.y = element_text(size = 25),
+        axis.title.x = element_text(size = 25))  
 
 ```
 
@@ -66,6 +85,38 @@ data <- read_xlsx("foreignStudents.xlsx")
 
 # The underlying situation (2): imbalance
 
+--
+
+### Foreign Students by .pink[Region] (2021 data)
+
+```{r, fig.width = 14, fig.height = 6}
+
+data <- read_xlsx("foreignStudents.xlsx")
+
+data %>% 
+  filter(region != "total") %>%
+  mutate(type = case_when(
+    focus == 1 & SeoulMetro == 0 ~ "target",
+    SeoulMetro == 1 & focus == 0 ~ "SeoulMetro",
+    TRUE ~ "Rest"
+  )
+         ) %>%
+  ggplot(aes(y=total,
+             x=reorder(region, -total),
+             fill=type)) +
+  geom_bar(stat = "identity") + 
+  theme_minimal() +
+  labs(y= "total foreign students",
+       x= " ") +
+  guides(fill = guide_legend(title = NULL))  +
+  theme(axis.text.x = element_text(angle = 90, vjust = 0.5, hjust = 1, size = 25),
+        axis.text.y = element_text(size = 25),
+        axis.title.y = element_text(size = 25),
+        axis.title.x = element_text(size = 25),
+        legend.text = element_text(size=20)) 
+
+
+```
 
 ---
 
@@ -82,7 +133,7 @@ background-size: contain
 
 --
 
-## We know very little about this (selection effect).
+## We know very little about this (.Blue[selection effect]).
 
 --
 
@@ -93,5 +144,30 @@ knitr::include_graphics("https://github.com/textvulture/textvulture.github.io/bl
 
 ```
 
-
 ---
+
+# **The questions** 
+
+--
+
+## Q1: What drives American students' choices?
+
+--
+
+.content-box-green[
+- .large[social media `r fa("youtube", fill="red")`; `r fa("reddit", fill="orange")`: comparing study-abroad to .Blue[Korea] stories w/ .pink[others]]
+
+- .large[interviewing Mason students: those who went to .Blue[Korea] vs. .pink[others]]
+]
+
+--
+
+## Q2: What could Korean colleges in the target region offer?  
+
+--
+
+.content-box-yellow[
+- .large[what's been offered so far?]
+
+- .large[recommendations based on .red[Q1]]
+]
