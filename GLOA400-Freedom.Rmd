@@ -38,7 +38,7 @@ library(ggplot2)
 
 class: inverse, bottom, right
 background-image: url(https://www.bloomberg.com/graphics/2019-hong-kong-protesters-umbrellas/img/2019-hong-kong-protesters-umbrellas-facebook.png)
-background-size: contain
+background-size: 110%
 background-position: left
 background-color: black
 
@@ -178,13 +178,15 @@ background-image: url(https://i.ytimg.com/vi/LJnt1FvCDbQ/maxresdefault.jpg)
 
 class: inverse, middle
 background-color: black
+background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRI-jmbPAXTGhBVAARdf3KDvQBhMXRPta_wnQ&usqp=CAU)
+background-size: 110%
 
 .center[
-# .huge[Now, Online Censorship in .red[China]]
+# .huge[**Online Censorship in China**]
 ]
 
 ---
-class: inverse, right
+class: inverse
 background-image: url(https://media0.giphy.com/media/i4jKn7itdV2Tvjzj6Y/giphy.gif)
 background-size: contain
 
@@ -193,6 +195,10 @@ background-size: contain
 --
 
 # censorship :: de-globalization
+
+--
+
+### `r fa("exclamation", fill="red")` caveat: Based on early .yellow[2010s]. Things have moved on (to a more .pink[repressive] way).
 
 ---
 
@@ -293,4 +299,32 @@ background-color: black
   - .large[attacks on external and internal targets]
   
   - .large[the red guard of the 21c]
+
+---
+
+class: inverse
+background-position: right
+background-color: black
+
+# Beyond China: AI and Bangladesh
+
+--
+
+## - deep fake videos
+
+---
+
+class: inverse
+background-position: right
+background-image: url(https://www.fact-watch.org/web/wp-content/uploads/2023/12/Tarique-Rahman-Altered-1.jpg)
+background-size: 40%
+background-color: black
+
+# Beyond China: AI and Bangladesh
+
+## - deep fake videos
+
+--
+
+## - fundamental infringement on freedom
 
