@@ -38,15 +38,15 @@ knitr::opts_chunk$set(warning = FALSE, message = FALSE, error=F, echo=F)
 
 ```
 
-class: inverse, top, left
+class: top, left
 background-image: url(https://cdn.dribbble.com/users/1592412/screenshots/5363567/trade.gif)
 background-size: cover
 background-position: center
 background-color: black
 
-# .times[.orange[.Large[**Trade and <br> Development**]]]
+# .times[.pink[.Large[**Trade and <br> Development**]]]
 
-# .Large[GLOA 610]
+# .Large[.Blue[GLOA 610]]
 
 ---
 class: right
@@ -186,12 +186,12 @@ wdi2 %>%
 ---
 
 <div class="full-width-tinted"><br>
-  <h1> Trade and Development </h1> 
+  <h1> Trade and Development (.red[full] & .blue[developing countries only]) </h1> 
 </div>
 <br><br>
 
-
-```{r, message=FALSE, echo=FALSE, warning=FALSE, results="asis", fig.width=12.5, fig.height=6.5, cache=T, fig.align='center'}
+.pull-left[
+```{r, message=FALSE, echo=FALSE, warning=FALSE, results="asis", cache=T, fig.align='center'}
 wdi2 %>%
   filter(Trade.gdp<125) %>%
   ggplot(aes(Trade.gdp, log(GDPpc))) +
@@ -200,7 +200,7 @@ wdi2 %>%
   labs(y="GDP per capita, log",
        x="Trade/GDP") +
   theme_minimal() +
-  ylim(4, 12.5) + 
+#  ylim(0, 80000) + 
   theme(legend.title = element_blank()) +
   theme(legend.text = element_text(size=25),
         axis.text=element_text(size=20),
@@ -208,24 +208,22 @@ wdi2 %>%
 
 ```
 
----
+]
 
-<div class="full-width-tinted"><br>
-  <h1> Looking at very .yellow[**poor**] countries only (GDP per capita < .red[5k]) </h1> 
-</div>
-<br><br>
+--
 
+.pull-right[
 
-```{r, message=FALSE, echo=FALSE, warning=FALSE, results="asis", fig.width=12.5, fig.height=6.5, cache=T, fig.align='center'}
+```{r, message=FALSE, echo=FALSE, warning=FALSE, results="asis", cache=T, fig.align='center'}
 wdi2 %>%
   filter(GDPpc < 5000) %>%
   filter(Trade.gdp<125) %>%
-  ggplot(aes(Trade.gdp, log(GDPpc))) +
+  ggplot(aes(Trade.gdp, GDPpc)) +
   geom_smooth(alpha=0.25, size=3) +
   geom_point(alpha=0.1, color='green', size=2) +
   labs(y="GDP per capita",
        x="Trade/GDP") +
-  ylim(4, 12.5) +
+#  ylim(4, 12.5) +
   theme_minimal() +
   theme(legend.title = element_blank()) +
   theme(legend.text = element_text(size=25),
@@ -233,6 +231,7 @@ wdi2 %>%
         axis.title=element_text(size=20))
 
 ```
+]
 
 ---
 
@@ -303,7 +302,7 @@ background-size: 100%
 
 --
 
-# .pink[How] is trade supposed to generate .bluey[develpoment]?
+# Do we know .pink[HOW] trade is supposed to generate .bluey[develpoment]?
 
 ---
 # .Yellow[.large[Some textbook-line fundamentals `r fa("book")`] ]
@@ -489,7 +488,7 @@ background-size: contain
 
 ---
 
-# .pink[Caveat]: this is only about the big picture, because in 2019:
+# .pink[Caveat]: doesn't mean countries don't matter:
 
 --
 
@@ -525,7 +524,16 @@ comS %>%
 ```
 ]
 
+---
 
+class: top
+background-image: url(https://github.com/textvulture/textvulture.github.io/blob/master/images/background_White2.jpg?raw=true)
+background-size: 100%
+
+
+# .LARGE[More like, .gray[*what drives imports and exports of certain goods are really determined by superstar firms.*]
+
+]
 
 ---
 
@@ -538,9 +546,6 @@ background-size: 110%
 
 --
 
-## - Caliendo & Parro (2023)
-
---
 
 ## - Owens & Johnston (2017)
 
@@ -558,15 +563,24 @@ background-size: 110%
 # .Large[**.orange[The Consequence:]**] <br> Does trade (shock) take jobs away? What .bluey[kind] of jobs?
 
 
-## - Caliendo & Parro (2023)
-
-
 ## - Owens & Johnston (2017)
 
 
 ![](https://github.com/textvulture/textvulture.github.io/blob/master/images/Owens2018.JPG?raw=true)
 
 ---
+
+# But how .pink[many] jobs? E.g., .Blue[US]-.red[China] trade relations.
+
+--
+
+## - Caliendo & Parro (2023)
+
+--
+
+
+---
+
 class: inverse
 background-image: url(https://github.com/textvulture/textvulture.github.io/blob/master/images/waveBackground.jpg?raw=true)
 background-size: 120%
