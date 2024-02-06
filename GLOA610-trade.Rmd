@@ -574,9 +574,22 @@ background-size: 110%
 
 --
 
-## - Caliendo & Parro (2023)
+## Caliendo & Parro (2023): 
+
+### - because of the **China Shock**
 
 --
+
+- .large[.Blue[manufacturing] jobs were taken away, but not so much.]
+- .large[.pink[service] jobs increased as a consequence.]
+
+--
+
+### -because of the **Trade War**
+
+--
+
+![](https://github.com/textvulture/textvulture.github.io/blob/master/images/Caliendo2023.JPG?raw=true)
 
 
 ---
@@ -585,7 +598,7 @@ class: inverse
 background-image: url(https://github.com/textvulture/textvulture.github.io/blob/master/images/waveBackground.jpg?raw=true)
 background-size: 120%
 
-# .Large[But, trade still ruins workers lives, right?] <br> Like, .red[R]ace to .red[T]he .red[B]ottom `r fa("skull", fill='pink')`
+# .Large[But, trade still ruins workers lives, right?] <br> Like, .red[**R**]ace to .red[**T**]he .red[**B**]ottom `r fa("skull", fill='pink')`
 
 --
 
