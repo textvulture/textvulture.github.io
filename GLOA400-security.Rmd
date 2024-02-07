@@ -1,5 +1,5 @@
 ---
-title: ".green[Security in Asia] <br> GLOA 400"
+title: "Security, GLOA 400"
 author: "Byunghwan Son <br> George Mason University"
 date: " "
 #########################################
@@ -27,28 +27,30 @@ beforeInit: "css/macros.js"
 ---
 
 ```{r setup, include=FALSE}
+
 # to use FontAwesome
 #htmltools::tagList(rmarkdown::html_dependency_font_awesome())
 library(fs)
 library(fontawesome)
-# library(magick)  
 library(ggplot2)
-library(tidyverse)
-
-#setwd("/Users/bson3/Documents/GitHub/textvulture.github.io/")
-#setwd("/Users/kalka/Documents/GitHub/textvulture.github.io/")
+library(dplyr)
+options(htmltools.preserve.raw = FALSE)
+knitr::opts_chunk$set(warning = FALSE, message = FALSE, error=F, echo=F)
 
 ```
 
-class: inverse, top, right
-background-image: url(https://www.belfercenter.org/sites/default/files/styles/featured_image_1280x515_/public/images/publication/feature/senkaku_islands_dispute_by_al_jazeera_english_8.jpg?h=db7fce1d&itok=yfUI1t9z)
+class: inverse, center, middle
+background-image: url(https://cartoffel.com/wp-content/uploads/2018/11/southeast-asia-globe.jpg)
 background-size: cover
 
-# .Large[Conflict in Asia (GLOA400-001)]
+# .Huge[**Conflict & Security <br> in Asia** <br> (GLOA 400)]
+
 ---
 
+
 class: inverse, center, middle
-background-color: #d64161
+background-image: url(https://github.com/textvulture/textvulture.github.io/blob/master/images/forestBackground.jpg?raw=true)
+background-size: 100%
 
 # .huge[Globalization and Security]
 
@@ -63,23 +65,25 @@ background-size: contain
 
 ---
 class: inverse, center, middle
-background-color: #d64161
+background-image: url(https://github.com/textvulture/textvulture.github.io/blob/master/images/holeBackground1.png?raw=true)
+background-size: 100%
 
 # Could be .yellow[yes]: 'democratic' & 'capitalist' peace
 
 --
 
-# Could be .blue[no]: more connectivity, more disagreement
+# Could be .bluey[no]: more connectivity, more disagreement
 
 --
 
-# What do data say?
+# What do .pink[data] `r fa('chart-column')` say?
 
 ---
 
 # Global Data ('Correlates of War')
 
-```{r echo=FALSE, fig.height=8, fig.width=18, message=FALSE, warning=FALSE, cache=TRUE}
+```{r echo=FALSE, message=FALSE, warning=FALSE, cache=TRUE}
+
 # devtools::install_github("prio-data/priogrid")
 # https://rforpoliticalscience.com/category/ucdp-prio/
 # install.packages('peacesciencer')
@@ -115,12 +119,16 @@ df %>%
   group_by(year) %>%
   mutate(mean.war = sum(war)/n) -> df
 
+```
+
+```{r echo=FALSE, fig.height=8, fig.width=18, message=FALSE, warning=FALSE, cache=TRUE}
 df %>%
   ggplot(aes(x=year, alpha=0.5)) +
   geom_line(aes(y=mean.war, color='a'), size=1.5, ) +
   geom_line(aes(y=mean.civilwar, color='b'), size=1.5, ) +
   labs(x = "Year",
        y = "Average War") + 
+  theme_minimal() +
   theme(axis.text=element_text(size=20),
         axis.title=element_text(size=20),
         legend.title=element_text(size=20),
@@ -129,8 +137,6 @@ df %>%
                            labels = c("Interstate War","Civil War"), 
                            values = c('a'='red', 'b'= 'blue')) +
   scale_alpha(guide = 'none')
-
-
 
 ```
 
@@ -178,12 +184,19 @@ df %>%
   group_by(year) %>%
   mutate(mean.war = sum(war)/n) -> df
 
+
+```
+
+
+```{r echo=FALSE, fig.height=8, fig.width=18, message=FALSE, warning=FALSE, cache=TRUE}
+
 df %>%
   ggplot(aes(x=year, alpha=0.5)) +
   geom_line(aes(y=mean.war, color='a'), size=1.5, ) +
   geom_line(aes(y=mean.civilwar, color='b'), size=1.5, ) +
   labs(x = "Year",
        y = "Average War") + 
+  theme_minimal() +
   theme(axis.text=element_text(size=20),
         axis.title=element_text(size=20),
         legend.title=element_text(size=20),
@@ -194,46 +207,136 @@ df %>%
   scale_alpha(guide = 'none')
 
 
-
 ```
 
 ---
-class: inverse, center, middle
+class: inverse, center, bottom
 background-color: black
+background-image: url(https://media4.giphy.com/media/1xkMucz3jc5AGB4elL/200w.gif?cid=6c09b952xv5kvydxc1jr2yzy164o33h5ot5nmq9bs1l5wzof&ep=v1_gifs_search&rid=200w.gif&ct=g)
+background-size: contain
 
-# .huge[Potential Threats?]
+# .huge[Potential Complications in Asian Security?]
 ---
 
-class: inverse, left, top
-background-image: url(https://i.insider.com/545be442ecad046f71028e5a?width=840&format=jpeg)
-
-# .red[Threat #1: Territorial/Border Disputes]
-
----
-
-class: inverse, left, top
-background-image: url(https://www.ctvnews.ca/polopoly_fs/1.5578436.1631488969!/httpImage/image.jpg_gen/derivatives/landscape_1020/image.jpg)
-background-size: cover
-
-# .red[Threat #2: His Regime]
-
-
----
 
 class: inverse, middle, center
-background-color: 06363B
+background-image: url(https://media.nature.com/lw800/magazine-assets/d41586-019-00990-5/d41586-019-00990-5_16578498.jpg)
+background-size: cover
 
-# We actually know very little about NK. 
+# .HUGE[.yellow[**Complication #1**]]
 
---
-
-# But much more than before.
-
---
-
-# Mostly through defectors as well as Chinese traders.
 
 ---
+
+class: inverse, center, middle
+background-image: url(https://i.insider.com/545be442ecad046f71028e5a?width=840&format=jpeg)
+background-color: black
+background-size: contain
+# .HUGE[.yellow[**Complication #2**]]
+
+---
+
+class: inverse, middle
+background-color: black
+background-image: url(https://qph.fs.quoracdn.net/main-qimg-04ac420ad1934526b40764d42b9a78f2-lq)
+background-position: right
+
+# - We actually know <br> very .green[little] about NK. 
+
+--
+
+# - But slightly more than .yellow[before].
+
+--
+
+# - Defectors and Tradeers.
+
+--
+
+## `r fa("hand", fill='red')` but a big caveat.
+
+
+---
+class: inverse, bottom, right
+
+background-image: url(https://s.abcnews.com/images/International/north-korea-military-parade1-ap-mem-180208_16x9_992.jpg)
+background-size: contain
+
+# .huge[**the obvious: Nuke Threat**] 
+
+--
+
+# .huge[But is it predictable? `r fa("chart-line", fill="orange")`]
+---
+
+# A compounder: the media `r fa("tv", fill='orange')` (Kim et al. 2018)
+
+```{r echo=F, out.width='900px'}
+knitr::include_graphics('http://textvulture.github.io/images/Kim2018_equation.png')
+```
+
+--
+
+```{r echo=F, out.width='1200px'}
+knitr::include_graphics('http://textvulture.github.io/images/Kim2018_figure.png')
+```
+
+---
+class: inverse
+background-color: black
+background-image: url(https://static.mfah.com/images/escape-from-mogadishu.4969214601134635490.jpg?width=715)
+background-position: right
+background-size: contain
+
+# .large[.red[Only] Nuke Threats in E. Asia?]
+
+#  `r fa("user-secret", fill='green')` diplomats as agents
+- .Large[brokering, fascilitation & espionage]
+- .Large[WMD and conventional arms]
+
+# `r fa("suitcase-rolling", fill='orange')` why prevalent?
+- .Large[convenience, privilege, security]
+
+
+---
+class: inverse, left, middle
+background-image: url(https://c.tenor.com/RkDlXZgnp9UAAAAC/how-not-dead.gif)
+background-size: cover
+
+# .large[**Despite sanctions `r fa("handshake-slash", fill='red')`, <br>the regime hasn't collapsed. <br> Why?**]
+
+--
+
+# Because of effective .pink[social control]?
+
+---
+
+background-image: url(https://img7.yna.co.kr/photo/yna/YH/2020/09/22/PYH2020092211200001100_P4.jpg)
+background-position: right
+background-size: 40%
+
+# .large['.green[Everyday Authoritarianism]'] <br> (Dukalskis & Joo 2021)
+
+## - 23 interviews (cross-checked)
+
+--
+
+## - cracks in the system: 'dualization of life'
+
+.large[
+- `r fa('money-bill', fill='green')` marketization
+
+- `r fa('tower-broadcast', fill='red')` information flow
+
+- `r fa('gifts', fill='orange')` corruption
+]
+
+--
+
+# `r fa('circle-exclamation', fill='red')` Maybe, .red[not] strong enough, tho.
+
+---
+
 
 # '.green[Exit Polls]' (Change et al. 2009): the setting
 
@@ -243,20 +346,20 @@ background-color: 06363B
 
 --
 
-## `r fa("question-circle")` &nbsp; "Are NK people .red[angry] at their government?"
+## `r fa("clipboard-question")` &nbsp; "Are NK people .red[angry] at their government?"
 
-## `r fa("hand-rock")` &nbsp; Any sign of mass-mobilization or .red[collective action]?
+## `r fa("hand-back-fist")` &nbsp; Any sign of mass-mobilization or .red[collective action]?
 
 --
 
-## `r fa("microphone-alt")` &nbsp; Interview .red[1,300+] NK defectors (used only 700)
+## `r fa("microphone-lines")` &nbsp; Interview .red[1,300+] NK defectors (used only 700)
 
-## `r fa("smile-wink")` &nbsp; A very biased sample
+## `r fa("face-smile-wink")` &nbsp; A very biased sample
 
 ---
 
 
-# '.green[Exit Polls]' (Change et al. 2009): The findings ('satisfaction')
+# '.green[Exit Polls]' (Change et al. 2009)
 
 .center[
 ![](images/nk-exit.png)
@@ -266,12 +369,14 @@ background-color: 06363B
 ---
 class: inverse
 background-color: #0F0639
+background-image: url(https://github.com/textvulture/textvulture.github.io/blob/master/images/background_leftEmpty3.jpeg?raw=true)
+background-size: 110%
 
-# '.green[Exit Polls]' (Change et al. 2009): The findings ('satisfaction')
+# '.green[Exit Polls]' (Change et al. 2009):
 
 --
 
-## - generally better informed about the outside world than we thought.
+## - generally better informed than we thought.
 
   - .Large[the balloons .red[`r fa("fly")`] &nbsp; ain't working]
 
@@ -288,12 +393,16 @@ background-color: #0F0639
 # Then why .red[no] revolution???
 
 ---
+<div class="full-width-tinted"><br>
+  <h1> 
+  .center[# One big factor: .red[Fear] (and propaganda)]
+ </h1> 
+</div><br><br> 
 
-# One big factor: .red[Fear] (and propaganda)
 
 .pull-left[
 .center[
-```{r echo=FALSE, out.width='80%'}
+```{r echo=FALSE, out.width='60%'}
 knitr::include_graphics('https://i.pinimg.com/236x/c3/14/46/c31446ffb3201b08c6141058a281e6af--korean-painting-propaganda-art.jpg')
 ```
 ]
@@ -301,7 +410,7 @@ knitr::include_graphics('https://i.pinimg.com/236x/c3/14/46/c31446ffb3201b08c614
 
 .pull-right[
 .center[
-```{r echo=FALSE, out.width='80%'}
+```{r echo=FALSE, out.width='70%'}
 knitr::include_graphics('https://i.pinimg.com/originals/32/01/cd/3201cdab29192ce5ed941b2d6857cd1e.jpg')
 ```
 ]
@@ -309,7 +418,13 @@ knitr::include_graphics('https://i.pinimg.com/originals/32/01/cd/3201cdab29192ce
 
 ---
 
-# 'The Authoritarian Toolbox' (Byman & Lind 2010)
+<div class="full-width-tinted"><br>
+  <h1> 
+  .center['The Authoritarian Toolbox' (Byman & Lind 2010)]
+ </h1> 
+</div><br><br> 
+
+--
 
 .pull-left[
 # Against People (.red[revolution])
@@ -336,10 +451,33 @@ knitr::include_graphics('https://i.pinimg.com/originals/32/01/cd/3201cdab29192ce
 
 ---
 
-class: inverse, center, middle
-background-color: red
+background-image: url(https://github.com/textvulture/textvulture.github.io/blob/master/images/Mahdavi2020.png?raw=true)
+background-size: 45%
+background-position: right
 
-# .huge[Now, territorial disputes]
+# .Large[**Case Study**:] <br>Elites and .pink[Kim Jung-un] <br>(Mahdavi & Ishiyama 2020)
+
+--
+
+## `r fa('newspaper', fill='purple')` elite .red[co-appearance] w/ Kim <br> (news data)
+
+--
+
+## - .orange[2012]: top 27% -> half of all ties
+
+## - .green[2014]: top 13% -> half of all ties
+
+--
+
+## `r fa('skull', fill='blue')`  purges and concentrations
+
+---
+
+class: inverse, center, middle
+background-image: url(https://www.belfercenter.org/sites/default/files/styles/featured_image_1280x515_/public/images/publication/feature/senkaku_islands_dispute_by_al_jazeera_english_8.jpg?h=db7fce1d&itok=yfUI1t9z)
+background-size: cover
+
+# .Huge[**Now, territorial disputes**]
 
 --
 
@@ -424,7 +562,7 @@ background-size: contain
 class: inverse, center, middle
 background-color: #145A32
 
-# .huge[Senkaku/Diaoyu Disute]
+# .Huge[Senkaku/Diaoyu Disute]
 
 ---
 
@@ -438,19 +576,19 @@ background-image: url(https://www.cp24.com/polopoly_fs/1.968055.1348407856!/http
 background-size: contain
 
 
-# Chinese assertiveness is not unique to the case, <br> but what about .red[Japan]?
+# .Large[**Chinese assertiveness is not unique to the case, but what about .red[Japan]?**]
 
 ---
 
-## More support for PM Abe during disputes? (Kobayashi & Katagiri 2018)
+## More support for PM Abe .red[during] disputes? (Kobayashi & Katagiri 2018)
 
-: .Large[rally 'round the flag] vs. .red[.Large[reactive liberal]]
+: .content-box-yellow[.LARGE[`r fa("flag", fill='red')` Rally 'round the flag]] .LARGE[**vs.**] .content-box-red[.LARGE[`r fa("joint", fill='green')`Reactive liberal]]
 
 --
 
 .pull-left[
 ```{r echo=FALSE, out.width='80%'}
-knitr::include_graphics('images/kobayashi1.png')
+knitr::include_graphics('http://textvulture.github.io/images/kobayashi1.png')
 ```
 ]
 
@@ -458,7 +596,7 @@ knitr::include_graphics('images/kobayashi1.png')
 
 .pull-right[
 ```{r echo=F, out.width="800px"}
-knitr::include_graphics('images/kobayashi2.png')
+knitr::include_graphics('http://textvulture.github.io/images/kobayashi2.png')
 ```
 ]
 
