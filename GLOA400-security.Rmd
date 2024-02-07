@@ -49,7 +49,8 @@ background-size: cover
 
 
 class: inverse, center, middle
-background-color: #d64161
+background-image: url(https://github.com/textvulture/textvulture.github.io/blob/master/images/forestBackground.jpg?raw=true)
+background-size: 100%
 
 # .huge[Globalization and Security]
 
@@ -64,17 +65,18 @@ background-size: contain
 
 ---
 class: inverse, center, middle
-background-color: #d64161
+background-image: url(https://github.com/textvulture/textvulture.github.io/blob/master/images/holeBackground1.png?raw=true)
+background-size: 100%
 
 # Could be .yellow[yes]: 'democratic' & 'capitalist' peace
 
 --
 
-# Could be .blue[no]: more connectivity, more disagreement
+# Could be .bluey[no]: more connectivity, more disagreement
 
 --
 
-# What do data say?
+# What do .pink[data] `r fa('chart-column')` say?
 
 ---
 
@@ -208,8 +210,10 @@ df %>%
 ```
 
 ---
-class: inverse, center, middle
+class: inverse, center, bottom
 background-color: black
+background-image: url(https://media4.giphy.com/media/1xkMucz3jc5AGB4elL/200w.gif?cid=6c09b952xv5kvydxc1jr2yzy164o33h5ot5nmq9bs1l5wzof&ep=v1_gifs_search&rid=200w.gif&ct=g)
+background-size: contain
 
 # .huge[Potential Complications in Asian Security?]
 ---
@@ -284,7 +288,7 @@ background-image: url(https://static.mfah.com/images/escape-from-mogadishu.49692
 background-position: right
 background-size: contain
 
-# .large[.red[Only] Nuke Threats in E. Asia? <br> (Salisbury 2021)]
+# .large[.red[Only] Nuke Threats in E. Asia?]
 
 #  `r fa("user-secret", fill='green')` diplomats as agents
 - .Large[brokering, fascilitation & espionage]
@@ -301,13 +305,17 @@ background-size: cover
 
 # .large[**Despite sanctions `r fa("handshake-slash", fill='red')`, <br>the regime hasn't collapsed. <br> Why?**]
 
+--
+
+# Because of effective .pink[social control]?
+
 ---
 
 background-image: url(https://img7.yna.co.kr/photo/yna/YH/2020/09/22/PYH2020092211200001100_P4.jpg)
 background-position: right
 background-size: 40%
 
-# .Large['.green[Everyday Authoritarianism]'] <br> (Dukalskis & Joo 2021)
+# .large['.green[Everyday Authoritarianism]'] <br> (Dukalskis & Joo 2021)
 
 ## - 23 interviews (cross-checked)
 
@@ -325,7 +333,7 @@ background-size: 40%
 
 --
 
-# `r fa('circle-exclamation', fill='red')` But .red[not] strong enough
+# `r fa('circle-exclamation', fill='red')` Maybe, .red[not] strong enough, tho.
 
 ---
 
@@ -351,7 +359,7 @@ background-size: 40%
 ---
 
 
-# '.green[Exit Polls]' (Change et al. 2009): The findings ('satisfaction')
+# '.green[Exit Polls]' (Change et al. 2009)
 
 .center[
 ![](images/nk-exit.png)
@@ -361,12 +369,14 @@ background-size: 40%
 ---
 class: inverse
 background-color: #0F0639
+background-image: url(https://github.com/textvulture/textvulture.github.io/blob/master/images/background_leftEmpty3.jpeg?raw=true)
+background-size: 110%
 
-# '.green[Exit Polls]' (Change et al. 2009): The findings ('satisfaction')
+# '.green[Exit Polls]' (Change et al. 2009):
 
 --
 
-## - generally better informed about the outside world than we thought.
+## - generally better informed than we thought.
 
   - .Large[the balloons .red[`r fa("fly")`] &nbsp; ain't working]
 
@@ -439,6 +449,27 @@ knitr::include_graphics('https://i.pinimg.com/originals/32/01/cd/3201cdab29192ce
 
 ]
 
+---
+
+background-image: url(https://github.com/textvulture/textvulture.github.io/blob/master/images/Mahdavi2020.png?raw=true)
+background-size: 45%
+background-position: right
+
+# .Large[**Case Study**:] <br>Elites and .pink[Kim Jung-un] <br>(Mahdavi & Ishiyama 2020)
+
+--
+
+## `r fa('newspaper', fill='purple')` elite .red[co-appearance] w/ Kim <br> (news data)
+
+--
+
+## - .orange[2012]: top 27% -> half of all ties
+
+## - .green[2014]: top 13% -> half of all ties
+
+--
+
+## `r fa('skull', fill='blue')`  purges and concentrations
 
 ---
 
