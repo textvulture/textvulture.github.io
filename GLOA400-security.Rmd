@@ -359,7 +359,7 @@ background-size: 40%
 ---
 
 
-# '.green[Exit Polls]' (Change et al. 2009)
+# '.green[Exit Polls]' (Change et al. 2009): .pink[.Small["*Are conditions improving?* "]]
 
 .center[
 ![](images/nk-exit.png)
@@ -446,6 +446,33 @@ knitr::include_graphics('https://i.pinimg.com/originals/32/01/cd/3201cdab29192ce
 ### - manipulation of foreign govt's
 
 ### - institutional coup-proofing
+
+]
+
+---
+
+# But what about the .red[current] regime?(since 2011)
+
+.pull-left[
+
+# What to do with the **elites**?
+
+## - .Green[co-optation]?
+
+## - .Green[suffle]?
+
+## - .pink[purge]?
+
+### Need to pay attention to the .Blue[entourage]
+
+
+]
+
+--
+
+.pull-right[
+
+![](https://i.gifer.com/95nT.gif)
 
 ]
 
