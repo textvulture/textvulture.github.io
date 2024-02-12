@@ -58,13 +58,13 @@ background-position: right
 
 --
 
-## 1) Currency Exchanges (exchange rates) <br>: $6 tn .yellow[per day]
+## 1) Currency Exchanges (exchange rates) <br>: $7.5 tn .yellow[per day] (as of 2022) <br> `r fa('hand-point-right', fill='green')` $1tn, if only counting over-the-counter 
 --
 
-## 2) Debt ($100 tn)
+## 2) Debt ($230 tn in 2023)
 --
 
-## 3) Other types of money flow <br> (e.g., remittances: $6 bn)
+## 3) Other types of money flow <br> (e.g., remittances: $860 bn in 2023)
 
 
 ---
@@ -76,8 +76,7 @@ background-size: contain
 # .yellow[.Huge[First, Exchange Rates]]
 
 ---
-class: inverse
-background-color: #37145A
+
 background-image: url(https://cdn.britannica.com/13/145313-050-852A6F13/Exchange-rates-Suvarnabhumi-International-Airport-Thai-Bangkok.jpg)
 background-position: right
 background-size: 30%
@@ -86,25 +85,26 @@ background-size: 30%
 
 --
 
-### = value of a currency compared to another's <br> = the .Green[price] of a currency
+### = value of a currency compared to another's <br> = the .green[price] of a currency
 
 --
 
-### 1. .yellow[nominal] exchange rates 
+### 1. .Yellow[nominal] exchange rates 
 
 - .large[need to know when travel abroad `r fa("plane")` : a-/depreciate)]
 - .large[instantaneously available]
 
 --
 
-### 2. .pink[real] exchange rates 
+### 2. .red[real] exchange rates 
 
-- .large[nominal] ** $\times$ ** .large[inflation rates: under/overvalued]
-- .large[estimates]
+- .large[.pink[actual] costs of things]
+- .large[estimates] (smaller or large than .blue[1])
+- .large[nominal] ** $\times$ ** .large[inflation rates: .purple[**under**]/.Blue[**over**]valued]
 
 --
 
-### overall, considered an indicator .pink[competitiveness]
+### overall, considered an indicator of .pink[competitiveness]
 
 ---
 
@@ -144,12 +144,12 @@ background-size: 30%
 ]
 
 ---
-class: inverse
+class: inverse, middle
 background-color: #d64161
 background-image: url(https://raw.githubusercontent.com/textvulture/textvulture.github.io/master/images/background_leftEmpty2.jpg)
 background-size: 140%
 
-# .huge[So undervaluation is .yellow[all] good?]
+# .large[So undervaluation .Small[(.pink[weak] currency)] is .yellow[all] good?]
 
 --
 
@@ -157,7 +157,7 @@ background-size: 140%
 
 --
 
-## - not a universally sought-after strategy (cf. 'currency manipulator')
+## - external consequences (cf. 'currency manipulator')
 
 --
 
