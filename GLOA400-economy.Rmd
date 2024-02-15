@@ -363,33 +363,14 @@ background-size: contain
 
 --
 
-### - but not very effective
+### : .Small[but .pink[not] very effective]
 
 --
 
-### - byproduct: unwanted .red[legacy] of developmental state
+### - byproduct: unwanted .red[legacy] of developmental state <br> e.g., .red[unwavering] authoritarian loyalty (Hong et al. 2022)
 
 ---
 
-.Large[**The legacy: .red[unwavering] authoritarian loyalty** (Hong et al. 2022)]
-
---
-
-.pull-left[
-
-![](https://github.com/textvulture/textvulture.github.io/blob/master/images/Hong2022_2.JPG?raw=true)
-
-]
-
---
-
-.pull-right[
-
-![](https://github.com/textvulture/textvulture.github.io/blob/master/images/Hong2022_3.JPG?raw=true)
-
-]
-
----
 
 class: inverse, center, middle
 background-color: red
@@ -399,7 +380,7 @@ background-color: red
 ---
 
 background-image: url(https://www.asiagreen.com/images/easyblog_articles/29/China-Belt-and-Road-Initiative-map.jpg)
-background-size: contain
+background-size: 100%
 ---
 
 # Belt & Road Initiative: How does it work?
@@ -482,8 +463,6 @@ background-color: #520839
 
 ---
 
----
-
 background-image: url(https://www.imf.org/wp-content/uploads/2022/06/COTW-dollar-dominance-blog.jpg)
 background-position: right
 background-size: contain
@@ -519,7 +498,11 @@ background-size: contain
 
 --
 
-## Or at least, will it be a .red[hard] currency `r fa("money-bill", fill='green')` in the near future?
+.large[Or at least, will it be a .red[hard] currency `r fa("money-bill", fill='green')` in the near future?]
+
+--
+
+.large[**McDowell & Steinberg (2016)**]
 
 --
 
