@@ -33,6 +33,7 @@ library(fs)
 library(fontawesome)
 # library(magick)  
 library(ggplot2)
+library(dplyr)
 knitr::opts_chunk$set(warning = FALSE, message = FALSE, error=F, echo=F)
 options(htmltools.preserve.raw = FALSE)
 
@@ -78,7 +79,7 @@ background-size: contain
 --
 
 ## 2. What was the key to some of the successes?
-  .Large[2-1. And are they a panacea?]
+  .Large[: 2-1. Was it a panacea?]
 
 
 --
@@ -92,13 +93,14 @@ background-size: contain
 
 ---
 
-# What does Asian Economic Growth look like?
+# What does Asian Development look like?
 
 --
 
-```{r message=F, warning=F, error=F, echo=F, cache=T, fig.width=16}
+```{r message=F, warning=F, error=F, echo=F, cache=T}
 # install.packages('gganimate')
 library(gganimate)
+library(WDI)
 
 var = c('GDPpc' = 'NY.GDP.PCAP.KD',
         'Life.exp' = 'SP.DYN.LE00.IN',
@@ -109,7 +111,9 @@ wdi <- WDI(indicator=var,
            country = 'all',
            end=2020,
            extra=TRUE)
+```
 
+```{r, fig.width=16}
 wdi %>%
   filter(region !="Aggregates") %>%
   mutate(China.India = 
@@ -137,7 +141,7 @@ wdi %>%
   theme_minimal() +
   theme(legend.position = c(0.3, 0.9), 
         legend.direction = "horizontal",
-        legend.text=element_text(size=15),
+        legend.text=element_text(size=18),
         axis.text=element_text(size=15),
         axis.title=element_text(size=15),
   ) +
@@ -150,22 +154,26 @@ wdi %>%
 
 ---
 background-color: #f2ae72
+background-image: url(https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExYmd0dmllNmFsOTJscmJxbGd3ZWl3N2FncW9wbWQ0bWx6YWRnMTFhYSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ZF40pid2AozVC/giphy.gif)
+background-size: contain
+background-position: right
 
-# .huge[Asia, where theories do .red[not] work (yet again).]
+# .large[Asia, where theories do .red[not] work (yet again).]
 
 --
 
-# .yellow[`r fa("glasses")`] Let's see if existing theories (speculations) on development of Asia work.
+### .yellow[`r fa("microscope")`] Let's see if existing theories (speculations) on <br> development of Asia work.
 
 --
 
-# .yellow[`r fa("glasses")`] In particular, we will compare .red[Asia] with .blue[Latin America].
+### .yellow[`r fa("microscope")`] In particular, we will compare <br> .red[Asia] with .blue[Latin America].
 
 ---
 class: inverse, middle
 background-color: #2D0852
 
-# .huge[Q: Why we see some success cases in Asia, but not really in Latin America?]
+# .huge[Q: Why we see some success cases in Asia, but not really in Latin America?] 
+
 
 ---
 
