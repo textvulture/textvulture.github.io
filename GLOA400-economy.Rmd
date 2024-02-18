@@ -109,7 +109,7 @@ var = c('GDPpc' = 'NY.GDP.PCAP.KD',
 wdi <- WDI(indicator=var,
            start=1960,
            country = 'all',
-           end=2020,
+           end=2022,
            extra=TRUE)
 ```
 
