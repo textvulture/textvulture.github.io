@@ -17,15 +17,11 @@
         body {
             font-family: "Latin Modern Sans Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
         }
-        
-        .oneandhalf h4 {
-            line-height: 1.5; 
+        .inline-item {
+            display: inline-block;
+            vertical-align: middle; /* Adjust vertical alignment as needed */
+            margin-right: 10px; /* Adjust spacing between image and text */
         }
-
-        .oneandtwo h4 {
-            line-height: 1.2; 
-        }
-
 </style>
 </head>
 
@@ -49,7 +45,6 @@
 				  <li><a href="index.html">Home</a></li>
 				  <li><a href="#publications">Publications</a></li> 
 				  <li><a href="https://textvulture.github.io/CV.pdf">CV</a></li> 
-          <li><a href="#Teaching">Teaching</a></li> 
 		  </ul>
 		</div>
 	  </div>
@@ -62,30 +57,58 @@
 
             <!-- Entries Column -->
             <div class="col-md-8" style="height: 100vh;">
-              <h4>
-                <div style="font-family: 'Oswald', sans-serif; font-size: 32px;"><b>Byunghwan 'Ben' Son</b></div><br>
-                <p><b><i class="far fa-envelope" style="color: #4309f1;"></i><a href="bson3@gmu.edu"> bson3[at]gmu.edu</a></b><br>
-                <p><i class="fa-solid fa-building-columns" style="color: #0D7C31"></i><a href="https://globalaffairs.gmu.edu/">Global Affairs Program</a></p>
-                <p><i class="fa-solid fa-building-columns" style="color: #15BF4C"></i><a href="https://www.gmu.edu/">George Mason University</a><br>
-                </p>
-              </h4><br>
-              <div class="oneandhalf">
-                 <p><h4>I am Byunghwan '<i>Ben</i>' Son (손병환), an associate professor in the Global Affairs Program at George Mason University (Fairfax, VA). 
-                  I also serve as a director for the <a href="https://globalaffairs.gmu.edu/programs/la-minor-la-apns">Asia-Pacific and Northeast Asian Studies</a> ('Asia-Pac') minor 
-                  and an associate director for the <a href="https://koreanstudiescenter.gmu.edu/">Korean Studies Center</a>. Here's my <a href="https://textvulture.github.io/CV.pdf"><strong><b style="color: #095D24;">CV </b></strong><i class="fa-regular fa-file-pdf"></i></a>.</h4></p>	
-                  </div>
+                
+                <!-- Main Image -->
+                <img class="img-responsive" src="https://d101vc9winf8ln.cloudfront.net/person_images/2766/cropped/portraitSep2022.jpg?1669231463" alt=""><br>
+                
+                <div style="margin-top:3%; text-align:justify;">                
+					<p><h4>I am Byunghwan 'Ben' Son, an associate professor in the Global Affairs Program at George Mason University (Fairfax, VA). 
+						I also serve as a director for the <a href="https://globalaffairs.gmu.edu/programs/la-minor-la-apns">Asia-Pacific and Northeast Asian Studies</a> ('Asia-Pac') minor 
+						and an associate director for the <a href="https://koreanstudiescenter.gmu.edu/">Korean Studies Center</a>. Please download my CV <a href="https://textvulture.github.io/CV.pdf">here</a>.</h4></p>					
+				
+                </div>
             </div> 
 
             <!-- Contact Info on the Sidebar -->
             <div class="col-md-4">
-              <img class="img-responsive" src="https://d101vc9winf8ln.cloudfront.net/person_images/2766/cropped/portraitSep2022.jpg?1669231463" alt=""><br>
-              <strong><i class="fa-brands fa-google-scholar" style="color: #220128"></i></strong><a href="https://scholar.google.com/citations?user=h0o27GgAAAAJ&hl=en"> Google Scholar</a><br>
+              <h4>
+                <div style="font-family: 'Oswald', sans-serif; font-size: 32px;"><b>Byunghwan 'Ben' Son</b></div><br>
+                <p><b><i class="far fa-envelope" style="color: #4309f1;"></i><a href="bson3@gmu.edu"> bson3[at]gmu.edu</a></b><br>
+                <p><a href="https://globalaffairs.gmu.edu/">Global Affairs Program</a><br>
+                <a href="https://www.gmu.edu/">George Mason University</a><br>
+                Fairfax, VA<br>
+                </p>
+              </h4>
+            </div>
+            
+            
+            <!-- Links on the Sidebar -->
+            <div class="col-md-4" style="margin-top:2%">
+              <h4>
+              <i class="fa-brands fa-google-scholar" style="color: #220128"></i><a href="https://scholar.google.com/citations?user=h0o27GgAAAAJ&hl=en"> Google Scholar</a><br>
               <i class="fa-brands fa-twitter" style="color: #74C0FC;"></i> <a href="https://twitter.com/Byunghwan_Son"> @Byunghwan_Son</a><br>
               <i class="fa-solid fa-building-columns" style="color: #0E6E05"></i> <a href="https://globalaffairs.gmu.edu/people/bson3">GMU Profile</a><br>
-     
+           
+              
+            </h4>
             </div>
-      
-          
+            
+            <div>
+              <img src="https://d101vc9winf8ln.cloudfront.net/person_images/2766/cropped/portraitSep2022.jpg?1669231463" alt="Byunghwan Ben Son" class="inline-item">
+              <div class="inline-item">
+                  <p><div style="font-family: 'Oswald', sans-serif; font-size: 16px;"><b>Byunghwan 'Ben' Son</b></div></p>
+                  <p><i class="far fa-envelope" style="color: #4309f1;"></i><a href="bson3@gmu.edu"> bson3[at]gmu.edu</a></p>
+                  <p><a href="https://globalaffairs.gmu.edu/">Global Affairs Program</a></p>
+                  <p><a href="https://www.gmu.edu/">George Mason University</a>, Fairfax, VA</p>
+                  <p><i class="fa-brands fa-google-scholar" style="color: #220128"></i><a href="https://scholar.google.com/citations?user=h0o27GgAAAAJ&hl=en"> Google Scholar</a><br>
+                  </p>
+                  <p><i class="fa-brands fa-twitter" style="color: #74C0FC;"></i> <a href="https://twitter.com/Byunghwan_Son"> @Byunghwan_Son</a><br>
+                  </p>
+                  <p><i class="fa-solid fa-building-columns" style="color: #0E6E05"></i> <a href="https://globalaffairs.gmu.edu/people/bson3">GMU Profile</a><br>
+                  </p>
+              </div>
+          </div>
+            
             <!-- Publications -->
             <div class="col-md-8" style="height: 100vh;">    
                 <h2 id="publications">Publications</h2>
