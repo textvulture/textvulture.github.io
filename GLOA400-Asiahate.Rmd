@@ -44,12 +44,6 @@ background-size: cover
 
 # .huge[Globaliztion in Asia] <br> (GLOA 400) <br> Asian Hate and the Pandemic 
 
----
-
-
-.pull-left[
-![](https://www.pewresearch.org/race-ethnicity/wp-content/uploads/sites/18/2023/11/RE_2023.11.30_Asian-American-Discrimination_4-01.png)
-]
 
 ---
 
@@ -89,15 +83,23 @@ background-position: right
 
 --
 
-# - small in size
+## - small in size
 
 --
 
-# - 'model immigrants'
+## - 'model immigrants'
 
 --
 
-# - weak organization effort
+## - weak organization effort
+
+---
+
+## Anti-Asian Hate Crimes during the .pink[Pandemic], A Comparative Perspective
+
+.center[
+![](https://github.com/textvulture/textvulture.github.io/blob/master/images/antiAsianHateCrimeStats.png?raw=true)
+]
 
 ---
 <div class="full-width-tinted">
@@ -112,7 +114,7 @@ background-position: right
 --
 <br>
 
-## Perpetrators of Anti-Asian Hate Crimes (FBI)
+## Perpetrators of Anti-Asian Hate Crimes (FBI, 2021)
 
 - .Large[70% White]
 - .Large[70% Male]
@@ -122,14 +124,16 @@ class: inverse
 background-color: black
 
 <div class="full-width-tinted"><br>
-  <h1 style="font-size:55px"> If .yellow[just] White Supremacy, similar for .red[all] minorities? </h1>
+  <h1 style="font-size:55px"> If .yellow[just] White Supremacy, similar for .pink[all] ethnic minorities? </h1>
 </div><br><br>
 
 ## **Reny and Barreto (2020)**
 
-- .large['Othering' H: disease`r fa("virus", fill='red')` + stigmatized group `r fa("hand-pointer", fill='orange')` => blame `r fa("head-side-virus", fill="yellow")`! : only Asians]
+- .large['**Othering**' H: disease`r fa("virus", fill='red')` + stigmatized group `r fa("hand-pointer", fill='orange')` => blame `r fa("head-side-virus", fill="yellow")`! : only Asians]
+--
 
-- .large['behavioral immune system' H: .yellow[all] minorities]
+- .large['**behavioral immune system**' H: .yellow[all] minorities]
+
 <br>
 --
 
@@ -140,18 +144,24 @@ knitr::include_graphics("https://github.com/textvulture/textvulture.github.io/bl
 ---
 
 class: inverse, center, middle
-background-color: #88ACA4
+background-color: black
 
-# .Huge[**Only an <br> .blue[American] thing?**]
+# .Huge[**Only in .bluey[America]?**]
+
+---
+
+background-image: url(https://media1.giphy.com/media/s8jRuJXBwlb1a9BUh3/giphy.gif?cid=6c09b952hpsxguw8oa9fyxt6492fpe2y7nbpf0o1wv3pce97&ep=v1_internal_gif_by_id&rid=giphy.gif&ct=g)
+background-size: contain
+background-color: black
 
 ---
 
 <div class="full-width-tinted">
-  <h1> .large[Anti-Asian Hate or Anti-CCP?] .yellow[European] Examples</h1>
-</div><br>
+  .center[<h1> Anti-Asian Hate or Anti-CCP? .yellow[European] Examples</h1>]
+</div>
 
 --
-
+<br>
 # Gries and Turscanyi (2021) 
 
 --
@@ -172,33 +182,23 @@ background-color: #88ACA4
 
 ---
 
-class: inverse
-background-color:black
+# What did they find? (A British Example)
 
-.pull-left[
-.center[
-![](Gries-fig1.JPG)
-]
-]
+## Country = People near me
 
-.pull-right[
 .center[
 ![](Gries-fig2.JPG)
 ]
-<br>
-<br>
-# .huge[The Result]
 
-]
 
 
 ---
 
-<div class="full-width-tinted">
-  <h1> .Large[A bigger picture]</h1>
+<div class="full-width-tinted"><br>
+  .center[<h1> .Large[A Vicious Cycle]</h1>]
 </div><br>
 
-## What are the effects of the spill-over?
+## Possible Consequences of the .pink[spill-over]?
 
 --
 
@@ -210,14 +210,19 @@ background-color:black
 
 --
 
-## `r fa("exclamation")` populist and/or nationalist political .red[elites] benefit from this mess (negative feedback structure)
+## Populist and/or nationalist political .red[elites] benefit from this mess
 
 --
 
-### : .red[anti-CCP] ('China Virus') -> anti-Chinese sentiment in the West -> anti-West sentiment in China -> CCP & Western Populist emboldened ---> .red[anti-CCP]?
+- a .pink[stimuli] ('China Virus') 
+--
 
----
+- anti-Chinese sentiment in the West 
+--
 
-background-image: url(https://media2.giphy.com/media/dB16tYGyHzov7EzN5D/giphy.gif)
-background-size: contain
+- anti-West sentiment in China 
+--
+
+- CCP & Western Populist emboldened 
+
 
