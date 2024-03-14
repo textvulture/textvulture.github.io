@@ -189,6 +189,7 @@ h1, h2, {
               <i class="fa-solid fa-building-columns" style="color: #0E6E05"></i> <a href="https://globalaffairs.gmu.edu/people/bson3">GMU Profile</a>
               <br>
               <i class="fa-brands fa-github" style="color: #290D8B"></i> <a href="https://github.com/textvulture/">GitHub</a><br>
+              
             </h4>
           </div>
 
@@ -209,7 +210,9 @@ h1, h2, {
                 <li> Byunghwan Son (2024). Consequences of Democratic Backsliding in Popular Culture: Evidence from Blacklist in South Korea. <i>Democratization</i>, Accepted for Publication. 
                   <button-orange type="button-orange" class="button-orange"><a href="https://textvulture.github.io/mypage/Son2024a/Son2024a.pdf" target="_blank">PDF</a></button-orange>
                   <button-orange type="button-orange" class="button-orange"><a href="https://textvulture.github.io/mypage/Son2024a/OnlineAppendix.pdf" target="_blank">Appendix</a></button-orange>
-                  <button-orange type="button-orange" class="button-orange"><a href="https://textvulture.github.io/bkv.html#1" target="_blank">Slides</a></button-orange>                  
+                  <button-orange type="button-orange" class="button-orange"><a href="https://textvulture.github.io/bkv.html#1" target="_blank">Slides</a></button-orange> 
+                  [<a href="#" onclick="showBibTeX('Son2024a')">Cite This</a>]
+                              
                 </li><br>
   
 
@@ -341,7 +344,38 @@ h1, h2, {
 
           </div>
 
-
+          <script>
+            function showBibTeX(key) {
+                // Fetch BibTeX entry from the file using AJAX
+                var xhr = new XMLHttpRequest();
+                xhr.open('GET', 'publications.bib', true);
+                xhr.onreadystatechange = function() {
+                    if (xhr.readyState == 4 && xhr.status == 200) {
+                        var bibtexEntries = xhr.responseText;
+                        var bibTeXEntry = findBibTeXEntryByKey(bibtexEntries, key);
+                        if (bibTeXEntry) {
+                            // Open a new window to display the BibTeX entry
+                            var bibWindow = window.open("", "BibTeX Entry", "width=600,height=400");
+                            bibWindow.document.write("<pre>" + bibTeXEntry + "</pre>");
+                            bibWindow.document.close();
+                        } else {
+                            alert('BibTeX entry not found.');
+                        }
+                    }
+                };
+                xhr.send();
+            }
+            
+            function findBibTeXEntryByKey(bibtexEntries, key) {
+                var regex = new RegExp('@.*?' + key + '[^}]*}', 'g');
+                var matches = bibtexEntries.match(regex);
+                if (matches && matches.length > 0) {
+                    return matches[0];
+                } else {
+                    return null;
+                }
+            }
+            </script>
 
 
             <!-- Teaching -->
