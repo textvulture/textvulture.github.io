@@ -61,15 +61,15 @@ background-size: cover
 
 --
 
-## - The consequences of transnational human rights issues in Asia
+## - The (consequences of) transnational human rights issues in Asia
 
 --
 
-## - Transnational Crimes (human trafficking; environmental crimes; piracy)
+## - Transnational Crimes (trafficking; environmental crimes; piracy)
 
 --
 
-## - Transitional justice issues (the Rohyinga)
+## - Tran.pink[si]tional justice issues (the Rohyinga)
 
 --
 
@@ -166,11 +166,39 @@ background-color: black
 
 
 ---
+
+background-image: url(https://resizing.flixster.com/v9Qu4AOTPdMYuqnPZS_O8oFgNIw=/ems.cHJkLWVtcy1hc3NldHMvbW92aWVzLzEwOTVmMGI4LTU0ODMtNGIyNi1hNDRkLWUwMDZjNWIwYTRjNi53ZWJw)
+background-size: contain
+background-position: right
+
+# Arms Trafficking `r fa("gun", fill="purple")`
+
+--
+
+## - Salisbury (2021)
+
+--
+
+## - Not just illegal sales of arms
+
+--
+
+## - brokering, fascilitation & espionage
+
+  - .Large[acquisition and exports of <br>arms, techs, and expertise]
+
+--
+
+  - .Large[use of diplomats and embassy facilities `r fa("user-secret", fill='red')`]
+
+
+---
+
 class: inverse, center, middle
 background-image: url(https://img.etimg.com/thumb/msid-68266564,width-640,resizemode-4,imgsize-491753/south-asias-battle.jpg)
 background-size: cover
 
-# .Large[**Environmental .green[Crimes] in Asia**]
+# .LARGE[**Environmental .Green[Crimes] in Asia**]
 
 --
 
@@ -194,26 +222,6 @@ background-size: cover
 
 ---
 
-class: inverse, middle
-background-color: black
-background-image: url(https://pics.loveforquotes.com/13-17-passing-the-buck-51696068.png)
-background-position: right
-
-# Why is the issue not addressed? <br> .yellow[.Small[\- despite the security consequences]]
-
---
-
-## - Elliott (2017)
-
-## - elites' lack of understanding
-
---
-
-## - institutional incapacity & inertia
-
-
----
-
 <div class="full-width-tinted"><br>
   <h1> Maritime Piracy: what are the .yellow[legal] boundaries? </h1>
 </div><br><br>
@@ -233,11 +241,6 @@ b. any act of .red[voluntary participation] in the operation of a ship or of an 
 ]
 ]
 ]
-
----
-class: inverse, bottom, center
-background-image: url(https://cms.iccwbo.org/content/uploads/sites/3/2019/07/2019-02-imb20report6-e1562601036956.png)
-background-size: contain
 
 ---
 class: inverse
@@ -312,7 +315,7 @@ vdem %>%
 
 ---
 class: inverse, center, middle
-background-image: url(https://www.myanmar-now.org/sites/myanmar-now.org/files/styles/header_image_large/public/news-images/h_56743637_0.jpg?itok=_6UtpMX7)
+background-image: url(https://media.cntraveller.com/photos/611be9f569410e829d87e125/16:9/w_2240,c_limit/burma-conde-nast-traveller-15apr13_alamy_b.jpg)
 background-size: cover
 
 # .Huge[**Transitional Justice <br> in Myanmar**]
@@ -368,13 +371,15 @@ background-size: contain
 ---
 
 class: inverse
-background-image: url(https://raw.githubusercontent.com/textvulture/textvulture.github.io/master/images/darkGreenbackground.jpg)
+background-image: url(https://lh3.googleusercontent.com/proxy/juIPzKRDX4cYiJvnRMWnlZbiYc5Vxj-BOZiVC_X5AIFkfwP3HqAPbHzzp237dpVOGZD2d0xAcSygY1RdpLSn-1gqE0ybnlwNJ7v6vfuR1Gx6v5GRQoSCkC5sBzaezNcl5IpFzJ_uKWladEM)
+background-position: right
+background-size: contain
 
-# .yellow[Another] reason transitional justice is .red[hard]: `r fa("bullhorn", fill='orange')` Politics
+# .yellow[Another] reason transitional justice <br>is .red[hard]: `r fa("bullhorn", fill='orange')` Politics
 
 --
 
-# `r fa("hand-back-fist", fill='red')` The New Right movement in Japan
+# `r fa("hand-back-fist", fill='red')` New Right movement in Japan
 
 --
 
@@ -394,5 +399,5 @@ background-image: url(https://raw.githubusercontent.com/textvulture/textvulture.
 
 --
 
--   .Large[hardliners against the '.yellow[history matters]' in Asia]
+-   .Large[hardliners against the '.yellow[history matters]' <br>in Asia]
 
