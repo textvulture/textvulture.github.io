@@ -107,7 +107,7 @@ background-size: 100%
 
 --
 
-# .huge[inequality `r fa('not-equal', fill='yellow')` poverty]
+# .huge[inequality .orange[::] poverty?]
 
 ---
 
@@ -304,7 +304,7 @@ background-position: right
 
 # Elephant 🐘 Story
 
-### source: Milanovic (2020)
+### source: Milanovic (2020) <br>(also, Briggs(2018))
 
 ---
 
@@ -438,7 +438,13 @@ class: inverse, center, middle
 background-image: url(https://github.com/textvulture/textvulture.github.io/blob/master/images/forestBackground3.jpg?raw=true)
 background-size: 115%
 
-# So, what do we know about inequality & poverty .yellow[now]?
+--
+
+# Sensationalism (e.g., just blaming some transnational evil entities on global poverty) is .pink[easy].
+
+--
+
+# Thinking about actual solutions is much .yellow[harder].
 
 
 
