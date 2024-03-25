@@ -281,22 +281,28 @@ background-color: black
 ]
 
 ---
+class: inverse, center, middle
+background-image: url(https://media.cntraveller.com/photos/611be9f569410e829d87e125/16:9/w_2240,c_limit/burma-conde-nast-traveller-15apr13_alamy_b.jpg)
+background-size: cover
 
+# .Huge[**Transitional Justice <br> in Myanmar**]
+
+---
 
 <div class="full-width-tinted"><br>
-  <h1> .Large[The Cambodian Case] </h1>
+  <h1> .Large[The Rohyinga Case] </h1>
 </div><br><br>
 
 ```{r echo=FALSE, error=FALSE, message=FALSE, warning=FALSE, fig.width=20, fig.height=9, cache=TRUE}
 
 vdem %>%
-  filter(country_name == "Cambodia") %>%
+  filter(country_name == "Burma/Myanmar") %>%
   filter(year>1900) %>%
   select(year, v2cltort, v2clkill) %>%
   gather(key="variable", value="value", -year) %>%
   ggplot(aes(x = year, y=value)) +
-  geom_smooth(aes(color=variable), alpha=0.5, size=1.5)  +
-  geom_vline(xintercept = 1968, linetype="dotted", 
+  geom_line(aes(color=variable), alpha=0.5, size=1.5)  +
+  geom_vline(xintercept = 2015, linetype="dotted", 
                 color = "red", size=1.5) +
   labs(x = "year", 
        y = "Human Rights") +
@@ -312,14 +318,6 @@ vdem %>%
   
 ```
 
-
----
-class: inverse, center, middle
-background-image: url(https://media.cntraveller.com/photos/611be9f569410e829d87e125/16:9/w_2240,c_limit/burma-conde-nast-traveller-15apr13_alamy_b.jpg)
-background-size: cover
-
-# .Huge[**Transitional Justice <br> in Myanmar**]
-
 ---
 
 # What happened in Myanmar: Ethnic Cleansing
@@ -334,7 +332,7 @@ background-image:url(https://static01.nyt.com/images/2021/03/24/world/00myanmar-
 background-size: 55%
 background-position: right
 
-# .Large[Is self-correction possible?] <br> &nbsp; &nbsp; .tiny[:  *if so, not a transitional justice situation*]
+# Is self-correction possible? <br> &nbsp; &nbsp; .tiny[:  *if so, not a transitional justice situation*]
 
 --
 
@@ -357,7 +355,7 @@ background-position: right
 background-color: black
 background-size: contain
 
-# Another Current Case: <br> .yellow[Xinjiang] (Hendix and Noland)
+# Another Current Case: <br> .yellow[Xinjiang] (Hendix and Noland 2021)
 
 ## 'Controversial' whether a genocide `r fa("users-slash", fill='red')` ?
 
@@ -371,7 +369,7 @@ background-size: contain
 ---
 
 class: inverse
-background-image: url(https://lh3.googleusercontent.com/proxy/juIPzKRDX4cYiJvnRMWnlZbiYc5Vxj-BOZiVC_X5AIFkfwP3HqAPbHzzp237dpVOGZD2d0xAcSygY1RdpLSn-1gqE0ybnlwNJ7v6vfuR1Gx6v5GRQoSCkC5sBzaezNcl5IpFzJ_uKWladEM)
+background-image: url(https://www.shutterstock.com/preview-440/10362314f/0c36eb63/Shutterstock_10362314f.jpg)
 background-position: right
 background-size: contain
 
@@ -379,25 +377,22 @@ background-size: contain
 
 --
 
-# `r fa("hand-back-fist", fill='red')` New Right movement in Japan
+### `r fa("book", fill='pink')` Smith (2018): `r fa("hand-back-fist", fill='red')` Generations of Far-Right mov't in Japan
 
 --
 
-# `r fa("book", fill='red')` Smith (2018): Japan
+-   .large[Action Conservative Movement (ACM)]
+
+--
+-   .large[persistent hardliners against the '.yellow[history matters]']
 
 --
 
--   .Large[Action Conservative Movement (ACM)]
-
+### `r fa("book", fill='Green')` Indonesia (Wahyuningroem 2022)
 --
 
--   .Large[anti-ethnic minority]
+- .large[TJ issues as tactical concession; legitimacy token]
 
 --
-
--   .Large['ethnically diverse empire']
-
---
-
--   .Large[hardliners against the '.yellow[history matters]' <br>in Asia]
+- .large[.pink[authoritarian legacy]]
 
