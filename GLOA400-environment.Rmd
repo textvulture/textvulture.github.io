@@ -37,14 +37,22 @@ knitr::opts_chunk$set(warning = FALSE, message = FALSE, error=F, echo=F)
 options(htmltools.preserve.raw = FALSE)
 ```
 
-class: inverse, right, top
+class: right, top
 background-image: url(https://research.tamu.edu/wp-content/uploads/2014/01/AirPollution2.jpg)
 background-size: cover
 
-# .huge[**Environmental Issues <br> in Asia <br> GLOA 400**]
+# .Green[.huge[**Environment <br> and Globalization <br> in Asia <br> GLOA 400**]]
 
 ---
 
+class: middle
+background-image: url(https://cdn.i-scmp.com/sites/default/files/styles/portrait/public/d8/images/methode/2021/05/26/f40ecba0-b9ee-11eb-9461-e80e43f535ad_image_hires_162547.jpeg?itok=G2XMFd-K&v=1622017558)
+background-position: right
+background-size: contain
+
+# There are many dimensions in <br>global environment `r fa("leaf", fill='green')`.<br><br> We focus on air pollution as <br>it is the most notable one <br>in the region `r fa("bell", fill='purple')`.
+
+---
 
 
 ```{r include=F, cache=T}
@@ -96,9 +104,10 @@ wdi %>%
 
 
 <div class="full-width-tinted"><br>
-  <h1> .large[Air Pollution] </h1> 
+  <h1> Air Pollution and Development in Asia and Beyond </h1> 
 </div><br><br> 
 
+- small dots are non-Asian states, .pink[not] reflecting their GDPpc
 
 ```{r echo=F, message=F, warning=F, error=F, cache=T, fig.width=16}
 
@@ -122,34 +131,41 @@ wdi %>%
 ```
 
 ---
+
+
+background-image: url(http://cdn.statcdn.com/Infographic/images/normal/17239.jpeg)
+background-size: contain
+background-position: right
+
+# .Large[.red[`r fa("head-side-mask")`] Urban Air Pollution]
+
+---
 class: inverse, top, right
 background-image: url(https://github.com/textvulture/textvulture.github.io/blob/master/images/polluted_cities.png?raw=true)
 background-size: contain
 
 # .Large[.bluey[**Most Air-Polluted Cities in 2022**]]
 
-
-
 ---
 
 
-class: inverse
 background-image: url(http://cdn.statcdn.com/Infographic/images/normal/17239.jpeg)
 background-size: contain
 background-position: right
-background-color: #DF9A06
 
-# .LARGE[.red[`r fa("head-side-mask")`] Urban Air Pollution]
-
---
-
-# South Asia -- Why seasonal?
-
-# Are urbanization <br> the .red[only] source of air pollution?
+# .Large[.red[`r fa("head-side-mask")`] Urban Air Pollution]
 
 --
 
-## - Biomass burning in the .green[rural] areas <br> (Bikkina et al.2019)
+# South Asia: why .orange[seasonal]?
+
+--
+
+# Are urbanization <br> the .pink[only] source of air pollution?
+
+--
+
+## - Biomass burning in the .Green[rural] areas <br> (Bikkina et al.2019)
 
 
 
@@ -179,15 +195,16 @@ background-color: #DF9A06
 
 ---
 
-background-image: url(https://github.com/textvulture/textvulture.github.io/blob/master/images/Mongolia_air.png?raw=true)
- 
----
 background-image: url(http://prod-upp-image-read.ft.com/d81d851e-a1de-11e4-bd03-00144feab7de)
 background-size: contain
 class: inverse
 
 # .huge[**Rapid Expansion of <br> the Coldest City in the World**]
 
+---
+
+background-image: url(https://github.com/textvulture/textvulture.github.io/blob/master/images/Mongolia_air.png?raw=true)
+ 
 ---
 
 <div class="full-width-tinted"><br>
@@ -198,7 +215,7 @@ class: inverse
 
 ## The relationship b/w <br> .green[economic globalization] and .red[environmental degradation]
 
-### - Inverted U-curve shape (Zaidi et al. 2019)
+### - Inverted U-curve shape
 
 ### - Distributive implications
 
@@ -216,12 +233,17 @@ class: inverse
 
 ---
 
-# Globalization, Financialization, and CO2 Emission <br> (Zaidi et al. 2019)
+# Does EKC empirically hold up?
+--
 
-.Large[
-- .red[technology] effect (globalization)
-- .orange[credit] effect (financialization)
+### Zaidi et al. 2019: .pink[APEC] countries
+
+--
+
+.large[
+- .red[technology] (globalization) & .orange[credit] (financialization) effects 
 ]
+--
 
 ```{r echo=F, out.width="70%", fig.align='center'}
 knitr::include_graphics("https://github.com/textvulture/textvulture.github.io/blob/master/images/Zaidi2019.png?raw=true")
@@ -239,11 +261,11 @@ background-size: 60%
 
 --
 
-### `r fa("arrow-down", fill='red')` polluting firms took a hit 
+### `r fa("arrow-down", fill='red')` polluting firms took a hit <br> (i.e., negative stock returns)
 
 --
 
-### `r fa("shield", fill='purple')` SOEs were hurt less 
+### But, `r fa("landmark", fill='purple')` SOEs were hurt less 
 
 --
 
