@@ -1,0 +1,285 @@
+---
+title: "Deglobalization? GLOA 400"
+author: "Byunghwan Son <br> George Mason University"
+date: " "
+#########################################
+linkcolor: red
+citecolor: blue
+urlcolor: blueß
+output: 
+  xaringan::moon_reader:
+    seal: false
+    nature:
+      ratio: '16:9'
+      highlightStyle: github
+  #    self-contained: TRUE
+  chakra: css/libs/remark-latest.min.js
+css: ["default", 
+      "css/footer.css", 
+      "css/color.css", 
+      # "css/xaringan-themer.css",
+      default-fonts]
+lib_dir: css/libs
+beforeInit: "css/macros.js"
+# seal: false  
+#bibliography: /Users/bson3/Dropbox/latex/mybib2.bib
+#remotes::install_github('yihui/xaringan', upgrade = TRUE)
+---
+
+```{r setup, include=FALSE}
+# to use FontAwesome
+#htmltools::tagList(rmarkdown::html_dependency_font_awesome())
+library(fs)
+library(fontawesome)
+# library(magick)  
+library(ggplot2)
+library(dplyr)
+knitr::opts_chunk$set(warning = FALSE, message = FALSE, error=F, echo=F)
+options(htmltools.preserve.raw = FALSE)
+```
+
+class: center, middle
+background-image: url(https://github.com/textvulture/textvulture.github.io/blob/master/images/factoryBackground2.png?raw=true)
+background-size: cover
+
+# .Green[.huge[**Deglobalization in Asia? <br> GLOA 400**]]
+
+---
+
+
+class: inverse
+background-image: url(https://github.com/textvulture/textvulture.github.io/blob/master/images/factoryBackground1.png?raw=true)
+background-size: 100%
+
+# .Large[**What we're talking about**] :
+
+--
+<br>
+
+## - any indications of shriking interactions? 
+
+--
+
+## - any signs of worsening sentiments or signs? 
+
+--
+
+## - or is it a challenge to the West-led global order 
+
+--
+
+## - or something else? (#.pink[reshoring])
+
+
+---
+
+<br>
+<br>
+
+.blockquote[## **.green[Globalization:]**
+.black[.Large[
+A .Yellow[**process**] of increasing and intensifying .violet[**connectivity**] b/w global actors
+]
+]
+]
+<br><br>
+
+--
+
+.blockquote[## ** .red[*De* ].black[globalization]:**
+.black[.Large[
+  - Globalization in reverse.
+  - decreasing and/or loosening connectivity
+  - less/weakening global actors:  .Orange[institutions? organizations?]
+]
+]
+]
+
+---
+
+
+```{r include=F, cache=T}
+
+library(WDI)
+
+var = c('GDPpc' = 'NY.GDP.PCAP.KN',
+        'trade' = 'TG.VAL.TOTL.GD.ZS',
+        'tariff' = 'TM.TAX.MRCH.SM.AR.ZS',
+        'tourism' = 'ST.INT.TVLR.CD',
+        'migrantStock' = 'SM.POP.TOTL',
+        'trade_all' = 'NE.TRD.GNFS.ZS'
+)
+
+wdi <- WDI(indicator=var,
+           start=1970,
+           country = 'all',
+           end=2021,
+           extra=TRUE)   %>%
+  filter(region !="Aggregates") %>%
+  mutate(developed = 
+           case_when(
+             income == "High income" ~ "Developed",
+             income == "Upper middle income" ~ "Developed",
+             income == "Lower middle income" ~ "Underdeveloped",
+             income == "Low income" ~ "Underdeveloped"
+           )) 
+
+```
+
+
+
+# Has the volume of .red[trade] been shrinking in Asia? <br> .tiny[(developed: WB classification)]
+
+```{r results="asis", fig.width=16, fig.height=7}
+
+wdi %>%
+  filter(region=="East Asia & Pacific" | region=="South Asia") %>%
+  ggplot(aes(x=year,
+             y=trade_all)) +
+  geom_point(alpha=0.5, size=5, aes(fill=factor(country))) +  
+  geom_smooth(alpha=0.5) +
+  labs(x = "YEAR",
+       y = "All Trade % of GDP") +
+  theme_minimal() +
+  theme(legend.position = "none",
+        axis.text=element_text(size=20),
+        axis.title=element_text(size=20)) +
+  ylim(12, 25)
+
+```
+
+
+---
+
+# .orange[Tariff?] .green[Tourism?]
+
+```{r results="asis", fig.width=16, fig.height=7}
+
+fig1 <- wdi %>% #filter(year>1993) %>%
+  filter(region=="East Asia & Pacific" | region=="South Asia") %>%
+  filter(tariff<50) %>%
+  ggplot(aes(x=year,
+             y=tariff)) +
+  geom_point(alpha=0.25, size=2) +
+  geom_smooth(alpha=0.5) +
+  labs(x = "YEAR",
+       y = "Tariff Rates (outliers dropped)") +
+  theme_minimal() +
+  theme(legend.position = "none",
+        axis.text=element_text(size=20),
+        axis.title=element_text(size=20)) 
+
+fig2 <- wdi %>% 
+  filter(region=="East Asia & Pacific" | region=="South Asia") %>%
+  filter(year>1993) %>%
+  ggplot(aes(x=year,
+             y=log(tourism))) +
+  geom_point(alpha=0.25, size=2) +
+  geom_smooth(alpha=0.5) +
+  labs(x = "YEAR",
+       y = "Tourism (receipts for travel items)") +
+  theme_minimal() +
+  theme(axis.text=element_text(size=20),
+        axis.title=element_text(size=20),
+        legend.position='none') 
+
+library(gridExtra)
+grid.arrange(fig1, fig2, ncol=2)
+
+```
+
+---
+
+
+class: inverse, center, middle
+background-image: url(https://github.com/textvulture/textvulture.github.io/blob/master/images/forestBackground3.jpg?raw=true)
+background-size: fill
+
+# .LARGE[**So what's all the fuss about?**]
+
+--
+
+# .large[Maybe everything is just fine?]
+
+---
+class: inverse, middle, center
+background-image: url(https://reactiongifs.me/cdn-cgi/imagedelivery/S36QsAbHn6yI9seDZ7V8aA/48e80e16-93a0-4d96-421d-1a83abf08d00/w=640)
+background-size: contain
+
+
+# .huge[**.yellow[The Onshoring Challenge]**]
+
+---
+
+class: inverse
+background-image: url(https://github.com/textvulture/textvulture.github.io/blob/master/images/semiconductor.jpg?raw=true)
+background-size: contain
+background-position: right
+background-color: black
+
+# .large[**CHIPS+**] (.small[*CHIPS and Science Act of 2022*])
+--
+
+.large[.yellow[: Creating Helpful Incentives to Produce Semiconductors]]
+--
+
+- .large[$280bn pkg: .violet[domestic] semiconductor .violet[manufacturing]]
+--
+
+- .large[
+.pink[geopolitical] and .Green[natural] risks
+]
+--
+
+- .large[
+.orange['industrial policy']? (Danzman 2023)
+]
+--
+
+- .large[
+ameliorate the ills of globalization? (domestic)
+]
+--
+
+- .large[
+counter .red[Chinese] growth on the tech fields
+]
+
+--
+
+### And then, .large[.Yellow[**Inflation Reduction Act**]]
+
+--
+
+### `r fa("handshake-slash", fill='yellow')` A complete departure from 90s' globalization?
+
+---
+
+## But what about things that .red[cannot] be reshored? (e.g., .blue[cobalt]) (1)
+
+
+--
+
+.center[
+![](https://www.ft.com/__origami/service/image/v2/images/raw/https%3A%2F%2Fd6c748xw2pzm8.cloudfront.net%2Fprod%2F7ccc7460-bf56-11ed-8d24-1df0c5b816c1-standard.png?dpr=1&fit=scale-down&quality=highest&source=next&width=700)]
+
+---
+
+## But what about things that .red[cannot] be reshored? (e.g., .blue[cobalt]) (2)
+
+.center[
+![](https://www.ft.com/__origami/service/image/v2/images/raw/https%3A%2F%2Fd6c748xw2pzm8.cloudfront.net%2Fprod%2F560a8e10-be8a-11ed-b917-cbe2aff3902c-standard.png?dpr=1&fit=scale-down&quality=highest&source=next&width=700)]
+
+---
+
+background-image: url(https://giffiles.alphacoders.com/133/13343.gif)
+background-position: right
+background-size: contain
+
+# Of course, it's not just the economy.
+## It's about something more fundamental.
+
+--
+
+# Not getting .pink[China] right.
+
