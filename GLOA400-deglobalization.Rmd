@@ -276,10 +276,40 @@ background-image: url(https://giffiles.alphacoders.com/133/13343.gif)
 background-position: right
 background-size: contain
 
-# Of course, it's not just the economy.
-## It's about something more fundamental.
+## It's .red[not] just the economy, but something .pink[else].
 
 --
 
-# Not getting .pink[China] right.
+- .large[why the sudden wake-up call?]
+
+--
+
+## Not getting .pink[China] right.
+
+--
+- .large[Post-Cold War Asia defied the expectation. (Kang 2003)]
+
+--
+  - .large[.green[Bandwagoning] w/, not balancing against, China] 
+
+--
+
+- .large[No 'containment coalition' in Asia is likely to emerge.]
+
+--
+  - .large[Asian states see China as a partner, not a threat.] 
+
+--
+  - .large[Defense spending $ didn't rise]
+
+--
+  - .large[economic interdependence `r fa('arrow-up', fill='red')`]
+  
+--
+
+- .large[Perhaps .red[stronger] incentive structures were needed.]
+
+--
+  - .large[AUKUS, Quad, IPEF `r fa('arrow-right')` .red[not] quite effective] 
+  
 
