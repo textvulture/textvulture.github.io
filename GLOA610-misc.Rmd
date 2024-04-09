@@ -39,11 +39,11 @@ knitr::opts_chunk$set(warning = FALSE, message = FALSE, error=F, echo=F)
 options(htmltools.preserve.raw = FALSE)
 ```
 
-class: inverse, left, top
+class: left, bottom
 background-image: url(https://static.dw.com/image/41289061_303.jpg)
 background-size: contain
 
-# .huge[**Environment, Health, and Resource <br> GLOA 610**]
+# .Green[.huge[**Environment, <br> Health, <br>and Resource <br> GLOA 610**]]
 
 
 
@@ -188,11 +188,7 @@ background-position: right
 
 ### - Global distributive implications
 
---
 
-### - Shapiro (2020)
-
-  - .large[is global trade anti-environment?]
 
 ---
 
@@ -200,12 +196,37 @@ class: inverse, center, middle
 background-image: url(https://media0.giphy.com/media/AkjrwuWU6RQQMrNOlg/200w.webp?cid=ecf05e47lsgynnhqs64j646in1ahczbmuehvpjc5g9dhlkwf&rid=200w.webp&ct=g)
 background-size: contain
 
-# .huge[**Is .red[Degrowth] the Answer? <br> (McAfee 2020)**]
+# .huge[**Is .red[De-growth] the Answer? <br> (McAfee 2020)**]
+
+---
+
+# What does literature say? (Kallis et al. 2018)
+
+
+.blockquote[
+### "...decoupling to stay within environmental limits is logically possible, but physically unlikely"
+]
+-- 
+
+### - Economic growth is not only about wealth or .pink[greed].
+--
+
+- .Large[social stabilizer (autoritarianism, otherwise)]
+
+
+--
+
+### - Degrowth is politically infeasible.
+
+--
+
+### - "design global, manufacture local" as a possible solution?
+
 
 
 ---
 
-# .orange[**Emmission is going down**]
+# .orange[**Emission is going down**]
 
 ```{r, out.width="550px"}
 
@@ -408,27 +429,28 @@ wdi %>%
 
 ---
 
-background-image: url(https://github.com/textvulture/textvulture.github.io/blob/master/images/Sigman2022_2.png?raw=true)
+background-image: url(https://lordicon.com/icons/wired/lineal/2114-oil-pump.gif)
 background-position: right
-background-size: 35%
+background-size: 45%
 
 # `r fa("book-skull", fill='orange')` Often understood as 'oil-curse'
 
 ## free revenue `r fa("arrow-up", fill='green')` `r fa("arrow-right")` accountability `r fa("arrow-down", fill='red')`
 
-## But, rank-and-file Bureaucrats?
+--
 
-### - Sigman et al. (2022)
+## `r fa('book', fill='red')` Savoia & Sen (2021)<br>: not that simple (literature review)
+
+### - the types of state and political institutions
 
 --
 
-  - .Large[oil-curse or "disgruntled employees" `r fa("face-angry", fill='green')` ?] <br>
-  
-```{r, out.width="600px"}
-  
-  knitr::include_graphics("https://github.com/textvulture/textvulture.github.io/blob/master/images/Sigman2022_3.png?raw=true")
-  
-```
+  - .Large[resource `r fa("arrow-right")` weak state <br>`r fa("arrow-right")` low responsiveness `r fa("arrow-right")` low welfare]
+
+--
+
+  - .Large[resource `r fa("arrow-right")` better resist <br>democratization `r fa("arrow-right")` low welfare]
+
 
 
 
