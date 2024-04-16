@@ -480,11 +480,6 @@ background-color: black
 --
 
 - .large[
-.orange['industrial policy']? (Danzman 2023)
-]
---
-
-- .large[
 ameliorate the ills of globalization? (domestic)
 ]
 --
@@ -500,6 +495,16 @@ counter .red[Chinese] growth on the tech fields
 --
 
 ### `r fa("handshake-slash", fill='yellow')` A complete departure from 90s' globalization?
+
+
+---
+
+class: middle
+background-image: url(https://www.imf.org/-/media/Images/IMF/FANDD/Charts/2023/agarwal-chart1-updated.ashx?w=1136)
+background-size: contain
+background-position: right
+
+# Or a .pink[revival] of <br>'.Green[industrial policy]'? <br> (Danzman 2023; <br>Argawal 2023)
 
 ---
 
