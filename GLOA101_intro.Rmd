@@ -1,0 +1,125 @@
+---
+title: "GLOA101"
+author: "Byunghwan Son <br> George Mason University"
+date: " "
+#########################################
+linkcolor: red
+citecolor: blue
+urlcolor: blueß
+output: 
+  xaringan::moon_reader:
+    seal: false
+    nature:
+      beforeInit: "https://platform.twitter.com/widgets.js"
+      ratio: '16:9'
+      highlightStyle: github
+  #    self-contained: TRUE
+  chakra: css/libs/remark-latest.min.js
+css: ["default", 
+      "css/footer.css", 
+      "css/color.css", 
+      # "css/xaringan-themer.css",
+      default-fonts]
+lib_dir: css/libs
+beforeInit: "css/macros.js"
+# seal: false  
+#bibliography: /Users/bson3/Dropbox/latex/mybib2.bib
+#remotes::install_github('yihui/xaringan', upgrade = TRUE)
+---
+
+```{r setup, include=FALSE}
+# to use FontAwesome
+#htmltools::tagList(rmarkdown::html_dependency_font_awesome())
+library(dplyr)
+library(tidyr)
+library(fs)
+library(fontawesome)
+# library(magick)  
+library(ggplot2)
+knitr::opts_chunk$set(warning = FALSE, message = FALSE, error=F, echo=F)
+options(htmltools.preserve.raw = FALSE)
+```
+
+class: right, middle
+background-image: url(https://github.com/textvulture/textvulture.github.io/blob/master/images/background_White.jpg?raw=true)
+background-size: 100%
+
+# .LARGE[What is Globalization? <br> .Green[An Introduction]]
+# GLOA 101
+
+---
+
+class: inverse, middle
+background-color: black
+
+## When people are asked <br>to come up with an image of <br> .orange[globalization],
+
+---
+
+class: inverse, middle
+background-color: black
+background-image: \url(https://media.giphy.com/media/QaMhVZVwOvDiw/giphy.gif)
+background-position: right
+
+## When people are asked <br>to come up with an image of <br> .orange[globalization],
+
+## it's usually something like this:
+
+--
+
+## And that's .pink[not] really wrong.
+
+---
+
+background-image: \url(https://github.com/textvulture/textvulture.github.io/blob/master/images/background_White2.jpg?raw=true)
+background-size: 100%
+
+# What we will be talking about: 
+
+--
+
+### - what people say globalization is
+
+--
+
+### - how globalization came around
+
+--
+
+### - how the stories differ depending on the concept
+
+--
+
+## .red[By the end of this module], you will have understood:
+
+--
+
+### - the academic concept of globalization
+
+### - hyperglobalizers and their skeptics
+
+---
+
+# If you took this class .red[20 years ago]
+
+--
+
+.pull-left[![](https://upload.wikimedia.org/wikipedia/en/c/c0/The_Lexus_And_The_Olive_Tree_first_edition_cover.jpg)
+
+- .large[.pink[inevitable] economic and technological progress?] 
+]
+
+--
+
+.left-column[![](https://m.media-amazon.com/images/I/91Ekt0wKnnL._AC_UF1000,1000_QL80_.jpg)]
+
+.right-column[
+
+.blockquote[# .red[The Clash of Civilization] 
+.Large[.black[Americanization/Westernization that provoked a lot of backlash?] ]
+
+] ]
+
+
+
+
