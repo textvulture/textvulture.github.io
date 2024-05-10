@@ -78,11 +78,11 @@ background-size: 100%
 
 --
 
-### - what people say globalization is
+### - what people say globalization is 
 
 --
 
-### - how globalization came around
+### - how globalization came around (the history)
 
 --
 
@@ -94,9 +94,21 @@ background-size: 100%
 
 --
 
-### - the academic concept of globalization
+### - the academic discussions on globalization
 
-### - hyperglobalizers and their skeptics
+### - why we .red[need to discuss] globalization
+
+---
+
+class: inverse, center, middle
+background-image: url(https://github.com/textvulture/textvulture.github.io/blob/master/images/night_background8.jpg?raw=true)
+background-size: 100%
+
+# .LARGE[.bluey[**What is globalization?**]]
+
+--
+
+# The answer used to be pretty straightforward.
 
 ---
 
@@ -137,6 +149,21 @@ class: middle
 
 ## Do we live in a world <br> irreversibly marching toward <br>.Green[liberal democracy] and .pink[market economy]?
 
+--
+
+## If we did, then that's it. <br>We wouldn't need to talk about globalization.
+
+---
+
+class: inverse, center, middle
+background-image: url(https://github.com/textvulture/textvulture.github.io/blob/master/images/waveBackground3.jpg?raw=true)
+background-size: 100%
+
+# .large[Unfortunately, the end of history did .pink[not ]arrive.]
+
+--
+
+# .Huge[Instead, things just got a bit .yellow[complicated.]]
 
 ---
 
@@ -146,7 +173,7 @@ background-size: 100%
 
 
 
-# Backlash did emerge, but not against the West.
+# **Backlash did emerge, but .red[not] against the West.**
 
 ---
 
@@ -154,15 +181,17 @@ class: inverse
 background-image: url(https://bpr.studentorg.berkeley.edu/wp-content/uploads/2022/11/FT_18.06.19_westernEuropeMinorities_featured.webp)
 background-size: 100%
 
-# Backlash did emerge, but not against the West.
+# **Backlash did emerge, but .red[not] against the West.**
 
-# .yellow[.pink[Anti]-immigration; .pink[Anti]-integration]; populism
+# **.yellow[.pink[Anti]-immigration; .pink[Anti]-integration]; .bluey[populism]**
 
 ---
 
 class: inverse
 background-image: url(https://github.com/textvulture/textvulture.github.io/blob/master/images/background_leftEmpty3.jpeg?raw=true)
 background-size: 100%
+
+# So let's think about it:
 
 # - All the backlash because people are angry?
 
@@ -211,8 +240,9 @@ background-size: 100%
 # Perhaps, we need a more .orange[analytically]-oriented definition of globalization that is .red[not] built on .Green[ideological] predispositions or .yellow[short-sighted] historical impressions.
 
 --
-
-# *What is globalization, in other words?*
+<br>
+<br>
+# .huge[So again, **what is globalization?**]
 
 ---
 # Globalization, the concept
@@ -226,8 +256,8 @@ background-size: 100%
 <br>
 .blockquote[### GLOA101 definition:
 
-- .Blue[.large[increasing, accelerating, and deepening connectivity among global actors]]
-- .black[.large[a structure and network]]
+- .Blue[.large[A process where connectivity among global actors increases, accelerates, and deepens.]]
+- .black[.large[a structure and network (interconnectedness)]]
 - .black[.large[may or may .pink[not] benefit certain people(s)]]
 - .black[.large[at times accelerates or slows down]]
 
@@ -236,6 +266,8 @@ background-size: 100%
 ---
 
 # The GLOA 101 is really compromising view. For example:
+
+--
 
 .pull-left[
 
@@ -345,3 +377,26 @@ background-size: contain
 ]
 
 ### 'to prevent another war, these things need to be taken care of!'
+
+---
+
+class: inverse
+background-image: url(https://github.com/textvulture/textvulture.github.io/blob/master/images/blackboardBackground.jpg?raw=true)
+background-size: 100%
+
+# .Large[So what is globalization, again?]
+
+--
+
+# : **Increasing, accelerating, and deepening connectivity among global actors** 
+
+--
+
+# We will be exploring these processes in four diffrent realms
+
+--
+
+- .LARGE[economic `r fa('money-bill', fill='green')`]
+- .LARGE[political `r fa('flag', fill='red')`]
+- .LARGE[security `r fa('rocket', fill='yellow')`]
+- .LARGE[health/environment `r fa('head-side-mask', fill='orange')`]
