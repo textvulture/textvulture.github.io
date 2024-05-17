@@ -1,0 +1,209 @@
+---
+title: "GLOA101"
+author: "Byunghwan Son <br> George Mason University"
+date: " "
+#########################################
+linkcolor: red
+citecolor: blue
+urlcolor: blueß
+output: 
+  xaringan::moon_reader:
+    seal: false
+    nature:
+      beforeInit: "https://platform.twitter.com/widgets.js"
+      ratio: '16:9'
+      highlightStyle: github
+  #    self-contained: TRUE
+  chakra: css/libs/remark-latest.min.js
+css: ["default", 
+      "css/footer.css", 
+      "css/color.css", 
+      # "css/xaringan-themer.css",
+      default-fonts]
+lib_dir: css/libs
+beforeInit: "css/macros.js"
+# seal: false  
+#bibliography: /Users/bson3/Dropbox/latex/mybib2.bib
+#remotes::install_github('yihui/xaringan', upgrade = TRUE)
+---
+
+```{r setup, include=FALSE}
+# to use FontAwesome
+#htmltools::tagList(rmarkdown::html_dependency_font_awesome())
+library(dplyr)
+library(tidyr)
+library(fs)
+library(fontawesome)
+# library(magick)  
+library(ggplot2)
+knitr::opts_chunk$set(warning = FALSE, message = FALSE, error=F, echo=F)
+options(htmltools.preserve.raw = FALSE)
+```
+
+
+
+```{r include=F, cache=T}
+
+
+library(WDI)
+
+
+var = c('poverty' = 'SI.POV.DDAY',
+        'GDPpc' = 'NY.GDP.PCAP.KD',
+        'inequality' = 'SI.POV.GINI',
+        'Infant.Mortality' = 'SP.DYN.IMRT.IN'
+        )
+
+wdi <- WDI(indicator=var,
+           start=1960,
+           country = 'all',
+           end=2020,
+           extra=TRUE)
+
+wdi %>% 
+  drop_na(GDPpc) %>%
+  mutate(developed = 
+           case_when(GDPpc > 10000 ~ "developed",
+                     GDPpc < 10000 ~ "underdeveloped"
+                     )) -> wdi2
+
+```     
+
+
+
+class: center, middle, inverse
+background-image: url(https://gmk.center/wp-content/uploads/2023/09/shutterstock_2154195865-1.png)
+background-size: cover
+
+# .Huge[**Economic Globalization <br> .Yellow[An Introduction]**]
+# **GLOA 101**
+
+---
+
+# Global Poverty Rates (.Small[inflation adjusted, World Development Indicator])
+
+--
+
+```{r, message=FALSE, echo=FALSE, warning=FALSE, results="asis", fig.width=16, fig.height=6.5, cache=T}
+
+
+wdi2 %>%
+  ggplot(aes(x=year,
+             y=poverty,
+             group=developed,
+             color=developed,
+             fill=developed)) +
+  geom_point(size=0.5, alpha=0.25) +
+  geom_smooth() +
+  theme_minimal() +
+  theme(legend.text = element_text(size=20),
+        legend.title = element_text(size=0),
+        axis.text=element_text(size=20),
+        axis.title=element_text(size=20)) +
+  labs(x="Year", y="Poverty Rates")
+
+```
+
+
+---
+
+
+# Global Poverty, .Yellow[by infant mortality]
+
+
+```{r, message=FALSE, echo=FALSE, warning=FALSE, results="asis", fig.width=16, fig.height=7, cache=T}
+
+
+wdi2 %>%
+  ggplot(aes(x=year,
+             y=Infant.Mortality,
+             group=developed,
+             color=developed,
+             fill=developed)) +
+  geom_point(size=0.5, alpha=0.25) +
+  geom_smooth() +
+  theme_minimal() +
+  theme(legend.text = element_text(size=20),
+        legend.title = element_text(size=0),
+        axis.text=element_text(size=20),
+        axis.title=element_text(size=20)) +
+  labs(x="Year", y="Infant Mortality per 1k")
+
+```
+
+
+---
+
+class: inverse
+background-color: black
+background-image: url(https://www.worldbank.org/content/dam/photos/780x439/2023/apr/WDR-2023-Launch-PPT.jpg)
+background-position: right
+background-size: 40%
+
+#.Large[Development in .pink[2023?]]
+
+
+
+## - .orange[Modern] development policies: <br> .red[not] just about macroeconomic indicators.
+
+--
+
+## - more .Green[interesting], but .bluey[practical], stuff
+
+### `r fa("hand-holding-dollar", fill='yellow')` poverty reduction (for individuals)
+
+--
+
+### `r fa("sack-dollar", fill='yellow')` development of sender country
+
+--
+
+### `r fa("land-mine-on", fill='yellow')` development of host country
+
+--
+
+### `r fa("people-roof", fill='yellow')` gender and society angles
+
+
+
+# Did global inequality increase over time .Small[.pink[(due to globalization)]]?
+
+.large[Gini Coefficient. Data source: SWIID, Solt 2020]
+
+--
+
+```{r, message=FALSE, echo=FALSE, warning=FALSE, results="asis", fig.width=16, fig.height=6.5, cache=T}
+
+load(file = "images/swiid9_1.rda")
+
+swiid_summary %>%
+  ggplot(aes(x=year,
+             y=gini_disp)) +
+  geom_smooth() +
+  geom_point(size=0.5, alpha=0.2) +
+  theme_minimal() +
+  theme(legend.text = element_text(size=20),
+        axis.text=element_text(size=20),
+        axis.title=element_text(size=20)) +
+  labs(x="Year", y="Gini Coefficient")
+         
+
+```             
+
+
+---
+
+
+
+# Do countries actually use the .Green[Dispute Settlement Mechanism]?
+
+--
+
+### data source: WTO (note that this is .red[monthly] average) 
+
+.center[
+![](https://www.wto.org/images/img_dsb/dispustatschart8_e.png)
+]
+
+
+---
