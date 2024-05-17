@@ -137,14 +137,14 @@ wdi2 %>%
 class: inverse
 background-color: black
 background-image: url(https://www.worldbank.org/content/dam/photos/780x439/2023/apr/WDR-2023-Launch-PPT.jpg)
-background-position: right
+background-position: right bottom
 background-size: 40%
 
-#.Large[Development in .pink[2023?]]
+#.large[Development in .pink[2023?]] (World Development Report)
 
 
 
-## - .orange[Modern] development policies: <br> .red[not] just about macroeconomic indicators.
+## - .orange[Modern] development policies: .red[not] just about macroeconomic indicators.
 
 --
 
@@ -165,6 +165,7 @@ background-size: 40%
 ### `r fa("people-roof", fill='yellow')` gender and society angles
 
 
+---
 
 # Did global inequality increase over time .Small[.pink[(due to globalization)]]?
 
@@ -189,6 +190,113 @@ swiid_summary %>%
          
 
 ```             
+
+
+---
+
+# The 'Three Pillars' of the .pink[Bretton Woods System]
+
+--
+
+### Goal: prevent another world war `r fa('dove', fill='blue')`! 
+
+--
+
+```{r}
+
+library(knitr)
+library(kableExtra)
+library(dplyr)
+
+df <- data.frame(
+  Area = c("finance", "development", "trade"),
+  Organization = c("", "", ""),
+  Mission = c("monetary stability; emergency lending", "poverty reduction; long-term development", "free trade; dispute settlement"),
+  stringsAsFactors = FALSE
+)
+
+imf <- "https://github.com/textvulture/textvulture.github.io/blob/master/images/imf-logo.png?raw=true"
+wb <- "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Logo_The_World_Bank.svg/2560px-Logo_The_World_Bank.svg.png"
+wto <- "https://github.com/textvulture/textvulture.github.io/blob/master/images/wto-logo.png?raw=true"
+
+kbl(df, align='c') %>%
+  kable_paper("striped", 
+              full_width = T,
+              font_size=35) %>%
+  column_spec(2, image = spec_image(
+    c(imf, wb, wto), 275, 275))
+
+
+```
+
+---
+
+class: inverse
+background-image: url(https://gifs.cackhanded.net/that-mitchell-and-webb-look/are-we-the-baddies.gif)
+background-size: 100%
+background-color: black
+
+## These Three Pillars played a critical and .pink[unparalleled] role in shaping the post-war economic globalization. 
+
+--
+
+## Some of those roles could be controversial; but by .red[no] means, these institutions are some kind of an Evil Empire `r fa('biohazard', fill='red')`.
+
+--
+
+### It's more like they have been often .yellow[incomepetent] and/or .orange[ineffective].
+
+--
+
+### Examining their .pink[(in)]effectiveness is key to understanding the .yellow[bright] and .Blue[dark] sides of economic globalization.
+
+
+---
+
+background-image: url(https://github.com/textvulture/textvulture.github.io/blob/master/images/imf-logo.png?raw=true)
+background-size: 25%
+background-position: right top
+
+
+# The .red[I]ternational .red[M]onetary .red[F]und
+
+--
+
+## Aim at Monetary Stability by:
+
+--
+
+- .large[monitoring/researching monetary policies]
+
+--
+- .large[lending .pink[emergency] loans ('**the lender of last resort**')]
+
+--
+- .large[.Blue[Special Drawing Rights]]
+
+--
+- .large[influences are proportional to contributions]
+
+## Structural Adjustment Programs
+
+- .large[strings attached: privatization; trade openness; budget balance]
+--
+
+- .large[often criticized: one-bill-fits-all problems; austerity = pain `r fa('face-sad-tear', fill='green')`]
+--
+
+- .large[*But* also ineffective because govts come for help .pink[too late.]]
+
+
+---
+
+background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Logo_The_World_Bank.svg/2560px-Logo_The_World_Bank.svg.png)
+background-size: 25%
+background-position: right top
+
+
+
+# The .red[W]orld .red[B]ank
 
 
 ---
