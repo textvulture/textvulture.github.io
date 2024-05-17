@@ -41,7 +41,6 @@ options(htmltools.preserve.raw = FALSE)
 ```
 
 
-
 ```{r include=F, cache=T}
 
 
@@ -75,10 +74,61 @@ class: center, middle, inverse
 background-image: url(https://gmk.center/wp-content/uploads/2023/09/shutterstock_2154195865-1.png)
 background-size: cover
 
-# .Huge[**Economic Globalization <br> .Yellow[An Introduction]**]
+# .HUGE[**.yellow[Economic] Globalization**]
 # **GLOA 101**
 
 ---
+
+class: inverse
+background-image: url(https://github.com/textvulture/textvulture.github.io/blob/master/images/background_leftEmpty.jpg?raw=true)
+background-size: 100%
+
+# By the end of this module, you will:
+
+--
+
+### - have a clear understanding of the .orange[concept] of globalization
+
+--
+
+### - be able to distinguish between different .yellow[ideas] about development
+
+--
+
+### - be able to explain the .pink[ineffectiveness] of the Three Pillars of the Bretton Woods 
+
+--
+
+### - be able to provide some .Green[examples] of important actors of econ globalization
+
+---
+
+
+
+# Economic Globalization:
+
+--
+
+.center[
+<span class="blink"> ... .Large[**applying .green[GLOA 101] definition**] ... </span>
+]
+
+---
+
+# **Economic Globalization:**
+
+> # The .green[process] of increasing and deepending connectivity between global .blue[economic] actors.
+
+--
+
+## Meaningful in large part because it .Green[allegedly] brought about .pink[development].
+
+--
+
+## Did it, though? Let's look at some data `r fa('chart-line', fill='orange')`.
+
+---
+
 
 # Global Poverty Rates (.Small[inflation adjusted, World Development Indicator])
 
@@ -107,7 +157,6 @@ wdi2 %>%
 
 ---
 
-
 # Global Poverty, .Yellow[by infant mortality]
 
 
@@ -134,40 +183,8 @@ wdi2 %>%
 
 ---
 
-class: inverse
-background-color: black
-background-image: url(https://www.worldbank.org/content/dam/photos/780x439/2023/apr/WDR-2023-Launch-PPT.jpg)
-background-position: right bottom
-background-size: 40%
 
-#.large[Development in .pink[2023?]] (World Development Report)
-
-
-
-## - .orange[Modern] development policies: .red[not] just about macroeconomic indicators.
-
---
-
-## - more .Green[interesting], but .bluey[practical], stuff
-
-### `r fa("hand-holding-dollar", fill='yellow')` poverty reduction (for individuals)
-
---
-
-### `r fa("sack-dollar", fill='yellow')` development of sender country
-
---
-
-### `r fa("land-mine-on", fill='yellow')` development of host country
-
---
-
-### `r fa("people-roof", fill='yellow')` gender and society angles
-
-
----
-
-# Did global inequality increase over time .Small[.pink[(due to globalization)]]?
+# But didn't inequality increase over time .Small[.pink[(due to globalization)]]?
 
 .large[Gini Coefficient. Data source: SWIID, Solt 2020]
 
@@ -191,6 +208,185 @@ swiid_summary %>%
 
 ```             
 
+
+---
+
+class: inverse, middle, center
+background-color: black
+background-image: url(https://www.structuralguide.com/wp-content/uploads/2021/02/Pynford-underpinning-method.jpg)
+background-size: contain
+
+# .huge[**Some theoretical underpinnings**]
+
+--
+
+## mostly about .bluey['how to develop'], giving us some good ideas about how economic globalization has unfolded (.yellow[the process]) in the post-war period.
+
+
+
+---
+class: top
+background-image: url(https://media.giphy.com/media/MhHmVf60oEZQQ/giphy.gif?cid=ecf05e47wyguiojdr6lp3hw89uxrsmbjrhb34txk6v0wq5ck&rid=giphy.gif&ct=g)
+background-size: contain
+background-position: bottom
+
+# It's really back and forth b/w two schools (.blue[market] vs. .red[state]).
+
+--
+
+# Though often determined by global .green[circumstances].
+---
+
+## .orange[Dominant] narratives in the global political economy
+
+.left-column[
+### Modernization Theory
+
+### Neoclassical Responses
+
+### Developmental State
+
+### the 2000s
+]
+
+.right-column[
+
+]
+
+---
+
+
+## .orange[Dominant] narratives in global political economy
+
+.right-column[
+
+### - Weberian Tradition ('Protestant Ethic' -- but not b/c religiosity); Rustow
+
+### - What is economic growth?
+
+ $$ Output = L^\alpha \times K^{1-\alpha}  $$ 
+ 
+- .large[.pink[not] by some divine power or blood line]
+- .large[`r fa("not-equal", fill='red')` discontinuity occurred]
+- .large[`r fa("feather-pointed", fill='green')` takes over.] 
+
+### - For .red[developing] economies: reforms taking down .pink[traditions] led by .Green[govt]
+]
+
+.left-column[
+### .red[Modernization Theory]
+
+### Critical Reactions
+
+### Developmental State
+
+### the 2000s
+]
+
+
+
+---
+
+
+## .orange[Dominant] narratives in global political economy
+
+.right-column[
+.![](https://media.giphy.com/media/l0ErJaDQ2Q3onCenS/giphy.gif?cid=ecf05e47ep5910nhirzakpc9xyxnosr2hg52zqytld0ibo7e&rid=giphy.gif&ct=g)
+### - growth happened [60s]; but .purple[not] for all; many crisses
+### - Core vs. Periphery: exploitative structure .pink[deliberately] perpetuated
+### - .red[I]mport .red[S]ubstitution .red[I]ndustrialization; more gov't involvement
+]
+
+.left-column[
+### Modernization Theory
+
+### .red[Critical Reactions]
+
+### Developmental State
+
+### the 2000s
+]
+
+
+---
+
+
+## .orange[Dominant] narratives in global political economy
+
+.right-column[
+![](https://media.giphy.com/media/HAvn2OeKPe61G/giphy.gif?cid=790b76119545a7aa0e2086d00d8d3a22c6ed01b806aa4094&rid=giphy.gif&ct=g)
+
+### - East Asian economies in the 70s-90s ('Four Asian Tigers' `r fa("face-grimace", fill='green')`)
+
+### - .blue[government] is actually key to success? If it is .green[autonomous] 
+
+### - cf., 'rentier state'; 'state capture'
+]
+
+.left-column[
+### Modernization Theory
+
+### Critical Responses
+
+### .red[Developmental State]
+
+### the 2000s
+]
+
+---
+
+
+
+
+
+## .orange[Dominant] narratives in global political economy
+
+.right-column[
+
+### - Commodity boom (the rise of .green[BRICS]!); cheap borrowing
+
+![](https://media.giphy.com/media/JThsilCoOJKBwDAF4j/giphy.gif?cid=ecf05e474c75r5poxm8exomydcg6ecglixjs4a6gvxmly4k1&rid=giphy.gif&ct=g)
+
+### - but, Vietnam?
+
+
+]
+
+.left-column[
+### Modernization Theory
+
+### Neoclassical Responses
+
+### Developmental State
+
+### .red[the 2000s]
+]
+
+
+---
+
+class: inverse, middle, right
+background-color: black
+background-image: url(https://www.aces.edu/wp-content/uploads/2020/05/shutterstock_174839018-scaled-e1588865190888.jpg)
+
+# .Large[**The overall pattern is that <br> the global economy has <br> .red[grown] and been <br> .yellow[liberalized] over time.**] 
+
+--
+
+# For .bluey[**better**] or .red[**worse**].
+
+---
+
+class: inverse, right, middle
+background-image: url(https://github.com/textvulture/textvulture.github.io/blob/master/images/forestBackground3.jpg?raw=true)
+background-size: cover
+
+
+# So we talked about the .red[processes] (= development).
+
+--
+
+# But what about the .yellow[actors]?
 
 ---
 
@@ -296,11 +492,97 @@ background-position: right top
 
 
 
-# The .red[W]orld .red[B]ank
+# **The .red[W]orld .red[B]ank** (IBRD and others)
 
+--
+
+## - Initially, for the post-war reconstruction of Europe.
+
+--
+
+## - the .blue[Cold War] context: the birth of many nascent states
+
+--
+  - .large[project-specific, long-term development funding]
+
+--
+  - .large[not just macroeconomic policies: social and public health]
+  
+--
+
+## - issues of .pink[SAPs] similar to the IMF (though to a lesser extent).
+
+--
+
+## - fundamental problems of funding sources: .orange[private] bond market
 
 ---
 
+
+class: inverse
+background-color: black
+background-image: url(https://www.worldbank.org/content/dam/photos/780x439/2023/apr/WDR-2023-Launch-PPT.jpg)
+background-position: right bottom
+background-size: 40%
+
+#.large[Development in .pink[2023?]] (World Development Report)
+
+
+
+## - .orange[Modern] development policies: .red[not] just about macroeconomic indicators.
+
+--
+
+## - more .Green[interesting], but .bluey[practical], stuff
+
+### `r fa("hand-holding-dollar", fill='yellow')` poverty reduction (for individuals)
+
+--
+
+### `r fa("sack-dollar", fill='yellow')` development of sender country (remittances)
+
+--
+
+### `r fa("land-mine-on", fill='yellow')` development of host country (remittances)
+
+--
+
+### `r fa("people-roof", fill='yellow')` gender and society angles
+
+---
+
+background-image: url(https://github.com/textvulture/textvulture.github.io/blob/master/images/wto-logo.png?raw=true)
+background-size: 25%
+background-position: right top
+
+# **.red[W]orld .red[T]rade .red[O]rganization**
+
+--
+
+### - originally, ITO (but US failed to ratify it): .green[GATT] as a stopgap measure
+
+--
+
+### - primary goal: no protectionist policies (low tariff barrier)
+
+--
+
+### - .pink[two] basic principles: .pink[no] discrimination
+
+--
+
+- .large[most favored nations: among trade partners]
+- .large[national treatment: between domestic and imported]
+
+--
+
+### - many 'rounds' to settle differences between the developed and developing
+
+--
+
+### - Dispute Settlement Mechanism (Body): the hallmark of WTO
+
+---
 
 
 # Do countries actually use the .Green[Dispute Settlement Mechanism]?
@@ -313,5 +595,37 @@ background-position: right top
 ![](https://www.wto.org/images/img_dsb/dispustatschart8_e.png)
 ]
 
-
 ---
+
+class: inverse
+
+background-image: url(https://github.com/textvulture/textvulture.github.io/blob/master/images/background_leftEmpty3.jpeg?raw=true)
+background-size: 100%
+
+# Many other important global actors
+
+--
+
+## `r fa('pen-fancy', fill='purple')`  .red[m]ulti.red[n]ational .red[c]orporations (MNCs)
+
+--
+
+### - top .orange[5]% of global MNCs account for .red[85]% of global trade.
+
+--
+
+## `r fa('pen-fancy', fill='purple')` .pink[regional] organizations
+
+--
+
+### - Eurozone; USMCA; MERCOSUR; ADB; OPEC
+
+--
+
+## `r fa('pen-fancy', fill='purple')` governments 
+
+--
+
+## `r fa('pen-fancy', fill='purple')` international financial institutions (e.g., investment banks)
+
+
