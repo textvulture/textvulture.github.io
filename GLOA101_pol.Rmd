@@ -108,6 +108,7 @@ class: inverse, left, middle
 background-image: url(https://media.giphy.com/media/ZW44yxLZRDdNS/giphy.gif)
 background-size: 55%
 background-position: right
+background-color: black
 
 --
 
@@ -130,7 +131,7 @@ background-color: black
 
 --
 .pull-left[
-> ### The process of deepening and intensifying connectivity between global .yellow[political] actors.
+> # The process of deepening and intensifying connectivity between global .yellow[political] actors.
 ]
 
 
@@ -270,6 +271,22 @@ background-position: right
 - .large[non-governmental organizations]
 - .large[multinational corporations]
 
+--
+
+### - Due to .Yellow[transnational] .pink[challenges] such as:
+--
+
+- .large[transnational terrorism]
+- .large[global financial crises]
+- .large[environmental degradations]
+- .large[refugee/migration crises]
+- .large[public health crises]
+- .large[transitional justice issues]
+
+--
+
+### Nation states are .red[limited] in dealing with these.
+
 ---
 
 background-image: url(https://lumiere-a.akamaihd.net/v1/images/image_ca7910bd.jpeg)
@@ -285,7 +302,6 @@ background-position: right
 
 
 ### - Due to .Yellow[transnational] .pink[challenges] such as:
---
 
 - .large[transnational terrorism]
 - .large[global financial crises]
@@ -294,9 +310,18 @@ background-position: right
 - .large[public health crises]
 - .large[transitional justice issues]
 
-### Nation states are limited.
+### Nation states are .red[limited] in dealing with these.
 
 ---
+
+class: inverse, center, middle
+background-image: url(https://www.un.org/sites/un2.un.org/files/styles/large-article-image-style-16-9/public/field/image/579261.jpg)
+background-size: 100%
+
+# .HUGE[**.Green[United Nations]**]
+
+---
+
 
 # The United Nations ('collective security')
 
@@ -310,12 +335,142 @@ background-position: right
 
 --
 
-.large[In other words: *We're all equal ('sovereignty') and we don't use force against each other, but when one country messes around, the .Green[rest of us] will .pink[punish] despite the concerns over sovereignty and peace.*]
+.large[In other words: *We're all equal ('sovereignty') and we don't use force against each other, but when one country messes around, the .green[rest of us] will .pink[punish] despite the concerns over sovereignty and peace.*]
 
 ---
 
-# UN operations:
+# UN organizations:
 
 ```{r, fig.align='center', out.width="700px"}
-knitr::include_graphics("https://e7.pngegg.com/pngimages/555/484/png-clipart-united-nations-office-at-geneva-united-nations-headquarters-organization-united-nations-system-united-nations-development-programme-label-text.png")
+knitr::include_graphics("./images/UN.JPG")
 ```
+
+
+---
+
+# UN organizations:
+
+```{r, fig.align='center', out.width="700px"}
+knitr::include_graphics("./images/UN1.JPG")
+```
+
+---
+
+# UN organizations:
+
+```{r, fig.align='center', out.width="700px"}
+knitr::include_graphics("./images/UN2.JPG")
+```
+
+---
+
+# UN organizations:
+
+```{r, fig.align='center', out.width="700px"}
+knitr::include_graphics("./images/UN3.JPG")
+```
+
+---
+
+# UN organizations:
+
+```{r, fig.align='center', out.width="700px"}
+knitr::include_graphics("./images/UN4.JPG")
+```
+
+
+---
+
+# UN organizations:
+
+```{r, fig.align='center', out.width="700px"}
+knitr::include_graphics("./images/UN5.JPG")
+```
+
+---
+
+class: inverse, center, middle
+background-image: url(https://ichef.bbci.co.uk/news/976/cpsprodpb/94A4/production/_104525083_gettyimages-173948837.jpg)
+background-size: 100%
+
+# .HUGE[**European Union**]
+
+---
+background-image: url(https://c8.alamy.com/comp/HRMHWN/poster-map-of-the-european-union-with-country-names-HRMHWN.jpg)
+background-position: right
+background-size: contain
+
+
+# **The .blue[E]uropean .blue[U]nion**
+
+--
+
+## `r fa('chart-line', fill='green')` Gradually Developed
+
+--
+
+- .large[*How not to have another war in Europe?*]
+--
+
+- .large[European Economic Community; European Community]
+--
+
+- .large[.Blue[Functionalism]]
+
+--
+
+## `r fa('people-group', fill='red')` Higher degree of integration? <br>(.purple[more] political globalization?)
+
+--
+
+- .large[more equal distribution of power]
+--
+
+- .large[direct election (European Parliament)]
+--
+
+- .large[economic integration (though .pink[incomplete])]
+--
+
+- .large[**BUT**: .red[political backlash]; .red[security dependence]]
+
+---
+
+```{r, fig.align='center', out.width="900px"}
+knitr::include_graphics('https://www.egu.eu/static/05bbbaf8/policy/political_system_of_the_european_union.svg')
+```
+
+---
+
+class: inverse
+background-image: url(https://github.com/textvulture/textvulture.github.io/blob/master/images/night_background2.jpg?raw=true)
+background-size: 100%
+
+# Where political globalization is going:
+
+--
+
+### `r fa('hands-clapping', fill='yellow')` Issue-specific organizations: <br>effective but not comprehensive (inter-org .pink[coordination] problem, e.g., Paris Agreement)
+
+--
+
+### `r fa('people-roof', fill='yellow')` numerous regional organizations: .pink[neither] comprehensive, .pink[nor] effective
+
+--
+
+- .large[external dependence (e.g., AU)]
+--
+
+- .large[inter-member cohesion; domestic support issues (e.g., BRICS initiative)]
+
+--
+
+### `r fa('building-ngo', fill='yellow')` NGOs do wonders, but limited by definition
+
+--
+
+- .large[voluntary and indirect in nature; '.Green[name-and-shame]' strategies]
+
+--
+
+### `r fa('sack-dollar', fill='yellow')` Multinational corporations are surprisingly powerful, but have inherent .pink[legitimacy] problems.
