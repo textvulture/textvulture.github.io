@@ -1,0 +1,116 @@
+---
+title: "GLOA101"
+author: "Byunghwan Son <br> George Mason University"
+date: " "
+#########################################
+linkcolor: red
+citecolor: blue
+urlcolor: blueß
+output: 
+  xaringan::moon_reader:
+    seal: false
+    nature:
+      beforeInit: "https://platform.twitter.com/widgets.js"
+      ratio: '16:9'
+      highlightStyle: github
+  #    self-contained: TRUE
+  chakra: css/libs/remark-latest.min.js
+css: ["default", 
+      "css/footer.css", 
+      "css/color.css", 
+      # "css/xaringan-themer.css",
+      default-fonts]
+lib_dir: css/libs
+beforeInit: "css/macros.js"
+# seal: false  
+#bibliography: /Users/bson3/Dropbox/latex/mybib2.bib
+#remotes::install_github('yihui/xaringan', upgrade = TRUE)
+---
+
+```{r setup, include=FALSE}
+# to use FontAwesome
+#htmltools::tagList(rmarkdown::html_dependency_font_awesome())
+library(dplyr)
+library(tidyr)
+library(fs)
+library(fontawesome)
+# library(magick)  
+library(ggplot2)
+knitr::opts_chunk$set(warning = FALSE, message = FALSE, error=F, echo=F)
+options(htmltools.preserve.raw = FALSE)
+```
+
+class: inverse, center, middle
+background-image: url(https://ichef.bbci.co.uk/images/ic/1376xn/p01l97cj.jpg.webp)
+background-size: 100%
+
+# .Huge[**Global Conflicts, Crimes & Terrorism**]
+## .yellow[GLOA101]
+
+---
+
+---
+
+# Trends of Conflicts ('Correlates of War' project)
+--
+
+.large[$$ war\ per\ country_t = \frac{total\ number\ of\ wars_t}{total\ number\ of\ countries_t} $$]
+--
+
+```{r echo=FALSE, message=FALSE, warning=FALSE, cache=TRUE}
+
+# devtools::install_github("prio-data/priogrid")
+# https://rforpoliticalscience.com/category/ucdp-prio/
+# install.packages('peacesciencer')
+# install.packages('states')
+
+library(vdemdata)
+library(reshape2)
+
+df <- vdem %>%
+  select(year, 
+         COWcode,
+         e_civil_war, 
+         e_miinteco,
+         e_regionpol_6C) %>%
+  rename(civil.war = e_civil_war,
+         war = e_miinteco,
+         region = e_regionpol_6C)
+
+
+# 6=Asia
+
+df %>%
+  group_by(year) %>%
+  add_count() -> df
+
+df %>%
+  filter(!is.na(civil.war)) %>%
+  group_by(year) %>%
+  mutate(mean.civilwar = sum(civil.war)/n) -> df
+
+df %>%
+  filter(!is.na(war)) %>%
+  group_by(year) %>%
+  mutate(mean.war = sum(war)/n) -> df
+
+```
+
+```{r echo=FALSE, fig.height=7, fig.width=18, message=FALSE, warning=FALSE, cache=TRUE}
+df %>%
+  ggplot(aes(x=year, alpha=0.5)) +
+  geom_line(aes(y=mean.war, color='a'), size=1.5, ) +
+  geom_line(aes(y=mean.civilwar, color='b'), size=1.5, ) +
+  labs(x = "Year",
+       y = "war per country") + 
+  theme_minimal() +
+  theme(axis.text=element_text(size=20),
+        axis.title=element_text(size=25),
+        legend.title=element_text(size=20),
+        legend.text=element_text(size=20)) +
+        scale_color_manual(name = "War Types",
+                           labels = c("Interstate War","Civil War"), 
+                           values = c('a'='red', 'b'= 'blue')) +
+  scale_alpha(guide = 'none')
+
+```
