@@ -49,9 +49,8 @@ background-size: 100%
 
 ---
 
----
 
-# Trends of Conflicts ('Correlates of War' project)
+# Trends of Conflicts ('**Correlates of War**' project)
 --
 
 .large[$$ war\ per\ country_t = \frac{total\ number\ of\ wars_t}{total\ number\ of\ countries_t} $$]
@@ -67,20 +66,26 @@ background-size: 100%
 library(vdemdata)
 library(reshape2)
 
-df <- vdem %>%
+df0 <- vdem %>%
   select(year, 
          COWcode,
          e_civil_war, 
          e_miinteco,
-         e_regionpol_6C) %>%
+         e_regionpol_6C,
+         v2cltort,
+         v2clkill,
+         e_pematmor) %>%
   rename(civil.war = e_civil_war,
          war = e_miinteco,
-         region = e_regionpol_6C)
+         region = e_regionpol_6C,
+         mom.mortality = e_pematmor,
+         no.torture = v2cltort,
+         no.kill = v2clkill)
 
 
 # 6=Asia
 
-df %>%
+df0 %>%
   group_by(year) %>%
   add_count() -> df
 
@@ -93,6 +98,7 @@ df %>%
   filter(!is.na(war)) %>%
   group_by(year) %>%
   mutate(mean.war = sum(war)/n) -> df
+
 
 ```
 
@@ -114,3 +120,32 @@ df %>%
   scale_alpha(guide = 'none')
 
 ```
+
+---
+# **Human Security**: Freedom from .red[Political Killing] and .blue[Torture]
+
+```{r, echo=FALSE, fig.height=7.5, fig.width=15, message=FALSE, warning=FALSE, cache=TRUE}
+
+df0 %>%
+  ggplot(aes(x = year)) + 
+  geom_point(aes(y = no.kill, color = "no.kill"), alpha = 0.1, size = 0.1) +
+  geom_point(aes(y = no.torture, color = "no.torture"), alpha = 0.1, size = 0.1) +  
+  geom_smooth(aes(y = no.kill, color = "no.kill"), alpha = 0.5) + 
+  geom_smooth(aes(y = no.torture, color = "no.torture"), alpha = 0.5) +
+  scale_color_manual(values = c("no.kill" = "red", 
+                                "no.torture" = "blue"),
+                     labels = c("no.kill" = "Freedom from political killing   ", 
+                                "no.torture" = "Freedom from torture")) +
+  theme_minimal() +
+  labs(y="") +
+  theme(
+    axis.text = element_text(size = 20),
+    axis.title = element_text(size = 25),
+    legend.title = element_text(size = 0),
+    legend.text = element_text(size = 20),
+     legend.position = "bottom"
+  )
+
+```
+
+---
