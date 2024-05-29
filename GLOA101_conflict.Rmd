@@ -39,6 +39,14 @@ library(ggplot2)
 library(WDI)
 knitr::opts_chunk$set(warning = FALSE, message = FALSE, error=F, echo=F)
 options(htmltools.preserve.raw = FALSE)
+library(xaringancolor)
+setup_colors(
+  red = "red",
+  green = "green",
+  blue = "blue",
+  yellow = "yellow"
+)
+
 ```
 
 class: inverse, center, middle
@@ -51,10 +59,10 @@ background-size: 100%
 ---
 
 
-# Trends of Conflicts ('**Correlates of War**' project)
+## Trends of (.Blue[intra]- and .pink[inter]-state) War <br> .tiny[data source: Correlates of War Project]
 --
 
-.large[$$ war\ per\ country_t = \frac{total\ number\ of\ wars_t}{total\ number\ of\ countries_t} $$]
+$$ \color{green}{war\ per\ country}_t = \frac{\color{red}{total}\ number\ of\ wars_t}{\color{red}{total}\ number\ of\ countries_t} $$
 --
 
 ```{r echo=FALSE, message=FALSE, warning=FALSE, cache=TRUE}
@@ -111,9 +119,18 @@ wdi <- WDI(indicator=var,
            extra=TRUE)
 
 
+#### GTD data
+library(readxl)
+gtd <- read_excel('/Users/bson3/Library/CloudStorage/OneDrive-GeorgeMasonUniversity-O365Production/data_repo/GlobalTerrorismDataset/globalterrorismdb_0522dist.xlsx')
+
+gtd %>%
+  select(iyear, INT_ANY) -> gtd
+
+
+
 ```
 
-```{r echo=FALSE, fig.height=7, fig.width=18, message=FALSE, warning=FALSE, cache=TRUE}
+```{r, echo=FALSE, fig.height=7, fig.width=18, message=FALSE, warning=FALSE, cache=TRUE}
 df %>%
   ggplot(aes(x=year, alpha=0.5)) +
   geom_line(aes(y=mean.war, color='a'), size=1.5, ) +
@@ -133,7 +150,38 @@ df %>%
 ```
 
 ---
-# **Human Security**: Freedom from .red[Political Killing] and .blue[Torture]
+
+## (.pink[Transnational]) .Blue[Terrorist Attacks] .tiny[(data source: GTD)]
+--
+
+.large[**.black[Terrorist attack]**: "the threatened or actual use of illegal force and violence by a non-state actor to attain a political, economic, religious, or social goal through fear, coercion, or intimidation" (state terrorism excluded)]
+
+--
+
+```{r, echo=FALSE, fig.height=7, fig.width=18, message=FALSE, warning=FALSE, cache=TRUE}
+
+gtd %>%
+  filter(INT_ANY != -9) %>%
+  ggplot(aes(x=iyear, fill=factor(INT_ANY))) +
+  geom_bar(stat = "count", alpha=0.5) +
+  theme_minimal() +
+  labs(x='year') +
+  theme(axis.text=element_text(size=20),
+        axis.title=element_text(size=25),
+        legend.title=element_text(size=0),
+        legend.text=element_text(size=20),
+        legend.position = c(0.2, 0.9)) +
+  scale_fill_manual(values = c("blue", "red"),
+                    labels = c("domestic", "international")
+                    ) 
+  
+
+```
+
+
+---
+# **Human Security**: Freedom from .red[Political Killing] and .blue[Torture] <br> .tiny[(data source: Vdem)]
+
 
 ```{r, echo=FALSE, fig.height=7.5, fig.width=15, message=FALSE, warning=FALSE, cache=TRUE}
 
@@ -161,12 +209,13 @@ df0 %>%
 
 ---
 
-# **Human Security**: Life expectancy at birth (World Bank)
 
-```{r, echo=FALSE, fig.height=7, fig.width=13, message=FALSE, warning=FALSE, cache=TRUE}
+# **Human Security**: Life expectancy at birth <br> .tiny[data source: World Development Indicators]
+
+```{r, echo=FALSE, fig.height=6.5, fig.width=14, message=FALSE, warning=FALSE, cache=TRUE}
 
 wdi %>%
-  ggplot(aes(x = year, y=life, alpha=0.1)) +
+  ggplot(aes(x = year, y=life, alpha=0.1, fill='red', color='red')) +
   geom_point(size=1) + 
   geom_smooth() +
   theme_minimal() + 
