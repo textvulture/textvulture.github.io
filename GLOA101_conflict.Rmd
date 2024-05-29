@@ -36,6 +36,7 @@ library(fs)
 library(fontawesome)
 # library(magick)  
 library(ggplot2)
+library(WDI)
 knitr::opts_chunk$set(warning = FALSE, message = FALSE, error=F, echo=F)
 options(htmltools.preserve.raw = FALSE)
 ```
@@ -100,6 +101,16 @@ df %>%
   mutate(mean.war = sum(war)/n) -> df
 
 
+var = c('life' = 'SP.DYN.LE00.IN'
+        )
+
+wdi <- WDI(indicator=var,
+           start=1960,
+           country = 'all',
+           end=2020,
+           extra=TRUE)
+
+
 ```
 
 ```{r echo=FALSE, fig.height=7, fig.width=18, message=FALSE, warning=FALSE, cache=TRUE}
@@ -149,3 +160,22 @@ df0 %>%
 ```
 
 ---
+
+# **Human Security**: Life expectancy at birth (World Bank)
+
+```{r, echo=FALSE, fig.height=7, fig.width=13, message=FALSE, warning=FALSE, cache=TRUE}
+
+wdi %>%
+  ggplot(aes(x = year, y=life, alpha=0.1)) +
+  geom_point(size=1) + 
+  geom_smooth() +
+  theme_minimal() + 
+  theme(
+    axis.text = element_text(size = 20),
+    axis.title = element_text(size = 25),
+    legend.position = "none") +
+  labs(y="Life Expectancy")
+
+
+```
+
