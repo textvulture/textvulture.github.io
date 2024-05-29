@@ -54,7 +54,114 @@ background-image: url(https://ichef.bbci.co.uk/images/ic/1376xn/p01l97cj.jpg.web
 background-size: 100%
 
 # .Huge[**Global Conflicts, Crimes & Terrorism**]
-## .yellow[GLOA101]
+# .large[.yellow[GLOA101]]
+
+---
+
+class: inverse
+background-image: url(https://github.com/textvulture/textvulture.github.io/blob/master/images/background_leftEmpty3.jpeg?raw=true)
+background-size: 100%
+
+<br>
+<br>
+# Things we are going to talk about:
+--
+
+- .Large[different concepts/correlates of global conflicts]
+--
+
+- .Large[empirical realities (through data)]
+
+--
+
+# By the end of this module, you should be:
+
+--
+
+- .Large[tell apart different types of global conflicts]
+--
+
+- .Large[come up with a perspective about the relationship between .yellow[globalization] and .pink[security]]
+
+---
+
+class: inverse
+background-image: url(https://github.com/textvulture/textvulture.github.io/blob/master/images/night_background2.jpg?raw=true)
+background-size: 120%
+
+# What security?
+
+--
+
+- .Large[traditional, .pink[realist] understanding]
+--
+
+  - .Large[lack of war (cf. the Cold War); no threats to states]
+--
+
+  - .Large[.red[but] what kind of war? Inter- and intra-state war]
+--
+
+> .large[.yellow[**War**: "sustained combat, involving organized armed forces, resulting in a minimum of 1,000 battle-related fatalities" (Small and Singer 1982)]]
+
+--
+
+- .Large[.red[but] what about non-war violence, e.g., .pink[terrorist attacks?]]
+
+--
+- .Large[human security: not states, but individuals as target]
+
+--
+  - .Large[not just lack of violence, but lack of .pink[fear]]
+  - .Large[freedom, development, well-being, safety(from crimes and diseases)]
+
+
+---
+
+class: inverse, middle, center
+background-image: url(https://github.com/textvulture/textvulture.github.io/blob/master/images/night_background4.jpg?raw=true)
+background-size: 100%
+
+
+# .Huge[**Does globalization .pink[threaten] security?**]
+
+---
+
+# **`r fa('right-left', fill='orange')` Contending Views**
+
+--
+
+.pull-left[
+
+## Globalization .Green[promotes] security
+
+- .Large[transnational governance]
+
+- .Large[institutional structure]
+
+- .Large[economic interdependence ('.pink[capitalist peace]')]
+
+  - .large[shared commercial interests]
+  - .large[domestic resistance]
+
+]
+
+--
+
+.pull-right[
+
+## Globalization .pink[inhibits] security
+
+- .Large[connectivity = higher chances]
+
+  - .large[.orange[both] realist and human security]
+
+- .Large[greater consequences]  
+
+- .Large[ineffective governance]
+
+
+]
 
 ---
 
@@ -154,7 +261,7 @@ df %>%
 ## (.pink[Transnational]) .Blue[Terrorist Attacks] .tiny[(data source: GTD)]
 --
 
-.large[**.black[Terrorist attack]**: "the threatened or actual use of illegal force and violence by a non-state actor to attain a political, economic, religious, or social goal through fear, coercion, or intimidation" (state terrorism excluded)]
+.large[**.black[Terrorist attack]**: "the threat or actual use of illegal force and violence by a non-state actor to attain a political, economic, religious, or social goal through fear, coercion, or intimidation" (*state terrorism excluded*)]
 
 --
 
@@ -182,6 +289,7 @@ gtd %>%
 ---
 # **Human Security**: Freedom from .red[Political Killing] and .blue[Torture] <br> .tiny[(data source: Vdem)]
 
+--
 
 ```{r, echo=FALSE, fig.height=7.5, fig.width=15, message=FALSE, warning=FALSE, cache=TRUE}
 
@@ -212,6 +320,8 @@ df0 %>%
 
 # **Human Security**: Life expectancy at birth <br> .tiny[data source: World Development Indicators]
 
+--
+
 ```{r, echo=FALSE, fig.height=6.5, fig.width=14, message=FALSE, warning=FALSE, cache=TRUE}
 
 wdi %>%
@@ -227,4 +337,48 @@ wdi %>%
 
 
 ```
+
+---
+
+# **Human Security**: Maritime Piracy <br> .tiny[graph source: Open Earth Future]
+
+--
+
+```{r, fig.align='center', out.width="650px"}
+
+knitr::include_graphics('https://oneearthfuture.org/sites/default/files/piracy-trends.jpg')
+
+```
+
+---
+
+class: inverse
+background-image: url(https://github.com/textvulture/textvulture.github.io/blob/master/images/waveBackground2.jpg?raw=true)
+background-size: 100%
+
+# **Contemporary Security**
+
+--
+
+## - chances of inter-state war low
+--
+
+  - .Large[but the comeback of traditional threats (e.g., territorial disputes)]
+  
+--
+
+## - civil war and terrorist attacks (arguably) more prevalent than before
+
+--
+
+  - .Large[in part because of the Cold War legacy]
+  
+--
+
+
+## - .pink[undeniable] improvement in human security areas
+--
+
+ 
+  - .Large[ `r fa('radio', fill='orange')` mass media effect?]
 
