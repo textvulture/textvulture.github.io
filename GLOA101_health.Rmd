@@ -1,0 +1,60 @@
+---
+title: "GLOA101"
+author: "Byunghwan Son <br> George Mason University"
+date: " "
+#########################################
+linkcolor: red
+citecolor: blue
+urlcolor: blueß
+output: 
+  xaringan::moon_reader:
+    seal: false
+    nature:
+      beforeInit: "https://platform.twitter.com/widgets.js"
+      ratio: '16:9'
+      highlightStyle: github
+  #    self-contained: TRUE
+  chakra: css/libs/remark-latest.min.js
+css: ["default", 
+      "css/footer.css", 
+      "css/color.css", 
+      # "css/xaringan-themer.css",
+      default-fonts]
+lib_dir: css/libs
+beforeInit: "css/macros.js"
+# seal: false  
+#bibliography: /Users/bson3/Dropbox/latex/mybib2.bib
+#remotes::install_github('yihui/xaringan', upgrade = TRUE)
+---
+
+```{r setup, include=FALSE}
+# to use FontAwesome
+#htmltools::tagList(rmarkdown::html_dependency_font_awesome())
+library(dplyr)
+library(tidyr)
+library(fs)
+library(fontawesome)
+# library(magick)  
+library(ggplot2)
+library(WDI)
+knitr::opts_chunk$set(warning = FALSE, message = FALSE, error=F, echo=F)
+options(htmltools.preserve.raw = FALSE)
+library(xaringancolor)
+setup_colors(
+  red = "red",
+  green = "green",
+  blue = "blue",
+  yellow = "yellow"
+)
+
+```
+
+class: inverse, center, middle
+background-image: url(https://assets.everspringpartners.com/dims4/default/ae49b84/2147483647/strip/true/crop/907x510+316+0/resize/1200x675!/quality/90/?url=http%3A%2F%2Feverspring-brightspot.s3.us-east-1.amazonaws.com%2F8b%2F8a%2F2dd34b3045c0860c08d17159cf89%2Fenvironmental-health.jpg)
+background-size: 100%
+
+# .Huge[**Global Health and Environment**]
+
+## **GLOA 101**
+
+---
