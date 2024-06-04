@@ -49,12 +49,119 @@ setup_colors(
 
 ```
 
+
+```{r include=F, cache=T}
+
+library(WDI)
+
+var = c('CO2' = 'NY.ADJ.DCO2.GN.ZS',
+        'air' = 'EN.ATM.PM25.MC.M3',
+        'GDPpc' = 'NY.GDP.PCAP.KD',
+        'school' = 'SE.PRM.NENR',
+        'life' = 'SP.DYN.LE00.IN',
+        'oilRent' = 'NY.GDP.PETR.RT.ZS')
+
+wdi <- WDI(indicator=var,
+           start=1970,
+           country = 'all',
+           end=2020,
+           extra=TRUE)   %>%
+  filter(region !="Aggregates") %>%
+  drop_na(GDPpc) %>%
+  mutate(developed = 
+           case_when(
+             GDPpc > 10000 ~ "Developed",
+             GDPpc < 10000 ~ "Under-developed"
+           )) 
+```
+
 class: inverse, center, middle
 background-image: url(https://assets.everspringpartners.com/dims4/default/ae49b84/2147483647/strip/true/crop/907x510+316+0/resize/1200x675!/quality/90/?url=http%3A%2F%2Feverspring-brightspot.s3.us-east-1.amazonaws.com%2F8b%2F8a%2F2dd34b3045c0860c08d17159cf89%2Fenvironmental-health.jpg)
 background-size: 100%
 
 # .Huge[**Global Health and Environment**]
 
-## **GLOA 101**
+## **GLOA .yellow[101]**
 
 ---
+class: bottom, center
+background-image: url(https://worldmapper.org/wp-content/uploads/2019/02/People_PopulationIncrease_2015t2050.png)
+background-size: 115%
+
+## Population growth (projection: up to 2050)
+
+
+
+
+---
+
+# $CO_2$ Emission (.red[$ 20] per ton, % of GNI)
+
+--
+
+```{r message=FALSE, echo=FALSE, warning=FALSE, results="asis", fig.width=16, fig.height=7.5, cache=T}
+
+wdi %>%
+  ggplot(aes(x=year,
+             y=CO2,
+             group=developed)) +
+  geom_point(aes(color=developed),
+             alpha=0.25, size=2) +
+  geom_smooth(aes(color=developed), 
+              alpha=0.5, 
+              se = F) +
+  labs(x = "YEAR",
+       y = "CO2 (% GNI)") +
+  theme_minimal() +
+  theme(legend.title=element_text(size=0),
+        legend.text=element_text(size=25),
+        axis.text=element_text(size=20),
+        axis.title=element_text(size=20),
+        legend.position = c(0.2, 0.90)) +
+  ylim(0, 20)
+```
+
+
+---
+class: inverse, middle
+background-image: url(https://github.com/textvulture/textvulture.github.io/blob/master/images/background_leftEmpty.jpg?raw=true)
+background-size: 100%
+
+# All these problems..., are they driven by economic globalization (and thus development)?
+
+---
+
+
+background-image: url(https://www.intelligenteconomist.com/wp-content/uploads/2018/03/Environmental-Kuznets-Curve-1.png)
+background-size: 45%
+background-position: right
+
+# Environmental Kuznets Curve
+
+
+### - .green[economic globalization] & .red[pollution]
+
+--
+
+### - Inverted U-curve shape 
+
+--
+
+### - Global distributive implications
+
+--
+
+- .large[Global South critique]
+--
+  
+  - .large['.Green[your] fault, .pink[my] burden']
+  - .large['indigenous peoples have always done it']
+  - .large['modern environmental .pink[imperialism']]
+--
+
+- .large[anti-environmental populists]
+--
+
+  - .large['elite fantasy']
+  - .large[less regulation and more privatization <br>('tragedy of commons')]
+
