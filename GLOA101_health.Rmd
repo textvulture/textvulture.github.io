@@ -59,7 +59,10 @@ var = c('CO2' = 'NY.ADJ.DCO2.GN.ZS',
         'GDPpc' = 'NY.GDP.PCAP.KD',
         'school' = 'SE.PRM.NENR',
         'life' = 'SP.DYN.LE00.IN',
-        'oilRent' = 'NY.GDP.PETR.RT.ZS')
+        'oilRent' = 'NY.GDP.PETR.RT.ZS',
+        'malaria' = 'SH.MLR.INCD.P3',
+        'HIV' = 'SH.HIV.INCD.ZS',
+        'tuberculosis' = 'SH.TBS.INCD')
 
 wdi <- WDI(indicator=var,
            start=1970,
@@ -84,6 +87,38 @@ background-size: 100%
 ## **GLOA .yellow[101]**
 
 ---
+
+class: inverse
+background-image: url(https://github.com/textvulture/textvulture.github.io/blob/master/images/blackboardBackground.jpg?raw=true)
+background-size: 100%
+
+# Things to talk about:
+
+--
+
+## `r fa('check', fill='red')` major issues in global environment and health
+
+--
+
+## `r fa('check', fill='red')` relationship between globalization and environmental/health problems
+
+--
+
+# By the end of this module, you should be able to:
+
+--
+
+## `r fa('check-double', fill='yellow')` identify major problems with empirical contexts
+
+--
+
+## `r fa('check-double', fill='yellow')` articulate positive/negative views on the relationship between globalization and environment/health
+
+
+
+---
+
+
 class: bottom, center
 background-image: url(https://worldmapper.org/wp-content/uploads/2019/02/People_PopulationIncrease_2015t2050.png)
 background-size: 115%
@@ -124,7 +159,7 @@ class: inverse, middle
 background-image: url(https://github.com/textvulture/textvulture.github.io/blob/master/images/background_leftEmpty.jpg?raw=true)
 background-size: 100%
 
-# All these problems..., are they driven by economic globalization (and thus development)?
+# .LARGE[Globalization & Environment?]
 
 ---
 
@@ -239,3 +274,209 @@ background-size: 100%
 
 ---
 
+class: middle
+background-position: right
+background-image: url(https://ihf-fih.org/wp-content/uploads/2023/09/YEL-2.png)
+# .huge[.green[**Global Health**]]
+
+## Does globalization .red[threaten] <br>global health?
+--
+
+- .large[could be .red[**yes**]: by exposing societies <br>w/o adequate health infrastructure]
+
+--
+
+- .large[could be .blue[**no**]:] 
+--
+
+  - .large[by reducing poverty &<br> bringing about development]
+  - .large[by establishing technical (e.g., WHO) <br> & financial (e.g., WB) orgs.]
+
+---
+
+# Globalization and Disease: .red[HIV AIDS] (per 100K ppl)
+
+```{r, fig.width=15}
+
+wdi %>%
+  ggplot(aes(x=year,
+             y=HIV,
+             group=developed)) +
+  geom_point(aes(color=developed),
+             alpha=0.25, size=2) +
+  geom_smooth(aes(color=developed), 
+              alpha=0.5, 
+              se = F) +
+   geom_label(aes(x=year, y=HIV, label=country), color='blue', 
+              data=wdi %>% filter(year==2000 & HIV>30) ) +
+  labs(x = "YEAR",
+       y = "HIV incidence") +
+  theme_minimal() +
+  theme(legend.title=element_text(size=0),
+        legend.text=element_text(size=25),
+        axis.text=element_text(size=20),
+        axis.title=element_text(size=20),
+        legend.position = c(0.90, 0.90)) +
+  xlim(1990, 2020)
+
+```
+
+---
+
+# Globalization and Disease: .red[tuberculosis] (per 100K ppl)
+
+```{r, fig.width=15}
+
+wdi %>%
+  ggplot(aes(x=year,
+             y=tuberculosis,
+             group=developed)) +
+  geom_point(aes(color=developed),
+             alpha=0.25, size=2) +
+  geom_smooth(aes(color=developed), 
+              alpha=0.5, 
+              se = F) +
+     geom_label(aes(x=year, y=tuberculosis, label=country), color='blue', 
+              data=wdi %>% filter(year==2010 & tuberculosis>1000) ) +
+  labs(x = "YEAR",
+       y = "tuberculosis") +
+  theme_minimal() +
+  theme(legend.title=element_text(size=0),
+        legend.text=element_text(size=25),
+        axis.text=element_text(size=20),
+        axis.title=element_text(size=20),
+        legend.position = c(0.90, 0.90)) +
+  xlim(2000, 2020)
+
+```
+
+---
+
+
+# Globalization and Disease: .red[malaria] (per 100K ppl)
+
+```{r, fig.width=15}
+
+wdi %>%
+  ggplot(aes(x=year,
+             y=malaria,
+             group=developed)) +
+  geom_point(aes(color=developed),
+             alpha=0.25, size=2) +
+  geom_smooth(aes(color=developed), 
+              alpha=0.5, 
+              se = F) +
+    geom_label(data=wdi %>% 
+            filter(developed == 'Developed') %>%
+            filter(malaria > 350 & year==2005),
+          aes(x=year, y=malaria, label=country), color='red') +
+  labs(x = "YEAR",
+       y = "HIV incidence") +
+  theme_minimal() +
+  theme(legend.title=element_text(size=0),
+        legend.text=element_text(size=25),
+        axis.text=element_text(size=20),
+        axis.title=element_text(size=20),
+        legend.position = c(0.90, 0.90)) +
+  xlim(2000, 2020)
+
+```
+
+
+---
+
+class: inverse
+background-image: url(https://github.com/textvulture/textvulture.github.io/blob/master/images/night_background5.jpg?raw=true)
+background-size: 100%
+
+# .Large[So, the trends project a sliver of .yellow[light]?]
+
+---
+
+class: inverse, center, middle
+background-image: url(https://www.statnews.com/wp-content/uploads/2024/05/AdobeStock_335033810-645x645.jpeg)
+background-size: 100%
+background-color: black
+
+# .huge[Not so fast.]
+
+---
+<br>
+.LARGE[Pandemic(s), or when we came close to it.]
+
+--
+
+.column[
+### H1N1 (swine flu, 2009)
+![](https://img.medscapestatic.com/pi/meds/ckb/47/35647tn.jpg)
+
+]
+
+--
+
+.column[
+
+### MERS-COV (MERS, 2013)
+![](https://live.staticflickr.com/5534/30332609002_d7e5946f22_z.jpg)
+
+
+]
+
+--
+
+.column[
+
+### Covid-19 (2020)
+
+![](https://www.cidrap.umn.edu/sites/default/files/styles/article_detail/public/images/news/novel_coronavirus_micrograph-niaid.jpg?itok=agn0Pu61)
+
+
+]
+
+---
+
+class: inverse
+background-image: url(https://github.com/textvulture/textvulture.github.io/blob/master/images/waveBackground.jpg?raw=true)
+background-size: 100%
+
+<br>
+<br>
+# .large[Globalization as a potentially .orange[fundamental] threat]
+
+--
+
+## - hyper-dependence: unstoppable/inevitable .pink[mobility] of pathgens and hosts
+
+--
+
+## - homogenous .Green[food] system: homogenization of vulnerability
+
+--
+
+## - hyper-.Yellow[urbanization]: concentration of people (=outbreak clusters)
+
+--
+
+## - institutions might go wrong: e.g., intellectual property rights and .yellow[medicine]
+
+---
+
+class: inverse
+background-size: 100%
+background-image: url(https://github.com/textvulture/textvulture.github.io/blob/master/images/background_leftEmpty3.jpeg?raw=true)
+
+# Moving foward:
+
+--
+
+## - Global institutions matter
+
+### `r fa('hands-holding-circle', fill='yellow')` much of the problem is a governance issue
+
+--
+
+### `r fa('landmark-dome', fill='yellow')` Collective action problems always get in the way
+
+--
+
+### `r fa('pen-nib', fill='yellow')` Institutions need to clarify the burdens for each global actor (take note of the success stories)
