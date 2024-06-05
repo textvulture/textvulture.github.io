@@ -90,9 +90,6 @@ background-size: 115%
 
 ## Population growth (projection: up to 2050)
 
-
-
-
 ---
 
 # $CO_2$ Emission (.red[$ 20] per ton, % of GNI)
@@ -164,4 +161,81 @@ background-position: right
 
   - .large['elite fantasy']
   - .large[less regulation and more privatization <br>('tragedy of commons')]
+
+---
+
+class: inverse, left, bottom
+background-image: url(https://i.makeagif.com/media/1-05-2018/lPQ24f.gif)
+background-color: black
+background-size: 100%
+
+# .LARGE[Can Globalization <br> be an .yellow[Answer]?]
+
+---
+
+background-image: url(https://www.sciencefacts.net/wp-content/uploads/2021/04/Ozone-Layer-Depletion.jpg)
+background-size: 45%
+background-position: right
+
+# Some .Yellow[Success] Stories (1)
+
+--
+
+## Montreal Protocol
+
+--
+
+### - phase-out of Hydrochlorofluorocarbons <br> (HCFC) for protecting  $O_3$  layer
+
+--
+
+: .large[almost all countries participate <br>(both the .pink[developing] and .Green[developed])]
+
+--
+
+  - .large[some .pink[preferential] treatments <br>allowed for developing countries]
+  
+--
+
+- .large[managed/guaranteed by four int'l orgs:]
+
+--
+
+  - .large[UNEP, UNDP, UNIDO & the World Bank]
+
+
+---
+
+# Some .Yellow[Success] Stories (2): Kyoto Protocol & Paris Agreement
+
+--
+
+.pull-left[
+
+![](https://github.com/textvulture/textvulture.github.io/blob/master/images/economistCO2.png?raw=true)
+
+]
+
+--
+
+
+.pull-right[
+
+```{r, out.width="350px", fig.align='center'}
+
+knitr::include_graphics("https://www.economist.com/img/b/400/582/90/media-assets/image/20211113_WOC158.png")
+
+```
+
+]
+
+---
+
+class: center, middle, inverse
+background-image: url(https://github.com/textvulture/textvulture.github.io/blob/master/images/forestBackground2.jpg?raw=true)
+background-size: 100%
+
+# .LARGE[Well-designed and strongly committed global environmental regimes could be .yellow[effective].]
+
+---
 
