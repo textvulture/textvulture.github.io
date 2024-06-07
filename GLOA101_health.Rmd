@@ -371,7 +371,7 @@ wdi %>%
             filter(malaria > 350 & year==2005),
           aes(x=year, y=malaria, label=country), color='red') +
   labs(x = "YEAR",
-       y = "HIV incidence") +
+       y = "malaria") +
   theme_minimal() +
   theme(legend.title=element_text(size=0),
         legend.text=element_text(size=25),
