@@ -1,0 +1,60 @@
+---
+title: "Quarto First Try"
+author: 
+  - name: Byunghwan Son
+    email: gmu.edu
+    affiliation:
+      - name: George Mason University
+        address: Fairfax, VA
+format: html
+editor: visual
+date: today
+date-format: "MM/DD/YYYY"
+bibliography: /Users/bson3/Dropbox/latex/mybib2.bib
+reference-location: section
+
+---
+
+# First Try
+
+This is one way to cite [@Son2022].
+
+Another way to cite would be @Son2023.
+
+# code chunk
+
+```{r}
+#| echo: false
+#| label: fig-firstfig
+#| warning: false
+#| fig-cap: Example Fig
+#| fig-cap-location: top
+#| cache: false
+
+
+library(dplyr)
+library(WDI)
+library(ggplot2)
+
+var = c('GDPpc' = 'NY.GDP.PCAP.KD')
+wdi <- WDI(indicator=var,
+           start=1970,
+           country = 'all',
+           end=2020,
+           extra=TRUE)   %>%
+  filter(region !="Aggregates") %>%
+  filter(!is.na(GDPpc))
+
+wdi %>%
+  ggplot(aes(x=year, y=GDPpc)) +
+  geom_point(alpoha=0.1,
+             size=0.1) +
+  theme_minimal() +
+  theme(legend.text = element_text(size=0))
+
+```
+
+
+See @fig-firstfig
+
+# References
