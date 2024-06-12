@@ -12,7 +12,6 @@ date: today
 date-format: "MM/DD/YYYY"
 bibliography: /Users/bson3/Dropbox/latex/mybib2.bib
 reference-location: section
-
 ---
 
 # First Try
@@ -53,7 +52,6 @@ wdi %>%
   theme(legend.text = element_text(size=0))
 
 ```
-
 
 See @fig-firstfig
 
