@@ -1,10 +1,9 @@
 ---
-title: "Deforestation; Russia; and North Korea"
+title: "Russia; and North Korea"
 categories: 
   - news
   - North Korea
   - Russia
-  - environment
 author: Ben
 date: 2024-06-20
 ---
