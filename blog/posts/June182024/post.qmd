@@ -1,0 +1,61 @@
+---
+title: "French Election & Market; Disinformation in Austria; Migrants in the US"
+author: "Ben"
+date: "2024-06-18"
+categories:
+  - news
+  - ECB
+  - France
+  - election
+  - disinformation
+---
+
+# French Election, not the time to panic?
+
+["ECB chief economist plays down need to intervene in French bond market"](https://www.ft.com/content/dba1a2bd-7fd5-4c0c-ab2a-56bcd2ac3f43)
+
+-   ECB says it won't buy French bonds "after the announcement of a snap French parliamentary election caused a sell-off in the country’s debt."
+
+-   But the French budget situation has been less-than-ideal recently.
+
+<iframe src="https://data.worldbank.org/share/widget?end=2021&amp;indicators=GC.DOD.TOTL.GD.ZS&amp;locations=FR-ES&amp;start=1992" width="450" height="300" frameBorder="0" scrolling="no" align="center">
+
+</iframe>
+
+-   ECB granted itself the power to buy unlimited amount of a Eurozone country's bods in 2022, but this has not been activated.
+
+-   "France’s finance minister Bruno Le Maire warned last week that a victory by the RN could lead to a “debt crisis” similar to the market chaos fuelled by former UK prime minister Liz Truss’s mini-budget in 2022."
+
+# Fighting Disinformation through Subscription
+
+["Austrian left pledges free newspaper access for young readers"](https://www.ft.com/content/985b4e1a-380a-4e37-a930-1a14f723829b)
+
+-   "Austria’s opposition social democrats have promised to fund newspaper subscriptions for people under 30, in a bid to combat disinformation and what they say is the “Orbanisation” of Austrian politics."
+
+-   The contents themselves wouldn't be restricted, but which outlet qualifies will be determined.
+
+-   Background: "The far-right Freedom party (FPÖ) is supported by 29 per cent of Austrians — and won the European parliament vote earlier this month — but because of its toxicity it may struggle to find junior coalition partners for a cabinet led by FPÖ leader Herbert Kickl." And young people are key to the success of the far-right outlets' growth.
+
+-   The fund will likely support about half of a typical news subscrption fee, which the critiques argue to be the reason why the plan wouldn't be successful.
+
+# US cities struggle as migrants come in
+
+["More Cities Feel Strain as Migrants Move In Seeking Better Prospects"](https://www.nytimes.com/2024/06/17/us/migrants-border-aid.html)
+
+-   The aid money is running out (e.g., hotel stay for the migrants)
+
+-   While the bordercrossing has declined recerntly, "an untold number" of migrants are currently ont he move around US cities trying to find an opportunity.
+
+-   To obtain work permits, applying for asylum is necessary, but the process takes a long time (and a lawyer), 150 days, typically.
+
+# And this is perhaps the most concise explanation for QE.
+
+-   source: [FT, "Central Banks". By Chris Giles](https://ep.ft.com/permalink/emails/eyJlbWFpbCI6ImNkNDIwZDhjMzFjZTRiZmFhYzNiZjE3Mjg2IiwgInRyYW5zYWN0aW9uSWQiOiJiOThkOWQ4Ny03OTBjLTQzNTMtYmFmMS0xOGU2NzgzMTdmNzEiLCAiYmF0Y2hJZCI6IjMzNzk1MmUwLTY4YzktNDI3NC05NjgwLTU4ZGFjNjE4NTJjYiJ9)
+
+-   "**Why do QE losses arise?**
+
+    Quantitative easing is the process whereby a central bank creates money and buys assets. The vast majority of money created globally has bought government bonds from outside the banking system. In doing so, the central bank earns the coupon from the bond it has purchased and the money used to purchase the bonds end up as private deposits in commercial banks. These banks have an excess of these deposits and park them overnight at the central bank where they are remunerated at the policy rate. 
+
+    When interest rates are low or zero, the coupons exceed the overnight interest rate and the central bank makes a profit, which is generally passed back to government. But if interest rates rise, as they have, the overnight rate exceeds the return on assets, generating a net interest loss (or negative carry). In addition, as interest rates rise, the value of the bond falls and when it is redeemed, it is generally worth less than the amount that was paid, although this depends on the coupon on the bond and the price paid. 
+
+    So, as interest rates rise, central banks tend to make both a net interest loss and capital loss on redemption."

@@ -1,0 +1,14 @@
+---
+title: "Opening up, sort of"
+author: "Ben"
+date: "2024-06-12"
+categories:
+  - news
+  - admin
+---
+
+This is my first post in a Quarto blog. **Welcome!**
+
+![](https://github.com/textvulture/textvulture.github.io/blob/master/images/deskBackground1.png?raw=true)
+
+Blogging may belong to the ancient civilization. But hey, I am not exactly the young blood in town. In fact, as I get older writing--really the biggest part of my job description--is becoming increasingly hard. So hard to the point where I need some anchor. Hopefully this blog serves that purpose. So it is mostly for myself.
