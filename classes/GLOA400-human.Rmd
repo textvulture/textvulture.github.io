@@ -1,0 +1,398 @@
+---
+title: "Human Rights GLOA 400"
+author: "Byunghwan Son <br> George Mason University"
+date: " "
+#########################################
+linkcolor: red
+citecolor: blue
+urlcolor: blueß
+output: 
+  xaringan::moon_reader:
+    seal: false
+    nature:
+      ratio: '16:9'
+      highlightStyle: github
+  #    self-contained: TRUE
+  chakra: css/libs/remark-latest.min.js
+css: ["default", 
+      "css/footer.css", 
+      "css/color.css", 
+      # "css/xaringan-themer.css",
+      default-fonts]
+lib_dir: css/libs
+beforeInit: "css/macros.js"
+# seal: false  
+#bibliography: /Users/bson3/Dropbox/latex/mybib2.bib
+#remotes::install_github('yihui/xaringan', upgrade = TRUE)
+---
+
+```{r setup, include=FALSE}
+# to use FontAwesome
+#htmltools::tagList(rmarkdown::html_dependency_font_awesome())
+library(fs)
+library(fontawesome)
+# library(magick)  
+library(ggplot2)
+knitr::opts_chunk$set(warning = FALSE, message = FALSE, error=F, echo=F)
+options(htmltools.preserve.raw = FALSE)
+```
+
+class: inverse, center, middle
+background-image: url(https://github.com/textvulture/textvulture.github.io/blob/master/images/humanBackground.jpg?raw=true)
+background-size: cover
+
+# .Huge[**Human Rights <br> in Asia <br> GLOA 400**]
+
+---
+class: inverse
+background-image: url(https://i.pinimg.com/originals/b8/72/03/b872036e3cfdb41f6c282e3e536730ad.gif)
+background-size: contain
+
+# .yellow[What are we talking about?]
+
+---
+
+class: inverse, middle
+background-image: url(https://t3.ftcdn.net/jpg/00/97/87/00/360_F_97870083_DFLY0vKDqIefVTu8mKYBQnQgBdsA55t8.jpg)
+background-size: cover
+
+
+# .Large[What are we .red[REALLY] talking about?]
+
+--
+
+## - The (consequences of) transnational human rights issues in Asia
+
+--
+
+## - Transnational Crimes (trafficking; environmental crimes; piracy)
+
+--
+
+## - Tran.pink[si]tional justice issues (the Rohyinga)
+
+--
+
+# `r fa("users", fill='yellow')` Topics of .orange[Human Security] 
+---
+
+<div class="full-width-tinted"><br>
+  <h1> .Large[Physical Integrity in Asia (Vdem Data)] </h1>
+</div><br><br>
+
+```{r echo=FALSE, error=FALSE, message=FALSE, warning=FALSE, fig.width=20, fig.height=9, cache=TRUE}
+
+library(vdemdata)
+
+vdem %>%
+  filter(e_regionpol_6C == 6) %>%
+  select(year, v2cltort, v2clkill) %>%
+  filter(year>1900) %>%
+  gather(key="variable", value="value", -year) %>%
+  ggplot(aes(x = year, y=value)) +
+  geom_smooth(aes(color=variable)) +
+  geom_point(aes(color=variable), size=2, alpha=1/5) +
+  labs(x = "year", 
+       y = "Human Rights") +
+  scale_color_manual(labels = c("Freedom From Torture", 
+                 "Freedom From Political Killing"),
+                     values = c("blue", "red")) +
+  theme_minimal() +  
+  theme(axis.text=element_text(size=30),
+        axis.title=element_text(size=35),
+        legend.position = "bottom",
+        legend.text=element_text(size=35),
+        legend.title = element_blank()) 
+
+```
+
+
+---
+class: middle, center, inverse
+background-image: url(https://www.adb.org/sites/default/files/styles/content_media/public/content-media/7763-human-trafficking.jpg?itok=MSvBYONb)
+background-size: contain
+
+
+# .yellow[.Huge[**But Human Trafficking is Rampant in Asia**]]
+
+---
+
+class: inverse
+background-image: url(https://www.imf.org/external/pubs/ft/fandd/2018/09/images/092018/caballero-chart1-lg.jpg)
+background-position: right
+background-size: contain
+
+# Asia 
+
+# = most profits <br> from human trafficiking
+
+# Mostly Southeast Asia
+
+# But also from .red[NK]
+
+---
+class: inverse, middle
+background-image: url(https://64.media.tumblr.com/97f1307a0cec9570541ce099e1931c66/4c861e28b8cf33fc-2f/s400x600/2ab3785e5fd2ece7d53517cc417a776728295816.gifv)
+background-size: contain
+background-position: right
+background-color: black
+
+# .huge[Maybe <br> something <br> about her story]
+
+---
+
+<div class="full-width-tinted"><br>
+  <h1> Cross-border Trafficking of NK Women (Kim et al. 2009) </h1>
+</div><br><br>
+
+.Large[`r fa("ethereum")` **Development/origin**]
+ - .large[the mid-1990s .red[famine] `r fa("skull")` → the ‘Arduous March’ → population mobility `r fa("arrow-up")` → ‘illegal immigrants’ in China (50k–100k) → trafficking]
+ 
+--
+
+.Large[.blue[`r fa("id-badge")`] **The traffickers**]
+ - .large[young (20-40s) male & female; Chinese, Korean Chinese, and North Koreans]
+
+--
+
+.Large[.red[`r fa("id-badge")`] **The victims** ] 
+ - .large[wider age range than other cases: early 10s to late 30s]
+ - .large[more educated and employed than those in other cases]
+ - .large[consent under deception (with a plan to return soon) + abduction]
+
+--
+
+.Large[`r fa("wrench")` **Underlying factors**]: .large[gender imbalance (China) + famine & hardship (NK)]
+
+
+---
+
+background-image: url(https://resizing.flixster.com/v9Qu4AOTPdMYuqnPZS_O8oFgNIw=/ems.cHJkLWVtcy1hc3NldHMvbW92aWVzLzEwOTVmMGI4LTU0ODMtNGIyNi1hNDRkLWUwMDZjNWIwYTRjNi53ZWJw)
+background-size: contain
+background-position: right
+
+# Arms Trafficking `r fa("gun", fill="purple")`
+
+--
+
+## - Salisbury (2021)
+
+--
+
+## - Not just illegal sales of arms
+
+--
+
+## - brokering, fascilitation & espionage
+
+  - .Large[acquisition and exports of <br>arms, techs, and expertise]
+
+--
+
+  - .Large[use of diplomats and embassy facilities `r fa("user-secret", fill='red')`]
+
+
+---
+
+class: inverse, center, middle
+background-image: url(https://img.etimg.com/thumb/msid-68266564,width-640,resizemode-4,imgsize-491753/south-asias-battle.jpg)
+background-size: cover
+
+# .LARGE[**Environmental .Green[Crimes] in Asia**]
+
+--
+
+# illegal logging; toxic waste trading 
+
+
+---
+
+## .center[Transnational Environmental Crimes (or 'problems') in Asia]
+
+.center[
+<iframe width="1024" height="500" src="https://www.youtube.com/embed/L59R5szrFZA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+]
+---
+
+## .center[Transnational Environmental Crimes (or 'problems') in Asia]
+
+.center[
+<iframe width="1024" height="500" src="https://www.youtube.com/embed/7BwNT0sV6eU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+]
+
+---
+
+<div class="full-width-tinted"><br>
+  <h1> Maritime Piracy: what are the .yellow[legal] boundaries? </h1>
+</div><br><br>
+.blockquote[
+# UN Convention on the Law of the Sea (UNCLOS, 1982)
+.black[
+.Large[
+<br>
+a. any illegal acts of violence or detention, or any act of depredation, committed for private ends by the crew or the passengers of a private ship or a private aircraft, and directed:
+
+  - on the high seas, against another ship or aircraft, or against persons or property on board such ship or aircraft;
+
+  - against a ship, aircraft, persons or property in a place .red[outside the jurisdiction of any State];
+
+b. any act of .red[voluntary participation] in the operation of a ship or of an aircraft with knowledge of facts making it a pirate ship or aircraft;
+
+]
+]
+]
+
+---
+class: inverse
+background-image: url(https://oneearthfuture.org/sites/default/files/piracy-trends.jpg)
+background-color: black
+background-position: right
+background-size: 50%
+
+# **The trend**
+
+### - regional effort: multilateral responses 
+
+- .large[MSSP; ReCAAP]
+
+--
+
+### - made a good .yellow[pregress], but not quite enough
+
+--
+
+### - significant toll on regional .red[trade] volumes
+
+- .large[Morabito & Sergei (2018)]
+---
+
+class: inverse, middle
+background-image: url(https://images.unsplash.com/photo-1589307904488-7d60ff29c975?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTJ8fGNvdXJ0fGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&w=1000&q=80)
+background-size: 50%
+background-position: left
+background-color: black
+
+.pull-right[
+
+# .yellow[**Transitional Justice (ICTJ)**]
+
+## the attempts of countries “emerging from periods of conflict and repression” to“address large scale or systematic human rights violations so numerous and serious that the .red[normal] justice system will .red[not] be able to provide an adequate response.
+
+]
+
+---
+class: inverse, center, middle
+background-image: url(https://media.cntraveller.com/photos/611be9f569410e829d87e125/16:9/w_2240,c_limit/burma-conde-nast-traveller-15apr13_alamy_b.jpg)
+background-size: cover
+
+# .Huge[**Transitional Justice <br> in Myanmar**]
+
+---
+
+<div class="full-width-tinted"><br>
+  <h1> .Large[The Rohyinga Case] </h1>
+</div><br><br>
+
+```{r echo=FALSE, error=FALSE, message=FALSE, warning=FALSE, fig.width=20, fig.height=9, cache=TRUE}
+
+vdem %>%
+  filter(country_name == "Burma/Myanmar") %>%
+  filter(year>1900) %>%
+  select(year, v2cltort, v2clkill) %>%
+  gather(key="variable", value="value", -year) %>%
+  ggplot(aes(x = year, y=value)) +
+  geom_line(aes(color=variable), alpha=0.5, size=1.5)  +
+  geom_vline(xintercept = 2015, linetype="dotted", 
+                color = "red", size=1.5) +
+  labs(x = "year", 
+       y = "Human Rights") +
+  scale_color_manual(labels = c("Freedom From Torture", 
+                 "Freedom From Political Killing"),
+                     values = c("blue", "red")) +
+  theme_minimal() +  
+  theme(axis.text=element_text(size=30),
+        axis.title=element_text(size=35),
+        legend.position = "bottom",
+        legend.text=element_text(size=35),
+        legend.title = element_blank())  
+  
+```
+
+---
+
+# What happened in Myanmar: Ethnic Cleansing
+
+<iframe width="960" height="512" src="https://www.youtube.com/embed/1cZJJeOxQ-s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+---
+
+class: inverse
+background-color: black
+background-image:url(https://static01.nyt.com/images/2021/03/24/world/00myanmar-explainer-newtop/00myanmar-explainer-newtop-mediumSquareAt3X.jpg)
+background-size: 55%
+background-position: right
+
+# Is self-correction possible? <br> &nbsp; &nbsp; .tiny[:  *if so, not a transitional justice situation*]
+
+--
+
+# .orange[`r fa("hand-fist")`] &nbsp; Domestic
+
+## - .yellow[coup]: accountability `r fa("circle-xmark", fill='red')`
+
+## - 'national race' (Cheesman 2017)
+
+--
+
+# .orange[`r fa("globe")`] &nbsp; International
+
+## - Chinese involvement; UN
+
+---
+class: inverse
+background-image: url(https://s.wsj.net/public/resources/images/BN-XQ526_3kOwq_8V_20180227020502.jpg)
+background-position: right
+background-color: black
+background-size: contain
+
+# Another Current Case: <br> .yellow[Xinjiang] (Hendix and Noland 2021)
+
+## 'Controversial' whether a genocide `r fa("users-slash", fill='red')` ?
+
+## Any responses?
+  .LARGE[
+- targeted sanctions
+- refugees
+- private sector initiatives
+  ]
+
+---
+
+class: inverse
+background-image: url(https://www.shutterstock.com/preview-440/10362314f/0c36eb63/Shutterstock_10362314f.jpg)
+background-position: right
+background-size: contain
+
+# .yellow[Another] reason transitional justice <br>is .red[hard]: `r fa("bullhorn", fill='orange')` Politics
+
+--
+
+### `r fa("book", fill='pink')` Smith (2018): `r fa("hand-back-fist", fill='red')` Generations of Far-Right mov't in Japan
+
+--
+
+-   .large[Action Conservative Movement (ACM)]
+
+--
+-   .large[persistent hardliners against the '.yellow[history matters]']
+
+--
+
+### `r fa("book", fill='Green')` Indonesia (Wahyuningroem 2022)
+--
+
+- .large[TJ issues as tactical concession; legitimacy token]
+
+--
+- .large[.pink[authoritarian legacy]]
+

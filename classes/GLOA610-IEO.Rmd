@@ -1,0 +1,291 @@
+---
+title: "Organizations, GLOA610"
+author: "Byunghwan Son <br> George Mason University"
+date: " "
+#########################################
+linkcolor: red
+citecolor: blue
+urlcolor: blueß
+output: 
+  xaringan::moon_reader:
+    seal: false
+    nature:
+      ratio: '16:9'
+      highlightStyle: github
+  #    self-contained: TRUE
+  chakra: css/libs/remark-latest.min.js
+css: ["default", 
+      "css/footer.css", 
+      "css/color.css", 
+      "css/cols.css",
+      #          "xaringan-themer.css",
+      default-fonts]
+lib_dir: css/libs
+beforeInit: "css/macros.js"
+# seal: false  
+#bibliography: /Users/bson3/Dropbox/latex/mybib2.bib
+#remotes::install_github('yihui/xaringan', upgrade = TRUE)
+---
+
+```{r setup, include=FALSE}
+# to use FontAwesome
+#htmltools::tagList(rmarkdown::html_dependency_font_awesome())
+library(fs)
+library(fontawesome)
+# library(magick)  
+library(ggplot2)
+options(htmltools.preserve.raw = FALSE)
+knitr::opts_chunk$set(warning = FALSE, message = FALSE, error=F, echo=F)
+
+```
+
+class: inverse, bottom, left
+background-image: url(https://cdn.cfr.org/sites/default/files/styles/full_width_xl/public/image/2022/06/WTO_IB.jpg.webp)
+background-size: cover
+
+# .Large[.yellow[**International <br> Economic Organizations <br> and Development**]]
+# GLOA 610
+
+---
+background-image: url(https://media2.giphy.com/media/4Z9fSEFAuxpnlBVWQx/giphy.gif)
+background-size: contain
+class: inverse
+
+# .Large[Are the likes of <br> IMF and World Bank <br> the .red[baddies?]]
+
+--
+
+# Or, are they just <br> .yellow[ineffective] at times?
+
+---
+
+class: inverse, left, middle
+background-image: url(https://68.media.tumblr.com/55ad887647f2e40068edde0a71c1bad0/tumblr_mxkdpmC7xP1rsrbdko1_r1_400.gif)
+background-size: 62.5%
+background-color: black
+background-position: right
+
+# .large[It could be that <br> we just .yellow[assume] <br> they are some <br> evil-doers `r fa("skull-crossbones", fill="red")`.]
+
+---
+
+background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTU6ZNLYxQuiRKptTHwp_PjfYC_GPsMpJjrldvPRairxWTH34Eps8Je-F4weztXRRffWYo&usqp=CAU)
+background-size: contain
+background-position: right
+
+# In fact, it is quite likely <br> much of the criticism leveled on <br> .red[IEO]s are built on .orange[this guy]'s critique <br> of (supposedly) American-led <br>capitalism.
+
+--
+
+# - The .pink[evil-doer ideas], in particular.
+
+# - Ken Rogoff's rant (2002)
+
+---
+
+class: inverse, middle
+background-color: #1A0563
+background-image: url(https://github.com/textvulture/textvulture.github.io/blob/master/images/waveBackground2.jpg?raw=true)
+background-size: 100%
+
+# It is in fact quite likely that most of the vocal critiques just don't understand .red[what IEOs do]. 
+
+--
+
+# Perhaps in part because IMF and WB only deal with .yellow[difficult situations] in the first placce
+
+---
+
+background-image: url(https://i.pinimg.com/originals/ba/7c/70/ba7c70e27433c8c580603c71bc9b29aa.gif)
+background-size: cover
+class: inverse, center, middle
+
+# .Large[To actually understand how they work, we need to go back in .yellow[history].]
+
+--
+
+# .Large[.pink[What really was the motivation?]]
+
+---
+
+class: inverse, right, bottom
+background-image: url(http://insidestory.org.au/wp-content/uploads/bretton_woods.jpg)
+background-size: cover
+
+# .Huge[**An attempt to .red[prevent] another World War.**]
+
+---
+
+<div class="full-width-tinted"><br>
+  <h1> .large[The Bretton Woods System] </h1> 
+</div>
+
+<br>
+- .Large[What happened right before WWII?]
+<br>
+
+--
+
+.pull-left[
+.pull-left[![](https://c.tenor.com/R1RcnFR9EXQAAAAC/broke-fairlyoddparents.gif) 
+# .red[currency war]]
+
+
+.pull-right[![]()
+#  ]
+]
+
+
+.pull-right[
+.pull-left[![]()
+# ]
+]
+
+---
+
+<div class="full-width-tinted"><br>
+  <h1> .large[The Bretton Woods System] </h1> 
+</div>
+
+<br>
+- .Large[What happened right before WWII?]
+<br>
+
+
+.pull-left[
+.pull-left[![](https://c.tenor.com/R1RcnFR9EXQAAAAC/broke-fairlyoddparents.gif) 
+# .red[currency war]]
+
+
+.pull-right[![](https://c.tenor.com/asi_jQogc3IAAAAC/family-guy-peter-griffin.gif)
+# .green[protectionism] ]
+]
+
+
+.pull-right[
+.pull-left[![]()
+# ]
+]
+
+---
+
+<div class="full-width-tinted"><br>
+  <h1> .large[The Bretton Woods System] </h1> 
+</div>
+
+<br>
+- .Large[What happened right before WWII?]
+<br>
+
+
+.pull-left[
+.pull-left[![](https://c.tenor.com/R1RcnFR9EXQAAAAC/broke-fairlyoddparents.gif) 
+# .red[currency war]]
+
+
+.pull-right[![](https://c.tenor.com/asi_jQogc3IAAAAC/family-guy-peter-griffin.gif)
+# .green[protectionism] ]
+]
+
+
+.pull-right[
+.pull-left[![](https://media.tenor.com/EcVflt3ciWQAAAAC/broke-poor.gif)
+# .blue[poverty]]
+]
+
+--
+
+# - Each .orange[pillar] tackles the challenges.
+---
+class: inverse, center, bottom
+background-color: black
+background-image: url(https://github.com/textvulture/textvulture.github.io/blob/master/images/cloudBackground.jpg?raw=true)
+background-size: 100%
+
+# .Huge[**IMF**]
+
+--
+
+# Stone (2004); Nooruddin & Woo (2015); Daoud et al. (2017)
+
+---
+class: inverse, center, bottom
+background-color: black
+background-image: url(https://github.com/textvulture/textvulture.github.io/blob/master/images/forestBackground.jpg?raw=true)
+background-size: 100%
+
+# .Huge[WTO]
+
+---
+
+class: inverse, center, bottom
+background-color: black
+background-image: url(https://github.com/textvulture/textvulture.github.io/blob/master/images/forestBackground.jpg?raw=true)
+background-size: 100%
+
+# .Huge[**WTO (GATT)**]
+
+--
+
+# Busch and Pelc (2019) 
+
+---
+class: inverse, center, bottom
+background-color: black
+background-image: url(https://github.com/textvulture/textvulture.github.io/blob/master/images/forestBackground4.jpg?raw=true)
+background-size: 100%
+
+# .Huge[**The World Bank**]
+
+--
+
+# or mulilateral development banks in general
+
+--
+
+# Humphrey (2017)
+
+---
+
+class: inverse
+background-image: url(https://github.com/textvulture/textvulture.github.io/blob/master/images/night_background2.jpg?raw=true)
+background-size: 100%
+
+# There are many other IEOs (mostly regional)
+
+--
+
+- .Large[AIIB]
+
+- .Large[MERCOSUR]
+
+- .Large[ADB]
+
+- .Large[AEZO]
+
+--
+
+- .LARGE[And a whole lot more .red[PTA]s.]
+
+---
+
+# Why didn't we talk about them?
+
+--
+
+### e.g., .orange[Guatemala]'s major trading partners (2019)
+
+![](https://www.countryaah.com/wp-content/uploads/2019/06/Guatemala-Major-Imports.jpg)
+
+---
+
+class: inverse, bottom
+background-image: url(https://64.media.tumblr.com/439efbdcdbd2e0c89e3f71a87f5ae9c6/tumblr_ob3b9zx1191tlgqkgo1_500.gifv)
+background-size: cover
+
+# .large[.yellow[IEOs reflect certain dimensions of the reality.]]
+
+--
+
+# What could be done, going forward? (The Nature 2021)
+

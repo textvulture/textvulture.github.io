@@ -1,0 +1,276 @@
+---
+title: "Democratic Backsliding <br> GLOA 610-001"
+author: "Byunghwan Son <br> George Mason University"
+date: " "
+#########################################
+linkcolor: red
+citecolor: blue
+urlcolor: blueß
+output: 
+  xaringan::moon_reader:
+    seal: false
+    nature:
+      ratio: '16:9'
+      highlightStyle: github
+  #    self-contained: TRUE
+  chakra: css/libs/remark-latest.min.js
+css: ["default", 
+      "css/footer.css", 
+      "css/color.css", 
+      # "css/xaringan-themer.css",
+      default-fonts]
+lib_dir: css/libs
+beforeInit: "css/macros.js"
+# seal: false  
+#bibliography: /Users/bson3/Dropbox/latex/mybib2.bib
+#remotes::install_github('yihui/xaringan', upgrade = TRUE)
+---
+
+```{r setup, include=FALSE}
+#htmltools::tagList(rmarkdown::html_dependency_font_awesome())
+library(fs)
+library(fontawesome)
+# library(magick)  
+library(ggplot2)
+library(tidyverse)
+```
+
+class: inverse, top, center
+background-image: url(https://images.squarespace-cdn.com/content/v1/5497331ae4b0148a6141bd47/1529717706598-9KB3VOGO0G1BGOOXMJ3U/BLOG-podcast-populism-the-new-populism-1482659671-9641-005.jpg?format=1500w)
+background-size: cover
+
+# .Large[**Polarization and Extremism, GLOA 610-001**]
+
+---
+
+class: inverse, center, middle
+background-image: url(https://d21rhj7n383afu.cloudfront.net/washpost-production/The_Washington_Post/20210107/5ff6767d4cedfd00015fab72/5ff67838c9e77c0007a14669_1450955028646-chsuqu_t_1609988154811_640_360_400.gif)
+background-size: contain
+
+
+# .Huge[**WHY DO THINGS LIKE THIS HAPPEN?**]
+
+---
+
+class: inverse
+background-image: url(https://media.istockphoto.com/photos/we-are-99-picture-id155132989?k=20&m=155132989&s=612x612&w=0&h=yHyr7cW7QmEBN2s66DumUZ_UM9cD3KU0jxiyfMxASek=)
+background-size: contain
+background-position: right
+background-color: black
+
+# .large[`r fa("feather-alt")` Conventional Wisdom]
+
+# .large[(Economic) Globalization] 
+
+--
+
+# .large[`r fa("arrow-alt-circle-right")` Polarization [.yellow[Populism]] ]
+
+--
+
+# .large[`r fa("arrow-alt-circle-right")` Democratic Backsliding] 
+
+--
+ 
+# &nbsp;&nbsp; .large[.red[`r fa("arrow-alt-circle-right")`] Human misery `r fa("skull")`]
+
+---
+
+class: inverse
+background-image: url(https://media0.giphy.com/media/wjgmCHInvS32MH2MZr/giphy.gif?cid=ecf05e47ftb77in7effypz3hapgnjr16ixxjp2qspnm2besr&rid=giphy.gif&ct=g)
+background-size: cover
+
+# .huge[.right[But is it <br> .red[necessarily] <br> right?]]
+
+---
+
+class: inverse
+background-image: url(https://pbs.twimg.com/media/FEq4rUyVgAMaKpY?format=jpg&name=medium)
+background-size: 80%
+background-position: right
+background-color: black
+
+# .Large[.yellow[**SO. MUCH. <br> ECONOMIC. <br> ANXIETY**]]
+---
+
+
+class: inverse
+background-image: url(https://images-na.ssl-images-amazon.com/images/I/91ZPf-D8d4L.jpg)
+background-size: contain
+background-position: right
+background-color: black
+
+# .Large[Economic Grievance Thesis]
+
+--
+
+# - Are people .red[angry] when they are <br> .yellow[left behind [of globalization]]?
+
+--
+
+# - .orange[Colantone & Stanig (2018)]
+
+# - .orange[Kates & Tucker (2019)]
+
+---
+
+.pull-left[
+<br>
+.center[
+![](https://pbs.twimg.com/media/DXIbqGaVwAAQOoU.jpg)
+]
+]
+
+.pull-right[
+# Where does .red[polarization] come from?
+
+## - inequality?
+
+## - anger?
+
+## - .orange[affective polarization]
+
+## - Dias & Lelkes (2021)
+
+]
+---
+
+class: inverse 
+
+<div class="full-width-tinted"><br>
+  <h1> .large[.red[Populism], the concept: Mudde (2017)] </h1> 
+</div><br><br> 
+
+.blockquote[
+.green[
+### .texttt[A .yellow[thin centered ideology] that considers society to be ultimately separated into two homogeneous and antagonistic camps, "the pure .green[poeple]" versus "the corrupt .red[elite]," and which argues that .orange[politics] should be an expression of .green[the people]. 
+]
+]
+]
+
+## `r fa("lightbulb")` &nbsp; Can be either good or bad for democracy.
+
+--
+
+### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; .red[`r anicon::faa("bolt", animate='bounce')`]&nbsp;&nbsp;**Democratic backsliding**  when .green[the people] over institutions.
+---
+
+class: inverse, right, middle
+background-image: url(https://media1.giphy.com/media/l3q2SaisWTeZnV9wk/giphy.gif?cid=ecf05e47oy0d5787h9br259p81ub7pguvatrl56xegeszbqs&rid=giphy.gif&ct=g)
+background-size: contain
+
+# .huge[So, Is <br> Democratic <br> Backsliding <br> Happening?]
+
+---
+
+<div class="full-width-tinted"><br>
+  <h1> .large[Global Democratic Backsliding] </h1> 
+</div><br><br> 
+
+```{r echo=FALSE, error=FALSE, message=FALSE, warning=FALSE, fig.width=20, fig.height=9, cache=TRUE}
+
+library(vdemdata)
+
+df <- vdem %>%
+  select(year, 
+         country_name,
+         v2x_polyarchy,
+         v2x_polyarchy_codelow,
+         v2x_polyarchy_codehigh,
+         e_migdppc) %>%
+  filter(year>1945) %>%
+  rename(EDI = v2x_polyarchy,
+         EDI_l = v2x_polyarchy_codelow,
+         EDI_h = v2x_polyarchy_codehigh,
+         GDPpc = e_migdppc) %>%
+  drop_na(GDPpc) %>%
+  mutate(developed = 
+           case_when(GDPpc > 10000 ~ "developed",
+                     GDPpc < 10000 ~ "underdeveloped"))
+
+ggplot(df, aes(x = year, y=EDI)) +
+  geom_smooth(aes(color=developed), alpha=0.5, size=2) +
+  geom_point(aes(color=developed), size=4, alpha=1/15) +
+  labs(x = "year", y="Democracy Index") +
+  theme_minimal() +
+  scale_color_manual(labels = c("Developed", 
+                                "Underdeveloped"),
+                     values = c("blue", "red")) +
+  theme(axis.text=element_text(size=30),
+        axis.title=element_text(size=35),
+        legend.position = "bottom",
+        legend.text=element_text(size=35),
+        legend.title = element_blank()) 
+
+```
+
+---
+
+<div class="full-width-tinted"><br>
+  <h1> .large[Some Well-known Cases (also .yellow[Vachudova 2020])] </h1> 
+</div><br><br> 
+
+```{r, echo=FALSE, echo=FALSE, error=FALSE, message=FALSE, warning=FALSE,, cache=T, fig.width=15}
+
+
+df %>%
+  filter(year>1989) %>%
+  filter( country_name == "Brazil" | 
+          country_name == "Hungary" |
+          country_name == "United States of America"|
+          country_name == "India" |
+          country_name == "Philippines") %>%
+  ggplot(aes(x=year,
+             y=EDI,
+             color = country_name)) +
+  geom_line() +
+  geom_ribbon(aes(ymax = EDI_h,
+                  ymin = EDI_l, 
+                  fill = country_name),
+              alpha=0.25,
+              color = NA) +
+  ylab("Democracy Index") +
+  theme_minimal() +
+  theme(axis.text=element_text(size=20),
+        axis.title=element_text(size=20),
+        legend.text=element_text(size=15),
+        legend.title = element_blank()) 
+
+```
+
+---
+
+class: inverse
+background-color: black
+background-image: url(https://healthrighterscom.files.wordpress.com/2020/08/rickyimg1.jpg)
+background-size: contain
+background-position: right
+
+# .large[Then comes the .green[human misery]]
+
+# - health & well-being
+
+# - poverty
+
+# - security
+
+# Because: .red[no] need for .yellow[accountability] <br> if the regime is 'morally' justified.
+
+---
+
+# Images Sources
+
+- https://images.squarespace-cdn.com/content/v1/5497331ae4b0148a6141bd47/1529717706598-9KB3VOGO0G1BGOOXMJ3U/BLOG-podcast-populism-the-new-populism-1482659671-9641-005.jpg?format=1500w
+
+- https://d21rhj7n383afu.cloudfront.net/washpost-production/The_Washington_Post/20210107/5ff6767d4cedfd00015fab72/5ff67838c9e77c0007a14669_1450955028646-chsuqu_t_1609988154811_640_360_400.gif
+
+- https://media0.giphy.com/media/wjgmCHInvS32MH2MZr/giphy.gif?cid=ecf05e47ftb77in7effypz3hapgnjr16ixxjp2qspnm2besr&rid=giphy.gif&ct=g
+
+- https://pbs.twimg.com/media/FEq4rUyVgAMaKpY?format=jpg&name=medium
+
+- https://media.istockphoto.com/photos/we-are-99-picture-id155132989?k=20&m=155132989&s=612x612&w=0&h=yHyr7cW7QmEBN2s66DumUZ_UM9cD3KU0jxiyfMxASek=
+
+- https://pbs.twimg.com/media/DXIbqGaVwAAQOoU.jpg
+
+- https://healthrighterscom.files.wordpress.com/2020/08/rickyimg1.jpg
+

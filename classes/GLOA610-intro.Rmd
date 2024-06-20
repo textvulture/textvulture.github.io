@@ -1,0 +1,432 @@
+---
+title: "Introduction, GLOA610"
+author: "Byunghwan Son <br> George Mason University"
+date: " "
+#########################################
+linkcolor: red
+citecolor: blue
+urlcolor: blueß
+output: 
+  xaringan::moon_reader:
+    seal: false
+    nature:
+      ratio: '16:9'
+      highlightStyle: github
+  #    self-contained: TRUE
+  chakra: css/libs/remark-latest.min.js
+css: ["default", 
+      "css/footer.css", 
+      "css/color.css", 
+      #          "xaringan-themer.css",
+      default-fonts]
+lib_dir: css/libs
+nature:
+  highlightStyle: github
+beforeInit: "css/macros.js"
+seal: false  
+#bibliography: /Users/bson3/Dropbox/latex/mybib2.bib
+---
+
+```{r setup, include=FALSE}
+# to use FontAwesome
+htmltools::tagList(rmarkdown::html_dependency_font_awesome())
+options(htmltools.preserve.raw = FALSE)
+knitr::opts_chunk$set(warning = FALSE, message = FALSE, error=F, echo=F)
+
+library(fs)
+library(fontawesome)
+# library(magick)  
+```
+
+class: inverse, center, middle
+background-image: url(https://i.pinimg.com/originals/3b/af/8f/3baf8f136f4e4f89c3fdb9c166676fca.gif)
+background-size: contain
+
+# .HUGE[.yellow[**Welcome to <br> GLOA 610**]]
+
+---
+
+class: inverse, bottom
+background-image: url(https://i.pinimg.com/originals/5e/11/ac/5e11aca261ae40746983ac7efa1770d7.gif)
+background-size: cover
+
+# .Large[Really glad to see you all today.]
+
+--
+
+# This wasn't the ideal start I wanted, but we will end strong.
+
+---
+
+# Instructor: Byunghwan Son ("Dr. Son")
+
+.pull-left[
+
+
+```{r, echo=F, out.width="350px" }
+knitr::include_graphics("images/worldcloud3.png") 
+```
+]
+
+--
+
+.pull-right[
+
+.large[
+`r fa("building-columns")` George Mason University (2014--) <br>
+|- Associate Prof. of Global Affairs
+
+`r fa("graduation-cap")` PhD in political science (2013) <br>
+|- University of Missouri-Columbia
+  
+`r fa("chalkboard")`  Research/Teaching   
+|-   .red[politics of global finance]      <!-- the 'four space' rule --><br>
+|-   democratic backsliding  <br>
+|-   public opinion; big data; social media <br>
+|-   Political economy in Asia   <br>
+
+`r fa("address-book")` Contact  
+|-   <i class="fas fa-envelope"></i> <bson3@gmu.edu>   
+|-   <i class="fas fa-home"></i> [ben-son.netlify.app](ben-son.netlify.app)  
+]
+]
+
+---
+class: top, center, inverse
+background-image: url(https://media.giphy.com/media/UKkes2qN2T70s/giphy.gif)
+background-size: 100%
+
+# .LARGE[.yellow[Ruthless Pragamtism]]
+
+---
+
+background-color: black
+
+<center>
+
+```{r, echo=F, out.width="850px", center }
+knitr::include_graphics("images/iknowpoverty.jpg") 
+```
+
+</center>
+
+---
+class: inverse
+background-color: #50394c
+background-image: url(https://img.wallpapersafari.com/desktop/1024/576/56/91/p7HYat.jpg)
+background-size: cover
+
+# We will talk about the nitty-gritties (i.e., the .red[syllabus] <i class="fas fa-file-alt"></i>) of the class pretty soon.
+
+--
+
+## .orange[But] some premises for the class first:
+
+--
+
+### - the world is complex 
+
+--
+
+### - things are often good .red[and] bad at the same time
+
+--
+
+### - a .red[single] perspective wouldn't fully explain anything 
+
+--
+
+### - those who .red[don't] accept the complexities would resort to ...
+
+---
+
+background-image: url(https://d21rhj7n383afu.cloudfront.net/washpost-production/The_Washington_Post/20210107/5ff6767d4cedfd00015fab72/5ff67838c9e77c0007a14669_1450955028646-chsuqu_t_1609988154811_640_360_400.gif)
+background-size: cover
+class: right, top, inverse
+
+# .yellow[... something like this]
+
+---
+class: inverse, center
+background-image: url(https://github.com/textvulture/textvulture.github.io/blob/master/images/night_background6.jpg?raw=true)
+background-size: 100%
+
+
+# We want to accept the complexity and be .pink[open-minded].
+
+--
+
+# .large[Often, avoiding .Green[sensationalism] is key.]
+
+---
+
+class: inverse
+background-color: #4040a1
+background-image: url(https://img.wallpapersafari.com/desktop/1024/576/56/91/p7HYat.jpg)
+background-size: cover
+
+# .center[.large[.yellow[Neoliberalism]]]
+
+--
+
+## .orange[M]ost people use it when talking about economic globalization.
+
+## .orange[I]t's an important & useful concept.
+
+--
+
+## .orange[B]ut it can be .red[incorrect] and lack conceptual clarity or rigor when it used as a blanket term.
+
+--
+
+.blockquote[ 
+# *'.yellow[something] very evil about capitalism and market economy'* 
+]
+
+---
+
+class: inverse
+background-color: black
+
+# So when someone says:
+
+.blockquote[.huge["*People of* country X *are trapped in poverty, which has been perpetuated by .yellow[neoliberalism*]"] ]
+
+--
+
+# `r fa("hand-point-right")` not wrong, but it *also* sounds like: 
+
+--
+
+## 'There's this .red[evil organization] out there working on an elaborate global plot *against* the poor and *for* the rich.'
+---
+
+
+class: inverse, top
+background-image: url(https://c.tenor.com/SA4YQic_1QIAAAAd/austin-powers-dr-evil.gif)
+background-size: contain
+background-color: black
+
+
+<br>
+# .huge[There isn't one ... not that I know of.]
+<br>
+<br>
+<br>
+<br>
+
+
+--
+
+# .huge[It's .red[lazy] science at best.]
+---
+
+class: inverse
+background-image: url(https://preventionlane.org/wp-content/uploads/2015/02/blackboard.jpg)
+
+<div class="full-width-tinted"><br>
+  <h1> So please avoid using the blanket term 'neoliberalism' .yellow[in this class] (but def. do in *other* classes)
+ </h1> 
+</div><br><br> 
+
+--
+
+## - For conceptual accuracy and intellectual rigor 
+
+### (for training purposes; hence *only* in this class).
+
+--
+
+## - Instead, be specific: 
+
+### isn't it 'privatization,' 'deregulation,' 'trade liberalization,' or 'austerity' that you .orange[actually] want to talk about when you say something along the line of '*the neoliberal reforms exacerbated the situation*'?
+
+--
+
+## - Or, why not just call it .red[capitalism] or .green[market economy]?
+
+---
+
+class: inverse, middle
+background-color: black
+background-image: url(https://pbs.twimg.com/media/FaZFQ9QUsAAxo0v?format=jpg&name=large)
+background-position: right
+background-size: contain
+
+# .large[.yellow[*Oh, one more thing.*]]
+
+--
+
+# This ain't an .red[econ] class.
+
+# I am not an economist. 
+
+# Neither are you.
+
+### Econ literature makes only a minority <br> (though significant) in our reading
+
+
+---
+class: inverse
+background-image: url(https://preventionlane.org/wp-content/uploads/2015/02/blackboard.jpg)
+
+<div class="full-width-tinted"><br>
+  <h1> .huge[We want to accomplish today:] </h1> 
+</div><br><br> 
+
+# 1. overview of the syllabus
+
+# 2. setting up the presentation schedule
+
+# 3. brief review of social science methods.
+
+---
+
+<iframe src="https://textvulture.github.io/syllabi/GLOA610_Syllabus.pdf" width="300%" height="98%">
+</iframe>
+
+---
+class: center, top, inverse
+
+background-image: url(https://github.com/textvulture/textvulture.github.io/blob/master/images/deskBackground3.png?raw=true)
+background-size: cover
+
+# .Large[Go to Blackboard & sign up for .pink[two] spots.]
+
+---
+class: center, middle
+background-image: url(https://github.com/textvulture/textvulture.github.io/blob/master/images/halfBackground4.jpg?raw=true)
+background-size: cover
+
+
+# .LARGE[Social Science Methodologies]
+
+---
+
+class: center, middle, inverse
+background-image: url(https://github.com/textvulture/textvulture.github.io/blob/master/images/night_background8.jpg?raw=true)
+background-size: cover
+
+# .LARGE[.yellow[Why care?]]
+
+--
+
+# .large[To .pink[evaluate], you need to know the .Yellow[rules].]
+
+---
+
+# What is *Science* `r fa("microscope", fill='green')` for?
+
+--
+
+### - Knowledge .green[accumulation]: we all make contributions to human knowledge.
+
+--
+
+```{r}
+
+knitr::include_graphics("https://2.bp.blogspot.com/-MjVaq_H_dBE/VDFwHWtem5I/AAAAAAAABBE/SB10YTB1amg/s1600/Extending%2BFrontier%2Bof%2BKnowledge.jpg")
+
+```
+
+--
+
+### - the need for standardized .green[methods], be it quantitative or qualitative. 
+
+--
+
+### - the process is .green[inference] `r fa("code-branch", fill='green')`.
+
+---
+
+# The Process of (Social) Science .tiny[(working example = 'democratic peace' `r fa("peace", fill='red')`)]
+
+1. .Large[The Nature (the 'reality') `r fa("pagelines", fill='green')`]
+
+--
+
+2. .Large[Discovering .Yellow[Research Questions] (a simple question) `r fa("person-circle-question", fill='Purple')`] 
+
+--
+
+  - .large["There is no such thing as a logical methods of having new ideas ... [it is really] an '.red[irrational element]' or a '.red[creative intuition]'"]
+
+--
+
+  - .large[.green[tradition]; .orange[personal interests]; .bluey[boundary crossing]; .Blue[thought experiments] - but be critical, wild, and test-driving]
+
+--
+
+3. .Large[Constructing .green[Theories] (or Argument) `r fa("microphone-lines", fill='purple')`]
+
+--
+
+  - .large[clear, parsimonious, relevant, and generalizable-within-boundary *proposition*]
+  
+  - .large[about the relationship between two or more variables; the '.red[why]' question]
+  
+  - .large[Model: the world simplified for the argument]
+
+--
+
+4. .Large[Designing Empirical Analysis `r fa("chart-bar", fill='blue')`]
+
+---
+
+## Whichever method you use, it comes down to a .red[holy] table
+
+--
+
+### variables: factors of interest whose values .Yellow[vary]
+
+--
+
+.pull-left[
+
+```{r}
+knitr::include_graphics("https://raw.githubusercontent.com/textvulture/textvulture.github.io/master/images/basic720.jpg")
+```
+
+]
+
+--
+
+.pull-right[
+
+```{r}
+
+library(kableExtra)
+text <- data.frame( 
+Development = c("High", "Low"),
+No = c("A", "C"),
+Yes = c("B", "D")
+)
+
+kbl(text, booktabs = T, 
+    align=rep('c', 3)) %>%
+  kable_styling(font_size = 20) %>%
+  add_header_above(c(" " = 1, "Corruption" = 2)) 
+```
+
+]
+
+---
+.content-box-blue[
+## 1. Introduction (+ Literature Review)
+]
+
+.content-box-yellow[
+## 2. (Literature Review +) Argument/Hypothesis
+]
+
+.content-box-army[
+## 3. Research Design
+]
+
+.content-box-purple[
+## 4. Empirical Analysis
+]
+
+.content-box-red[
+## 5. Conclusion
+]

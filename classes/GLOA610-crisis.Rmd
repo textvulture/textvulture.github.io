@@ -1,0 +1,340 @@
+---
+title: "Crisis, GLOA 610"
+author: "Byunghwan Son <br> George Mason University"
+date: " "
+#########################################
+linkcolor: red
+citecolor: blue
+urlcolor: blueß
+output: 
+  xaringan::moon_reader:
+    seal: false
+    nature:
+      ratio: '16:9'
+      highlightStyle: github
+  #    self-contained: TRUE
+  chakra: css/libs/remark-latest.min.js
+css: ["default", 
+      "css/footer.css", 
+      "css/color.css", 
+      # "css/xaringan-themer.css",
+      default-fonts]
+lib_dir: css/libs
+beforeInit: "css/macros.js"
+# seal: false  
+#bibliography: /Users/bson3/Dropbox/latex/mybib2.bib
+#remotes::install_github('yihui/xaringan', upgrade = TRUE)
+---
+
+```{r setup, include=FALSE}
+# to use FontAwesome
+#htmltools::tagList(rmarkdown::html_dependency_font_awesome())
+library(fs)
+library(fontawesome)
+# library(magick)  
+library(ggplot2)
+knitr::opts_chunk$set(warning = FALSE, message = FALSE, error=F, echo=F)
+options(htmltools.preserve.raw = FALSE)
+library(tidyr)
+```
+
+class: inverse, center, middle
+background-image: url(https://www.timeshighereducation.com/sites/default/files/styles/the_breaking_news_image_style/public/istock-530583132.jpg?itok=CekMzkG3)
+background-size: cover
+
+# .HUGE[**Global Economic Crisis**] <br><br> **.green[GLOA] .yellow[610]**
+
+---
+class: inverse
+background-image: url(https://github.com/textvulture/textvulture.github.io/blob/master/images/waveBackground2.jpg?raw=true)
+background-size: cover
+
+
+# .Large[What is a .bluey[**CRISIS**] everybody talks about?]
+
+--
+
+## `r fa("star", fill='red')` &nbsp; Marxist Perspective (deterministic)
+
+--
+
+## `r fa("book", fill='yellow')` &nbsp; Critical Theory Perspective (e.g., .yellow[D&#246;nmez & Zemandl 2019])
+
+--
+
+## `r fa("glasses", fill='violet')` &nbsp; Neoclassical Economics Perspective (.georgia[*'what crisis?'*])
+
+--
+
+## - .red[Not wrong], but offer only a partial picture; little to no solution 
+
+# `r fa("circle-exclamation", fill='gray')` &nbsp; A .orange[big-picture] framework is rare.
+
+---
+class: inverse, middle, center
+background-image: url(https://epe.brightspotcdn.com/dims4/default/cfee7fb/2147483647/strip/true/crop/589x400+5+0/resize/840x570!/quality/90/?url=https%3A%2F%2Fepe-brightspot.s3.amazonaws.com%2F20%2F8d%2Fbc180f541b3e7d17d138e4c3b9c5%2F37modechay-img.jpg)
+background-size: cover
+
+# .HUGE[**Types of Crisis**]
+
+---
+
+class: inverse, middle, center
+background-image: url(https://wickedgoodgaming.com/wp-content/uploads/2019/10/bankrupt.gif)
+background-size: cover
+
+# .Huge[**(Sovereign) <br> Debt Crisis**]
+
+# *.yellow['The government cannot service the debt anymore'*]
+
+---
+
+class: inverse, middle, center
+background-image: url(https://image.shutterstock.com/image-illustration/paris-police-hold-back-crowd-260nw-242294071.jpg)
+background-size: cover
+
+# .Huge[**Banking Crisis**]
+
+# .yellow[*'The bank doesn't have your money.'*]
+
+---
+
+class: inverse, middle, center
+background-image: url(http://prod-upp-image-read.ft.com/8a4b2c44-c350-11e5-808f-8231cd71622e)
+background-size: cover
+
+# .Huge[**Currency Crisis**]
+
+# .yellow[*'The currency is now just a piece of paper.'*]
+
+---
+
+
+```{r include=FALSE, cache=T}
+
+library(WDI)
+library(lubridate)   
+
+var = c('crisis' = "GFDD.OI.19",
+        'GDPpc' = 'NY.GDP.PCAP.KD',
+        'exrate' = 'PA.NUS.FCRF')
+
+
+wdi <- WDI(indicator=var,
+           start=1960,
+           country = 'all',
+           end=2020,
+           extra=TRUE)
+
+```
+
+<div class="full-width-tinted"><br>
+  <h1> .large[Banking Crisis Trend, World Bank Data ] </h1> 
+</div><br><br> 
+
+```{r message=FALSE, echo=FALSE, warning=FALSE, results="asis", fig.width=16, fig.height=7, cache=T}
+   
+wdi %>%
+  filter(GDPpc < 10000) %>%
+  drop_na(crisis) %>%
+  group_by(year) %>%
+  summarise(y.crisis = sum(crisis)) -> wdi2
+
+wdi %>%
+  drop_na(crisis) %>%
+  group_by(year) %>%
+  summarise(y.crisis = sum(crisis)) %>%
+  ggplot(aes(y=y.crisis, 
+             x=year)) +
+  geom_bar(aes(fill='developed'),
+           stat = "identity",   alpha=0.5) +
+  geom_bar(data=wdi2, 
+           aes(x=year, y=y.crisis, fill='underdeveloped'), 
+           stat = "identity") +
+    labs(y="# of Banking Crises") +
+  theme_minimal() +
+  theme(legend.title = element_text(size=0),
+        legend.text = element_text(size=25),
+        axis.text=element_text(size=25),
+        axis.title=element_text(size=25))
+
+```
+
+---
+
+<div class="full-width-tinted"><br>
+  <h1> .large[Currency Crisis Trend, more than 10% depreciation] </h1> 
+</div><br><br> 
+
+```{r message=FALSE, echo=FALSE, warning=FALSE, results="asis", fig.width=16, fig.height=7, cache=T}
+
+library(plm)
+
+  
+wdi <- pdata.frame(wdi, index=c("country", "year"))
+
+
+wdi %>%
+  transform(lexrate = plm::lag(wdi$exrate)) %>%
+  mutate(dep = (exrate-lexrate)/exrate) %>%
+  mutate(ccrisis = 
+           case_when(dep > 0.1 ~ 1,
+                     dep < 0.0999999 ~ 0,
+                     is.na(dep) ~ 0
+           )) %>%
+    filter(GDPpc<10000) %>%
+  drop_na(ccrisis) %>%
+  group_by(year) %>%
+  summarise(y.ccrisis = sum(ccrisis)) -> wdi2
+
+wdi %>%
+  transform(lexrate = plm::lag(wdi$exrate)) %>%
+  mutate(dep = (exrate-lexrate)/exrate) %>%
+  mutate(ccrisis = 
+           case_when(dep > 0.1 ~ 1,
+                     dep < 0.0999999 ~ 0,
+                     is.na(dep) ~ 0
+           )) %>%
+  drop_na(ccrisis) %>%
+  group_by(year) %>%
+  summarise(y.ccrisis = sum(ccrisis)) %>%
+  ggplot(aes(y=y.ccrisis, 
+             x=year)) +
+  geom_bar(aes(fill='developed'),
+           stat = "identity",   alpha=0.5) +
+  geom_bar(data=wdi2, 
+           aes(x=year, y=y.ccrisis, fill='underdeveloped'), 
+           stat = "identity") +
+  labs(y="# of Currency Crises") +
+  theme_minimal() +
+  theme(legend.title = element_text(size=0),
+        legend.text = element_text(size=15),
+        axis.text=element_text(size=15),
+        axis.text.x = element_text(angle = 75,
+                                   vjust = 0.5),
+        axis.title=element_text(size=15)) 
+
+
+
+```
+
+---
+
+background-image: url(https://stray-reflections.com/storage/images/articles/16068579750.png)
+background-position: right
+
+# How Does A .red[Crisis] Happen? 
+
+
+## Kindleberger (1979)
+
+## - .Blue[mania]
+
+## - .orange[panic]
+
+## - .red[crash]
+
+--
+
+## Oatley (2019)
+  - .Large[Global Financial Crisis 2007-8]
+  - .Large['complex system approach']
+
+---
+
+class: inverse
+background-color: black
+background-image: url(https://c.tenor.com/5Egq59EfO1MAAAAC/dont-cry-for-me-argentina-evita.gif)
+background-position: right
+background-size: 77%
+
+# But, wouldn't governments <br> .yellow[rein in]  when the bubble <br> builds up?
+
+--
+
+## or maybe not
+
+---
+
+## `r fa("face-smile-wink", fill='green')` .violet[Cooking up] the numbers instead  (Aragao and Linsi 2022, 99)
+.center[
+![](https://github.com/textvulture/textvulture.github.io/blob/master/images/Aragao2020.png?raw=true)
+]
+
+---
+class: middle
+
+background-image: url(https://www.economist.com/img/b/300/291/90/sites/default/files/images/print-edition/20120225_AMC632.gif)
+background-position: right
+background-size: contain
+
+
+# .huge[**... which <br> became <br>an Endemic <br> Problem**]
+
+---
+
+class: inverse, middle
+background-image: url(https://www.aljazeera.com/wp-content/uploads/2021/12/Arg-IMF-protest2.jpg?w=770&resize=770%2C433)
+background-size: cover
+background-color: black
+
+# .huge[**Don't forget blaming the IMF*.**]
+
+.yellow[.right[.large[(* not that IMF is innocent...)]]]
+
+
+---
+
+class: inverse
+background-color: black
+
+<div class="full-width-tinted"><br>
+  <h1> .Large[Consequences] </h1> 
+</div><br><br> 
+
+--
+
+## So much liberalization even from a .red[left]-leaning government
+
+--
+
+![](https://github.com/textvulture/textvulture.github.io/blob/master/images/Campello2014.png?raw=true)
+
+---
+
+background-image: url(https://cdn.britannica.com/37/139437-050-B0C9226E/Headquarters-European-Central-Bank-Frankfurt-am-Main.jpg)
+background-size: contain
+background-position: right
+
+# The aftermath
+
+## Quaglia & Verdun (2023)
+
+## ECB: .pink[Learning] from previous crises <br>in responding to the pandemic 
+
+--
+
+## - better awareness
+
+--
+
+## - aggressive actions
+
+--
+
+## - expansion of scope
+
+---
+
+class: inverse
+background-image: url(https://media.tenor.com/uT0nKBzWC1QAAAAM/its-everywhere-anywhere.gif)
+background-size: contain
+background-position: right
+background-color: black
+
+
+# .LARGE[Crises are ubiquotous;]
+
+--
+
+# .large[but they are all .yellow[different].]

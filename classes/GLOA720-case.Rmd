@@ -1,0 +1,574 @@
+---
+title: "Case Study, GLOA720"
+author: "Byunghwan Son <br> George Mason University"
+date: " "
+#########################################
+linkcolor: red
+citecolor: blue
+urlcolor: blueß
+output: 
+  xaringan::moon_reader:
+    seal: false
+    nature:
+      ratio: '16:9'
+      highlightStyle: github
+  #    self-contained: TRUE
+  chakra: css/libs/remark-latest.min.js
+css: ["default", 
+      "css/footer.css", 
+      "css/color.css", 
+      #          "xaringan-themer.css",
+      default-fonts]
+lib_dir: css/libs
+beforeInit: "css/macros.js"
+# seal: false  
+#bibliography: /Users/bson3/Dropbox/latex/mybib2.bib
+#remotes::install_github('yihui/xaringan', upgrade = TRUE)
+---
+
+```{r setup, include=FALSE}
+# to use FontAwesome
+#htmltools::tagList(rmarkdown::html_dependency_font_awesome())
+library(fs)
+library(fontawesome)
+# library(magick)  
+library(ggplot2)
+library(tidyverse)
+knitr::opts_chunk$set(warning = FALSE, message = FALSE, error=F, echo=F)
+options(htmltools.preserve.raw = FALSE)
+
+```
+
+class: middle
+background-image: url(https://f.hubspotusercontent40.net/hubfs/1951043/Case_Studies.gif)
+background-color: white
+background-size: 50%
+background-position: right
+
+# .times[.Large[.red[Case Studies], <br> .Yellow[Historical Analysis], <br> & .Blue[Process Tracing]]]
+
+# GLOA 720, Method Recap (1)
+
+---
+
+class: inverse, center, middle
+background-image: url(https://github.com/textvulture/textvulture.github.io/blob/master/images/night_background2.jpg?raw=true)
+background-size: 100%
+background-position:
+background-color: black
+
+# .huge[**Any case study is a .yellow[comparative] analysis.**]
+
+---
+
+class: inverse, middle
+background-image: url(https://media2.giphy.com/media/10xinIqWrdnrTa/giphy.gif)
+background-size: contain
+background-position: right
+background-color: black
+
+# Even .yellow[w/o] a fancy case <br> to compare yours with.
+
+--
+
+# .Large[Because you <br> can always <br> compare to <br>.red[yourself.]]
+
+---
+
+class: inverse, middle
+background-image: url(https://github.com/textvulture/textvulture.github.io/blob/master/images/night_background1.jpg?raw=true)
+background-size: 100%
+background-position:
+background-color: black
+
+# .Large[The job is .red[not] just to describe.] <br> .Green[We ain't no reporters.]
+
+--
+
+# It is to .yellow[analyze.] In essence, we are doing:
+
+--
+
+## - within-case comparison: sub-units or over-time
+
+## - across-case: [.red[apples] vs. .red[apples]] or [.red[apples] vs. .orange[oranges]] 
+
+  - .Large[Or against a .Green[normal] group]
+
+---
+
+class: inverse
+background-image:
+background-size: 100%
+background-position:
+background-color: black
+
+# Things to care about: .Yellow[**Structured**] and .bluey[**Focused**] comparison
+
+--
+
+# .bluey[**Focused**]
+
+  - .large[not all, but only .yellow[select] aspects of each case: consult the .red[literature] `r fa("book")`]
+
+  - .large[discussions stay within the purview of the variables identified]
+
+--
+
+# .Yellow[**Structured**] 
+
+  - .large[Units at the same level (or category)]
+
+  - .large[Equal treatment: all variables for each case.]
+
+  - .large[Don't exclude the ones that don't fit the story. E.g., Skocpol 1979]
+
+
+---
+
+# An .Yellow[example] of selection bias in case study: <br> Skocpol (1979) *State and Social Revolution*
+
+  - .large[the idea: external military threat > elite split > chances for revolution]
+
+--
+
+.pull-left[
+
+### .green[Skocpol (1979)], simplified
+
+|                | revolution                  | .red[no] revolution                 |
+|----------------|-----------------------------|-------------------------------|
+| elite split    | Russia; France; China (20c) |                               |
+| .red[no] elite split |                             | Britain; Germany; China (19c) |
+
+
+]
+
+--
+
+.pull-right[
+### .Blue[Geddes (1990)]
+
+```{r, out.width="80%"}
+knitr::include_graphics("https://github.com/textvulture/textvulture.github.io/blob/master/images/Geddes1990.png?raw=true")
+```
+
+]
+
+
+---
+
+class: inverse
+background-image: url(https://github.com/textvulture/textvulture.github.io/blob/master/images/background_leftEmpty3.jpeg?raw=true)
+background-size: 100%
+background-position:
+background-color: black
+
+# .yellow[Actual] Implementation
+
+--
+
+- .large[.pink[Soaking and Poking]: case immersion]
+
+  - exploratory, but goes on detail
+  - literature review should be semi-established before this for '.bluey[focus]'
+
+--
+
+- .large[.Green[Identifying] the Variables]
+
+  - Independent, Dependent, and Control Variables
+  - Operationalization: what would you mean by '*stronger*'; '*increase*' ?
+  - particularly important for qualitative research: '.bluey[structure]'
+
+--
+
+- .large[.Yellow[explanation]]
+
+  - developing the narrative/aruement
+  - describe the relationship between the IV and DV
+  - with a structure, description = analysis
+
+--
+
+- .large[**Robustness**] (optional?)
+
+  - demonstrate the alternative explanations don't work
+  - could be just a good explanation of the control variables
+
+---
+
+# Structured Designes (Mill's methods)
+
+--
+
+
+<br>
+<style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg .tg-6igk{border-color:inherit;font-family:"Times New Roman", Times, serif !important;font-size:28px;text-align:left;
+  vertical-align:top}
+.tg .tg-zev6{background-color:#000000;border-color:inherit;font-size:28px;text-align:left;vertical-align:top}
+.tg .tg-9htw{background-color:#34ff34;border-color:inherit;font-size:28px;text-align:left;vertical-align:top}
+.tg .tg-bq5v{border-color:inherit;font-size:28px;text-align:left;vertical-align:top}
+.tg .tg-6ut3{background-color:#c0c0c0;border-color:inherit;font-size:28px;text-align:left;vertical-align:top}
+.tg .tg-yvrh{background-color:#fcff2f;border-color:inherit;font-size:28px;text-align:left;vertical-align:top}
+.tg .tg-lz8j{background-color:#9698ed;border-color:inherit;font-size:28px;text-align:left;vertical-align:top}
+.tg .tg-3k3k{background-color:#340096;border-color:inherit;font-size:28px;text-align:left;vertical-align:top}
+</style>
+<table class="tg">
+<thead>
+  <tr>
+    <th class="tg-6igk"><span style="font-weight:bold">Most Similar</span></th>
+    <th class="tg-bq5v">Independent</th>
+    <th class="tg-bq5v">Control 1</th>
+    <th class="tg-bq5v">Control 2</th>
+    <th class="tg-bq5v">outcome</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td class="tg-bq5v">case A</td>
+    <td class="tg-6ut3"></td>
+    <td class="tg-yvrh"></td>
+    <td class="tg-9htw"></td>
+    <td class="tg-lz8j"></td>
+  </tr>
+  <tr>
+    <td class="tg-bq5v">case B</td>
+    <td class="tg-zev6"></td>
+    <td class="tg-yvrh"></td>
+    <td class="tg-9htw"></td>
+    <td class="tg-3k3k"></td>
+  </tr>
+</tbody>
+</table>
+
+--
+
+<style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg .tg-6igk{border-color:inherit;font-family:"Times New Roman", Times, serif !important;font-size:28px;text-align:left;
+  vertical-align:top}
+.tg .tg-9htw{background-color:#34ff34;border-color:inherit;font-size:28px;text-align:left;vertical-align:top}
+.tg .tg-kpsx{background-color:#cb0000;border-color:inherit;font-size:28px;text-align:left;vertical-align:top}
+.tg .tg-e876{background-color:#3531ff;border-color:inherit;font-size:28px;text-align:left;vertical-align:top}
+.tg .tg-i1j7{background-color:#986536;border-color:inherit;font-size:28px;text-align:left;vertical-align:top}
+.tg .tg-bq5v{border-color:inherit;font-size:28px;text-align:left;vertical-align:top}
+.tg .tg-6ut3{background-color:#c0c0c0;border-color:inherit;font-size:28px;text-align:left;vertical-align:top}
+.tg .tg-yvrh{background-color:#fcff2f;border-color:inherit;font-size:28px;text-align:left;vertical-align:top}
+</style>
+<table class="tg">
+<thead>
+  <tr>
+    <th class="tg-6igk"><span style="font-weight:bold">Most Different</span></th>
+    <th class="tg-bq5v">Independent</th>
+    <th class="tg-bq5v">Control 1</th>
+    <th class="tg-bq5v">Control 2</th>
+    <th class="tg-bq5v">outcome</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td class="tg-bq5v">case A</td>
+    <td class="tg-6ut3"></td>
+    <td class="tg-yvrh"></td>
+    <td class="tg-e876"></td>
+    <td class="tg-i1j7"></td>
+  </tr>
+  <tr>
+    <td class="tg-bq5v">case B</td>
+    <td class="tg-6ut3"></td>
+    <td class="tg-kpsx"></td>
+    <td class="tg-9htw"></td>
+    <td class="tg-i1j7"></td>
+  </tr>
+</tbody>
+</table>
+
+--
+
+## .center[.Yellow[**Structured**] and .bluey[**Focused**]?]
+
+---
+
+
+background-image:
+background-size: 100%
+
+
+.content-box-yellow[
+.center[# An example (Pepinski 2009)]
+]
+
+.right-column[
+
+<style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  overflow:hidden;padding:16px 20px;word-break:normal;}
+.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  font-weight:normal;overflow:hidden;padding:16px 20px;word-break:normal;}
+.tg .tg-2bn0{font-size:26px;text-align:center;vertical-align:top}
+.tg .tg-bzci{font-size:20px;text-align:center;vertical-align:top}
+.tg .tg-60hs{font-size:20px;text-align:left;vertical-align:top}
+.tg .tg-7hap{font-size:20px;font-weight:bold;text-align:left;vertical-align:top}
+</style>
+<table class="tg">
+<thead>
+  <tr>
+    <th class="tg-60hs"></th>
+    <th class="tg-2bn0">Malaysia</th>
+    <th class="tg-2bn0">Indonesia</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td class="tg-7hap">region</td>
+    <td class="tg-bzci" colspan="2">Southeast Asia</td>
+  </tr>
+  <tr>
+    <td class="tg-7hap">economy</td>
+    <td class="tg-bzci" colspan="2">middle-income</td>
+  </tr>
+  <tr>
+    <td class="tg-7hap">religion</td>
+    <td class="tg-bzci" colspan="2">Islam</td>
+  </tr>
+  <tr>
+    <td class="tg-7hap">political coalition</td>
+    <td class="tg-bzci"><span style="color:#009901">native</span> elites + <br><span style="color:#009901">native</span> business</td>
+    <td class="tg-bzci"><span style="color:#009901">native</span> elites + <br><span style="color:#FE0000">Chinese</span> business</td>
+  </tr>
+  <tr>
+    <td class="tg-7hap">post-1997 crisis</td>
+    <td class="tg-bzci">authoritarian <br>resilience</td>
+    <td class="tg-bzci">authoritarian <br>breakdown</td>
+  </tr>
+</tbody>
+</table>
+
+]
+
+.left-column[
+
+![](https://m.media-amazon.com/images/I/61NDJf6h7kL._AC_UF1000,1000_QL80_.jpg)
+
+]
+
+---
+
+class: inverse, middle
+background-image: url(https://media.tenor.com/vCqeFaYFM-wAAAAM/spaghetti-messy.gif)
+background-size: contain
+background-position: right
+background-color: black
+
+# .yellow[.Large[But the actual writing <br> isn't this neat & simple.]]
+
+--
+
+# .red[Need to go step-by-step <br> using another example.]
+
+---
+
+background-size: 100%
+background-image: url(https://github.com/textvulture/textvulture.github.io/blob/master/images/case_title.png?raw=true)
+
+---
+
+background-size: 100%
+background-image: url(https://github.com/textvulture/textvulture.github.io/blob/master/images/case_overall.png?raw=true)
+background-size: 55%
+background-position: right
+
+# .content-box-green[Give the general context]
+
+--
+
+# - basic background
+
+--
+
+# - some of the factors <br>of interest
+
+--
+
+# - overview of the <br> empirical approach
+
+---
+
+# .content-box-green[Literature Review, of course]
+
+.pull-left[
+
+![](https://github.com/textvulture/textvulture.github.io/blob/master/images/case_litreview1.png?raw=true)
+
+]
+
+--
+
+.pull-right[
+
+![](https://github.com/textvulture/textvulture.github.io/blob/master/images/case_litreview2.png?raw=true)
+
+]
+
+---
+
+class: middle
+background-image: url(https://github.com/textvulture/textvulture.github.io/blob/master/images/case_IV.png?raw=true)
+background-position: right
+background-size: 55%
+
+# .content-box-red[Argument and <br>Variable Description]
+
+# - explain clearly <br> what to expect if <br> the arugment holds
+
+---
+
+.content-box-green[
+# Now, finally, the empirical analysis: the three cases
+]
+
+![](https://github.com/textvulture/textvulture.github.io/blob/master/images/case1.png?raw=true)
+
+--
+
+![](https://github.com/textvulture/textvulture.github.io/blob/master/images/case2.png?raw=true)
+
+--
+
+![](https://github.com/textvulture/textvulture.github.io/blob/master/images/case3.png?raw=true)
+
+---
+
+background-image: url(https://github.com/textvulture/textvulture.github.io/blob/master/images/case_alternative.png?raw=true)
+background-position: right
+background-size: 55%
+
+# .content-box-purple[Alternative Explanation <br>(robustness checek)]
+
+--
+
+## - what are some plausible <br> explanations that can <br> .orange[screw up] my finding?
+
+
+## - can my arguement couter them?
+
+---
+
+class: inverse, center, middle
+background-image: url(https://github.com/textvulture/textvulture.github.io/blob/master/images/night_background5.jpg?raw=true)
+background-size: 100%
+background-position:
+background-color: black
+
+# .huge[**Comparative .yellow[Historical] Analysis**]
+
+---
+
+class: inverse, right, middle
+background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_wL7NfbVhbZX2Fn82aqBzRv0MCZXpimIeRCuLraPyFeyve3fNtDLE6-Gv60vMStTDFL8&usqp=CAU)
+background-size: contain
+background-position: left
+background-color: black
+
+## "By means of comparative analysis, <br> I want to preserve a sense of <br> .yellow[historical particularity] <br> as far as I can, while still <br> .red[comparing different counts]" <br><br> -- Reinhard Bendix (1976)
+
+---
+
+class: inverse
+background-image: url(https://github.com/textvulture/textvulture.github.io/blob/master/images/blackboardBackground.jpg?raw=true)
+background-size: cover
+
+.content-box-red[
+# Comparative Historical Analysis: Case Study, but over time.
+]
+
+### - Sequence matters.
+
+  - .large[often, though not always, used for causal inference (hence the discussions about necessary and sufficient causes in Mahoney (2004))]
+
+--
+
+### - methods
+
+  - .large[variants of Mill's methods, but with .yellow[sequence]]; often *descriptive* and *typological*
+  
+  - .large[.yellow[process tracing]: a complete anatomy of the intervening process]
+  
+    - sequence arguments: good at showing *how*; less of causal inference
+  
+  - .large[others: formal theory and fuzzy sets: .red[not] very recommendable]
+
+
+---
+
+class: inverse, right, top
+background-image: url(http://forgifs.com/gallery/d/361741-3/Girl-dominoes-fail.gif)
+background-size: 120%
+background-position:
+background-color: black
+
+# **Process Tracing**
+
+## - Make sure .yellow[all] steps count.
+
+---
+
+.content-box-grey[
+# An easy example: Ziblatt (2009), the second half
+]
+
+--
+
+.center[
+![](https://github.com/textvulture/textvulture.github.io/blob/master/images/case_process.png?raw=true)
+]
+
+---
+
+.content-box-grey[
+# An easy example: Ziblatt (2009), the second half
+]
+
+### - Late 19C Germany; **Hypothesis**: high land inequality `r fa("arrow-right", fill='red')` electoral fraud
+
+--
+
+- .content-box-red[existence of strong landed elites]
+  
+--
+
+- .content-box-yellow[the adoption of universal male suffrage in Germany]
+
+--
+
+- .content-box-green[landed elites social power erodes]
+
+--
+
+- .content-box-red[landed elites pressure local officials (appointment; revenue)]
+
+--
+
+- .content-box-yellow[local officials remove voters from voter rolls]
+
+--
+
+- .content-box-green[systemic electoral fraud observed]
+
+--
+
+### - each chain is .red[causally bound]: .times[*why the next step had to happen*]
+
+### - .red[never] a mere chronology

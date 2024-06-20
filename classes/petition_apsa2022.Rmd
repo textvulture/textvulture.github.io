@@ -1,0 +1,394 @@
+---
+title: "Petiotion the Emotion"
+author: "Byunghwan Son <br> Myunghee Lee"
+date: " "
+#########################################
+linkcolor: red
+citecolor: blue
+urlcolor: blueß
+output: 
+  xaringan::moon_reader:
+    seal: false
+    nature:
+      ratio: '16:9'
+      highlightStyle: github
+  #    self-contained: TRUE
+  chakra: css/libs/remark-latest.min.js
+css: ["default", 
+#      "css/footer.css", 
+      "css/color.css", 
+      #          "xaringan-themer.css",
+      default-fonts]
+lib_dir: css/libs
+beforeInit: "css/macros.js"
+# seal: false  
+#bibliography: /Users/bson3/Dropbox/latex/mybib2.bib
+#remotes::install_github('yihui/xaringan', upgrade = TRUE)
+
+---
+
+```{r setup, include=FALSE}
+# to use FontAwesome
+#htmltools::tagList(rmarkdown::html_dependency_font_awesome())
+library(fs)
+library(fontawesome)
+# library(magick)  
+library(ggplot2)
+options(htmltools.preserve.raw = FALSE)
+knitr::opts_chunk$set(warning = FALSE, message = FALSE, error=F, echo=F)
+
+library(xaringancolor)
+setup_colors(
+  red = "red",
+  green = "green",
+  blue = "blue",
+  yellow = "yellow"
+)
+
+
+```
+
+```{tex}
+
+\usepackage{xcolor}
+
+```
+
+class: inverse, middle, center
+background-image: url(https://thumbs.gfycat.com/GranularHollowHochstettersfrog-size_restricted.gif)
+background-size: cover
+background-position: center
+background-color: black
+
+# .Huge[**Petition the Emotion**]
+
+# .yellow[.large[**Nationalism in South Korean National Petition**]]
+
+# .Large[Myunghee Lee & Byunghwan Son]
+
+---
+
+class: inverse
+background-image: url(https://upload.wikimedia.org/wikipedia/commons/c/c6/Blackboard.png)
+background-size: cover
+
+# When do ordinary people engage in .orange[formal] politics?
+
+--
+
+# - voting literature
+
+# - party membership
+
+# - .yellow[petition]
+
+--
+
+## `r fa("hand-point-right", fill='yellow')` less studied in non-Western, online contexts
+
+---
+
+class: inverse
+background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSgj_4ySVjv0tlXKpKxHrc2jYutwR6fOqCmWw&usqp=CAU)
+background-color: black
+background-position: right
+background-size: contain
+
+## .Large[We think .red[nationalism] matters <br> because it's an .yellow[emotion]]
+
+--
+
+# `r fa("book")` grievance::.orange[emotion]
+
+--
+
+# `r fa("book")` .orange[emotion]::cost reduction 
+
+--
+
+# `r fa("hand-point-up", fill='red')` nationalism is a powerful .orange[emotion]
+- .Large['**collective narcissism**'] .large[(Cichocka and Cislak 2020)]
+- .Large[H: **nationalism -> political action**]
+
+---
+
+class: inverse
+background-image: url(https://image.ytn.co.kr/general/jpg/2018/0619/201806191120070570_img_3.jpg)
+background-position: right
+background-color: black
+background-size: contain
+
+# .LARGE[National Petition Data]
+
+## - Presidential Office
+
+## - August 2017 to May 2020
+
+## - web-crawling (`rvest`)
+
+## - 300k .yellow[usuable] petitions
+
+---
+
+# Petition Data (trend)
+
+
+```{r, fig.width=16}
+
+library(tidyverse)
+
+text_gamma2 <- readRDS("/Users/bson3/GitHub/apsa2022/text_gamma2.rds") #should be adjusted to the local computer environment!
+
+text_gamma3 <- text_gamma2 %>%
+  mutate(nationalismD1 = ifelse(nationalismAll>0, 1, nationalismAll)) %>%
+  mutate(nationalismD2 = ifelse(nationalismAll3>0, 1, nationalismAll3)) %>%
+  mutate(fe = year*100 + month) %>%
+  filter(!is.na(title))
+
+
+text_gamma3 %>%
+  arrange(date) %>%
+  ggplot(aes(x=date)) +
+  theme_minimal() +
+  geom_histogram(bins=57, 
+                 color=F,
+                 fill='red',
+                 alpha=0.45) +
+  geom_vline(xintercept = as.numeric(as.Date("2019-04-01")), 
+             color='blue',
+             linetype = 'longdash') +
+  theme(axis.text=element_text(size=20),
+        axis.title=element_text(size=20)) 
+
+
+```
+
+
+---
+
+# Empirical Strategy: OLS + FE
+
+.Large[
+$$log(agree + 1) = $$ 
+$$\beta_1 nationalism_i + Topic.Scores + monthFE \times yearFE + categoryFE$$
+
+]
+
+---
+
+# Empirical Strategy: OLS + FE
+
+.Large[$$\color{red}{log(agree + 1)} = $$ 
+$$\beta_1 nationalism_i + Topic.Scores + monthFE \times yearFE + categoryFE$$]
+
+- .Large[The DV: number of agreements]
+
+
+---
+
+
+# Empirical Strategy: OLS + FE
+
+.Large[
+$$log(agree + 1) = $$ 
+$$\color{red}{\beta_1 nationalism_i} + Topic.Scores + monthFE \times yearFE + categoryFE$$
+
+]
+
+- .Large[The DV: number of agreements]
+
+- .Large[Nationalism: # of times 'nationalism words' were invoked]
+  - $\color{red}{\beta}$ should be signifant and positive if H supported
+
+---
+
+
+# Empirical Strategy: OLS + FE
+
+.Large[
+$$log(agree + 1) = $$ 
+$$\beta_1 nationalism_i + \color{red}{Topic.Scores} + monthFE \times yearFE + categoryFE$$
+
+]
+
+- .Large[The DV: number of agreements]
+
+- .Large[Nationalism: # of times 'nationalism words' were invoked]
+  - $\color{red}{\beta}$ should be signifant and positive if H supported
+
+- .Large[Topic Scores: Structural Topic Modeling (Roberts et al. 2014)]
+
+---
+
+# Empirical Strategy: OLS + FE
+
+.Large[
+$$log(agree + 1) = $$ 
+$$\beta_1 nationalism_i + Topic.Scores + \color{red}{monthFE \times yearFE + categoryFE}$$
+
+]
+
+- .Large[The DV: number of agreements]
+
+- .Large[Nationalism: # of times 'nationalism words' were invoked]
+  - $\color{red}{\beta}$ should be signifant and positive if H supported
+  
+- .Large[Topic Scores: Structural Topic Modeling (Roberts et al. 2014)]
+
+- .Large[Fixed effects: month, year, 'category']
+---
+
+# A cursory look at the effect of .green[nationalism]
+
+
+```{r, fig.width=16}
+
+text_gamma3 <- text_gamma2 %>%
+  mutate(nationalismD1 = ifelse(nationalismAll>0, 1, nationalismAll)) %>%
+  mutate(nationalismD2 = ifelse(nationalismAll3>0, 1, nationalismAll3)) %>%
+  mutate(fe = year*100 + month) %>%
+  filter(!is.na(title))
+
+
+text_gamma3 %>% 
+  mutate(y = log(agree+1),
+         nationalism = as.character(nationalismD2)) %>%
+  ggplot(aes(x=y, 
+             group=nationalism, color=nationalism, fill=nationalism, 
+             alpha=0.5)) +
+  theme_minimal() +
+  geom_density() +
+  geom_vline(xintercept = 2.309, 
+             linetype="longdash", alpha=0.5, color='red', size=2) + 
+  geom_vline(xintercept = 2.660, 
+             linetype="longdash", alpha=0.5, color='#00BFC4', size=2) + 
+  annotate("text", x = 1, y = 0.4, 
+           label = "no nationalism", color='red', alpha=1, size=9) +
+  annotate("text", x = 3.9, y = 0.4, 
+           label = "nationalism", color='#00BFC4', alpha=1, size=9) +
+  annotate("text", x=10, y=0.3,
+           label="t-test p=0.000", size=13) +
+  labs(x="log(number of agreements + 1)", y="density") +
+  theme(legend.position = "none") +
+  theme(axis.text=element_text(size=25),
+        axis.title=element_text(size=25)) 
+
+```
+
+
+---
+
+### OLS estimates
+
+```{r}
+
+
+library(MASS)
+library(kableExtra)
+library(modelsummary)
+
+
+  base_model <- lm(log(agree+1) ~ 
+         nationalismAll3, data=text_gamma3)
+  
+  second_model <-
+    lm(log(agree+1) ~ 
+         nationalismAll3 + tGamma1 + tGamma2 + tGamma3 + tGamma4 +
+         + tGamma5 + tGamma6 + tGamma7 + tGamma8 +  
+         as.factor(year) + as.factor(month) + as.factor(fe) + as.factor(category),
+       data=text_gamma3)
+
+  first_model <-
+    lm(log(agree+1) ~ 
+         nationalismAll + tGamma1 + tGamma2 + tGamma3 + tGamma4 +
+         + tGamma5 + tGamma6 + tGamma7 + tGamma8 + 
+         as.factor(year) + as.factor(month) + as.factor(fe) + as.factor(category),
+       data=text_gamma3)
+  
+  third_model2 <-
+     lm(log(agree+1) ~ 
+         nationalismAll*nationalismAll3 + 
+          tGamma1 + tGamma2 + tGamma3 + tGamma4 + 
+          tGamma5 + tGamma6 + tGamma7 + tGamma8 +  
+         as.factor(year) + as.factor(month) + as.factor(fe) + as.factor(category),
+       data=text_gamma3 %>% filter(nationalismAll3<5))
+  
+
+  fourth_model <-
+     lm(log(agree+1) ~ 
+         nationalismD1 + nationalismD2 + 
+          tGamma1 + tGamma2 + tGamma3 + tGamma4 +
+          tGamma5 + tGamma6 + tGamma7 + tGamma8 +  
+         as.factor(year) + as.factor(month) + as.factor(fe) + as.factor(category),
+       data=text_gamma3)
+  
+  nb <- glm.nb(agree ~ nationalismAll3 + 
+                   tGamma1 + tGamma2 + tGamma3 + tGamma4 + 
+                   tGamma5 + tGamma6 + tGamma7 + tGamma8,
+       data=text_gamma3)
+  # insignificant when FE applied  
+
+
+model_list <- list("Baseline" = base_model,
+            "Benchmark" = second_model,
+            "In title" = first_model, 
+            "Both IVs" = third_model2,
+            "Dummy IVs" = fourth_model,
+            "N.B." = nb)
+
+relabel <- c("nationalismAll3" = "nationalism in content",
+             "nationalismAll" = "nationalism in title",
+             "nationalismAll:nationalismAll3" = "title-contents interaction",
+             "nationalismD1" = "nationalism in content, Binary",
+             "nationalismD2" = "nationalism in title, Binary")
+
+table <- modelsummary(model_list,
+             escape = F,
+             coef_map = relabel,
+             coef_omit = "[^nationalismAll3 | nationalismAll |
+             nationalismD1 | nationalismD2 s| nationalismAll::nationalismAll3]",
+             gof_omit = "RMSE|AIC|BIC|Log|F|Adj",
+             stars = c('+' = 0.1, '*' = .05, '**' =.01, '***' = .001),
+             fmt = 3) 
+
+table
+
+```
+
+
+- .large[the results for control variables not reported to save space]
+---
+
+class: inverse
+background-color: black
+background-image: url(https://c.tenor.com/eoFYXTxxC00AAAAC/nap-having-a-rest.gif)
+background-position: right
+background-size: contain
+
+
+# .large[Conclusion and Challenges]
+
+--
+
+### Nationalism is a strong 'nudge' <br> for political participation.
+
+### Online petition is an important area <br> for studying citizens' .red[formal] political participation.
+
+--
+
+### Significantly large data: <br> improving computational power is essential.
+
+### Conditional effect: <br> when nationalism's effect become .yellow[even] stronger?
+
+---
+
+# Image Sources
+
+- https://thumbs.gfycat.com/GranularHollowHochstettersfrog-size_restricted.gif
+
+- https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSgj_4ySVjv0tlXKpKxHrc2jYutwR6fOqCmWw&usqp=CAU
+
+- https://image.ytn.co.kr/general/jpg/2018/0619/201806191120070570_img_3.jpg 
+
+- https://c.tenor.com/eoFYXTxxC00AAAAC/nap-having-a-rest.gif
+

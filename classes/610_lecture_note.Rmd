@@ -1,0 +1,113 @@
+---
+title: "610 Lecture Note"
+date: "`r Sys.Date()`"
+output: 
+  bookdown::html_document2: 
+    toc: false
+    fig_caption: yes
+    pandoc_args: ["--lua-filter=color.lua"] # for simple text coloring
+    citation_package: natbib 
+author: 'Byunghwan Son (bson3@gmu.edu)'
+fontsize: 12pt
+geometry: margin=1in
+link-citation: yes
+urlcolor: blue
+linkcolor: blue
+bibliography: /Users/bson3//Dropbox/latex/mybib2.bib
+bibliography-style: /Users/bson3//Dropbox/latex/apsa.bst 
+---
+
+```{cat, engine.opts = list(file = "color.lua")}
+Span = function(span)
+  color = span.attributes['color']
+  -- if no color attribute, return unchange
+  if color == nil then return span end
+  
+  -- tranform to <span style="color: red;"></span>
+  if FORMAT:match 'html' then
+    -- remove color attributes
+    span.attributes['color'] = nil
+    -- use style attribute instead
+    span.attributes['style'] = 'color: ' .. color .. ';'
+    -- return full span element
+    return span
+  elseif FORMAT:match 'latex' then
+    -- remove color attributes
+    span.attributes['color'] = nil
+    -- encapsulate in latex code
+    table.insert(
+      span.content, 1,
+      pandoc.RawInline('latex', '\\textcolor{'..color..'}{')
+    )
+    table.insert(
+      span.content,
+      pandoc.RawInline('latex', '}')
+    )
+    -- returns only span content
+    return span.content
+  else
+    -- for other format return unchanged
+    return span
+  end
+end
+```
+
+
+```{r setup, include=F}
+
+knitr::opts_chunk$set(warning = FALSE, message = FALSE, error=F, echo=F)
+
+```
+
+
+
+# Introduction, the [Concepts]{color='red'}
+
+- the slides: https://textvulture.github.io/GLOA610-intro2.html#1
+
+What do we do this week? We thrive to learn some of the basic, big-time underpinnings of economic globalization and development. We know, to a certain degree, what economic globalization is: '*increasing and intensifying connectedness between global economic actors.*' How does this affect development? Can countries tap into economic globalization for their development? How do they develop? We talk about some of the big stories about these questions.
+
+## Perspectives
+
+First we might want to talk about what people have been talking about. What are some dominant narratives about development in the post-war world? What did people though would work? In essence, the big picture is that the dominant approach swung between market-centric and state-centric positions. And those swings were heavily affected by the global economic circumstances at the time.
+
+The first is the modernization theory. The word 'theory' might be a bit misleading given that this is really a perspective or world view. We start from Max Weber, particularly his book the 'Protestant Ethic' [@Weber1930]. What made Europe wealthier than India or China? In particular, why were Sweden or the Netherlands richer than, say, Spain or Italy? Weber's answer is Protestantism. Now, a lot of people try to read into the religiosity here and the book does read like that to a certain degree, but that's not quite the story. The real point of the book is the discontinuity. 
+
+What discontinuity, you might ask. It is the discontinuity between the traditional and modern societies. Hence the word 'modernization theory.' Think about medieval Europe. Catholicism prevailed. The elites are in essence landlords and their fates are heavily affected by the catholic church as well as the royal court. It doesn't really matter too much some kind of productivity growth happens in your land, nor do you actually want to accumulate profits and invest the capital back into your land too much. Rather, in this traditional society, you want to be a devout Christian and/or loyal to the throne. Partaking in the Crusades is much more important than tracking down the yearly harvests of your lands. You would in fact not accumulate the capital too much because the church and the king will tax it away.
+
+In places a religious revolution occurred, this incentive structure for the elites was totally upended. The catholic church does not dictate your fate anymore. The king is also weakened. So if an up and coming elite has definitely stronger incentives than before to foster development of your land and accumulate the surplus. The economy grows in these modern societies. The places that remain 'traditional,' or 'catholic,' such a discontinuity came much later. So did the development. Throwing away the traditional social structure and bringing in the new one was the what the Protestant revolution did to some of the western European countries and that made an economic difference. 
+
+The modernization theory highlights this discontinuity. It does not, however, really show '[how]{color='green'}' the economy grows. It only suggests the changes in the underlying conditions. To be fair, the 'How' part is not that difficult to tease out in the early modern economy. I a very simple idea inspired by the Cobb-Douglas model, economic development can be explained by this short function:
+
+$$
+Output = L^\alpha + K^{1-\alpha},
+$$
+\noindent where L is labor and K is capital. $\alpha$ determines how resources can be distributed over these production factors. For instance, in a labor-intensive industry like a garment factory, \alpha becomes large. That means, with limited resources, less capital is secured (small $1-\alpha$). In a capital-intensive industry such as oil refinery business, the opposite is true. The 'how to growth' question than can be answered by making sure L and K are maximized in a way the output is maximized. If this happens in a massive way, national economic growth happens. The 'traditional society' that Max Weber was talking about can be characterized as lacking the incentive to this factor maximization. So development was hard to come by. The situation might be easier to imagine if we could think about the 17th century German factory situation. In a paper-mill, producing more paper definitely leads to growth. Now your production is not limited to the Church orders. The question is would you hire more assistants or more buckets for that?
+
+```{r, cache=F, fig.align='center'}
+
+knitr::include_graphics("https://www.historicgames.com/gamemakers/papermill.jpg")
+
+```
+
+Modernization theory itself did not really concern too much about the role of the government. But if we think about the period immediately after the end of the Second World War, the implication here is simple: strong government activism. And the goal is to ditch the traditional social structure or, perhaps, anything deemed 'old' and push forward with the policies that could maximize production factors such as education, public health, trade, and investment. And it had to happen fast particularly for the newly independent countries in the developing world. Who else but the government could take this job?
+
+In many places, strong government activism was emphasized. Old customs and traditions were thrown away in the name of modernization and reform. The post-war economic boom that lasted until the mid-1960s seemed to vindicate this approach. Although not everybody enjoyed a great deal of success, the mood was optimistic.
+
+Then came the late 1960s and early 70s where numerous economic problems broke loose in the developing world (See @UN2017 for details). Starting in the late 1960s, a slew of problems started showing up in the developing world. Debt crises were suddenly not too uncommon. But it was 1972 when the historically unprecedented level of economic turmoil really broke out. It started with the oil crisis and quickly put a large number of developing countries in a very vulnerable position as they were highly indebted to foreign financial institutions. The end of the gold standard in this period only exacerbated the already bad situation. We can talk about this in much more detail later in the semester.
+
+When serious problems emerged, a diagnosis ensued. Naturally, it was a critique of what was dominant in the previous era---strong government activism. After all the dust of post-war recovery was settled and the initial enthusiasm subsided, people found out that the national governments around the world had a lot of problems. Nepotism and corruption were common. Unstable political environments including violent political events such as coups often got in the way of economic development. So the 'large' government was identified as the primary culprit of the global economic woes.
+
+The remedy in this period---the 1970s and perhaps early 1980s---suggest to the problem then was naturally curtailing the 'overgrown' roles of the government. With particular attention to addressing corruption, inefficiency, and rent-seeking, the primary policy objective was to cut government spending. Privatization and deregulation followed later. The world, particularly the developing world where the problems were so severe that international economic organizations and western governments had to step in for 'rescue,' was effectively austerity. Government spending was slashed out and many aspects of developing economies were 'liberalized' from government control. The policy vehicle through which these policies were 'enforced' onto the otherwise reluctant developing countries was the structural adjustment programs (SAPs)---the conditions attached to the rescue packages offered to developing countries in deep trouble. And this was also when the SAPs earned the bad name.
+
+But not everybody bought into the idea of limiting government activism as a good solution for the developing world's problems.
+
+
+
+
+
+
+# References {-}
+
+
+

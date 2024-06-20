@@ -1,0 +1,374 @@
+---
+title: "Investment"
+author: "Byunghwan Son <br> George Mason University"
+date: " "
+#########################################
+linkcolor: red
+citecolor: blue
+urlcolor: blueß
+output: 
+  xaringan::moon_reader:
+    seal: false
+    nature:
+      ratio: '16:9'
+      highlightStyle: github
+  #    self-contained: TRUE
+  chakra: css/libs/remark-latest.min.js
+css: ["default", 
+      "css/footer.css", 
+      "css/color.css", 
+      default-fonts]
+lib_dir: css/libs
+beforeInit: "css/macros.js"
+# seal: false  
+#bibliography: /Users/bson3/Dropbox/latex/mybib2.bib
+#remotes::install_github('yihui/xaringan', upgrade = TRUE)
+---
+
+```{r setup, include=FALSE}
+#htmltools::tagList(rmarkdown::html_dependency_font_awesome())
+library(fontawesome)
+library(ggplot2)
+library(dplyr)
+knitr::opts_chunk$set(warning = FALSE, message = FALSE, error=F, echo=F)
+options(htmltools.preserve.raw = FALSE) # for fontawesome
+
+```
+
+
+class: left, middle
+background-image: url(https://cdn.howmuch.net/articles/fourtune-100-%281%29-ee33.jpg)
+background-size: contain
+background-position: right
+background-color: black
+
+# .Huge[.Blue[**GLOBAL <br>INVESTMENT** <br> (& MNCs)]] <br><br> .orange[.Large[**GLOA 610**]]
+
+---
+
+class: inverse, center, middle
+background-color: black
+background-image: url(https://github.com/textvulture/textvulture.github.io/blob/master/images/night_background8.jpg?raw=true)
+background-size: 100%
+
+# .Huge[**Foreign Direct Investment**]
+
+---
+
+class: inverse, center, middle
+background-color: black
+background-image: url(https://github.com/textvulture/textvulture.github.io/blob/master/images/night_background8.jpg?raw=true)
+background-size: 100%
+
+# .Huge[**Foreign .red[Direct] Investment**]
+
+---
+
+class: inverse, center, middle
+background-color: black
+background-image: url(https://github.com/textvulture/textvulture.github.io/blob/master/images/night_background8.jpg?raw=true)
+background-size: 100%
+
+# .Huge[**Foreign Direct .yellow[Investment]**]
+
+---
+
+background-image: url(https://media4.giphy.com/media/1xVdB3wFEiyOCHpk8X/200w.webp?cid=ecf05e477omvfdvturwl63gdr547db5b3jlcwaukl704tllg&rid=200w.webp&ct=g)
+background-size: contain
+
+---
+
+class: left
+background-image: url(https://cdn.dribbble.com/users/168137/screenshots/2929193/furge_anim_dr.gif)
+background-size: 60%
+background-position: right
+background-color: white
+
+# .bluey[.huge[**Multinational <br> Corporations**]]
+
+--
+
+# .Yellow[vertical] <br> .green[horizontal] <br> integrations
+
+---
+
+class: inverse, center, middle
+background-image: url(https://c.tenor.com/_iyOtowIrvkAAAAC/when-did-that-start-curious.gif)
+background-size: contain
+
+---
+
+# The origin (Frieden 1994): .red[colonization] vs. .blue[investment]?
+
+--
+
+.pull-left[
+# site-specificity .red[high]
+
+.center[
+```{r echo=FALSE, out.width='170%'}
+knitr::include_graphics('https://media1.giphy.com/media/9zyzB4cjMoDDXuqkiR/200.webp?cid=ecf05e471jkyxsydynlpk7uezb54f9b5a3gfpci9i4zbu5v5&rid=200.webp&ct=g')
+```
+]
+]
+
+--
+.pull-right[
+# site-specificity .blue[low]
+
+.center[
+```{r echo=FALSE, out.width='170%'}
+knitr::include_graphics('https://media0.giphy.com/media/10aADbYxnJlc9q/200.webp?cid=ecf05e47vpt0h3qqviwsuanpfubzyjqbu76fum0j2bjojbpg&rid=200.webp&ct=g')
+```
+]
+]
+
+---
+
+class: inverse, middle
+background-color: black
+background-image: url(https://github.com/textvulture/textvulture.github.io/blob/master/images/night_background6.jpg?raw=true)
+background-size: 100%
+
+# .Large[**Things to talk about:**]
+
+--
+
+# Does it .bluey[promote] development? How much?
+
+--
+
+# Are there .pink[bad] consequences? (human/labor rights?)
+
+---
+
+class: inverse, middle
+background-color: black
+
+# .large[`r fa("crown", fill="yellow")` Who are the <br top> hosts ?]
+
+# .large[`r fa("clock", fill="red")` Does it <br> change much?]
+
+# .large[`r fa("circle-exclamation", fill="green")` Does it <br> matter?]
+
+---
+
+class: inverse, middle
+
+background-color: black
+background-image: url(https://www.imf.org/wp-content/uploads/2021/12/COTW-FDI-update.gif)
+background-position: right
+background-size: contain
+
+# .large[`r fa("crown", fill="yellow")` Who are the <br top> hosts ?]
+
+# .large[`r fa("clock", fill="red")` Does it <br> change much?]
+
+# .large[`r fa("circle-exclamation", fill="green")` Does it <br> matter?]
+
+---
+
+class: inverse, middle
+background-color: black
+background-image: url(https://github.com/textvulture/textvulture.github.io/blob/master/images/ChinaFDI_FT2024.png?raw=true)
+background-position: right
+background-size: contain
+
+## - Oh, one .Blue[exception]
+
+--
+
+## - caveat: '.pink[foreign]' <br> investment
+
+--
+
+## - relevant to other <br>emerging markets
+
+---
+
+class: inverse, center, middle
+background-image: url(https://github.com/textvulture/textvulture.github.io/blob/master/images/forestBackground3.jpg?raw=true)
+
+# .Large[Whats's the overall picture like?]
+
+--
+
+# Any dramatic difference between .pink[developed] and .Green[developing] economies in terms of .Yellow[FDI in/out flows]?
+
+---
+
+# FDI .green[net] inflow, USD, in 100 million USD
+
+.center[
+
+```{r, cache=TRUE}
+
+library(tidyverse)
+library(WDI)
+
+
+var = c(#'FDI.out' = 'BM.KLT.DINV.CD.WD',
+        #'FDI.in' = 'BX.KLT.DINV.CD.WD',
+        'GDPpc' = 'NY.GDP.PCAP.KD',
+        'FDI.GDP' = 'BX.KLT.DINV.WD.GD.ZS',
+        'FDI' = 'BN.KLT.DINV.CD') # BX.KLT.DINV.CD.WD
+
+wdi <- WDI(indicator=var,
+           start=1980,
+           country = 'all',
+           end=2022,
+           extra=TRUE)
+
+#wdi %>%
+#  mutate(
+#    lnFDI.out = log(FDI.out, na.rm=T),
+#    lnFDI.in = log(FDI.in, na.rm=T)
+#  )
+
+wdi %>% 
+  drop_na(GDPpc) %>%
+  mutate(developed = 
+           case_when(GDPpc > 20000 ~ "developed",
+                     GDPpc < 20000 ~ "underdeveloped"
+                     )) -> wdi2
+
+```
+
+```{r, fig.width=18, fig.height=8, cache=TRUE}
+wdi2 %>% 
+#  mutate(lnFDI = log10(abs(FDI + 1))) %>%
+  filter(FDI !=0) %>%
+#  mutate(lnFDI = ifelse(FDI<0, lnFDI*(-1), lnFDI)) %>%
+  mutate(FDImil = FDI/100000000) %>%
+  ggplot(aes(year, FDImil, color=developed)) +
+  geom_point(alpha=0.1,size=2) +
+  geom_smooth(alpha=0.25, size=1) +
+  labs(x="Year",
+       y="Gross FDI(100 mil) net inflow") +
+  theme_minimal() +
+  theme(legend.title = element_blank()) +
+  scale_color_manual(values=c("red", "blue")) +
+  theme(legend.text = element_text(size=20),
+        axis.text=element_text(size=20),
+        axis.title=element_text(size=20))
+
+```
+]
+
+---
+
+# FDI, .Blue[per GDP] .tiny[(`r fa("signs-post")` how much of the .pink[national economy] does it account for?)]
+
+.center[
+
+```{r, fig.width=18, fig.height=8, cache=TRUE}
+wdi2 %>%
+  filter(FDI.GDP<150) %>%
+  ggplot(aes(year, FDI.GDP, color=developed)) +
+  geom_point(alpha=0.1,size=2) +
+  theme_minimal() +
+  geom_smooth(alpha=0.25, size=3) +
+  labs(x="Year",
+       y="FDI inflow, % GDP") +
+  theme(legend.title = element_blank()) +
+  scale_color_manual(values=c("red", "blue")) +
+  theme(legend.text = element_text(size=20),
+        axis.text=element_text(size=20),
+        axis.title=element_text(size=20))
+```
+]
+
+
+---
+class: inverse, bottom
+background-color: black
+background-image: url(https://64.media.tumblr.com/tumblr_m71o7giWON1rsmws3o1_r1_500.gifv)
+background-size: 115%
+
+# .Large[It ain't .red[no] magic wand, <br> though it definitely helps .yellow[a lot]. ]
+
+---
+
+class: inverse, center, middle
+background-color: black
+background-image: url(https://raw.githubusercontent.com/textvulture/textvulture.github.io/master/images/waveBackground.jpg)
+background-size: 100%
+
+# .Huge[**What attracts FDI?**]
+
+--
+
+# Büthe and Milner(2014)
+ 
+---
+
+class: inverse
+background-image: url(https://static01.nyt.com/images/2012/12/18/world/bangladesh/bangladesh-superJumbo.jpg)
+background-size: 100%
+
+# .large[The effects: .times[.red[**Race-To-The-Bottom**]]???]
+
+--
+
+# - Does FDI improve/exacerbate .bluey[labor/human rights] conditions?
+
+--
+
+
+
+  - .Large[.yellow[Blanton and Blanton (2007)]]
+
+--
+
+  - .Large[.yellow[Malesky and Mosley (2018)]]
+
+--
+
+  - .Large['California effect': norm transmission; human capital]
+
+--
+
+# - What about **.yellow[Chinese]** FDIs? (Yang 2023)
+
+  - .Large[.red[South]-.pink[South] .yellow[economic globalization???]]
+
+---
+
+class: inverse
+background-color: #1C1B1C
+background-image: url(https://ichef.bbci.co.uk/news/768/cpsprodpb/14110/production/_85829128_85829127.jpg)
+background-size: 100%
+
+# Other (negative) consequences?
+
+## .yellow[For example, wouldn't .pink[**MNCs**] incite strong backlash?]
+
+### .bluey[Christensen (2019)]
+
+--
+
+```{r, align='center', out.width="80%"}
+
+knitr::include_graphics("https://github.com/textvulture/textvulture.github.io/blob/master/images/Christensen.png?raw=true")
+
+```
+
+---
+
+class: inverse
+background-image: url(https://media1.tenor.com/m/Iln7c5f1SDYAAAAC/its-business-jack-donaghy.gif)
+background-size: contain
+background-color: black
+background-position: right
+
+
+# .large[**At the end of the day ...**]
+
+--
+
+## - positive/negative effects <br> can be understood in business <br>standpoint
+
+## - FDI: not inherently good or bad
+
+
+

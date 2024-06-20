@@ -1,0 +1,244 @@
+---
+title: ".green[Introduction] <br> GLOA 400"
+subtitle: "Orientalism"
+author: "Byunghwan Son <br> George Mason University"
+date: " "
+#########################################
+linkcolor: red
+citecolor: blue
+urlcolor: blueß
+output: 
+  xaringan::moon_reader:
+    seal: false
+    nature:
+      ratio: '16:9'
+      highlightStyle: github
+  #    self-contained: TRUE
+  chakra: css/libs/remark-latest.min.js
+css: ["default", 
+      "css/footer.css", 
+      "css/color.css", 
+      #          "xaringan-themer.css",
+      default-fonts]
+lib_dir: css/libs
+beforeInit: "css/macros.js"
+# seal: false  
+#bibliography: /Users/bson3/Dropbox/latex/mybib2.bib
+#remotes::install_github('yihui/xaringan', upgrade = TRUE)
+---
+
+```{r setup, include=FALSE}
+# to use FontAwesome
+htmltools::tagList(rmarkdown::html_dependency_font_awesome())
+library(fs)
+# library(magick)  
+
+```
+
+class: inverse, center, middle
+background-size: contain
+background-image: url(https://media.npr.org/assets/img/2018/09/19/pall-mall-page_wide-9060f56daa1a028babd34cb29b1a3e4cd0a870aa.jpg?s=1400)
+
+# .HUGE[.yellow[**Orientalism**] <br> **GLOA 400**] 
+
+---
+
+
+class: inverse, center, bottom
+background-size: contain
+background-image: url(https://media.npr.org/assets/img/2018/09/19/pall-mall-page_wide-9060f56daa1a028babd34cb29b1a3e4cd0a870aa.jpg?s=1400)
+
+# .yellow[what ... are we seeing here?]
+
+---
+
+class: inverse, middle
+background-color: black
+background-image: url(https://www.torch.ox.ac.uk/sites/default/files/styles/mt_image_medium/public/torch/images/article/orientalism_byzantine_image.png?itok=q4xqef7w)
+background-position: right
+
+# Why do we talk about this?
+
+## 'cause it's a bad thing?
+
+--
+
+## epistemological problems
+
+--
+
+## research design problem: selection bias 
+
+--
+
+## interpretation/framing issues: self-serving, cherry-picking
+
+---
+
+# Orientalism, the book(s)
+
+
+.pull-left[.center[![](images/cover2.jpg)]]
+
+--
+
+.pull-right[.center[
+```{r, echo=FALSE, out.width = '65%'}
+knitr::include_graphics('images/cover.jpg')
+```
+]]
+
+---
+
+class: inverse
+background-color:  #50394c
+
+# Orientalism, the idea (Edward Said)
+
+### What it is not:
+
+--
+
+.blockquote[
+## "Orientalism is .red[not] ... representative and expressive of some nefarious 'Western' imperialist plot to hold down the 'Oriental' world. It is rather a .red[distribution] of geopolitical awareness into a variety of texts. It is ... a .yellow[discourse] ... that is produced and exists in .green[an uneven exchange] with various kinds of .yellow[power]" (p. 12)]
+
+---
+
+class: inverse
+background-color: #b2ad7f
+
+# Orientalism, the idea (Edward Said)
+
+### what it is:
+
+.blockquote[
+## a style of thought based on ontological and epistemological .yellow[distinction] made between .yellow[the Orient] and ... .blue[the Occident]'' (p. 3)
+]
+
+### - Othernization of the Orient for the imagined superiority of Europe 
+--
+### - lingers on in post-colonial time: 
+
+###    - institutions; vocabulary; scholarship; imagery; doctrines; and colonial bureaucracy
+--
+
+### - .red[NOT] the same as: prejudice; racism; stereotyping; cultural appropriation; xenophobia or falsehood 
+
+---
+
+class: inverse
+background-color: #c94c4c
+
+# So orientalism in other words is:
+
+
+# - imagined, constructed and, .yellow[reproduced]
+
+--
+
+# - Orientalists tend re-discover the reality consistent with the imagined one.
+
+--
+
+# #Cognitive #Disorder
+
+---
+
+# Applications
+
+.pull-left[.center[
+![](https://c.tenor.com/IVuvo3MuWiYAAAAd/indiana-indiana-jones.gif)
+
+![](https://i.gifer.com/7Bm2.gif)
+
+]]
+
+--
+
+.pull-right[.center[
+```{r, echo=FALSE, out.width = '70%'}
+knitr::include_graphics('images/macron.jpg')
+```
+]]
+
+---
+
+class: inverse
+background-color: black
+
+# Orientalism, .yellow[from within]
+
+.center[
+```{r, echo=FALSE, out.width = '90%'}
+knitr::include_graphics('images/avenell.jpg')
+```
+]
+
+---
+
+class: inverse
+background-color: black
+
+# Orientalism, .yellow[from within]
+
+.pull-left[
+## - Othernization within Asia (and against other global South)
+
+## - re-construction of .green[perceived hierarchy]
+
+## - overhype; fetisization
+
+## - intellectual root: 'Datsu-A Ron' (Good-bye Asia)
+]
+
+--
+
+.pull-right[
+.center[![](http://st.cdjapan.co.jp/pictures/l/00/45/NEOBK-1860995.jpg)
+]
+]
+
+---
+
+# Example of cherry-picking and reconstruction (1)
+
+.center[
+```{r, echo=FALSE, out.width='80%'}
+knitr::include_graphics('https://github.com/textvulture/textvulture.github.io/blob/master/images/Banyan.JPG?raw=true')
+```
+]
+
+---
+
+# Example of cherry-picking and reconstruction (2)
+
+.center[
+```{r, echo=FALSE, out.width='60%'}
+knitr::include_graphics('https://github.com/textvulture/textvulture.github.io/blob/master/images/Banyan2.JPG?raw=true')
+```
+]
+
+--
+
+### - .green[assumption]: liberal government in Asia .red[<i class="fas fa-times"></i>]
+
+### - the defamation law
+
+### - no idea of the local media landscape
+
+---
+
+# Example of cherry-picking and reconstruction (3)
+
+.center[
+```{r, echo=FALSE, out.width='70%'}
+knitr::include_graphics('https://github.com/textvulture/textvulture.github.io/blob/master/images/kpopgov.JPG?raw=true')
+```
+]
+
+---
+
+class: inverse
+background-color: #d64161
+
+# .huge[When picking up your topic, ask yourself <br> if orientalism is at work. <br><br> Avoid major cringe <i class="far fa-grimace"></i>.]

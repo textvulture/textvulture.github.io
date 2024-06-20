@@ -1,0 +1,402 @@
+---
+title: "GLOA101"
+author: "Byunghwan Son <br> George Mason University"
+date: " "
+#########################################
+linkcolor: red
+citecolor: blue
+urlcolor: blueß
+output: 
+  xaringan::moon_reader:
+    seal: false
+    nature:
+      beforeInit: "https://platform.twitter.com/widgets.js"
+      ratio: '16:9'
+      highlightStyle: github
+  #    self-contained: TRUE
+  chakra: css/libs/remark-latest.min.js
+css: ["default", 
+      "css/footer.css", 
+      "css/color.css", 
+      # "css/xaringan-themer.css",
+      default-fonts]
+lib_dir: css/libs
+beforeInit: "css/macros.js"
+# seal: false  
+#bibliography: /Users/bson3/Dropbox/latex/mybib2.bib
+#remotes::install_github('yihui/xaringan', upgrade = TRUE)
+---
+
+```{r setup, include=FALSE}
+# to use FontAwesome
+#htmltools::tagList(rmarkdown::html_dependency_font_awesome())
+library(dplyr)
+library(tidyr)
+library(fs)
+library(fontawesome)
+# library(magick)  
+library(ggplot2)
+knitr::opts_chunk$set(warning = FALSE, message = FALSE, error=F, echo=F)
+options(htmltools.preserve.raw = FALSE)
+```
+
+class: right, middle
+background-image: url(https://github.com/textvulture/textvulture.github.io/blob/master/images/background_White.jpg?raw=true)
+background-size: 100%
+
+# .LARGE[What is Globalization? <br> .Green[An Introduction]]
+# GLOA 101
+
+---
+
+class: inverse, middle
+background-color: black
+
+## When people are asked <br>to come up with an image of <br> .orange[globalization],
+
+---
+
+class: inverse, middle
+background-color: black
+background-image: \url(https://media.giphy.com/media/QaMhVZVwOvDiw/giphy.gif)
+background-position: right
+
+## When people are asked <br>to come up with an image of <br> .orange[globalization],
+
+## it's usually something like this:
+
+--
+
+## And that's .pink[not] really wrong.
+
+---
+
+background-image: \url(https://github.com/textvulture/textvulture.github.io/blob/master/images/background_White2.jpg?raw=true)
+background-size: 100%
+
+# What we will be talking about: 
+
+--
+
+### - what people say globalization is 
+
+--
+
+### - how globalization came around (the history)
+
+--
+
+### - how the stories differ depending on the concept
+
+--
+
+## .red[By the end of this module], you will have understood:
+
+--
+
+### - the academic discussions on globalization
+
+### - why we .red[need to discuss] globalization
+
+---
+
+class: inverse, center, middle
+background-image: url(https://github.com/textvulture/textvulture.github.io/blob/master/images/night_background8.jpg?raw=true)
+background-size: 100%
+
+# .LARGE[.bluey[**What is globalization?**]]
+
+--
+
+# The answer used to be pretty straightforward.
+
+---
+
+# If you took this class .red[20 years ago], <br>globalization would be something like:
+
+--
+
+.pull-left[
+
+.center[![](https://upload.wikimedia.org/wikipedia/en/c/c0/The_Lexus_And_The_Olive_Tree_first_edition_cover.jpg)]
+
+- .large[.pink[inevitable] economic and technological progress?] 
+
+]
+
+--
+
+.pull-right[
+
+```{r, fig.align='center', out.width="200px"}
+knitr::include_graphics("https://m.media-amazon.com/images/I/91Ekt0wKnnL._AC_UF1000,1000_QL80_.jpg")
+```
+
+- .large[Americanization/Westernization and backlash?] 
+
+] 
+
+---
+
+background-image: url(https://images.theconversation.com/files/494039/original/file-20221108-22-n1oqpx.jpg?ixlib=rb-4.1.0&q=45&auto=format&w=1000&fit=clip)
+background-size: contain
+background-position: right
+class: middle
+
+# `r fa('hand-point-right', fill='green')` So the has 'end of history' emerged?
+
+--
+
+## Do we live in a world <br> irreversibly marching toward <br>.Green[liberal democracy] and .pink[market economy]?
+
+--
+
+## If we did, then that's it. <br>We wouldn't need to talk about globalization.
+
+---
+
+class: inverse, center, middle
+background-image: url(https://github.com/textvulture/textvulture.github.io/blob/master/images/waveBackground3.jpg?raw=true)
+background-size: 100%
+
+# .large[Unfortunately, the end of history did .pink[not ]arrive.]
+
+--
+
+# .Huge[Instead, things just got a bit .yellow[complicated.]]
+
+---
+
+class: inverse
+background-image: url(https://www.ft.com/__origami/service/image/v2/images/raw/https%3A%2F%2Fwww.ft.com%2F__origami%2Fservice%2Fimage%2Fv2%2Fimages%2Fraw%2Fhttp%253A%252F%252Fcom.ft.imagepublish.upp-prod-eu.s3.amazonaws.com%252F7ec13b0a-acd6-11e6-ba7d-76378e4fef24%3Fsource%3Dnext-article%26fit%3Dscale-down%26quality%3Dhighest%26width%3D700%26dpr%3D1?source=next-opengraph&fit=scale-down&width=900&overlay=https://www.ft.com/__assets/creatives/x/ft-overlay.png&overlay_height=0.15&overlay_y=30&overlay_gravity=south_east)
+background-size: 100%
+
+
+
+# **Backlash did emerge, but .red[not] against the West.**
+
+---
+
+class: inverse
+background-image: url(https://bpr.studentorg.berkeley.edu/wp-content/uploads/2022/11/FT_18.06.19_westernEuropeMinorities_featured.webp)
+background-size: 100%
+
+# **Backlash did emerge, but .red[not] against the West.**
+
+# **.yellow[.pink[Anti]-immigration; .pink[Anti]-integration]; .bluey[populism]**
+
+---
+
+class: inverse
+background-image: url(https://github.com/textvulture/textvulture.github.io/blob/master/images/background_leftEmpty3.jpeg?raw=true)
+background-size: 100%
+
+# So let's think about it:
+
+# - All the backlash because people are angry?
+
+--
+
+# - Because globalization made .Green[poor] people .green[poorer], <br> .pink[rich] people .red[richer]?
+
+--
+
+# - All the inequalities & environmental problems?
+
+
+---
+
+## But is that .pink[really] so? <br> For example, .Green[Global Poverty Rates].
+
+
+```{r, message=FALSE, echo=FALSE, warning=FALSE, results="asis", fig.width=16, fig.height=7.5, cache=T}
+
+library(WDI)
+
+ggplot(data=wdi %>%
+       filter(year>1989) %>%
+         filter(region != "NA"), 
+       aes(x=year, y=Poverty, color=region)
+       ) +
+#  geom_smooth(aes(alpha=0.1), size=3, se=F) +
+  stat_smooth(geom='line', size=4, alpha=0.65, se=FALSE) +
+  theme_minimal() +
+  labs(x = "Year",
+       y = "Population % Under Poverty") +
+  theme(legend.title = element_blank()) +
+  theme(legend.text = element_text(size=20),
+        axis.text=element_text(size=15),
+        axis.title=element_text(size=15)) 
+
+
+```
+
+---
+
+class: inverse
+background-image: url(https://github.com/textvulture/textvulture.github.io/blob/master/images/night_background4.jpg?raw=true)
+background-size: 100%
+
+# Perhaps, we need a more .orange[analytically]-oriented definition of globalization that is .red[not] built on .Green[ideological] predispositions or .yellow[short-sighted] historical impressions.
+
+--
+<br>
+<br>
+# .huge[So again, **what is globalization?**]
+
+---
+# Globalization, the concept
+
+.blockquote[### Brown & Smallman (2020, 25) [Steger 2003]:
+
+.black[.large[".orange[multidimensional] set of social .red[processes] that create, multiply, stretch, and intensify worldwide social .green[interdependencies and exchanges] while at the same time fostering in people a growing awareness of deepening connections between the local and the distant."]]] 
+
+--
+
+<br>
+.blockquote[### GLOA101 definition:
+
+- .Blue[.large[A process where connectivity among global actors increases, accelerates, and deepens.]]
+- .black[.large[a structure and network (interconnectedness)]]
+- .black[.large[may or may .pink[not] benefit certain people(s)]]
+- .black[.large[at times accelerates or slows down]]
+
+]
+
+---
+
+# The GLOA 101 is really compromising view. For example:
+
+--
+
+.pull-left[
+
+## Hyperglobalizers `r fa("face-grin-stars", fill='orange')`
+
+1. .Large[Globalization started in the .Blue[1980s].]
+2. .Large[A movement toward prosperity and unification that is .pink[not reversible] or avoidable.]
+3. .Large[The '.orange[end of history]' view.]
+
+]
+
+--
+
+.pull-right[
+
+## Globalization Skeptics `r fa("face-grin-tongue-wink", fill='blue')`
+
+1. .Large[Globalization is as .Blue[old] as the human history.]
+2. .Large[Just one of the human movements, .pink[changing directions] all the time.]
+3. .Large[The '.orange[anthropocene]' view.]
+
+]
+
+--
+
+.blockquote[".large[increasing, accelerating, and deepening connectivity among global actors"]]
+
+---
+
+background-image: url(https://static.financialsense.com/historical/users/u131/images/2012/evolution-earth-economic-center-gravity-ad-1-to-2025.jpg)
+background-position: right
+background-size: contain
+
+## Putting it in a .red[historical] context.
+
+--
+
+### '.pink[economic center of gravity]': <br>just a geometric center <br> considering large economies <br> around the world 
+
+---
+
+## Another way to think about it: 'social development index' (Morris 2013)
+
+.center[
+![110%](https://media-1.carnegiecouncil.org/cceia/import/resources/images/IanMorris-Graph9.jpg)
+]
+
+---
+
+# The basic architect of .blue[modern] globalization: Bretton Woods 
+
+- .Large[What happened right before WWII?]
+<br>
+
+--
+
+.pull-left[
+.pull-left[![](https://c.tenor.com/R1RcnFR9EXQAAAAC/broke-fairlyoddparents.gif) 
+# .red[currency war]
+]
+
+
+.pull-right[![](https://c.tenor.com/asi_jQogc3IAAAAC/family-guy-peter-griffin.gif)
+# .green[protectionism] 
+]
+]
+
+
+.pull-right[
+.pull-left[![](https://media.tenor.com/EcVflt3ciWQAAAAC/broke-poor.gif)
+<br><br><br><br>
+# .blue[.center[poverty]]
+
+]
+]
+
+--
+
+### 'to prevent another war, these things need to be taken care of!'
+
+---
+
+# The basic architect of .blue[modern] globalization: Bretton Woods 
+
+- .Large[What happened right before WWII?]
+<br>
+
+
+.pull-left[
+.pull-left[![](https://c.tenor.com/R1RcnFR9EXQAAAAC/broke-fairlyoddparents.gif) 
+# .red[currency war]
+# .center[IMF]]
+
+
+.pull-right[![](https://c.tenor.com/asi_jQogc3IAAAAC/family-guy-peter-griffin.gif)
+# .green[protectionism] 
+# .center[WTO(GATT)]]
+]
+
+
+.pull-right[
+.pull-left[![](https://media.tenor.com/EcVflt3ciWQAAAAC/broke-poor.gif)
+<br><br><br><br>
+# .blue[.center[poverty]]
+# .center[World Bank]
+]
+]
+
+### 'to prevent another war, these things need to be taken care of!'
+
+---
+
+class: inverse
+background-image: url(https://github.com/textvulture/textvulture.github.io/blob/master/images/blackboardBackground.jpg?raw=true)
+background-size: 100%
+
+# .Large[So what is globalization, again?]
+
+--
+
+# : **Increasing, accelerating, and deepening connectivity among global actors** 
+
+--
+
+# We will be exploring these processes in four diffrent realms
+
+--
+
+- .LARGE[economic `r fa('money-bill', fill='green')`]
+- .LARGE[political `r fa('flag', fill='red')`]
+- .LARGE[security `r fa('rocket', fill='yellow')`]
+- .LARGE[health/environment `r fa('head-side-mask', fill='orange')`]
