@@ -21,6 +21,15 @@
 @import url(https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz);
 @import url(https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic);
  
+.custom-navbar {
+        background-color: #0B5D07; /* Replace with your desired color */
+        border-bottom: none;
+    }
+
+    .custom-navbar .navbar-nav > li > a {
+            color: white; /* Change link color to white for better visibility */
+            }
+
 body { font-family: Roboto,sans-serif;
   background-image: #d9eedd;
  }
@@ -106,132 +115,64 @@ h2 {
   }
 
 </style>
-
-<script>
-  function copyTextToClipboard(text) {
-    var textArea = document.createElement("textarea");
-    textArea.value = text;
-    document.body.appendChild(textArea);
-    textArea.select();
-    document.execCommand("copy");
-    document.body.removeChild(textArea);
-    alert("Text copied to clipboard: " + text);
-  }
-  </script>
-
 </head>
 
 <body>
 
-<!-- Navigation -->
-	<nav class="navbar navbar-inverse navbar-static-top" role="navigation">
-	  <div class="container">
-		<div class="navbar-header">
-		  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-						<span class="sr-only">Toggle navigation</span>
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-					</button>
-		</div>
-
-		<!-- Collect the nav links, forms, and other content for toggling -->
-		<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-		  <ul class="nav navbar-nav">
-				  <li><a href="index.html"><b><h4>Home</h4></b></a></li>
-				  <li><a href="https://textvulture.github.io/mypage/research.html"><b><h4>Research</h4></b></a></li> 
-				  <li><a href="https://textvulture.github.io/mypage/CV.pdf"><b><h4>CV</h4></b></a></li> 
-          <li><a href="https://textvulture.github.io/mypage/teaching.html"><b><h4>Teaching</h4></b></a></li> 
-          <li><a href="https://textvulture.github.io/blog"><b><h4>Current Event Blog</h4></b></a></li> 
-        </ul>
-		</div>
-	  </div>
-	</nav>
-  
-  <!-- Page Content -->
+<nav class="navbar navbar-inverse navbar-static-top custom-navbar" role="navigation">
     <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                      <span class="sr-only">Toggle navigation</span>
+                      <span class="icon-bar"></span>
+                      <span class="icon-bar"></span>
+                      <span class="icon-bar"></span>
+                  </button>
+      </div>
 
-        <div class="row">
-
-            <!-- Entries Column -->
-            <div class="col-md-8" style="height: 100vh;">
-                <div style="font-family: 'Oswald', sans-serif; font-size: 32px;">
-                <b>Byunghwan 'Ben' Son (손병환) <i class="fas fa-glasses" style="color: rgb(231, 138, 17);"></i> </b>
-                </div>
-                
-               <br><br>
-            
-            <div class="image">
-              <div class="circular-image">
-                <img src="/mypage/portrait_2022_circle.png" alt="Ben's photo" width="150">
-                <br><br> 
-              </div>
-            </div>
-           
-        
-            <div class="oneandtwo"><h4>I am an associate professor in the <i class="fa-solid fa-building-columns" style="color: #0D7C31"></i><a href="https://globalaffairs.gmu.edu/" target="_blank"> Global Affairs Program</a> at <i class="fa-solid fa-building-columns" style="color: #15BF4C"></i><a href="https://www.gmu.edu/" target="_blank"> George Mason University</a> (Fairfax, VA). 
-                  I also serve as a director for the <a href="https://globalaffairs.gmu.edu/programs/la-minor-la-apns"><i class="fas fa-dungeon" style="color: #e6d0a5;"></i> Asia-Pacific and Northeast Asian Studies</a> ('Asia-Pac') minor 
-                  and an associate director for the <a href="https://koreanstudiescenter.gmu.edu/"> <i class="fas fa-users" style="color: #991559;"></i> Korean Studies Center</a>. I love coffee <i class="fas fa-coffee" style="color: #4309f1;"></i> and probably drink too much of it everyday.
-                  <br>
-                  <br>
-                   Here's my <a href="https://textvulture.github.io/mypage/CV.pdf" target="_blank"><strong><b style="color: #095D24;">CV </b></strong><i class="fa-regular fa-file-pdf"></i></a>.
-                  </h4>
-            </div>
-                <br>
-                <br>
-                <br>
-                <br>
-                <br>
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav">
+                <li><a href="index.html"><b><h4>Home</h4></b></a></li>
+                <li><a href="https://textvulture.github.io/mypage/research.html"><b><h4>Research</h4></b></a></li> 
+                <li><a href="https://textvulture.github.io/mypage/CV.pdf"><b><h4>CV</h4></b></a></li> 
+        <li><a href="https://textvulture.github.io/mypage/teaching.html"><b><h4>Teaching</h4></b></a></li> 
+        <li><a href="https://textvulture.github.io/blog"><b><h4>Current Event Blog</h4></b></a></li> 
+      </ul>
+      </div>
+    </div>
+  </nav>
 
 
-                 <p><h4> Things I am interested in studying <i class="fa-solid fa-flask" style="color: rgb(118, 43, 193);"></i> and teaching <i class="fa-solid fa-chalkboard-user" style="color: rgb(158, 7, 7);"></i> include:
-                  <br><br>
-                  <ul><div class="oneandtwo">
-                    <li>political economy (financial market; income inequality)</li>
-                    <li>democratization & democratic backsliding</li>
-                    <li>political communication</li>
-                    <li>politics in Asia (Korea and beyond)</li>
-                    <li>quantitative methods</li>
-                    <li>positivist approaches to fandom study (K-pop)</li>                  
-                  </div></ul>
-                </h4>
-                </p>
+  <table style="width:100%; height:60vh; border:0;">
+    <tr>
+        <td style="text-align:center; vertical-align:middle;">
+            <img src="portraigt_2022_circle.png" alt="Centered Image" width="320" height="400">
+        </td>
+    </tr>
+</table>
 
-
-            </div> 
+<div align="center">
+    <h1><b>Byunghwan 'Ben' Son</b></h1>
+    
+<h2>
+    <a href="mailto:bson3@gmu.edu" target="_blank"><i class="far fa-envelope" style="color: #4309f1;"></i></a>
  
-
-            <!-- Contact Info on the Sidebar -->
-            <div class="col-md-4">
-            <br>
-             <br>
-             <br>
-             <br>
-
-            <div class="oneandhalf">
-            
-              <i class="far fa-envelope" style="color: #4309f1;"></i> <a href="mailto:bson3@gmu.edu" target="_blank">bson3 [at] gmu.edu</a><br>
-              <i class="far fa-envelope" style="color: #992555;"></i> <a href="mailto:kalkas@gmail.com" target="_blank">kalkas [at] gmail.com</a>
-              <br>
-              <i class="fa-solid fa-house-chimney" style="color: orange;"></i><a href="https://textvulture.github.io/" target="_blank"> textvulture.github.io</a>
-              <br>
-              <i class="fa-brands fa-google-scholar" style="color: #220128"></i><a href="https://scholar.google.com/citations?user=h0o27GgAAAAJ&hl=en"> Google Scholar</a>
-              <br>
-              <i class="fa-solid fa-building-columns" style="color: #0E6E05"></i> <a href="https://globalaffairs.gmu.edu/people/bson3">GMU Profile</a>
-              <br>
-              <i class="fa-brands fa-github" style="color: #290D8B"></i> <a href="https://github.com/textvulture/">GitHub</a><br>
-              
-            
-          </div>
-
-              <span style="color: #382110"></span><a href="https://www.goodreads.com/review/list/23380132?shelf=read" title="Byunghwan &quot;Ben&quot; Son's book recommendations, liked quotes, book clubs, book lists (read shelf)", rel="nofollow" target="_blank"><img border="0" alt="Byunghwan &quot;Ben&quot; Son's book recommendations, liked quotes, book clubs, book lists (read shelf)" src="https://s.gr-assets.com/images/badge/badge1.jpg"></a><br><br>              
-
-              <a class="twitter-timeline" data-width="275" data-height="450" data-theme="dark" href="https://twitter.com/Byunghwan_Son?ref_src=twsrc%5Etfw">Tweets by Byunghwan_Son</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+    <a href="mailto:kalkas@gmail.com" target="_blank"><i class="far fa-envelope" style="color: #992555;"></i> </a>
 <br>
+    <a href="https://scholar.google.com/citations?user=h0o27GgAAAAJ&hl=en"> <i class="fa-solid fa-graduation-cap" style="color: #220128"></i></a>
 
-            </div>
-   
-   
+    <a href="https://twitter.com/Byunghwan_Son"> <i class="fa-brands fa-twitter" style="color: #3365F5"></i></a>
+
+    <a href="https://github.com/textvulture/"> <i class="fa-brands fa-github" style="color: #290D8B"></i></a>
+
+    <a href="https://globalaffairs.gmu.edu/people/bson3"><i class="fa-solid fa-building-columns" style="color: #0E6E05"></i></a>
+
+    <a href="https://textvulture.github.io/" target="_blank"><i class="fa-solid fa-house-chimney" style="color: orange;"></i></a>
+
+</h2>
+</div>
+
+
 </body>
-
 </html>
