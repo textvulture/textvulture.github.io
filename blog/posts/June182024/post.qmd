@@ -1,0 +1,25 @@
+---
+title: "French Election & Market; Disinformation in Austria; Migrants in the US"
+author: Ben
+date: 06-18-2024
+categories:
+  - ECB
+  - France
+  - election
+  - disinformation
+---
+
+# French Election, not the time to panic?
+
+[“ECB chief economist plays down need to intervene in French bond market”](https://www.ft.com/content/dba1a2bd-7fd5-4c0c-ab2a-56bcd2ac3f43)
+
+- ECB says it won’t buy French bonds “after the announcement of a snap French parliamentary election caused a sell-off in the country’s debt.”
+
+- But the French budget situation has been less-than-ideal recently.
+
+<iframe src="https://data.worldbank.org/share/widget?end=2021&amp;indicators=GC.DOD.TOTL.GD.ZS&amp;locations=FR-ES&amp;start=1992" width="450" height="300" frameborder="0" scrolling="no" align="center">
+</iframe>
+
+- ECB granted itself the power to buy unlimited amount of a Eurozone country’s bods in 2022, but this has not been activated.
+
+- “France’s finance minister Bruno Le Maire warned last week that a victory by the RN could lead to a “debt crisis” similar to the market chaos fuelled by former UK prime minister Liz Truss’s mini-budget in 2022.”
