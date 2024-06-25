@@ -7,9 +7,6 @@ listing:
   categories: true
   sort-ui: false
   filter-ui: false
-packages:
-  - 'iconify-icon/icon'
-  - 'iconify-icon/*'
 page-layout: full
 title-block-banner: true
 author: 

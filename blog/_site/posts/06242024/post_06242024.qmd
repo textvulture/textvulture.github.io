@@ -1,0 +1,50 @@
+---
+title: "Tory's disaster; workers in Chinese tech companies; Doctors feud over Gaza"
+categories:
+  - news
+  - UK
+  - election
+  - China
+  - tech
+  - Gaza
+author: Ben
+date: 06-24-2024
+---
+
+# The collapse of public support for the Tories
+
+["How Support for Britain’s Conservative Party is Collapsing"](https://www.nytimes.com/interactive/2024/06/24/world/europe/uk-conservatives.html)
+
+!["voter moves"](NYT06242024.png){width="60%"}
+
+- Fewer than half of the former Tory voters are sticking with the party in the upcoming election. BREXIT, once a salient issue, is not as important any more. The economy (Liz Truss), health (longer waiting time for 'elected care'), and immigration (consistently increased under the conservative rule) are more important than before.
+
+- Labor is not in an overwhelmingly better position as they are forecast to lose some young voters (allegedly due to the their center-turn). Labor needs a comprehensive and substantial victory to win back the power. Their numbers hadn't been quite there until recently, but they are improving now.
+	
+	- *This nuanced point might be a bit too nuanced. The polls actually predict a complete wipeout of the Tories and an unprecedented victory for the Labor.* For example: [](https://www.ft.com/content/4c7594b9-22f3-4a31-8168-4b2622e2d685) 
+
+- "One key test for Labour will be whether it can win back postindustrial heartlands in the Midlands and north of England, traditionally known as the “red wall.”"
+
+- The Reform Party led by Farage could be a threat to the Conservative: "Unlike the Liberal Democrats, Reform’s voter base is spread thinly across the country, and, while that makes it difficult to win seats, it could split the right-wing vote across the country and cause the Conservatives to lose more seats to Labour."
+
+# Chinese tech companies squeeze their workers for extended hours as their growth slows down
+
+["‘We’re like gears grinding until they break’: Chinese tech companies push staff to the limit"](https://www.ft.com/content/c94d046c-570a-4222-bfc5-463fdcfc66c2)
+
+- The working conditions for the Chinese tech workers were traditionally bad. "But the unremitting schedule has improved in recent years under President Xi Jinping’s “common prosperity” campaign, which aims to reduce income inequality and promote fairness." But as the growth of the sector slows down, they are going back to the "leaner and meaner start-up days."
+
+- "To boost their own efficiency, industry pillars Alibaba and Tencent have shed tens of thousands of staff since 2021." The older workers are particularly in peril as their job market prospects are not great and the chances of redundancy high. Companies are searching for 'young and unmarried' workers.
+
+- The tech sector is considered the most coveted one among young Chinese, nonetheless because of its high pay.
+
+- There are some movements against the '996' (9-to-9 for 6 days). "In 2021, with President Xi cracking down on personalities such as Ma, China’s supreme court declared the 996 schedule illegal. The victory did not come without costs. Authorities detained three labour activists involved in the campaign and sentenced them to prison terms of two to five years."
+
+
+# In UCSF, doctors feud over Gaza given the 'do no harm' principle.
+
+["In San Francisco, Doctors Feud Over ‘Do No Harm’ When It Comes to War Protests"](https://www.nytimes.com/2024/06/24/us/israel-hamas-war-sf-doctors.html)
+
+- “People are coming here for chemotherapy. They have dire illnesses,” Dr. Terdiman said. “When that chant goes up and is heard in the patient care rooms, which it clearly was, it’s a violation of our professional obligations as health care providers.”
+
+- "U.C.S.F. has a dress code prohibiting political symbols in patient care settings, but Dr. Ghannam said staff members for years have worn pins supporting abortion rights, Black Lives Matter and the L.G.B.T.Q. community without repercussions."
+
