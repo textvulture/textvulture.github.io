@@ -1,7 +1,6 @@
 ---
 title: "Tory's disaster; workers in Chinese tech companies; Doctors feud over Gaza"
 categories:
-  - news
   - UK
   - election
   - China
