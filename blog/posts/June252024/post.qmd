@@ -1,0 +1,7 @@
+---
+title: "Untitled"
+author: Ben
+date: 06-25-2024
+categories:
+  - election
+---
