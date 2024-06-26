@@ -1,5 +1,5 @@
 ---
-title: "Mines and Taliban; The Squad in Democratic Primaries; New NATO caretaker"
+title: "Mines and Taliban; The Squad in Democratic Primaries; New NATO caretaker; soverign debt"
 author: Ben
 date: 06-26-2024
 categories:
@@ -7,6 +7,7 @@ categories:
   - election
   - US
   - NATO
+  - finance
 ---
 
 # Taliban took over Afghanistan’s mines
@@ -51,3 +52,16 @@ categories:
 
 - "Under Mr. Rutte, the Netherlands has increased military spending to more than the 2 percent of gross domestic product demanded of NATO members, and it has provided F-16 fighter jets, artillery, drones and ammunition to Kyiv while investing more in its own military."
 
+# Sovereign debt restructuring is getting better
+
+["Sovereign Debt Restructuring Process Is Improving Amid Cooperation and Reform"](https://content.govdelivery.com/accounts/USIMF/bulletins/3a50c04)
+
+![](https://content.govdelivery.com/attachments/fancy_images/USIMF/2024/06/9722294/spr-blog-newsletter-size_original.png){width=75%}
+
+- The Common Framework "started to deliver."
+  
+  - made possible partly because "because stakeholders have developed more experience working together, including with non-traditional official creditors like China, India, and Saudi Arabia."
+  
+- outside CF, the pace is getting faster too.
+
+- "The IMF, World Bank and the Presidency of the Group of Twenty introduced the Global Sovereign Debt Roundtable (GSDR) early last year to help overcome various disagreements on technical issues. Discussions among creditors and debtors have made progress on several key aspects, including comparability of treatment among creditors, defining what debts are included in the restructuring, information sharing, and processes and timelines."
