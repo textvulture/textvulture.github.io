@@ -1,0 +1,11 @@
+---
+title: "The summer hiatus is coming to an end"
+author: Ben
+date: 07-07-2024
+categories:
+  - admin
+---
+
+![](beach.jpg){width=75%}
+
+Ocean City (MD) was fun.
