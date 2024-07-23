@@ -3,27 +3,29 @@ title: "IT Shutdown; Chinese need for stimulus"
 author: "Ben"
 categories:
   - tech
+date: 07-19-2024
 ---
 
 # Global MS Shutdown
+
 ["What caused the huge global IT outage?"](https://www.ft.com/content/f64383d2-89c7-459a-afce-5c659473050f)
 
-- "The IT failure has affected airlines, banks and broadcasters from the US and Europe to Australia, Japan and India."
+-   "The IT failure has affected airlines, banks and broadcasters from the US and Europe to Australia, Japan and India."
 
-  - Connections between computer networks and remote devices were affected, particularly those running on Windows. "Customers of Microsoft’s Azure cloud computing platform, much of which runs on Windows, have also reported problems."
+    -   Connections between computer networks and remote devices were affected, particularly those running on Windows. "Customers of Microsoft’s Azure cloud computing platform, much of which runs on Windows, have also reported problems."
 
-- "Minor update sparks havoc among businesses that use equipment running Windows."
+-   "Minor update sparks havoc among businesses that use equipment running Windows."
 
-  - "Microsoft has blamed a flawed update from CrowdStrike, a security software vendor." Not a cyber attack.
-  
-  - "CrowdStrike is well known for investigating Russian hackers. It helped to investigate the cyber attacks on the US Democratic National Committee in 2015-16 and its connection to Russian intelligence services. The same Russian group then attempted unsuccessfully to hack into CrowdStrike in 2020."
+    -   "Microsoft has blamed a flawed update from CrowdStrike, a security software vendor." Not a cyber attack.
+
+    -   "CrowdStrike is well known for investigating Russian hackers. It helped to investigate the cyber attacks on the US Democratic National Committee in 2015-16 and its connection to Russian intelligence services. The same Russian group then attempted unsuccessfully to hack into CrowdStrike in 2020."
 
 # Chinese need for stimulus for the slowing economy
 
 ["Chinese official calls for ‘proactive’ stimulus to distribute growth across economy"](https://www.ft.com/content/7213a24e-e4d7-4e41-ad2d-849ee3eea5c1)
 
-- "“proactive” stimulus measures" are needed "to distribute growth more evenly among regions and industries, according to a senior Communist party official" while prefacing that the economy is moving "in the right direction." The recovery is "not strong enough" and the gap is widening between regions, this official said at the media briefing of the party's third plenum. 
+-   "“proactive” stimulus measures" are needed "to distribute growth more evenly among regions and industries, according to a senior Communist party official" while prefacing that the economy is moving "in the right direction." The recovery is "not strong enough" and the gap is widening between regions, this official said at the media briefing of the party's third plenum.
 
-  - *is 'proactive' a secret word to mask the desperate situation of the economy that is not growing anymore?*
-  
-- Even if a big change is pending, the full plan has not been released yet.
+    -   *is 'proactive' a secret word to mask the desperate situation of the economy that is not growing anymore?*
+
+-   Even if a big change is pending, the full plan has not been released yet.
