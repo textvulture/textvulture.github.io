@@ -1,0 +1,48 @@
+---
+title: "Anti-tourism in Europe"
+name: Ben
+date: 07-23-2024
+categories:
+  - Europe
+  - India
+  - finance
+  
+---
+
+# Anti-Tourism in (Southern) Europe
+["The cost of Europe’s backlash against tourists"](https://www.ft.com/content/de15a5a3-941d-4da0-b928-3da70b6e31ac)
+
+- "European countries hosted 709mn international visitors last year, with rising numbers coming from North America but the vast majority travelling within Europe."
+
+  - Spain's "tourist promotion agency predicts that visitor numbers from June to September will be up 13 per cent from a year ago."
+
+  - The growth in the number of tourists has been so dramatic that the locals have "snapped."
+  
+  - snapshot: "Spaniards remain agog at drunk Britons engaged in “balconing”, the life-threatening activity of clambering between balconies or leaping from them into a pool."
+  
+- Mass protests in sizes like 10,000 or 5,000 took place recently. Things are gentrified, prices hiked, and local expelled. 
+
+- However, "rejecting a sector that is the economic lifeblood of many places is dangerous."
+
+- The sequence:
+
+  1. Fueled by influencers, tourists swarming for 'authenticity' reaching deep local areas. Tourism income dominates the local economy.
+  2. Due to Covid-19, local authorities racked up a lot of debts.
+  3. When tourists came back in the post-pandemic, authorities were desperate to welcome them back, which led to lax regulations.
+  
+- While governments are employing many measures to suppress over-tourism, one thing that locals are most interested is housing. Lisbon and Barcelona are restricting commercial renting, against which property owners made legal challenges.
+
+# 2-year Treasury bond in the record demand
+
+["Auction of 2-year Treasury notes shows record demand levels"](https://www.ft.com/content/7dc859fe-6a2f-44d7-8963-30420ff5598c)
+
+- short story: traders expect an interest cut soon and want to lock in a high-rate bond before it.
+
+# Modi plans a spending plan for his allies
+["India unveils spending binge to boost Narendra Modi’s allies"](https://www.ft.com/content/ca9349ec-1cd9-4985-aa1f-4e96605f46e7)
+
+- After the shocking electoral setback (losing the absolute majority), Modi "has announced a spending splurge for its new coalition partners."
+  
+  - spending packages for regional coalition partners: "This included a Rs260bn industrial corridor running through Bihar, Rs150bn for a new “high-tech” capital in Andhra Pradesh called Amaravati and funds for flood reconstruction and developing local temples."
+  
+- The plan also entails keeping capital investment high while cutting fiscal deficits. Youth joblessness is considered one of the reasons for the electoral setback.
