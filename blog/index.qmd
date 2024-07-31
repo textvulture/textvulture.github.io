@@ -14,4 +14,5 @@ author:
     email: bson3@gmu.edu
     affiliations: George Mason University (Global Affairs)
     degrees: PhD
+theme: cosmo
 ---

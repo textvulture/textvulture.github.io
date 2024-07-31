@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.3.450">
+<meta name="generator" content="quarto-1.4.555">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -49,7 +49,13 @@ ul.task-list li input[type="checkbox"] {
   "collapse-after": 3,
   "panel-placement": "end",
   "type": "overlay",
-  "limit": 20,
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
   "language": {
     "search-no-results-text": "No results",
     "search-matching-documents-text": "matching documents",
@@ -58,6 +64,7 @@ ul.task-list li input[type="checkbox"] {
     "search-more-match-text": "more match in this document",
     "search-more-matches-text": "more matches in this document",
     "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
     "search-detached-cancel-button-title": "Cancel",
     "search-submit-button-title": "Submit",
     "search-label": "Search"
@@ -96,16 +103,43 @@ ul.task-list li input[type="checkbox"] {
   <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
   <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
 <link rel="stylesheet" href="styles.css">
 </head>
 
 <body class="nav-fixed">
 
 <div id="quarto-search-results"></div>
-  <header id="quarto-header" class="headroom fixed-top">
-    <nav class="navbar navbar-expand-lg navbar-dark ">
+  <header id="quarto-header" class="headroom fixed-top quarto-banner">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
-      <div class="navbar-brand-container">
+      <div class="navbar-brand-container mx-auto">
     <a class="navbar-brand" href="./index.html">
     <span class="navbar-title">Blog: Current Events, mostly for me</span>
     </a>
@@ -117,22 +151,51 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link" href="https://textvulture.github.io" rel="" target="">
- <span class="menu-text"><iconify-icon inline="" icon="ic:outline-house" aria-label="Icon outline-house from ic Iconify.design set." title="Icon outline-house from ic Iconify.design set." height="25px"></iconify-icon></span></a>
+    <a class="nav-link" href="https://textvulture.github.io"> 
+<span class="menu-text"><iconify-icon inline="" icon="ic:outline-house" aria-label="Icon outline-house from ic Iconify.design set." title="Icon outline-house from ic Iconify.design set." height="25px"></iconify-icon></span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="https://twitter.com/Byunghwan_Son" rel="" target="">
- <span class="menu-text"><iconify-icon inline="" icon="logos:twitter" aria-label="Icon twitter from logos Iconify.design set." title="Icon twitter from logos Iconify.design set." height="19px"></iconify-icon></span></a>
+    <a class="nav-link" href="https://twitter.com/Byunghwan_Son"> 
+<span class="menu-text"><iconify-icon inline="" icon="logos:twitter" aria-label="Icon twitter from logos Iconify.design set." title="Icon twitter from logos Iconify.design set." height="19px"></iconify-icon></span></a>
   </li>  
 </ul>
-            <div class="quarto-navbar-tools">
-</div>
           </div> <!-- /navcollapse -->
+          <div class="quarto-navbar-tools">
+</div>
       </div> <!-- /container-fluid -->
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+<header id="title-block-header" class="quarto-title-block default page-columns page-full">
+  <div class="quarto-title-banner page-columns page-full">
+    <div class="quarto-title column-page-left">
+      
+                      </div>
+  </div>
+    
+  <div class="quarto-title-meta-author column-page-left">
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-heading">Affiliation</div>
+    
+      <div class="quarto-title-meta-contents">
+      <p class="author">Byunghwan Ben Son, PhD <a href="mailto:bson3@gmu.edu" class="quarto-title-author-email"><i class="bi bi-envelope"></i></a> </p>
+    </div>
+    <div class="quarto-title-meta-contents">
+          <p class="affiliation">
+              George Mason University (Global Affairs)
+            </p>
+        </div>
+    </div>
+
+  <div class="quarto-title-meta column-page-left">
+
+        
+    
+      
+    </div>
+    
+  
+  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
@@ -147,21 +210,23 @@ ul.task-list li input[type="checkbox"] {
 
 
 
+
+
 <div class="quarto-listing quarto-listing-container-default" id="listing-listing">
 <div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-categories="election,Venezuela,market,US" data-listing-date-sort="1722225600000" data-listing-file-modified-sort="1722298920626" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3">
+<div class="quarto-post image-right" data-index="0" data-categories="election,Venezuela,market,US" data-listing-date-sort="1722225600000" data-listing-file-modified-sort="1722298920626" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="479">
 <div class="thumbnail">
-<p><a href="./posts/July292024/post_07292024.html"> <div class="listing-item-img-placeholder card-img-top" >&nbsp;</div> </a></p>
+<p><a href="./posts/July292024/post_07292024.html" class="no-external"></a></p><a href="./posts/July292024/post_07292024.html" class="no-external">
+<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
+</a><p><a href="./posts/July292024/post_07292024.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="./posts/July292024/post_07292024.html">
 <h3 class="no-anchor listing-title">
-Venezuela election; Supreme court reform bill; McDonald’s predicament
+<a href="./posts/July292024/post_07292024.html" class="no-external">Venezuela election; Supreme court reform bill; McDonald’s predicament</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="./posts/July292024/post_07292024.html" class="no-external"></a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('election'); return false;">
 election
@@ -176,14 +241,12 @@ market
 US
 </div>
 </div>
-<a href="./posts/July292024/post_07292024.html">
 <div class="listing-description">
-“Nations Denounce Venezuelan Election, Demanding Transparency”
+<a href="./posts/July292024/post_07292024.html" class="no-external">“Nations Denounce Venezuelan Election, Demanding Transparency”</a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="./posts/July292024/post_07292024.html">
+<a href="./posts/July292024/post_07292024.html" class="no-external">
 <div class="listing-date">
 Jul 29, 2024
 </div>
@@ -193,32 +256,30 @@ Ben
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="1" data-categories="election" data-listing-date-sort="1721966400000" data-listing-file-modified-sort="1722296861830" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<div class="quarto-post image-right" data-index="1" data-categories="election" data-listing-date-sort="1721966400000" data-listing-file-modified-sort="1722296861830" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="145">
 <div class="thumbnail">
-<p><a href="./posts/July262024/post_07262024.html"> <div class="listing-item-img-placeholder card-img-top" >&nbsp;</div> </a></p>
+<p><a href="./posts/July262024/post_07262024.html" class="no-external"></a></p><a href="./posts/July262024/post_07262024.html" class="no-external">
+<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
+</a><p><a href="./posts/July262024/post_07262024.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="./posts/July262024/post_07262024.html">
 <h3 class="no-anchor listing-title">
-VP pick
+<a href="./posts/July262024/post_07262024.html" class="no-external">VP pick</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="./posts/July262024/post_07262024.html" class="no-external"></a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('election'); return false;">
 election
 </div>
 </div>
-<a href="./posts/July262024/post_07262024.html">
 <div class="listing-description">
-“Spaceman, Senator, V.P. Pick? Kamala Harris Sizes Up Mark Kelly.”
+<a href="./posts/July262024/post_07262024.html" class="no-external">“Spaceman, Senator, V.P. Pick? Kamala Harris Sizes Up Mark Kelly.”</a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="./posts/July262024/post_07262024.html">
+<a href="./posts/July262024/post_07262024.html" class="no-external">
 <div class="listing-date">
 Jul 26, 2024
 </div>
@@ -228,19 +289,19 @@ Ben
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="2" data-categories="finance,tech" data-listing-date-sort="1721880000000" data-listing-file-modified-sort="1721956751244" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4">
+<div class="quarto-post image-right" data-index="2" data-categories="finance,tech" data-listing-date-sort="1721880000000" data-listing-file-modified-sort="1721956751244" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="647">
 <div class="thumbnail">
-<p><a href="./posts/July252024/post_07252024.html"> <p class="card-img-top"><img src="posts\July252024\fp.png"  class="thumbnail-image card-img"/></p> </a></p>
+<p><a href="./posts/July252024/post_07252024.html" class="no-external"></a></p><a href="./posts/July252024/post_07252024.html" class="no-external">
+<p class="card-img-top"><img src="posts\July252024\fp.png"  class="thumbnail-image card-img"/></p>
+</a><p><a href="./posts/July252024/post_07252024.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="./posts/July252024/post_07252024.html">
 <h3 class="no-anchor listing-title">
-PEF; tech stocks
+<a href="./posts/July252024/post_07252024.html" class="no-external">PEF; tech stocks</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="./posts/July252024/post_07252024.html" class="no-external"></a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('finance'); return false;">
 finance
@@ -249,14 +310,12 @@ finance
 tech
 </div>
 </div>
-<a href="./posts/July252024/post_07252024.html">
 <div class="listing-description">
-“How private equity tangled banks in a web of debt”
+<a href="./posts/July252024/post_07252024.html" class="no-external">“How private equity tangled banks in a web of debt”</a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="./posts/July252024/post_07252024.html">
+<a href="./posts/July252024/post_07252024.html" class="no-external">
 <div class="listing-date">
 Jul 25, 2024
 </div>
@@ -266,19 +325,19 @@ Ben
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="3" data-categories="Europe,India,finance" data-listing-date-sort="1721707200000" data-listing-file-modified-sort="1721785493546" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2">
+<div class="quarto-post image-right" data-index="3" data-categories="Europe,India,finance" data-listing-date-sort="1721707200000" data-listing-file-modified-sort="1721785493546" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="358">
 <div class="thumbnail">
-<p><a href="./posts/July232024/post_07232024.html"> <div class="listing-item-img-placeholder card-img-top" >&nbsp;</div> </a></p>
+<p><a href="./posts/July232024/post_07232024.html" class="no-external"></a></p><a href="./posts/July232024/post_07232024.html" class="no-external">
+<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
+</a><p><a href="./posts/July232024/post_07232024.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="./posts/July232024/post_07232024.html">
 <h3 class="no-anchor listing-title">
-Anti-tourism in Europe
+<a href="./posts/July232024/post_07232024.html" class="no-external">Anti-tourism in Europe</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="./posts/July232024/post_07232024.html" class="no-external"></a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('Europe'); return false;">
 Europe
@@ -290,33 +349,31 @@ India
 finance
 </div>
 </div>
-<a href="./posts/July232024/post_07232024.html">
 <div class="listing-description">
-“The cost of Europe’s backlash against tourists”
+<a href="./posts/July232024/post_07232024.html" class="no-external">“The cost of Europe’s backlash against tourists”</a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="./posts/July232024/post_07232024.html">
+<a href="./posts/July232024/post_07232024.html" class="no-external">
 <div class="listing-date">
 Jul 23, 2024
 </div>
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="4" data-categories="US,election,China,Taiwan" data-listing-date-sort="1721620800000" data-listing-file-modified-sort="1721702181618" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4">
+<div class="quarto-post image-right" data-index="4" data-categories="US,election,China,Taiwan" data-listing-date-sort="1721620800000" data-listing-file-modified-sort="1721702181618" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="621">
 <div class="thumbnail">
-<p><a href="./posts/July222024/post_07222024.html"> <div class="listing-item-img-placeholder card-img-top" >&nbsp;</div> </a></p>
+<p><a href="./posts/July222024/post_07222024.html" class="no-external"></a></p><a href="./posts/July222024/post_07222024.html" class="no-external">
+<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
+</a><p><a href="./posts/July222024/post_07222024.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="./posts/July222024/post_07222024.html">
 <h3 class="no-anchor listing-title">
-Harris surge; Tough Job market; Chinese pressure on Taiwan
+<a href="./posts/July222024/post_07222024.html" class="no-external">Harris surge; Tough Job market; Chinese pressure on Taiwan</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="./posts/July222024/post_07222024.html" class="no-external"></a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('US'); return false;">
 US
@@ -331,14 +388,12 @@ China
 Taiwan
 </div>
 </div>
-<a href="./posts/July222024/post_07222024.html">
 <div class="listing-description">
-“Harris Seizes Control, Clearing Field, Raising Cash and Slamming Trump”
+<a href="./posts/July222024/post_07222024.html" class="no-external">“Harris Seizes Control, Clearing Field, Raising Cash and Slamming Trump”</a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="./posts/July222024/post_07222024.html">
+<a href="./posts/July222024/post_07222024.html" class="no-external">
 <div class="listing-date">
 Jul 22, 2024
 </div>
@@ -348,32 +403,30 @@ Ben
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="5" data-categories="tech" data-listing-date-sort="1721361600000" data-listing-file-modified-sort="1721704696576" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2">
+<div class="quarto-post image-right" data-index="5" data-categories="tech" data-listing-date-sort="1721361600000" data-listing-file-modified-sort="1721704696576" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="267">
 <div class="thumbnail">
-<p><a href="./posts/July192024/post_07192024.html"> <div class="listing-item-img-placeholder card-img-top" >&nbsp;</div> </a></p>
+<p><a href="./posts/July192024/post_07192024.html" class="no-external"></a></p><a href="./posts/July192024/post_07192024.html" class="no-external">
+<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
+</a><p><a href="./posts/July192024/post_07192024.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="./posts/July192024/post_07192024.html">
 <h3 class="no-anchor listing-title">
-IT Shutdown; Chinese need for stimulus
+<a href="./posts/July192024/post_07192024.html" class="no-external">IT Shutdown; Chinese need for stimulus</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="./posts/July192024/post_07192024.html" class="no-external"></a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('tech'); return false;">
 tech
 </div>
 </div>
-<a href="./posts/July192024/post_07192024.html">
 <div class="listing-description">
-“What caused the huge global IT outage?”
+<a href="./posts/July192024/post_07192024.html" class="no-external">“What caused the huge global IT outage?”</a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="./posts/July192024/post_07192024.html">
+<a href="./posts/July192024/post_07192024.html" class="no-external">
 <div class="listing-date">
 Jul 19, 2024
 </div>
@@ -383,19 +436,19 @@ Ben
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="6" data-categories="Korea,election,finance" data-listing-date-sort="1721275200000" data-listing-file-modified-sort="1721702222355" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3">
+<div class="quarto-post image-right" data-index="6" data-categories="Korea,election,finance" data-listing-date-sort="1721275200000" data-listing-file-modified-sort="1721702222355" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="512">
 <div class="thumbnail">
-<p><a href="./posts/July182024/post_07182024.html"> <p class="card-img-top"><img src="posts\July182024\bond.png"  class="thumbnail-image card-img"/></p> </a></p>
+<p><a href="./posts/July182024/post_07182024.html" class="no-external"></a></p><a href="./posts/July182024/post_07182024.html" class="no-external">
+<p class="card-img-top"><img src="posts\July182024\bond.png"  class="thumbnail-image card-img"/></p>
+</a><p><a href="./posts/July182024/post_07182024.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="./posts/July182024/post_07182024.html">
 <h3 class="no-anchor listing-title">
-Spy Fiasco; Treasury Bond and the US election
+<a href="./posts/July182024/post_07182024.html" class="no-external">Spy Fiasco; Treasury Bond and the US election</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="./posts/July182024/post_07182024.html" class="no-external"></a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('Korea'); return false;">
 Korea
@@ -407,14 +460,12 @@ election
 finance
 </div>
 </div>
-<a href="./posts/July182024/post_07182024.html">
 <div class="listing-description">
-“Former CIA analyst charged with acting as South Korean agent”
+<a href="./posts/July182024/post_07182024.html" class="no-external">“Former CIA analyst charged with acting as South Korean agent”</a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="./posts/July182024/post_07182024.html">
+<a href="./posts/July182024/post_07182024.html" class="no-external">
 <div class="listing-date">
 Jul 18, 2024
 </div>
@@ -424,19 +475,19 @@ Ben
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="7" data-categories="Iran,US,election,finance,admin" data-listing-date-sort="1721102400000" data-listing-file-modified-sort="1721702222347" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2">
+<div class="quarto-post image-right" data-index="7" data-categories="Iran,US,election,finance,admin" data-listing-date-sort="1721102400000" data-listing-file-modified-sort="1721702222347" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="341">
 <div class="thumbnail">
-<p><a href="./posts/July162024/post_07162024.html"> <div class="listing-item-img-placeholder card-img-top" >&nbsp;</div> </a></p>
+<p><a href="./posts/July162024/post_07162024.html" class="no-external"></a></p><a href="./posts/July162024/post_07162024.html" class="no-external">
+<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
+</a><p><a href="./posts/July162024/post_07162024.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="./posts/July162024/post_07162024.html">
 <h3 class="no-anchor listing-title">
-Iran’s new president; US political media mystery
+<a href="./posts/July162024/post_07162024.html" class="no-external">Iran’s new president; US political media mystery</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="./posts/July162024/post_07162024.html" class="no-external"></a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('Iran'); return false;">
 Iran
@@ -454,14 +505,12 @@ finance
 admin
 </div>
 </div>
-<a href="./posts/July162024/post_07162024.html">
 <div class="listing-description">
-“Iran’s New President Promises Changes. Can He Deliver?”
+<a href="./posts/July162024/post_07162024.html" class="no-external">“Iran’s New President Promises Changes. Can He Deliver?”</a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="./posts/July162024/post_07162024.html">
+<a href="./posts/July162024/post_07162024.html" class="no-external">
 <div class="listing-date">
 Jul 16, 2024
 </div>
@@ -471,19 +520,19 @@ Ben
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="8" data-categories="Venezuela,Election,finance" data-listing-date-sort="1720584000000" data-listing-file-modified-sort="1720663426983" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3">
+<div class="quarto-post image-right" data-index="8" data-categories="Venezuela,Election,finance" data-listing-date-sort="1720584000000" data-listing-file-modified-sort="1720663426983" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="439">
 <div class="thumbnail">
-<p><a href="./posts/July102024/post_07102024.html"> <div class="listing-item-img-placeholder card-img-top" >&nbsp;</div> </a></p>
+<p><a href="./posts/July102024/post_07102024.html" class="no-external"></a></p><a href="./posts/July102024/post_07102024.html" class="no-external">
+<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
+</a><p><a href="./posts/July102024/post_07102024.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="./posts/July102024/post_07102024.html">
 <h3 class="no-anchor listing-title">
-Venezuela;
+<a href="./posts/July102024/post_07102024.html" class="no-external">Venezuela;</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="./posts/July102024/post_07102024.html" class="no-external"></a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('Venezuela'); return false;">
 Venezuela
@@ -495,14 +544,12 @@ Election
 finance
 </div>
 </div>
-<a href="./posts/July102024/post_07102024.html">
 <div class="listing-description">
-“They Fled Oppression at Home, but It Followed Them Abroad”
+<a href="./posts/July102024/post_07102024.html" class="no-external">“They Fled Oppression at Home, but It Followed Them Abroad”</a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="./posts/July102024/post_07102024.html">
+<a href="./posts/July102024/post_07102024.html" class="no-external">
 <div class="listing-date">
 Jul 10, 2024
 </div>
@@ -512,19 +559,19 @@ Ben
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="9" data-categories="election,AI,finance" data-listing-date-sort="1720411200000" data-listing-file-modified-sort="1720663426978" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4">
+<div class="quarto-post image-right" data-index="9" data-categories="election,AI,finance" data-listing-date-sort="1720411200000" data-listing-file-modified-sort="1720663426978" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="645">
 <div class="thumbnail">
-<p><a href="./posts/July082024/post_07082024.html"> <p class="card-img-top"><img src="posts\July082024\france.png"  class="thumbnail-image card-img"/></p> </a></p>
+<p><a href="./posts/July082024/post_07082024.html" class="no-external"></a></p><a href="./posts/July082024/post_07082024.html" class="no-external">
+<p class="card-img-top"><img src="posts\July082024\france.png"  class="thumbnail-image card-img"/></p>
+</a><p><a href="./posts/July082024/post_07082024.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="./posts/July082024/post_07082024.html">
 <h3 class="no-anchor listing-title">
-French Election; AI; Investment Banking
+<a href="./posts/July082024/post_07082024.html" class="no-external">French Election; AI; Investment Banking</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="./posts/July082024/post_07082024.html" class="no-external"></a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('election'); return false;">
 election
@@ -536,14 +583,12 @@ AI
 finance
 </div>
 </div>
-<a href="./posts/July082024/post_07082024.html">
 <div class="listing-description">
-“French leftwing parties jostle to lead new government after unexpected victory”
+<a href="./posts/July082024/post_07082024.html" class="no-external">“French leftwing parties jostle to lead new government after unexpected victory”</a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="./posts/July082024/post_07082024.html">
+<a href="./posts/July082024/post_07082024.html" class="no-external">
 <div class="listing-date">
 Jul 8, 2024
 </div>
@@ -553,32 +598,30 @@ Ben
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="10" data-categories="admin" data-listing-date-sort="1720324800000" data-listing-file-modified-sort="1720375193894" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<div class="quarto-post image-right" data-index="10" data-categories="admin" data-listing-date-sort="1720324800000" data-listing-file-modified-sort="1720375193894" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="5">
 <div class="thumbnail">
-<p><a href="./posts/July072024/post_07072024.html"> <p class="card-img-top"><img src="posts\July072024\beach.jpg"  class="thumbnail-image card-img"/></p> </a></p>
+<p><a href="./posts/July072024/post_07072024.html" class="no-external"></a></p><a href="./posts/July072024/post_07072024.html" class="no-external">
+<p class="card-img-top"><img src="posts\July072024\beach.jpg"  class="thumbnail-image card-img"/></p>
+</a><p><a href="./posts/July072024/post_07072024.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="./posts/July072024/post_07072024.html">
 <h3 class="no-anchor listing-title">
-The summer hiatus is coming to an end
+<a href="./posts/July072024/post_07072024.html" class="no-external">The summer hiatus is coming to an end</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="./posts/July072024/post_07072024.html" class="no-external"></a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('admin'); return false;">
 admin
 </div>
 </div>
-<a href="./posts/July072024/post_07072024.html">
 <div class="listing-description">
-Ocean City (MD) was fun.
+<a href="./posts/July072024/post_07072024.html" class="no-external">Ocean City (MD) was fun.</a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="./posts/July072024/post_07072024.html">
+<a href="./posts/July072024/post_07072024.html" class="no-external">
 <div class="listing-date">
 Jul 7, 2024
 </div>
@@ -588,19 +631,19 @@ Ben
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="11" data-categories="China,financce,crime,Bolivia" data-listing-date-sort="1719460800000" data-listing-file-modified-sort="1719604624402" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="5">
+<div class="quarto-post image-right" data-index="11" data-categories="China,financce,crime,Bolivia" data-listing-date-sort="1719460800000" data-listing-file-modified-sort="1719604624402" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="5" data-listing-word-count-sort="805">
 <div class="thumbnail">
-<p><a href="./posts/June272024/post_06272024.html"> <p class="card-img-top"><img src="posts\June272024\money.png"  class="thumbnail-image card-img"/></p> </a></p>
+<p><a href="./posts/June272024/post_06272024.html" class="no-external"></a></p><a href="./posts/June272024/post_06272024.html" class="no-external">
+<p class="card-img-top"><img src="posts\June272024\money.png"  class="thumbnail-image card-img"/></p>
+</a><p><a href="./posts/June272024/post_06272024.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="./posts/June272024/post_06272024.html">
 <h3 class="no-anchor listing-title">
-European commercial bonds; CCP Suppression of dissents’ children in US; money laundering network; Bolivian coup
+<a href="./posts/June272024/post_06272024.html" class="no-external">European commercial bonds; CCP Suppression of dissents’ children in US; money laundering network; Bolivian coup</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="./posts/June272024/post_06272024.html" class="no-external"></a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('China'); return false;">
 China
@@ -615,14 +658,12 @@ crime
 Bolivia
 </div>
 </div>
-<a href="./posts/June272024/post_06272024.html">
 <div class="listing-description">
-“The new money laundering network fuelling the fentanyl crisis”
+<a href="./posts/June272024/post_06272024.html" class="no-external">“The new money laundering network fuelling the fentanyl crisis”</a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="./posts/June272024/post_06272024.html">
+<a href="./posts/June272024/post_06272024.html" class="no-external">
 <div class="listing-date">
 Jun 27, 2024
 </div>
@@ -632,19 +673,19 @@ Ben
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="12" data-categories="Taliban,election,US,NATO,finance" data-listing-date-sort="1719374400000" data-listing-file-modified-sort="1719604624393" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3">
+<div class="quarto-post image-right" data-index="12" data-categories="Taliban,election,US,NATO,finance" data-listing-date-sort="1719374400000" data-listing-file-modified-sort="1719604624393" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="523">
 <div class="thumbnail">
-<p><a href="./posts/June262024/post06262024.html"> <p class="card-img-top"><img src="posts\June262024\ft_mines.png"  class="thumbnail-image card-img"/></p> </a></p>
+<p><a href="./posts/June262024/post06262024.html" class="no-external"></a></p><a href="./posts/June262024/post06262024.html" class="no-external">
+<p class="card-img-top"><img src="posts\June262024\ft_mines.png"  class="thumbnail-image card-img"/></p>
+</a><p><a href="./posts/June262024/post06262024.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="./posts/June262024/post06262024.html">
 <h3 class="no-anchor listing-title">
-Mines and Taliban; The Squad in Democratic Primaries; New NATO caretaker; soverign debt
+<a href="./posts/June262024/post06262024.html" class="no-external">Mines and Taliban; The Squad in Democratic Primaries; New NATO caretaker; soverign debt</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="./posts/June262024/post06262024.html" class="no-external"></a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('Taliban'); return false;">
 Taliban
@@ -662,14 +703,12 @@ NATO
 finance
 </div>
 </div>
-<a href="./posts/June262024/post06262024.html">
 <div class="listing-description">
-“How the Taliban took over Afghanistan’s mines”
+<a href="./posts/June262024/post06262024.html" class="no-external">“How the Taliban took over Afghanistan’s mines”</a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="./posts/June262024/post06262024.html">
+<a href="./posts/June262024/post06262024.html" class="no-external">
 <div class="listing-date">
 Jun 26, 2024
 </div>
@@ -679,19 +718,19 @@ Ben
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="13" data-categories="Russia,Kenya,Guyana" data-listing-date-sort="1719288000000" data-listing-file-modified-sort="1719341457676" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2">
+<div class="quarto-post image-right" data-index="13" data-categories="Russia,Kenya,Guyana" data-listing-date-sort="1719288000000" data-listing-file-modified-sort="1719341457676" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="370">
 <div class="thumbnail">
-<p><a href="./posts/June252024/post.html"> <p class="card-img-top"><img src="https://static01.nyt.com/images/2024/06/25/multimedia/25icc-russia-kfzw/25icc-russia-kfzw-superJumbo.jpg?quality=75&auto=webp"  class="thumbnail-image card-img"/></p> </a></p>
+<p><a href="./posts/June252024/post.html" class="no-external"></a></p><a href="./posts/June252024/post.html" class="no-external">
+<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
+</a><p><a href="./posts/June252024/post.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="./posts/June252024/post.html">
 <h3 class="no-anchor listing-title">
-ICC; Kenya
+<a href="./posts/June252024/post.html" class="no-external">ICC; Kenya</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="./posts/June252024/post.html" class="no-external"></a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('Russia'); return false;">
 Russia
@@ -703,14 +742,12 @@ Kenya
 Guyana
 </div>
 </div>
-<a href="./posts/June252024/post.html">
 <div class="listing-description">
-“Police Fire Arms Amid Tax Protests in Kenya; 5 Reported Killed”
+<a href="./posts/June252024/post.html" class="no-external">“Police Fire Arms Amid Tax Protests in Kenya; 5 Reported Killed”</a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="./posts/June252024/post.html">
+<a href="./posts/June252024/post.html" class="no-external">
 <div class="listing-date">
 Jun 25, 2024
 </div>
@@ -720,19 +757,19 @@ Ben
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="14" data-categories="UK,election,China,tech,Gaza" data-listing-date-sort="1719201600000" data-listing-file-modified-sort="1719339709247" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3">
+<div class="quarto-post image-right" data-index="14" data-categories="UK,election,China,tech,Gaza" data-listing-date-sort="1719201600000" data-listing-file-modified-sort="1719339709247" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="556">
 <div class="thumbnail">
-<p><a href="./posts/June242024/post_06242024.html"> <p class="card-img-top"><img src="posts\June242024\NYT06242024.png"  class="thumbnail-image card-img"/></p> </a></p>
+<p><a href="./posts/June242024/post_06242024.html" class="no-external"></a></p><a href="./posts/June242024/post_06242024.html" class="no-external">
+<p class="card-img-top"><img src="posts\June242024\NYT06242024.png"  class="thumbnail-image card-img"/></p>
+</a><p><a href="./posts/June242024/post_06242024.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="./posts/June242024/post_06242024.html">
 <h3 class="no-anchor listing-title">
-Tory’s disaster; workers in Chinese tech companies; Doctors feud over Gaza
+<a href="./posts/June242024/post_06242024.html" class="no-external">Tory’s disaster; workers in Chinese tech companies; Doctors feud over Gaza</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="./posts/June242024/post_06242024.html" class="no-external"></a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('UK'); return false;">
 UK
@@ -750,14 +787,12 @@ tech
 Gaza
 </div>
 </div>
-<a href="./posts/June242024/post_06242024.html">
 <div class="listing-description">
-“How Support for Britain’s Conservative Party is Collapsing”
+<a href="./posts/June242024/post_06242024.html" class="no-external">“How Support for Britain’s Conservative Party is Collapsing”</a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="./posts/June242024/post_06242024.html">
+<a href="./posts/June242024/post_06242024.html" class="no-external">
 <div class="listing-date">
 Jun 24, 2024
 </div>
@@ -767,19 +802,19 @@ Ben
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="15" data-categories="election,US,finance" data-listing-date-sort="1718942400000" data-listing-file-modified-sort="1719339709246" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3">
+<div class="quarto-post image-right" data-index="15" data-categories="election,US,finance" data-listing-date-sort="1718942400000" data-listing-file-modified-sort="1719339709246" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="544">
 <div class="thumbnail">
-<p><a href="./posts/June212024/post.html"> <p class="card-img-top"><img src="https://static01.nyt.com/images/2020/12/10/business/10economy-briefing-ecb/merlin_181044159_0a82e241-2b77-4df7-b64e-fe6b697f5b82-superJumbo.jpg"  class="thumbnail-image card-img"/></p> </a></p>
+<p><a href="./posts/June212024/post.html" class="no-external"></a></p><a href="./posts/June212024/post.html" class="no-external">
+<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
+</a><p><a href="./posts/June212024/post.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="./posts/June212024/post.html">
 <h3 class="no-anchor listing-title">
-Central Bankers’ limitations; Trump fund raising
+<a href="./posts/June212024/post.html" class="no-external">Central Bankers’ limitations; Trump fund raising</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="./posts/June212024/post.html" class="no-external"></a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('election'); return false;">
 election
@@ -791,14 +826,12 @@ US
 finance
 </div>
 </div>
-<a href="./posts/June212024/post.html">
 <div class="listing-description">
-“Trump Has Rapidly Eroded Biden’s Edge in 2024 Cash Battle”
+<a href="./posts/June212024/post.html" class="no-external">“Trump Has Rapidly Eroded Biden’s Edge in 2024 Cash Battle”</a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="./posts/June212024/post.html">
+<a href="./posts/June212024/post.html" class="no-external">
 <div class="listing-date">
 Jun 21, 2024
 </div>
@@ -808,19 +841,19 @@ Ben
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="16" data-categories="NK,Russia,China" data-listing-date-sort="1718856000000" data-listing-file-modified-sort="1719339709245" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3">
+<div class="quarto-post image-right" data-index="16" data-categories="NK,Russia,China" data-listing-date-sort="1718856000000" data-listing-file-modified-sort="1719339709245" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="477">
 <div class="thumbnail">
-<p><a href="./posts/June202024/post062024.html"> <p class="card-img-top"><img src="https://www.ft.com/__origami/service/image/v2/images/raw/ftcms%3A4dd3c9cb-749a-4d4e-b789-4be25fe63651?source=next-article&fit=scale-down&quality=highest&width=1440&dpr=2.png"  class="thumbnail-image card-img"/></p> </a></p>
+<p><a href="./posts/June202024/post062024.html" class="no-external"></a></p><a href="./posts/June202024/post062024.html" class="no-external">
+<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
+</a><p><a href="./posts/June202024/post062024.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="./posts/June202024/post062024.html">
 <h3 class="no-anchor listing-title">
-Russia; Russia, North Korea, and China
+<a href="./posts/June202024/post062024.html" class="no-external">Russia; Russia, North Korea, and China</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="./posts/June202024/post062024.html" class="no-external"></a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('NK'); return false;">
 NK
@@ -832,14 +865,12 @@ Russia
 China
 </div>
 </div>
-<a href="./posts/June202024/post062024.html">
 <div class="listing-description">
-“Russia and North Korea’s Defense Pact Is a Told-You-So Moment in Asia”
+<a href="./posts/June202024/post062024.html" class="no-external">“Russia and North Korea’s Defense Pact Is a Told-You-So Moment in Asia”</a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="./posts/June202024/post062024.html">
+<a href="./posts/June202024/post062024.html" class="no-external">
 <div class="listing-date">
 Jun 20, 2024
 </div>
@@ -849,19 +880,19 @@ Ben
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="17" data-categories="Ukraine,South Africa,election,France" data-listing-date-sort="1718769600000" data-listing-file-modified-sort="1719339709244" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3">
+<div class="quarto-post image-right" data-index="17" data-categories="Ukraine,South Africa,election,France" data-listing-date-sort="1718769600000" data-listing-file-modified-sort="1719339709244" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="565">
 <div class="thumbnail">
-<p><a href="./posts/June192024/post_06192024.html"> <p class="card-img-top"><img src="https://static01.nyt.com/images/2024/06/19/multimedia/19SAFRICA_INAUGURATION-zgph/19SAFRICA_INAUGURATION-zgph-superJumbo.jpg?quality=75&auto=webp"  class="thumbnail-image card-img"/></p> </a></p>
+<p><a href="./posts/June192024/post_06192024.html" class="no-external"></a></p><a href="./posts/June192024/post_06192024.html" class="no-external">
+<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
+</a><p><a href="./posts/June192024/post_06192024.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="./posts/June192024/post_06192024.html">
 <h3 class="no-anchor listing-title">
-Drones; Elections; Bonds
+<a href="./posts/June192024/post_06192024.html" class="no-external">Drones; Elections; Bonds</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="./posts/June192024/post_06192024.html" class="no-external"></a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('Ukraine'); return false;">
 Ukraine
@@ -876,14 +907,12 @@ election
 France
 </div>
 </div>
-<a href="./posts/June192024/post_06192024.html">
 <div class="listing-description">
-“Ukraine’s naval drone success holds a huge lesson for the U.S. Navy”
+<a href="./posts/June192024/post_06192024.html" class="no-external">“Ukraine’s naval drone success holds a huge lesson for the U.S. Navy”</a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="./posts/June192024/post_06192024.html">
+<a href="./posts/June192024/post_06192024.html" class="no-external">
 <div class="listing-date">
 Jun 19, 2024
 </div>
@@ -893,19 +922,19 @@ Ben
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="18" data-categories="ECB,France,election,disinformation" data-listing-date-sort="1718683200000" data-listing-file-modified-sort="1719339709244" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<div class="quarto-post image-right" data-index="18" data-categories="ECB,France,election,disinformation" data-listing-date-sort="1718683200000" data-listing-file-modified-sort="1719339709244" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="109">
 <div class="thumbnail">
-<p><a href="./posts/June182024/post_06182024.html"> <div class="listing-item-img-placeholder card-img-top" >&nbsp;</div> </a></p>
+<p><a href="./posts/June182024/post_06182024.html" class="no-external"></a></p><a href="./posts/June182024/post_06182024.html" class="no-external">
+<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
+</a><p><a href="./posts/June182024/post_06182024.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="./posts/June182024/post_06182024.html">
 <h3 class="no-anchor listing-title">
-French Election &amp; Market; Disinformation in Austria; Migrants in the US
+<a href="./posts/June182024/post_06182024.html" class="no-external">French Election &amp; Market; Disinformation in Austria; Migrants in the US</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="./posts/June182024/post_06182024.html" class="no-external"></a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('ECB'); return false;">
 ECB
@@ -920,14 +949,12 @@ election
 disinformation
 </div>
 </div>
-<a href="./posts/June182024/post_06182024.html">
 <div class="listing-description">
-“ECB chief economist plays down need to intervene in French bond market”
+<a href="./posts/June182024/post_06182024.html" class="no-external">“ECB chief economist plays down need to intervene in French bond market”</a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="./posts/June182024/post_06182024.html">
+<a href="./posts/June182024/post_06182024.html" class="no-external">
 <div class="listing-date">
 Jun 18, 2024
 </div>
@@ -937,19 +964,19 @@ Ben
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="19" data-categories="China,sanctions,Russia,NK" data-listing-date-sort="1718596800000" data-listing-file-modified-sort="1719339709243" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2">
+<div class="quarto-post image-right" data-index="19" data-categories="China,sanctions,Russia,NK" data-listing-date-sort="1718596800000" data-listing-file-modified-sort="1719339709243" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="327">
 <div class="thumbnail">
-<p><a href="./posts/June172024/post_06172024.html"> <p class="card-img-top"><img src="https://static01.nyt.com/images/2024/06/17/multimedia/00nkorea-putinHFO-01-jgqk/00nkorea-putinHFO-01-jgqk-superJumbo.jpg?quality=75&auto=webp"  class="thumbnail-image card-img"/></p> </a></p>
+<p><a href="./posts/June172024/post_06172024.html" class="no-external"></a></p><a href="./posts/June172024/post_06172024.html" class="no-external">
+<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
+</a><p><a href="./posts/June172024/post_06172024.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="./posts/June172024/post_06172024.html">
 <h3 class="no-anchor listing-title">
-China-UK; Sanctions; Putin-Kim
+<a href="./posts/June172024/post_06172024.html" class="no-external">China-UK; Sanctions; Putin-Kim</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="./posts/June172024/post_06172024.html" class="no-external"></a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('China'); return false;">
 China
@@ -964,14 +991,12 @@ Russia
 NK
 </div>
 </div>
-<a href="./posts/June172024/post_06172024.html">
 <div class="listing-description">
-“British army delays King Charles cap badges over China spying fears”
+<a href="./posts/June172024/post_06172024.html" class="no-external">“British army delays King Charles cap badges over China spying fears”</a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="./posts/June172024/post_06172024.html">
+<a href="./posts/June172024/post_06172024.html" class="no-external">
 <div class="listing-date">
 Jun 17, 2024
 </div>
@@ -981,32 +1006,30 @@ Ben
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="20" data-categories="admin" data-listing-date-sort="1718164800000" data-listing-file-modified-sort="1719339709282" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<div class="quarto-post image-right" data-index="20" data-categories="admin" data-listing-date-sort="1718164800000" data-listing-file-modified-sort="1719339709282" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="139">
 <div class="thumbnail">
-<p><a href="./posts/welcome/post.html"> <p class="card-img-top"><img src="https://github.com/textvulture/textvulture.github.io/blob/master/images/deskBackground1.png?raw=true"  class="thumbnail-image card-img"/></p> </a></p>
+<p><a href="./posts/welcome/post.html" class="no-external"></a></p><a href="./posts/welcome/post.html" class="no-external">
+<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
+</a><p><a href="./posts/welcome/post.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="./posts/welcome/post.html">
 <h3 class="no-anchor listing-title">
-Welcome, sort of
+<a href="./posts/welcome/post.html" class="no-external">Welcome, sort of</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="./posts/welcome/post.html" class="no-external"></a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('admin'); return false;">
 admin
 </div>
 </div>
-<a href="./posts/welcome/post.html">
 <div class="listing-description">
-Blogging may belong to the ancient civilization. But hey, I am not exactly the young blood in town. In fact, as I get older writing–really the…
+<a href="./posts/welcome/post.html" class="no-external">Blogging may belong to the ancient civilization. But hey, I am not exactly the young blood in town. In fact, as I get older writing–really the biggest part of my job…</a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="./posts/welcome/post.html">
+<a href="./posts/welcome/post.html" class="no-external">
 <div class="listing-date">
 Jun 12, 2024
 </div>
@@ -1100,10 +1123,27 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     // clear code selection
     e.clearSelection();
   });
-  function tippyHover(el, contentFn) {
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+    var mailtoRegex = new RegExp(/^mailto:/);
+      var filterRegex = new RegExp('/' + window.location.host + '/');
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+        // undo the damage that might have been done by quarto-nav.js in the case of
+        // links that we want to consider external
+        if (link.dataset.originalHref !== undefined) {
+          link.href = link.dataset.originalHref;
+        }
+      }
+    }
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
     const config = {
       allowHTML: true,
-      content: contentFn,
       maxWidth: 500,
       delay: 100,
       arrow: false,
@@ -1113,8 +1153,17 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       interactive: true,
       interactiveBorder: 10,
       theme: 'quarto',
-      placement: 'bottom-start'
+      placement: 'bottom-start',
     };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
     window.tippy(el, config); 
   }
   const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
@@ -1126,7 +1175,130 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       try { href = new URL(href).hash; } catch {}
       const id = href.replace(/^#\/?/, "");
       const note = window.document.getElementById(id);
-      return note.innerHTML;
+      if (note) {
+        return note.innerHTML;
+      } else {
+        return "";
+      }
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      // TODO in 1.5, we should make sure this works without a callout special case
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
     });
   }
       let selectedAnnoteEl;
@@ -1170,6 +1342,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
             }
             div.style.top = top - 2 + "px";
             div.style.height = height + 4 + "px";
+            div.style.left = 0;
             let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
             if (gutterDiv === null) {
               gutterDiv = window.document.createElement("div");
@@ -1195,6 +1368,32 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
         });
         selectedAnnoteEl = undefined;
       };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
       // Attach click handler to the DT
       const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
       for (const annoteDlNode of annoteDls) {
@@ -1255,6 +1454,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 });
 </script>
 </div> <!-- /content -->
+
 
 
 
