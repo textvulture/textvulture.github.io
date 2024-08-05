@@ -1,0 +1,52 @@
+---
+title: "Market trouble, world-wide"
+author: Ben
+categories:
+  - finance
+date: 08-05-2024
+---
+
+# Global stock market slides big (biggest since 1987 for Japan)
+
+["Global stock markets tumble as worries grow over US recession"](https://www.ft.com/content/ef7198e5-44b4-47a0-86f5-a7bf9a34d76b)
+
+![](market.jpg)
+
+- "The Topix fell 12.2 per cent, the sharpest sell-off since “Black Monday” in October 1987 and more than erasing its gains for the year. Ahead of the US open, contracts tracking the Nasdaq 100 were trading down 4.2 per cent while those tracking the S&P 500 were 2.8 per cent lower."
+
+  - "Futures on the Vix index of expected US stock market turbulence — commonly known as Wall Street’s “fear gauge” — jumped above 65 points on Monday, the highest level since the early stages of the Covid-19 pandemic."
+
+- Why? US recession fears: the market fears that Fed has been too slow to respond to the slowing economy and holding the rates too high for too long. The weaker-than-expected jobs data during the weekend: [FT article](https://www.ft.com/content/fcdf997f-5704-4ebb-8b77-a2e85a994e7e)
+
+  - The late response would spell chaos and uncertainty. The Fed "might be forced to play catch-up with a series of rapid interest rate cuts. These could possibly begin with an emergency move."
+  
+- JPY as a compounding factor: "The global sell-off was exacerbated by the unwinding of the so-called <span style="color:red">yen carry trade</span>, in which traders had taken advantage of Japan’s low interest rates to borrow in yen and buy risky assets."
+
+- Buffett's [Apple sell-off](https://textvulture.github.io/blogout/posts/August042024/post_08042024.html) also might have contributed to the market anxiety.
+
+- In other markets:
+  - South Korea’s Kospi benchmark fell 8.8 per cent.
+  - the Australian S&P/ASX dropped 2.5 per cent.
+  - India’s Sensex lost 2.7 per cent.
+  - The benchmark Stoxx Europe 600 shed 2.7 per cent.
+  - The cryptocurrency market, with the price of bitcoin falling 18 per cent to $51,455.
+
+# US stock market tumbles, too
+
+["US stocks tumble at open as global sell-off gathers pace"](https://www.ft.com/content/88bd2eaa-5e57-44b7-93df-a5127ebe7fda)
+
+- "The Nasdaq Composite tumbled 6.3 per cent shortly after Monday’s open."; "The tech-heavy Nasdaq last week entered correction territory after tumbling more than 10 per cent from its all-time high on July 11."
+
+- "Ten-year Treasury yields rose above those on two-year yields on Monday for the first time since July 2022, as traders increased their bets that the Federal Reserve would cut interest rates soon." 
+
+- Prices of stocks and other risky assets plunged.
+
+- The big-tech stocks went down big.
+
+![](market2.jpg)
+
+- Traders are expecting that an August rate cut is possible.
+
+- *All these probably are signs of simple market correction. See for example, the treasury bond yield curves:*
+
+![](market3.jpg)

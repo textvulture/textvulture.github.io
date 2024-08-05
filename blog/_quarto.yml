@@ -11,7 +11,7 @@ website:
         href: https://twitter.com/Byunghwan_Son
 format:
   html:
-    theme: cosmo
+    theme: sandstone
     css: styles.css
 
 editor: visual
