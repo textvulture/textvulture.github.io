@@ -1,0 +1,30 @@
+---
+title: "The Unwinding of JPY carry trade; Walz as VP pick"
+date: 08-07-2024
+author: Ben
+categories:
+  - election
+  - financce
+  - Japan
+---
+
+# Unwinding of Yen Carry Trade
+
+["Unwinding of yen ‘carry trade’ still threatens markets, say analysts"](https://www.ft.com/content/9ec8bb1f-bec6-4e7c-9ecf-1bc817f02112)
+
+![](yen.png)
+
+- The yen 'carry trade' still threatens to destabilize the global economy.
+
+  - carry trade: "borrowing in a low-interest-rate country to fund investment in assets elsewhere that offer higher returns," which increased dramatically in recent years because of the low rates in Japan compared to the rest of the world. "By some estimates, the yen carry trade has grown to become one of the biggest ever iterations of the bet."; "the cumulative dollar-yen carry trade size built since 2011 at about $500bn" -- about $200bn of this was thrown away only in the past few weeks.
+    - "hedge funds and other short-term investors taking short positions in the yen" accounts for much of the carry trade, but some Japanese households, pension funds, and corporate funds are also involved given the long period of low rates. These investments, of course, go overseas.
+  - Japan raised rates last week, making the yen stronger. Carry trade using the yen not as attractive. Traders "rushed to dump assets they had purchased by borrowing in yen," which contributed to Monday's market crash.
+  
+  
+# Tim Walz
+
+- The two-term Minnesota governor, Tim Walz, is picked as VP candidate for the Democratic party. He was born and rasied in Nebraska. He was a social studies (geography) teacher and football coach in high school, national guard NCO, and Representative of a Trump-leaning rural district in MN. 
+
+- *This speech is probably a better depiction of who he is than any article can be*: 
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/pttUWZQWJi8?si=y8tzLVLf_tkP4w7h"  frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
