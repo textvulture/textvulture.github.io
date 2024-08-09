@@ -81,7 +81,8 @@ ul.task-list li input[type="checkbox"] {
 
     const options = {
       valueNames: ['listing-date','listing-title','listing-author','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
+      page: 25,
+    pagination: { item: "<li class='page-item'><a class='page page-link' href='#'></a></li>" },
       searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description","listing-categories"],
     };
 
@@ -171,7 +172,7 @@ window.Quarto = {
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(25)</span></div><div class="category" data-category="AI">AI <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Bolivia">Bolivia <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Brexit">Brexit <span class="quarto-category-count">(1)</span></div><div class="category" data-category="China">China <span class="quarto-category-count">(5)</span></div><div class="category" data-category="ECB">ECB <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Election">Election <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Europe">Europe <span class="quarto-category-count">(1)</span></div><div class="category" data-category="France">France <span class="quarto-category-count">(2)</span></div><div class="category" data-category="Gaza">Gaza <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Guyana">Guyana <span class="quarto-category-count">(1)</span></div><div class="category" data-category="India">India <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Iran">Iran <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Israel">Israel <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Japan">Japan <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Kenya">Kenya <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Korea">Korea <span class="quarto-category-count">(2)</span></div><div class="category" data-category="NATO">NATO <span class="quarto-category-count">(1)</span></div><div class="category" data-category="NK">NK <span class="quarto-category-count">(2)</span></div><div class="category" data-category="Russia">Russia <span class="quarto-category-count">(3)</span></div><div class="category" data-category="South Africa">South Africa <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Taiwan">Taiwan <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Taliban">Taliban <span class="quarto-category-count">(1)</span></div><div class="category" data-category="UK">UK <span class="quarto-category-count">(1)</span></div><div class="category" data-category="US">US <span class="quarto-category-count">(5)</span></div><div class="category" data-category="Ukraine">Ukraine <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Venezuela">Venezuela <span class="quarto-category-count">(2)</span></div><div class="category" data-category="admin">admin <span class="quarto-category-count">(3)</span></div><div class="category" data-category="crime">crime <span class="quarto-category-count">(1)</span></div><div class="category" data-category="disinformation">disinformation <span class="quarto-category-count">(1)</span></div><div class="category" data-category="election">election <span class="quarto-category-count">(12)</span></div><div class="category" data-category="financce">financce <span class="quarto-category-count">(2)</span></div><div class="category" data-category="finance">finance <span class="quarto-category-count">(9)</span></div><div class="category" data-category="intelligence">intelligence <span class="quarto-category-count">(1)</span></div><div class="category" data-category="market">market <span class="quarto-category-count">(1)</span></div><div class="category" data-category="sanctions">sanctions <span class="quarto-category-count">(1)</span></div><div class="category" data-category="tech">tech <span class="quarto-category-count">(4)</span></div></div></div>
+    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(26)</span></div><div class="category" data-category="AI">AI <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Bolivia">Bolivia <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Brexit">Brexit <span class="quarto-category-count">(1)</span></div><div class="category" data-category="China">China <span class="quarto-category-count">(5)</span></div><div class="category" data-category="ECB">ECB <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Election">Election <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Europe">Europe <span class="quarto-category-count">(1)</span></div><div class="category" data-category="France">France <span class="quarto-category-count">(2)</span></div><div class="category" data-category="Gaza">Gaza <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Guyana">Guyana <span class="quarto-category-count">(1)</span></div><div class="category" data-category="India">India <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Iran">Iran <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Israel">Israel <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Japan">Japan <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Kenya">Kenya <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Korea">Korea <span class="quarto-category-count">(2)</span></div><div class="category" data-category="NATO">NATO <span class="quarto-category-count">(1)</span></div><div class="category" data-category="NK">NK <span class="quarto-category-count">(2)</span></div><div class="category" data-category="Russia">Russia <span class="quarto-category-count">(3)</span></div><div class="category" data-category="South Africa">South Africa <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Taiwan">Taiwan <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Taliban">Taliban <span class="quarto-category-count">(1)</span></div><div class="category" data-category="UK">UK <span class="quarto-category-count">(1)</span></div><div class="category" data-category="US">US <span class="quarto-category-count">(5)</span></div><div class="category" data-category="Ukraine">Ukraine <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Venezuela">Venezuela <span class="quarto-category-count">(2)</span></div><div class="category" data-category="admin">admin <span class="quarto-category-count">(3)</span></div><div class="category" data-category="cbi">cbi <span class="quarto-category-count">(1)</span></div><div class="category" data-category="chips">chips <span class="quarto-category-count">(1)</span></div><div class="category" data-category="crime">crime <span class="quarto-category-count">(1)</span></div><div class="category" data-category="disinformation">disinformation <span class="quarto-category-count">(1)</span></div><div class="category" data-category="election">election <span class="quarto-category-count">(12)</span></div><div class="category" data-category="financce">financce <span class="quarto-category-count">(2)</span></div><div class="category" data-category="finance">finance <span class="quarto-category-count">(10)</span></div><div class="category" data-category="intelligence">intelligence <span class="quarto-category-count">(1)</span></div><div class="category" data-category="market">market <span class="quarto-category-count">(1)</span></div><div class="category" data-category="sanctions">sanctions <span class="quarto-category-count">(1)</span></div><div class="category" data-category="tech">tech <span class="quarto-category-count">(4)</span></div></div></div>
 <!-- main -->
 <main class="content column-page-left" id="quarto-document-content">
 
@@ -212,10 +213,49 @@ window.Quarto = {
 
 <div class="quarto-listing quarto-listing-container-default" id="listing-listing">
 <div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-categories="election,financce,Japan" data-listing-date-sort="1723003200000" data-listing-file-modified-sort="1723041420812" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="276">
+<div class="quarto-post image-right" data-index="0" data-categories="finance,chips,cbi" data-listing-date-sort="1723089600000" data-listing-file-modified-sort="1723162333951" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="410">
+<div class="thumbnail">
+<p><a href="./posts/August082024/08082024.html" class="no-external"></a></p><a href="./posts/August082024/08082024.html" class="no-external">
+<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
+</a><p><a href="./posts/August082024/08082024.html" class="no-external"></a></p>
+</div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./posts/August082024/08082024.html" class="no-external">TSMC struggles in AZ; Data-driven Market bounce-back; autocratizers temper with CBI?</a>
+</h3>
+<div class="listing-subtitle">
+<a href="./posts/August082024/08082024.html" class="no-external"></a>
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('finance'); return false;">
+finance
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('chips'); return false;">
+chips
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('cbi'); return false;">
+cbi
+</div>
+</div>
+<div class="listing-description">
+<a href="./posts/August082024/08082024.html" class="no-external">“What Works in Taiwan Doesn’t Always in Arizona, a Chipmaking Giant Learns”</a>
+</div>
+</div>
+<div class="metadata">
+<a href="./posts/August082024/08082024.html" class="no-external">
+<div class="listing-date">
+Aug 8, 2024
+</div>
+<div class="listing-author">
+Ben
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="1" data-categories="election,financce,Japan" data-listing-date-sort="1723003200000" data-listing-file-modified-sort="1723161230255" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="276">
 <div class="thumbnail">
 <p><a href="./posts/August072024/post_08072024.html" class="no-external"></a></p><a href="./posts/August072024/post_08072024.html" class="no-external">
-<p class="card-img-top"><img src="posts/August072024/yen.png"  class="thumbnail-image card-img"/></p>
+<p class="card-img-top"><img src="posts\August072024\yen.png"  class="thumbnail-image card-img"/></p>
 </a><p><a href="./posts/August072024/post_08072024.html" class="no-external"></a></p>
 </div>
 <div class="body">
@@ -251,10 +291,10 @@ Ben
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="1" data-categories="finance" data-listing-date-sort="1722830400000" data-listing-file-modified-sort="1722951169767" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="401">
+<div class="quarto-post image-right" data-index="2" data-categories="finance" data-listing-date-sort="1722830400000" data-listing-file-modified-sort="1722866679610" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="401">
 <div class="thumbnail">
 <p><a href="./posts/August052024/post_08052024.html" class="no-external"></a></p><a href="./posts/August052024/post_08052024.html" class="no-external">
-<p class="card-img-top"><img src="posts/August052024/market.jpg"  class="thumbnail-image card-img"/></p>
+<p class="card-img-top"><img src="posts\August052024\market.jpg"  class="thumbnail-image card-img"/></p>
 </a><p><a href="./posts/August052024/post_08052024.html" class="no-external"></a></p>
 </div>
 <div class="body">
@@ -284,10 +324,10 @@ Ben
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="2" data-categories="tech" data-listing-date-sort="1722744000000" data-listing-file-modified-sort="1722951169766" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="434">
+<div class="quarto-post image-right" data-index="3" data-categories="tech" data-listing-date-sort="1722744000000" data-listing-file-modified-sort="1722864730435" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="434">
 <div class="thumbnail">
 <p><a href="./posts/August042024/post_08042024.html" class="no-external"></a></p><a href="./posts/August042024/post_08042024.html" class="no-external">
-<p class="card-img-top"><img src="posts/August042024/buffet.jpg"  class="thumbnail-image card-img"/></p>
+<p class="card-img-top"><img src="posts\August042024\buffet.jpg"  class="thumbnail-image card-img"/></p>
 </a><p><a href="./posts/August042024/post_08042024.html" class="no-external"></a></p>
 </div>
 <div class="body">
@@ -317,7 +357,7 @@ Ben
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="3" data-categories="intelligence,Korea,Israel,Brexit" data-listing-date-sort="1722484800000" data-listing-file-modified-sort="1722536700591" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="302">
+<div class="quarto-post image-right" data-index="4" data-categories="intelligence,Korea,Israel,Brexit" data-listing-date-sort="1722484800000" data-listing-file-modified-sort="1722788829729" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="302">
 <div class="thumbnail">
 <p><a href="./posts/August012024/post_08012024.html" class="no-external"></a></p><a href="./posts/August012024/post_08012024.html" class="no-external">
 <div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
@@ -359,7 +399,7 @@ Ben
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="4" data-categories="election,Venezuela,market,US" data-listing-date-sort="1722225600000" data-listing-file-modified-sort="1722352239818" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="479">
+<div class="quarto-post image-right" data-index="5" data-categories="election,Venezuela,market,US" data-listing-date-sort="1722225600000" data-listing-file-modified-sort="1722298920626" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="479">
 <div class="thumbnail">
 <p><a href="./posts/July292024/post_07292024.html" class="no-external"></a></p><a href="./posts/July292024/post_07292024.html" class="no-external">
 <div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
@@ -401,7 +441,7 @@ Ben
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="5" data-categories="election" data-listing-date-sort="1721966400000" data-listing-file-modified-sort="1722019635744" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="145">
+<div class="quarto-post image-right" data-index="6" data-categories="election" data-listing-date-sort="1721966400000" data-listing-file-modified-sort="1722296861830" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="145">
 <div class="thumbnail">
 <p><a href="./posts/July262024/post_07262024.html" class="no-external"></a></p><a href="./posts/July262024/post_07262024.html" class="no-external">
 <div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
@@ -434,10 +474,10 @@ Ben
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="6" data-categories="finance,tech" data-listing-date-sort="1721880000000" data-listing-file-modified-sort="1721925636667" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="647">
+<div class="quarto-post image-right" data-index="7" data-categories="finance,tech" data-listing-date-sort="1721880000000" data-listing-file-modified-sort="1721956751244" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="647">
 <div class="thumbnail">
 <p><a href="./posts/July252024/post_07252024.html" class="no-external"></a></p><a href="./posts/July252024/post_07252024.html" class="no-external">
-<p class="card-img-top"><img src="posts/July252024/fp.png"  class="thumbnail-image card-img"/></p>
+<p class="card-img-top"><img src="posts\July252024\fp.png"  class="thumbnail-image card-img"/></p>
 </a><p><a href="./posts/July252024/post_07252024.html" class="no-external"></a></p>
 </div>
 <div class="body">
@@ -470,7 +510,7 @@ Ben
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="7" data-categories="Europe,India,finance" data-listing-date-sort="1721707200000" data-listing-file-modified-sort="1721828227090" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="358">
+<div class="quarto-post image-right" data-index="8" data-categories="Europe,India,finance" data-listing-date-sort="1721707200000" data-listing-file-modified-sort="1721785493546" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="358">
 <div class="thumbnail">
 <p><a href="./posts/July232024/post_07232024.html" class="no-external"></a></p><a href="./posts/July232024/post_07232024.html" class="no-external">
 <div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
@@ -506,7 +546,7 @@ Jul 23, 2024
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="8" data-categories="US,election,China,Taiwan" data-listing-date-sort="1721620800000" data-listing-file-modified-sort="1721741159472" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="621">
+<div class="quarto-post image-right" data-index="9" data-categories="US,election,China,Taiwan" data-listing-date-sort="1721620800000" data-listing-file-modified-sort="1721702181618" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="621">
 <div class="thumbnail">
 <p><a href="./posts/July222024/post_07222024.html" class="no-external"></a></p><a href="./posts/July222024/post_07222024.html" class="no-external">
 <div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
@@ -548,7 +588,7 @@ Ben
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="9" data-categories="tech" data-listing-date-sort="1721361600000" data-listing-file-modified-sort="1721741159472" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="267">
+<div class="quarto-post image-right" data-index="10" data-categories="tech" data-listing-date-sort="1721361600000" data-listing-file-modified-sort="1721704696576" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="267">
 <div class="thumbnail">
 <p><a href="./posts/July192024/post_07192024.html" class="no-external"></a></p><a href="./posts/July192024/post_07192024.html" class="no-external">
 <div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
@@ -581,10 +621,10 @@ Ben
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="10" data-categories="Korea,election,finance" data-listing-date-sort="1721275200000" data-listing-file-modified-sort="1721317236848" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="512">
+<div class="quarto-post image-right" data-index="11" data-categories="Korea,election,finance" data-listing-date-sort="1721275200000" data-listing-file-modified-sort="1721702222355" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="512">
 <div class="thumbnail">
 <p><a href="./posts/July182024/post_07182024.html" class="no-external"></a></p><a href="./posts/July182024/post_07182024.html" class="no-external">
-<p class="card-img-top"><img src="posts/July182024/bond.png"  class="thumbnail-image card-img"/></p>
+<p class="card-img-top"><img src="posts\July182024\bond.png"  class="thumbnail-image card-img"/></p>
 </a><p><a href="./posts/July182024/post_07182024.html" class="no-external"></a></p>
 </div>
 <div class="body">
@@ -620,7 +660,7 @@ Ben
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="11" data-categories="Iran,US,election,finance,admin" data-listing-date-sort="1721102400000" data-listing-file-modified-sort="1721137066560" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="341">
+<div class="quarto-post image-right" data-index="12" data-categories="Iran,US,election,finance,admin" data-listing-date-sort="1721102400000" data-listing-file-modified-sort="1721702222347" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="341">
 <div class="thumbnail">
 <p><a href="./posts/July162024/post_07162024.html" class="no-external"></a></p><a href="./posts/July162024/post_07162024.html" class="no-external">
 <div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
@@ -665,7 +705,7 @@ Ben
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="12" data-categories="Venezuela,Election,finance" data-listing-date-sort="1720584000000" data-listing-file-modified-sort="1720617740403" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="439">
+<div class="quarto-post image-right" data-index="13" data-categories="Venezuela,Election,finance" data-listing-date-sort="1720584000000" data-listing-file-modified-sort="1720663426983" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="439">
 <div class="thumbnail">
 <p><a href="./posts/July102024/post_07102024.html" class="no-external"></a></p><a href="./posts/July102024/post_07102024.html" class="no-external">
 <div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
@@ -704,10 +744,10 @@ Ben
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="13" data-categories="election,AI,finance" data-listing-date-sort="1720411200000" data-listing-file-modified-sort="1720445417799" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="645">
+<div class="quarto-post image-right" data-index="14" data-categories="election,AI,finance" data-listing-date-sort="1720411200000" data-listing-file-modified-sort="1720663426978" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="645">
 <div class="thumbnail">
 <p><a href="./posts/July082024/post_07082024.html" class="no-external"></a></p><a href="./posts/July082024/post_07082024.html" class="no-external">
-<p class="card-img-top"><img src="posts/July082024/france.png"  class="thumbnail-image card-img"/></p>
+<p class="card-img-top"><img src="posts\July082024\france.png"  class="thumbnail-image card-img"/></p>
 </a><p><a href="./posts/July082024/post_07082024.html" class="no-external"></a></p>
 </div>
 <div class="body">
@@ -743,10 +783,10 @@ Ben
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="14" data-categories="admin" data-listing-date-sort="1720324800000" data-listing-file-modified-sort="1720442881404" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="5">
+<div class="quarto-post image-right" data-index="15" data-categories="admin" data-listing-date-sort="1720324800000" data-listing-file-modified-sort="1720375193894" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="5">
 <div class="thumbnail">
 <p><a href="./posts/July072024/post_07072024.html" class="no-external"></a></p><a href="./posts/July072024/post_07072024.html" class="no-external">
-<p class="card-img-top"><img src="posts/July072024/beach.jpg"  class="thumbnail-image card-img"/></p>
+<p class="card-img-top"><img src="posts\July072024\beach.jpg"  class="thumbnail-image card-img"/></p>
 </a><p><a href="./posts/July072024/post_07072024.html" class="no-external"></a></p>
 </div>
 <div class="body">
@@ -776,10 +816,10 @@ Ben
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="15" data-categories="China,financce,crime,Bolivia" data-listing-date-sort="1719460800000" data-listing-file-modified-sort="1719499840850" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="5" data-listing-word-count-sort="805">
+<div class="quarto-post image-right" data-index="16" data-categories="China,financce,crime,Bolivia" data-listing-date-sort="1719460800000" data-listing-file-modified-sort="1719604624402" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="5" data-listing-word-count-sort="805">
 <div class="thumbnail">
 <p><a href="./posts/June272024/post_06272024.html" class="no-external"></a></p><a href="./posts/June272024/post_06272024.html" class="no-external">
-<p class="card-img-top"><img src="posts/June272024/money.png"  class="thumbnail-image card-img"/></p>
+<p class="card-img-top"><img src="posts\June272024\money.png"  class="thumbnail-image card-img"/></p>
 </a><p><a href="./posts/June272024/post_06272024.html" class="no-external"></a></p>
 </div>
 <div class="body">
@@ -818,10 +858,10 @@ Ben
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="16" data-categories="Taliban,election,US,NATO,finance" data-listing-date-sort="1719374400000" data-listing-file-modified-sort="1719416157224" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="523">
+<div class="quarto-post image-right" data-index="17" data-categories="Taliban,election,US,NATO,finance" data-listing-date-sort="1719374400000" data-listing-file-modified-sort="1719604624393" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="523">
 <div class="thumbnail">
 <p><a href="./posts/June262024/post06262024.html" class="no-external"></a></p><a href="./posts/June262024/post06262024.html" class="no-external">
-<p class="card-img-top"><img src="posts/June262024/ft_mines.png"  class="thumbnail-image card-img"/></p>
+<p class="card-img-top"><img src="posts\June262024\ft_mines.png"  class="thumbnail-image card-img"/></p>
 </a><p><a href="./posts/June262024/post06262024.html" class="no-external"></a></p>
 </div>
 <div class="body">
@@ -863,7 +903,7 @@ Ben
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="17" data-categories="Russia,Kenya,Guyana" data-listing-date-sort="1719288000000" data-listing-file-modified-sort="1719407772053" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="370">
+<div class="quarto-post image-right" data-index="18" data-categories="Russia,Kenya,Guyana" data-listing-date-sort="1719288000000" data-listing-file-modified-sort="1719341457676" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="370">
 <div class="thumbnail">
 <p><a href="./posts/June252024/post.html" class="no-external"></a></p><a href="./posts/June252024/post.html" class="no-external">
 <div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
@@ -902,10 +942,10 @@ Ben
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="18" data-categories="UK,election,China,tech,Gaza" data-listing-date-sort="1719201600000" data-listing-file-modified-sort="1719335919858" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="556">
+<div class="quarto-post image-right" data-index="19" data-categories="UK,election,China,tech,Gaza" data-listing-date-sort="1719201600000" data-listing-file-modified-sort="1719339709247" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="556">
 <div class="thumbnail">
 <p><a href="./posts/June242024/post_06242024.html" class="no-external"></a></p><a href="./posts/June242024/post_06242024.html" class="no-external">
-<p class="card-img-top"><img src="posts/June242024/NYT06242024.png"  class="thumbnail-image card-img"/></p>
+<p class="card-img-top"><img src="posts\June242024\NYT06242024.png"  class="thumbnail-image card-img"/></p>
 </a><p><a href="./posts/June242024/post_06242024.html" class="no-external"></a></p>
 </div>
 <div class="body">
@@ -947,7 +987,7 @@ Ben
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="19" data-categories="election,US,finance" data-listing-date-sort="1718942400000" data-listing-file-modified-sort="1719336282548" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="544">
+<div class="quarto-post image-right" data-index="20" data-categories="election,US,finance" data-listing-date-sort="1718942400000" data-listing-file-modified-sort="1719339709246" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="544">
 <div class="thumbnail">
 <p><a href="./posts/June212024/post.html" class="no-external"></a></p><a href="./posts/June212024/post.html" class="no-external">
 <div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
@@ -986,7 +1026,7 @@ Ben
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="20" data-categories="NK,Russia,China" data-listing-date-sort="1718856000000" data-listing-file-modified-sort="1719336208381" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="477">
+<div class="quarto-post image-right" data-index="21" data-categories="NK,Russia,China" data-listing-date-sort="1718856000000" data-listing-file-modified-sort="1719339709245" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="477">
 <div class="thumbnail">
 <p><a href="./posts/June202024/post062024.html" class="no-external"></a></p><a href="./posts/June202024/post062024.html" class="no-external">
 <div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
@@ -1025,7 +1065,7 @@ Ben
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="21" data-categories="Ukraine,South Africa,election,France" data-listing-date-sort="1718769600000" data-listing-file-modified-sort="1719334168670" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="565">
+<div class="quarto-post image-right" data-index="22" data-categories="Ukraine,South Africa,election,France" data-listing-date-sort="1718769600000" data-listing-file-modified-sort="1719339709244" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="565">
 <div class="thumbnail">
 <p><a href="./posts/June192024/post_06192024.html" class="no-external"></a></p><a href="./posts/June192024/post_06192024.html" class="no-external">
 <div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
@@ -1067,7 +1107,7 @@ Ben
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="22" data-categories="ECB,France,election,disinformation" data-listing-date-sort="1718683200000" data-listing-file-modified-sort="1719324279717" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="109">
+<div class="quarto-post image-right" data-index="23" data-categories="ECB,France,election,disinformation" data-listing-date-sort="1718683200000" data-listing-file-modified-sort="1719339709244" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="109">
 <div class="thumbnail">
 <p><a href="./posts/June182024/post_06182024.html" class="no-external"></a></p><a href="./posts/June182024/post_06182024.html" class="no-external">
 <div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
@@ -1109,7 +1149,7 @@ Ben
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="23" data-categories="China,sanctions,Russia,NK" data-listing-date-sort="1718596800000" data-listing-file-modified-sort="1719335937277" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="327">
+<div class="quarto-post image-right" data-index="24" data-categories="China,sanctions,Russia,NK" data-listing-date-sort="1718596800000" data-listing-file-modified-sort="1719339709243" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="327">
 <div class="thumbnail">
 <p><a href="./posts/June172024/post_06172024.html" class="no-external"></a></p><a href="./posts/June172024/post_06172024.html" class="no-external">
 <div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
@@ -1151,7 +1191,7 @@ Ben
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="24" data-categories="admin" data-listing-date-sort="1718164800000" data-listing-file-modified-sort="1719335795313" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="139">
+<div class="quarto-post image-right" data-index="25" data-categories="admin" data-listing-date-sort="1718164800000" data-listing-file-modified-sort="1719339709282" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="139">
 <div class="thumbnail">
 <p><a href="./posts/welcome/post.html" class="no-external"></a></p><a href="./posts/welcome/post.html" class="no-external">
 <div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
@@ -1188,6 +1228,9 @@ Ben
 <div class="listing-no-matching d-none">
 No matching items
 </div>
+<nav id="listing-pagination" class="listing-pagination" aria-label="Page Navigation">
+  <ul class="pagination"></ul>
+</nav>
 </div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {

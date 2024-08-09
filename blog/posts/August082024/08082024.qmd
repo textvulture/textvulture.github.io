@@ -1,0 +1,40 @@
+---
+title: "TSMC struggles in AZ; Data-driven Market bounce-back; autocratizers temper with CBI?"
+author: Ben
+date: 08-08-2024
+categories:
+  - finance
+  - chips
+  - cbi
+---
+
+# Doing Asian-style business with few Asians proves hard.
+
+["What Works in Taiwan Doesn’t Always in Arizona, a Chipmaking Giant Learns"](https://www.nytimes.com/2024/08/08/business/tsmc-phoenix-arizona-semiconductor.html)
+
+- TSMC is building factories in northern AZ, modeling after its facilities back in Taiwan. But even before opening them, they are running into problems: the tension between American workers (engineers) and Taiwanese management on work culture.
+
+  - unscheduled overtime and out-of-job-description work are quite common, but engineers in AZ aren't getting it.
+  
+- The project, partly funded by CHIPS act, was thought of as a glaring success: "It would boost advanced chip making in the United States and help diversify TSMC’s manufacturing away from Taiwan, an island democracy that is the focus of increasingly aggressive geopolitical claims by China."
+
+- The factory also is competing with others (e.g., INTEL) for limited supply of engineers. Local universities (ASU in particular) and community colleges--and even some high schools--are bringing in labor forces, but it seems grossly insufficient.
+
+# Trump wants to interfere with Fed's rate decisions
+["Trump Suggests that President Should Have a ‘Say’ in Interest Rates"](https://www.nytimes.com/2024/08/08/business/economy/trump-fed-interest-rates.html)
+
+- Trump said: "“I feel that the president should have at least say in there, yeah, I feel that strongly"; "I think I have a better instinct than, in many cases, people that would be on the Federal Reserve, or the chairman."
+
+- This is hardly a first time: he made "a habit of loudly criticizing Fed policy while he was in office, often personally attacking" Powell. He "flirted with the idea of firing" Powell while he was in office, though its legal basis, even if he'd done that, is questionable.
+
+- He doesn't probably want an immediate rate reduction though: "Mr. Trump pushed incessantly for low interest rates while he was in office, but has made it clear a few times in recent months that he would see any move to lower rates ahead of the election as a political bid to help Democrats."
+
+# Job data help the market comeback
+["Wall Street rallies in best day since 2022 as data helps ease growth fears"](https://www.ft.com/content/cf098c19-ba4b-40d8-9334-8ee29a07a381)
+
+- The stock markets made a comeback with the unemployment claims data release. A reduction (from 250k to 233k) implies the resilience of the economy. 
+  
+  - "The benchmark S&P 500 share gauge rose 2.3 per cent, closing out its best day in almost 21 months, while the technology-heavy Nasdaq Composite added 2.9 per cent — its biggest daily gain since February."
+
+  - Days ago, the market freaked out about the negative outlook of recession, so this reversal makes sense.
+
