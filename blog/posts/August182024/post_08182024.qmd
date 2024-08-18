@@ -1,0 +1,40 @@
+---
+title: AI warning; Lithium mines in Serbia
+categories:
+  - tech
+  - Serbia
+date: 08-18-2024
+author: Ben
+---
+
+# AI risks being recognized in the corporate world
+["Biggest US companies warn of growing AI risk"](https://www.ft.com/content/5ee96d38-f55b-4e8a-b5c1-e58ce3d4111f)
+
+- In a recent survey, more than "56 per cent of Fortune 500 companies cited AI as a “risk factor.”" In 2022, this number was only 9%.
+
+- The reasons?
+
+  - the competitive pressure: "boardrooms fret they may fail to keep pace with rivals who are better exploiting the technology"
+  - reputational/operational issues: "becoming ensnared in ethical concerns about AI’s potential impact on human rights, employment and privacy"
+  - media & entertainment companies as well as tech companies had predominantly (80+%) negative ideas about AI.
+    - "For example, Netflix, the $290bn streaming service, warned that competitors could gain an advantage over it by deploying AI, which would affect “our ability to compete effectively and our results of operations could be adversely impacted”."
+    
+# Development vs. environment dispute over a Serbian lithium mine
+["‘Bad Blood’ Stalks a Lithium Mine in Serbia"](https://www.nytimes.com/2024/08/18/world/europe/serbia-lithium-mine.html)
+
+![](https://static01.nyt.com/images/2024/08/18/multimedia/18serbia-lithium02sub-flwq/18serbia-lithium02sub-flwq-superJumbo.jpg?quality=75&auto=webp)
+
+- A lithium mining project led by Rio Tinto, an industry behemoth, has been supported by the US and EU, which is in desperate need of lithium to meet its climate goals. 
+  
+  - There are many lithium mines in Europe but none has generated enough/high-quality products suitable for battery. The Serbian mine was expected to address this shortage.
+
+  - "But it has generated a wave of public fury in Serbia where fears that the mine will poison the air and water have set off huge street protests against President Aleksandar Vucic."
+  
+  - Serb government's swinging positions: "The Serbian government gave preliminary approval in 2019, but, worried about losing votes during protests against Rio Tinto before a 2022 election, canceled it."
+    - "Under pressure from the European Union, which Serbia aspires to join, the government changed its mind in July, allowing Rio Tinto to revive the project."
+    
+- A profit issue: lithium prices have been declining recently. The profitability will be an issue for the success of the project (and for Rio Tinto) moving forward.
+
+- Geopolitically, the mine project is also the west's attempt to "extract" Serbia from Russia (Serbia's traditional ally) and China.
+  - Hardline, pro-Russia, ultranationalist groups are in strong opposition to the mine project.
+  - But "leftists and middle-of-the-road" Serbians also jointed the protest for environmental reasons. The grievance against the current goverment 'selling out to foreigners' is also at work.
