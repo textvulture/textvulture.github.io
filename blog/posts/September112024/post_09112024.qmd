@@ -1,0 +1,60 @@
+---
+title: "Presidential Debate; Italy; Bank Regulation"
+author: 
+  - name: Ben
+    email: bson3@gmu.edu
+categories: 
+  - finance
+  - election
+  - Italy
+---
+
+# Coming back from the APSA-hiatus. Had a lot of fun. Now back to the normalcy.
+
+# US presidential debate, maybe one-sided victory?
+
+["Kamala Harris makes Donald Trump look out of his depth"](https://www-economist-com.mutex.gmu.edu/united-states/2024/09/11/kamala-harris-makes-donald-trump-look-out-of-his-depth)
+
+-   The Economist declares it was a 'success' for Harris. Other outlets seem to have similar takes.
+
+-   The pattern was rather simple (but effective): "Harris baited hook after hook ... \[and\] each time \[Trump\] lunged for it" by forcing him defend his own records, instead of initiating attacks on her.
+
+    -   "she made the former president look small and angry and out of his depth."
+
+-   Harris seemed less confident in the first 15 minutes. But she quickly made it up.
+
+-   The ABC hosts did a reasonable job of fact checking and following up (particularly on Trump). *But in my view, they still, way too often, let Trump ramble out of contexts*.
+
+-   *Whether this debate performance actually translates into poll numbers and, more importantly, votes remains to be seen.*
+
+# Italy's new corporate governance law
+
+["Italy to review corporate governance rules after shareholder pressure"](https://www.ft.com/content/ba71fb96-4e39-481c-aa91-3c53078bbf1c)
+
+-   International Corporate Governance Network (ICGN) pressured the Meloni government to review the new law
+
+    -   The government reacted that ICGN's concerns have the 'utmost importance.'
+
+    -   "The new financial markets law could overrule certain aspects of the capital markets bill approved in March," which aimed at making Italy look more attractive to outside investors.
+
+    -   examples of the controversy:
+
+        -   "The new law on board appointments replaces a system that was unique to Italy but that overseas investors had grown used to, even though critics said it was complex and too often meant little turnover of board members."
+
+        -   "rules allowing shareholder meetings behind closed doors with investors designating a representative would damage smaller shareholders and compromise transparency."
+
+# Wall Street vs. Fed on capital regulations
+
+["How Wall Street won ‘capitulation’ from the Federal Reserve on new bank rules"](https://www.ft.com/content/3c6e14c3-9a9a-46c8-8b4f-a10da949fb9e)
+
+-   Michael Barr, Fed VC, walked back the regulations he proposed in the aftermath of the banking crisis (e.g., SVB) in line with BASEL III, requiring banks of higher levels of capital.
+
+    -   The backdrop is "after one of the fiercest opposition campaigns from the banking lobby and a bipartisan group of US lawmakers."
+
+        -   " That the criticism also came in part from Democratic lawmakers did not help \[the regulators'\] cause."
+
+        -   Basel III implementation has been tricky because of the wide pushback. \[related article: ["The US pushback against ‘Basel Endgame’"](https://www.ft.com/content/48555d55-ca6d-4ab8-ae29-aba4d4f10f13)\]
+
+-   The retreat seems to be the reduction of the capital requirement rate (from 19% to 9%). This allows banks to take more risks than they would've.
+
+    -   In a similar context, BOE announced that the new bank regulations will be delayed.
