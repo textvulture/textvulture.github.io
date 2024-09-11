@@ -1,0 +1,30 @@
+---
+title: "Presentation Practice"
+subtitle: "Using Quarto Presentation"
+format: revealjs
+author: 
+  - name: Byunghwan Ben Son
+    email: bson3@gmu.edu
+    affiliate:
+      - name: George Mason University
+title-slide-attributes:
+  data-background-image:  https://github.com/textvulture/textvulture.github.io/blob/master/images/forestBackground.jpg?raw=true
+  data-background-opacity: "0.5"
+show-slide-number: all
+incremental: true
+---
+
+::: {.fragment}
+# This is the Cover.
+:::
+
+::: {.fragment}
+## Is it too #dull?
+:::
+
+---
+
+# The second page.
+
+![The Concept of Autocratization](https://github.com/textvulture/textvulture.github.io/blob/master/images/Philippines.jpg?raw=true)
+
