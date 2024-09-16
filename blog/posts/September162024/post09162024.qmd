@@ -1,0 +1,44 @@
+---
+title: Chinese interference; Fed rate cut
+author: 
+  - name: Ben
+    email: bson3@gmu.edu
+date: 09-16-2024
+categories:
+  - China
+  - central bank
+---
+
+# Chinese Espionage (in US and beyond)
+
+["In New York Case, Signs of a Familiar China Playbook"](https://www.nytimes.com/2024/09/16/world/asia/china-linda-sun-interference.html)
+
+-   Linda Sun, a former senior aid to NY governor's office (w/ her husband) is charged with acting as foreign agent.
+
+    -   Born in China, she is believed to be recruited by the Chinese government when she became something of a public figure.
+
+    -   She influenced the State government's operations, particularly on matters related to the Uyghurs and Taiwan.
+
+        -   She "served as a liaison to the Asian community, blocked Taiwanese officials from having access to the governor’s office and removed references to Taiwan and Uyghurs from state communications."
+
+    -   Similar patterns of Chinese interference is found in other western countries such as Australia and New Zealand.
+
+        -   The debates in these societies as to how to counter the CCP interference (i.e., national security vs. racism) "play into ... growing divisions in free societies, fueled by partisanship and populism, that China views as irrefutable signs of the West’s decline."
+
+# Powell's soft-landing moment?
+
+["Jay Powell faces milestone moment for the US economy"](https://www.ft.com/content/3c7235b0-ca7d-4545-81cd-339253017e3f)
+
+![](chart1.png)
+
+![](chart2.png)
+
+-   Fed is finally ready to lower the rates given the cooled job market. This could be "the beginning of an easing cycle."
+
+-   For Powell, pulling off a soft landing would define his "legacy of navigating the global financial system through the largest contraction since the Great Depression and the worst inflation crisis in decades."
+
+-   Hitting the sweet spot where it's not too fast (so as to avoid the entrenched inflation) and not too slow (so as to avoid recession).
+
+    -   Most economists believe that it's going to be a quarter-point reduction on Wednesday. .5 would be unlikely.
+
+        -   Either .25 or .5 "was likely to have unanimous support, as most of the past decisions under Powell have." But the former is likely to result in .75 for the year while the latter, 1.0.
