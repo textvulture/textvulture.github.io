@@ -1,0 +1,62 @@
+---
+title: Confidence in Fed; Netflix
+author: 
+  - name: Ben
+    email: bson3@gmu.edu
+date: 09-17-2024
+categories:
+  - central bank
+  - market
+---
+
+# Fed
+
+[Chris Giles's Central Banks](https://ep.ft.com/permalink/emails/eyJlbWFpbCI6ImNkNDIwZDhjMzFjZTRiZmFhYzNiZjE3Mjg2IiwgInRyYW5zYWN0aW9uSWQiOiJiMmNmOGYwMC01ZGRmLTQyNWQtYjg3MS00YzU4NzNkNWZkYmMiLCAiYmF0Y2hJZCI6ImFhNjYzZjNhLTVjNmQtNDQ4My05ODFkLTc3N2MzNDNmMzdhMyJ9)
+
+-   a 'jumbo cut' *could* be a bad idea given the still-high inflation and the already-relaxed financial market.
+
+    -   Powell in July said that .5 cut was not being considered.
+
+    -   but news coverage seems to point a cut larger than expected.
+
+-   What matters more seems to be communication. If a large cut happens, that implies that "Fed was behind the curve in July," which then signal a "crisis of confidence." A big cut would also add to the the appetite for conspiracy theories.
+
+-   On a different note, extreme data dependence problem of Fed (a related issue was covered in this [blog](https://textvulture.github.io/blogout/posts/June212024/post.html))
+
+    -   BIS review suggests that the financial market is extremely sensitive to US inflation and jobs data (surprises).
+
+    -   \*perhaps this is because the market observed Fed being extremely data dependent.\*
+
+# Return of Netflix
+
+["How Netflix won the streaming wars"](https://www.ft.com/content/465a2d0d-8973-4d8d-827d-8729737e6606)
+
+![](chart.png)
+
+-   In 2022, things looked bad for Netflix as it was losing hundreds of thousand subscribers (so-called Netflix correction). But the reform measures put in place dramatically reversed the course (such as password crackdown), putting Netflix now much ahead of other streaming services put forth by traditional Hollywood players (who struggle making any profit).
+
+    -   45 mn additional subscribers
+
+    -   share price increased by 300 %
+
+-   "The smoothest \[leadership\] transition" might be a contributing factor:
+
+    -   "\[The founder\] Hastings retired as chief executive in 2023 and was replaced by a protégé, Greg Peters, who shares the role with Ted Sarandos."
+
+-   The Netflix correction, though, led to an industry-wide challenge as it marked the end of the investor patience. Other than Disney, no legacy media outlet is making money out of streaming. Nor is the movie industry or cable television.
+
+    -   The slump also negatively affected the labor market because it resulted in job cuts. The post-strike rebound in the Hollywood labor market hasn't happened.
+
+    -   The changing landscape, combined with Netflix flexing its success around, is creating anger in the industry.
+
+-   Some potential challenges
+
+    -   The advertising could be an issue. It will take some time for Netflix to finally launce the advertising. Amazon Prime has started offering the advertising at a much lower price.
+
+        -   Netflix now says that advertising won't be the primary driver for the company's growth.
+
+    -   Other competitors are coming strong: YouTube, Tubi.
+
+-   Asia-Pacific seems to be the source for future growth.
+
+![](chart2.png)
