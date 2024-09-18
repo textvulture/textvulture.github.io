@@ -1,0 +1,63 @@
+---
+title: job market; venture capital; exploding pagers; rate cut expectations
+author:
+  - name: Ben
+    email: bson3@gmu.edu
+categories:
+  - market
+  - finance
+  - Middle East
+date: 09-18-2024
+---
+
+# White collar nob market mismatch 
+["Blanked or rejected: is finding a job harder than ever?"](https://www.ft.com/content/1429fcb2-e0ef-4e47-b2b8-8bd225ac2fe2)
+
+![](chart1.png)
+
+- Numerous applications (more than 100) still don't seem to lead to good results. The pandemic surge in labor demand is now gone, though unemployment rates are generally low.
+
+  - "Now openings are only 12 per cent above pre-pandemic levels in the US and 8 per cent below in the UK."
+  
+- Interests rate hikes "curbed employers' ability to invest in hiring."
+
+- The problem, however, is that the employers are "still struggling to find quality candidates among the deluge."
+
+  - one reason is AI tailors CVs so good that most of them look good.
+  
+  - anxious applicants put in more applications ("spray and pray" approach), triggering a vicious cycle. Companies also cut back hiring budgets and recruiters have a hard time reviewing all applicants. 
+  
+  - another area of mismatch is between the blue- and white-collar jobs. Demand for the former is much stronger than the latter.
+
+
+# Steve Cohen
+
+["Steve Cohen to step back from trading at hedge fund Point72"](https://www.ft.com/content/cfbe7eed-5c6c-4c4e-b717-92eea75f1f40)
+
+- "Steve Cohen, the billionaire founder of US hedge fund Point72, is stepping back from trading to focus on running the firm he founded a decade ago."
+
+- Point72 is unique, in that "[u]nlike a traditional hedge fund that might trade one or two strategies in one asset class, Point72 has hundreds of investment staff across 185 teams around the world, focusing on a variety of trading strategies in equities, macro and computer-driven trading."
+
+- One reason seems to be that Point72 became too successful and large.
+
+# Exploding pagers
+
+["Exploding pagers join long history of killer communications devices"](https://www.ft.com/content/dbaac693-2fd2-41bc-b5e7-6c2c7dd92277)
+
+- Hizbolla was hit by Israel, through explosion of pagers, a communication medium that they prefer for simplicity and intractability.
+
+- Israeli attack through communication devices is nothing new. 
+
+- How exactly it was conducted this time is not entirely clear.
+
+# Wall Street is betting on a big cut.
+
+["Wall Street Has Its Eye on a Big Rate Cut"](https://www.nytimes.com/2024/09/18/business/stock-market-fed-rate-cut.html)
+
+- S&P500 and many other stock market indices surged in the expectation of a big interest rate cut (to be determined today) by Fed.
+
+- Lately, there's been some changes in the expectation: "The gains have come with traders in futures markets indicating that they think a half-point cut — even if an unusually big move — is the most likely outcome on Wednesday. That’s a big shift in thinking from just a few weeks ago."
+
+  - But if a big cut is read by the market as a sign of a pending recession, the consequence would be dire.
+  
+    - hence the caution: "There are some signs of caution among investors. The gains in recent weeks have been led by real estate and utilities, with the former seen as a primary beneficiary of lower rates and the latter a more defensive bet as the economy slows. The technology stocks that led the market rally for so many years have slipped over the past month."
