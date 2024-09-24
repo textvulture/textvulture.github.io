@@ -1,0 +1,36 @@
+---
+title: "PBOC rate cut; Chinese laptops"
+categories: 
+  - central bank
+  - China
+author:
+  - name: Ben
+    email: bson3@gmu.edu
+date: 09-23-2024
+---
+
+# PBOC eases monetary policies
+
+["PBoC cuts key interest rate and announces wave of measures to boost growth"](https://www.ft.com/content/ae518f29-67ad-4c56-bbfa-33b804ce26c2)
+
+- "The People’s Bank of China said it would cut its main policy rate, the short-term seven-day reverse repo rate, to 1.5 per cent from 1.7 per cent, and cut the reserve requirement ratio, the amount of funds that banks must keep at the central bank, by 0.5 per cent."
+
+- In addition, the government will pursue "housing destocking programme" that would reduce surplus housing supply and mortgages.
+
+# Chinese home-grown laptops
+["What a Huawei laptop reveals about China’s dream of tech self-sufficiency"](https://www.ft.com/content/5511d73a-1ada-4884-a559-681502300e4f)
+
+- Huawei’s Qingyun L540 laptop symbolizes the country's effort to advance technological progress and independence--Xinchuang, or “IT application innovation”.
+
+  - It features a self-designed processor and a home-grown operating system.
+  
+- Xi asked central and local governments to buy Chinese laptops.
+
+- Semiconductors are at the center of the effort. Since March, Chinese central agencies reduced the number of laptops relying on foreign-made chips (e.g., Intel and AMD) and increased the share of domestic semiconductors dramatically (three quarters of their orders). Much of this change is centered around Qingyun L540 laptops.
+
+  - Automakers, Chinese-European joint operations, are also asked to ramp up their use of Chinese chips.
+  
+- The operating system is "Unity Operating System, based on Linux."
+
+- But there are still foreign chips found in the core elements of the laptop and a Chinese expert says "Washington’s sanctions were actually having a more pronounced impact." 
+  
