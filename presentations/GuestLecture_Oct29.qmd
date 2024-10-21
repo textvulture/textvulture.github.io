@@ -1,0 +1,44 @@
+---
+title: "A Look at a Quantitative Researcher's Desk"
+subtitle: "Guest Lecture, GLOA 396"
+# format: 
+#    revealjs
+author: 
+  - name: Byunghwan Ben Son
+    email: bson3@gmu.edu
+    affiliate:
+      - name: George Mason University
+# title-slide-attributes:
+#   data-background-image:  https://github.com/textvulture/textvulture.github.io/blob/master/images/forestBackground.jpg?raw=true
+#   data-background-opacity: "0.75"
+show-slide-number: all
+incremental: true
+# from a template: https://github.com/thomas-fung/quarto-mq-revealjs-theme/blob/main/template.qmd
+footer: "[Ben Son, GLOA GMU](textvulture.github.io)"
+format: 
+  revealjs:
+    width: 1920
+    height: 1080
+    self-contained: true
+    theme: "simple"
+    logo: images/GMU_logo2.png
+    css: images/logo.css
+---
+
+
+# What are we looking at
+
+::: {.incremental}
+
+- A recap
+- Types of quantitative research
+- An example
+
+:::
+
+---
+
+# The second page.
+
+![The Concept of Autocratization](https://github.com/textvulture/textvulture.github.io/blob/master/images/Philippines.jpg?raw=true)
+
