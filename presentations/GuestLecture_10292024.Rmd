@@ -33,8 +33,25 @@ library(fontawesome)
 library(dplyr)
 library(ggplot2)
 library(tinytable)
+library(modelsummary)
 
 ```
+
+
+background-color: #3a4a37
+class: inverse, middle
+background-image: url(https://textvulture.github.io/portrait_July2024.png)
+background-position: 23cm 2.5cm
+background-size: 20%
+
+# .large[A sneak peek into <br> a .yellow[quantitative] researcher's workflow] <br><br>
+----
+### .right[Byunghwan Ben Son (GLOA, GMU)]
+
+### .right[GLOA 491 Guest Lecture]
+
+
+---
 
 class: inverse, middle, center
 background-image: url(https://laughingsquid.com/wp-content/uploads/2018/03/video-killed-the-radio-star.gif?w=640)
@@ -44,7 +61,7 @@ background-size: contain
 
 # **Byunghwan 'Ben' Son**
 
-## .green[**George Mason University**]
+## .Green[**George Mason University**]
 
 ---
 
@@ -208,74 +225,14 @@ ln(movies + 1) = \beta_0 + \color{red}{\beta_1}Blacklisted_{it} \times Treatment
 
 --
 
-```{r, include=F, cache=T}
+```{r, echo=F}
 
-library(fixest)
-library(ggfixest)
-
-
-data <- readRDS("C:\\Users\\kalka\\Documents\\GitHub\\bkv\\data.rds")
-
-model1 <- feols(lncount ~ treatment*shock2012 + factor(year),
-                data=data,
-                panel.id = ~id+year, 
-                fixef = c("id", "role"), 
-                cluster=c("id"))
-
-
-model2 <- feols(lncount ~ treatment*shock2012 + cumu + lncareer + 
-                  factor(year),
-                data=data,
-                panel.id = ~id+year, 
-                fixef = c("id", "role"), 
-                cluster=c("id"))
-
-actor <- feols(lncount ~ treatment*shock2012 + cumu + lncareer + 
-                 factor(year),
-               data=data %>%
-                 filter(actor==0),
-               panel.id = ~id+year, 
-               fixef = c("id", "role"), 
-               cluster=c("id"))
-
-
-
-### the reg table
-
-table2 <- list("Baseline" = model1,
-               "Benchmark"  = model2,
-               "Non-actor" = actor)
-
-relabel <- c("treatment:shock2012" = "Blacklisted $\\times$ Treatment")
-
-FE <- data.frame("Coefficients" = c("Unit Fixed", "Year Fixed", "Role Fixed"),
-                 "Baseline" = c("$\\checkmark$", "$\\checkmark$", " "),
-                 "Benchmark" = c("$\\checkmark$", "$\\checkmark$", "$\\checkmark$"),
-                 "Non-actor" = c("$\\checkmark$", "$\\checkmark$", "$\\checkmark$")
-)	
+# readRDS('/Users/bson3/GitHub/bkv/table_re.rds')
 
 
 ```
 
-
-
-```{r, echo=F, message=F, error=F, warning=F, result='asis'}
-
-library(modelsummary)
-
-
-modelsummary(table2, 
-             escape = F,
-             coef_map = relabel,
-             output = 'html',
-             coef_omit = "[^treatment:shock2012]",
-             stars =  c('*' = .1, '**' = .05, '***' = 0.01),
-             fmt = 3,
-             gof_omit = 'DF|R2 Adj.|Std.Errors|R2 Pseudo|R2 Within|[FE]'
-) 
-
-
-```
+<iframe src="table.html" width="100%" height="500px"></iframe>
 
 ---
 
@@ -332,3 +289,7 @@ background-color: black
 
 ```{r, include=F, echo=F }
 rm(list = ls())
+```
+
+
+
