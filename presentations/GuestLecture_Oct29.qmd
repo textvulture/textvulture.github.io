@@ -17,8 +17,8 @@ incremental: true
 footer: "[Ben Son, GLOA GMU](textvulture.github.io)"
 format: 
   revealjs:
-    width: 1920
-    height: 1080
+    width: 1620
+    height: 1420
     self-contained: true
     theme: "simple"
     logo: images/GMU_logo2.png

@@ -1,0 +1,249 @@
+ ************************************
+ *
+ * Template-independent CSS code for formatting xaringan presentations
+ * https://github.com/yihui/xaringan/tree/master/inst/rmarkdown/templates/xaringan/resources
+ * For that extra bit of "hygge"
+ *
+ ************************************/
+
+
+/**************
+ *
+ * Font size and color
+ *
+ **************/
+
+.HUGE { font-size: 400% }
+
+.HugE { font-size: 300% }
+.Huge { font-size: 250% }
+.huge { font-size: 200% }
+.LARGE { font-size: 180% }
+.Large { font-size: 144% }
+.large { font-size: 120% }
+.small { font-size: 90% }
+.footnotesize { font-size: 80% }
+.Small { font-size: 75% }
+.scriptsize { font-size: 70% }
+.tiny { font-size: 60% }
+
+.HUGE { font-size: 400% }
+.super { font-size: 350% }
+
+.stretch { font-stretch: condensed; }
+
+.black { color: black; }
+.red { color: red; }
+.blue { color: blue; }
+.Blue { color: #6666ff; }
+.green { color: green; }
+.Green { color: #A2D7A0; }
+.yellow { color: yellow; }
+.orange { color: orange; }
+.purple { color: purple; }
+.Purple { color: #58335C; }
+.gray { color: gray; }
+.grey { color: gray; }
+.bluey { color: #12F0DA; }
+.violet { color: #948DF0; }
+.white { color: #FCFEFE; }
+.Yellow { color: #ffaf00; }
+.ivory { color: #FDFED9; }
+.pink { color: #ff8080; }
+
+.bold { font-weight: bold; }
+.bolder { font-weight: bolder; }
+.boldest { font-weight: 1000; }
+
+.texttt { font-family: 'Source Code Pro' }
+.times{ font-family: 'Times New Roman' }
+.georgia{ font-family: 'Georgia' }
+
+
+.tab { text-indent: 5em; }
+
+/* USYD blockquote */
+blockquote, .blockquote {
+  display: block;
+  margin-top: 0.1em;
+  margin-bottom: 0.2em;
+  margin-left: 5px;
+  margin-right: 5px;
+  border-left: solid 10px #0148A4;
+  border-top: solid 2px #0148A4;
+  border-bottom: solid 2px #0148A4;
+  border-right: solid 2px #0148A4;
+  box-shadow: 0 0 6px rgba(0,0,0,0.5);
+  /* background-color: #e64626; */
+  color: #e64626;
+  padding: 0.5em;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+}
+
+.blockquote p {
+  margin-top: 0px;
+  margin-bottom: 5px;
+}
+.blockquote > h1:first-of-type {
+  margin-top: 0px;
+  margin-bottom: 5px;
+}
+.blockquote > h2:first-of-type {
+  margin-top: 0px;
+  margin-bottom: 5px;
+}
+.blockquote > h3:first-of-type {
+  margin-top: 0px;
+  margin-bottom: 5px;
+}
+.blockquote > h4:first-of-type {
+  margin-top: 0px;
+  margin-bottom: 5px;
+}
+
+.text-shadow {
+  text-shadow: 0 0 4px #424242;
+}
+
+
+
+
+.column {
+  display: inline-block;
+  width: calc(100% / 3);
+  box-sizing: border-box;
+  float: left;
+  padding: 0 10px;
+  vertical-align: top;
+}
+
+
+/******************
+ * Coloured content boxes
+ ****************/
+.content-box { 
+    box-sizing: border-box;
+    background-color: #e2e2e2;
+}
+.content-box-blue,
+.content-box-gray,
+.content-box-grey,
+.content-box-army,
+.content-box-green,
+.content-box-purple,
+.content-box-red,
+.content-box-yellow {
+  box-sizing: border-box;
+  border-radius: 15px;
+  margin: 0 0 15px;
+  overflow: hidden;
+  padding: 0px 20px 0px 20px;
+  width: 100%;
+}
+
+.content-box-long {
+    box-sizing: border-box;
+    border-radius: 15px;
+    margin: 10 10 15px;
+    overflow: hidden;
+    padding: 10px 20px 10px 20px;
+    width: 100%;
+}
+
+.content-box-blue { background-color: #F0F8FF; }
+.content-box-gray { background-color: #e2e2e2; }
+.content-box-grey {	background-color: #F5F5F5; }
+.content-box-army {	background-color: #737a36; }
+.content-box-green { background-color: #d9edc2; }
+.content-box-purple { background-color: #e2e2f9; }
+.content-box-red { background-color: #ffcccc; }
+.content-box-yellow { background-color: #fef5c4; }
+.content-box-blue .remark-inline-code,
+.content-box-blue .remark-inline-code,
+.content-box-gray .remark-inline-code,
+.content-box-grey .remark-inline-code,
+.content-box-army .remark-inline-code,
+.content-box-green .remark-inline-code,
+.content-box-purple .remark-inline-code,
+.content-box-red .remark-inline-code,
+.content-box-yellow .remark-inline-code { 
+  background: none;
+}
+
+.content-box-long { background-color: green;}
+
+.full-width {
+    display: flex;
+    width: 100%;
+    flex: 1 1 auto;
+}
+
+
+
+```{css echo=FALSE}
+.right-column{
+  padding-top: 0;
+}
+```
+
+.pull-left2 {
+  float: left;
+  width: 27%;
+}
+
+.pull-right2 {
+  float: right;
+  width: 72%;
+}
+
+
+.left-align {
+    text-align: left;
+}
+
+.right-align {
+    text-align: right;
+}
+
+
+.full-width-tinted {
+  position: relative;  /* for child pseudo-element */
+  z-index: 0;
+  margin: -2.5rem -600rem;
+  top: 0;
+  /* add back negative margin value */
+  padding: 0.05rem 600rem;
+  background: #1abc9c;
+  color: white;
+}
+
+.pulse {
+  -webkit-animation-name: pulse;
+  animation-name: pulse;
+}
+
+.banner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: green;
+  color: #ffffff;
+  height: 50px;
+  font-size: 24px;
+  font-weight: bold;
+  color: white;
+}
+
+
+
+
+@keyframes blink {
+  0% { opacity: 1; }
+  50% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+.blink {
+  animation: blink 1s infinite;
+}
