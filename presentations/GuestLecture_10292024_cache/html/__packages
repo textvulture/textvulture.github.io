@@ -7,3 +7,12 @@ vdem
 geomtextpath
 kableExtra
 DiagrammeR
+fs
+tidyverse
+tibble
+tidyr
+readr
+purrr
+stringr
+forcats
+lubridate

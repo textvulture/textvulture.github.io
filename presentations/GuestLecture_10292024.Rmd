@@ -63,39 +63,55 @@ background-size: 20%
 
 ---
 
+class: inverse
+background-image: url(https://github.com/textvulture/textvulture.github.io/blob/master/images/forestBackground3.jpg?raw=true)
+background-size: 120%
 
-class: inverse, middle, center
-background-image: url(https://laughingsquid.com/wp-content/uploads/2018/03/video-killed-the-radio-star.gif?w=640)
-background-size: contain
+--
 
-# .yellow[.huge[**Blacklists Killed Video Stars**]] <br> Adverse Career Effect of Democratic Backsliding in South Korea
+<br><br>
+- .LARGE[But This won't be a research presentation.]
 
-# **Byunghwan 'Ben' Son**
+  - .large[I mean you read the paper `r fa('paperclip', fill='orange')` .]
 
-## .Green[**George Mason University**]
+--
+
+- .LARGE[Instead, we will take a look at how a paper like that is .yellow[conceived] and then .bluey[produced] (hence the title).]
+
+--
+
+- .LARGE[If you're interested in how this project was .pink[presented] in a conference, here's the link to the slides: [https://textvulture.github.io/presentations/bkv_slide.html#1](https://textvulture.github.io/presentations/bkv_slide.html#1) (MPSA 2021)]
 
 ---
 
-```{r}
+# Sciences
+
+
+<div style="text-align: center;">
+
+```{r, echo=F}
 
 library(DiagrammeR)
 
-# nodes <- create_nodes(nodes = 1:7, type = "number")
-# 
-# edges <- create_edges(from = c(1, 1, 2, 2, 3, 3),
-#                         to = c(2, 3, 4, 5, 6, 7),
-#                        rel = "leading to")
-# 
-# graph <- create_graph(nodes_df = nodes, 
-#                       edges_df = edges, 
-#                       graph_attrs = "layout = dot", 
-#                       node_attrs = "fontname = Helvetica", 
-#                       edge_attrs = "color = gray20") 
-# 
-# # View the graph
-# render_graph(graph)
+DiagrammeR::grViz("
+  digraph {
+    graph [layout = dot, rankdir = TB] 
+    
+    node [fontsize=60]
+        
+    \"All Methods\" -> \"Positivism\"
+    \"All Methods\" -> \"Normativism\"
+    \"Positivism\" -> \"structured<BR/>comparative<BR/>methods\"
+    \"Positivism\" -> \"qualitative<BR/>methods\"
+    \"Normativism\" -> \"Descriptive<BR/>methods\"
+    \"Normativism\" -> \"literature\"
+  }
+")
+
 ```
 
+</div>
+ 
 ---
 class: inverse
 background-color: black
