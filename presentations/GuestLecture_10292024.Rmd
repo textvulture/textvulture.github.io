@@ -29,11 +29,15 @@ beforeInit: "css/macros.js"
 ```{r setup, include=FALSE}
 # to use FontAwesome
 #htmltools::tagList(rmarkdown::html_dependency_font_awesome())
+
 library(fontawesome)
 library(dplyr)
 library(ggplot2)
 library(tinytable)
 library(modelsummary)
+
+knitr::opts_chunk$set(warning = FALSE, message = FALSE, error=F, echo=F)
+options(htmltools.preserve.raw = FALSE) 
 
 ```
 
@@ -72,11 +76,25 @@ background-size: contain
 
 ---
 
-class: inverse, middle, center
-background-image: url(https://data.whicdn.com/images/193588708/original.gif)
-background-size: contain
+```{r}
 
-# .huge[No... not that Blacklist]
+library(DiagrammeR)
+
+# nodes <- create_nodes(nodes = 1:7, type = "number")
+# 
+# edges <- create_edges(from = c(1, 1, 2, 2, 3, 3),
+#                         to = c(2, 3, 4, 5, 6, 7),
+#                        rel = "leading to")
+# 
+# graph <- create_graph(nodes_df = nodes, 
+#                       edges_df = edges, 
+#                       graph_attrs = "layout = dot", 
+#                       node_attrs = "fontname = Helvetica", 
+#                       edge_attrs = "color = gray20") 
+# 
+# # View the graph
+# render_graph(graph)
+```
 
 ---
 class: inverse

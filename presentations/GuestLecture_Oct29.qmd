@@ -17,8 +17,8 @@ incremental: true
 footer: "[Ben Son, GLOA GMU](textvulture.github.io)"
 format: 
   revealjs:
-    width: 1620
-    height: 1420
+    width: 1200
+    height: 800
     self-contained: true
     theme: "simple"
     logo: images/GMU_logo2.png
@@ -42,3 +42,9 @@ format:
 
 ![The Concept of Autocratization](https://github.com/textvulture/textvulture.github.io/blob/master/images/Philippines.jpg?raw=true)
 
+---
+
+# The regression table
+
+<iframe src="table.html"
+  width = 1000 height = 400></iframe>
