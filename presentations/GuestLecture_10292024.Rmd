@@ -83,6 +83,19 @@ background-size: 120%
 
 ---
 
+class: inverse, left, top
+background-image: url(https://media1.tenor.com/m/UQsZGD3pinAAAAAd/shall-we-begin-star-trek.gif)
+background-size: 110%
+
+# I am sure you must've <br> talked about this <br> .Green[a lot] already in this class.
+
+--
+
+# But we need to first talk about <br> .pink[where this research belongs.]
+
+
+---
+
 
 
 ```{r, out.width="75%", fig.align='center'}
@@ -131,8 +144,19 @@ knitr::include_graphics("images/methods_tree_6.png")
 
 ```
 
+---
+
+background-image: url(https://pbs.twimg.com/media/ENzTfM7VUAEyaEI.jpg)
+background-position: right
+background-size: contain
+
+
+# (Personal) Motivation
+
+
 
 ---
+
 class: inverse
 background-color: black
 background-image: url(https://github.com/textvulture/textvulture.github.io/blob/master/images/blacklist_eg.jpeg?raw=true)
@@ -170,7 +194,7 @@ background-size: contain
 
 ---
 
-## The background: .orange[democratic backsliding] in South Korea <br> .small[Compromised .green[Freedom of Speech], in particular (V-dem)]
+## The theoretical background: .orange[democratic backsliding] in South Korea <br> .small[Compromised .green[Freedom of Speech], in particular (V-dem)]
 
 ```{r, echo=F, warning=F, message=F, error=F, cache=T, fig.align='center', fig.width=11}
 
@@ -245,6 +269,35 @@ kable(txt_tbl) %>%
 
 ```
 ]
+
+---
+
+
+class: center, middle
+
+# If only was there .orange[a complete database] that contains .pink[all credit information] for each of the movies in Korea ...
+
+
+---
+
+class: center, middle
+background-image: url(images/kobis.png)
+background-size: 100%
+
+# If only was there .orange[a complete database] that contains .pink[all credit information] for each of the movies in Korea .red[!!!]
+
+--
+
+# .pink[Ko]rea .pink[B]ox Office .pink[I]nformation .pink[S]ystem (.pink[KOBIS])
+
+---
+
+# KOBIS, API
+
+--
+
+![](images/kobis_api.png)
+
 
 
 ---
