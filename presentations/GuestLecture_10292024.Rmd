@@ -48,6 +48,7 @@ background-size: 20%
 
 # .large[A sneak peek into <br> a .yellow[quantitative] researcher's workflow] <br><br>
 ----
+
 ### .right[Byunghwan Ben Son (GLOA, GMU)]
 
 ### .right[GLOA 491 Guest Lecture]
@@ -82,34 +83,55 @@ background-size: 120%
 
 ---
 
-# Sciences
 
 
-<div style="text-align: center;">
+```{r, out.width="75%", fig.align='center'}
 
-```{r, echo=F}
-
-library(DiagrammeR)
-
-DiagrammeR::grViz("
-  digraph {
-    graph [layout = dot, rankdir = TB] 
-    
-    node [fontsize=60]
-        
-    \"All Methods\" -> \"Positivism\"
-    \"All Methods\" -> \"Normativism\"
-    \"Positivism\" -> \"structured<BR/>comparative<BR/>methods\"
-    \"Positivism\" -> \"qualitative<BR/>methods\"
-    \"Normativism\" -> \"Descriptive<BR/>methods\"
-    \"Normativism\" -> \"literature\"
-  }
-")
+knitr::include_graphics("images/methods_tree_1.png")
 
 ```
 
-</div>
- 
+
+---
+
+
+```{r, out.width="75%", fig.align='center'}
+
+knitr::include_graphics("images/methods_tree_3.png")
+
+```
+
+
+---
+
+
+```{r, out.width="75%", fig.align='center'}
+
+knitr::include_graphics("images/methods_tree_4.png")
+
+```
+
+
+---
+
+
+```{r, out.width="75%", fig.align='center'}
+
+knitr::include_graphics("images/methods_tree_5.png")
+
+```
+
+
+---
+
+
+```{r, out.width="75%", fig.align='center'}
+
+knitr::include_graphics("images/methods_tree_6.png")
+
+```
+
+
 ---
 class: inverse
 background-color: black
