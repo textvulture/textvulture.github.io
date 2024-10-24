@@ -144,16 +144,6 @@ knitr::include_graphics("images/methods_tree_6.png")
 
 ```
 
----
-
-background-image: url(https://pbs.twimg.com/media/ENzTfM7VUAEyaEI.jpg)
-background-position: right
-background-size: contain
-
-
-# (Personal) Motivation
-
-
 
 ---
 
@@ -270,6 +260,47 @@ kable(txt_tbl) %>%
 ```
 ]
 
+
+---
+
+
+---
+
+background-image: url(https://pbs.twimg.com/media/ENzTfM7VUAEyaEI.jpg)
+background-position: right
+background-size: contain
+
+
+# (Personal) Motivation
+
+--
+
+- This is upsetting `r fa('face-angry', fill='red')`.
+
+--
+
+  - But .pink[what] exactly am I upset about?
+  
+--
+
+  - Suppression of freedom of speech? Yes, but more.
+
+--
+
+  - .green[personal] to me: 
+      - *sleazy people ruining cool people's lives.* `r fa('face-tired', fill='orange')`
+      
+--
+
+  - Okay, but how can I demonstrate this empirically?
+  
+--
+
+    - Interviews? Fieldwork?
+    - .red[Only] if the victims were really aware of things.
+
+
+
 ---
 
 
@@ -303,7 +334,7 @@ background-size: 100%
 # Getting the data using API (.tiny[there was a daily limit])
 
 
-```{r, eval=F}
+```{r, echo=T, eval=F}
 # Scraping the simple information of Korean movie workers
 
 library(tidyverse)
@@ -320,9 +351,10 @@ for (I in 1:500){
 }
 
 ... 
+
 ```
 
-### After data cleaning `r fa("snowplow", fill='blue')`, a complete list of movie workers' participation in movie projects on .pink[a yearly] basis.
+### After quite a bit of data cleaning `r fa('snowplow', fill='blue')` , a complete list of movie workers' participation in movie projects on .pink[a yearly] basis.
 
 ---
 
