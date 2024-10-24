@@ -8,21 +8,32 @@ author:
     email: bson3@gmu.edu
     affiliate:
       - name: George Mason University
-# title-slide-attributes:
-#   data-background-image:  https://github.com/textvulture/textvulture.github.io/blob/master/images/forestBackground.jpg?raw=true
-#   data-background-opacity: "0.75"
 show-slide-number: all
 incremental: true
-# from a template: https://github.com/thomas-fung/quarto-mq-revealjs-theme/blob/main/template.qmd
 footer: "[Ben Son, GLOA GMU](textvulture.github.io)"
 format: 
-  revealjs:
+  revealjs-xaringan:
     width: 1200
     height: 800
     self-contained: true
     theme: "simple"
     logo: images/GMU_logo2.png
     css: images/logo.css
+---
+
+
+background-image: url(https://textvulture.github.io/portrait_July2024.png)
+background-position: 23cm 2.5cm
+background-size: 20%
+
+# A sneak peek into <br> a .yellow[quantitative] researcher's workflow {background-color="#3a4a37" background-image="https://textvulture.github.io/portrait_July2024.png" background-size="200px" background-position="85% 30%" }
+
+----
+### .right[Byunghwan Ben Son (GLOA, GMU)]
+
+### .right[GLOA 491 Guest Lecture]
+
+
 ---
 
 

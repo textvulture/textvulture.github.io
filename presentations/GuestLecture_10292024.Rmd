@@ -12,16 +12,14 @@ output:
     nature:
       ratio: '16:9'
       highlightStyle: github
-  #    self-contained: TRUE
+      self-contained: TRUE
   chakra: css/libs/remark-latest.min.js
 css: ["default", 
       "css/footer.css", 
       "css/color.css", 
-      # "css/xaringan-themer.css",
       default-fonts]
 lib_dir: css/libs
 beforeInit: "css/macros.js"
-# seal: false  
 #bibliography: /Users/bson3/Dropbox/latex/mybib2.bib
 #remotes::install_github('yihui/xaringan', upgrade = TRUE)
 ---
@@ -57,7 +55,7 @@ background-size: 20%
 
 ---
 
-# An example to work with:
+# An .pink[example] to work with:
 
 ![](images/bkv_screen.png){width="80%"}
 
