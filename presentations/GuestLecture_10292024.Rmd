@@ -284,11 +284,11 @@ class: center, middle
 background-image: url(images/kobis.png)
 background-size: 100%
 
-# If only was there .orange[a complete database] that contains .pink[all credit information] for each of the movies in Korea .red[!!!]
+# If only was there .orange[a complete database] that contains .Blue[all credit information] for each of the movies in Korea .red[!!!]
 
 --
 
-# .pink[Ko]rea .pink[B]ox Office .pink[I]nformation .pink[S]ystem (.pink[KOBIS])
+# .LARGE[.pink[Ko]rea .pink[B]ox Office .pink[I]nformation .pink[S]ystem (.pink[KOBIS])]
 
 ---
 
@@ -298,9 +298,35 @@ background-size: 100%
 
 ![](images/kobis_api.png)
 
+---
 
+# Getting the data using API (.tiny[there was a daily limit])
+
+
+```{r, eval=F}
+# Scraping the simple information of Korean movie workers
+
+library(tidyverse)
+library(jsonlite)
+
+masterlist1 <- data.frame()
+
+for (I in 1:500){
+  url_jsonlist <- paste0("http://kobis.or.kr/kobisopenapi/webservice/rest/people/searchPeopleList.json?key=ee223f1aa3ad93af2be4362133f6a174&curPage=", I ,"")
+
+  temp1 <- as.data.frame(fromJSON(url_jsonlist))
+  masterlist1 <- plyr::rbind.fill(masterlist1, temp1)
+  Sys.sleep(1)
+}
+
+... 
+```
+
+### After data cleaning `r fa("snowplow", fill='blue')`, a complete list of movie workers' participation in movie projects on .pink[a yearly] basis.
 
 ---
+
+
 .content-box-green[
 # The Hypotheses
 
