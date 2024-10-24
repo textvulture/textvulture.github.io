@@ -296,6 +296,7 @@ background-size: contain
     - Interviews? Fieldwork?
     
 --
+  
   - **Only** if the victims were really aware of things.
 
 
@@ -467,16 +468,26 @@ background-size: 120%
 
 ---
 
-# Variety of Democracy: [Click](https://v-dem.net/graphing/graphing-tools/)
+
+class: right, top
+background-image: url(https://github.com/textvulture/textvulture.github.io/blob/master/images/vdem1.JPG?raw=true)
+
+# .content-box-blue[**Variety of Democracy**: [Click](https://v-dem.net/graphing/graphing-tools/)]
 
 
 ---
 
-# World Value Survey: [Click](https://www.worldvaluessurvey.org/WVSOnline.jsp)
+class: right, top
+background-image: url(https://github.com/textvulture/textvulture.github.io/blob/master/images/wvs1.jpg?raw=true)
+
+# .content-box-yellow[**World Value Survey**: [Click](https://www.worldvaluessurvey.org/WVSOnline.jsp)]
 
 ---
 
-# World Development Indicators: [Click](https://data.worldbank.org/)
+class: right, top
+background-image: url(https://github.com/textvulture/textvulture.github.io/blob/master/images/WDI1.JPG?raw=true)
+
+# .content-box-red[**World Development Indicators**: [Click](https://data.worldbank.org/)]
 
 
 ---
@@ -485,7 +496,7 @@ class: right, top
 background-image: url(https://github.com/textvulture/textvulture.github.io/blob/master/images/aiddata.png?raw=true)
 background-size: 100%
 
-# **Chinese Development Finance** [Click](https://china.aiddata.org/)
+# .content-box-army[**Chinese Development Finance** [Click](https://china.aiddata.org/)]
 
 
 ```{r, include=F, echo=F }
