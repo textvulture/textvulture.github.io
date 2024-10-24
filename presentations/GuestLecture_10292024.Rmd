@@ -456,7 +456,31 @@ background-color: black
 
 ## `r fa("fist-raised", fill='#948DF0')` democracy eventually worked .violet[this time]
 
+---
 
+# Maybe .red[not] interested in quanitative methods per se, but still want to use some data in your project? Here are some great sources that offer visualization. No coding skills needed. Drop-down menus only.
+
+---
+
+# Variety of Democracy
+
+
+---
+
+# World Value Survey
+
+---
+
+# World Development Indicators
+
+
+---
+
+class: inverse, center, middle
+background-image: url(images/aiddata.png)
+background-size: 100%
+
+# Chinese Development Finance [Click](https://china.aiddata.org/)
 
 
 ```{r, include=F, echo=F }
