@@ -1,6 +1,6 @@
 ---
-title: "GLOA 720 Syllabus (<red>practice</red>)"
-subtitle: Spring 2025
+title: "GLOA 720 Capstone Research"
+subtitle: Spring 2025, Online Asynchronous
 format: 
   html:
     other-links: 
@@ -16,9 +16,13 @@ format:
 editor: visual
 author: 
   - name: "Byunghwan 'Ben' Son (bson3@gmu.edu)"
+    meta-data:
+      custom-info: "Office Hours"
     affiliations:
       - name: Global Affairs, George Mason Uiversity
         url: https://globalaffairs.gmu.edu/
+    
+
 bibliography: references.bib
 csl: C:\\Users\\kalka\\Dropbox\\latex\\apsa.csl
 toc: true
@@ -36,7 +40,7 @@ mark {
   padding: 0.2em;
 }
 
-mark-2 {
+mark2 {
   background-color: #840a73;
   color: white;
   border-radius: 5px; 
@@ -49,16 +53,29 @@ red {
 
 </style>
 ```
+
+# Office Hours and Email Communications
+
+- Office Hours 1:30-3:00 PM via Zoom (link available in Canvas).
+  * This is an online class, so office hours are also online only.
+- You can email me whenever you want, but my responses to the emails sent to me after 5 pm weekdays as well as any time during the weekend will be significantly slow. 
+  * For your own interest, you might want to try to use the normal working hours (9 AM to 5 PM, Monday through Friday). In your email, please indicate <red>who you are</red> and <red>which class you’re in (i.e., GLOA 720)</red>.
+  * For security reasons, emails not sent from the Mason account (i.e., gmu.edu) won't be answered. This is the University policy.
+
 # Course Description
 
-Capstone Research Seminar offers an opportunity for GLOA MA students to draw upon the different skills and bodies of knowledge acquired and honed during the course MA studies. The goal is to prepare the students to operate professionally in a complex global environment that requires a range of analytical skills. We tap into your previous coursework which has so far trained you to think critically of your own orientations, worldview, and presuppositions. In this class, you will apply them to a specific research project of your choice. While we start out talking extensively about social science research methods, the course is not a research methods course. Nor is it a \`repeat of GLOA 605'. Rather it sets out to explore ways in which we can link theories and concepts to methods in order to generate new knowledge and persuasive arguments. The underlying assumption is that in order to operate effectively in a global age, we need to know not only how to produce knowledge and arguments but also assess and evaluate those made by others, their (implicit or explicit) presuppositions, blind spots, and understandings. The frequent presentations as well as peer-review assignments are to incorporate these assumptions into an effective learning process. As such, this seminar is not to turn you into an academic. Instead, it is a collective learning experience focusing on analytical speaking, writing, and communications. All those efforts will be reflected in your final outcome of the class, a **capstone research paper**.
+Capstone Research Seminar offers an opportunity for GLOA MA students to draw upon the different skills and bodies of knowledge acquired and honed during the course MA studies. The goal is to prepare the students to operate professionally in a complex global environment that requires a range of analytical skills. We tap into your previous coursework which has so far trained you to think critically of your own orientations, worldview, and presuppositions. In this class, you will apply them to a specific research project of your choice. While we start out talking extensively about social science research methods, the course is not a research methods course. Nor is it a 'repeat of GLOA 605.' Rather, it sets out to explore ways in which we can link theories and concepts to methods in order to generate new knowledge and persuasive arguments. The underlying assumption is that in order to operate effectively in a global age, we need to know not only how to produce knowledge and arguments but also assess and evaluate those made by others, their (implicit or explicit) presuppositions, blind spots, and understandings. The frequent presentations as well as peer-review assignments are to incorporate these assumptions into an effective learning process. As such, this seminar is not to turn you into an academic. Instead, it is a collective learning experience focusing on analytical speaking, writing, and communications. All those efforts will be reflected in your final outcome of the class, a **capstone research paper**.
+
+# Course Requirements
+
+# Course Policies
 
 # Course Schedule and Readings
 
 -   Unless specified as <mark>not required</mark>, all the listed readings are required readings.
     -   Required readings are indispensable for your successful completion of this course.
     -   <mark>not required</mark> readings might still be tremendously helpful and you are strongly encouraged to finish them too.
--   Some readings might have hyperlinks. Others don't. It doesn't matter. You should be able to find almost all readings in the syllabus in <red>PDF</red> in [Fenwick library](https://library.gmu.edu/) because all the reference information is provided. 
+-   Some readings might have hyperlinks. Others don't. It doesn't matter. You should be able to find almost all readings in the syllabus in <red>PDF</red> in [Fenwick library](https://library.gmu.edu/) because all the reference information is provided.
 -   Readings and the schedules are subject to change.
 -   You are expected to complete the reading within the first three days of the week.
 
