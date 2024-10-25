@@ -1,0 +1,8 @@
+function Cite(el)
+    local cite_key = el.citations[1].id
+    -- Retrieve the full citation using Pandoc's bibliography processor
+    local bib_entry = pandoc.utils.stringify(pandoc.citeproc.bibliography[cite_key])
+    
+    -- Replace the citation with the full text
+    return pandoc.RawInline("html", bib_entry)
+end
