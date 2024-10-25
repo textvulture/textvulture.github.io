@@ -1,0 +1,16 @@
+---
+title: "GLOA 720 Syllabus (practice)"
+format: html
+editor: visual
+authors: 
+  - name: Byunghwan 'Ben' Son
+    email: bson3@gmu.edu
+#    url: https://textvulture.github.io/
+    affiliations:
+      - name: Global Affairs, George Mason Uiversity
+        url: https://globalaffairs.gmu.edu/
+  - name: `r fa("envelop")` "bson3@gmu.edu"
+  - name: "[https://globalaffairs.gmu.edu/](https://globalaffairs.gmu.edu/)"
+---
+
+# 
