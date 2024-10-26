@@ -1,0 +1,75 @@
+---
+title: "GLOA 610 Economic Globalization and Development"
+subtitle: Spring 2025
+format: 
+  html:
+    other-links: 
+      - text: Personal Webpage
+        icon: house
+        href: https://textvulture.github.io/
+      - text: GLOA Profile
+        href: https://globalaffairs.gmu.edu/
+        icon: buildings
+      - text: GitHub
+        href: https://github.com/textvulture
+        icon: github
+editor: visual
+author: 
+  - name: "Byunghwan 'Ben' Son (bson3@gmu.edu)"
+    meta-data:
+      custom-info: "Office Hours"
+    affiliations:
+      - name: Global Affairs, George Mason Uiversity
+        url: https://globalaffairs.gmu.edu/
+    
+
+bibliography: references.bib
+csl: C:\\Users\\kalka\\Dropbox\\latex\\apsa.csl
+toc: true
+toccolor: blue
+smooth-scroll: true
+---
+
+```{=html}
+<style>
+
+mark {
+  background-color: #ece985;
+  color: black;
+  border-radius: 5px; 
+  padding: 0.2em;
+}
+
+mark2 {
+  background-color: #840a73;
+  color: white;
+  border-radius: 5px; 
+  padding: 0.2em;
+}
+
+red {
+  color: #9b1212;
+}
+
+</style>
+```
+
+
+# Office Hours and Email Communications
+
+- Office Hours 1:30-3:00 PM (Horizon Hall, 6235)
+- You can email me whenever you want, but my responses to the emails sent to me after 5 pm weekdays as well as any time during the weekend will be significantly slow. 
+  * For your own interest, you might want to try to use the normal working hours (9 AM to 5 PM, Monday through Friday). In your email, please indicate <red>who you are</red> and <red>which class you’re in (i.e., GLOA 720)</red>.
+  * For security reasons, emails not sent from the Mason account (i.e., gmu.edu) won't be answered. This is the University policy.
+  
+# Course Description
+
+Does globalization treat everybody equally (every country, every society, every region, or every system)? Throughout the semester, we will be grappling with this simple question in several different contexts. Particularly, we will navigate various avenues of economic globalization including trade, finance, debt, and investment to discuss to what extent globalization affects the
+economic well-being of nation-states, societies, and people around the world. In doing so, we will often employ conflicting ideological/theoretical perspectives. Throughout, we will also consider the “what should be done” questions: If globalization brings about prosperity, how can we make it more equitable and effective? If globalization traps people in misery, what can ameliorate it? Note that there hardly is a ‘right’ answer—or any answer—to any of these questions. By the end of the semester, students are expected to be familiar with the current literature on (and issues in general about) economic globalization and able to critically evaluate them. One more thing. <red>This ain't no econ class. Nor am I an economist.</red>
+
+# Course Requirement
+
+
+# Reading Schedule
+
+
