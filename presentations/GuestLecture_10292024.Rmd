@@ -46,13 +46,33 @@ background-image: url(https://textvulture.github.io/portrait_July2024.png)
 background-position: 23cm 2.5cm
 background-size: 20%
 
-# .large[A sneak peek into <br> a .yellow[quantitative] researcher's workflow] <br><br>
+# .large[Inside a Quantitative Researcher’s <br> Workflow: .yellow[A Sneak Peek]] <br><br>
 ----
 
 ### .right[Byunghwan Ben Son (GLOA, GMU)]
 
-### .right[GLOA 491 Guest Lecture]
+### .right[GLOA 491 (MK) Guest Lecture]
 
+
+---
+
+# Before we start:
+
+### The slides are completely .pink[online] and you can easily access it.
+
+```{r, echo=F, include=F, cache=T}
+
+library(qrcode)
+
+qr <- qr_code("https://textvulture.github.io/presentations/GuestLecture_10292024.html")
+
+```
+
+```{r, fig.align='center', out.width="400px"}
+
+plot(qr)
+
+```
 
 ---
 
@@ -62,8 +82,8 @@ background-size: 20%
 
 ---
 
-class: inverse
-background-image: url(https://github.com/textvulture/textvulture.github.io/blob/master/images/forestBackground3.jpg?raw=true)
+class: inverse, middle
+background-image: url(https://github.com/textvulture/textvulture.github.io/blob/master/images/waveBackground2.jpg?raw=true)
 background-size: 120%
 
 --
@@ -71,7 +91,7 @@ background-size: 120%
 <br><br>
 - .LARGE[But This won't be a research presentation.]
 
-  - .large[I mean you read the paper `r fa('paperclip', fill='orange')` .]
+  - .Large[I mean, you read the paper `r fa('paperclip', fill='orange')` .]
 
 --
 
@@ -79,7 +99,21 @@ background-size: 120%
 
 --
 
-- .LARGE[If you're interested in how this project was .pink[presented] in a conference, here's the link to the slides: [https://textvulture.github.io/presentations/bkv_slide.html#1](https://textvulture.github.io/presentations/bkv_slide.html#1) (MPSA 2021)]
+  - .Large[If you're interested in how this project was .pink[presented] in a conference, here's the link to the slides: (Presented at MPSA 2021)]
+  
+--
+
+```{r, include=F, echo=F, cache=T}
+
+qr2 <- qr_code("https://textvulture.github.io/presentations/bkv_slide.html")
+
+```
+
+```{r, fig.align='right', out.width='150px'}
+
+plot(qr2)
+
+```
 
 ---
 
@@ -87,7 +121,7 @@ class: inverse, left, top
 background-image: url(https://media1.tenor.com/m/UQsZGD3pinAAAAAd/shall-we-begin-star-trek.gif)
 background-size: 110%
 
-# I am sure you must've <br> talked about this <br> .Green[a lot] already in this class.
+# I am sure you must've <br> talked about this <br> .red[a lot] already in this class.
 
 --
 
@@ -297,11 +331,91 @@ background-size: contain
     
 --
   
-  - **Only** if the victims were really aware of things.
+- **Only** if the victims were really aware of things.
 
+--
+
+- Causal Inference Approach
+
+--
+
+  * 'sleazy people' getting power: **cause**
+  * 'lives ruined': **effect** 
+
+---
+
+background-image: url(https://images.stockcake.com/public/f/5/6/f56d2eac-113f-44e3-9929-d5c3e24c3085_medium/rustic-direction-sign-stockcake.jpg)
+background-position: right
+background-size: contain
+
+
+# In a .Yellow[causal inference framework], <br> I need to show  <br> *'A downward career trajectory <br> for the blacklisted, <br> compared to those who weren't.'*
+
+---
+
+background-image: url(https://images.stockcake.com/public/f/5/6/f56d2eac-113f-44e3-9929-d5c3e24c3085_medium/rustic-direction-sign-stockcake.jpg)
+background-position: right
+background-size: contain 
+
+# In a .Yellow[causal inference framework], <br> I need to show  <br> *'A downward career trajectory <br> for .content-box-green[the blacklisted], <br> compared to those who weren't.'*
 
 
 ---
+
+background-image: url(https://images.stockcake.com/public/f/5/6/f56d2eac-113f-44e3-9929-d5c3e24c3085_medium/rustic-direction-sign-stockcake.jpg)
+background-position: right
+background-size: contain
+
+# In a .Yellow[causal inference framework], <br> I need to show  <br>*'A downward career trajectory <br> for .content-box-green[the blacklisted], <br> compared to those who weren't.'*
+
+- .Large[.content-box-green[treated]]
+
+---
+
+background-image: url(https://images.stockcake.com/public/f/5/6/f56d2eac-113f-44e3-9929-d5c3e24c3085_medium/rustic-direction-sign-stockcake.jpg)
+background-position: right
+background-size: contain
+
+# In a .Yellow[causal inference framework], <br> I need to show  <br> *'A downward career trajectory <br> for .content-box-green[the blacklisted], <br> compared to .content-box-yellow[those who weren't.]'*
+
+- .Large[.content-box-green[treated]]
+
+---
+
+background-image: url(https://images.stockcake.com/public/f/5/6/f56d2eac-113f-44e3-9929-d5c3e24c3085_medium/rustic-direction-sign-stockcake.jpg)
+background-position: right
+background-size: contain
+
+# In a .Yellow[causal inference framework], <br> I need to show  <br> *'A downward career trajectory <br> for .content-box-green[the blacklisted], <br> compared to .content-box-yellow[those who weren't.]'*
+
+- .Large[.content-box-green[treated]]
+- .Large[.content-box-yellow[controlled]]
+
+---
+
+background-image: url(https://images.stockcake.com/public/f/5/6/f56d2eac-113f-44e3-9929-d5c3e24c3085_medium/rustic-direction-sign-stockcake.jpg)
+background-position: right
+background-size: contain
+
+# In a .Yellow[causal inference framework], <br> I need to show  <br> *'A .content-box-red[downward career trajectory] <br> for .content-box-green[the blacklisted], <br> compared to .content-box-yellow[those who weren't.]'*
+
+- .Large[.content-box-green[treated]]
+- .Large[.content-box-yellow[controlled]]
+
+---
+
+background-image: url(https://images.stockcake.com/public/f/5/6/f56d2eac-113f-44e3-9929-d5c3e24c3085_medium/rustic-direction-sign-stockcake.jpg)
+background-position: right
+background-size: contain
+
+# In a .Yellow[causal inference framework], <br> I need to show  <br> *'A .content-box-red[downward career trajectory] <br> for .content-box-green[the blacklisted], <br> compared to .content-box-yellow[those who weren't.]'*
+
+- .Large[.content-box-green[treated]]
+- .Large[.content-box-yellow[controlled]]
+- .Large[.content-box-red[outcome]]
+
+---
+
 
 
 class: center, middle
