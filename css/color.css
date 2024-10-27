@@ -218,23 +218,20 @@ blockquote, .blockquote {
   color: white;
 }
 
+.full-width-banner{
+  position: relative;  
+  z-index: 0;
+  margin: -2.5rem -600rem;
+  top: 0;
+  padding: 0.05rem 600rem;
+  background: #1abc9c;
+  color: white;
+}
+
 .pulse {
   -webkit-animation-name: pulse;
   animation-name: pulse;
 }
-
-.banner {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-color: green;
-  color: #ffffff;
-  height: 50px;
-  font-size: 24px;
-  font-weight: bold;
-  color: white;
-}
-
 
 
 

@@ -85,7 +85,7 @@ knitr::include_graphics('qr.png')
 
 ---
 
-class: inverse, middle
+class: inverse
 background-image: url(https://github.com/textvulture/textvulture.github.io/blob/master/images/waveBackground2.jpg?raw=true)
 background-size: 120%
 
@@ -94,7 +94,7 @@ background-size: 120%
 <br><br>
 ## But This won't be a research presentation.
 
-  - .Large[I mean, you've already read the paper `r fa('paperclip', fill='orange')` .]
+  - .Large[You've already read the paper `r fa('paperclip', fill='orange')` .]
 
 --
 
@@ -102,7 +102,7 @@ background-size: 120%
 
 --
 
-  - .Large[If you're interested in how this project was .pink[presented] in a conference, here's the link to the slides: (Presented at MPSA 2021)]
+  - .Large[If you're interested in how this project was .pink[presented] in a typical research talk, here's the link to the slides: (Presented at MPSA 2021)]
   
 --
 
@@ -201,7 +201,9 @@ background-size: 100%
 
 --
 
-# Now let's get on to the .Blue[project].
+# Now let's get on to the .Blue[project]: 
+
+### `r fa("book", fill='red')` "Consequences of Democratic Backsliding on Popular Culture: Evidence from Blacklist in South Korea" *Democratization*, Forthcoming.
 
 ---
 
@@ -228,18 +230,6 @@ background-position: right
 ## - Govt: NIS, Blue House, MHST
 
 ## - discrete operation
-
----
-class: inverse, middle
-background-image: url(https://img.seoul.co.kr/img/upload/2016/12/08/SSI_20161208102613_O2.jpg)
-background-position: right
-background-color: black
-background-size: contain
-
-# "*Why have you not .red[sanctioned] <br> these [anti-government] <br> movie producers yet?*" <br><br> 
-
-## **Kim Ki-choon**, <br> Park Geun-hye's Chief Secretary, <br> after watching *The Attorney* <br> to **Yoo Jin-ryong**, <br> Minister of Culture, Sports and Tourism. 
-
 
 ---
 
@@ -277,6 +267,17 @@ kable(txt_tbl) %>%
 ```
 ]
 
+---
+
+class: inverse, middle
+background-image: url(https://img.seoul.co.kr/img/upload/2016/12/08/SSI_20161208102613_O2.jpg)
+background-position: right
+background-color: black
+background-size: contain
+
+# "*Why have you not .red[sanctioned] <br> these [anti-government] <br> movie producers yet?*" <br><br> 
+
+## **Kim Ki-choon**, <br> Park Geun-hye's Chief Secretary, <br> after watching *The Attorney* <br> to **Yoo Jin-ryong**, <br> Minister of Culture, Sports and Tourism. 
 
 ---
 
@@ -285,7 +286,7 @@ background-position: right
 background-size: contain
 
 
-# (Personal) Motivation
+# **Motivation** .pink[.small[.tiny[(why chose the particular method)]]]
 
 --
 
@@ -548,9 +549,36 @@ expression %>%
 .pull-left[![](https://github.com/textvulture/textvulture.github.io/blob/master/images/bkv_count.jpeg?raw=true)]
 .pull-right[![](https://github.com/textvulture/textvulture.github.io/blob/master/images/bkv_count2.jpeg?raw=true)]
 
+
+---
+## .content-box-yellow[How can I **compare** the treated .tiny[(blacklisted)] & the control .tiny[(not blacklisted)]?]
+
+--
+
+.large[.red[D]ifference-.red[i]n-.red[D]ifference (.red[DiD])]
+
+--
+
+.pull-left[
+![](https://thetarzan.wordpress.com/wp-content/uploads/2011/06/d-i-d.png)
+
+.tiny[source: [https://thetarzan.wordpress.com/2011/06/20/differences-in-differences-estimation-in-r-and-stata/](https://thetarzan.wordpress.com/2011/06/20/differences-in-differences-estimation-in-r-and-stata/)]
+]
+
+--
+
+.pull-right[
+
+.center[
+<div style="width:260px;max-width:100%;"><div style="height:0;padding-bottom:150.77%;position:relative;"><iframe width="260" height="392" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameBorder="0" src="https://imgflip.com/embed/982w1b"></iframe>
+
+]
+]
+
+
 ---
 
-## Model & Result (Difference-in-Difference)
+## **DiD** Model & Result 
 
 
 \begin{equation}
@@ -571,8 +599,11 @@ ln(movies + 1) = \beta_0 + \color{red}{\beta_1}Blacklisted_{it} \times Treatment
 
 ---
 
-.LARGE[**.green[Event Study] Approach**]
-.pull-left[### Benchmark
+### .Large[**Event Study**]
+
+--
+
+.pull-left[.large[Benchmark]
 ```{r, echo=F, fig.align='center', out.height="90%"}
 knitr::include_graphics("https://github.com/textvulture/textvulture.github.io/blob/master/images/bkv1.JPG?raw=true")
 ```
@@ -580,7 +611,7 @@ knitr::include_graphics("https://github.com/textvulture/textvulture.github.io/bl
 
 --
 
-.pull-right[### .red[Non]-actors
+.pull-right[.large[.red[Non]-actors]
 ```{r, echo=F, fig.align='center', out.height="90%"}
 knitr::include_graphics("https://github.com/textvulture/textvulture.github.io/blob/master/images/bkv2.JPG?raw=true")
 ```
@@ -588,8 +619,9 @@ knitr::include_graphics("https://github.com/textvulture/textvulture.github.io/bl
 
 ---
 
-# RnR and Endless Robustness Check
+# Endless Robustness Check: .pink['But can we trust you?']
 
+<iframe src="https://textvulture.github.io/mypage/Son2024a/OnlineAppendix.pdf" width=1200 height=450> </iframe>
 
 ---
 
