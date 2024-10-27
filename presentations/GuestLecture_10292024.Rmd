@@ -1,5 +1,5 @@
 ---
-title: "BLACKLISTS"
+title: "Guest Lecture"
 author: "Byunghwan Son <br> George Mason University"
 date: " "
 #########################################
@@ -40,7 +40,7 @@ options(htmltools.preserve.raw = FALSE)
 ```
 
 
-background-color: #3a4a37
+background-color: #094e0d
 class: inverse, middle
 background-image: url(https://textvulture.github.io/portrait_July2024.png)
 background-position: 23cm 2.5cm
@@ -49,7 +49,7 @@ background-size: 20%
 # .large[Inside a Quantitative Researcher’s <br> Workflow: .yellow[A Sneak Peek]] <br><br>
 ----
 
-### .right[Byunghwan Ben Son (GLOA, GMU)]
+## .right[Byunghwan Ben Son <br> .tiny[(Associate Professor, GLOA, GMU)]]
 
 ### .right[GLOA 491 (MK) Guest Lecture]
 
@@ -60,17 +60,20 @@ background-size: 20%
 
 ### The slides are completely .pink[online] and you can easily access it.
 
-```{r, echo=F, include=F, cache=T}
+```{r, echo=F, include=F}
 
 library(qrcode)
-
-qr <- qr_code("https://textvulture.github.io/presentations/GuestLecture_10292024.html")
+ 
+# png(file="qr.png")
+# qr <- qr_code("https://textvulture.github.io/presentations/GuestLecture_10292024.html")
+# plot(qr)
+# dev.off()
 
 ```
 
 ```{r, fig.align='center', out.width="400px"}
 
-plot(qr)
+knitr::include_graphics('qr.png')
 
 ```
 
@@ -89,13 +92,13 @@ background-size: 120%
 --
 
 <br><br>
-- .LARGE[But This won't be a research presentation.]
+## But This won't be a research presentation.
 
-  - .Large[I mean, you read the paper `r fa('paperclip', fill='orange')` .]
+  - .Large[I mean, you've already read the paper `r fa('paperclip', fill='orange')` .]
 
 --
 
-- .LARGE[Instead, we will take a look at how a paper like that is .yellow[conceived] and then .bluey[produced] (hence the title).]
+## Instead, we will take a look at how a paper like that is .yellow[conceived] and then .bluey[produced] (hence the title).
 
 --
 
@@ -105,13 +108,17 @@ background-size: 120%
 
 ```{r, include=F, echo=F, cache=T}
 
-qr2 <- qr_code("https://textvulture.github.io/presentations/bkv_slide.html")
+
+#png(file="qr2.png")
+#qr2 <- qr_code("https://textvulture.github.io/presentations/bkv_slide.html")
+#plot(qr2)
+#dev.off
 
 ```
 
 ```{r, fig.align='right', out.width='150px'}
 
-plot(qr2)
+knitr::include_graphics('qr2.png')
 
 ```
 
@@ -120,6 +127,10 @@ plot(qr2)
 class: inverse, left, top
 background-image: url(https://media1.tenor.com/m/UQsZGD3pinAAAAAd/shall-we-begin-star-trek.gif)
 background-size: 110%
+
+# Let's start with some method talks.
+
+--
 
 # I am sure you must've <br> talked about this <br> .red[a lot] already in this class.
 
@@ -181,6 +192,20 @@ knitr::include_graphics("https://raw.githubusercontent.com/textvulture/textvultu
 
 ---
 
+class: inverse, middle
+background-color: black
+background-image: url(https://github.com/textvulture/textvulture.github.io/blob/master/images/forestBackground2.jpg?raw=true)
+background-size: 100%
+
+# Okay, we now know what kind of .yellow[method] we are talking about.
+
+--
+
+# Now let's get on to the .Blue[project].
+
+---
+
+
 class: inverse
 background-color: black
 background-image: url(https://github.com/textvulture/textvulture.github.io/blob/master/images/blacklist_eg.jpeg?raw=true)
@@ -218,48 +243,6 @@ background-size: contain
 
 ---
 
-## The theoretical background: .orange[democratic backsliding] in South Korea <br> .small[Compromised .green[Freedom of Speech], in particular (V-dem)]
-
-```{r, echo=F, warning=F, message=F, error=F, cache=T, fig.align='center', fig.width=11}
-
-library(vdem) 
-#remotes::install_github("xmarquez/vdem")
-
-var <- c("v2x_freexp")
-
-country <- c("South Korea", 
-            "Hungary",
-            "Russia")
-  
-  
-expression <- extract_vdem(
-  include_sd = TRUE,
-  label_pattern = "expression"
-)
-
-library(geomtextpath)
-
-expression %>% 
-  filter(vdem_country_name == country) %>%
-  filter(year>1979) %>%
-  ggplot(aes(x=year, y=v2x_freexp, 
-             fill=vdem_country_name, label=vdem_country_name)) +
-    theme_minimal() +
-  geom_vline(xintercept = c(2008, 2017), color="gray", 
-                  linetype="longdash", alpha=0.9) +
-  geom_ribbon(aes(ymin = v2x_freexp_codelow,
-                  ymax = v2x_freexp_codehigh),
-                  alpha=0.2) +
-  geom_textline(aes(label=vdem_country_name,
-                    color=vdem_country_name)) +
-     theme(legend.position = "none",
-      axis.text=element_text(size=20),
-      axis.title=element_text(size=20)) +
-  labs(x="year", y="Freedom of Expression Index")
-
-```
-
----
 
 background-image: url(https://img.khan.co.kr/news/2015/11/04/l_2015110401000555600049501.jpg)
 background-position: right
@@ -437,15 +420,15 @@ background-size: 100%
 
 ---
 
-# KOBIS, API
+# **KOBIS**, API (application programming interface)
 
 --
 
-![](images/kobis_api.png)
+![](https://github.com/textvulture/textvulture.github.io/blob/master/images/kobis_api.png?raw=true)
 
 ---
 
-# Getting the data using API (.tiny[there was a daily limit])
+# Getting the data using API .tiny[(there was a daily limit)]
 
 
 ```{r, echo=T, eval=F}
@@ -469,6 +452,50 @@ for (I in 1:500){
 ```
 
 ### After quite a bit of data cleaning `r fa('snowplow', fill='blue')` , a complete list of movie workers' participation in movie projects on .pink[a yearly] basis.
+
+---
+
+
+## The theoretical background: .orange[democratic backsliding] in South Korea, .small[compromised .green[Freedom of Speech], in particular (V-dem)]
+
+```{r, echo=F, warning=F, message=F, error=F, cache=T, fig.align='center', fig.width=11}
+
+library(vdem) 
+#remotes::install_github("xmarquez/vdem")
+
+var <- c("v2x_freexp")
+
+country <- c("South Korea", 
+            "Hungary",
+            "Russia")
+  
+  
+expression <- extract_vdem(
+  include_sd = TRUE,
+  label_pattern = "expression"
+)
+
+library(geomtextpath)
+
+expression %>% 
+  filter(vdem_country_name == country) %>%
+  filter(year>1979) %>%
+  ggplot(aes(x=year, y=v2x_freexp, 
+             fill=vdem_country_name, label=vdem_country_name)) +
+    theme_minimal() +
+  geom_vline(xintercept = c(2008, 2017), color="gray", 
+                  linetype="longdash", alpha=0.9) +
+  geom_ribbon(aes(ymin = v2x_freexp_codelow,
+                  ymax = v2x_freexp_codehigh),
+                  alpha=0.2) +
+  geom_textline(aes(label=vdem_country_name,
+                    color=vdem_country_name)) +
+     theme(legend.position = "none",
+      axis.text=element_text(size=20),
+      axis.title=element_text(size=20)) +
+  labs(x="year", y="Freedom of Expression Index")
+
+```
 
 ---
 
