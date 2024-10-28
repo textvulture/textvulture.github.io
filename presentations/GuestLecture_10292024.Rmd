@@ -317,16 +317,34 @@ background-size: contain
   
 - **Only** if the victims were really aware of things.
 
+---
+
+.full-width-tinted[
+# Causal Inference Approach
+]
+
+### Again, I want to argue: *sleazy people ruining cool people's lives.* 
+
+ - 'sleazy people' getting power: **cause**
+ - 'lives ruined': **effect** 
+
 --
 
-- Causal Inference Approach
+### The argument has a good theoretical framework to work with: .orange[democratic backsliding]
+  - will come back to this later
 
 --
 
-  * 'sleazy people' getting power: **cause**
-  * 'lives ruined': **effect** 
+## .content-box-green[The Hypotheses .tiny[(translation of the argument into a relationship between the .red[observables])]]
+
+### $H_1$. Being blacklisted .red[decreases] a movie worker's chances of securing a movie job.
+
+
+### $H_2$. The negative career effect of Blacklist is larger for .red[non-actor] movie workers.
+
 
 ---
+
 
 background-image: url(https://images.stockcake.com/public/f/5/6/f56d2eac-113f-44e3-9929-d5c3e24c3085_medium/rustic-direction-sign-stockcake.jpg)
 background-position: right
@@ -404,7 +422,7 @@ background-size: contain
 
 class: center, middle
 
-# If only was there .orange[a complete database] that contains .pink[all credit information] for each of the movies in Korea ...
+# If only there was .orange[a complete database] that contains .pink[all credit information] for each of the movies in Korea ...
 
 
 ---
@@ -413,7 +431,7 @@ class: center, middle
 background-image: url(https://raw.githubusercontent.com/textvulture/textvulture.github.io/refs/heads/master/images/kobis.png)
 background-size: 100%
 
-# If only was there .orange[a complete database] that contains .Blue[all credit information] for each of the movies in Korea .red[!!!]
+# If only there was .orange[a complete database] that contains .Blue[all credit information] for each of the movies in Korea .red[!!!]
 
 --
 
@@ -441,7 +459,7 @@ library(jsonlite)
 masterlist1 <- data.frame()
 
 for (I in 1:500){
-  url_jsonlist <- paste0("http://kobis.or.kr/kobisopenapi/webservice/rest/people/searchPeopleList.json?key=ee223f1aa3ad93af2be4362133f6a174&curPage=", I ,"")
+  url_jsonlist <- paste0("http://kobis.or.kr/kobisopenapi/webservice/rest/people/searchPeopleList.json?key=[API Key Here]=", I ,"")
 
   temp1 <- as.data.frame(fromJSON(url_jsonlist))
   masterlist1 <- plyr::rbind.fill(masterlist1, temp1)
@@ -522,40 +540,41 @@ expression %>%
 
 ---
 
+## .content-box-red[Match The Data]
 
-.content-box-green[
-# The Hypotheses
-
-### 1. Being blacklisted .red[decreases] a movie worker's chances of securing a movie job.
-
-### 2. The negative career effect of being blacklisted is larger for .red[non-actor] movie workers than for actors.
-]
-
---
-
-.content-box-yellow[
-# The Data
-
-### A panel data set based on the KOBIS moive data base (API) matched with the Blacklists
-### N=1.6 mil, unbalanced; 2012 = treatment year (when most things *really* happened)
-]
+###- Match the KOBIS data with Blacklist
+###- The total number of movies where an worker's name appeared each year.
 
 ---
 
 # .content-box-green[Showing some descriptive data is always important:]
 
-## Number (L) and Portion (R) of the .red[blacklisted] movieworkers (.violet[employed])
+### Number (L) and Portion (R) of the .red[blacklisted] movieworkers (.violet[employed])
 
-.pull-left[![](https://github.com/textvulture/textvulture.github.io/blob/master/images/bkv_count.jpeg?raw=true)]
-.pull-right[![](https://github.com/textvulture/textvulture.github.io/blob/master/images/bkv_count2.jpeg?raw=true)]
+.pull-left[
+![](https://github.com/textvulture/textvulture.github.io/blob/master/images/bkv_count.jpeg?raw=true)
+]
 
+.pull-right[
+![](https://github.com/textvulture/textvulture.github.io/blob/master/images/bkv_count2.jpeg?raw=true)
+]
+
+--
+
+### .center[But it ain't give you no real answer. `r fa("file-circle-question", fill='purple')` What about .red[not] working for a movie?] 
 
 ---
+
+
 ## .content-box-yellow[How can I **compare** the treated .tiny[(blacklisted)] & the control .tiny[(not blacklisted)]?]
 
 --
 
-.large[.red[D]ifference-.red[i]n-.red[D]ifference (.red[DiD])]
+.large[The K-movie industry has evolved so dramatically. There are so many factors in play! `r fa("face-tired", fill='green')`]
+
+--
+
+.large[Solution: .red[D]ifference-.red[i]n-.red[D]ifference (.red[DiD])]
 
 --
 
@@ -575,27 +594,49 @@ expression %>%
 ]
 ]
 
-
 ---
 
-## **DiD** Model & Result 
-
-
-\begin{equation}
-ln(movies + 1) = \beta_0 + \color{red}{\beta_1}Blacklisted_{it} \times Treatment_{t} + \mathbf X + FE(unit, year, role) + \epsilon_{it},
-\end{equation}
-
-
+# Turn the Data into a .pink[panel] structure.
 --
 
+### Filling in .red[zeros] for the years of no movie work.
+
 ```{r, echo=F}
+df <- readRDS('/Users/bson3/GitHub/bkv/data.rds')
+```
 
-# readRDS('/Users/bson3/GitHub/bkv/table_re.rds')
+```{r, echo=T}
 
+df %>% head(., 7)
 
 ```
 
-<iframe src="table.html" width="100%" height="500px"></iframe>
+--
+
+### N=1.6M, unbalanced (1991-2022); .red[2012] = treatment year
+
+
+
+---
+
+# .content-box-yellow[The model and *estimand*]
+
+.large[
+$$ln(movies + 1) = \beta_0 + \color{red}{\beta_1}Blacklisted_{it} \times Treatment_{t} + \mathbf X + FE(unit, year, role) + \epsilon_{it}$$
+]
+
+--
+
+### Recall our $H_1$ and $H_2$:
+
+
+---
+
+## **DiD** Result 
+
+--
+
+<iframe src="table.html" width="100%" height="550px"></iframe>
 
 ---
 

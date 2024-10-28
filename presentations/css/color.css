@@ -13,6 +13,10 @@
  *
  **************/
 
+ h1, h2, h3, h4, h5, h6 {
+   margin-bottom: 0.1em; /* Adjust this value to control space */
+ }
+
 .HUGE { font-size: 400% }
 
 .HugE { font-size: 300% }
@@ -210,8 +214,8 @@ blockquote, .blockquote {
 .full-width-tinted {
   position: relative;  /* for child pseudo-element */
   z-index: 0;
-  margin: -2.5rem -600rem;
-  top: 0;
+  margin: -0.5rem -600rem;
+  top: -0.75rem ;
   /* add back negative margin value */
   padding: 0.05rem 600rem;
   background: #1abc9c;

@@ -177,7 +177,7 @@ background-size: 40%
 # How to Get on the List
 
 .pull-left[
-&lt;table class="table table table-striped" style="color: black; width: auto !important; margin-left: auto; margin-right: auto; color: black; width: auto !important; margin-left: auto; margin-right: auto;"&gt;
+&lt;table class="table table table-striped" style="width: auto !important; margin-left: auto; margin-right: auto; width: auto !important; margin-left: auto; margin-right: auto;"&gt;
  &lt;thead&gt;
   &lt;tr&gt;
    &lt;th style="text-align:left;"&gt; List &lt;/th&gt;
@@ -270,16 +270,34 @@ background-size: contain
   
 - **Only** if the victims were really aware of things.
 
+---
+
+.full-width-tinted[
+# Causal Inference Approach
+]
+
+### Again, I want to argue: *sleazy people ruining cool people's lives.* 
+
+ - 'sleazy people' getting power: **cause**
+ - 'lives ruined': **effect** 
+
 --
 
-- Causal Inference Approach
+### The argument has a good theoretical framework to work with: .orange[democratic backsliding]
+  - will come back to this later
 
 --
 
-  * 'sleazy people' getting power: **cause**
-  * 'lives ruined': **effect** 
+## .content-box-green[The Hypotheses .tiny[(translation of the argument into a relationship between the .red[observables])]]
+
+### `\(H_1\)`. Being blacklisted .red[decreases] a movie worker's chances of securing a movie job.
+
+
+### `\(H_2\)`. The negative career effect of Blacklist is larger for .red[non-actor] movie workers.
+
 
 ---
+
 
 background-image: url(https://images.stockcake.com/public/f/5/6/f56d2eac-113f-44e3-9929-d5c3e24c3085_medium/rustic-direction-sign-stockcake.jpg)
 background-position: right
@@ -357,7 +375,7 @@ background-size: contain
 
 class: center, middle
 
-# If only was there .orange[a complete database] that contains .pink[all credit information] for each of the movies in Korea ...
+# If only there was .orange[a complete database] that contains .pink[all credit information] for each of the movies in Korea ...
 
 
 ---
@@ -366,7 +384,7 @@ class: center, middle
 background-image: url(https://raw.githubusercontent.com/textvulture/textvulture.github.io/refs/heads/master/images/kobis.png)
 background-size: 100%
 
-# If only was there .orange[a complete database] that contains .Blue[all credit information] for each of the movies in Korea .red[!!!]
+# If only there was .orange[a complete database] that contains .Blue[all credit information] for each of the movies in Korea .red[!!!]
 
 --
 
@@ -395,7 +413,7 @@ library(jsonlite)
 masterlist1 &lt;- data.frame()
 
 for (I in 1:500){
-  url_jsonlist &lt;- paste0("http://kobis.or.kr/kobisopenapi/webservice/rest/people/searchPeopleList.json?key=ee223f1aa3ad93af2be4362133f6a174&amp;curPage=", I ,"")
+  url_jsonlist &lt;- paste0("http://kobis.or.kr/kobisopenapi/webservice/rest/people/searchPeopleList.json?key=[API Key Here]=", I ,"")
 
   temp1 &lt;- as.data.frame(fromJSON(url_jsonlist))
   masterlist1 &lt;- plyr::rbind.fill(masterlist1, temp1)
@@ -438,40 +456,41 @@ background-size: 110%
 
 ---
 
+## .content-box-red[Match The Data]
 
-.content-box-green[
-# The Hypotheses
-
-### 1. Being blacklisted .red[decreases] a movie worker's chances of securing a movie job.
-
-### 2. The negative career effect of being blacklisted is larger for .red[non-actor] movie workers than for actors.
-]
-
---
-
-.content-box-yellow[
-# The Data
-
-### A panel data set based on the KOBIS moive data base (API) matched with the Blacklists
-### N=1.6 mil, unbalanced; 2012 = treatment year (when most things *really* happened)
-]
+###- Match the KOBIS data with Blacklist
+###- The total number of movies where an worker's name appeared each year.
 
 ---
 
 # .content-box-green[Showing some descriptive data is always important:]
 
-## Number (L) and Portion (R) of the .red[blacklisted] movieworkers (.violet[employed])
+### Number (L) and Portion (R) of the .red[blacklisted] movieworkers (.violet[employed])
 
-.pull-left[![](https://github.com/textvulture/textvulture.github.io/blob/master/images/bkv_count.jpeg?raw=true)]
-.pull-right[![](https://github.com/textvulture/textvulture.github.io/blob/master/images/bkv_count2.jpeg?raw=true)]
+.pull-left[
+![](https://github.com/textvulture/textvulture.github.io/blob/master/images/bkv_count.jpeg?raw=true)
+]
 
+.pull-right[
+![](https://github.com/textvulture/textvulture.github.io/blob/master/images/bkv_count2.jpeg?raw=true)
+]
+
+--
+
+### .center[But it ain't give you no real answer. <svg aria-hidden="true" role="img" viewBox="0 0 576 512" style="height:1em;width:1.12em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:purple;overflow:visible;position:relative;"><path d="M0 64C0 28.7 28.7 0 64 0H224V128c0 17.7 14.3 32 32 32H384v38.6C310.1 219.5 256 287.4 256 368c0 59.1 29.1 111.3 73.7 143.3c-3.2 .5-6.4 .7-9.7 .7H64c-35.3 0-64-28.7-64-64V64zm384 64H256V0L384 128zm48 96a144 144 0 1 1 0 288 144 144 0 1 1 0-288zm0 240a24 24 0 1 0 0-48 24 24 0 1 0 0 48zM368 321.6V328c0 8.8 7.2 16 16 16s16-7.2 16-16v-6.4c0-5.3 4.3-9.6 9.6-9.6h40.5c7.7 0 13.9 6.2 13.9 13.9c0 5.2-2.9 9.9-7.4 12.3l-32 16.8c-5.3 2.8-8.6 8.2-8.6 14.2V384c0 8.8 7.2 16 16 16s16-7.2 16-16v-5.1l23.5-12.3c15.1-7.9 24.5-23.6 24.5-40.6c0-25.4-20.6-45.9-45.9-45.9H409.6c-23 0-41.6 18.6-41.6 41.6z"/></svg> What about .red[not] working for a movie?] 
 
 ---
+
+
 ## .content-box-yellow[How can I **compare** the treated .tiny[(blacklisted)] &amp; the control .tiny[(not blacklisted)]?]
 
 --
 
-.large[.red[D]ifference-.red[i]n-.red[D]ifference (.red[DiD])]
+.large[The K-movie industry has evolved so dramatically. There are so many factors in play! <svg aria-hidden="true" role="img" viewBox="0 0 512 512" style="height:1em;width:1em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:green;overflow:visible;position:relative;"><path d="M464 256A208 208 0 1 0 48 256a208 208 0 1 0 416 0zM0 256a256 256 0 1 1 512 0A256 256 0 1 1 0 256zm176.5 64.3C196.1 302.1 223.8 288 256 288s59.9 14.1 79.5 32.3C354.5 338.1 368 362 368 384c0 5.4-2.7 10.4-7.2 13.4s-10.2 3.4-15.2 1.3l-17.2-7.5c-22.8-10-47.5-15.1-72.4-15.1s-49.6 5.2-72.4 15.1l-17.2 7.5c-4.9 2.2-10.7 1.7-15.2-1.3s-7.2-8-7.2-13.4c0-22 13.5-45.9 32.5-63.7zm-43-173.6l89.9 47.9c10.7 5.7 10.7 21.1 0 26.8l-89.9 47.9c-7.9 4.2-17.5-1.5-17.5-10.5c0-2.8 1-5.5 2.8-7.6l36-43.2-36-43.2c-1.8-2.1-2.8-4.8-2.8-7.6c0-9 9.6-14.7 17.5-10.5zM396 157.1c0 2.8-1 5.5-2.8 7.6l-36 43.2 36 43.2c1.8 2.1 2.8 4.8 2.8 7.6c0 9-9.6 14.7-17.5 10.5l-89.9-47.9c-10.7-5.7-10.7-21.1 0-26.8l89.9-47.9c7.9-4.2 17.5 1.5 17.5 10.5z"/></svg>]
+
+--
+
+.large[Solution: .red[D]ifference-.red[i]n-.red[D]ifference (.red[DiD])]
 
 --
 
@@ -491,22 +510,60 @@ background-size: 110%
 ]
 ]
 
-
 ---
 
-## **DiD** Model &amp; Result 
+# Turn the Data into a .pink[panel] structure.
+--
+
+### Filling in .red[zeros] for the years of no movie work.
 
 
-`\begin{equation}
-ln(movies + 1) = \beta_0 + \color{red}{\beta_1}Blacklisted_{it} \times Treatment_{t} + \mathbf X + FE(unit, year, role) + \epsilon_{it},
-\end{equation}`
 
+
+``` r
+df %&gt;% head(., 7)
+```
+
+```
+## # A tibble: 7 × 9
+## # Groups:   id [1]
+##   lncount treatment shock2012  year id       role   cumu lncareer actor
+##     &lt;dbl&gt;     &lt;dbl&gt;     &lt;dbl&gt; &lt;dbl&gt; &lt;chr&gt;    &lt;chr&gt; &lt;dbl&gt;    &lt;dbl&gt; &lt;dbl&gt;
+## 1       0         0         0  1991 10000006 배우  0        0.693     1
+## 2       0         0         0  1992 10000006 배우  0.693    1.10      1
+## 3       0         0         0  1993 10000006 배우  1.10     1.39      1
+## 4       0         0         0  1994 10000006 배우  1.39     1.61      1
+## 5       0         0         0  1995 10000006 배우  1.61     1.79      1
+## 6       0         0         0  1996 10000006 배우  1.79     1.95      1
+## 7       0         0         0  1997 10000006 배우  1.95     2.08      1
+```
 
 --
 
+### N=1.6M, unbalanced (1991-2022); .red[2012] = treatment year
 
 
-&lt;iframe src="table.html" width="100%" height="500px"&gt;&lt;/iframe&gt;
+
+---
+
+# .content-box-yellow[The model and *estimand*]
+
+.large[
+`$$ln(movies + 1) = \beta_0 + \color{red}{\beta_1}Blacklisted_{it} \times Treatment_{t} + \mathbf X + FE(unit, year, role) + \epsilon_{it}$$`
+]
+
+--
+
+### Recall our `\(H_1\)` and `\(H_2\)`:
+
+
+---
+
+## **DiD** Result 
+
+--
+
+&lt;iframe src="table.html" width="100%" height="550px"&gt;&lt;/iframe&gt;
 
 ---
 
