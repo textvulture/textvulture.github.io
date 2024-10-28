@@ -1,0 +1,21 @@
+---
+title: Guest Lecture for a Songdo Campus course
+author: Ben
+categories:
+  - blog
+date: 10-28-2024
+---
+
+```{r, include=F, echo=F}
+
+library(fontawesome)
+
+```
+
+Tomorrow night, I am guest lecturing for a Honors sequence course ([GLOA 491](https://globalaffairs.gmu.edu/courses/gloa491)) in Mason Songdo Campus. The course is for the Songdo campus students who are in honors and will complete it when they are in Fairfax campus later. It is really a method course getting them prepared for their honors thesis.
+
+![](cover.jpg)
+
+My guest lecture will introduce them to the making of an actual quantitative research project. The slide `r fa("book", fill='yellow')` is [here](https://textvulture.github.io/presentations/GuestLecture_10292024.html). While it has an example to work with ([my Blacklist paper](https://www.tandfonline.com/doi/full/10.1080/13510347.2024.2343103)), the lecture will be more about grasping how a project is conceived and then implemented than a typical research talk.
+
+This will probably be the last time I am creating a #Xaringan slide for a lecture (for research presentations, it has been mostly Overleaf-Beamer). I loved Xaringan for its flexibility, particularly in dealing with online media materials. But I find myself bogged down by the problems related to `xaringan::inf()` too much. I mean, how many times do I have to re-render? I am tinkering with QMD Presentations. This ['starter kit'](https://rstudio-conf-2022.github.io/get-started-quarto/materials/05-presentations.html#/presentations) looks quite promising.
