@@ -619,15 +619,22 @@ df %>% head(., 7)
 
 ---
 
-# .content-box-yellow[The model and *estimand*]
+# .content-box-yellow[The model and *estimand*]: .tiny[articulate what exactly you're testing and how]
 
 .large[
-$$ln(movies + 1) = \beta_0 + \color{red}{\beta_1}Blacklisted_{it} \times Treatment_{t} + \mathbf X + FE(unit, year, role) + \epsilon_{it}$$
+$$ln(movies + 1) = \beta_0 + \color{red}{\beta_1}Blacklisted_{it} \times Treatment_{t} + ... + FE(unit, year, role) + \epsilon_{it}$$
 ]
 
 --
 
 ### Recall our $H_1$ and $H_2$:
+
+--
+
+### $H_1$. Being blacklisted .red[decreases] a movie worker's chances of securing a movie job.
+
+
+### $H_2$. The negative career effect of Blacklist is larger for .red[non-actor] movie workers.
 
 
 ---
@@ -672,7 +679,7 @@ background-position: right
 background-size: contain
 background-color: black
 
-# .large[**Conclusion**]
+# .large[**Conclusion**] .tiny[(summarize and offer .Green[implications])]
 
 ## `r fa("microphone-alt-slash", fill='yellow')` backsliding messes with culture by <br> suppressing .yellow[freedom of speech]
 
