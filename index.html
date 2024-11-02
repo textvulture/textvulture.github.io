@@ -96,7 +96,18 @@ h2 {
         .button-orange {
             display: inline-block;
             padding: 2px 5px;
-            background-color: #e6d0a5;
+            background-color: #e76006;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+        .button-green {
+            display: inline-block;
+            padding: 2px 5px;
+            background-color: hwb(146 2% 55%);
             color: white;
             border: none;
             border-radius: 5px;
@@ -120,6 +131,18 @@ h2 {
   }
 
 </style>
+
+<script>
+  function copyTextToClipboard(text) {
+    var textArea = document.createElement("textarea");
+    textArea.value = text;
+    document.body.appendChild(textArea);
+    textArea.select();
+    document.execCommand("copy");
+    document.body.removeChild(textArea);
+    alert("copied: " + text);
+  }
+  </script>
 
 </head>
 
@@ -163,9 +186,9 @@ h2 {
 <div align="center">
     
 <h0>
-    <a href="mailto:bson3@gmu.edu" target="_blank"><i class="far fa-envelope" style="color: #4309f1;"></i></a>
+    <a onclick="copyTextToClipboard('bson3@gmu.edu')"> <button-green type="button-green" class="button-green"> Copy GMU Email </button-green> </a>
  
-    <a href="mailto:kalkas@gmail.com" target="_blank"><i class="far fa-envelope" style="color: #992555;"></i> </a>
+    <a onclick="copyTextToClipboard('kalkas@gmail.com')"> <button-orange type="button-orange" class="button-orange"> Copy Gmail </button-orange> </a>
 <br>
     <a href="https://scholar.google.com/citations?user=h0o27GgAAAAJ&hl=en" target="_blank"> <i class="fa-solid fa-graduation-cap" style="color: #220128"></i></a>
 
