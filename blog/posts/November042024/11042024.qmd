@@ -1,0 +1,22 @@
+---
+title: Market Expectations on USD and Election
+author: Ben
+date: 11-04-2024
+categories:
+  - election
+  - finance
+---
+
+# Why the market bets against USD when Trump's odds dip?
+
+![](image1.jpg)
+
+The uncertainty surrounding Trump's platform is nothing new. More so with his current plans involving tariffs and overall isolationism. These all have pretty straightforward inflationary implications. With inflation expected, one would bet *against* USD when Trump's odds go up. And the opposite should be the case when Trump's odds dip--as with the release of the 'surprising' [Iowa poll](https://www.cnn.com/2024/11/02/politics/iowa-poll-harris-trump/index.html). 
+
+But what's being observed is not consistent with this reasoning. Instead, the dollar gets weaker with Trump's chances get slimmer. Why? Because, as [FT notes](https://www.ft.com/content/a6cd8e59-4ba7-44d3-b00c-e53c35b09186?fbclid=IwY2xjawGVuiVleHRuA2FlbQIxMAABHSIwE6CRSgIypC8AQG7OCosjeouZFrh3p6TYY7itL2mjAlIVprkKfrd3YQ_aem_oGofEILgLL9DiIHKYw16vQ):
+
+> Investors believe that if Trump wins and implements trade tariffs and tax cuts — and especially if the Republicans also emerge with control of both houses of Congress — then inflationary pressures will rise, making it less likely that the US Federal Reserve will rapidly cut interest rates. The Fed is expected to lower rates by a quarter of a percentage point on Thursday, two days after the election.
+
+So yes, it's all about the rate cuts (or lack thereof). If Trump wins, Fed would slow down on rate cuts, which keeps the dollar's nominal value high--or higher than expected, to be precise. The market would hold onto that. What it also implies is the exchange market behavior, once again, reflects short-term gains like arbitrage rather than long-term economic health or uncertainty. Maybe the latter have already been baked into the current dollar pricing. 
+
+
