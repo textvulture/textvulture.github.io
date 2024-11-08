@@ -4,6 +4,7 @@ author: Ben
 date: 11-07-2024
 categories:
   - election
+description: "Election Recap: Inflation and Immigration"
 ---
 
 I am coping with the election result just like everybody else. My instinct, as in other times, tells me that, for my sanity, I need to avoid news and social media poured at us in the last 36-ish hours. And I am guilty of adding to that my own with [VOA-Korea](https://www.voakorea.com/a/7833356.html).
