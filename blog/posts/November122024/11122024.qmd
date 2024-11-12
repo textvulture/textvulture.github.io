@@ -1,0 +1,18 @@
+---
+title: voter turnout
+author: Ben
+categories:
+  - election
+date: 11-12-2024
+description: Voter Turnout in US 2024 Election
+---
+
+# Voter Turnout in US 2024 Election
+
+![](turnout.png)
+source: [Foreign Policy](https://foreignpolicy.com/projects/2024-us-president-election-live-updates-harris-trump/?article_anchor=us-presidential-election-2024-voter-turnout-comparison)
+ 
+The turnout in 2024 was projected to be about 65%. It's definitely lower than 2020, which was the historic 67%--but not by too much. It suggests that the election wasn't about 'too many people staying home.' This is particularly so given that the 2020 election was a special one. People were terrified of how the Pandemic would unfold while the economy was bad. Mail ballots were much easier to access. 
+The turnout in 2024 seems pretty similar to 2020. The result therefore seems more a function of the retrospective voting on incumbent in an environment that favors the opposition heavily. 
+
+What do the Dems have to do going forward? As much as he's known for fumbling the ball occasionally, this ['manifesto'](https://www.slowboring.com/p/a-common-sense-democrat-manifesto?utm_campaign=post&utm_medium=web) of Yglesias rings bell. 

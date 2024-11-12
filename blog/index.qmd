@@ -8,6 +8,7 @@ listing:
   sort-ui: false
   filter-ui: false
 page-layout: full
+description: The Myopia Blog
 title-block-banner: false
 author: 
   - name: Byunghwan Ben Son
