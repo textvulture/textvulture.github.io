@@ -9,6 +9,8 @@ website:
         href: https://textvulture.github.io
       - text: "{{< iconify logos:twitter height=19px >}}"
         href: https://twitter.com/Byunghwan_Son
+      - text: "{{< iconify simple-icon:bluesky height=19px >}}"
+        href: https://bsky.app/profile/textvulture.bsky.social       
 format:
   html:
     theme: superhero
