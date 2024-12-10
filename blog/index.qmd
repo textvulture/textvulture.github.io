@@ -1,5 +1,5 @@
 ---
-title: " "
+title: "Myopia Blog"
 listing:
   contents: posts
   sort: "date desc"

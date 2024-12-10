@@ -5,12 +5,13 @@ website:
   title: "Myopia Blog"
   navbar:
     right:
-      - text: "{{< iconify ic:outline-house height=25px >}}"
+      - text: "{{< iconify simple-line-icons:home height=27px >}}"
         href: https://textvulture.github.io
-      - text: "{{< iconify logos:twitter height=19px >}}"
+      - text: "{{< iconify logos:bluesky height=24px >}}"
+        href: https://bsky.app/profile/textvulture.bsky.social        
+      - text: "{{< iconify logos:twitter height=22px >}}"
         href: https://twitter.com/Byunghwan_Son
-      - text: "{{< iconify simple-icon:bluesky height=19px >}}"
-        href: https://bsky.app/profile/textvulture.bsky.social       
+     
 format:
   html:
     theme: superhero
