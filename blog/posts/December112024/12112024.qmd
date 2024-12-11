@@ -1,0 +1,124 @@
+---
+title: "The Deep Roots of the Insurrection"
+author: Ben
+categories:
+  - Korea
+date: 12-11-2024
+execute:
+  warning: false
+  message: false
+  error: false
+  echo: false    
+---
+
+```{r}
+#| include: false
+
+library(dplyr)
+library(vdemdata) 
+library(ggplot2)
+
+df <- vdemdata::vdem %>%
+  select(contains("v2x_polyarchy"), country_name, year) %>%
+  filter(country_name == "South Korea")
+
+
+df %>% 
+  filter(year>1960) %>%
+  mutate(graphid = 
+           case_when(year>1987 & year<1993 ~ "red",
+                     year>1992 & year<1998 ~ "red",
+                     year>1997 & year<2003 ~ "blue",
+                     year>2002 & year<2008 ~ "blue",
+                     year>2007 & year<2013 ~ "red",
+                     year>2012 & year<2017 ~ "red",
+                     year>2016 & year<2022 ~ "blue",
+                     year>2021 ~ "red")
+  )  ->   df2
+```
+
+
+```{r}
+
+df2 %>%
+  ggplot(aes(x=year,
+             y=v2x_polyarchy,
+             alpha=0.7)) +
+  geom_bar(aes(fill=graphid),
+           stat = 'identity') +
+  theme_minimal() +
+  scale_fill_manual(values = c("blue", "red")) +
+  theme(legend.position = 'none') +
+  labs(y="Polyarchy",
+       title="Electoral Democracy. The higher, the more democratic")
+
+```
+
+
+```{r}
+
+df4 <- vdemdata::vparty %>%
+  select(v2xpa_antiplural, v2paenname, country_name, year) %>%
+  mutate(dems = case_when(country_name == "South Korea" &
+    v2paenname %in% c(
+      "Democratic Justice Party",
+      "Democratic Liberal Party / New Korea Party",
+      "Liberty Korea Party",
+      "New World Party -- The Grand National Party"
+    ) ~ "red",
+    country_name == "South Korea" & v2paenname %in% c(
+      "Democratic Party",
+      "Democratic Party / Minjoo Party of Korea",
+      "Millenium Democratic Party",
+      "National Congress for New Politics / Democratic Party",
+      "Our Party",
+      "Party for Peace and Democracy",
+      "[United] Democratic Party"
+    ) ~ "blue", 
+    TRUE ~ "others"
+  )) %>%
+  mutate(korea = case_when(
+    dems == "blue" ~ 1,
+    dems == "red" ~ 1,
+    dems == "others" ~ 0.01
+  ))  
+
+df4 %>% filter(year>1980) %>%
+  ggplot(aes(x=year, 
+             y=v2xpa_antiplural, 
+             color=dems,
+             size=korea,
+             alpha=0.6)) +
+  geom_point() +
+  geom_smooth(data=df4 %>% filter(year>1980 &
+                                    korea==0.01),
+              color='green') +
+  theme_minimal() +
+  scale_color_manual(values = c("blue", "gray", "red")) +
+  theme(legend.position = 'none') +
+  labs(y="anti-pluralism",
+        title = "Anti-Pluralism Party Index. The higher, the less democratic") +
+  geom_vline(xintercept = 1987,
+             linetype=2)
+```
+
+
+```{r}
+
+df4 %>% 
+  filter(year>1980 & country_name=="United Kingdom") %>%
+  filter(v2paenname == "Conservatives" | v2paenname == "Labour") %>%
+  ggplot(aes(x=year,
+             y=v2xpa_antiplural,
+             color=v2paenname,
+             label=v2paenname,
+             alpha=0.6)) +
+               geom_point() +
+               geom_label(size=4) +
+  theme_minimal() +
+  theme(legend.position = 'none') +
+  labs(y="anti-pluralism",
+       title = "Anti-Pluralism Party Index. The higher, the less democratic") +
+  ylim(0, 1)
+
+```
