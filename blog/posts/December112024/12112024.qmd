@@ -1,5 +1,5 @@
 ---
-title: "The Deep Roots of the Insurrection"
+title: "South Korea: The Case of A Long Democratization"
 author: Ben
 categories:
   - Korea
@@ -11,12 +11,22 @@ execute:
   echo: false    
 ---
 
+# Insurrection and Impeachment
+
+
+
+
+
+# Did the insurrection come out of nowhere? The Deep Roots of the Insurrection
+
+
 ```{r}
 #| include: false
 
 library(dplyr)
 library(vdemdata) 
 library(ggplot2)
+library(ggrepel)
 
 df <- vdemdata::vdem %>%
   select(contains("v2x_polyarchy"), country_name, year) %>%
@@ -35,10 +45,12 @@ df %>%
                      year>2016 & year<2022 ~ "blue",
                      year>2021 ~ "red")
   )  ->   df2
+
 ```
 
 
 ```{r}
+
 
 df2 %>%
   ggplot(aes(x=year,
@@ -52,69 +64,87 @@ df2 %>%
   labs(y="Polyarchy",
        title="Electoral Democracy. The higher, the more democratic")
 
+
 ```
 
 
 ```{r}
 
+
 df4 <- vdemdata::vparty %>%
   select(v2xpa_antiplural, v2paenname, country_name, year) %>%
   mutate(dems = case_when(country_name == "South Korea" &
-    v2paenname %in% c(
-      "Democratic Justice Party",
-      "Democratic Liberal Party / New Korea Party",
-      "Liberty Korea Party",
-      "New World Party -- The Grand National Party"
-    ) ~ "red",
-    country_name == "South Korea" & v2paenname %in% c(
-      "Democratic Party",
-      "Democratic Party / Minjoo Party of Korea",
-      "Millenium Democratic Party",
-      "National Congress for New Politics / Democratic Party",
-      "Our Party",
-      "Party for Peace and Democracy",
-      "[United] Democratic Party"
-    ) ~ "blue", 
-    TRUE ~ "others"
+                            v2paenname %in% c(
+                              "Democratic Justice Party",
+                              "Democratic Liberal Party / New Korea Party",
+                              "Liberty Korea Party",
+                              "New World Party -- The Grand National Party"
+                            ) ~ "red",
+                          country_name == "South Korea" & v2paenname %in% c(
+                            "Democratic Party",
+                            "Democratic Party / Minjoo Party of Korea",
+                            "Millenium Democratic Party",
+                            "National Congress for New Politics / Democratic Party",
+                            "Our Party",
+                            "Party for Peace and Democracy",
+                            "[United] Democratic Party"
+                          ) ~ "blue", 
+                          TRUE ~ "others"
   )) %>%
   mutate(korea = case_when(
     dems == "blue" ~ 1,
     dems == "red" ~ 1,
-    dems == "others" ~ 0.01
+    dems == "others" ~ 0
   ))  
 
 df4 %>% filter(year>1980) %>%
   ggplot(aes(x=year, 
              y=v2xpa_antiplural, 
-             color=dems,
-             size=korea,
-             alpha=0.6)) +
-  geom_point() +
+             color=dems)) +
+  geom_point(data = df4 %>% filter(year>1980) %>%
+               filter(korea==1), 
+             aes(size=4, alpha=0.75)) +
+  geom_point(data = df4 %>% filter(year>1980) %>% 
+               filter(korea==0),
+             aes(size=1, alpha=0.5, color="grey")) +
   geom_smooth(data=df4 %>% filter(year>1980 &
-                                    korea==0.01),
-              color='green') +
+                                    korea==0),
+              color='#365d0f', se=FALSE) +
+  annotate(geom="text", x=2000, y= 0.42, color="#365d0f", 
+           label="Global Mean") +
+  geom_label_repel(aes(label = v2paenname,
+                       alpha = 0.7),
+                   box.padding=4,
+                   size=4,
+                   data = df4 %>% filter(year==2016 & korea==1)) +
   theme_minimal() +
-  scale_color_manual(values = c("blue", "gray", "red")) +
+  scale_color_manual(values = c("blue", "grey", "red")) +
   theme(legend.position = 'none') +
   labs(y="anti-pluralism",
-        title = "Anti-Pluralism Party Index. The higher, the less democratic") +
+       title = "Anti-Pluralism Party Index. The higher, the less democratic") +
   geom_vline(xintercept = 1987,
              linetype=2)
+
 ```
 
 
 ```{r}
 
+
+
 df4 %>% 
   filter(year>1980 & country_name=="United Kingdom") %>%
-  filter(v2paenname == "Conservatives" | v2paenname == "Labour") %>%
+  filter(v2paenname == "Conservatives" | v2paenname == "Labour") -> df5
+
+df5 %>%
   ggplot(aes(x=year,
              y=v2xpa_antiplural,
              color=v2paenname,
              label=v2paenname,
-             alpha=0.6)) +
-               geom_point() +
-               geom_label(size=4) +
+             alpha=0.75)) +
+  geom_point(size=5) +
+  geom_label_repel(data=df5 %>% filter(year==2017),
+                   box.padding = 3, size=4) +
   theme_minimal() +
   theme(legend.position = 'none') +
   labs(y="anti-pluralism",
