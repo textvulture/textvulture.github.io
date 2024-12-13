@@ -11,14 +11,17 @@ execute:
   echo: false    
 ---
 
+# The Shock
+
+The latest insurrection attempt by Yoon Seok-yeol of South Korea shocked the world.
+
 # Insurrection and Impeachment
 
+[Svolik](https://www.cambridge.org/core/journals/american-political-science-review/article/authoritarian-reversals-and-democratic-consolidation/E3963766F74CC6CF2AEE2F5B883139F4) demonstrates that democratic consolidation and democratic survival are two different factors. Institutional factors (presidentialism and previous military dictatorship) make a transitional regime *susceptible* to reversal, but the immediate trigger is a recession. As in:
 
-
-
+>  "[E]conomic development affects consolidation, and therefore whether a democracy faces a risk of a reversal, but it does not help us explain when a reversal might occur in transitional democracies. ... [T]he eventual timing of reversals is associated only with economic recessions."
 
 # Did the insurrection come out of nowhere? The Deep Roots of the Insurrection
-
 
 ```{r}
 #| include: false
@@ -48,7 +51,6 @@ df %>%
 
 ```
 
-
 ```{r}
 
 
@@ -66,7 +68,6 @@ df2 %>%
 
 
 ```
-
 
 ```{r}
 
@@ -126,7 +127,6 @@ df4 %>% filter(year>1980) %>%
              linetype=2)
 
 ```
-
 
 ```{r}
 
