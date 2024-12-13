@@ -13,21 +13,27 @@ execute:
 
 # The Shock
 
-The latest insurrection attempt by Yoon Seok-yeol of South Korea caught the world by surprise. It was widely believed that an affluent democracy with its cherished soft power would not be subject to a sudden political upheaval. \@\@\@ After all, South Korea is far above the structural 'thresholds' that political scientists have long reported, be it [ Argentine GDP in 1975](https://www.cambridge.org/core/books/democracy-and-development/4A5F43C449ADA81BDB9293D5B10D27C1) or [two decades of years](https://onlinelibrary.wiley.com/doi/full/10.1111/j.1540-5907.2006.00201.x) beyond which a democratic regime might not fall.
+The latest insurrection attempt by Yoon Seok-yeol of South Korea [stunned the world](https://edition.cnn.com/2024/12/03/asia/south-korea-martial-law-intl/index.html). It was widely believed that this [affluent democracy with its cherished soft power](https://www.ft.com/content/e7d199dc-7ca7-4a41-ba17-eaeb76e2f64a?utm_source=chatgpt.com) would not be subject to a sudden political upheaval. After all, South Korea is far above the structural 'thresholds' that political scientists have long reported, be it [ Argentine GDP in 1975](https://www.cambridge.org/core/books/democracy-and-development/4A5F43C449ADA81BDB9293D5B10D27C1) or [two decades of years](https://onlinelibrary.wiley.com/doi/full/10.1111/j.1540-5907.2006.00201.x) beyond which a democratic regime might not fall.
 
-Many have already offered extensive accounts on a litany of ways in which Yoon's martial law was unconstitutional and constitutes, in essence, an insurrection and perhaps a treason. One can easily find the whiff of anger, fury, or terror in them. There is one assumption common in these irrefutably rightful reactions--that South Korea was (nearing) to achieve the status of a consolidated democracy. A democracy that is so entrenched and irreversible that it is ["the only game in town"](https://www.press.jhu.edu/books/title/2194/problems-democratic-transition-and-consolidation?srsltid=AfmBOoqxsN9rgCP3-sEPfCeziUGht3xyaB2pj2QlAqFZ6o_shissSspp). Since the democratization in 1987, the hard-earned democratic institutions and organized citizens prevailed over a series of crises--no way it could be suddenly derailed!
+Many have already offered extensive accounts on a litany of ways in which Yoon's declaration of martial law was unconstitutional and constitutes, in essence, an insurrection, self-coup, and/or a treason. [This](https://goodauthority.org/news/martial-law-south-korea-president-yoon/) and [this](https://theconversation.com/south-korea-shook-a-presidential-power-grab-failure-to-impeach-now-risks-damaging-democracy-245352) as well as, you know, [my own](https://www.msnbc.com/opinion/msnbc-opinion/south-korea-democracy-trump-lessons-rcna182893) might be helpful explainers. It's hard to miss the whiff of anger, fury, or terror in them. 
 
-Unless, of course, that assumption was invalid. What if, the post-1987 never amounted to a 'stable' democracy where any serious danger of collapse was reasonably negated? What if serious threats were always there? What if, when those threats occasionally manifested themselves, they were not taken as threats and understood as something else? What if South Korea is still in the middle of democratization that started in 1987, possibly similar to many transitional democracies around the world?
+There is one assumption common in these irrefutably rightful reactions--that South Korea was (nearing) to achieve the status of a consolidated democracy. Perhaps it was becoming a democracy so entrenched and irreversible that it is ["the only game in town"](https://www.press.jhu.edu/books/title/2194/problems-democratic-transition-and-consolidation?srsltid=AfmBOoqxsN9rgCP3-sEPfCeziUGht3xyaB2pj2QlAqFZ6o_shissSspp). Indeed, since the democratization in 1987, the hard-earned democratic institutions and organized citizens prevailed over [a series of crises](https://www.nytimes.com/2016/12/10/world/asia/south-korea-protests-history.html)--no way it could be suddenly derailed!
 
-# Insurrection and Impeachment
+Unless, of course, that assumption was invalid. What if, the post-1987 Korea never amounted to democratic consolidation where any serious danger of collapse was reasonably negated? What if, instead, serious threats were always lurking around the society? What if, when those threats occasionally manifested themselves, it was only that they were not taken as threats and understood as something else? 
+
+And perhaps a more important to question to ask is: if the existence of these threats is verified, what needs to be done now in order to avoid repeating another insurrection?
 
 # Democratic Survival vs. Consolidation
 
-[Svolik](https://www.cambridge.org/core/journals/american-political-science-review/article/authoritarian-reversals-and-democratic-consolidation/E3963766F74CC6CF2AEE2F5B883139F4) demonstrates that democratic consolidation and democratic survival are two different factors. Institutional factors (presidentialism and previous military dictatorship) make a transitional regime *susceptible* to reversal, but the immediate trigger is a recession. As in:
+[Milan Svolik](https://www.cambridge.org/core/journals/american-political-science-review/article/authoritarian-reversals-and-democratic-consolidation/E3963766F74CC6CF2AEE2F5B883139F4) demonstrates that democratic consolidation and democratic survival are two different factors. Institutional factors (presidentialism and previous military dictatorship) make a transitional regime *susceptible* to reversal, but the immediate trigger is a recession. As in:
 
 > "\[E\]conomic development affects consolidation, and therefore whether a democracy faces a risk of a reversal, but it does not help us explain when a reversal might occur in transitional democracies. ... \[T\]he eventual timing of reversals is associated only with economic recessions."
 
-# Did the insurrection come out of nowhere? The Deep Roots of the Insurrection
+This framework works neatly to explain what happened in South Korea. 
+
+The underlying factors in South Korea corresponding to presidentialism and previous military dictatorship.
+
+# How the insurrection didn't come out of nowhere: An authorian party that never went away
 
 ```{r}
 #| include: false
@@ -158,3 +164,38 @@ df5 %>%
   ylim(0, 1)
 
 ```
+
+
+The 'despotic' presidentialism in South Korea: political parties not committed to democratic processes and instead function as a vehicle to solidify the power of the president. The Republican Party (*Gonghwa-dang*) during the Park Chung-hee regime and the Democratic Justice Party (*Minjeog-dang*) during Chun Doo-hwan's.
+
+# Readings
+
+- [Nationalist democratization (democratic mobilization)](https://www.cambridge.org/core/journals/international-organization/article/memory-institutions-and-the-domestic-politics-of-south-koreanjapanese-relations/F7DDA42D3881CFF2E83B475739C8BB7C)
+
+- [authoritarian legacy -- far-right movement](https://www.tandfonline.com/doi/full/10.1080/13510347.2023.2301330)
+
+- [authoritarian legacy -- voter leniency](https://www.cambridge.org/core/journals/journal-of-east-asian-studies/article/authoritarian-legacies-and-partisan-bias-in-corruption-voting/8DFBD8F1A74ACC76257A063EAAA1FFD7)
+
+- [the potency of Park](https://onlinelibrary.wiley.com/doi/full/10.1111/ajps.12716)
+
+- [consequence of democratic backsliding: culture](https://www.tandfonline.com/doi/full/10.1080/13510347.2024.2343103)
+
+- [consequences of democratic backsliding: foreign policy](https://www.tandfonline.com/doi/full/10.1080/09512748.2024.2317277)
+
+- [US darling](https://foreignpolicy.com/2024/12/10/south-korea-martial-law-president-washington/?utm_source=flipboard&utm_content=topic/politics)
+
+- [bothsidesism: Decay](https://www.journalofdemocracy.org/articles/south-koreas-democratic-decay/)
+
+- [demonizing](https://koreaonpoint.org/view.php?topic_idx=129&idx=318)
+
+- [national polarization](https://journals.sagepub.com/doi/full/10.1177/00104140231178724)
+
+- [republic of prosecutors](https://english.hani.co.kr/arti/english_edition/english_editorials/1039742.html)
+
+- [historical revisionism](https://journals.sagepub.com/doi/full/10.1177/00323292211033082)
+
+- [conservatives' political survival through 'public security' and pan-conservative alliances](https://press.umich.edu/Books/T/The-Postdevelopmental-State2): ch. 5
+
+
+
+
