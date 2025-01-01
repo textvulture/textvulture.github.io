@@ -90,3 +90,18 @@ knitr::include_graphics('UK.png')
 -   [historical revisionism](https://journals.sagepub.com/doi/full/10.1177/00323292211033082)
 
 -   [conservatives' political survival through 'public security' and pan-conservative alliances](https://press.umich.edu/Books/T/The-Postdevelopmental-State2): ch. 5
+
+
+### columns and opinion pieces published upon the insurrection
+
+- [Yoon Suk-yeol’s Downfall Should Spark Introspection on the US Approach to South Korea ](https://thediplomat.com/2024/12/yoon-suk-yeols-downfall-should-spark-introspection-on-the-us-approach-to-south-korea/?fbclid=IwZXh0bgNhZW0CMTEAAR3tqZZSiVS4DR5DDRyahFc8O7orqWWKrIVZonZvu1JQ_1-MsMWw4_lv0Uw_aem_ztxPKicAsKaKAxrpw797-g)
+
+- [Biden and Aides Courted Allies Who Undermined U.S. Goals](https://www.nytimes.com/2024/12/26/us/politics/biden-allies-foreign-policy.html?unlocked_article_code=1.kU4.sqwK.gHXKSLbkADeR)
+
+- [The signs of democratic resilience in South Korea](https://goodauthority.org/news/south-korea-democratic-resilience-yoon-impeach-constitution/)
+
+- [What just happened in South Korea?](https://goodauthority.org/news/martial-law-south-korea-president-yoon/)
+
+- [How South Korea’s Aspiring Autocrat Became a D.C. Darling](https://foreignpolicy.com/2024/12/10/south-korea-martial-law-president-washington/)
+
+

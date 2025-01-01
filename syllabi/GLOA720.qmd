@@ -23,7 +23,10 @@ author:
         url: https://globalaffairs.gmu.edu/
     
 
-bibliography: references.bib
+bibliography: 
+  - references.bib
+  - mybib2.bib
+  
 csl: C:\\Users\\kalka\\Dropbox\\latex\\apsa.csl
 toc: true
 toccolor: blue
@@ -51,16 +54,20 @@ red {
   color: #9b1212;
 }
 
+blue {
+  color: #124921;
+}
+
 </style>
 ```
 
 # Office Hours and Email Communications
 
-- Office Hours 1:30-3:00 PM via Zoom (link available in Canvas).
-  * This is an online class, so office hours are also online only.
-- You can email me whenever you want, but my responses to the emails sent to me after 5 pm weekdays as well as any time during the weekend will be significantly slow. 
-  * For your own interest, you might want to try to use the normal working hours (9 AM to 5 PM, Monday through Friday). In your email, please indicate <red>who you are</red> and <red>which class you’re in (i.e., GLOA 720)</red>.
-  * For security reasons, emails not sent from the Mason account (i.e., gmu.edu) won't be answered. This is the University policy.
+-   Office Hours 1:30-3:00 PM via Zoom (link available in Canvas).
+    -   This is an online class, so office hours are also online only.
+-   You can email me whenever you want, but my responses to the emails sent to me after 5 pm weekdays as well as any time during the weekend will be significantly slow.
+    -   For your own interest, you might want to try to use the normal working hours (9 AM to 5 PM, Monday through Friday). In your email, please indicate <red>who you are</red> and <red>which class you’re in (i.e., GLOA 720)</red>.
+    -   For security reasons, emails not sent from the Mason account (i.e., gmu.edu) won't be answered. This is the University policy.
 
 # Course Description
 
@@ -72,19 +79,35 @@ Capstone Research Seminar offers an opportunity for GLOA MA students to draw upo
 
 # Course Schedule and Readings
 
+-   We mimic the schedule of a face-to-face version of this class. The dates provided below indicate the time when the lecture video is made available. It does NOT mean that you are supposed to watch the video on those dates. Remember, this is a *asynchronous* course.
+-   Readings and the reading schedules are subject to change.
 -   Unless specified as <mark>not required</mark>, all the listed readings are required readings.
     -   Required readings are indispensable for your successful completion of this course.
     -   <mark>not required</mark> readings might still be tremendously helpful and you are strongly encouraged to finish them too.
 -   Some readings might have hyperlinks. Others don't. It doesn't matter. You should be able to find almost all readings in the syllabus in <red>PDF</red> in [Fenwick library](https://library.gmu.edu/) because all the reference information is provided.
--   Readings and the schedules are subject to change.
 -   You are expected to complete the reading within the first three days of the week.
 
 <!-- For now it's hard to find an equivalent to \bibentry. In QMD Visual model, when @citekey is recognized, a pop-up shows the full citation. for now I just copy-and-paste that and replace the citekey with it.  -->
 
 ## Week 1. Introduction and Social Science Methods Recap
 
+-   Date
 -   King, Gary, Robert O. Keohane, and Sidney Verba. 1994. *Designing Social Inquiry: Scientific Inference in Qualitative Research*. Princeton: Princeton University Press.
-
 -   Vennesson, Pascal. 2008. “Case Studies and Process Tracing: Theories and Practices.” In eds. Donatella della Porta and Michael Keating. *Approaches and Methodologies in the Social Sciences: A Pluralist Perspective*. New York: Cambridge University Press, 223–39. <mark>not required</mark>
+-   Gerring, John. 2012. *Social Science Methodology: A Unified Framework*. 2nd Edition. Cambridge: Cambridge University Press. <mark>not required</mark>
+-   Pape, Robert A. 2008. “[Methods and Findings in the Study of Suicide Terrorism](https://doi.org/10.1017/S0003055408080179).” *American Political Science Review* 102(2): 275–77.
+-   APA Style Guide. [https://apastyle.apa.org/](https://apastyle.apa.org/). (for your reference--just take a look).
 
--   Pape, Robert A. 2008. “[Methods and Findings inthe Study of Suicide Terrorism](https://doi.org/10.1017/S0003055408080179).” *American Political Science Review* 102(2): 275–77.
+
+## Week 2. 
+    
+- Pitch Your Idea (to the class).
+
+## Week 3. How **<red>Not</red>** to Write a **<blue>Bad</blue>** Literature Review
+
+- Date
+- *You've completed a lot of readings in your coursework so far. Most of them have pretty good literature reviews (otherwise they wouldn't have survived peer-review processes). Therefore, by now, you must be able to tell what a good literature review looks like.*
+  - <blue>If you can choose, which one in your past classes had the best literature review?</blue>
+- Knopf, Jeffrey W. 2006. “Doing a Literature Review.” *PS: Political Science & Politics* 39(1): 127–32.
+- Organizing Your Social Sciences Research Paper. University of Southern California Libraries. [https://libguides.usc.edu/writingguide/purpose](https://libguides.usc.edu/writingguide/purpose): use the tabs on the left.
+- The Literature Review: A Few Tips On Conducting It. University of Toronto. [https://advice.writing.utoronto.ca/types-of-writing/literature-review/](https://advice.writing.utoronto.ca/types-of-writing/literature-review/) 
