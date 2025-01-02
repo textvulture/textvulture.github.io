@@ -1,5 +1,5 @@
 ---
-title: "GLOA 720 Capstone Research"
+title: "Syllabus: GLOA 720 Capstone Research"
 subtitle: Spring 2025, Online Asynchronous
 format: 
   html:
@@ -89,25 +89,111 @@ Capstone Research Seminar offers an opportunity for GLOA MA students to draw upo
 
 <!-- For now it's hard to find an equivalent to \bibentry. In QMD Visual model, when @citekey is recognized, a pop-up shows the full citation. for now I just copy-and-paste that and replace the citekey with it.  -->
 
-## Week 1. Introduction and Social Science Methods Recap
+## Week 1. Going over the Syllabus.
+
+- Date
+
+## Week 2. Social Science Methods Recap
 
 -   Date
 -   King, Gary, Robert O. Keohane, and Sidney Verba. 1994. *Designing Social Inquiry: Scientific Inference in Qualitative Research*. Princeton: Princeton University Press.
 -   Vennesson, Pascal. 2008. “Case Studies and Process Tracing: Theories and Practices.” In eds. Donatella della Porta and Michael Keating. *Approaches and Methodologies in the Social Sciences: A Pluralist Perspective*. New York: Cambridge University Press, 223–39. <mark>not required</mark>
 -   Gerring, John. 2012. *Social Science Methodology: A Unified Framework*. 2nd Edition. Cambridge: Cambridge University Press. <mark>not required</mark>
 -   Pape, Robert A. 2008. “[Methods and Findings in the Study of Suicide Terrorism](https://doi.org/10.1017/S0003055408080179).” *American Political Science Review* 102(2): 275–77.
--   APA Style Guide. [https://apastyle.apa.org/](https://apastyle.apa.org/). (for your reference--just take a look).
+-   APA Style Guide. <https://apastyle.apa.org/>. (for your reference--just take a look).
+
+## Week 3. Pitch Your Idea (to the class)
+
+- *In Weeks 3 and 4, you are partaking in the first wave of peer-review. Evaluating others' projects and offering feedback on them is as valuable a training as conducting your own research. It is also a significant part of any researcher's job, academic or otherwise*. 
+- First four people pitch their ideas in this week
+  - By noon Tuesday, make a video where you present some preliminary ideas for your project. 
+  - At the very minimum, provide:
+    - research question
+    - methods currently considered
+    - data
+    - any challenges or obstacles
+  - If you do not have an idea, simply present your 605 project and discuss *why* you think that wouldn't be a good one for your capstone project.
+- The other four people are responsible for providing written feedback for <red>each</red> of the four pitches.
+  - Use the form provided in Canvas. Upload them as a reply to the videos no later than noon, Thursday.
+  - Offer constructive, problem-solving feedback. The gist would be 'this would be how to make your project better.' Some examples might include:
+    - methods that might be suitable for the topic
+    - a particular way to execute the method to answer the research question
+    - an existing study that employed a similar method
+    - any related study
+    - data sources
+    - logical issues in the potential argument
+
+## Week 4. Pitch Your Idea (to the class)
+- The tables are turned around. The pitch-makers and reviewers in the previous week switch their roles. 
 
 
-## Week 2. 
-    
-- Pitch Your Idea (to the class).
+## Week 5. How <red>Not</red> to Write a <blue>Bad</blue> Literature Review
 
-## Week 3. How **<red>Not</red>** to Write a **<blue>Bad</blue>** Literature Review
+-   Date
+-   *You've completed a lot of readings in your coursework so far. Most of them have pretty good literature reviews (otherwise they wouldn't have survived peer-review processes). Therefore, by now, you must be able to tell what a good literature review looks like.*
+    -   <blue>If you can choose, which one in your past classes had the best literature review?</blue>
+-   Knopf, Jeffrey W. 2006. “Doing a Literature Review.” *PS: Political Science & Politics* 39(1): 127–32.
+-   Organizing Your Social Sciences Research Paper. University of Southern California Libraries. <https://libguides.usc.edu/writingguide/purpose>: use the tabs on the left.
+-   The Literature Review: A Few Tips On Conducting It. University of Toronto. <https://advice.writing.utoronto.ca/types-of-writing/literature-review/>
+
+
+## Week 6. Method Recap (1): Case Studies & Process Tracing
 
 - Date
-- *You've completed a lot of readings in your coursework so far. Most of them have pretty good literature reviews (otherwise they wouldn't have survived peer-review processes). Therefore, by now, you must be able to tell what a good literature review looks like.*
-  - <blue>If you can choose, which one in your past classes had the best literature review?</blue>
-- Knopf, Jeffrey W. 2006. “Doing a Literature Review.” *PS: Political Science & Politics* 39(1): 127–32.
-- Organizing Your Social Sciences Research Paper. University of Southern California Libraries. [https://libguides.usc.edu/writingguide/purpose](https://libguides.usc.edu/writingguide/purpose): use the tabs on the left.
-- The Literature Review: A Few Tips On Conducting It. University of Toronto. [https://advice.writing.utoronto.ca/types-of-writing/literature-review/](https://advice.writing.utoronto.ca/types-of-writing/literature-review/) 
+- George, Alexander L., and Andrew Bennett. 2006. *Case Studies and Theory Development in the Social Sciences*. Cambridge: MIT Press. **Chs. 3 & 5 only**. PDF available in Canvas. 
+- Steinberg, David A., and Victor C. Shih. 2012. “Interest Group Influence in Authoritarian States: The Political Determinants of Chinese Exchange Rate Policy.” *Comparative Political Studies* 45(11): 1405–34.
+- Ziblatt, Daniel. 2009. “Shaping Democratic Practice and the Causes of Electoral Fraud: The Case of Nineteenth-Century Germany.” *American Political Science Review* 103(1): 1–21. 
+- Pepinsky, Thomas B. 2009. *Economic Crises and the Breakdown of Authoritarian Regimes: Indonesia and Malaysia in Comparative Perspective*. New York: Cambridge University Press. **Ch. 1 only.** Available online through GMU library.
+
+
+## Week 7. Method Recap (2): (Qualitative) Content Analysis and Interview
+
+- Date
+- Your capstone paper *up to the literature review* is due.
+- Klašnja, Marko, Pablo Barberá, Nicholas Beauchamp, Jonathan Nagler, and Joshua A. Tucker. 2015. “Measuring Public Opinion with Social Media Data.” In *The Oxford Handbook of Polling and Polling Methods*. Oxford University Press, 555–82. [https://doi.org/10.1093/oxfordhb/9780190213299.013.3](https://doi.org/10.1093/oxfordhb/9780190213299.013.3). PDF available in Canvas.
+- Chiluwa, Innocent, and Presley Ifukor. 2015. “`War against Our Children’: Stance and Evaluation In #BringBackOurGirls Campaign Discourse on Twitter and Facebook.” *Discourse & Society* 26(3): 267–96.
+- Bouvier, Gwen, and David Machin. 2018. “Critical Discourse Analysis and the Challenges and Opportunities of Social Media.” *Review of Communication* 18(3): 178–92.
+- Leech, Beth L. 2002. “Asking Questions: Techniques for Semistructured Interviews.” *PS: Political Science & Politics* 35(4): 665–68.
+- Fujii, Lee Ann. 2008. “The Power of Local Ties: Popular Participation in the Rwandan Genocide.” *Security Studies* 17(3): 568–97.
+
+## Week 8. One-on-One Meeting (via Zoom), Session #1 
+
+- Date
+- Sign-up sheets will be made available in advance.
+- At least 30 minutes are guaranteed.
+- Use this time as your uninterrupted writing time. You will need it.
+
+## Week 9. One-on-One Meeting (via Zoom), Session #2
+
+- Date
+- Sign-up sheets will be made available in advance.
+- At least 30 minutes are guaranteed.
+- You can sign up for another after having one in Week 8.
+- Use this time as your uninterrupted writing time. You will need it.
+
+## Week 10. One-on-One Meeting (via Zoom), Session #3
+
+- Date
+- Sign-up sheets will be made available in advance.
+- At least 30 minutes are guaranteed.
+- You can sign up for another after having one in previous weeks.
+- Use this time as your uninterrupted writing time. You will need it.
+
+## Week 11. One-on-One Meeting (via Zoom), Session #4
+
+- Date
+- Sign-up sheets will be made available in advance.
+- At least 30 minutes are guaranteed.
+- You can sign up for another after having one in previous weeks.
+- Use this time as your uninterrupted writing time. You will need it.
+
+## Week 12. Presentation, Session #1.
+
+## Week 13. Presentation, Session #2.
+
+## Week 14. Wrap-up
+
+
+
+
+
