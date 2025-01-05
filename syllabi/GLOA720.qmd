@@ -89,13 +89,14 @@ Capstone Research Seminar offers an opportunity for GLOA MA students to draw upo
 
 <!-- For now it's hard to find an equivalent to \bibentry. In QMD Visual model, when @citekey is recognized, a pop-up shows the full citation. for now I just copy-and-paste that and replace the citekey with it.  -->
 
-## Week 1. Going over the Syllabus.
+## Week 1. Introduction. Going over the Syllabus.
 
-- Date
+- Jan 21 through 26
+- One-time Zoom meeting at <red> **7:30-8:30** </red>, Jan 23, Thursday (link available in Canvas): The course is an asynchronous one, so we normally won't meet in real time. This is one of the only two exceptions (the other being the *non-mandatory* wrap-up Zoom meeting in the end). You should be able to ask questions. 
 
 ## Week 2. Social Science Methods Recap
 
--   Date
+-   Jan 27 through Feb 2
 -   King, Gary, Robert O. Keohane, and Sidney Verba. 1994. *Designing Social Inquiry: Scientific Inference in Qualitative Research*. Princeton: Princeton University Press.
 -   Vennesson, Pascal. 2008. “Case Studies and Process Tracing: Theories and Practices.” In eds. Donatella della Porta and Michael Keating. *Approaches and Methodologies in the Social Sciences: A Pluralist Perspective*. New York: Cambridge University Press, 223–39. <mark>not required</mark>
 -   Gerring, John. 2012. *Social Science Methodology: A Unified Framework*. 2nd Edition. Cambridge: Cambridge University Press. <mark>not required</mark>
@@ -104,8 +105,9 @@ Capstone Research Seminar offers an opportunity for GLOA MA students to draw upo
 
 ## Week 3. Pitch Your Idea (to the class)
 
+- Feb 3 through 9
 - *In Weeks 3 and 4, you are partaking in the first wave of peer-review. Evaluating others' projects and offering feedback on them is as valuable a training as conducting your own research. It is also a significant part of any researcher's job, academic or otherwise*. 
-- First four people pitch their ideas in this week
+- First four people pitch their ideas in this week:
   - By noon Tuesday, make a video where you present some preliminary ideas for your project. 
   - At the very minimum, provide:
     - research question
@@ -113,7 +115,10 @@ Capstone Research Seminar offers an opportunity for GLOA MA students to draw upo
     - data
     - any challenges or obstacles
   - If you do not have an idea, simply present your 605 project and discuss *why* you think that wouldn't be a good one for your capstone project.
-- The other four people are responsible for providing written feedback for <red>each</red> of the four pitches.
+  - Once feedback is provided by peer reviewers by noon, Thursday (see below), write a 500-word note about how you will be incorporating it into your project by the end of the week (midnight Sunday).
+    - Acknowledge/summarize all of the feedback provided (in time).
+    - If you think some of the feedback is not directly relevant or helpful, you can say that. But in that case, discuss why so.
+- The other four people are responsible for providing written feedback for <red>each</red> of the four pitches:
   - Use the form provided in Canvas. Upload them as a reply to the videos no later than noon, Thursday.
   - Offer constructive, problem-solving feedback. The gist would be 'this would be how to make your project better.' Some examples might include:
     - methods that might be suitable for the topic
@@ -124,12 +129,14 @@ Capstone Research Seminar offers an opportunity for GLOA MA students to draw upo
     - logical issues in the potential argument
 
 ## Week 4. Pitch Your Idea (to the class)
+
+- Feb 10 through 16
 - The tables are turned around. The pitch-makers and reviewers in the previous week switch their roles. 
 
 
 ## Week 5. How <red>Not</red> to Write a <blue>Bad</blue> Literature Review
 
--   Date
+-   Feb 17 through 23
 -   *You've completed a lot of readings in your coursework so far. Most of them have pretty good literature reviews (otherwise they wouldn't have survived peer-review processes). Therefore, by now, you must be able to tell what a good literature review looks like.*
     -   <blue>If you can choose, which one in your past classes had the best literature review?</blue>
 -   Knopf, Jeffrey W. 2006. “Doing a Literature Review.” *PS: Political Science & Politics* 39(1): 127–32.
@@ -139,59 +146,71 @@ Capstone Research Seminar offers an opportunity for GLOA MA students to draw upo
 
 ## Week 6. Method Recap (1): Case Studies & Process Tracing
 
-- Date
+- Feb 24 through Mar 2
 - George, Alexander L., and Andrew Bennett. 2006. *Case Studies and Theory Development in the Social Sciences*. Cambridge: MIT Press. **Chs. 3 & 5 only**. PDF available in Canvas. 
 - Steinberg, David A., and Victor C. Shih. 2012. “Interest Group Influence in Authoritarian States: The Political Determinants of Chinese Exchange Rate Policy.” *Comparative Political Studies* 45(11): 1405–34.
 - Ziblatt, Daniel. 2009. “Shaping Democratic Practice and the Causes of Electoral Fraud: The Case of Nineteenth-Century Germany.” *American Political Science Review* 103(1): 1–21. 
 - Pepinsky, Thomas B. 2009. *Economic Crises and the Breakdown of Authoritarian Regimes: Indonesia and Malaysia in Comparative Perspective*. New York: Cambridge University Press. **Ch. 1 only.** Available online through GMU library.
 
+## Week 7. Conference Participation (No Class): Mar 3 through 9
+- While there's no 'class' in this week, you have a locked-in time for your project (particularly the *literature review*). Make the most out of it. 
 
-## Week 7. Method Recap (2): (Qualitative) Content Analysis and Interview
+## Week 8. Spring Recess (No Class): Mar 10 through 16
+- While there's no 'class' in this week, you have a locked-in time for your project (particularly the *literature review*). Make the most out of it.
 
-- Date
-- Your capstone paper *up to the literature review* is due.
+## Week 9. Method Recap (2): (Qualitative) Content Analysis and Interview
+
+- Mar 17 through 23
+- Your capstone paper *up to the literature review* is due (<mark>noon, March 17</mark>).
 - Klašnja, Marko, Pablo Barberá, Nicholas Beauchamp, Jonathan Nagler, and Joshua A. Tucker. 2015. “Measuring Public Opinion with Social Media Data.” In *The Oxford Handbook of Polling and Polling Methods*. Oxford University Press, 555–82. [https://doi.org/10.1093/oxfordhb/9780190213299.013.3](https://doi.org/10.1093/oxfordhb/9780190213299.013.3). PDF available in Canvas.
 - Chiluwa, Innocent, and Presley Ifukor. 2015. “`War against Our Children’: Stance and Evaluation In #BringBackOurGirls Campaign Discourse on Twitter and Facebook.” *Discourse & Society* 26(3): 267–96.
 - Bouvier, Gwen, and David Machin. 2018. “Critical Discourse Analysis and the Challenges and Opportunities of Social Media.” *Review of Communication* 18(3): 178–92.
 - Leech, Beth L. 2002. “Asking Questions: Techniques for Semistructured Interviews.” *PS: Political Science & Politics* 35(4): 665–68.
 - Fujii, Lee Ann. 2008. “The Power of Local Ties: Popular Participation in the Rwandan Genocide.” *Security Studies* 17(3): 568–97.
 
-## Week 8. One-on-One Meeting (via Zoom), Session #1 
 
-- Date
+## Week 10. One-on-One Meeting (via Zoom), Session #1 
+
+- Mar 24 through 30
 - Sign-up sheets will be made available in advance.
+- The Zoom link will be made available in Canvas.
 - At least 30 minutes are guaranteed.
-- Use this time as your uninterrupted writing time. You will need it.
+- Use this time as your uninterrupted writing time. *You will need it*.
 
-## Week 9. One-on-One Meeting (via Zoom), Session #2
+## Week 11. One-on-One Meeting (via Zoom), Session #2
 
-- Date
+- Mar 31 through Apr 6 
 - Sign-up sheets will be made available in advance.
 - At least 30 minutes are guaranteed.
 - You can sign up for another after having one in Week 8.
-- Use this time as your uninterrupted writing time. You will need it.
+- Use this time as your uninterrupted writing time. *You will need it*.
 
-## Week 10. One-on-One Meeting (via Zoom), Session #3
+## Week 12. One-on-One Meeting (via Zoom), Session #3
 
-- Date
+- Apr 7 through 13
 - Sign-up sheets will be made available in advance.
 - At least 30 minutes are guaranteed.
 - You can sign up for another after having one in previous weeks.
 - Use this time as your uninterrupted writing time. You will need it.
 
-## Week 11. One-on-One Meeting (via Zoom), Session #4
+## Week 13. One-on-One Meeting (via Zoom), Session #4
 
-- Date
+- Apr 14 through 20
 - Sign-up sheets will be made available in advance.
 - At least 30 minutes are guaranteed.
 - You can sign up for another after having one in previous weeks.
 - Use this time as your uninterrupted writing time. You will need it.
 
-## Week 12. Presentation, Session #1.
+## Week 14. Presentation, Session #1.
 
-## Week 13. Presentation, Session #2.
+- Apr 21 through 27
 
-## Week 14. Wrap-up
+## Week 15. Presentation, Session #2.
+
+- Apr 27 through May 4
+- Wrap-up
+  - This is non-mandatory, though you're encouraged to attend.
+  - The Zoom link will be made available in Canvas.
 
 
 
