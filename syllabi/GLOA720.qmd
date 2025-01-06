@@ -13,15 +13,14 @@ format:
       - text: GitHub
         href: https://github.com/textvulture
         icon: github
-editor: visual
-author: 
-  - name: "Byunghwan 'Ben' Son (bson3@gmu.edu)"
-    meta-data:
-      custom-info: "Office Hours"
-    affiliations:
-      - name: Global Affairs, George Mason Uiversity
-        url: https://globalaffairs.gmu.edu/
-    
+#editor: visual
+# author:
+#   - name: "Byunghwan 'Ben' Son (bson3@gmu.edu)"
+#     meta-data:
+#       custom-info: "Office Hours"
+#     affiliations:
+#       - name: Global Affairs, George Mason University
+#         url: https://globalaffairs.gmu.edu/
 
 bibliography: 
   - references.bib
@@ -33,8 +32,10 @@ toccolor: blue
 smooth-scroll: true
 ---
 
+
 ```{=html}
 <style>
+
 
 mark {
   background-color: #ece985;
@@ -61,17 +62,30 @@ blue {
 </style>
 ```
 
-# Office Hours and Email Communications
+**Note**: I don't use the traditional PDF syllabus anymore. Bookmark this webpage in your browser. This is the syllabus and do not print it out as some changes can  be made down the road. Whatever change is made, the URL remains the same.
 
--   Office Hours 1:30-3:00 PM via Zoom (link available in Canvas).
+# Update log
+
+- <p style="font-family: 'Courier New'">Jan 6: This syllabus is created.</p>
+
+
+# Instructor
+- Byunghwan 'Ben' Son (bson3@gmu.edu)
+  - Assoicate Professor of Global Affairs
+- Office Hours
+  - Office Hours 1:30-3:00 PM via Zoom (link available in Canvas).
     -   This is an online class, so office hours are also online only.
--   You can email me whenever you want, but my responses to the emails sent to me after 5 pm weekdays as well as any time during the weekend will be significantly slow.
+- Email Communications
+  -   You can email me whenever you want, but my responses to the emails sent to me after 5 pm weekdays as well as any time during the weekend will be significantly slow.
     -   For your own interest, you might want to try to use the normal working hours (9 AM to 5 PM, Monday through Friday). In your email, please indicate <red>who you are</red> and <red>which class you’re in (i.e., GLOA 720)</red>.
     -   For security reasons, emails not sent from the Mason account (i.e., gmu.edu) won't be answered. This is the University policy.
 
 # Course Description
 
-Capstone Research Seminar offers an opportunity for GLOA MA students to draw upon the different skills and bodies of knowledge acquired and honed during the course MA studies. The goal is to prepare the students to operate professionally in a complex global environment that requires a range of analytical skills. We tap into your previous coursework which has so far trained you to think critically of your own orientations, worldview, and presuppositions. In this class, you will apply them to a specific research project of your choice. While we start out talking extensively about social science research methods, the course is not a research methods course. Nor is it a 'repeat of GLOA 605.' Rather, it sets out to explore ways in which we can link theories and concepts to methods in order to generate new knowledge and persuasive arguments. The underlying assumption is that in order to operate effectively in a global age, we need to know not only how to produce knowledge and arguments but also assess and evaluate those made by others, their (implicit or explicit) presuppositions, blind spots, and understandings. The frequent presentations as well as peer-review assignments are to incorporate these assumptions into an effective learning process. As such, this seminar is not to turn you into an academic. Instead, it is a collective learning experience focusing on analytical speaking, writing, and communications. All those efforts will be reflected in your final outcome of the class, a **capstone research paper**.
+Capstone Research Seminar offers an opportunity for GLOA MA students to draw upon the different skills and bodies of knowledge acquired and honed during the course MA studies. The goal is to prepare the students to operate professionally in a complex global environment that requires a range of analytical skills. We tap into your previous coursework which has so far trained you to think critically of your own orientations, worldview, and presuppositions. In this class, you will apply them to a specific research project of your choice. While we start out talking extensively about social science research methods, the course is *not* a research methods course. Nor is it a 'repeat of GLOA 605.' Rather, it sets out to explore ways in which we can link theories and concepts to methods in order to generate new knowledge and persuasive arguments. The underlying assumption is that in order to operate effectively in a global age, we need to know how to 1) produce knowledge and arguments and 2) assess and evaluate those made by others, their (implicit or explicit) presuppositions, blind spots, and understandings. The frequent presentations as well as peer-review assignments are to incorporate these assumptions into an effective learning process. In other words, it is a collective learning experience focusing on analytical speaking, writing, and communications. And it definitely does not aim to turn you into an academic. All those efforts will be reflected in your final outcome of the class, a **capstone research paper**. Some things to keep in mind in this regard:
+
+1. The paper will be your work and yours only. Nobody, not even the instructor, shall write a single word for the project.
+2. You've been through quite a few grad courses, each of which came with quantities of readings. They are almost always results of good research projects. In other words, you know what a good project looks like. Trust youself and don't hesitate to go back to the syllabi of old classes.
 
 # Course Requirements
 
@@ -79,8 +93,8 @@ Capstone Research Seminar offers an opportunity for GLOA MA students to draw upo
 
 # Course Schedule and Readings
 
--   We mimic the schedule of a face-to-face version of this class. The dates provided below indicate the time when the lecture video is made available. It does NOT mean that you are supposed to watch the video on those dates. Remember, this is a *asynchronous* course.
--   Readings and the reading schedules are subject to change.
+-   We mimic the schedule of a face-to-face version of this class. In the weeks where lectures are included, the video will be uploaded at the beginning of the week. It does NOT mean that you are supposed to watch the video right away because, again, this is a *asynchronous* course. But the expectation is you complete the video by Tuesday morning.
+-   Readings and the reading schedules are subject to change. When such changes are made, the change 'log' will be printed at the beginning of this syllabus.
 -   Unless specified as <mark>not required</mark>, all the listed readings are required readings.
     -   Required readings are indispensable for your successful completion of this course.
     -   <mark>not required</mark> readings might still be tremendously helpful and you are strongly encouraged to finish them too.
@@ -91,10 +105,12 @@ Capstone Research Seminar offers an opportunity for GLOA MA students to draw upo
 
 ## Week 1. Introduction. Going over the Syllabus.
 
-- Jan 21 through 26
-- One-time Zoom meeting at <red> **7:30-8:30** </red>, Jan 23, Thursday (link available in Canvas): The course is an asynchronous one, so we normally won't meet in real time. This is one of the only two exceptions (the other being the *non-mandatory* wrap-up Zoom meeting in the end). You should be able to ask questions. 
+-   Jan 21 through 26
+-   One-time *Zoom meeting* at <red> **7:30-8:30** </red>, Jan 23, Thursday (link available in Canvas): The course is an asynchronous one, so we normally won't meet in real time. This is one of the only two exceptions (the other being the *non-mandatory* wrap-up Zoom meeting in the end). You should be able to ask questions.
+- **My Best Reading**: What was the single reading you liked the most in the grad classes that you've taken? Write a 250-word short essay as to why. Submit it by <mark>noon, Friday</mark>.
+- Start thinking about your capstone project topic right now.
 
-## Week 2. Social Science Methods Recap
+## Week 2. Social Science Methods Primer
 
 -   Jan 27 through Feb 2
 -   King, Gary, Robert O. Keohane, and Sidney Verba. 1994. *Designing Social Inquiry: Scientific Inference in Qualitative Research*. Princeton: Princeton University Press.
@@ -105,34 +121,33 @@ Capstone Research Seminar offers an opportunity for GLOA MA students to draw upo
 
 ## Week 3. Pitch Your Idea (to the class)
 
-- Feb 3 through 9
-- *In Weeks 3 and 4, you are partaking in the first wave of peer-review. Evaluating others' projects and offering feedback on them is as valuable a training as conducting your own research. It is also a significant part of any researcher's job, academic or otherwise*. 
-- First four people pitch their ideas in this week:
-  - By noon Tuesday, make a video where you present some preliminary ideas for your project. 
-  - At the very minimum, provide:
-    - research question
-    - methods currently considered
-    - data
-    - any challenges or obstacles
-  - If you do not have an idea, simply present your 605 project and discuss *why* you think that wouldn't be a good one for your capstone project.
-  - Once feedback is provided by peer reviewers by noon, Thursday (see below), write a 500-word note about how you will be incorporating it into your project by the end of the week (midnight Sunday).
-    - Acknowledge/summarize all of the feedback provided (in time).
-    - If you think some of the feedback is not directly relevant or helpful, you can say that. But in that case, discuss why so.
-- The other four people are responsible for providing written feedback for <red>each</red> of the four pitches:
-  - Use the form provided in Canvas. Upload them as a reply to the videos no later than noon, Thursday.
-  - Offer constructive, problem-solving feedback. The gist would be 'this would be how to make your project better.' Some examples might include:
-    - methods that might be suitable for the topic
-    - a particular way to execute the method to answer the research question
-    - an existing study that employed a similar method
-    - any related study
-    - data sources
-    - logical issues in the potential argument
+-   Feb 3 through 9
+-   <blue>In Weeks 3 and 4, you are partaking in the first wave of peer-review. Evaluating others' projects and offering feedback on them is as valuable a training as conducting your own research. It is also a significant part of any researcher's job, academic or otherwise.</blue>
+-   First four people pitch their ideas in this week:
+    -   By noon Tuesday, make a video where you present some preliminary ideas for your project.
+    -   At the very minimum, provide:
+        -   research question
+        -   methods currently considered
+        -   data
+        -   any challenges or obstacles
+    -   If you do not have an idea, simply present your 605 project and discuss *why* you think that wouldn't be a good one for your capstone project.
+    -   Once feedback is provided by peer reviewers by noon, Thursday (see below), write a 500-word note about how you will be incorporating it into your project by the end of the week (midnight Sunday).
+        -   Acknowledge/summarize all of the feedback provided (in time).
+        -   If you think some of the feedback is not directly relevant or helpful, you can say that. But in that case, discuss why so.
+-   The other four people are responsible for providing written feedback for <red>each</red> of the four pitches:
+    -   Use the form provided in Canvas. Upload them as a reply to the videos no later than noon, Thursday.
+    -   Offer constructive, problem-solving feedback. The gist would be 'this would be how to make your project better.' Some examples might include:
+        -   methods that might be suitable for the topic
+        -   a particular way to execute the method to answer the research question
+        -   an existing study that employed a similar method
+        -   any related study
+        -   data sources
+        -   logical issues in the potential argument
 
 ## Week 4. Pitch Your Idea (to the class)
 
-- Feb 10 through 16
-- The tables are turned around. The pitch-makers and reviewers in the previous week switch their roles. 
-
+-   Feb 10 through 16
+-   The tables are turned around. The pitch-makers and reviewers in the previous week switch their roles.
 
 ## Week 5. How <red>Not</red> to Write a <blue>Bad</blue> Literature Review
 
@@ -143,76 +158,71 @@ Capstone Research Seminar offers an opportunity for GLOA MA students to draw upo
 -   Organizing Your Social Sciences Research Paper. University of Southern California Libraries. <https://libguides.usc.edu/writingguide/purpose>: use the tabs on the left.
 -   The Literature Review: A Few Tips On Conducting It. University of Toronto. <https://advice.writing.utoronto.ca/types-of-writing/literature-review/>
 
-
 ## Week 6. Method Recap (1): Case Studies & Process Tracing
 
-- Feb 24 through Mar 2
-- George, Alexander L., and Andrew Bennett. 2006. *Case Studies and Theory Development in the Social Sciences*. Cambridge: MIT Press. **Chs. 3 & 5 only**. PDF available in Canvas. 
-- Steinberg, David A., and Victor C. Shih. 2012. “Interest Group Influence in Authoritarian States: The Political Determinants of Chinese Exchange Rate Policy.” *Comparative Political Studies* 45(11): 1405–34.
-- Ziblatt, Daniel. 2009. “Shaping Democratic Practice and the Causes of Electoral Fraud: The Case of Nineteenth-Century Germany.” *American Political Science Review* 103(1): 1–21. 
-- Pepinsky, Thomas B. 2009. *Economic Crises and the Breakdown of Authoritarian Regimes: Indonesia and Malaysia in Comparative Perspective*. New York: Cambridge University Press. **Ch. 1 only.** Available online through GMU library.
+-   Feb 24 through Mar 2
+-   George, Alexander L., and Andrew Bennett. 2006. *Case Studies and Theory Development in the Social Sciences*. Cambridge: MIT Press. **Chs. 3 & 5 only**. PDF available in Canvas.
+-   Steinberg, David A., and Victor C. Shih. 2012. “Interest Group Influence in Authoritarian States: The Political Determinants of Chinese Exchange Rate Policy.” *Comparative Political Studies* 45(11): 1405–34.
+-   Ziblatt, Daniel. 2009. “Shaping Democratic Practice and the Causes of Electoral Fraud: The Case of Nineteenth-Century Germany.” *American Political Science Review* 103(1): 1–21.
+-   Pepinsky, Thomas B. 2009. *Economic Crises and the Breakdown of Authoritarian Regimes: Indonesia and Malaysia in Comparative Perspective*. New York: Cambridge University Press. **Ch. 1 only.** Available online through GMU library.
 
 ## Week 7. Conference Participation (No Class): Mar 3 through 9
-- While there's no 'class' in this week, you have a locked-in time for your project (particularly the *literature review*). Make the most out of it. 
+
+-   While there's no 'class' in this week, you have a locked-in time for your project (particularly the *literature review*). Make the most out of it.
 
 ## Week 8. Spring Recess (No Class): Mar 10 through 16
-- While there's no 'class' in this week, you have a locked-in time for your project (particularly the *literature review*). Make the most out of it.
+
+-   While there's no 'class' in this week, you have a locked-in time for your project (particularly the *literature review*). Make the most out of it.
 
 ## Week 9. Method Recap (2): (Qualitative) Content Analysis and Interview
 
-- Mar 17 through 23
-- Your capstone paper *up to the literature review* is due (<mark>noon, March 17</mark>).
-- Klašnja, Marko, Pablo Barberá, Nicholas Beauchamp, Jonathan Nagler, and Joshua A. Tucker. 2015. “Measuring Public Opinion with Social Media Data.” In *The Oxford Handbook of Polling and Polling Methods*. Oxford University Press, 555–82. [https://doi.org/10.1093/oxfordhb/9780190213299.013.3](https://doi.org/10.1093/oxfordhb/9780190213299.013.3). PDF available in Canvas.
-- Chiluwa, Innocent, and Presley Ifukor. 2015. “`War against Our Children’: Stance and Evaluation In #BringBackOurGirls Campaign Discourse on Twitter and Facebook.” *Discourse & Society* 26(3): 267–96.
-- Bouvier, Gwen, and David Machin. 2018. “Critical Discourse Analysis and the Challenges and Opportunities of Social Media.” *Review of Communication* 18(3): 178–92.
-- Leech, Beth L. 2002. “Asking Questions: Techniques for Semistructured Interviews.” *PS: Political Science & Politics* 35(4): 665–68.
-- Fujii, Lee Ann. 2008. “The Power of Local Ties: Popular Participation in the Rwandan Genocide.” *Security Studies* 17(3): 568–97.
+-   Mar 17 through 23
+-   Your capstone paper *up to the literature review* is due (<mark>noon, March 17</mark>).
+-   Klašnja, Marko, Pablo Barberá, Nicholas Beauchamp, Jonathan Nagler, and Joshua A. Tucker. 2015. “Measuring Public Opinion with Social Media Data.” In *The Oxford Handbook of Polling and Polling Methods*. Oxford University Press, 555–82. <https://doi.org/10.1093/oxfordhb/9780190213299.013.3>. PDF available in Canvas.
+-   Chiluwa, Innocent, and Presley Ifukor. 2015. “\`War against Our Children’: Stance and Evaluation In #BringBackOurGirls Campaign Discourse on Twitter and Facebook.” *Discourse & Society* 26(3): 267–96.
+-   Bouvier, Gwen, and David Machin. 2018. “Critical Discourse Analysis and the Challenges and Opportunities of Social Media.” *Review of Communication* 18(3): 178–92.
+-   Leech, Beth L. 2002. “Asking Questions: Techniques for Semistructured Interviews.” *PS: Political Science & Politics* 35(4): 665–68.
+-   Fujii, Lee Ann. 2008. “The Power of Local Ties: Popular Participation in the Rwandan Genocide.” *Security Studies* 17(3): 568–97.
 
+## Week 10. One-on-One Meeting (via Zoom), Session #1
 
-## Week 10. One-on-One Meeting (via Zoom), Session #1 
-
-- Mar 24 through 30
-- Sign-up sheets will be made available in advance.
-- The Zoom link will be made available in Canvas.
-- At least 30 minutes are guaranteed.
-- Use this time as your uninterrupted writing time. *You will need it*.
+-   Mar 24 through 30
+-   Sign-up sheets will be made available in advance.
+-   The Zoom link will be made available in Canvas.
+-   At least 30 minutes are guaranteed.
+-   Use this time as your uninterrupted writing time. *You will need it*.
 
 ## Week 11. One-on-One Meeting (via Zoom), Session #2
 
-- Mar 31 through Apr 6 
-- Sign-up sheets will be made available in advance.
-- At least 30 minutes are guaranteed.
-- You can sign up for another after having one in Week 8.
-- Use this time as your uninterrupted writing time. *You will need it*.
+-   Mar 31 through Apr 6
+-   Sign-up sheets will be made available in advance.
+-   At least 30 minutes are guaranteed.
+-   You can sign up for another after having one in Week 8.
+-   Use this time as your uninterrupted writing time. *You will need it*.
 
 ## Week 12. One-on-One Meeting (via Zoom), Session #3
 
-- Apr 7 through 13
-- Sign-up sheets will be made available in advance.
-- At least 30 minutes are guaranteed.
-- You can sign up for another after having one in previous weeks.
-- Use this time as your uninterrupted writing time. You will need it.
+-   Apr 7 through 13
+-   Sign-up sheets will be made available in advance.
+-   At least 30 minutes are guaranteed.
+-   You can sign up for another after having one in previous weeks.
+-   Use this time as your uninterrupted writing time. You will need it.
 
 ## Week 13. One-on-One Meeting (via Zoom), Session #4
 
-- Apr 14 through 20
-- Sign-up sheets will be made available in advance.
-- At least 30 minutes are guaranteed.
-- You can sign up for another after having one in previous weeks.
-- Use this time as your uninterrupted writing time. You will need it.
+-   Apr 14 through 20
+-   Sign-up sheets will be made available in advance.
+-   At least 30 minutes are guaranteed.
+-   You can sign up for another after having one in previous weeks.
+-   Use this time as your uninterrupted writing time. You will need it.
 
 ## Week 14. Presentation, Session #1.
 
-- Apr 21 through 27
+-   Apr 21 through 27
 
 ## Week 15. Presentation, Session #2.
 
-- Apr 27 through May 4
-- Wrap-up
-  - This is non-mandatory, though you're encouraged to attend.
-  - The Zoom link will be made available in Canvas.
-
-
-
-
-
+-   Apr 27 through May 4
+-   Wrap-up
+    -   This is non-mandatory, though you're encouraged to attend.
+    -   The Zoom link will be made available in Canvas.
