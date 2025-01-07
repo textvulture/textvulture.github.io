@@ -2,17 +2,7 @@
 title: "Syllabus: GLOA 720 Capstone Research"
 subtitle: Spring 2025, Online Asynchronous
 format: 
-  html:
-    other-links: 
-      - text: Personal Webpage
-        icon: house
-        href: https://textvulture.github.io/
-      - text: GLOA Profile
-        href: https://globalaffairs.gmu.edu/
-        icon: buildings
-      - text: GitHub
-        href: https://github.com/textvulture
-        icon: github
+  html
 #editor: visual
 # author:
 #   - name: "Byunghwan 'Ben' Son (bson3@gmu.edu)"
@@ -70,8 +60,13 @@ blue {
 
 
 # Instructor
+
 - Byunghwan 'Ben' Son (bson3@gmu.edu)
-  - Assoicate Professor of Global Affairs
+  - Associate Professor of Global Affairs
+  - [{{< fa house size=small >}} Personal Webpage](https://textvulture.github.io/)
+  - [{{< fa school-flag size=small >}} GLOA Profile](https://globalaffairs.gmu.edu/)
+  - [{{< fa brands github >}} Github](https://github.com/textvulture)
+  - [{{< fa brands google-scholar >}} Google Scholar](https://scholar.google.com/citations?user=h0o27GgAAAAJ&hl=en)
 - Office Hours
   - Office Hours 1:30-3:00 PM via Zoom (link available in Canvas).
     -   This is an online class, so office hours are also online only.
@@ -85,11 +80,134 @@ blue {
 Capstone Research Seminar offers an opportunity for GLOA MA students to draw upon the different skills and bodies of knowledge acquired and honed during the course MA studies. The goal is to prepare the students to operate professionally in a complex global environment that requires a range of analytical skills. We tap into your previous coursework which has so far trained you to think critically of your own orientations, worldview, and presuppositions. In this class, you will apply them to a specific research project of your choice. While we start out talking extensively about social science research methods, the course is *not* a research methods course. Nor is it a 'repeat of GLOA 605.' Rather, it sets out to explore ways in which we can link theories and concepts to methods in order to generate new knowledge and persuasive arguments. The underlying assumption is that in order to operate effectively in a global age, we need to know how to 1) produce knowledge and arguments and 2) assess and evaluate those made by others, their (implicit or explicit) presuppositions, blind spots, and understandings. The frequent presentations as well as peer-review assignments are to incorporate these assumptions into an effective learning process. In other words, it is a collective learning experience focusing on analytical speaking, writing, and communications. And it definitely does not aim to turn you into an academic. All those efforts will be reflected in your final outcome of the class, a **capstone research paper**. Some things to keep in mind in this regard:
 
 1. The paper will be your work and yours only. Nobody, not even the instructor, shall write a single word for the project.
-2. You've been through quite a few grad courses, each of which came with quantities of readings. They are almost always results of good research projects. In other words, you know what a good project looks like. Trust youself and don't hesitate to go back to the syllabi of old classes.
+2. You've been through quite a few grad courses, each of which came with quantities of readings. They are almost always results of good research projects. In other words, you know what a good project looks like. Trust yourself and don't hesitate to go back to the syllabi of old classes.
+3. Peer-review is an integral part of this course. Evaluating others' work is the kind of function required of any profession these days.
 
 # Course Requirements
 
+In a nutshell, you are based on the following items. The deadlines for each are found in the reading schedule below. 
+
+1. My Best Reading (5%)
+2. Pitch your idea (5%)
+3. Peer Review of the pitches (5%)
+4. Pitch reflection (5%)
+5. Literature Review (15%)
+6. Presentation (15%)
+7. Peer Review of the presentations (5%)
+8. Capstone Research Paper (45%)
+
+## My Best Reading (5%) {#sec-best}
+
+What was the single reading you liked the most in the grad classes that you've taken? Write a 300-word short essay discussing: 
+  - Why do you like it so much? 
+  - How is it better than others?
+  - Is there any part of the reading that you want to incorporate into your project?
+Submit this to the designated place in Assignment section of Canvas.
+
+## Pitch your idea (5%) {#sec-pitch}
+Upload a video about a rough sketch of your idea for the capstone project. Things to include:
+  -   research question
+  -   methods currently considered
+  -   (potential) data
+  -   any challenges or obstacles you foresee (if not already experienced)
+Submit the video as a 'reply' to the designated thread of Discussion Board in Canvas.
+
+## Peer Review of the pitches (5%) {#sec-pitchr}
+Provide written feedback on others' pitches. No word limit. Offer constructive, problem-solving feedback. The gist would be 'this would be how to make your project better.' Some examples might include: 
+  -   methods that might be suitable for the topic
+  -   a particular way to execute the method to answer the research question
+  -   an existing study that employed a similar method
+  -   any related study
+  -   data sources recommendation
+  -   logical issues in the potential argument.
+Submit this by posting a reply in Canvas to the pitch presented. Include in the text the word count.
+
+
+## Pitch Reflection (5%) {#sec-pitchr2}
+Reflect on the feedback collected. Once peer-feedback is provided by peer-reviewers, write a 300-word note about how you will be incorporating it into your project by the end of the week (midnight Sunday).
+  -   Acknowledge/summarize all of the feedback provided (in time).
+  -   If you think some of the feedback is not directly relevant or helpful, you can say that. But in that case, discuss why so.
+  - Submit it to the designated place in the Assignment section of Canvas.
+
+
+## Literature Review (15%) {#sec-lr}
+Complete the research paper up to the literature review.
+
+## Presentation (15%) {#sec-pr}
+Create a video of presenting your research project.
+
+## Peer Review of the presentations (5%) {#sec-prr}
+Provide feedback on others' presentations using the form found in Canvas.
+
+## Capstone Research Paper (45%) {#sec-paper}
+
+This is the most important part of this course. The Paper, just like a typical social science research paper, might have this structure:
+
+  A. Introduction
+  B. Literature Review
+  C. Theory and/or Argument
+  D. <red>Empirical Analysis</red>
+  E. Conclusion
+
+You will have all five parts in your Paper. Since by this time, you will already have the literature review (and rudimentary and theory) completed and the empirical analysis will be the major addition at this stage. Unlike a research design or proposal, you are actually implementing an empirical analysis. 
+
+*Don’t wait until the literature review is completed.* Start working on your empirical analysis as early as possible. You will go through books, articles and/or archives to do a historical case study; you will do (virtual) interviews of people; you will spend quite some time in a subreddit to collect data (quotes and discussions) for a discourse analysis; or you will run a survey. You will implement an actual empirical analysis. 
+
+Several things to keep in mind:
+
+  - **Doability.** I will say it again. Choose what is doable. If you haven’t, for example, taken any quantitative method class already, using a quantitative method is not a good idea. If you don’t know much about drug lords other than several Netflix shows (like myself), working on trans-border drug trafficking would not be a good idea as finding data is challenging. Pick something you are already familiar with. Go back to your undergraduate or 605 or 610 projects. Remember, the goal is to produce, to go through the whole process research.
+  - **It's going to be hard.** You will find yourself spending hours after hours on Google Scholar just to find one obsolete paper; you will go through numerous comments on a news article that seem very much irrelevant; or you will write 300 words and delete 500 words, on a good day. Most importantly, you will for sure feel left alone in the middle of nowhere with no guidance. That's very normal for anybody doing their own research. The waste of time, getting lost, and solitude are all *part of research*. Acknowledging it doesn't make it easy but it's good to know that you're not alone on this.
+  - **Proper citations and references are expected.** By now, you should be able to tell if something is cited correctly. So apply that standard to yourself. There will be warning on citation errors before the Paper. Non-negligible citation errors in the Paper will be punished with grade reductions. This is important part of training. When you cannot cite things right, people (academics or not) scoff at your hard work and question your professionalization. It's simple and easy to fix citations and references, so let's not risk that.
+  - **We all pitch in for surveys.** The primary target population for the survey (if, and only if, you use one) will be the class. Everybody is obligated to promptly complete a survey that any of your classmates distributes.
+
+
 # Course Policies
+
+## Attendance
+
+Because this course is online asynchronous, there is no physical 'attendance.' However, the class cannot function without your regular attention to it. You are expected to check in to see what's going on in our course page in Canvas at least three times a week.
+
+## Assignment Submission
+
+All assignments are expected to be submitted electronically in Canvas. Do *not* email any assignments. They won't be graded.
+
+- Technical difficulties are not rare. Try to submit it early if you can.
+- If uploading a file, be sure to make it a MS Word or PDF file. Absolutely NO Pages file as it causes a problem in the system. You have free access to MS Office softwares as a Mason student. You can also 'export' a Page file as a Word file. 
+- 10% reduction in grade (e.g., one day late for a literature review submission will translate into 1.5 points reduction = 10% $\times$ 15 pts) will be applied to a sameday late submission (so it is still a good idea to turn things in no later than the day of the deadline—the damage would be minimal!). Additional 10% reduction will be added for each midnight (11:59 pm) until the submission.
+- For all the things that are not specified in the syllabus, strictly adhere to the GLOA MA Student Guide. 
+
+## Accommodations
+
+If you have a documented learning disability or other condition that may affect academic performance you should: 1) Make sure this documentation is on file with the Office of Disability Services (SUB I, Rm. 222; 993-2474; [www.gmu.edu/student/drc](www.gmu.edu/student/drc)) to determine the accommodations you need; and 2) Discuss with me to plan your accommodation needs. Accommodations cannot be provided unless the document from the ODS is provided in advance.
+
+## Academic Integrity
+
+George Mason is an Honor Code university; please see the official [University Document](https://oai.gmu.edu/wp-content/uploads/2018/08/George-Mason-University-Honor-Code-2018-2019-final.pdf) for a full description of the code and the honor committee process. Don't rely on Reddit or your friends. They don't know and are very often misleading. 
+
+Remember, not being familiar with the Honor Code doesn’t constitute a sufficient ground to get your offense excused—anybody taking Mason courses (even a student-to-be) is subject to the Honor Code. Likewise, note that intentionality rarely makes a proper excuse. The principle of academic integrity is taken very seriously and violations are treated gravely. 
+
+When you rely on someone else’s work, you will give that source full credit, typically in the form of an in-text citation and bibliographic reference. If you are unaware of what counts as plagiarism see here:
+[http://mason.gmu.edu/~montecin/plagiarism.htm](http://mason.gmu.edu/~montecin/plagiarism.htm). Students caught violating the Honor Code will receive a failing grade in the related course assignment and will be reported to the proper university authorities for further disciplinary action.
+
+Academic integrity is also more than not commiting plagiarism. Lying, for example, is also an offense identified in the Honor Code. Let's build our class on the foundation of mutual respect and transparency.
+
+## Use of Artificial Intelligence
+
+A Large Language Model (LLM), commonly referred to as AI, is a double-edged sword, in that it can help you research better but doing so could easily involve plagiarism/cheating. As a general rule, making an LLM ‘write,’ be it partial or entirely, is considered unequivocal cheating (‘consulting unauthorized materials’) and a direct violation of GMU Honor Code.
+
+Doing so also risks committing plagiarism. The writing itself has to be yours and yours only.Note that a ‘light’ rephrasing (e.g., altering some words) is still plagiarism. Similarly, submission of an edited version of LLM-generated writing is still considered plagiarism.
+
+LLM could be used in the *process* of research, the result of which *you* actually write about. A good example is to use LLM in finding topics. The more you dig in, the more useful the outcome. One way to see if you are using LLM properly is to see how much time and energy you’re spending on it. If it takes a lot of effort and committing many hours of time to a task, you are probably using LLM right (as a general rule, if what it does is simply make your life more comfortable, there’s a good chance that you’re violating the Honor Code). 
+
+Another way is to use LLM to find relevant readings, although this is proven quite unreliable. A lot of 'new' AI models (which are actually based on a couple of existing AI engines) boast about how good they are at this, but so far they really haven't been.  
+
+You can also use AI to detect typos or *obvious/simple* grammar errors. However, if you let it offer basically the whole prose for you, then it's considered plagiarism. An easy way to tell this is to ask youself: "Could I come up with this kind of expression/sentence myself?" If the answer is 'no' or 'not sure,' then you have to stay away from it. Remember, this is not a writing or literature class and, however elegant, your prose is not relevant for your grades. Only clarity matters.
+
+
+
+*Not bothering using an LLM in the first place remains a great option.*
+
+
 
 # Course Schedule and Readings
 
@@ -107,12 +225,13 @@ Capstone Research Seminar offers an opportunity for GLOA MA students to draw upo
 
 -   Jan 21 through 26
 -   One-time *Zoom meeting* at <red> **7:30-8:30** </red>, Jan 23, Thursday (link available in Canvas): The course is an asynchronous one, so we normally won't meet in real time. This is one of the only two exceptions (the other being the *non-mandatory* wrap-up Zoom meeting in the end). You should be able to ask questions.
-- **My Best Reading**: What was the single reading you liked the most in the grad classes that you've taken? Write a 250-word short essay as to why. Submit it by <mark>noon, Friday</mark>.
+- **My Best Reading**: What was the single reading you liked the most in the grad classes that you've taken? Write a 250-word short essay as to why. Submit it by <mark2>noon, Friday</mark2>.
 - Start thinking about your capstone project topic right now.
 
 ## Week 2. Social Science Methods Primer
 
 -   Jan 27 through Feb 2
+- <blue>We will revisit some of the specific methods later but it is important for us to have a common understanding of what a good research project is like. We will try to make our own projects as close as possible to this ideal and hold others' to the same standard too.</blue>
 -   King, Gary, Robert O. Keohane, and Sidney Verba. 1994. *Designing Social Inquiry: Scientific Inference in Qualitative Research*. Princeton: Princeton University Press.
 -   Vennesson, Pascal. 2008. “Case Studies and Process Tracing: Theories and Practices.” In eds. Donatella della Porta and Michael Keating. *Approaches and Methodologies in the Social Sciences: A Pluralist Perspective*. New York: Cambridge University Press, 223–39. <mark>not required</mark>
 -   Gerring, John. 2012. *Social Science Methodology: A Unified Framework*. 2nd Edition. Cambridge: Cambridge University Press. <mark>not required</mark>
@@ -123,26 +242,12 @@ Capstone Research Seminar offers an opportunity for GLOA MA students to draw upo
 
 -   Feb 3 through 9
 -   <blue>In Weeks 3 and 4, you are partaking in the first wave of peer-review. Evaluating others' projects and offering feedback on them is as valuable a training as conducting your own research. It is also a significant part of any researcher's job, academic or otherwise.</blue>
--   First four people pitch their ideas in this week:
-    -   By noon Tuesday, make a video where you present some preliminary ideas for your project.
-    -   At the very minimum, provide:
-        -   research question
-        -   methods currently considered
-        -   data
-        -   any challenges or obstacles
+-   First four people pitch their ideas in this week. 
+    -   <mark2>By noon Tuesday</mark2>, make a video (no longer than 5 minutes) where you present some preliminary ideas for your project. See the details: @sec-pitch.
     -   If you do not have an idea, simply present your 605 project and discuss *why* you think that wouldn't be a good one for your capstone project.
-    -   Once feedback is provided by peer reviewers by noon, Thursday (see below), write a 500-word note about how you will be incorporating it into your project by the end of the week (midnight Sunday).
-        -   Acknowledge/summarize all of the feedback provided (in time).
-        -   If you think some of the feedback is not directly relevant or helpful, you can say that. But in that case, discuss why so.
--   The other four people are responsible for providing written feedback for <red>each</red> of the four pitches:
-    -   Use the form provided in Canvas. Upload them as a reply to the videos no later than noon, Thursday.
-    -   Offer constructive, problem-solving feedback. The gist would be 'this would be how to make your project better.' Some examples might include:
-        -   methods that might be suitable for the topic
-        -   a particular way to execute the method to answer the research question
-        -   an existing study that employed a similar method
-        -   any related study
-        -   data sources
-        -   logical issues in the potential argument
+    -   Once peer-feedback (see below) is provided by peer-reviewers by noon, Thursday, write a reflection note about how you will be incorporating it into your project by the end of the week <mark2>(midnight Sunday)</mark2>. See the details: @sec-pitchr2 
+-   The other four people are responsible for providing written feedback for <red>each</red> of the four pitches no later than <mark2>noon, Thursday</mark2>. See the details: @sec-pitchr.
+    
 
 ## Week 4. Pitch Your Idea (to the class)
 
@@ -152,8 +257,7 @@ Capstone Research Seminar offers an opportunity for GLOA MA students to draw upo
 ## Week 5. How <red>Not</red> to Write a <blue>Bad</blue> Literature Review
 
 -   Feb 17 through 23
--   *You've completed a lot of readings in your coursework so far. Most of them have pretty good literature reviews (otherwise they wouldn't have survived peer-review processes). Therefore, by now, you must be able to tell what a good literature review looks like.*
-    -   <blue>If you can choose, which one in your past classes had the best literature review?</blue>
+-   <blue>You've completed a lot of readings in your coursework so far. Most of them have pretty good literature reviews (otherwise they wouldn't have survived peer-review processes). Therefore, by now, you must be able to tell what a good literature review looks like.</blue>
 -   Knopf, Jeffrey W. 2006. “Doing a Literature Review.” *PS: Political Science & Politics* 39(1): 127–32.
 -   Organizing Your Social Sciences Research Paper. University of Southern California Libraries. <https://libguides.usc.edu/writingguide/purpose>: use the tabs on the left.
 -   The Literature Review: A Few Tips On Conducting It. University of Toronto. <https://advice.writing.utoronto.ca/types-of-writing/literature-review/>
@@ -161,6 +265,10 @@ Capstone Research Seminar offers an opportunity for GLOA MA students to draw upo
 ## Week 6. Method Recap (1): Case Studies & Process Tracing
 
 -   Feb 24 through Mar 2
+-   Your capstone paper *up to the literature review* is due (<mark2>noon, March 1</mark2>).
+  - Upload a Word of PDF file to the designated place in Assignment section of Canvas.
+  - See the details: @sec-lr.
+- <blue>There are two weeks of 'method recap.' By now though, you will be well in the process of empirical analysis. Use these recaps for checking whether your empirical analysis is being done right.</blue>
 -   George, Alexander L., and Andrew Bennett. 2006. *Case Studies and Theory Development in the Social Sciences*. Cambridge: MIT Press. **Chs. 3 & 5 only**. PDF available in Canvas.
 -   Steinberg, David A., and Victor C. Shih. 2012. “Interest Group Influence in Authoritarian States: The Political Determinants of Chinese Exchange Rate Policy.” *Comparative Political Studies* 45(11): 1405–34.
 -   Ziblatt, Daniel. 2009. “Shaping Democratic Practice and the Causes of Electoral Fraud: The Case of Nineteenth-Century Germany.” *American Political Science Review* 103(1): 1–21.
@@ -168,16 +276,15 @@ Capstone Research Seminar offers an opportunity for GLOA MA students to draw upo
 
 ## Week 7. Conference Participation (No Class): Mar 3 through 9
 
--   While there's no 'class' in this week, you have a locked-in time for your project (particularly the *literature review*). Make the most out of it.
+-   While there's no 'class' in this week, you have a locked-in time for your project. Make the most out of it.
 
 ## Week 8. Spring Recess (No Class): Mar 10 through 16
 
--   While there's no 'class' in this week, you have a locked-in time for your project (particularly the *literature review*). Make the most out of it.
+-   While there's no 'class' in this week, you have a locked-in time for your project. Make the most out of it.
 
 ## Week 9. Method Recap (2): (Qualitative) Content Analysis and Interview
 
 -   Mar 17 through 23
--   Your capstone paper *up to the literature review* is due (<mark>noon, March 17</mark>).
 -   Klašnja, Marko, Pablo Barberá, Nicholas Beauchamp, Jonathan Nagler, and Joshua A. Tucker. 2015. “Measuring Public Opinion with Social Media Data.” In *The Oxford Handbook of Polling and Polling Methods*. Oxford University Press, 555–82. <https://doi.org/10.1093/oxfordhb/9780190213299.013.3>. PDF available in Canvas.
 -   Chiluwa, Innocent, and Presley Ifukor. 2015. “\`War against Our Children’: Stance and Evaluation In #BringBackOurGirls Campaign Discourse on Twitter and Facebook.” *Discourse & Society* 26(3): 267–96.
 -   Bouvier, Gwen, and David Machin. 2018. “Critical Discourse Analysis and the Challenges and Opportunities of Social Media.” *Review of Communication* 18(3): 178–92.
@@ -187,6 +294,7 @@ Capstone Research Seminar offers an opportunity for GLOA MA students to draw upo
 ## Week 10. One-on-One Meeting (via Zoom), Session #1
 
 -   Mar 24 through 30
+- <blue>By now, the first draft (though very rough) of your Paper is expected to be close to completion. In the meetings you will show me what you have written (or tried to write).</blue>
 -   Sign-up sheets will be made available in advance.
 -   The Zoom link will be made available in Canvas.
 -   At least 30 minutes are guaranteed.
@@ -218,11 +326,21 @@ Capstone Research Seminar offers an opportunity for GLOA MA students to draw upo
 
 ## Week 14. Presentation, Session #1.
 
--   Apr 21 through 27
+- Apr 21 through 27
+- The half of class will present their paper. The other half will be the peer-reviewers.
+- Upload a video containing your presentation by <mark2>Noon, Tuesday</mark2> to the designated thread of Discussion section in Canvas.
+  - See the details of the presentation: @sec-pr
+- Those who are not presenting in this week shall provide written feedback by 'replying' to the presentation. The deadline: <mark2>Noon, Saturday</mark2>. 
+  - See the details of the feedback: @sec-prr
 
 ## Week 15. Presentation, Session #2.
 
 -   Apr 27 through May 4
--   Wrap-up
+- The roles are flipped around. The presenters in last week are now reviwers. Reviewers, presenters.
+- Same deadlines as the last week: <mark2>Noon, Tuesday</mark2> for presentation and <mark2>Noon, Saturday</mark2> for written feedback.
+-  **Wrap-up**
     -   This is non-mandatory, though you're encouraged to attend.
     -   The Zoom link will be made available in Canvas.
+    
+## Capstone Paper Due: <mark2>Noon, May 8</mark2>
+- Details: @sec-paper.

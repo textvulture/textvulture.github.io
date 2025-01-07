@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.5.57">
+<meta name="generator" content="quarto-1.6.40">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -29,12 +29,43 @@ ul.task-list li input[type="checkbox"] {
 <script src="GLOA720_files/libs/quarto-html/tippy.umd.min.js"></script>
 <script src="GLOA720_files/libs/quarto-html/anchor.min.js"></script>
 <link href="GLOA720_files/libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="GLOA720_files/libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="GLOA720_files/libs/quarto-html/quarto-syntax-highlighting-549806ee2085284f45b00abea8c6df48.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="GLOA720_files/libs/bootstrap/bootstrap.min.js"></script>
 <link href="GLOA720_files/libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="GLOA720_files/libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<link href="GLOA720_files/libs/bootstrap/bootstrap-8a79a254b8e706d3c925cde0a310d4f0.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="GLOA720_files/libs/quarto-contrib/fontawesome6-1.2.0/all.min.css" rel="stylesheet">
+<link href="GLOA720_files/libs/quarto-contrib/fontawesome6-1.2.0/latex-fontsize.css" rel="stylesheet">
 <style>html{ scroll-behavior: smooth; }</style>
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 </head>
 
@@ -49,8 +80,25 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#update-log" id="toc-update-log" class="nav-link active" data-scroll-target="#update-log">Update log</a></li>
   <li><a href="#instructor" id="toc-instructor" class="nav-link" data-scroll-target="#instructor">Instructor</a></li>
   <li><a href="#course-description" id="toc-course-description" class="nav-link" data-scroll-target="#course-description">Course Description</a></li>
-  <li><a href="#course-requirements" id="toc-course-requirements" class="nav-link" data-scroll-target="#course-requirements">Course Requirements</a></li>
-  <li><a href="#course-policies" id="toc-course-policies" class="nav-link" data-scroll-target="#course-policies">Course Policies</a></li>
+  <li><a href="#course-requirements" id="toc-course-requirements" class="nav-link" data-scroll-target="#course-requirements">Course Requirements</a>
+  <ul class="collapse">
+  <li><a href="#sec-best" id="toc-sec-best" class="nav-link" data-scroll-target="#sec-best">My Best Reading (5%)</a></li>
+  <li><a href="#sec-pitch" id="toc-sec-pitch" class="nav-link" data-scroll-target="#sec-pitch">Pitch your idea (5%)</a></li>
+  <li><a href="#sec-pitchr" id="toc-sec-pitchr" class="nav-link" data-scroll-target="#sec-pitchr">Peer Review of the pitches (5%)</a></li>
+  <li><a href="#sec-pitchr2" id="toc-sec-pitchr2" class="nav-link" data-scroll-target="#sec-pitchr2">Pitch Reflection (5%)</a></li>
+  <li><a href="#sec-lr" id="toc-sec-lr" class="nav-link" data-scroll-target="#sec-lr">Literature Review (15%)</a></li>
+  <li><a href="#sec-pr" id="toc-sec-pr" class="nav-link" data-scroll-target="#sec-pr">Presentation (15%)</a></li>
+  <li><a href="#sec-prr" id="toc-sec-prr" class="nav-link" data-scroll-target="#sec-prr">Peer Review of the presentations (5%)</a></li>
+  <li><a href="#sec-paper" id="toc-sec-paper" class="nav-link" data-scroll-target="#sec-paper">Capstone Research Paper (45%)</a></li>
+  </ul></li>
+  <li><a href="#course-policies" id="toc-course-policies" class="nav-link" data-scroll-target="#course-policies">Course Policies</a>
+  <ul class="collapse">
+  <li><a href="#attendance" id="toc-attendance" class="nav-link" data-scroll-target="#attendance">Attendance</a></li>
+  <li><a href="#assignment-submission" id="toc-assignment-submission" class="nav-link" data-scroll-target="#assignment-submission">Assignment Submission</a></li>
+  <li><a href="#accommodations" id="toc-accommodations" class="nav-link" data-scroll-target="#accommodations">Accommodations</a></li>
+  <li><a href="#academic-integrity" id="toc-academic-integrity" class="nav-link" data-scroll-target="#academic-integrity">Academic Integrity</a></li>
+  <li><a href="#use-of-artificial-intelligence" id="toc-use-of-artificial-intelligence" class="nav-link" data-scroll-target="#use-of-artificial-intelligence">Use of Artificial Intelligence</a></li>
+  </ul></li>
   <li><a href="#course-schedule-and-readings" id="toc-course-schedule-and-readings" class="nav-link" data-scroll-target="#course-schedule-and-readings">Course Schedule and Readings</a>
   <ul class="collapse">
   <li><a href="#week-1.-introduction.-going-over-the-syllabus." id="toc-week-1.-introduction.-going-over-the-syllabus." class="nav-link" data-scroll-target="#week-1.-introduction.-going-over-the-syllabus.">Week 1. Introduction. Going over the Syllabus.</a></li>
@@ -68,9 +116,10 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#week-13.-one-on-one-meeting-via-zoom-session-4" id="toc-week-13.-one-on-one-meeting-via-zoom-session-4" class="nav-link" data-scroll-target="#week-13.-one-on-one-meeting-via-zoom-session-4">Week 13. One-on-One Meeting (via Zoom), Session #4</a></li>
   <li><a href="#week-14.-presentation-session-1." id="toc-week-14.-presentation-session-1." class="nav-link" data-scroll-target="#week-14.-presentation-session-1.">Week 14. Presentation, Session #1.</a></li>
   <li><a href="#week-15.-presentation-session-2." id="toc-week-15.-presentation-session-2." class="nav-link" data-scroll-target="#week-15.-presentation-session-2.">Week 15. Presentation, Session #2.</a></li>
+  <li><a href="#capstone-paper-due-noon-may-8" id="toc-capstone-paper-due-noon-may-8" class="nav-link" data-scroll-target="#capstone-paper-due-noon-may-8">Capstone Paper Due: <mark2>Noon, May 8</mark2></a></li>
   </ul></li>
   </ul>
-<div class="quarto-other-links"><h2>Other Links</h2><ul><li><a href="https://textvulture.github.io/"><i class="bi bi-house"></i>Personal Webpage</a></li><li><a href="https://globalaffairs.gmu.edu/"><i class="bi bi-buildings"></i>GLOA Profile</a></li><li><a href="https://github.com/textvulture"><i class="bi bi-github"></i>GitHub</a></li></ul></div></nav>
+</nav>
 </div>
 <main class="content" id="quarto-document-content">
 
@@ -134,7 +183,11 @@ Jan 6: This syllabus is created.
 <ul>
 <li>Byunghwan ‘Ben’ Son (bson3@gmu.edu)
 <ul>
-<li>Assoicate Professor of Global Affairs</li>
+<li>Associate Professor of Global Affairs. Political Scientist.</li>
+<li><a href="https://textvulture.github.io/"><i class="fa-solid fa-house fa-small" aria-label="house"></i> Personal Webpage</a></li>
+<li><a href="https://globalaffairs.gmu.edu/"><i class="fa-solid fa-school-flag fa-small" aria-label="school-flag"></i> GLOA Profile</a></li>
+<li><a href="https://github.com/textvulture"><i class="fa-brands fa-github" aria-label="github"></i> Github</a></li>
+<li><a href="https://scholar.google.com/citations?user=h0o27GgAAAAJ&amp;hl=en"><i class="fa-brands fa-google-scholar" aria-label="google-scholar"></i> Google Scholar</a></li>
 </ul></li>
 <li>Office Hours
 <ul>
@@ -156,14 +209,102 @@ Jan 6: This syllabus is created.
 <p>Capstone Research Seminar offers an opportunity for GLOA MA students to draw upon the different skills and bodies of knowledge acquired and honed during the course MA studies. The goal is to prepare the students to operate professionally in a complex global environment that requires a range of analytical skills. We tap into your previous coursework which has so far trained you to think critically of your own orientations, worldview, and presuppositions. In this class, you will apply them to a specific research project of your choice. While we start out talking extensively about social science research methods, the course is <em>not</em> a research methods course. Nor is it a ‘repeat of GLOA 605.’ Rather, it sets out to explore ways in which we can link theories and concepts to methods in order to generate new knowledge and persuasive arguments. The underlying assumption is that in order to operate effectively in a global age, we need to know how to 1) produce knowledge and arguments and 2) assess and evaluate those made by others, their (implicit or explicit) presuppositions, blind spots, and understandings. The frequent presentations as well as peer-review assignments are to incorporate these assumptions into an effective learning process. In other words, it is a collective learning experience focusing on analytical speaking, writing, and communications. And it definitely does not aim to turn you into an academic. All those efforts will be reflected in your final outcome of the class, a <strong>capstone research paper</strong>. Some things to keep in mind in this regard:</p>
 <ol type="1">
 <li>The paper will be your work and yours only. Nobody, not even the instructor, shall write a single word for the project.</li>
-<li>You’ve been through quite a few grad courses, each of which came with quantities of readings. They are almost always results of good research projects. In other words, you know what a good project looks like. Trust youself and don’t hesitate to go back to the syllabi of old classes.</li>
+<li>You’ve been through quite a few grad courses, each of which came with quantities of readings. They are almost always results of good research projects. In other words, you know what a good project looks like. Trust yourself and don’t hesitate to go back to the syllabi of old classes.</li>
+<li>Peer-review is an integral part of this course. Evaluating others’ work is the kind of function required of any profession these days.</li>
 </ol>
 </section>
 <section id="course-requirements" class="level1">
 <h1>Course Requirements</h1>
+<p>In a nutshell, you are based on the following items. The deadlines for each are found in the reading schedule below.</p>
+<ol type="1">
+<li>My Best Reading (5%)</li>
+<li>Pitch your idea (5%)</li>
+<li>Peer Review of the pitches (5%)</li>
+<li>Pitch reflection (5%)</li>
+<li>Literature Review (15%)</li>
+<li>Presentation (15%)</li>
+<li>Peer Review of the presentations (5%)</li>
+<li>Capstone Research Paper (45%)</li>
+</ol>
+<section id="sec-best" class="level2">
+<h2 class="anchored" data-anchor-id="sec-best">My Best Reading (5%)</h2>
+<p>What was the single reading you liked the most in the grad classes that you’ve taken? Write a 300-word short essay discussing: - Why do you like it so much? - How is it better than others? - Is there any part of the reading that you want to incorporate into your project? Submit this to the designated place in Assignment section of Canvas.</p>
+</section>
+<section id="sec-pitch" class="level2">
+<h2 class="anchored" data-anchor-id="sec-pitch">Pitch your idea (5%)</h2>
+<p>Upload a video about a rough sketch of your idea for the capstone project. Things to include: - research question - methods currently considered - (potential) data - any challenges or obstacles you foresee (if not already experienced) Submit the video as a ‘reply’ to the designated thread of Discussion Board in Canvas.</p>
+</section>
+<section id="sec-pitchr" class="level2">
+<h2 class="anchored" data-anchor-id="sec-pitchr">Peer Review of the pitches (5%)</h2>
+<p>Provide written feedback on others’ pitches. No word limit. Offer constructive, problem-solving feedback. The gist would be ‘this would be how to make your project better.’ Some examples might include: - methods that might be suitable for the topic - a particular way to execute the method to answer the research question - an existing study that employed a similar method - any related study - data sources recommendation - logical issues in the potential argument. Submit this by posting a reply in Canvas to the pitch presented. Include in the text the word count.</p>
+</section>
+<section id="sec-pitchr2" class="level2">
+<h2 class="anchored" data-anchor-id="sec-pitchr2">Pitch Reflection (5%)</h2>
+<p>Reflect on the feedback collected. Once peer-feedback is provided by peer-reviewers, write a 300-word note about how you will be incorporating it into your project by the end of the week (midnight Sunday). - Acknowledge/summarize all of the feedback provided (in time). - If you think some of the feedback is not directly relevant or helpful, you can say that. But in that case, discuss why so. - Submit it to the designated place in the Assignment section of Canvas.</p>
+</section>
+<section id="sec-lr" class="level2">
+<h2 class="anchored" data-anchor-id="sec-lr">Literature Review (15%)</h2>
+<p>Complete the research paper up to the literature review.</p>
+</section>
+<section id="sec-pr" class="level2">
+<h2 class="anchored" data-anchor-id="sec-pr">Presentation (15%)</h2>
+<p>Create a video of presenting your research project.</p>
+</section>
+<section id="sec-prr" class="level2">
+<h2 class="anchored" data-anchor-id="sec-prr">Peer Review of the presentations (5%)</h2>
+<p>Provide feedback on others’ presentations using the form found in Canvas.</p>
+</section>
+<section id="sec-paper" class="level2">
+<h2 class="anchored" data-anchor-id="sec-paper">Capstone Research Paper (45%)</h2>
+<p>This is the most important part of this course. The Paper, just like a typical social science research paper, might have this structure:</p>
+<p>A. Introduction B. Literature Review C. Theory and/or Argument D. <red>Empirical Analysis</red> E. Conclusion</p>
+<p>You will have all five parts in your Paper. Since by this time, you will already have the literature review (and rudimentary and theory) completed and the empirical analysis will be the major addition at this stage. Unlike a research design or proposal, you are actually implementing an empirical analysis.</p>
+<p><em>Don’t wait until the literature review is completed.</em> Start working on your empirical analysis as early as possible. You will go through books, articles and/or archives to do a historical case study; you will do (virtual) interviews of people; you will spend quite some time in a subreddit to collect data (quotes and discussions) for a discourse analysis; or you will run a survey. You will implement an actual empirical analysis.</p>
+<p>Several things to keep in mind:</p>
+<ul>
+<li><strong>Doability.</strong> I will say it again. Choose what is doable. If you haven’t, for example, taken any quantitative method class already, using a quantitative method is not a good idea. If you don’t know much about drug lords other than several Netflix shows (like myself), working on trans-border drug trafficking would not be a good idea as finding data is challenging. Pick something you are already familiar with. Go back to your undergraduate or 605 or 610 projects. Remember, the goal is to produce, to go through the whole process research.</li>
+<li><strong>It’s going to be hard.</strong> You will find yourself spending hours after hours on Google Scholar just to find one obsolete paper; you will go through numerous comments on a news article that seem very much irrelevant; or you will write 300 words and delete 500 words, on a good day. Most importantly, you will for sure feel left alone in the middle of nowhere with no guidance. That’s very normal for anybody doing their own research. The waste of time, getting lost, and solitude are all <em>part of research</em>. Acknowledging it doesn’t make it easy but it’s good to know that you’re not alone on this.</li>
+<li><strong>Proper citations and references are expected.</strong> By now, you should be able to tell if something is cited correctly. So apply that standard to yourself. There will be warning on citation errors before the Paper. Non-negligible citation errors in the Paper will be punished with grade reductions. This is important part of training. When you cannot cite things right, people (academics or not) scoff at your hard work and question your professionalization. It’s simple and easy to fix citations and references, so let’s not risk that.</li>
+<li><strong>We all pitch in for surveys.</strong> The primary target population for the survey (if, and only if, you use one) will be the class. Everybody is obligated to promptly complete a survey that any of your classmates distributes.</li>
+</ul>
+</section>
 </section>
 <section id="course-policies" class="level1">
 <h1>Course Policies</h1>
+<section id="attendance" class="level2">
+<h2 class="anchored" data-anchor-id="attendance">Attendance</h2>
+<p>Because this course is online asynchronous, there is no physical ‘attendance.’ However, the class cannot function without your regular attention to it. You are expected to check in to see what’s going on in our course page in Canvas at least three times a week.</p>
+</section>
+<section id="assignment-submission" class="level2">
+<h2 class="anchored" data-anchor-id="assignment-submission">Assignment Submission</h2>
+<p>All assignments are expected to be submitted electronically in Canvas. Do <em>not</em> email any assignments. They won’t be graded.</p>
+<ul>
+<li>Technical difficulties are not rare. Try to submit it early if you can.</li>
+<li>If uploading a file, be sure to make it a MS Word or PDF file. Absolutely NO Pages file as it causes a problem in the system. You have free access to MS Office softwares as a Mason student. You can also ‘export’ a Page file as a Word file.</li>
+<li>10% reduction in grade (e.g., one day late for a literature review submission will translate into 1.5 points reduction = 10% <span class="math inline">\(\times\)</span> 15 pts) will be applied to a sameday late submission (so it is still a good idea to turn things in no later than the day of the deadline—the damage would be minimal!). Additional 10% reduction will be added for each midnight (11:59 pm) until the submission.</li>
+<li>For all the things that are not specified in the syllabus, strictly adhere to the GLOA MA Student Guide.</li>
+</ul>
+</section>
+<section id="accommodations" class="level2">
+<h2 class="anchored" data-anchor-id="accommodations">Accommodations</h2>
+<p>If you have a documented learning disability or other condition that may affect academic performance you should: 1) Make sure this documentation is on file with the Office of Disability Services (SUB I, Rm. 222; 993-2474; <a href="www.gmu.edu/student/drc">www.gmu.edu/student/drc</a>) to determine the accommodations you need; and 2) Discuss with me to plan your accommodation needs. Accommodations cannot be provided unless the document from the ODS is provided in advance.</p>
+</section>
+<section id="academic-integrity" class="level2">
+<h2 class="anchored" data-anchor-id="academic-integrity">Academic Integrity</h2>
+<p>George Mason is an Honor Code university; please see the official <a href="https://oai.gmu.edu/wp-content/uploads/2018/08/George-Mason-University-Honor-Code-2018-2019-final.pdf">University Document</a> for a full description of the code and the honor committee process. Don’t rely on Reddit or your friends. They don’t know and are very often misleading.</p>
+<p>Remember, not being familiar with the Honor Code doesn’t constitute a sufficient ground to get your offense excused—anybody taking Mason courses (even a student-to-be) is subject to the Honor Code. Likewise, note that intentionality rarely makes a proper excuse. The principle of academic integrity is taken very seriously and violations are treated gravely.</p>
+<p>When you rely on someone else’s work, you will give that source full credit, typically in the form of an in-text citation and bibliographic reference. If you are unaware of what counts as plagiarism see here: <a href="http://mason.gmu.edu/~montecin/plagiarism.htm">http://mason.gmu.edu/~montecin/plagiarism.htm</a>. Students caught violating the Honor Code will receive a failing grade in the related course assignment and will be reported to the proper university authorities for further disciplinary action.</p>
+<p>Academic integrity is also more than not commiting plagiarism. Lying, for example, is also an offense identified in the Honor Code. Let’s build our class on the foundation of mutual respect and transparency.</p>
+</section>
+<section id="use-of-artificial-intelligence" class="level2">
+<h2 class="anchored" data-anchor-id="use-of-artificial-intelligence">Use of Artificial Intelligence</h2>
+<p>A Large Language Model (LLM), commonly referred to as AI, is a double-edged sword, in that it can help you research better but doing so could easily involve plagiarism/cheating. As a general rule, making an LLM ‘write,’ be it partial or entirely, is considered unequivocal cheating (‘consulting unauthorized materials’) and a direct violation of GMU Honor Code.</p>
+<p>Doing so also risks committing plagiarism. The writing itself has to be yours and yours only.Note that a ‘light’ rephrasing (e.g., altering some words) is still plagiarism. Similarly, submission of an edited version of LLM-generated writing is still considered plagiarism.</p>
+<p>LLM could be used in the <em>process</em> of research, the result of which <em>you</em> actually write about. A good example is to use LLM in finding topics. The more you dig in, the more useful the outcome. One way to see if you are using LLM properly is to see how much time and energy you’re spending on it. If it takes a lot of effort and committing many hours of time to a task, you are probably using LLM right (as a general rule, if what it does is simply make your life more comfortable, there’s a good chance that you’re violating the Honor Code).</p>
+<p>Another way is to use LLM to find relevant readings, although this is proven quite unreliable. A lot of ‘new’ AI models (which are actually based on a couple of existing AI engines) boast about how good they are at this, but so far they really haven’t been.</p>
+<p>You can also use AI to detect typos or <em>obvious/simple</em> grammar errors. However, if you let it offer basically the whole prose for you, then it’s considered plagiarism. An easy way to tell this is to ask youself: “Could I come up with this kind of expression/sentence myself?” If the answer is ‘no’ or ‘not sure,’ then you have to stay away from it. Remember, this is not a writing or literature class and, however elegant, your prose is not relevant for your grades. Only clarity matters.</p>
+<p><em>Not bothering using an LLM in the first place remains a great option.</em></p>
+</section>
 </section>
 <section id="course-schedule-and-readings" class="level1">
 <h1>Course Schedule and Readings</h1>
@@ -184,7 +325,7 @@ Jan 6: This syllabus is created.
 <ul>
 <li>Jan 21 through 26</li>
 <li>One-time <em>Zoom meeting</em> at <red> <strong>7:30-8:30</strong> </red>, Jan 23, Thursday (link available in Canvas): The course is an asynchronous one, so we normally won’t meet in real time. This is one of the only two exceptions (the other being the <em>non-mandatory</em> wrap-up Zoom meeting in the end). You should be able to ask questions.</li>
-<li><strong>My Best Reading</strong>: What was the single reading you liked the most in the grad classes that you’ve taken? Write a 250-word short essay as to why. Submit it by <mark>noon, Friday</mark>.</li>
+<li><strong>My Best Reading</strong>: What was the single reading you liked the most in the grad classes that you’ve taken? Write a 250-word short essay as to why. Submit it by <mark2>noon, Friday</mark2>.</li>
 <li>Start thinking about your capstone project topic right now.</li>
 </ul>
 </section>
@@ -192,6 +333,7 @@ Jan 6: This syllabus is created.
 <h2 class="anchored" data-anchor-id="week-2.-social-science-methods-primer">Week 2. Social Science Methods Primer</h2>
 <ul>
 <li>Jan 27 through Feb 2</li>
+<li><blue>We will revisit some of the specific methods later but it is important for us to have a common understanding of what a good research project is like. We will try to make our own projects as close as possible to this ideal and hold others’ to the same standard too.</blue></li>
 <li>King, Gary, Robert O. Keohane, and Sidney Verba. 1994. <em>Designing Social Inquiry: Scientific Inference in Qualitative Research</em>. Princeton: Princeton University Press.</li>
 <li>Vennesson, Pascal. 2008. “Case Studies and Process Tracing: Theories and Practices.” In eds.&nbsp;Donatella della Porta and Michael Keating. <em>Approaches and Methodologies in the Social Sciences: A Pluralist Perspective</em>. New York: Cambridge University Press, 223–39. <mark>not required</mark></li>
 <li>Gerring, John. 2012. <em>Social Science Methodology: A Unified Framework</em>. 2nd Edition. Cambridge: Cambridge University Press. <mark>not required</mark></li>
@@ -204,36 +346,13 @@ Jan 6: This syllabus is created.
 <ul>
 <li>Feb 3 through 9</li>
 <li><blue>In Weeks 3 and 4, you are partaking in the first wave of peer-review. Evaluating others’ projects and offering feedback on them is as valuable a training as conducting your own research. It is also a significant part of any researcher’s job, academic or otherwise.</blue></li>
-<li>First four people pitch their ideas in this week:
+<li>First four people pitch their ideas in this week.
 <ul>
-<li>By noon Tuesday, make a video where you present some preliminary ideas for your project.</li>
-<li>At the very minimum, provide:
-<ul>
-<li>research question</li>
-<li>methods currently considered</li>
-<li>data</li>
-<li>any challenges or obstacles</li>
-</ul></li>
+<li><mark2>By noon Tuesday</mark2>, make a video (no longer than 5 minutes) where you present some preliminary ideas for your project. See the details: <a href="#sec-pitch" class="quarto-xref">Section&nbsp;4.2</a>.</li>
 <li>If you do not have an idea, simply present your 605 project and discuss <em>why</em> you think that wouldn’t be a good one for your capstone project.</li>
-<li>Once feedback is provided by peer reviewers by noon, Thursday (see below), write a 500-word note about how you will be incorporating it into your project by the end of the week (midnight Sunday).
-<ul>
-<li>Acknowledge/summarize all of the feedback provided (in time).</li>
-<li>If you think some of the feedback is not directly relevant or helpful, you can say that. But in that case, discuss why so.</li>
+<li>Once peer-feedback (see below) is provided by peer-reviewers by noon, Thursday, write a reflection note about how you will be incorporating it into your project by the end of the week <mark2>(midnight Sunday)</mark2>. See the details: <a href="#sec-pitchr2" class="quarto-xref">Section&nbsp;4.4</a></li>
 </ul></li>
-</ul></li>
-<li>The other four people are responsible for providing written feedback for <red>each</red> of the four pitches:
-<ul>
-<li>Use the form provided in Canvas. Upload them as a reply to the videos no later than noon, Thursday.</li>
-<li>Offer constructive, problem-solving feedback. The gist would be ‘this would be how to make your project better.’ Some examples might include:
-<ul>
-<li>methods that might be suitable for the topic</li>
-<li>a particular way to execute the method to answer the research question</li>
-<li>an existing study that employed a similar method</li>
-<li>any related study</li>
-<li>data sources</li>
-<li>logical issues in the potential argument</li>
-</ul></li>
-</ul></li>
+<li>The other four people are responsible for providing written feedback for <red>each</red> of the four pitches no later than <mark2>noon, Thursday</mark2>. See the details: <a href="#sec-pitchr" class="quarto-xref">Section&nbsp;4.3</a>.</li>
 </ul>
 </section>
 <section id="week-4.-pitch-your-idea-to-the-class" class="level2">
@@ -247,10 +366,7 @@ Jan 6: This syllabus is created.
 <h2 class="anchored" data-anchor-id="week-5.-how-not-to-write-a-bad-literature-review">Week 5. How <red>Not</red> to Write a <blue>Bad</blue> Literature Review</h2>
 <ul>
 <li>Feb 17 through 23</li>
-<li><em>You’ve completed a lot of readings in your coursework so far. Most of them have pretty good literature reviews (otherwise they wouldn’t have survived peer-review processes). Therefore, by now, you must be able to tell what a good literature review looks like.</em>
-<ul>
-<li><blue>If you can choose, which one in your past classes had the best literature review?</blue></li>
-</ul></li>
+<li><blue>You’ve completed a lot of readings in your coursework so far. Most of them have pretty good literature reviews (otherwise they wouldn’t have survived peer-review processes). Therefore, by now, you must be able to tell what a good literature review looks like.</blue></li>
 <li>Knopf, Jeffrey W. 2006. “Doing a Literature Review.” <em>PS: Political Science &amp; Politics</em> 39(1): 127–32.</li>
 <li>Organizing Your Social Sciences Research Paper. University of Southern California Libraries. <a href="https://libguides.usc.edu/writingguide/purpose" class="uri">https://libguides.usc.edu/writingguide/purpose</a>: use the tabs on the left.</li>
 <li>The Literature Review: A Few Tips On Conducting It. University of Toronto. <a href="https://advice.writing.utoronto.ca/types-of-writing/literature-review/" class="uri">https://advice.writing.utoronto.ca/types-of-writing/literature-review/</a></li>
@@ -260,6 +376,10 @@ Jan 6: This syllabus is created.
 <h2 class="anchored" data-anchor-id="week-6.-method-recap-1-case-studies-process-tracing">Week 6. Method Recap (1): Case Studies &amp; Process Tracing</h2>
 <ul>
 <li>Feb 24 through Mar 2</li>
+<li>Your capstone paper <em>up to the literature review</em> is due (<mark2>noon, March 1</mark2>).</li>
+<li>Upload a Word of PDF file to the designated place in Assignment section of Canvas.</li>
+<li>See the details: <a href="#sec-lr" class="quarto-xref">Section&nbsp;4.5</a>.</li>
+<li><blue>There are two weeks of ‘method recap.’ By now though, you will be well in the process of empirical analysis. Use these recaps for checking whether your empirical analysis is being done right.</blue></li>
 <li>George, Alexander L., and Andrew Bennett. 2006. <em>Case Studies and Theory Development in the Social Sciences</em>. Cambridge: MIT Press. <strong>Chs. 3 &amp; 5 only</strong>. PDF available in Canvas.</li>
 <li>Steinberg, David A., and Victor C. Shih. 2012. “Interest Group Influence in Authoritarian States: The Political Determinants of Chinese Exchange Rate Policy.” <em>Comparative Political Studies</em> 45(11): 1405–34.</li>
 <li>Ziblatt, Daniel. 2009. “Shaping Democratic Practice and the Causes of Electoral Fraud: The Case of Nineteenth-Century Germany.” <em>American Political Science Review</em> 103(1): 1–21.</li>
@@ -269,20 +389,19 @@ Jan 6: This syllabus is created.
 <section id="week-7.-conference-participation-no-class-mar-3-through-9" class="level2">
 <h2 class="anchored" data-anchor-id="week-7.-conference-participation-no-class-mar-3-through-9">Week 7. Conference Participation (No Class): Mar 3 through 9</h2>
 <ul>
-<li>While there’s no ‘class’ in this week, you have a locked-in time for your project (particularly the <em>literature review</em>). Make the most out of it.</li>
+<li>While there’s no ‘class’ in this week, you have a locked-in time for your project. Make the most out of it.</li>
 </ul>
 </section>
 <section id="week-8.-spring-recess-no-class-mar-10-through-16" class="level2">
 <h2 class="anchored" data-anchor-id="week-8.-spring-recess-no-class-mar-10-through-16">Week 8. Spring Recess (No Class): Mar 10 through 16</h2>
 <ul>
-<li>While there’s no ‘class’ in this week, you have a locked-in time for your project (particularly the <em>literature review</em>). Make the most out of it.</li>
+<li>While there’s no ‘class’ in this week, you have a locked-in time for your project. Make the most out of it.</li>
 </ul>
 </section>
 <section id="week-9.-method-recap-2-qualitative-content-analysis-and-interview" class="level2">
 <h2 class="anchored" data-anchor-id="week-9.-method-recap-2-qualitative-content-analysis-and-interview">Week 9. Method Recap (2): (Qualitative) Content Analysis and Interview</h2>
 <ul>
 <li>Mar 17 through 23</li>
-<li>Your capstone paper <em>up to the literature review</em> is due (<mark>noon, March 17</mark>).</li>
 <li>Klašnja, Marko, Pablo Barberá, Nicholas Beauchamp, Jonathan Nagler, and Joshua A. Tucker. 2015. “Measuring Public Opinion with Social Media Data.” In <em>The Oxford Handbook of Polling and Polling Methods</em>. Oxford University Press, 555–82. <a href="https://doi.org/10.1093/oxfordhb/9780190213299.013.3" class="uri">https://doi.org/10.1093/oxfordhb/9780190213299.013.3</a>. PDF available in Canvas.</li>
 <li>Chiluwa, Innocent, and Presley Ifukor. 2015. “`War against Our Children’: Stance and Evaluation In #BringBackOurGirls Campaign Discourse on Twitter and Facebook.” <em>Discourse &amp; Society</em> 26(3): 267–96.</li>
 <li>Bouvier, Gwen, and David Machin. 2018. “Critical Discourse Analysis and the Challenges and Opportunities of Social Media.” <em>Review of Communication</em> 18(3): 178–92.</li>
@@ -294,6 +413,7 @@ Jan 6: This syllabus is created.
 <h2 class="anchored" data-anchor-id="week-10.-one-on-one-meeting-via-zoom-session-1">Week 10. One-on-One Meeting (via Zoom), Session #1</h2>
 <ul>
 <li>Mar 24 through 30</li>
+<li><blue>By now, the first draft (though very rough) of your Paper is expected to be close to completion. In the meetings you will show me what you have written (or tried to write).</blue></li>
 <li>Sign-up sheets will be made available in advance.</li>
 <li>The Zoom link will be made available in Canvas.</li>
 <li>At least 30 minutes are guaranteed.</li>
@@ -334,17 +454,34 @@ Jan 6: This syllabus is created.
 <h2 class="anchored" data-anchor-id="week-14.-presentation-session-1.">Week 14. Presentation, Session #1.</h2>
 <ul>
 <li>Apr 21 through 27</li>
+<li>The half of class will present their paper. The other half will be the peer-reviewers.</li>
+<li>Upload a video containing your presentation by <mark2>Noon, Tuesday</mark2> to the designated thread of Discussion section in Canvas.
+<ul>
+<li>See the details of the presentation: <a href="#sec-pr" class="quarto-xref">Section&nbsp;4.6</a></li>
+</ul></li>
+<li>Those who are not presenting in this week shall provide written feedback by ‘replying’ to the presentation. The deadline: <mark2>Noon, Saturday</mark2>.
+<ul>
+<li>See the details of the feedback: <a href="#sec-prr" class="quarto-xref">Section&nbsp;4.7</a></li>
+</ul></li>
 </ul>
 </section>
 <section id="week-15.-presentation-session-2." class="level2">
 <h2 class="anchored" data-anchor-id="week-15.-presentation-session-2.">Week 15. Presentation, Session #2.</h2>
 <ul>
 <li>Apr 27 through May 4</li>
-<li>Wrap-up
+<li>The roles are flipped around. The presenters in last week are now reviwers. Reviewers, presenters.</li>
+<li>Same deadlines as the last week: <mark2>Noon, Tuesday</mark2> for presentation and <mark2>Noon, Saturday</mark2> for written feedback.</li>
+<li><strong>Wrap-up</strong>
 <ul>
 <li>This is non-mandatory, though you’re encouraged to attend.</li>
 <li>The Zoom link will be made available in Canvas.</li>
 </ul></li>
+</ul>
+</section>
+<section id="capstone-paper-due-noon-may-8" class="level2">
+<h2 class="anchored" data-anchor-id="capstone-paper-due-noon-may-8">Capstone Paper Due: <mark2>Noon, May 8</mark2></h2>
+<ul>
+<li>Details: <a href="#sec-paper" class="quarto-xref">Section&nbsp;4.8</a>.</li>
 </ul>
 </section>
 </section>
@@ -433,8 +570,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   });
   clipboard.on('success', onCopySuccess);
   if (window.document.getElementById('quarto-embedded-source-code-modal')) {
-    // For code content inside modals, clipBoardJS needs to be initialized with a container option
-    // TODO: Check when it could be a function (https://github.com/zenorocha/clipboard.js/issues/860)
     const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
       text: getTextToCopy,
       container: window.document.getElementById('quarto-embedded-source-code-modal')
@@ -545,7 +680,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       if (window.Quarto?.typesetMath) {
         window.Quarto.typesetMath(note);
       }
-      // TODO in 1.5, we should make sure this works without a callout special case
       if (note.classList.contains("callout")) {
         return note.outerHTML;
       } else {
