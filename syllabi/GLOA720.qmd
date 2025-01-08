@@ -2,7 +2,9 @@
 title: "Syllabus: GLOA 720 Capstone Research (tentative)"
 subtitle: Spring 2025, Online Asynchronous 
 format: 
-  html
+  html:
+    number-sections: true
+    theme: cosmo
 #editor: visual
 # author:
 #   - name: "Byunghwan 'Ben' Son (bson3@gmu.edu)"
@@ -20,6 +22,7 @@ bibliography:
 toc: true
 toccolor: blue
 smooth-scroll: true
+
 ---
 
 
@@ -52,9 +55,10 @@ blue {
 </style>
 ```
 
-# Update log
 
-- <p style="font-family: 'Courier New'">Jan 7: This syllabus is created.</p>
+**Update log**
+
+- <font size='2'>Jan 7: This syllabus is created.</font>
 
 
 # Instructor
@@ -260,7 +264,7 @@ The grading scale in this course follows [GMU Catalogue](https://catalog.gmu.edu
 - Please note that there is no ‘round up’ of scores at the end of the semester. 92.99999, for example, is A–.
 - CHSS strictly prohibits giving an extra assignment for the purpose of improving a grade. I adhere to this policy.
 
-# Course Schedule and Readings
+# Course Schedule and Readings 
 
 -   We mimic the schedule of a face-to-face version of this class. In the weeks where lectures are included, the video will be uploaded at the beginning of the week. It does NOT mean that you are supposed to watch the video right away because, again, this is an *asynchronous* course. But the expectation is you complete the video by Tuesday morning.
 -   Readings and the reading schedules are subject to change. When such changes are made, the change 'log' will be printed at the beginning of this syllabus.
@@ -272,14 +276,14 @@ The grading scale in this course follows [GMU Catalogue](https://catalog.gmu.edu
 
 <!-- For now it's hard to find an equivalent to \bibentry. In QMD Visual model, when @citekey is recognized, a pop-up shows the full citation. for now I just copy-and-paste that and replace the citekey with it.  -->
 
-## Week 1. Introduction. Going over the Syllabus.
+## Week 1. Introduction. Going over the Syllabus. {.unnumbered}
 
 -   Jan 21 through 26
 -   One-time *Zoom meeting* at <red> **7-8** PM </red>, Jan 23, Thursday (link available in Canvas): The course is an asynchronous one, so we normally won't meet in real time. This is one of the only two exceptions (the other being the *non-mandatory* wrap-up Zoom meeting in the end). You should be able to ask questions.
 - **My Best Reading**: What was the single reading you liked the most in the grad classes that you've taken? Write a 250-word short essay as to why. Submit it by <mark2>noon, Friday</mark2>.
 - Start thinking about your capstone project topic right now.
 
-## Week 2. Social Science Methods Primer
+## Week 2. Social Science Methods Primer {.unnumbered}
 
 -   Jan 27 through Feb 2
 - <blue>We will revisit some of the specific methods later but it is important for us to have a common understanding of what a good research project is like. We will try to make our own projects as close as possible to this ideal and hold others' to the same standard too.</blue>
@@ -289,7 +293,7 @@ The grading scale in this course follows [GMU Catalogue](https://catalog.gmu.edu
 -   Pape, Robert A. 2008. “[Methods and Findings in the Study of Suicide Terrorism](https://doi.org/10.1017/S0003055408080179).” *American Political Science Review* 102(2): 275–77.
 -   APA Style Guide. <https://apastyle.apa.org/>. (for your reference--just take a look).
 
-## Week 3. Pitch Your Idea (to the class)
+## Week 3. Pitch Your Idea (to the class) {.unnumbered}
 
 -   Feb 3 through 9
 -   <blue>In Weeks 3 and 4, you are partaking in the first wave of peer-review. Evaluating others' projects and offering feedback on them is as valuable a training as conducting your own research. It is also a significant part of any researcher's job, academic or otherwise.</blue>
@@ -300,12 +304,12 @@ The grading scale in this course follows [GMU Catalogue](https://catalog.gmu.edu
 -   The other four people are responsible for providing written feedback for <red>each</red> of the four pitches no later than <mark2>noon, Thursday</mark2>. See the details: @sec-pitchr.
     
 
-## Week 4. Pitch Your Idea (to the class)
+## Week 4. Pitch Your Idea (to the class) {.unnumbered}
 
 -   Feb 10 through 16
 -   The tables are turned around. The pitch-makers and reviewers in the previous week switch their roles.
 
-## Week 5. How <red>Not</red> to Write a <blue>Bad</blue> Literature Review
+## Week 5. How <red>Not</red> to Write a <blue>Bad</blue> Literature Review {.unnumbered}
 
 -   Feb 17 through 23
 -   <blue>You've completed a lot of readings in your coursework so far. Most of them have pretty good literature reviews (otherwise they wouldn't have survived peer-review processes). Therefore, by now, you must be able to tell what a good literature review looks like.</blue>
@@ -313,7 +317,7 @@ The grading scale in this course follows [GMU Catalogue](https://catalog.gmu.edu
 -   Organizing Your Social Sciences Research Paper. University of Southern California Libraries. <https://libguides.usc.edu/writingguide/purpose>: use the tabs on the left.
 -   The Literature Review: A Few Tips On Conducting It. University of Toronto. <https://advice.writing.utoronto.ca/types-of-writing/literature-review/>
 
-## Week 6. Method Recap (1): Case Studies & Process Tracing
+## Week 6. Method Recap (1): Case Studies & Process Tracing {.unnumbered}
 
 -   Feb 24 through Mar 2
 -   Your capstone paper *up to the literature review* is due (<mark2>noon, March 1</mark2>).
@@ -325,15 +329,15 @@ The grading scale in this course follows [GMU Catalogue](https://catalog.gmu.edu
 -   Ziblatt, Daniel. 2009. “Shaping Democratic Practice and the Causes of Electoral Fraud: The Case of Nineteenth-Century Germany.” *American Political Science Review* 103(1): 1–21.
 -   Pepinsky, Thomas B. 2009. *Economic Crises and the Breakdown of Authoritarian Regimes: Indonesia and Malaysia in Comparative Perspective*. New York: Cambridge University Press. **Ch. 1 only.** Available online through GMU library.
 
-## Week 7. Conference Participation (No Class): Mar 3 through 9
+## Week 7. Conference Participation (No Class): Mar 3 through 9 {.unnumbered}
 
 -   While there's no 'class' in this week, you have a locked-in time for your project. Make the most out of it.
 
-## Week 8. Spring Recess (No Class): Mar 10 through 16
+## Week 8. Spring Recess (No Class): Mar 10 through 16 {.unnumbered}
 
 -   While there's no 'class' in this week, you have a locked-in time for your project. Make the most out of it.
 
-## Week 9. Method Recap (2): (Qualitative) Content Analysis and Interview
+## Week 9. Method Recap (2): (Qualitative) Content Analysis and Interview {.unnumbered}
 
 -   Mar 17 through 23
 -   Klašnja, Marko, Pablo Barberá, Nicholas Beauchamp, Jonathan Nagler, and Joshua A. Tucker. 2015. “Measuring Public Opinion with Social Media Data.” In *The Oxford Handbook of Polling and Polling Methods*. Oxford University Press, 555–82. <https://doi.org/10.1093/oxfordhb/9780190213299.013.3>. PDF available in Canvas.
@@ -342,7 +346,7 @@ The grading scale in this course follows [GMU Catalogue](https://catalog.gmu.edu
 -   Leech, Beth L. 2002. “Asking Questions: Techniques for Semistructured Interviews.” *PS: Political Science & Politics* 35(4): 665–68.
 -   Fujii, Lee Ann. 2008. “The Power of Local Ties: Popular Participation in the Rwandan Genocide.” *Security Studies* 17(3): 568–97.
 
-## Week 10. One-on-One Meeting (via Zoom), Session #1
+## Week 10. One-on-One Meeting (via Zoom), Session #1 {.unnumbered}
 
 -   Mar 24 through 30
 - <blue>By now, the first draft (though very rough) of your Paper is expected to be close to completion. In the meetings you will show me what you have written (or tried to write).</blue>
@@ -351,7 +355,7 @@ The grading scale in this course follows [GMU Catalogue](https://catalog.gmu.edu
 -   At least 30 minutes are guaranteed.
 -   Use this time as your uninterrupted writing time. *You will need it*.
 
-## Week 11. One-on-One Meeting (via Zoom), Session #2
+## Week 11. One-on-One Meeting (via Zoom), Session #2 {.unnumbered}
 
 -   Mar 31 through Apr 6
 -   Sign-up sheets will be made available in advance.
@@ -359,7 +363,7 @@ The grading scale in this course follows [GMU Catalogue](https://catalog.gmu.edu
 -   You can sign up for another after having one in Week 8.
 -   Use this time as your uninterrupted writing time. *You will need it*.
 
-## Week 12. One-on-One Meeting (via Zoom), Session #3
+## Week 12. One-on-One Meeting (via Zoom), Session #3 {.unnumbered}
 
 -   Apr 7 through 13
 -   Sign-up sheets will be made available in advance.
@@ -367,7 +371,7 @@ The grading scale in this course follows [GMU Catalogue](https://catalog.gmu.edu
 -   You can sign up for another after having one in previous weeks.
 -   Use this time as your uninterrupted writing time. You will need it.
 
-## Week 13. One-on-One Meeting (via Zoom), Session #4
+## Week 13. One-on-One Meeting (via Zoom), Session #4 {.unnumbered}
 
 -   Apr 14 through 20
 -   Sign-up sheets will be made available in advance.
@@ -375,7 +379,7 @@ The grading scale in this course follows [GMU Catalogue](https://catalog.gmu.edu
 -   You can sign up for another after having one in previous weeks.
 -   Use this time as your uninterrupted writing time. You will need it.
 
-## Week 14. Presentation, Session #1.
+## Week 14. Presentation, Session #1. {.unnumbered}
 
 - Apr 21 through 27
 - The half of class will present their paper. The other half will be the peer-reviewers.
@@ -384,14 +388,16 @@ The grading scale in this course follows [GMU Catalogue](https://catalog.gmu.edu
 - Those who are not presenting in this week shall provide written feedback by 'replying' to the presentation. The deadline: <mark2>Noon, Saturday</mark2>. 
   - See the details of the feedback: @sec-prr
 
-## Week 15. Presentation, Session #2.
+## Week 15. Presentation, Session #2. {.unnumbered}
 
 -   Apr 27 through May 4
 - The roles are flipped around. The presenters in last week are now reviwers. Reviewers, presenters.
 - Same deadlines as the last week: <mark2>Noon, Tuesday</mark2> for presentation and <mark2>Noon, Saturday</mark2> for written feedback.
--  **Wrap-up**
+-  **Wrap-up** (7PM, Thursday)
     -   This is non-mandatory, though you're encouraged to attend.
-    -   The Zoom link will be made available in Canvas.
+    -   The <red>Zoom</red> link will be made available in Canvas.
     
-## Capstone Paper Due: <mark2>Noon, May 8</mark2>
+## Capstone Paper Due {.unnumbered}
+- <mark2>Noon, May 8</mark2> 
 - Details: @sec-paper.
+- Submit a PDF or Word file to the designated place in Assignment section of Canvas.
