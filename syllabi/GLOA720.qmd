@@ -1,6 +1,6 @@
 ---
-title: "Syllabus: GLOA 720 Capstone Research"
-subtitle: Spring 2025, Online Asynchronous
+title: "Syllabus: GLOA 720 Capstone Research (tentative)"
+subtitle: Spring 2025, Online Asynchronous 
 format: 
   html
 #editor: visual
@@ -52,8 +52,6 @@ blue {
 </style>
 ```
 
-**Note**: I don't use the traditional PDF syllabus anymore. Bookmark this webpage in your browser. This is the syllabus and do not print it out as some changes can  be made down the road. Whatever change is made, the URL remains the same.
-
 # Update log
 
 - <p style="font-family: 'Courier New'">Jan 7: This syllabus is created.</p>
@@ -68,7 +66,7 @@ blue {
   - [{{< fa brands github >}} Github](https://github.com/textvulture)
   - [{{< fa brands google-scholar >}} Google Scholar](https://scholar.google.com/citations?user=h0o27GgAAAAJ&hl=en)
 - Office Hours
-  - Office Hours 1:30-3:00 PM via Zoom (link available in Canvas).
+  - Office Hours 1:30-3:00 PM, TR, via Zoom (link available in Canvas).
     -   This is an online class, so office hours are also online only.
 - Email Communications
   -   You can email me whenever you want, but my responses to the emails sent to me after 5 pm weekdays as well as any time during the weekend will be significantly slow.
@@ -89,44 +87,51 @@ Some things to keep in mind in this regard:
 
 In a nutshell, you are based on the following items. The deadlines for each are found in the reading schedule below. 
 
-1. My Best Reading (5%)
-2. Pitch your idea (5%)
-3. Peer Review of the pitches (5%)
-4. Pitch reflection (5%)
-5. Literature Review (15%)
-6. Presentation (15%)
-7. Peer Review of the presentations (5%)
-8. Capstone Research Paper (45%)
+1. My Best Reading (5%): @sec-best
+2. Pitch your idea (5%): @sec-pitch
+3. Peer Review of the pitches (5%): @sec-pitchr
+4. Pitch reflection (5%): @sec-pitchr2
+5. Literature Review (15%): @sec-lr
+6. Presentation (15%): @sec-pr
+7. Peer Review of the presentations (5%): @sec-prr
+8. Capstone Research Paper (45%): @sec-paper
 
 ## My Best Reading (5%) {#sec-best}
 
 What was the single reading you liked the most in the grad classes that you've taken? Write a 300-word short essay discussing: 
+
   - Why do you like it so much? 
   - How is it better than others?
   - Is there any part of the reading that you want to incorporate into your project?
+  
 Submit this to the designated place in Assignment section of Canvas.
 
 ## Pitch your idea (5%) {#sec-pitch}
 Upload a video about a rough sketch of your idea for the capstone project. Things to include:
+
   -   research question
   -   methods currently considered
   -   (potential) data
   -   any challenges or obstacles you foresee (if not already experienced)
+  
 Submit the video as a 'reply' to the designated thread of Discussion Board in Canvas.
 
 ## Peer Review of the pitches (5%) {#sec-pitchr}
 Provide written feedback on others' pitches. No word limit. Offer constructive, problem-solving feedback. The gist would be 'this would be how to make your project better.' Some examples might include: 
+
   -   methods that might be suitable for the topic
   -   a particular way to execute the method to answer the research question
   -   an existing study that employed a similar method
   -   any related study
   -   data sources recommendation
   -   logical issues in the potential argument.
+  
 Submit this by posting a reply in Canvas to the pitch presented. Include in the text the word count.
 
 
 ## Pitch Reflection (5%) {#sec-pitchr2}
 Reflect on the feedback collected. Once peer-feedback is provided by peer-reviewers, write a 300-word note about how you will be incorporating it into your project by the end of the week (midnight Sunday).
+
   -   Acknowledge/summarize all of the feedback provided (in time).
   -   If you think some of the feedback is not directly relevant or helpful, you can say that. But in that case, discuss why so.
   - Submit it to the designated place in the Assignment section of Canvas.
@@ -142,24 +147,41 @@ Complete the research paper up to the literature review.
 count towards the 6 academic sources requirement.
     - highlight the contribution of your paper to the literature. This doesn’t have to be (or probably should not be) something grandiose. In fact, it has very little to do with 'doing good things for the world.' Boring stuff like ‘few people talked about X in country Y’s context’ is just fine. The important part here is to demonstrate ‘few people.’ 
     - include proper citations and references.
-    - make sure to discuss theoretical stuff. By 'theoretical,' I mean general relationship between factors closely related to your project regardless of the empiricaßl context. 
+    - make sure to discuss theoretical stuff. By 'theoretical,' I mean general relationship between factors closely related to your project regardless of the empirical context. 
       - If, for example, your topic is a cash transfer programs in Sudan, a theoretical piece you might need to discuss is a general discussions on the effectiveness of cash transfer programs, foreign aid, or micro-credit programs in a much broader and not Sudan-specific context. This way, you can situate your project in the literature and easily identify what the possible contribution can be.
 
 ## Presentation (15%) {#sec-pr}
-Create a video of presenting your research project.
 
-## Peer Review of the presentations (5%) {#sec-prr}
-Provide feedback on others' presentations using the form found in Canvas.
+Create a video of presenting your research project. Submit the video by 'replying' to the designated thread in Discussion section of Canvas.
+
+- The video has to be longer than 5 minutes but should not be longer than 12 minutes.
+- You don't necessarily have to 'appear' in the video (though preferred), but at least your voice needs to be in it.
+- To make it fair with everyone, it has to be a video, not a PPT file with your voice. Even if you're using a PPT file with voice-over, record a video of it.
+- Clarity and succinctness matter. The following things need to be clearly presented in a simple way:
+  - the primary argument
+  - the contribution of the paper to the literature (or why your research matters)
+  - the data and research method used
+  - the conclusion
+
+
+## Peer Review of the Presentations (5%) {#sec-prr}
+
+Provide feedback on others' presentations by making a reply to the presentation video (so, basically, a 'reply to reply'). No word limit. Offer feedback on:
+
+- the clarity of the presentation
+- how compelling the argument presented
+- whether and how the empirical analysis actually support the argument
+- any alternatives to the arugment or data
 
 ## Capstone Research Paper (45%) {#sec-paper}
 
 This is the most important part of this course. The Paper, just like a typical social science research paper, might have this structure:
 
-  A. Introduction
-  B. Literature Review
-  C. Theory and/or Argument
-  D. <red>Empirical Analysis</red>
-  E. Conclusion
+  a. Introduction
+  b. Literature Review
+  c. Theory and/or Argument
+  d. <red>Empirical Analysis</red>
+  e. Conclusion
 
 You will have all five parts in your Paper. Since by this time, you will already have the literature review (and rudimentary and theory) completed and the empirical analysis will be the major addition at this stage. Unlike a research design or proposal, you are actually implementing an empirical analysis. 
 
@@ -183,9 +205,11 @@ Because this course is online asynchronous, there is no physical 'attendance.' H
 
 All assignments are expected to be submitted electronically in Canvas. Do *not* email any assignments. They won't be graded.
 
+- For video submissions, YouTube links are preferred. You can upload your video to YouTube, set the video privacy as 'unlisted', and simply submit a <red>link</red> to your video. **Kaltura MyMedia** is also acceptable. 
+  - Do not attach your video file directly to our Canvas page, though.
 - Technical difficulties are not rare. Try to submit it early if you can.
-- If uploading a file, be sure to make it a MS Word or PDF file. Absolutely NO Pages file as it causes a problem in the system. You have free access to MS Office softwares as a Mason student. You can also 'export' a Page file as a Word file. 
-- 10% reduction in grade (e.g., one day late for a literature review submission will translate into 1.5 points reduction = 10% $\times$ 15 pts) will be applied to a sameday late submission (so it is still a good idea to turn things in no later than the day of the deadline—the damage would be minimal!). Additional 10% reduction will be added for each midnight (11:59 pm) until the submission.
+- If uploading a file, be sure to make it a MS Word or PDF file. Absolutely NO Pages file as it causes a problem in the system. You have free access to MS Office software as a Mason student. You can also 'export' a Page file as a Word file. 
+- 10% reduction in grade (e.g., one day late for a literature review submission will translate into 1.5 points reduction = 10% $\times$ 15 pts) will be applied to a same day late submission (so it is still a good idea to turn things in no later than the day of the deadline—the damage would be minimal!). Additional 10% reduction will be added for each midnight (11:59 pm) until the submission.
 - For all the things that are not specified in the syllabus, strictly adhere to the GLOA MA Student Guide. 
 
 ## Accommodations
@@ -215,15 +239,30 @@ Another way is to use LLM to find relevant readings, although this is proven qui
 
 You can also use AI to detect typos or *obvious/simple* grammar errors. However, if you let it offer basically the whole prose for you, then it's considered plagiarism. An easy way to tell this is to ask youself: "Could I come up with this kind of expression/sentence myself?" If the answer is 'no' or 'not sure,' then you have to stay away from it. Remember, this is not a writing or literature class and, however elegant, your prose is not relevant for your grades. Only clarity matters.
 
-
-
 *Not bothering using an LLM in the first place remains a great option.*
 
+## Diversity Statement
 
+* This section reflects in part Mason’s [diversity statement](https://stearnscenter.gmu.edu/purpose-and-mission/mason-diversity-statement/).
+
+George Mason University promotes a living and learning environment for outstanding
+growth and productivity among its students, faculty, and staff. Through its curriculum, programs, policies, procedures, services, and resources, Mason strives to maintain a quality environment for work, study and personal growth.
+
+An emphasis upon diversity and inclusion throughout the campus community is essential to achieve these goals. Diversity is broadly defined to include such characteristics as, but not limited to, race, ethnicity, gender, religion, age, disability, and sexual orientation. Diversity also entails different viewpoints, philosophies, and perspectives. Attention to these aspects of diversity will help promote a culture of inclusion and belonging, and an environment where diverse opinions, backgrounds and practices have the opportunity to be voiced, heard and respected.
+
+There’s a practical element here too. You (will) live in an increasingly diverse society where practicing inclusiveness might help you in the long run (even if you do not agree with some of these values!). You are strongly encouraged to check out important websites such as [Anti-Racism Resources](https://caps.gmu.edu/resources-and-self-help/anti-racism-resources/) and GMU [Religious Holiday Calendar](https://ulife.gmu.edu/religious-holiday-calendar/). It is the obligation of the student to provide faculty, within the first two weeks of the semester, with the dates of major religious holidays on which they will be absent due to religious observances.
+
+## Grading Scale
+
+The grading scale in this course follows [GMU Catalogue](https://catalog.gmu.edu/policies/academic/grading/#ap-3-2).
+
+- The class does not give ‘I’ (incomplete) unless you have already completed about 95% of the course requirement.
+- Please note that there is no ‘round up’ of scores at the end of the semester. 92.99999, for example, is A–.
+- CHSS strictly prohibits giving an extra assignment for the purpose of improving a grade. I adhere to this policy.
 
 # Course Schedule and Readings
 
--   We mimic the schedule of a face-to-face version of this class. In the weeks where lectures are included, the video will be uploaded at the beginning of the week. It does NOT mean that you are supposed to watch the video right away because, again, this is a *asynchronous* course. But the expectation is you complete the video by Tuesday morning.
+-   We mimic the schedule of a face-to-face version of this class. In the weeks where lectures are included, the video will be uploaded at the beginning of the week. It does NOT mean that you are supposed to watch the video right away because, again, this is an *asynchronous* course. But the expectation is you complete the video by Tuesday morning.
 -   Readings and the reading schedules are subject to change. When such changes are made, the change 'log' will be printed at the beginning of this syllabus.
 -   Unless specified as <mark>not required</mark>, all the listed readings are required readings.
     -   Required readings are indispensable for your successful completion of this course.
