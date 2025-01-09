@@ -1,0 +1,42 @@
+---
+title: "temp"
+format: html
+---
+
+
+```{r}
+#| fig-cap: "."
+#| filters:
+#| - parse-latex
+
+library(dplyr)
+library(tinytable)
+library(kableExtra)
+library(flextable)
+
+grades <- c("compelling & creative evaluation of readings (<i>you made me cry</i>)",
+            "accurate summary of the readings in <b>your own words</b> (<i>I don't see any problem here</i>)",
+            "all required readings are discussed with reasonable clarity",
+            
+            "meeting minimal requirements"
+)
+
+col1 <- c("$\\checkmark$", "$\\checkmark$ $\\times$", "$\\checkmark$", "$\\checkmark$")
+          
+df <- data.frame(grades = grades, 
+                 `4.9-4.5` = col1,
+                 check.names = F)
+# 
+kbl(df,
+    escape = F,
+    full_width = F,
+    align = 'lc')  %>%
+  column_spec(1, width="7cm") %>%
+  kable_paper()
+
+# k <- tt(df)
+# format_tt(k, tinytable_html_mathjax=TRUE)
+
+
+
+```

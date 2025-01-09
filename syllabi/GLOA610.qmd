@@ -1,37 +1,42 @@
 ---
-title: "GLOA 610 Economic Globalization and Development"
-subtitle: Spring 2025
+title: "Syllabus: GLOA 610 Capstone Research (tentative)"
+subtitle: Spring 2025, 4:30-7:10 PM, T, [Innovation Hall 328](https://maps.app.goo.gl/qKt8oZPFcbQzFc5u8)
 format: 
   html:
-    other-links: 
-      - text: Personal Webpage
-        icon: house
-        href: https://textvulture.github.io/
-      - text: GLOA Profile
-        href: https://globalaffairs.gmu.edu/
-        icon: buildings
-      - text: GitHub
-        href: https://github.com/textvulture
-        icon: github
-editor: visual
-author: 
-  - name: "Byunghwan 'Ben' Son (bson3@gmu.edu)"
-    meta-data:
-      custom-info: "Office Hours"
-    affiliations:
-      - name: Global Affairs, George Mason Uiversity
-        url: https://globalaffairs.gmu.edu/
-    
+#    math: mathjax
+    number-sections: true
+    theme: cosmo
+    table-markdown: true
+#editor: visual
+# author:
+#   - name: "Byunghwan 'Ben' Son (bson3@gmu.edu)"
+#     meta-data:
+#       custom-info: "Office Hours"
+#     affiliations:
+#       - name: Global Affairs, George Mason University
+#         url: https://globalaffairs.gmu.edu/
 
-bibliography: references.bib
-csl: C:\\Users\\kalka\\Dropbox\\latex\\apsa.csl
+bibliography: 
+  - references.bib
+  - mybib2.bib
+  
+#csl: C:\\Users\\kalka\\Dropbox\\latex\\apsa.csl
 toc: true
 toccolor: blue
 smooth-scroll: true
+
+execute:
+  warning: false
+  message: false
+  error: false
+  echo: false
+
 ---
+
 
 ```{=html}
 <style>
+
 
 mark {
   background-color: #ece985;
@@ -51,20 +56,274 @@ red {
   color: #9b1212;
 }
 
+blue {
+  color: #124921;
+}
+
 </style>
 ```
 
-# Office Hours and Email Communications
 
--   Office Hours 1:30-3:00 PM (Horizon Hall, 6235)
--   You can email me whenever you want, but my responses to the emails sent to me after 5 pm weekdays as well as any time during the weekend will be significantly slow.
-    -   For your own interest, you might want to try to use the normal working hours (9 AM to 5 PM, Monday through Friday). In your email, please indicate <red>who you are</red> and <red>which class you’re in (i.e., GLOA 720)</red>.
+**Update log**
+
+- <font size='2'>Jan 9: This syllabus is created.</font>
+
+
+# Instructor
+
+- Byunghwan 'Ben' Son (bson3@gmu.edu)
+  - Associate Professor of Global Affairs
+  - [{{< fa house size=small >}} Personal Webpage](https://textvulture.github.io/)
+  - [{{< fa school-flag size=small >}} GLOA Profile](https://globalaffairs.gmu.edu/)
+  - [{{< fa brands github >}} Github](https://github.com/textvulture)
+  - [{{< fa brands google-scholar >}} Google Scholar](https://scholar.google.com/citations?user=h0o27GgAAAAJ&hl=en)
+- Office Hours
+  - Office Hours 1:30-3:00 PM, TR. 6235 [Horizon Hall](https://maps.app.goo.gl/4QEBDLp3j4YNuVLB9)
+- Email Communications
+  -   You can email me whenever you want, but my responses to the emails sent to me after 5 pm weekdays as well as any time during the weekend will be significantly slow.
+    -   For your own interest, you might want to try to use the normal working hours (9 AM to 5 PM, Monday through Friday). In your email, please indicate <red>who you are</red> and <red>which class you’re in (i.e., GLOA 610)</red>.
     -   For security reasons, emails not sent from the Mason account (i.e., gmu.edu) won't be answered. This is the University policy.
-
+    
 # Course Description
 
 Does globalization treat everybody equally (every country, every society, every region, or every system)? Throughout the semester, we will be grappling with this simple question in several different contexts. Particularly, we will navigate various avenues of economic globalization including trade, finance, debt, and investment to discuss to what extent globalization affects the economic well-being of nation-states, societies, and people around the world. In doing so, we will often employ conflicting ideological/theoretical perspectives. Throughout, we will also consider the “what should be done” questions: If globalization brings about prosperity, how can we make it more equitable and effective? If globalization traps people in misery, what can ameliorate it? Note that there hardly is a ‘right’ answer—or any answer—to any of these questions. By the end of the semester, students are expected to be familiar with the current literature on (and issues in general about) economic globalization and able to critically evaluate them. One more thing. <red>This ain't no econ class. Nor am I an economist.</red>
 
-# Course Requirement
 
-# Reading Schedule
+
+# COURSE REQUIREMENT
+
+In a nutshell, your grade is determined by:
+
+  - Reading Summaries (5% $\times$ 4 = 20%)
+  - Participation (20%)
+  - Case Report (20 $\times$ 2 = 40%)
+  - Final Exam (20%)
+
+## Readings (Reading Summaries)
+
+- Completing all the required readings is only a minimal requirement for a graduate seminar. We build on it. If you didn't complete the reading, coming to class is quite meaningless. Our class discussions will be firmly anchored to the readings. I mean, we're literally discussing each of the readings. So be prepared. 
+- Sometimes it might feel like you simply didn't get the reading despite putting in quite a bit of effort. That's completely okay. What is not okay is not asking questions that you had while reading them and leaving your curiosity unaddressed. That's a capital crime. 
+- The assigned readings are not 'textbooks' in a traditional sense. I don't necessarily endorse or agree with them (in fact, there are some readings whose arguments I squarely disagree with). And some--though only a few--of the readings can be a bit provocative, if not misleading. These readings are here to help us think about the topics. In other words, you ain't no undergrad anymore and should be able to critically (but also productively) evaluate the readings.
+- Students are expected to  about {some}--though maybe not all--of the following questions while working on the required readings.
+
+	- What are the central arguments of the piece and the rationale behind them?
+	- How can this piece be connected to others?
+	- Does the piece provide empirical evidence and if so, is it compelling? If not, why?
+	- What would I do if I worked on the same subject?
+	- What would be the practical implication(s)--or policy propositions--based on this piece?
+
+
+- Recommended readings are by definition  required. They are not the subject of reading summaries. Including them in the reading summaries does not affect the grade.	
+
+
+
+```{r}
+#| fig-cap: "."
+#| filters:
+#| - parse-latex
+
+library(dplyr)
+library(tinytable)
+library(kableExtra)
+library(flextable)
+
+grades <- c("compelling & creative evaluation of readings (<i>you made me cry</i>)",
+            "accurate summary of the readings in <b>your own words</b> (<i>I don't see any problem here</i>)",
+            "all required readings are discussed with reasonable clarity",
+            
+            "meeting minimal requirements"
+)
+
+col1 <- c("$\\checkmark$", "$\\checkmark$", "$\\checkmark$", "$\\checkmark$")
+col2 <- c("", "$\\checkmark$", "$\\checkmark$", "$\\checkmark$")
+col3 <- c("", "", "$\\checkmark$", "$\\checkmark$")
+col4 <- c("", "", "", "$\\checkmark$")
+          
+df <- data.frame(grades = grades, 
+                 `5.0-4.5` = col1,
+                 `4.4-4.0` = col2,
+                 `3.9-3.5` = col3,
+                 `3.4-3.0` = col4,
+                 check.names = F)
+
+kbl(df,
+    escape = F,
+    full_width = F,
+    align = 'lcccc')  %>%
+  column_spec(1, width="7cm") %>%
+  kable_paper()
+
+
+
+
+```
+
+
+- Students are expected to hand in **four**, and only four, summaries of readings.
+	- Starting from the week of 'Institutions' and up to the near-end of the semester (see the schedule below for the specific date), you can choose whichever week's readings you want to work on. (this  overlap with the week of your case presentation)
+	- The goal is to  that you understood and thought about the major points of the readings (though not every single detail). Repeating the jargon used in the abstract (or 'light paraphrasing') would work against you. Show you did the reading. Use your own words.
+	- The length should not exceed 800 words. There's no minimum but a summary would typically be somewhere between 500 and 800 words.
+	- You might want to touch upon  of the questions mentioned above.
+    - While there's no specific template for this assignment, a good summary would, you know, summarize all of the required readings of the week. It would also discuss 1) what the reasoning behind the authors' arguments is and 2) how (some of) the readings can be related to each other (e.g., A disagrees with B; C complements D; E expands F for XYZ reasons) in a {compelling} way. Again, delivering this with your own words, not jargon, is the key.
+		- Each summary accounts for {5}\
+		- The summary is due {4:00 pm}, the class day (right before the class, that is). 
+
+- There is no textbook you need to purchase. Instead, the reading list for each week is specified below. But if you want to have a reasonable textbook-like foundation for what we discuss, which is pretty advanced, this should be helpful (again, not a requirement):
+
+	     - .
+
+- most of them are electronically available via GMU library webpage (as well as in \faGraduationCap  GoogleScholar).
+	- This is part of the training; I will be more than happy to help if necessary.
+	- the readings you cannot access electronically will be made available on Blackboard.
+	- Did you know you can actually link your Mason account to GoogleScholar? This way, you don't have to navigate the Mason Library webpage (which is somewhat messy) to find the readings available to you. You can just use Google Scholar (which is much easier) to do that. See this simple instruction: .
+
+- I have a bad habit of replacing the existing readings with newer ones in the middle of a semester. But I assure you that such a change will happen no later than one week before when the reading (summary) is due. It would be, thus, a good idea to simply bookmark this syllabus page and check whether you have the up-to-date version of the reading list. Downloading the PDF of the syllabus and saving it on your computer is not recommended. It's old and lame.
+
+## Participation   (20\
+- Active participation in class discussions is expected of every student in this graduate seminar. As is the case in any seminar, we learn the most when we talk. Answering my questions during the lecture and making a comment on the class subject or your classmates' presentation are typical--but effective--ways of 'participation.'
+
+- Another way of participation is to partake in  discussions. Every class will begin with discussions on a couple of current events related to global political economy. You might want to bring up a news article and we can discuss that. This is optional and designed to add to your participation grade. Note that as a Mason student, you have free access to the Financial Times, the New York Times, the Economist, and many others. Check out this {link} for further information.
+
+- The evaluation of your participation rests upon my {subjective} assessment of the extent to which you contributed to our collective understanding of the class subject. In practical terms, both frequency and quality matter. In general, though, questions and comments on the {readings} are considered of a much better quality than others. There's no 'right' way of participation, but roughly speaking:
+
+         | 20-19.0 |  {c|}{18.9-15.0} | 14.9-12.0 | 11.9-0 
+
+        frequency | high | not high | high | not high | {2.5cm}{} 
+
+        quality | high | high | not high | not high |  
+
+## Case Report  (20% $\times$ 2 = 40%)
+
+
+     Total possible points = 20    |  [20.0-19.0] | [18.9-17.0] | [16.9-13.0] | [12.9-10.0] 
+
+    extraordinarily insightful analysis of the case ('''')     |\checkmark |||
+
+    in-depth analysis of a concrete topic ('''') |\checkmark|\checkmark||
+
+    proper format w/ reasonable clarity ('''') |\checkmark|\checkmark|\checkmark|
+
+    meeting minimal requirements ('''') |\checkmark|\checkmark|\checkmark|\checkmark
+
+
+### the logistics
+
+	- The deadline for each Report is <red>4pm, Tuesday</red> (Canvas) in the week of the subject. 
+	- Each Report should not exceed 2,500 words. There is no minimum but it'll be difficult to keep it under 1,500 words.
+	- You will give a brief (10 minutes max., but preferably around 6-7 minutes) presentation of your Report. You don't have to have presentation slides--they are optional. 	
+	- The evaluation will be based on both your presentation (2%) and paper (18%).
+	  - Presentations are part of evaluation, but there's no extra point for pretty slides. You do what you like, but what counts at the end of the day is clarity.
+		- The presentation grade includes your handling of your peers' reaction (e.g., answering questions)
+    - For each case report, you will decide which country (or countries or organization) you are interested in. Pick two.
+	  - For each case report, you will also decide which topic (i.e. which week's theme) you are interested in. Pick two. 
+	    - Make sure your topic actually speaks directly to the topic of the week. If your report is on immigration, for example, the migrants' hardship coming through the Aermican southern border, though important, is not a good topic. 'Why migrants choose to move to the US' is. 
+	    - You are not required to work on the same country for both presentations/Reports, though that's encouraged.
+
+### the expectation
+
+  - The more specific your subject and question-answering the report, the better. For instance, ‘Why did the cash transfer program in 2018 fail in a Tigray Regional government’ is infinitely better than ‘Poverty Trap in Ethiopia.’
+    - The former is a rigorous and scientific way to address the latter. That's something people actually want to know. 
+    - The latter would be more or less a generic punditry essay that can be done without actually engaging any theoretical or empirical work. You can write it without any graduate school education. In effect, <red>large language models like ChatGPT can write it much better than most of us.</red> So you don't need to be trained on this at all--there's no human job for that. 
+    - How do you know if you are doing the former, not the latter? See if you identify (and discuss in detail) a  example emblematic of the problems of microfinancing programs in that Nigerian town. Try to offer specifics. A good question you can keep asking yourself while working on this is, 'Do I pose a 'why' question? Do I show any evidence of this? Is it compelling?'. This will take a significant amount of time and effort as you are doing {real research} here. But it's worth it.
+	- In other words, avoid generality. If your Report reads pretty much like, for example, 'hey, the biggest problem of the Belize economy is corruption and it is based on political, economic, social, and cultural factors, but you know what, it's really about neoliberalism and colonialism---so let me sunmmarize 100 years of its history,' you're not doing it right. Not exactly like this, but if you find few, if any, specific examples of what you're talking about in your Report, you are coming close to this.
+	- Again, examples. The more, the better.
+	- If your topic sounds like a book project, you're not doing it right. It should sound a lot more like a chapter in a book. Even better, a section of a chapter of a book.
+	- *One*, though not the only, safe way to make sure that you have narrowed down the scope of your case and identified something specific is to focus on a particular development program (or any other economic policy program) and evaluate it. You might try to answer questions like: There are of course infinite different ways to do this.
+	- These are all just examples and there are of course many other ways to do your case report!
+	- Your case report should be building on {two} or more academic sources ([what are academic sources?](https://www.youtube.com/watch?v=GBZTqSXYODo)). This includes not only the sources that offer empirical elements for your case report but also materials that help you with the theoretical framing of the report. 
+	  - For example, let's say you work on a cash-trasfer program in Burkina Faso. You might not have a whole lot of helpful sources on the country (which is actually good news, by the way, because you're taking up a novel subject!!!). However, there are tones of great academic research on cash transfer programs in other countries. There are numerous cross-country studies on that too. Nobody can say these aren't relevant. Do build on those studies. Try to borrow their analytical framework.
+    - If the empirical part of your report relies solely on one source specifically talking about the very subject you're working on, that's not great (though not completely prohibited). It's prone to biases and misled conclusions. Bad science, in other words. 
+      - If you found a paper/report that completely answers the question you had in mind, that should be really bad news because what you're doing is just redundant.
+	- It might be nice if some of our class readings are discussed in your report, but this is not required.
+	- As a tip for writing a research paper, [this](https://sitesmedia.s3.amazonaws.com/politicalsci/files/2012/08/Guidelines-on-Writing-Research-Papers.pdf) should be helpful. The 'literature review' might not be directly relevant to this course though.
+
+## Final Exam (20%)
+- the exam date is determined by [the University](https://registrar.gmu.edu/wp-content/uploads/Spring-2025-Final-Exam-Schedule.pdf). You cannot take it early or later than the designated date except for a medical emergency.
+- The essay will broadly reflect one of the general themes of the seminar and answer questions about our readings. Discussing non-class readings won't be helpful.
+  - It is designed in a way that if you regularly complete the readings throughout the semester, you need to put in little extra effort for it.
+- Write an essay and submit it to Blackboard (there will be a link available).
+- Two questions will be given through Blackboard {36} hours in advance, which is 7:10 {AM}, May 6. Pick one.
+- 36 hours are given solely for flexibility. The actual exam-taking wouldn't () take more than three hours. Many of you work and/or have other important commitments. So what you are asked is simply to carve out several hours from this 36-hour window. 
+	    - In other words, this is not a traditional 'take-home essay' that would take up an extensive amount of time to complete. It is a regular essay-type final exam that is allowed to be taken at any time during this 36-hour window at a place convenient to you.
+- Be familiar with the University [policy](https://academicaffairs.chss.gmu.edu/ugradpolicies/ugpolicies/final-exams) on final exams.
+- More details will be provided when we get closer to the end of the semester.
+
+## Medical Excuses     
+
+- You can call in sick and ask for an extension. You're advised to consult the disability office in case your absence is expected to be lengthy.
+- There will be no real-time Zoom-in to the class (the University policy). You will be responsible for completing the readings on your own although I can answer any questions you might have afterwards.
+
+# COURSE POLICY
+
+The guiding principles of this course are *fairness* and *transparency*.
+
+## Attendance
+
+- Regular attendance is required. While the number of absences would not proportionally translate into course reductions, an absence would curtail the opportunity to participate in class discussions, thereby leading to low participation grades.
+
+## Assignment Submission
+
+- All assignments are expected to be submitted electronically in Blackboard ('Assignment Submission' tab). Do not email any assignments.
+- Technical difficulties are not rare. Try to submit it early if you can. 
+- Be sure to make it a MS Word or PDF file. Absolutely NO Pages file. Just so you know, as Mason students you have free access to MS Office software. You can also 'export' a Page file into a Word file.
+- For all details (e.g., citation styles), strictly adhere to the GLOA MA Student Guide. If you repeatedly and consistently violate citation styles, some, though a small amount, points will be taken off.
+  - [Research](https://www.iza.org/publications/dp/14614/costly-mistakes-why-and-when-spelling-errors-in-resumes-jeopardise-interview-chances) has shown that people read a lot from basic mistakes in easy-to-correct things.
+
+
+## Feedback on Written Assignments
+
+You can expect to have written feedback on your  within 10 days. Please make sure that you see the in-text comments/feedback as well as the 'comment' (explained in the video). All Case Reports with grades should include my feedback. If any of yours does not, please let me know. There will be no feedback on your  unless explicitly requested.  
+
+## Accommodations
+
+If you have a documented learning disability or other condition that may affect academic performance you should: 1) Make sure this documentation is on file with the Office of Disability Services (SUB I, Rm. 222; 993-2474; [www.gmu.edu/student/drc](www.gmu.edu/student/drc)) to determine the accommodations you need; and 2) Discuss with me to plan your accommodation needs. Accommodations cannot be provided unless the document from the ODS is provided in advance.
+
+## Academic Integrity
+
+George Mason is an Honor Code university; please see the official [University Document](https://oai.gmu.edu/wp-content/uploads/2018/08/George-Mason-University-Honor-Code-2018-2019-final.pdf) for a full description of the code and the honor committee process. Don't rely on Reddit or your friends. They don't know and are very often misleading. 
+
+Remember, not being familiar with the Honor Code doesn’t constitute a sufficient ground to get your offense excused—anybody taking Mason courses (even a student-to-be) is subject to the Honor Code. Likewise, note that intentionality rarely makes a proper excuse. The principle of academic integrity is taken very seriously and violations are treated gravely. 
+
+When you rely on someone else’s work, you will give that source full credit, typically in the form of an in-text citation and bibliographic reference. If you are unaware of what counts as plagiarism see here:
+[http://mason.gmu.edu/~montecin/plagiarism.htm](http://mason.gmu.edu/~montecin/plagiarism.htm). Students caught violating the Honor Code will receive a failing grade in the related course assignment and will be reported to the proper university authorities for further disciplinary action.
+
+Academic integrity is also more than not commiting plagiarism. Lying, for example, is also an offense identified in the Honor Code. Let's build our class on the foundation of mutual respect and transparency.
+
+## Use of Artificial Intelligence
+
+A Large Language Model (LLM), commonly referred to as AI, is a double-edged sword, in that it can help you research better but doing so could easily involve plagiarism/cheating. As a general rule, making an LLM ‘write,’ be it partial or entirely, is considered unequivocal cheating (‘consulting unauthorized materials’) and a direct violation of GMU Honor Code.
+
+Doing so also risks committing plagiarism. The writing itself has to be yours and yours only.Note that a ‘light’ rephrasing (e.g., altering some words) is still plagiarism. Similarly, submission of an edited version of LLM-generated writing is still considered plagiarism.
+
+LLM could be used in the *process* of research, the result of which *you* actually write about. A good example is to use LLM in finding topics. The more you dig in, the more useful the outcome. One way to see if you are using LLM properly is to see how much time and energy you’re spending on it. If it takes a lot of effort and committing many hours of time to a task, you are probably using LLM right (as a general rule, if what it does is simply make your life more comfortable, there’s a good chance that you’re violating the Honor Code). 
+
+Another way is to use LLM to find relevant readings, although this is proven quite unreliable. A lot of 'new' AI models (which are actually based on a couple of existing AI engines) boast about how good they are at this, but so far they really haven't been.  
+
+You can also use AI to detect typos or *obvious/simple* grammar errors. However, if you let it offer basically the whole prose for you, then it's considered plagiarism. An easy way to tell this is to ask youself: "Could I come up with this kind of expression/sentence myself?" If the answer is 'no' or 'not sure,' then you have to stay away from it. Remember, this is not a writing or literature class and, however elegant, your prose is not relevant for your grades. Only clarity matters.
+
+*Not bothering using an LLM in the first place remains a great option.*
+
+## Diversity Statement
+
+* This section reflects in part Mason’s [diversity statement](https://stearnscenter.gmu.edu/purpose-and-mission/mason-diversity-statement/).
+
+George Mason University promotes a living and learning environment for outstanding
+growth and productivity among its students, faculty, and staff. Through its curriculum, programs, policies, procedures, services, and resources, Mason strives to maintain a quality environment for work, study and personal growth.
+
+An emphasis upon diversity and inclusion throughout the campus community is essential to achieve these goals. Diversity is broadly defined to include such characteristics as, but not limited to, race, ethnicity, gender, religion, age, disability, and sexual orientation. Diversity also entails different viewpoints, philosophies, and perspectives. Attention to these aspects of diversity will help promote a culture of inclusion and belonging, and an environment where diverse opinions, backgrounds and practices have the opportunity to be voiced, heard and respected.
+
+There’s a practical element here too. You (will) live in an increasingly diverse society where practicing inclusiveness might help you in the long run (even if you do not agree with some of these values!). You are strongly encouraged to check out important websites such as [Anti-Racism Resources](https://caps.gmu.edu/resources-and-self-help/anti-racism-resources/) and GMU [Religious Holiday Calendar](https://ulife.gmu.edu/religious-holiday-calendar/). It is the obligation of the student to provide faculty, within the first two weeks of the semester, with the dates of major religious holidays on which they will be absent due to religious observances.
+
+## Grading Scale
+
+The grading scale in this course follows [GMU Catalogue](https://catalog.gmu.edu/policies/academic/grading/#ap-3-2).
+
+- The class does not give ‘I’ (incomplete) unless you have already completed about 95% of the course requirement.
+- Please note that there is no ‘round up’ of scores at the end of the semester. 92.99999, for example, is A–.
+- CHSS strictly prohibits giving an extra assignment for the purpose of improving a grade. I adhere to this policy.
+
+# READING SCHEDULE 
+
+		-[*] Unless familiar with quantitative social science methodologies, you will find some of the readings too 'math-heavy.' It is {not} the purpose of this class for you to have a line-by-line understanding of the quantitative parts of each reading. You are asked, instead, to figure out what the authors actually want to deliver through all those numbers and equations. We will work on this whenever necessary and I am more than happy to help you on this individually.
+		-[*]  Unless specified as {recommended}, all the listed readings are required readings. 'Recommended' readings are not the subject of reading summaries. They are the kind of readings that we wouldn't have enough time to cover (but are still pretty helpful if you're interested in the subject).
+        -[*] Readings and the reading schedules are subject to change. In fact, to reflect most up-to-date events in economic and political globalization, it is not uncommon that new readings are inserted and some readings are dropped. Although I try my best to give you at least one week before such changes, it is advisable that you do not complete the reading too much in advance. 
