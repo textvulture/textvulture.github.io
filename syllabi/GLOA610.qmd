@@ -61,7 +61,8 @@ blue {
 
 **Update log**
 
--   <font size='2'>Jan 9: This syllabus is created.</font>
+  -   <font size='2'>Jan 9: This syllabus is created.</font>
+  -   <font size='2'>Jan 10: Grossmann (2021) reading added to Week 1.</font>
 
 # Instructor
 
@@ -288,8 +289,8 @@ kbl(df,
         -   The presentation grade includes your handling of your peers' reaction (e.g., answering questions)
 -   For each case report, you will decide which country (or countries or organization) you are interested in. Pick two.
     -   For each case report, you will also decide which topic (i.e. which week's theme) you are interested in. Pick two.
-        -   Make sure your topic actually speaks directly to the topic of the week. If your report is on immigration, for example, the migrants' hardship coming through the Aermican southern border, though important, is not a good topic. 'Why migrants choose to move to the US' is.
-        -   You are not required to work on the same country for both presentations/Reports, though that's encouraged. \`\`\`
+        -   Make sure your topic actually speaks directly to the topic of the week. If your report is on immigration, for example, the migrants' hardship coming through the American southern border, though important, is not a good topic. 'Why migrants choose to move to the US' is.
+        -   You are not required to work on the same country for both presentations/Reports, though that's encouraged. 
 
 ### the expectation
 
@@ -412,6 +413,7 @@ The grading scale in this course follows [GMU Catalogue](https://catalog.gmu.edu
 
   -  Class intro. No reading summary yet.
   -  King, G., Keohane, R. O., and Verba, S. (1994). *Designing Social Inquiry: Scientific Inference in Qualitative Research*. Princeton University Press, Princeton. Ch. 1.
+  - Grossmann, M. (2021). *How Social Science Got Better: Overcoming Bias with More Evidence, Diversity, and Self-Reflection*. Oxford University Press. Chs. 1 and 6 are required and other chapters are optional. (This book is available online through GMU Library)
   -  Gerring, J. (2012). *Social Science Methodology: A Unified Framework*. Cambridge University Press, Cambridge, second edition. Chs. 1 and 2. <mark>not required</mark>
   -  Miller, S. (2014). Reading a Regression Table: A Guide for Students. [link.](https://svmiller.com/blog/2014/08/reading-a-regression-table-a-guide-for-students/)
     : <font size=2>You can actually understand most of the readings without reading these ‘regression tables’ and we won’t spend time on this matter unless there’s a specific question. But knowing this opens up much more intellectual opportunities. So give it a careful read.</font>
