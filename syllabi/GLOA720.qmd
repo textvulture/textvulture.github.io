@@ -58,8 +58,8 @@ blue {
 
 **Update log**
 
-- <font size='2'>Jan 7: This syllabus is created.</font>
-
+  - <font size='2'>Jan 7: This syllabus is created.</font>
+  - <font size='2'>Jan 10: Grossmann (2021) reading is added to Week 2.
 
 # Instructor
 
@@ -287,7 +287,8 @@ The grading scale in this course follows [GMU Catalogue](https://catalog.gmu.edu
 
 -   Jan 27 through Feb 2
 - <blue>We will revisit some of the specific methods later but it is important for us to have a common understanding of what a good research project is like. We will try to make our own projects as close as possible to this ideal and hold others' to the same standard too.</blue>
--   King, Gary, Robert O. Keohane, and Sidney Verba. 1994. *Designing Social Inquiry: Scientific Inference in Qualitative Research*. Princeton: Princeton University Press.
+-   King, Gary, Robert O. Keohane, and Sidney Verba. 1994. *Designing Social Inquiry: Scientific Inference in Qualitative Research*. Princeton: Princeton University Press. **Chs. 1 and 2**. (This book is available online through GMU Library)
+- Grossmann, M. (2021). *How Social Science Got Better: Overcoming Bias with More Evidence, Diversity, and Self-Reflection*. Oxford University Press. **Chs. 1 and 6** are required and other chapters are optional. (This book is available online through GMU Library)
 -   Vennesson, Pascal. 2008. “Case Studies and Process Tracing: Theories and Practices.” In eds. Donatella della Porta and Michael Keating. *Approaches and Methodologies in the Social Sciences: A Pluralist Perspective*. New York: Cambridge University Press, 223–39. <mark>not required</mark>
 -   Gerring, John. 2012. *Social Science Methodology: A Unified Framework*. 2nd Edition. Cambridge: Cambridge University Press. <mark>not required</mark>
 -   Pape, Robert A. 2008. “[Methods and Findings in the Study of Suicide Terrorism](https://doi.org/10.1017/S0003055408080179).” *American Political Science Review* 102(2): 275–77.
