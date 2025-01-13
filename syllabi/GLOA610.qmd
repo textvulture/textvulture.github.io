@@ -63,6 +63,7 @@ blue {
 
   -   <font size='2'>Jan 9: This syllabus is created.</font>
   -   <font size='2'>Jan 10: Grossmann (2021) reading added to Week 1.</font>
+  - <font size='2'>Jan 13: In Week 1, "Set the presentation schedule" is added. </font>
 
 # Instructor
 
@@ -412,7 +413,8 @@ The grading scale in this course follows [GMU Catalogue](https://catalog.gmu.edu
 
 ## Week 1. Jan 21. First Day {.unnumbered}
 
-  -  Class intro. No reading summary yet.
+  -  Class intro. There are readings, but no reading summary yet.
+  -  Set the presentation schedule.
   -  King, G., Keohane, R. O., and Verba, S. (1994). *Designing Social Inquiry: Scientific Inference in Qualitative Research*. Princeton University Press, Princeton. Ch. 1.
   - Grossmann, M. (2021). *How Social Science Got Better: Overcoming Bias with More Evidence, Diversity, and Self-Reflection*. Oxford University Press. Chs. 1 and 6 are required and other chapters are optional. (This book is available online through GMU Library)
   -  Gerring, J. (2012). *Social Science Methodology: A Unified Framework*. Cambridge University Press, Cambridge, second edition. Chs. 1 and 2. <mark>not required</mark>
