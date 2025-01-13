@@ -407,6 +407,7 @@ The grading scale in this course follows [GMU Catalogue](https://catalog.gmu.edu
   -   Unless familiar with quantitative social science methodologies, you will find some of the readings too 'math-heavy.' It is *not* the purpose of this class for you to have a line-by-line understanding of the quantitative parts of each reading. You are asked, instead, to figure out what the authors actually want to deliver through all those numbers and equations. We will work on this whenever necessary and I am more than happy to help you on this individually.
   -   Unless specified as <mark>not required</mark>, all the listed readings are required readings. 'Not required' readings are not the subject of reading summaries. They are the kind of readings that we wouldn't have enough time to cover (but are still pretty helpful if you're interested in the subject).
   -   Readings and the reading schedules are subject to change. In fact, to reflect most up-to-date events in economic and political globalization, it is not uncommon that new readings are inserted and some readings are dropped. Although I try my best to give you at least one week before such changes, it is advisable that you do not complete the reading too much in advance.
+  - If links to newspapers (NYT, FT, WSJ, or The Economist) do not work, use your own search. As Mason students, you have free access to these outlets.
 
 ## Week 1. Jan 21. First Day {.unnumbered}
 
@@ -434,8 +435,9 @@ The grading scale in this course follows [GMU Catalogue](https://catalog.gmu.edu
   -  Sokoloff, K. L. and Engerman, S. L. (2000). History Lessons: Institutions, Factor Endowments, and Paths of Development in the New World. *Journal of Economic Perspectives*, 14:217–232.
   -  Acemoglu, D., Johnson, S., and Robinson, J. (2001). The colonial origins of comparative development: An empirical investigation. *American Economic Review*, 91:1369–1401.
   -  Acemoglu, D., Johnson, S., and Robinson, J. (2005). The Rise of Europe: Atlantic Trade, Institutional Change, and Economic Growth. *American Economic Review*, 95:556–579.
+  - Ricart-Huguet, J. (2022). The Origins of Colonial Investments in Former British and French Africa. *British Journal of Political Science*, 52(2), 736–767.
   -  Olson, M. (1993). Dictatorship, democracy, and development. *American Political Science Review*, 87:567–576.
-  -  Michalopoulos, S. and Papaioannou, E. (2016). The long-run effects of the scramble for Africa. *American Economic Review*, 106(7):1802–48.
+  -  Michalopoulos, S. and Papaioannou, E. (2016). The long-run effects of the scramble for Africa. *American Economic Review*, 106(7):1802–48. <mark>not required</mark2>
   -  Besley, T., Burgess, R., Khan, A., and Xu, G. (2022). Bureaucracy and development. *Annual Review of Economics*, 14(1):397–424. <mark>not required</mark>
   -  Jales, H., Kang, T. H., Stein, G., and Garcia Ribeiro, F. (2018). Measuring the role of the 1959 revolution on Cuba’s economic performance. *The World Economy*, 41(8):2243–2274. <mark>not required</mark>
 
@@ -444,9 +446,10 @@ The grading scale in this course follows [GMU Catalogue](https://catalog.gmu.edu
   -  first week where you can do a presentation.
   - Caliendo, L. and Parro, F. (2022). Lessons from US-China Trade Relations. *Annual Review of Economics*, 15:513–541.
   -  Owen, E. and Johnston, N. P. (2017). Occupation and the political economy of trade: Job routineness, offshorability, and protectionist sentiment. *International Organization*, 71(4):665– 699.
-  -  Chang, H.-J. (2003). *Kicking Away the Ladder: Development Strategy in Historical Perspective*. Anthem Press, London. Ch. 4. Canvas.
   -  Kim, I. and Osgood, I. (2019). Firms in Trade and Trade Politics. *Annual Review of Political Science*. 2019. 22:399–417
   -  Carter, D. B. and Poast, P. (2020). Barriers to trade: How border walls affect trade relations. *International Organization*, 74(4):165–185.
+  - Brutger, R., & Guisinger, A. (2024). Framing Layoffs: Media Coverage, Blame Attribution, and Trade-Related Policy Responses. *Political Behavior*, Forthcoming. DOI: [https://doi.org/10.1007/s11109-024-09960-8]( https://doi.org/10.1007/s11109-024-09960-8). 
+  -  Chang, H.-J. (2003). *Kicking Away the Ladder: Development Strategy in Historical Perspective*. Anthem Press, London. Ch. 4. Canvas.
   -  Guasti, A. and Koenig-Archibugi, M. (2022). Has global trade competition really led to a race to the bottom in labor standards? *International Studies Quarterly*, 66(4):sqac061.
   -  Autor, D. H., Dorn, D., and Hanson, G. H. (2016). The China Shock: Learning from LaborMarket Adjustment to Large Changes in Trade. *Annual Review of Economics*, 8:205–240. <mark>not required</mark>
   -  Handley, K. and Limão, N. (2022). Trade policy uncertainty. *Annual Review of Economics*, 14(1):363–395. <mark>not required</mark>
@@ -527,8 +530,7 @@ The grading scale in this course follows [GMU Catalogue](https://catalog.gmu.edu
   -  Attanasio, O., Augsburg, B., De Haas, R., Fitzsimons, E., and Harmgart, H. (2015). The impacts of microfinance: Evidence from joint-liability lending in Mongolia. *American Economic Journal: Applied Economics*, 7(1):90–122.
   -  Banerjee, A., Duflo, E., Glennerster, R., and Kinnan, C. (2015a). The miracle of microfinance? evidence from a randomized evaluation. *American Economic Journal: Applied Economics*, 7(1):22–53.
   -  Banerjee, A., Duflo, E., Goldberg, N., Karlan, D., Osei, R., Parienté, W., Shapiro, J., Thuysbaert, B., and Udry, C. (2015b). A multifaceted program causes lasting progress for the very poor: Evidence from six countries. *Science*, 348(6236).
-  -  Premand, P. and Rohner, D. (2023). Cash and Conflict: Large-Scale Experimental Evidence from Niger. Policy Research Working Paper 10293. The World Bank Group. 
-[link.](https://documents1.worldbank.org/curated/en/099651402062332589/pdf/IDU0914fd60d0df8f04091081fe042e6b84b58ec.pdf)
+  -  Premand, P. and Rohner, D. (2023). Cash and Conflict: Large-Scale Experimental Evidence from Niger. *American Economic Review: Insights*, 6(1), 137–153. DOI: [https://doi.org/10.1257/aeri.20230069](https://doi.org/10.1257/aeri.20230069).
   - Linardi, S. and Rudra, N. (2020). Globalization and willingness to support the poor in developing countries: An experiment in India. *Comparative Political Studies*, 53(10-11):1656– 1689.<mark>not required</mark>
   -  Hendrix, C. S. and Haggard, S. (2015). Global food prices, regime type, and urban unrest in the developing world. *Journal of Peace Research*, 52(2):143–157. <mark>not required</mark>
   -  Milanovic, B. (2020). “The World is Becoming More Equal," *Foreign Affairs*. [link.](https://www.foreignaffairs.com/articles/world/2020-08-28/world-economic-inequality) <mark>not required</mark>
@@ -583,6 +585,7 @@ The grading scale in this course follows [GMU Catalogue](https://catalog.gmu.edu
   - Also a class wrap-up and coure evaluations.
   -  Poast, P. (2022). The ‘Golden Age’ of Globalization is Officially Over. World Politics Review. October 21, 2022. [link.](https://www.worldpoliticsreview.com/china-us-trade-war-globalized-economy/)
   -  Danzman, S. B. (2022). CHIPS+ could change the U.S. semiconductor supply chain, and more, Washington Post. August 9, 2022. [link.](https://www.washingtonpost.com/politics/2022/08/09/chips-act-semiconductors-supply/?utm_medium=social&utm_source=twitter&utm_campaign=wp_monkeycage)
+  - Hayashi, Y. 2023. WSJ News Exclusive | U.S. to Allow South Korean, Taiwan Chip Makers to Keep Operations in China. Wall Street Journal. [Link.](https://www.wsj.com/articles/u-s-to-allow-south-korean-taiwan-chip-makers-to-keep-operations-in-china-5d7d72cc).
   -  Swanson, A. and Wong, E. (2022). With New Crackdown, Biden Wages Global Campaign on Chinese Technology. New York Times. October 13, 2022. [link](https://www.nytimes.com/2022/10/13/us/politics/biden-china-technology-semiconductors.html)
   -  Kumar, A. and Lipsky, J. (2022). The dollar has some would-be rivals. meet the challengers. New Atlanticist. September 22, 2022. Atlantic Council. [link.](https://www.atlanticcouncil.org/blogs/new-atlanticist/the-dollar-has-some-would-be-rivals-meet-the-challengers/)
   -  Dempsey, H. and Hook, L. China set to tighten grip over global cobalt supply as price hits 32-month low. Financial Times. March 12. 2023. Available at: [link](https://www.ft.com/content/abf28c9f-54e2-45c2-8dac-c5016bd31423?fbclid=IwAR0IART6s2ckhWDIR7jmr1ZvDWO22i9W8U1nUPi5KGx0OKfujujs5QvbvSY)
