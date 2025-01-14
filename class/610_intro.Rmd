@@ -1,0 +1,345 @@
+---
+title: "GLOA610 Intro"
+author: Son
+#########################################
+linkcolor: red
+citecolor: blue
+urlcolor: blueß
+output: 
+  xaringan::moon_reader:
+    seal: false
+    nature:
+      ratio: '16:9'
+      highlightStyle: github
+  #    self-contained: TRUE
+  chakra: css/libs/remark-latest.min.js
+css: ["default", 
+      "css/footer.css", 
+      "css/color.css", 
+      # "css/xaringan-themer.css",
+      default-fonts]
+lib_dir: css/libs
+beforeInit: "css/macros.js"
+--- 
+
+```{r setup, include=FALSE}
+# to use FontAwesome
+#htmltools::tagList(rmarkdown::html_dependency_font_awesome())
+
+library(fontawesome)
+library(dplyr)
+library(ggplot2)
+library(tinytable)
+library(modelsummary)
+
+knitr::opts_chunk$set(warning = FALSE, message = FALSE, error=F, echo=F)
+options(htmltools.preserve.raw = FALSE) 
+
+```
+
+
+background-color: #094e0d
+class: inverse, middle
+background-image: url(https://textvulture.github.io/portrait_July2024.png)
+background-position: 23cm 2.5cm
+background-size: 20%
+
+# .large[.Large[.yellow[**Introduction**]] <br> The Bolts and Nuts] <br><br>
+----
+
+## .right[Byunghwan Ben Son <br> .tiny[(Associate Professor, GLOA, GMU)]]
+
+### .right[GLOA 610]
+
+
+---
+
+# Where is the syllabus?
+
+.large[URL: [textvulture.github.io/syllabi/GLOA610.html](https://textvulture.github.io/syllabi/GLOA610.html): bookmark `r fa('star', fill='orange')` it.]
+
+--
+
+<iframe src="https://textvulture.github.io/syllabi/GLOA610.html" width=1000 height=420></iframe>
+
+---
+
+background-image: url(wordcloud.png)
+background-position: 13cm 0cm
+background-size: 70%
+
+.full-width-tinted[
+<br>
+# The Instructor
+]
+
+<br><br>
+
+--
+
+### - **PhD** in political science
+
+--
+
+### - Interests
+
+  - politics of Global Finance
+  - democratic Backsliding
+  - quantitative and Mixed Methods
+  - political communication
+
+--
+
+### [`r fa('user-graduate', fill='orange')` Google Scholar ](https://scholar.google.com/citations?user=h0o27GgAAAAJ&hl=en); [`r fa('house', fill='green')` Webpage](textvulture.github.io)
+
+--
+
+### `r fa('house-user')` Office Hours: 1:30-3PM (TR)
+
+---
+
+class: inverse
+background-image: url(https://github.com/textvulture/textvulture.github.io/blob/master/images/blackboardBackground.jpg?raw=true)
+background-size: cover
+
+# **Course Requirements**
+
+<br>
+
+##   Reading Summaries (5% $\times$ 4 = 20%)
+##   Participation (20%)
+##   Case Report (20 $\times$ 2 = 40%)
+##  Final Exam (20%)
+
+---
+
+# Reading (Summaries 20%)
+
+- .Large[.pink[Four] reading summaries: summarize in your .Blue[own words].]
+
+--
+
+- .Large[No quant training? **No** problem!]
+
+--
+
+- .Large[Readings will give you pain. That's normal. Keep some questions in mind.]
+
+--
+
+
+```{r}
+
+library(dplyr)
+library(kableExtra)
+
+grades <- c("compelling & creative evaluation of readings (*you made me cry*)",
+            "accurate summary of the readings in your own words (*I don't see any problem here*)",
+            "all required readings are discussed with reasonable clarity",
+            
+            "meeting minimal requirements"
+)
+
+col1 <- c("$\\checkmark$", "$\\checkmark$", "$\\checkmark$", "$\\checkmark$")
+col2 <- c("", "$\\checkmark$", "$\\checkmark$", "$\\checkmark$")
+col3 <- c("", "", "$\\checkmark$", "$\\checkmark$")
+col4 <- c("", "", "", "$\\checkmark$")
+          
+df <- data.frame(grades = grades, 
+                 `5.0-4.5` = col1,
+                 `4.4-4.0` = col2,
+                 `3.9-3.5` = col3,
+                 `3.4-3.0` = col4,
+                 check.names = F)
+
+kbl(df,
+#    escape = F,
+    full_width = F,
+    align = 'lcccc')  %>%
+  column_spec(1, width="7cm") %>%
+  kable_paper()
+
+```
+
+
+---
+
+## Participation (20%)
+
+- .Large['Collective Learning': engage in class discussions--particularly those on .pink[readings]]
+
+--
+
+- .Large[Current event discussions at the beginning of each class]
+
+--
+
+- .Large[Ask questions and/or offer comments on others' presentations]
+
+--
+
+```{r}
+
+library(dplyr)
+library(gt)
+
+col1 <- c("frequency", "quality")
+col2 <- c("high", "high")
+col3 <- c("medium", "high")
+col4 <- c("high", "medium")
+col5 <- c("medium", "medium")
+col6 <- c("very low", "ver low")
+
+df <- data.frame(col1, col2, col3, col4, col5, col6)
+
+df %>% 
+  gt() %>%
+  tab_spanner(
+    label = "20.0-19.0",
+    columns = c(col2),
+  ) %>%
+  tab_spanner(
+    label = "18.9-15.0",
+    columns = c(col3, col4)
+  ) %>%
+  tab_spanner(
+    label = "14.9-12.0",
+    columns = c(col5)
+  ) %>%
+  tab_spanner(
+    label = "11.9-0.0",
+    columns = c(col6)
+  ) %>%
+  cols_label(
+    col1 = "",
+    col2 = "",
+    col3 = "",
+    col4 = "",
+    col5 = "",
+    col6 = ""
+  ) %>%
+  tab_options(column_labels.hidden = F) %>%
+  cols_width(
+  col2 ~ px(180),  
+  col3 ~ px(180),  
+  col4 ~ px(180),   
+  col5 ~ px(180),
+  col6 ~ px(180)) %>%
+  cols_align(
+    align = "center", 
+    columns = c(col2, col3, col4, col5, col6) 
+  ) %>%
+  tab_style(
+    style = cell_text(style = "italic"),  #weight="bold"
+    locations = cells_body(
+      columns = col1,
+      rows = c(1,2)) 
+  )
+
+
+```
+
+---
+
+# Case Report (20% $\times$ 2 = 40%)
+
+- .Large[two topics and two cases, ~2.5k words]
+
+--
+
+- .Large[7-minute presentation]
+
+--
+
+- .Large[The more specific and concrete, the better]
+
+--
+
+- .Large[You will .Green[waste] a lot of time, looking for materials -- it's normal.]
+
+
+
+```{r}
+
+
+library(dplyr)
+library(kableExtra)
+
+grades <- c("extraordinarily insightful analysis of the case (<i>you made me cry</i>)",
+            "in-depth analysis of a concrete topic (<i>I don't see any problem here</i>)",
+            "proper format w/ reasonable clarity",
+            
+            "meeting minimal requirements"
+)
+
+col1 <- c("$\\checkmark$", "$\\checkmark$", "$\\checkmark$", "$\\checkmark$")
+col2 <- c("", "$\\checkmark$", "$\\checkmark$", "$\\checkmark$")
+col3 <- c("", "", "$\\checkmark$", "$\\checkmark$")
+col4 <- c("", "", "", "$\\checkmark$")
+          
+df <- data.frame(grades = grades, 
+                 `20.0-18.5` = col1,
+                 `18.4-17.0` = col2,
+                 `16.9-13.0` = col3,
+                 `12.9-10.0` = col4,
+                 check.names = F)
+
+kbl(df,
+    escape = F,
+    full_width = F,
+    align = 'lcccc')  %>%
+  column_spec(1, width="7cm") %>%
+  kable_paper()
+
+
+
+```
+
+---
+
+# Final Exam (20%)
+
+- .Large[A test of your completion of readings.]
+
+--
+
+- .Large[Will focus on a specific week's readings.]
+
+--
+
+- .Large[No extra effort needed if you completed readings regularly.]
+
+---
+
+class: inverse, center, middle
+background-image: url(https://github.com/textvulture/textvulture.github.io/blob/master/images/waveBackground.jpg?raw=true)
+background-size: 120%
+
+# .HUGE[Policies]
+
+---
+
+class: inverse, middle
+background-image: url(https://github.com/textvulture/textvulture.github.io/blob/master/images/waveBackground3.jpg?raw=true)
+background-size: 120%
+
+
+# .Large[Attendance:] .yellow[come on, it's a grad course!]
+
+--
+
+# .Large[Assignment Submission:] .yellow[no Page files please]
+
+--
+
+# .Large[Academic Integrity and AI Use:] .yellow[*you* want to learn]
+
+--
+
+# .Large[Diversity and Collegiality:] .yellow[a community of respect]
+
+---
+
+# Schedule
+
+<iframe src="https://textvulture.github.io/syllabi/GLOA610.html#reading-schedule" width=1100 height=450></iframe>
