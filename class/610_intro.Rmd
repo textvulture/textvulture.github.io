@@ -2,7 +2,7 @@
 title: "GLOA610 Intro"
 author: Son
 #########################################
-linkcolor: red
+linkcolor: blue
 citecolor: blue
 urlcolor: blueß
 output: 
@@ -53,6 +53,22 @@ background-size: 20%
 
 
 ---
+
+class: inverse
+background-image: url(https://preventionlane.org/wp-content/uploads/2015/02/blackboard.jpg)
+
+<div class="full-width-tinted"><br>
+  <h1> .huge[We want to accomplish today:] </h1> 
+</div><br><br> 
+
+# 1. overview of the syllabus
+
+# 2. setting up the presentation schedule
+
+# 3. brief review of social science methods.
+
+---
+
 
 # Where is the syllabus?
 
@@ -343,3 +359,152 @@ background-size: 120%
 # Schedule
 
 <iframe src="https://textvulture.github.io/syllabi/GLOA610.html#reading-schedule" width=1100 height=450></iframe>
+
+---
+
+class: middle, center
+
+# .Large[Go to Canvas & sign up for .pink[two] spots.]
+
+
+## .Large['Announcement' section]
+
+## [Link](https://gmuedu-my.sharepoint.com/:w:/r/personal/bson3_gmu_edu/Documents/GLOA610%20signup.docx?d=w6779666c808e4ca6a452fe1253aa46ec&csf=1&web=1&e=xvlO9O)
+
+---
+class: center, middle
+background-image: url(https://github.com/textvulture/textvulture.github.io/blob/master/images/halfBackground4.jpg?raw=true)
+background-size: cover
+
+
+# .LARGE[Social Science Methodologies]
+
+---
+
+class: center, middle, inverse
+background-image: url(https://github.com/textvulture/textvulture.github.io/blob/master/images/night_background8.jpg?raw=true)
+background-size: cover
+
+# .LARGE[.yellow[Why care?]]
+
+--
+
+# .large[To .pink[evaluate], you need to know the .Yellow[rules].]
+
+---
+
+# What is *Science* `r fa("microscope", fill='green')` for?
+
+--
+
+### - Knowledge .green[accumulation]: we all make contributions to human knowledge.
+
+--
+
+```{r}
+
+knitr::include_graphics("https://2.bp.blogspot.com/-MjVaq_H_dBE/VDFwHWtem5I/AAAAAAAABBE/SB10YTB1amg/s1600/Extending%2BFrontier%2Bof%2BKnowledge.jpg")
+
+```
+
+--
+
+### - the need for standardized .green[methods], be it quantitative or qualitative. 
+
+--
+
+### - the process is .green[inference] `r fa("code-branch", fill='green')`.
+
+---
+
+# The Process of (Social) Science .tiny[(working example = 'democratic peace' `r fa("peace", fill='red')`)]
+
+1. .Large[The Nature (the 'reality') `r fa("pagelines", fill='green')`]
+
+--
+
+2. .Large[Discovering .Yellow[Research Questions] (a simple question) `r fa("person-circle-question", fill='Purple')`] 
+
+--
+
+  - .large["There is no such thing as a logical methods of having new ideas ... [it is really] an '.red[irrational element]' or a '.red[creative intuition]'"]
+
+--
+
+  - .large[.green[tradition]; .orange[personal interests]; .bluey[boundary crossing]; .Blue[thought experiments] - but be critical, wild, and test-driving]
+
+--
+
+3. .Large[Constructing .green[Theories] (or Argument) `r fa("microphone-lines", fill='purple')`]
+
+--
+
+  - .large[clear, parsimonious, relevant, and generalizable-within-boundary *proposition*]
+  
+  - .large[about the relationship between two or more variables; the '.red[why]' question]
+  
+  - .large[Model: the world simplified for the argument]
+
+--
+
+4. .Large[Designing Empirical Analysis `r fa("chart-bar", fill='blue')`]
+
+---
+
+## Whichever method you use, it comes down to a .red[holy] table
+
+--
+
+### variables: factors of interest whose values .Yellow[vary]
+
+--
+
+.pull-left[
+
+```{r}
+knitr::include_graphics("https://raw.githubusercontent.com/textvulture/textvulture.github.io/master/images/basic720.jpg")
+```
+
+]
+
+--
+
+.pull-right[
+
+```{r}
+
+library(kableExtra)
+text <- data.frame( 
+Development = c("High", "Low"),
+No = c("A", "C"),
+Yes = c("B", "D")
+)
+
+kbl(text, booktabs = T, 
+    align=rep('c', 3)) %>%
+  kable_styling(font_size = 20) %>%
+  add_header_above(c(" " = 1, "Corruption" = 2)) 
+```
+
+]
+
+---
+.content-box-blue[
+### 1. Introduction (+ Literature Review)
+]
+
+.content-box-yellow[
+### 2. (Literature Review +) Argument/Hypothesis
+]
+
+.content-box-army[
+### 3. Research Design
+]
+
+.content-box-purple[
+### 4. Empirical Analysis
+]
+
+.content-box-red[
+### 5. Conclusion
+]
