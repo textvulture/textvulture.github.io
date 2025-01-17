@@ -1,5 +1,5 @@
 ---
-title: "Syllabus: GLOA 610 Economic Globalization & Development (tentative)"
+title: "Syllabus: GLOA 610 Economic Globalization & Development"
 subtitle: Spring 2025, 4:30-7:10 PM, T, [Innovation Hall 328](https://maps.app.goo.gl/qKt8oZPFcbQzFc5u8)
 format: 
   html:
@@ -65,6 +65,8 @@ blue {
   -   <font size='2'>Jan 10: Grossmann (2021) reading added to Week 1.</font>
   - <font size='2'>Jan 13: In Week 1, "Set the presentation schedule" is added. </font>
   - <font size='2'>Jan 13: The class title corrected. </font>
+  - <font size='2'>Jan 17: "The essay .." is changed to "This essay exam..." in @sec-ex.</font>
+  - <font size='2'>Jan 17: "Medical Excuses" subsection is now relocated in the "Course Policy" @sec-policy (previously in 'Requirement').</font>
 
 # Instructor
 
@@ -297,10 +299,10 @@ kbl(df,
 ### the expectation
 
 -   The more specific your subject and question-answering the report, the better. For instance, ‘Why did the cash transfer program in 2018 fail in a Tigray Regional government’ is infinitely better than ‘Poverty Trap in Ethiopia.’
--   The former is a rigorous and scientific way to address the latter. That's something people actually want to know.
--   The latter would be more or less a generic punditry essay that can be done without actually engaging any theoretical or empirical work. You can write it without any graduate school education. In effect, <red>large language models like ChatGPT can write it much better than most of us.</red> So you don't need to be trained on this at all--there's no human job for that.
--   How do you know if you are doing the former, not the latter? See if you identify (and discuss in detail) an example emblematic of the problems of microfinancing programs in that Nigerian town. Try to offer specifics. A good question you can keep asking yourself while working on this is, 'Do I pose a 'why' question? Do I show any evidence of this? Is it compelling?'. This will take a significant amount of time and effort as you are doing {real research} here. But it's worth it.
--   In other words, avoid generality. If your Report reads pretty much like, for example, 'hey, the biggest problem of the Belize economy is corruption and it is based on political, economic, social, and cultural factors, but you know what, it's really about neoliberalism and colonialism---so let me summarize 100 years of its history,' you're not doing it right. Not exactly like this, but if you find few, if any, specific examples of what you're talking about in your Report, you are coming close to this.
+  -   The former is a rigorous and scientific way to address the latter. That's something people actually want to know.
+  -   The latter would be more or less a generic punditry essay that can be done without actually engaging any theoretical or empirical work. You can write it without any graduate school education. In effect, <red>large language models like ChatGPT can write it much better than most of us.</red> So you don't need to be trained on this at all--there's no human job for that.
+  -   How do you know if you are doing the former, not the latter? See if you identify (and discuss in detail) an example emblematic of the problems of microfinancing programs in that Nigerian town. Try to offer specifics. A good question you can keep asking yourself while working on this is, 'Do I pose a 'why' question? Do I show any evidence of this? Is it compelling?'. This will take a significant amount of time and effort as you are doing {real research} here. But it's worth it.
+    -   In other words, avoid generality. If your Report reads pretty much like, for example, 'hey, the biggest problem of the Belize economy is corruption and it is based on political, economic, social, and cultural factors, but you know what, it's really about neoliberalism and colonialism---so let me summarize 100 years of its history,' you're not doing it right. Not exactly like this, but if you find few, if any, specific examples of what you're talking about in your Report, you are coming close to this.
 -   Again, examples. The more, the better.
 -   If your topic sounds like a book project, you're not doing it right. It should sound a lot more like a chapter in a book. Even better, a section of a chapter of a book.
 -   *One*, though not the only, safe way to make sure that you have narrowed down the scope of your case and identified something specific is to focus on a particular development program (or any other economic policy program) and evaluate it. You might try to answer questions like: There are of course infinite different ways to do this.
@@ -312,10 +314,10 @@ kbl(df,
 -   It might be nice if some of our class readings are discussed in your report, but this is not required.
 -   As a tip for writing a research paper, [this](https://sitesmedia.s3.amazonaws.com/politicalsci/files/2012/08/Guidelines-on-Writing-Research-Papers.pdf) should be helpful. The 'literature review' might not be directly relevant to this course though.
 
-## Final Exam (20%)
+## Final Exam (20%) {#sec-ex}
 
 -   the exam date is determined by [the University](https://registrar.gmu.edu/wp-content/uploads/Spring-2025-Final-Exam-Schedule.pdf). You cannot take it early or later than the designated date except for a medical emergency.
--   The essay will broadly reflect one of the general themes of the seminar and answer questions about our readings. Discussing non-class readings won't be helpful.
+-   This essay exam will broadly reflect one of the general themes of the seminar and answer questions about our readings. Discussing non-class readings won't be helpful.
   -   It is designed in a way that if you regularly complete the readings throughout the semester, you need to put in little extra effort for it.
 -   Write an essay and submit it to Canvas (Assignment section).
 -   Two questions will be given through Canvas **36** hours in advance, which is 7:10 <mark2>AM</mark2>, May 12. 
@@ -324,12 +326,9 @@ kbl(df,
 -   Be familiar with the University [policy](https://academicaffairs.chss.gmu.edu/ugradpolicies/ugpolicies/final-exams) on final exams.
 -   More details will be provided when we get closer to the end of the semester.
 
-## Medical Excuses
 
--   You can call in sick and ask for an extension. You're advised to consult the disability office in case your absence is expected to be lengthy.
--   There will be no real-time Zoom-in to the class (the University policy). You will be responsible for completing the readings on your own although I can answer any questions you might have afterwards.
 
-# COURSE POLICY
+# COURSE POLICY {#sec-policy}
 
 The guiding principles of this course are *fairness* and *transparency*.
 
@@ -345,6 +344,11 @@ The guiding principles of this course are *fairness* and *transparency*.
 -   Life happens and a lot of things can get in the way. You can use '<red>life-happened</red>.' This triggers a one-time extension for the assignment (whichever it is) as well as an excuse for an absence. No question asked. No justification needed. In fact, when you use this, please don't explain the circumstances to me. This does *not* apply to the final exam. Just drop me one email simply stating that:
 
 > "I need to use 'life-happend' for this week X. I have X due, and the new deadline now is Y.
+
+### Medical Excuses
+
+-   You can call in sick and ask for an extension. You're advised to consult the disability office in case your absence is expected to be lengthy.
+-   There will be no real-time Zoom-in to the class (the University policy). You will be responsible for completing the readings on your own although I can answer any questions you might have afterwards.
 
 ## Assignment Submission
 
