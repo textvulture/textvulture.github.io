@@ -218,7 +218,7 @@ blockquote, .blockquote {
   color: white;
 }
 
-.full-width-banner{
+.banner{
   position: relative;  
   z-index: 0;
   margin: -2.5rem -600rem;

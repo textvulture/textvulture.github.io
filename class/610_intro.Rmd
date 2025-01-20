@@ -7,10 +7,10 @@ citecolor: blue
 urlcolor: blueß
 output: 
   xaringan::moon_reader:
-    seal: false
     nature:
       ratio: '16:9'
       highlightStyle: github
+    seal: false
   #    self-contained: TRUE
   chakra: css/libs/remark-latest.min.js
 css: ["default", 
@@ -417,7 +417,32 @@ knitr::include_graphics("https://2.bp.blogspot.com/-MjVaq_H_dBE/VDFwHWtem5I/AAAA
 
 ---
 
-# The Process of (Social) Science .tiny[(working example = 'democratic peace' `r fa("peace", fill='red')`)]
+# Is Social Science (very) different from National Science?
+## Are not '.red[real]' scientists?
+
+--
+
+- .Large[Not really. More of differences in degree]
+
+--
+
+  - .Large[.Green[more] prone to sociocultural biases]
+  - .Large[more engageßd in less-represented voices]
+
+--
+
+- .Large[.pink[Balancing] between subjectivity and impact is important]
+
+> "Social science aims for collective knowledge but remains a social process with practices, cultures, and norms that vary across disciplines, geography, and time." (Grossmann 2021, 34)
+
+--
+
+- .Large[But the basic golden rule remains the same: .green[minimizing bias]]
+
+
+---
+
+# The Process of (Social) Science 
 
 1. .Large[The Nature (the 'reality') `r fa("pagelines", fill='green')`]
 
@@ -455,7 +480,7 @@ knitr::include_graphics("https://2.bp.blogspot.com/-MjVaq_H_dBE/VDFwHWtem5I/AAAA
 
 --
 
-### variables: factors of interest whose values .Yellow[vary]
+### variables: factors of interest whose values .Yellow[vary] 
 
 --
 
