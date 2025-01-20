@@ -418,11 +418,11 @@ knitr::include_graphics("https://2.bp.blogspot.com/-MjVaq_H_dBE/VDFwHWtem5I/AAAA
 ---
 
 # Is Social Science (very) different from National Science?
-## Are not '.red[real]' scientists?
+## Are we not '.red[real]' scientists?
 
 --
 
-- .Large[Not really. More of differences in degree]
+- .Large[We are. Quantitative, not qualitative, differences]
 
 --
 
@@ -476,7 +476,7 @@ knitr::include_graphics("https://2.bp.blogspot.com/-MjVaq_H_dBE/VDFwHWtem5I/AAAA
 
 ---
 
-## Whichever method you use, it comes down to a .red[holy] table
+## Whichever method is used, it comes down to a .red[holy] table
 
 --
 
