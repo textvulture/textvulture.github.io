@@ -60,6 +60,7 @@ blue {
 
   - <font size='2'>Jan 7: This syllabus is created.</font>
   - <font size='2'>Jan 10: Grossmann (2021) reading is added to Week 2. </font>
+  - <font size='2'>Jan 24: The word limit for the first assignment corrected to 250.</font>
 
 # Instructor
 
@@ -102,7 +103,7 @@ In a nutshell, you are based on the following items. The deadlines for each are 
 
 ## My Best Reading (5%) {#sec-best}
 
-What was the single reading you liked the most in the grad classes that you've taken? Write a 300-word short essay discussing: 
+What was the single reading you liked the most in the grad classes that you've taken? Write a 250-word short essay discussing: 
 
   - Why do you like it so much? 
   - How is it better than others?
