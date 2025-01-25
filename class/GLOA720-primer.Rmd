@@ -114,6 +114,45 @@ knitr::include_graphics("https://2.bp.blogspot.com/-MjVaq_H_dBE/VDFwHWtem5I/AAAA
 
 ### - the process is .green[inference] `r fa("code-branch", fill='green')`.
 
+
+---
+
+
+# Is Social Science (very) different from National Science?
+## Are we not '.red[real]' scientists?
+
+--
+
+- .Large[We are. Quantitative, not qualitative, differences]
+
+--
+
+  - .Large[.Green[more] prone to sociocultural biases]
+  - .Large[more engageßd in less-represented voices]
+
+--
+
+- .Large[.pink[Balancing] between subjectivity and impact is important]
+
+> "Social science aims for collective knowledge but remains a social process with practices, cultures, and norms that vary across disciplines, geography, and time." (Grossmann 2021, 34)
+
+--
+
+- .Large[But the basic golden rule remains the same: .green[minimizing bias]]
+
+--
+
+  - .Large[A .green[collective] endeavor works great for this (hence, .orange[peer-reviews]).]
+
+---
+
+class: inverse, center, middle
+background-image: url(https://github.com/textvulture/textvulture.github.io/blob/master/images/wayBackground.jpg?raw=true)
+background-size: 120%
+
+# .LARGE[As the methods are .pink[standardized], their processes are pretty .red[similar] too.]
+
+
 ---
 
 # The Process of (Social) Science .tiny[(working example = 'democratic peace' `r fa("peace", fill='red')`)]
@@ -174,45 +213,70 @@ knitr::include_graphics("https://raw.githubusercontent.com/textvulture/textvultu
 
 library(kableExtra)
 text <- data.frame( 
-Independent.Variable = c("High", "Low"),
+Indep.Variable = c("High", "Low"),
 No = c("A", "C"),
 Yes = c("B", "D")
 )
 
-kbl(text, booktabs = T, 
+kbl(text, 
+    booktabs = T, 
     align=rep('c', 3)) %>%
-  kable_styling(font_size = 20) %>%
-  add_header_above(c(" " = 1, "Dependent.Variable" = 2)) 
+  kable_styling(font_size = 30) %>%
+#  row_spec(1:2, font_size = 30) %>%
+  add_header_above(c(" " = 1, 
+                     "Dependent.Variable" = 2)) 
+
 ```
 
 ]
 
 ---
+
+class: middle, inverse
+background-image: url(https://github.com/textvulture/textvulture.github.io/blob/master/images/background_leftEmpty.jpg?raw=true)
+background-size: 130%
+
+# At the end of the day, most research projects look quite .yellow[similar in structure]. 
+
+--
+
+# **Yours** will too, probably.
+
+
+---
 .content-box-blue[
-## 1. Introduction (+ Literature Review)
+### 1. **Introduction (+ Literature Review)**
 ]
+
+--
 
 .content-box-yellow[
-## 2. (Literature Review +) Argument/Hypothesis
+### 2. **(Literature Review +) Argument/Hypothesis**
 ]
+
+--
 
 .content-box-army[
-## 3. Research Design
+### 3. **Research Design**
 ]
+
+--
 
 .content-box-purple[
-## 4. Empirical Analysis
+### 4. **Empirical Analysis**
 ]
 
+--
+
 .content-box-red[
-## 5. Conclusion
+### 5. **Conclusion**
 ]
 ---
 
 class: center, bottom
 
 <div class="full-width-tinted"><br>
-  <h1> .large[Let's talk about an .Blue[example].] </h1> 
+  <h1> .large[Let's take an .Blue[example].] </h1> 
 </div><br><br> 
 
 
