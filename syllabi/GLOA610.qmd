@@ -68,6 +68,7 @@ blue {
   - <font size='2'>Jan 17: "The essay .." is changed to "This essay exam..." in @sec-ex.</font>
   - <font size='2'>Jan 17: "Medical Excuses" subsection is now relocated in the "Course Policy" @sec-policy (previously in 'Requirement').</font>
   - <font size='2'>Jan 17: Blair et al. (2022) reading added to Week 6.</font>
+  - <font size = '2'> Jan 28: Typo corrected in Week 2 Reading. (World Bank Report) 2023 -> 2024. The link has been correct all along and, thus, remains the same. So no worries, if you've done the reading already.</font>
 
 # Instructor
 
@@ -431,7 +432,7 @@ The grading scale in this course follows [GMU Catalogue](https://catalog.gmu.edu
 
   -  No reading summary yet.
   -  Rapley, J. (2007). *Understanding Development: Theory and Practice in the Third World*. Lynne Rienner, Boulder. Ch. 1 & 2. 
-  -  World Bank. (2022). World Development Report 2023. [link.](https://www.worldbank.org/en/publication/wdr2024). Chs. 2 and 8 only.
+  -  World Bank. (2024). World Development Report 2024. [link.](https://www.worldbank.org/en/publication/wdr2024). Chs. 2 and 8 only.
   -  Martinez, L. R. (2022). How Much Should We Trust the Dictator’s GDP Growth Estimates? *Journal of Political Economy*, 130(10):2731–2769.
   -  Steger, M. (2005). *Globalism: Market Ideology Meets Terrorism*. Rowman & Littlefield, New York, NY. Ch. 4.
   -  Acemoglu, D. (2010). Theory, general equilibrium, and political economy in developing economics. *Journal of Economic Literature*, 24:17–32. <mark>not required</mark>
