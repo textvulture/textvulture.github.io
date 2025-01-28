@@ -1,5 +1,5 @@
 ---
-title: "Introduction (2) GLOA 610"
+title: "Concepts, GLOA 610"
 subtitle: "What are economic globalization and development? <br> .yellow[A Primer]"
 author: "Byunghwan Son <br> George Mason University"
 date: " "
@@ -498,46 +498,66 @@ ggplot(data=wdi %>%
 
 ---
 class: inverse, center, top
-background-image: url(https://thumbs.gfycat.com/VainGlitteringBanteng.webp)
+background-image: url(https://media.tenor.com/yy2cI_EeT-0AAAAM/so-many-questions-dr-roger-bentley.gif) 
 background-size: contain
 
-# .yellow[.large[But some questions still remain.]]
+# .yellow[.large[But there are still...]]
+
+---
+class: inverse, middle
+background-image: url(https://github.com/textvulture/textvulture.github.io/blob/master/images/night_background6.jpg?raw=true)
+background-size: 110%
+
+
+# In .Blue[different] economic dimensions, globalization's effects are also .Blue[different].
+
+--
+
+## - Policy areas (e.g., finance, trade, investment ...)
+
+--
+
+### - Class Discussions
+
+--
+
+## - Empirical contexts (e.g., countries, regions, cities ...)
+
+--
+
+### - Case Reports
 
 ---
 
-class: inverse
-background-color: black
+background-image: url(https://media.tenor.com/o7ysk_qGgMIAAAAi/capitalism-eric-bauza.gif)
+background-size: 40%
+background-position: right
 
-#.Large[Development in .pink[2023?]]
+#.Large[Development in .pink[21st Century?]]
 
+--
+
+### It might .pink[not] be just preaching capitalism.
 
 ---
-class: inverse
-background-color: black
-background-image: url(https://www.worldbank.org/content/dam/photos/780x439/2023/apr/WDR-2023-Launch-PPT.jpg)
-background-position: top right
+background-color: white
+background-image: url(https://www.worldbank.org/content/dam/photos/220x285/2024/jul/WDR-2024-cover.png)
+background-position: right
 background-size: 40%
 
-#.Large[Development in .pink[2023?]]
-
-
-
-## - .orange[Modern] development policies: <br> .red[not] just about macroeconomic indicators.
+#.Large[Development in .pink[2024]]
 
 --
 
-## - more .Green[interesting], but .bluey[practical], stuff
-
-### `r fa("hand-holding-dollar", fill='yellow')` poverty reduction (for individuals)
+- .Large[.orange[Modern] development policies: <br> .red[not] just about macroeconomic indicators <br> or simple models.]
 
 --
 
-### `r fa("sack-dollar", fill='yellow')` development of sender country
+- .Large[In 2024, .red[slow growth] is the focus <br> (middle-income in particular).]
+
+  - .Large[ `r fa("syringe", fill='orange')` technology 'infusion']
 
 --
 
-### `r fa("land-mine-on", fill='yellow')` development of host country
+  - .Large[ `r fa("bomb", fill='red')` creative destruction (vs. inertia)]
 
---
-
-### `r fa("people-roof", fill='yellow')` gender and society angles
