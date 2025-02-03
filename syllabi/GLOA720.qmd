@@ -1,5 +1,5 @@
 ---
-title: "Syllabus: GLOA 720 Capstone Research (tentative)"
+title: "Syllabus: GLOA 720 Capstone Research"
 subtitle: Spring 2025, Online Asynchronous 
 format: 
   html:
