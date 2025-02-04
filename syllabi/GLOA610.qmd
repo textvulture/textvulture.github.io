@@ -69,6 +69,7 @@ blue {
   - <font size='2'>Jan 17: "Medical Excuses" subsection is now relocated in the "Course Policy" @sec-policy (previously in 'Requirement').</font>
   - <font size='2'>Jan 17: Blair et al. (2022) reading added to Week 6.</font>
   - <font size = '2'> Jan 28: Typo corrected in Week 2 Reading. (World Bank Report) 2023 -> 2024. The link has been correct all along and, thus, remains the same. So no worries, if you've done the reading already.</font>
+  - <font size = '2'> Feb 4: 'Chang (2003)' reading of Week 4 is not required anymore. It's optional. </font>
 
 # Instructor
 
@@ -460,7 +461,7 @@ The grading scale in this course follows [GMU Catalogue](https://catalog.gmu.edu
   -  Kim, I. and Osgood, I. (2019). Firms in Trade and Trade Politics. *Annual Review of Political Science*. 2019. 22:399–417
   -  Carter, D. B. and Poast, P. (2020). Barriers to trade: How border walls affect trade relations. *International Organization*, 74(4):165–185.
   - Brutger, R., & Guisinger, A. (2024). Framing Layoffs: Media Coverage, Blame Attribution, and Trade-Related Policy Responses. *Political Behavior*, Forthcoming. DOI: [https://doi.org/10.1007/s11109-024-09960-8]( https://doi.org/10.1007/s11109-024-09960-8). 
-  -  Chang, H.-J. (2003). *Kicking Away the Ladder: Development Strategy in Historical Perspective*. Anthem Press, London. Ch. 4. Canvas.
+  -  Chang, H.-J. (2003). *Kicking Away the Ladder: Development Strategy in Historical Perspective*. Anthem Press, London. Ch. 4. <mark>not required</mark>
   -  Guasti, A. and Koenig-Archibugi, M. (2022). Has global trade competition really led to a race to the bottom in labor standards? *International Studies Quarterly*, 66(4):sqac061.
   -  Autor, D. H., Dorn, D., and Hanson, G. H. (2016). The China Shock: Learning from LaborMarket Adjustment to Large Changes in Trade. *Annual Review of Economics*, 8:205–240. <mark>not required</mark>
   -  Handley, K. and Limão, N. (2022). Trade policy uncertainty. *Annual Review of Economics*, 14(1):363–395. <mark>not required</mark>
