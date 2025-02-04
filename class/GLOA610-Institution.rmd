@@ -330,26 +330,42 @@ background-position: right
 ### - what kind of .Yellow[institutions]?
 
 ---
-class: inverse
-background-color:  #034f84
-background-position: bottom
-background-size: contain
+class: inverse, bottom
+background-image: url(https://tommyboland.com/wp-content/uploads/2021/05/sowing.jpeg)
+background-size: covers
 
-# Why is .Yellow[Africa] mired in conflict (and thus little development?)
-
+# Looking **deeper**: what did it look like when the .pink[seeds] of good institutions were .yellow[sowed]?
 
 ---
 
 class: inverse
 background-color:  #034f84
-background-image: url(https://static.dw.com/image/18277176_1006.jpg)
+background-image: url(https://github.com/textvulture/textvulture.github.io/blob/master/images/background_leftEmpty3.jpeg?raw=true)
 background-size: 130%
 
-# Why is .Green[Africa] mired in conflict (and thus little development?)
+
+# .yellow[Ricart-Huguet (2022)]: 16 British and French colonies  
 
 --
 
-## .yellow[Michalopoulos and Papaioannou (2016)]
+### : .Blue[district-level variations] in .pink[**institutional**] investment: infra, health, & education
+
+--
+
+## the causal sequence  
+
+--
+
+1. .Large[pre-colonial structures (natural harbors & capes)] 
+--
+
+2. .Large[pre-colonial trading posts]
+--
+
+3. .Large[colonial investment]
+--
+
+4. .Large[(varied) development]
 
 --
 
