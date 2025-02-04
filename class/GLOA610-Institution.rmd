@@ -357,21 +357,24 @@ background-size: 130%
 --
 
 1. .Large[pre-colonial structures (natural harbors & capes)] 
+
 --
 
 2. .Large[pre-colonial trading posts]
+
 --
 
 3. .Large[colonial investment]
+
 --
 
 4. .Large[(varied) development]
 
---
+---
 
-```{r, echo=FALSE, out.width="70%", fig.align='center'}
+```{r, echo=FALSE, out.width="100%", fig.align='center'}
 
-knitr::include_graphics("https://github.com/textvulture/textvulture.github.io/blob/master/images/Michalopoulos2016.png?raw=true")
+knitr::include_graphics("https://github.com/textvulture/textvulture.github.io/blob/master/images/Rikart2022.png?raw=true")
 
 ```
 
