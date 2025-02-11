@@ -47,9 +47,10 @@
 .bluey { color: #12F0DA; }
 .violet { color: #948DF0; }
 .white { color: #FCFEFE; }
-.Yellow { color: #ffaf00; }
+.Yellow { color: #f7ea49; }
 .ivory { color: #FDFED9; }
 .pink { color: #ff8080; }
+.rose { color: #fa2323; }
 
 .bold { font-weight: bold; }
 .bolder { font-weight: bolder; }
@@ -61,6 +62,52 @@
 
 
 .tab { text-indent: 5em; }
+
+.hl1 {
+  margin: 0 -0.4em;
+  padding: 0.1em 0.4em;
+  border-radius: 0.8em 0.3em;
+  background: transparent;
+  background-image: linear-gradient(
+    to right,
+    rgba(255, 225, 0, 0.1),
+    rgba(255, 225, 0, 0.7) 4%,
+    rgba(255, 225, 0, 0.3)
+  );
+  -webkit-box-decoration-break: clone;
+  box-decoration-break: clone;
+}
+
+
+.hl2 {
+  margin: 0 -0.4em;
+  padding: 0.1em 0.4em;
+  border-radius: 0.8em 0.3em;
+  background: transparent;
+  background-image: linear-gradient(
+    to right,
+    rgba(247, 46, 0, 0.1),
+    rgba(247, 46, 0, 0.7) 4%,
+    rgba(247, 46, 0, 0.3)
+  );
+  -webkit-box-decoration-break: clone;
+  box-decoration-break: clone;
+}
+
+.hl3 {
+  margin: 0 -0.4em;
+  padding: 0.1em 0.4em;
+  border-radius: 0.8em 0.3em;
+  background: transparent;
+  background-image: linear-gradient(
+    to right,
+    rgba(111, 238, 0, 0.1),
+    rgba(111, 238, 0, 0.7) 4%,
+    rgba(111, 238, 0, 0.3)
+  );
+  -webkit-box-decoration-break: clone;
+  box-decoration-break: clone;
+}
 
 /* USYD blockquote */
 blockquote, .blockquote {
