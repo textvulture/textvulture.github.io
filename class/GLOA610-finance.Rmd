@@ -44,7 +44,7 @@ background-image: url(https://media0.giphy.com/media/cJFQJzZxFMhONxDTnt/200w.gif
 background-size: 60%
 background-position: right
 
-# .huge[.Blue[**Global <br> Finance**]] <br><br> GLOA 610
+# .huge[.Blue[**Global <br> .hl3[Finance]**]] <br><br> GLOA 610
 
 ---
 
@@ -89,7 +89,7 @@ background-size: 30%
 
 --
 
-### 1. .Yellow[nominal] exchange rates 
+### 1. .orange[nominal] exchange rates 
 
 - .large[need to know when travel abroad `r fa("plane")` : a-/depreciate)]
 - .large[instantaneously available]
@@ -144,7 +144,7 @@ background-size: 30%
 ]
 
 ---
-class: inverse, middle
+class: inverse
 background-color: #d64161
 background-image: url(https://raw.githubusercontent.com/textvulture/textvulture.github.io/master/images/background_leftEmpty2.jpg)
 background-size: 140%
@@ -161,7 +161,11 @@ background-size: 140%
 
 --
 
-## - .orange[interest groups] would lobby for undervaluation (.Green[sometimes])
+## - Only .hl1[some] groups would like that.
+
+--
+
+### `r fa('hand-point-right', fill='purple')` .orange[interest groups] would lobby for undervaluation (.Green[sometimes])
 
 --
 # .pink[Broz and Werfel (2014)]; .bluey[Steinberg and Shih (2012)]
@@ -196,7 +200,7 @@ background-color: red
 
 ---
 
-# A quick .Yellow[cut-away]: The Story of American Debt
+# A quick .hl2[cut-away]: The Story of American Debt
 
 --
 .pull-left[
@@ -224,7 +228,7 @@ knitr::include_graphics('https://wolfstreet.com/wp-content/uploads/2018/10/US-Tr
 
 .pull-left[
 ```{r, echo=F}
-knitr::include_graphics('images/dollar-skeptic.JPG')
+knitr::include_graphics('https://github.com/textvulture/textvulture.github.io/blob/master/images/dollar-skeptic.JPG?raw=true')
 ```
 ]
 
