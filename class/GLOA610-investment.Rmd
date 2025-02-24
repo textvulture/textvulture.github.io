@@ -303,10 +303,10 @@ background-size: 100%
 ---
 
 class: inverse
-background-image: url(https://static01.nyt.com/images/2012/12/18/world/bangladesh/bangladesh-superJumbo.jpg)
+background-image: url(https://img.freepik.com/free-photo/flat-lay-rusty-metal-surface_23-2148796566.jpg)
 background-size: 100%
 
-# .large[The effects: .times[.red[**Race-To-The-Bottom**]]???]
+# .large[The effects: .hl3[**Race-To-The-Bottom**]???]
 
 --
 
@@ -330,7 +330,7 @@ background-size: 100%
 
 # - What about **.yellow[Chinese]** FDIs? (Yang 2023)
 
-  - .Large[.red[South]-.pink[South] .yellow[economic globalization???]]
+  - .Large[.hl1[.Green[South]-.pink[South]] economic globalization???]
 
 ---
 
@@ -339,7 +339,7 @@ background-color: #1C1B1C
 background-image: url(https://ichef.bbci.co.uk/news/768/cpsprodpb/14110/production/_85829128_85829127.jpg)
 background-size: 100%
 
-# Other (negative) consequences?
+# .hl2[Other (negative) consequences?]
 
 ## .yellow[For example, wouldn't .pink[**MNCs**] incite strong backlash?]
 
@@ -352,6 +352,29 @@ background-size: 100%
 knitr::include_graphics("https://github.com/textvulture/textvulture.github.io/blob/master/images/Christensen.png?raw=true")
 
 ```
+
+---
+
+# But don't .red[some] firms act like .hl2[Hyenas]?
+
+--
+
+## - Blair, Christensen, and Wirtschafte (2022): .pink[conflict] zones vs. .orange[buffer] zones
+
+--
+
+```{r}
+
+knitr::include_graphics("https://github.com/textvulture/textvulture.github.io/blob/master/images/Blair2022.png?raw=true")
+
+```
+
+--
+
+## - Caveats
+
+- .Large['exploration' investment]
+- .Large['.pink[junior]' firms]
 
 ---
 
