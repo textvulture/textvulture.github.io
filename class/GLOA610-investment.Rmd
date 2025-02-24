@@ -363,7 +363,7 @@ knitr::include_graphics("https://github.com/textvulture/textvulture.github.io/bl
 
 --
 
-```{r}
+```{r, out.width="90%"}
 
 knitr::include_graphics("https://github.com/textvulture/textvulture.github.io/blob/master/images/Blair2022.png?raw=true")
 
@@ -371,10 +371,7 @@ knitr::include_graphics("https://github.com/textvulture/textvulture.github.io/bl
 
 --
 
-## - Caveats
-
-- .Large['exploration' investment]
-- .Large['.pink[junior]' firms]
+## - Caveats: 'exploration' investment; '.pink[junior]' firms
 
 ---
 
