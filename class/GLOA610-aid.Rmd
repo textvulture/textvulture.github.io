@@ -41,7 +41,7 @@ options(htmltools.preserve.raw = FALSE)
 class: inverse, center, middle
 background-image: url(https://mediad.publicbroadcasting.net/p/shared/npr/201805/530259985.jpg)
 
-# .HUGE[**Foreign Aid**] <br> GLOA 610
+# .HUGE[**Foreign Aid**] <br> .hl2[.large[**GLOA 610**]]
 
 ---
 
@@ -142,7 +142,7 @@ background-size: 100%
   <h1> .large[How much: Aid per capita (.yellow[GDPpc<5k])] </h1>
 </div><br><br>
 
-
+--
 
 ```{r include=F, cache=T}
 
@@ -197,8 +197,10 @@ wdi2 %>%
 
 
 <div class="full-width-tinted"><br>
-  <h1> .large[Aid dependency? Aid/GNI, % (GDPpc<5k)] </h1>
+  <h1> .large[Aid dependency? .pink[Aid/GNI], % (GDPpc<5k)] </h1>
 </div><br><br><br>
+
+--
 
 ```{r, message=FALSE, echo=FALSE, warning=FALSE, results="asis", fig.width=16, fig.height=7, cache=T}
 
@@ -232,6 +234,7 @@ background-size: 100%
   <h1> .large[Aid/GNI and development] </h1>
 </div><br><br><br>
 
+--
 
 ```{r, message=FALSE, echo=FALSE, warning=FALSE, results="asis", fig.width=16, fig.height=7, cache=T}
 
@@ -288,7 +291,7 @@ background-position: right
 
 # - Donor priorities?
 
-# - Includes .red[military] aid and ODA
+# - Includes .red[military] & ODA
 
 # - different every year
 
