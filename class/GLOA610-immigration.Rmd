@@ -313,22 +313,26 @@ background-size: 50%
 
 ---
 
-# Banksak et al. (2018)
+# Bansak et al. (2018)
 
-## .red[`r fa("robot")`] &nbsp; *what could've happened if the algorithms were used ...*
+.Large[.red[`r fa("robot")`] &nbsp; *what could've happened if algorithms were used ...*]
+
+--
 
 .pull-left[
 .center[
 .Large[USA]
-![](immigration_fig1.png)
+![](https://github.com/textvulture/textvulture.github.io/blob/master/images/bansak2018A.png?raw=true)
 ]
 
 ]
+
+--
 
 .pull-right[
 .center[
 .Large[Switzerland]
-![](immigration_fig2.png)
+![](https://github.com/textvulture/textvulture.github.io/blob/master/images/bansak2018B.png?raw=true)
 ]
 
 

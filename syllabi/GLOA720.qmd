@@ -61,6 +61,7 @@ blue {
   - <font size='2'>Jan 7: This syllabus is created.</font>
   - <font size='2'>Jan 10: Grossmann (2021) reading is added to Week 2. </font>
   - <font size='2'>Jan 24: The word limit for the first assignment corrected to 250.</font>
+  - <font size='2'>Feb 24: A broken YouTube link in @sec-lr is replaced with an alternative one with additional clarification.</font>
 
 # Instructor
 
@@ -145,7 +146,7 @@ Reflect on the feedback collected. Once peer-feedback is provided by peer-review
 ## Literature Review (15%) {#sec-lr}
 Complete the research paper up to the literature review. 
 
-  - For general instruction on how to write a research paper, see [https://youtu.be/h-JuMI9bUF4](https://youtu.be/h-JuMI9bUF4).) 
+  - For a generic instruction on how to write a research paper, see [https://youtu.be/3uy5ZGYAQQ4?si=iDSF3KibkiB86xtc](https://youtu.be/3uy5ZGYAQQ4?si=iDSF3KibkiB86xtc). Not all of this is strictly applicable to what we do (refer instead to the lecture video for details of what literature review is about), but it should give you a rough idea of how to do it. 
   - You are expected to turn in a mostly-finished Literature Review of your paper as well as rudimentary Introduction and Theory and/or Argument by the deadline. 
   - In the literature review:
     - include at least six academic sources (narrowly defined, such as academic books or peer-reviewed journal articles). You are also encouraged to use non-academic sources as much as you want including policy reports, blog posts, news or magazine articles, but they don’t

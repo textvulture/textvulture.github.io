@@ -88,11 +88,7 @@ background-color: #1A0563
 background-image: url(https://github.com/textvulture/textvulture.github.io/blob/master/images/waveBackground2.jpg?raw=true)
 background-size: 100%
 
-# It is in fact quite likely that most of the vocal critiques just don't understand .red[what IEOs do]. 
-
---
-
-# Perhaps in part because IMF and WB only deal with .yellow[difficult situations] in the first placce
+# .Large[Do the critics actually understand <br> .red[what IEOs do]? ]
 
 ---
 
@@ -104,13 +100,15 @@ class: inverse, center, middle
 
 --
 
-# .Large[.pink[What really was the motivation?]]
+# .large[.pink[What really was the motivation and mission?]]
 
 ---
 
 class: inverse, right, bottom
 background-image: url(http://insidestory.org.au/wp-content/uploads/bretton_woods.jpg)
 background-size: cover
+
+--
 
 # .Huge[**An attempt to .red[prevent] another World War.**]
 
@@ -284,6 +282,10 @@ background-image: url(https://64.media.tumblr.com/439efbdcdbd2e0c89e3f71a87f5ae9
 background-size: cover
 
 # .large[.yellow[IEOs reflect certain dimensions of the reality.]]
+
+--
+
+# Not necessarily evil or good.
 
 --
 

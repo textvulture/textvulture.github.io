@@ -41,19 +41,45 @@ background-image: url(https://i.gifer.com/4KPr.gif)
 background-size: 110%
 
 
-# .huge[**How .red[NOT] to write <br> a .yellow[bad] literature review**]
+# .LARGE[**How to write a literature review <br> that doesn't .hl1[suck**]]
 
 # .times[A Practical Guide] (GLOA 720)
 
 ---
 
+class: inverse, middle
+background-image: url(https://y.yarn.co/63df64d9-2848-4ea3-be69-44ef8b62739f_text.gif)
+background-size: 100%
+
+--
+
+## .yellow[Before we start, this lecture serves the role of 'checking' whether your literature review has been shaping up alright.] 
+
+--
+
+## .bluey[As emphasized many times already, you must have started working on the literature review a while ago.]
+
+
+---
 
 class: inverse, middle, center
 background-color: black
 background-image: url(https://media.tenor.com/GxfSlJG_H7AAAAAd/confusion-visible-confusion.gif)
-background-size: contain
+background-size: 120%
 
 # .huge[Why do people say <br> literature review is so .red[hard?]]
+
+--
+
+# Why do I often hear: '.hl1[there's no relevant study on this!]'
+
+---
+
+class: inverse, middle, center
+background-color: black
+
+
+# .huge[What typically happens:]
 
 ---
 
@@ -75,6 +101,22 @@ background-size: 115%
 
 ---
 
+class: inverse
+background-image: url(https://github.com/textvulture/textvulture.github.io/blob/master/images/forestBackground2.jpg?raw=true)
+background-size: 110%
+
+# And then you just end up with a literature review that .pink[sucks].
+
+--
+
+> ## .white[Doe (1991) finds that cash transfer does not work. Xu (2005) argues that cash transfer is important. Ngo (2016) contends that cash transfer is imperialism.]
+
+--
+
+##  - .Green[Random] studies, not connected. More importantly, other than showing it is .yellow[something] about cash transfer, this kind of review does not really highlight what .pink[your study] does. 
+
+---
+
 class: inverse, right, middle
 background-color: black
 background-image: url(https://github.com/textvulture/textvulture.github.io/blob/master/images/background_rightEmpty.jpg?raw=true)
@@ -89,12 +131,14 @@ background-size: 100%
 
 ---
 
-class: inverse
+class: inverse, bottom
 background-color: #090909
 background-image: url(https://media.licdn.com/dms/image/C4E12AQHhygTAbuGDfA/article-cover_image-shrink_600_2000/0/1548610957339?e=2147483647&v=beta&t=4zOqhjPBhOSFGkh6TKnNDOIAFysg2nBJ7B8ajkUvVlk)
 background-size: 100%
 
-# What literature review is all about:
+--
+
+# You want to build on others' work, <br> .pink[not] trying to find a perfect match.
 
 ---
 
@@ -158,28 +202,34 @@ background-size: 100%
 
 ---
 
-# How to SHOW my research matters
---
-
-#### many, many different ways, but
+# .pink[Numerous] ways to show your research matters. For example:
 
 --
 
 .content-box-green[
-### *.times[there was this obvious problem that they .red[implied] all along]*<br>: theory-challenging; theory-confirming]
+.Large[.times[there was this critical problem in the theory]]]
+--
+
+.large[.hl3[Your research]: theory-revising (should have a good insight)]
 
 --
 
 .content-box-yellow[
-### *.times[they are fighting over this and it's been .red[inconclusive]]*<br>: synthesizing
+.Large[.times[they are fighting over this and it's been .red[inconclusive]]]
 ]
 
 --
 
-.content-box-red[
-### *.times[the haven't touched upon this very important .red[area] at all]*<br>: literature-expanding (very tricky)
+.large[.hl1[Your research]: synthesizing; empirical settling (often considered less important)]
 
-]
+--
+
+.content-box-red[
+.Large[.times[they haven't touched upon this very important .red[area] at all]]]
+
+--
+
+.large[.hl2[Your research]: scope-expanding (not easy to be convincing)]
 
 ---
 
@@ -187,7 +237,7 @@ class: inverse, center, middle
 background-image: url(https://github.com/textvulture/textvulture.github.io/blob/master/images/background_oldPaper.jpg?raw=true)
 background-size: cover
 
-# .large[So the first step is find a .bluey[network] of literature to see what's insufficiently done.]
+# .large[So the first step is to find a .bluey[network] of literature to see what's insufficiently done.]
 
 ---
 
@@ -202,9 +252,9 @@ background-size: 120%
 # .Large[Don't give me that.]
 --
 
-## - because that ain't possible
+## - because that ain't possible: there's always .red[something] to build on.
 
-## 
+## The only thing to .hl3[avoid:]
 
 --
 
@@ -233,9 +283,9 @@ kbl(text, booktabs = T, escape = F, align=rep('c', 3)) %>%
 
 # .Large[Don't give me that.]
 
-## - because that ain't possible
+## - because that ain't possible: there's always .red[something] to build on.
 
-## The only thing to .Yellow[avoid:]
+## The only thing to .hl3[avoid:]
 
 
 ```{r}
@@ -367,7 +417,7 @@ background-size: 100%
 # So maybe .bluey[a study] <br>that .yellow[overcomes] <br>these limitations is need. 
 --
 
-# The job is to **.green[convince]!**
+# The job is to **.Green[convince]**!
 
 --
 
@@ -383,7 +433,7 @@ background-size: 100%
 ### - the *Annual Reviews* (almost any discipline)
 --
 
-### - book reviews: no, not Goodreads and such, but book review articles in .Yellow[academic journals]
+### - book reviews: no, not Goodreads and such, but book review articles in .orange[academic journals]
 --
 
 ### - but really, nothing beats: .green[GoogleScholar] 
@@ -396,16 +446,26 @@ class: inverse
 background-image: url(https://github.com/textvulture/textvulture.github.io/blob/master/images/background_leftEmpty.jpg?raw=true)
 background-size: 100%
 
-# Keep in mind
+# Keep in mind:
 
 ### - There could exist a whole body of literature under your nose.
 
+--
+
 ### - You don't summarize the entire field. Literature review is an instrument. 
+
+--
 
 ### - Some studies are better than others. 
 
-### - A good literature review naturally makes a good conlcusion
+--
 
-### - Sometimes, just knowing the main argument is enough
+### - A good literature review naturally makes a good conlcusion.
 
-### - It's meant to be painful.
+--
+
+### - Sometimes, just knowing the main argument is enough.
+
+--
+
+### - It's meant to be .pink[painful].

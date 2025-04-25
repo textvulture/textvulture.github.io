@@ -78,9 +78,10 @@ wdi %>%
 
 class: inverse
 background-color: black
+
 .pull-left[
 .center[
-![](https://archive.org/download/TheRoadToWiganPier/Wigan.jpg)
+![](https://m.media-amazon.com/images/I/41B-qNBFC7L._SY445_SX342_.jpg)
 ]
 ]
 
