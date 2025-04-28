@@ -122,6 +122,15 @@ A .Yellow[**process**] of increasing and intensifying .violet[**connectivity**] 
 ]
 
 ---
+
+class: inverse, center, middle
+background-image: url(https://github.com/textvulture/textvulture.github.io/blob/master/images/forestBackground3.jpg?raw=true)
+background-size: 110%
+
+# .Large[Are we on a .hl1[long-term] downward trend?]
+
+
+---
   
 ```{r include=F, cache=T}
 
@@ -270,59 +279,6 @@ background-size: fill
 
 # .LARGE[**So what's all the fuss about?**]
 
---
-
-# .times[Or, are we looking at .red[wrong] indicators?]
-
----
-
-background-image: url(https://ichef.bbci.co.uk/news/640/cpsprodpb/636C/production/_109625452_eu_far_right_map_010519_map640-nc.png)
-background-size: 30%
-background-position: right
-
-## Is (im)migration the .red[root cause] of deglobalization? 
-
----
-background-image: url(https://ichef.bbci.co.uk/news/640/cpsprodpb/636C/production/_109625452_eu_far_right_map_010519_map640-nc.png)
-background-size: 30%
-background-position: right
-
-## Is (im)migration the .red[root cause] of deglobalization? <br> .times[.tiny[why anti-globalization so strong a political movement?]]
-
-
---
-
-- .large[because migrants `r fa("long-arrow-right", fill='red')` right-wing parties: .orange[anti]-EU?]
-
---
-
-- .large[or is it the other way around?]
-
---
-
-  - .large[backlash to globalization `r fa("long-arrow-right", fill='red')` anti-migration]
-
---
-
-- .large[Leblang and Peters (2022): .green[labor market]]
-
-  - .large[the public: pro-migration `r fa("arrow-up")` or constant in the North]
-  
---
-  - **but,** .large[.red[business] not as supportive anymore]
-
---
-  - .large['superstar' firms and automation]
-
---
-  - .large[allows conservative/populist govts to go anti-immigration]
-
---
-
-- .large[The .red[indirect] effect of globalization] 
-
-  - 'economic anxiety' (job losses; structural changes)?
-  
 ---
 class: inverse, center, middle
 background-image: url(https://github.com/textvulture/textvulture.github.io/blob/master/images/wayBackground2.jpg?raw=true)
@@ -431,14 +387,12 @@ knitr::include_graphics("https://github.com/textvulture/textvulture.github.io/bl
 # So is CIPS .red[replacing] SWIFT + CHIPS?
 
 
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">A notable jump in CIPS usage in Q2, per lates PBOC data release. The system processed 1.62 million transactions worth 29.49 trillion RMB (~$4 trillion). A 60% and 29% increase, respectively, year-over-year. <a href="https://t.co/ryjoMF6Hdo">pic.twitter.com/ryjoMF6Hdo</a></p>&mdash; Daniel McDowell (@daniel_mcdowell) <a href="https://twitter.com/daniel_mcdowell/status/1697670491241160938?ref_src=twsrc%5Etfw">September 1, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-  <!-- Paste the Twitter code you copied here -->
-</blockquote>
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">A notable jump in CIPS usage in Q2, per lates PBOC data release. The system processed 1.62 million transactions worth 29.49 trillion RMB (~$4 trillion). A 60% and 29% increase, respectively, year-over-year. <a href="https://t.co/ryjoMF6Hdo">pic.twitter.com/ryjoMF6Hdo</a></p>&mdash; Daniel McDowell (@daniel_mcdowell) </blockquote> 
 
 
 ---
 
-# Stories about .pink[trade war] might be a bit .red[overblown].
+# Stories on .pink[trade war] might've been .red[overblown] .tiny[(until recently)].
 
 ```{r, out.width="650px", fig.align = 'center'}
 knitr::include_graphics("https://pbs.twimg.com/media/FwymH-KWIAEQKko?format=png&name=large")
@@ -452,11 +406,11 @@ class: inverse, middle, center
 background-image: url(https://reactiongifs.me/cdn-cgi/imagedelivery/S36QsAbHn6yI9seDZ7V8aA/48e80e16-93a0-4d96-421d-1a83abf08d00/w=640)
 background-size: contain
 
-# .LARGE[So it's all okay?]
+# .LARGE[Underneath the Surface]
 
 --
 
-# .huge[**.yellow[The Onshoring Challenge]**]
+# .huge[**.yellow[The On-shoring Challenge]**]
 
 ---
 class: inverse
@@ -490,11 +444,17 @@ counter .red[Chinese] growth on the tech fields
 
 --
 
-### And then, .large[.Yellow[**Inflation Reduction Act**]]
+### Plus, .large[.Yellow[**Inflation Reduction Act**]]
 
 --
 
+### And then, the .hl2[**Tariffs**].
+
+--
+
+
 ### `r fa("handshake-slash", fill='yellow')` A complete departure from 90s' globalization?
+
 
 
 ---
@@ -504,7 +464,7 @@ background-image: url(https://www.imf.org/-/media/Images/IMF/FANDD/Charts/2023/a
 background-size: contain
 background-position: right
 
-# Or a .pink[revival] of <br>'.Green[industrial policy]'? <br> (Danzman 2023; <br>Argawal 2023)
+# A .pink[revival] of <br>'.Green[industrial policy]'? <br> (Danzman 2023; <br>Argawal 2023)
 
 ---
 
@@ -528,4 +488,4 @@ class: inverse, left, bottom
 background-image: url(https://i.gifer.com/1jyg.gif)
 background-size: 100%
 
-# .Large[Maybe not deglobalization, <br> but a .orange[new] kind.]
+# .Large[May or May Not Be Deglobalization]
