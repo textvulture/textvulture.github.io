@@ -1,0 +1,124 @@
+---
+title: "Syllabus: GLOA 101, Intro to Global Affairs"
+subtitle: Summer 2025, Online Asynchronous 
+format: 
+  html:
+    number-sections: true
+    theme: cosmo
+#editor: visual
+# author:
+#   - name: "Byunghwan 'Ben' Son (bson3@gmu.edu)"
+#     meta-data:
+#       custom-info: "Office Hours"
+#     affiliations:
+#       - name: Global Affairs, George Mason University
+#         url: https://globalaffairs.gmu.edu/
+
+bibliography: 
+  - references.bib
+  - mybib2.bib
+  
+#csl: C:\\Users\\kalka\\Dropbox\\latex\\apsa.csl
+toc: true
+toccolor: blue
+smooth-scroll: true
+
+---
+
+
+```{=html}
+<style>
+
+
+mark {
+  background-color: #ece985;
+  color: black;
+  border-radius: 5px; 
+  padding: 0.2em;
+}
+
+mark2 {
+  background-color: #840a73;
+  color: white;
+  border-radius: 5px; 
+  padding: 0.2em;
+}
+
+red {
+  color: #9b1212;
+}
+
+blue {
+  color: #124921;
+}
+
+</style>
+```
+
+
+**Update log**
+
+  - <font size='2'>May 13: This syllabus is created.</font>
+
+# Instructor
+
+- Byunghwan 'Ben' Son (bson3@gmu.edu)
+  - Associate Professor of Global Affairs
+  - [{{< fa house size=small >}} Personal Webpage](https://textvulture.github.io/)
+  - [{{< fa school-flag size=small >}} GLOA Profile](https://globalaffairs.gmu.edu/)
+  - [{{< fa brands github >}} Github](https://github.com/textvulture)
+  - [{{< fa brands google-scholar >}} Google Scholar](https://scholar.google.com/citations?user=h0o27GgAAAAJ&hl=en)
+- Office Hours
+  - The class is online asynchronous. By design, there are no particular office hours. Instead, your email will be answered within 24 hours (except for the weekend). Please do not use the Message function within Canvas. All communications happen through GMU emails. For security reasons and in compliance with the University regulations, non-Mason emails will not be responded.
+  - You can email me whenever you want, but my responses to the emails sent to me after 5 pm weekdays as well as any time during the weekend will be significantly slow.
+  - For your own interest, you might want to try to use the normal working hours (9 AM to 5 PM, Monday through Friday). In your email, please indicate <red>who you are</red> and <red>which class you’re in (i.e., GLOA 101)</red>.
+
+
+# Course Description
+
+We live in an era in which anything is hardly ‘domestic’. In this class, we study the driving forces that got us in this situation, namely, globalization. Rather than focusing on specific event, country, or subject, we take a comprehensive approach to how the globalizing world aﬀects cultures, societies, organizations, and individuals (and vice versa). For the first half of the semester, we will focus on examining how we got here; what globalization is, and how it is understood in a number of diﬀerent dimensions. The second half of the semester will be spent on the substantive issues of globalization that we deal with in a daily basis, including (but not limited to) violence, justice, governance, environment, and crime. The class serves as an introduction to the study of global aﬀairs and aims at helping students establish analytical tools to understand global issues.
+
+## Course Delivery <br>(aka, *you* signed up for this)
+
+This course will be delivered online using an <blue>asynchronous</blue>, non-real-time format via Canvas. There are well-known advantages of an asynchronous class. During a summer semester, committing to a regular real-time meeting, in-person or not, is challenging. This particular section is to accommodate this situation. Throughout the course of this class, there won’t be any real-time contact by design, therefore. This by no means suggests that the course's workload is any lighter than an ordinary GLOA 101's. In fact, given that we are given only five weeks, you are expected to engage with the course materials *more* intensively than you do in other circumstances.
+
+## Course Objectives and Learning Outcomes
+
+The objectives of this course are:
+
+1. Familiarize students with key terms and related to global studies
+
+2. Acquaint students with the multiple cultural, political, and economic dimensions that shape and are shaped by global processes
+
+3. Encourage students to use an interdisciplinary lens to critically engage the representation of global issues and their potential solutions
+
+4. Support students in developing academic reading and writing skills
+By the end of this course, each student will (i.e., student ‘learning outcomes’):
+
+  - Apply key terms to the study of global issues
+  - Describe the multiple dimensions of global processes
+  - Reflect critically on everyday representations of global issues and conflicts
+  - Identify in their own work and in that of others the elements of a strong academic analysis.
+  
+This course also fulfills the global understanding requirement in the Mason Core. It is designed to help you to meet at least three of the following learning outcomes at the completion of the course:
+
+1. Identify and articulate one’s own values and how those values influence one’s interactions and relationships with others, both locally and globally
+
+2. Demonstrate understanding of how the patterns and processes of globalization make visible the interconnections and differences among and within contemporary global societies 
+
+3. Demonstrate development of intercultural competencies
+
+4. Explore individual and collective responsibilities within a global society through analytical, practical, or creative responses to problems or issues, using resources appropriate to the field
+(These goals are quoted from the [Mason Core website](http://masoncore.gmu.edu/global-understanding-2))
+
+
+# Course Requirement
+
+## Required Textbook
+You are asked to complete all the readings no later than the end (and preferably, the beginning) of each weekly module (see below for the @sec-schedule). The importance of reading in higher education cannot be overstated. Much of the learning takes place while you're completing the readings. Our class serves to affirm what you've already learned from the reading. These readings are NOT available in the University Bookstore. An <red>e-book</red> version of the textbook is available for free in the library. If you prefer a hard copy, you can purchase it online very easily. Either way, you're responsible for securing the readings before the end of each module. 
+
+- Smallman, Shawn C., and Kimberley Brown. 2020. *Introduction to International and Global Studies*. 3rd ed, Revised and Expanded. Chapel Hill: The University of North Carolina Press.  
+  - Additional articles are assigned. These will be made available in Canvas.
+
+
+# Schedule {#sec-schedule}
