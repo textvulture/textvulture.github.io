@@ -117,7 +117,7 @@ You are required to get in to the course page at least four times a week. Given 
 
 You are asked to complete all the readings no later than the end (and preferably, the beginning) of each weekly module (see below for the @sec-schedule). The importance of reading in higher education cannot be overstated. Much of the learning takes place while you're completing the readings. Our class serves to affirm what you've already learned from the reading. These readings are NOT available in the University Bookstore. An <red>e-book</red> version of the textbook is available for free in the library. If you prefer a hard copy, you can purchase it online very easily. Either way, you're responsible for securing the readings before the end of each module.
 
--   Smallman, Shawn C., and Kimberley Brown. 2020. *Introduction to International and Global Studies*. 3rd ed, Revised and Expanded. Chapel Hill: The University of North Carolina Press.
+-   Smallman, Shawn C., and Kimberley Brown. 2020. *Introduction to International and Global Studies*. 3rd ed, Revised and Expanded. Chapel Hill: The University of North Carolina Press. (Referred to as 'SB' in @sec-schedule)
     -   Additional articles are assigned. These will be made available in Canvas.
 
 ## Video Creations
@@ -138,9 +138,55 @@ Alternatively, you can use Kaltura, which is embedded in Blackboard. Follow thes
 
 ## Assignments
 
+### My Views on Globalization ({{< fa video >}}, 'MVG' in @sec-schedule)
+
+The first MVG is not graded and worth zero % of your class grade. If not submitted, however, there will be reduction in grades in accordance with the late submission policy. The second MVG, due in W5 (11:59PM, Tuesday), is worth 5 % of your class grade.
+
+To complete My View of Globalization, you will be asked to create and submit a short video. In making these videos, you should keep in mind:
+
+- The length should not be longer than five minutes.
+- Discuss your own opinion and/or experience of globalization with specific examples. You can talk about your personal experience or a subject you read/heard/watched. 
+- There is no specific format as long as you can demonstrate that it is your original work.
+- Avoid offering a generic discussion. The more specific your story, the better.
+- Incorporate one or two of our class readings into your discussion. Choose it from the readings assigned up to the point. So MVG #1 might only be related to the first week's reading, but MVG #2 could be talked about *any* of the readings.
+
+### Critical Review ({{< fa file-word >}}, 'CR' in @sec-schedule)
+
+- Each CR is worth 8 % of your class grade (5 CRs $\times$ 8 % = 40 %).
+- <red>Deadline</red>: Wednesday midnight (11:59 PM) unless otherwise specified.
+
+Case Review is to critique/correct/expand/supplement a short essay written by a large language model (LLM) such as ChatGPT or Gemini. You will be given several such essays and asked to choose one (and only one), to which you will offer your comments (hence 'review'). These comments include:
+
+- to criticize specific parts of the essay.
+- to correct any wrong information presented in the essay.
+- to offer an example(s) for what the essay discusses.
+- to provide things that could be added.
+
+An example as well as a video instruction can be found in Canvas ('Modules > Model #1'). The assignment entails quite a bit more reading of your own than the required reading materials for each weekly module. To prevent you from wandering around in a complete wilderness, there will be a list of further reading each week. These not required readings, but if you don't want to start from scratch, they should be helpful. Instead of reading it line-by-line, pay attention to their reference sections to see any helpful sources.
+
+Here are things you have to keep in mind while completing this assignment. 
+
+- Use the 'Track Change' (what is [Track Change](https://youtu.be/ymBMonYehFA?feature=shared)?) of Microsoft Word. As a Mason student, you have free access to MS Office, including Word (see the [instruction](\href{https://its.gmu.edu/knowledge-base/how-to-install-microsoft-365-apps-for-enterprise-on-your-computer/) if you don't have the program already). When submitting the file, be sure to keep the Track Change 'on' and choose 'All Markups' option. 
+- Do NOT submit a separate paper/essay. Instead, each part of your review should clearly identify which part of the AI-generated essay it is talking about. This can be easily done by using the 'comment' function of the Word. 
+- The comments can be your opinions. But include citations and references if your comment involves other sources. Use [author-year style](\href{https://youtu.be/opp259YvaoE?feature=shared) for citation.  Either [Harvard](https://youtu.be/vcx4rfCHqSY?feature=shared) or [APA](https://youtu.be/JmVZP2309P4?feature=shared) is acceptable.
+- No footnote citations. 
+- Do not submit a Page file. Only an MS Word (again, you have free access to this!) file is acceptable.
+- Be constructive and polite as if you are giving your feedback to your colleagues.
+- At least **six** different comments (the more, the better) need to be made. A good review would include some--if possible, all--of these: 
+  - Comments based on academic sources (the more, the better)
+  - Specific examples (the more specific, the better)
+  - Clear writing
+  - Combining critique/expansion/supplement instead of focusing on one type of comment.
+  - Insightful comments
+
+### Video Essay ({{< fa video >}}, 'VE' in @sec-schedule)
+
+- each CR is worth 5 % of your class grade (4 VEs $\times$ 5 % = 20 %).
+- <red>Deadline</red>: Sunday midnight (11:59 PM) unless otherwise specified.
+
 # Schedule {#sec-schedule}
 
-This course consists of five modules. Each module takes one week (seven days) to complete. At the beginning of each week (7:00 AM, Monday), the week's module is made available in Canvas. In our Canvas page, simply go to "Modules" (on the left-hand side menu). This is where things start and end. I strongly recommend that you also review the GMU Academic Calendar for [Summer 2025](https://registrar.gmu.edu/calendars/summer_2025/). Ours is **Session A**.
+This course consists of five modules. Each module takes one week (seven days, Monday through Sunday) to complete. At the beginning of each week (7:00 AM, Monday), the week's module is made available in Canvas. In our Canvas page, simply go to "Modules" (on the left-hand side menu). This is where things start and end. I strongly recommend that you also review the GMU Academic Calendar for [Summer 2025](https://registrar.gmu.edu/calendars/summer_2025/). Ours is **Session A**.
 
 ```{r, echo=F, message=F}
 
