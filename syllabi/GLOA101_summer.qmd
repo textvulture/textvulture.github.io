@@ -5,6 +5,7 @@ format:
   html:
     number-sections: true
     theme: cosmo
+    toc: true
 #editor: visual
 # author:
 #   - name: "Byunghwan 'Ben' Son (bson3@gmu.edu)"
@@ -14,17 +15,12 @@ format:
 #       - name: Global Affairs, George Mason University
 #         url: https://globalaffairs.gmu.edu/
 
-bibliography: 
-  - references.bib
-  - mybib2.bib
-  
 #csl: C:\\Users\\kalka\\Dropbox\\latex\\apsa.csl
 toc: true
 toccolor: blue
 smooth-scroll: true
-
+bibliography: references.bib
 ---
-
 
 ```{=html}
 <style>
@@ -55,30 +51,28 @@ blue {
 </style>
 ```
 
-
 **Update log**
 
-  - <font size='2'>May 13: This syllabus is created.</font>
+-   <font size='2'>May 13: This syllabus is created.</font>
 
 # Instructor
 
-- Byunghwan 'Ben' Son (bson3@gmu.edu)
-  - Associate Professor of Global Affairs
-  - [{{< fa house size=small >}} Personal Webpage](https://textvulture.github.io/)
-  - [{{< fa school-flag size=small >}} GLOA Profile](https://globalaffairs.gmu.edu/)
-  - [{{< fa brands github >}} Github](https://github.com/textvulture)
-  - [{{< fa brands google-scholar >}} Google Scholar](https://scholar.google.com/citations?user=h0o27GgAAAAJ&hl=en)
-- Office Hours
-  - The class is online asynchronous. By design, there are no particular office hours. Instead, your email will be answered within 24 hours (except for the weekend). Please do not use the Message function within Canvas. All communications happen through GMU emails. For security reasons and in compliance with the University regulations, non-Mason emails will not be responded.
-  - You can email me whenever you want, but my responses to the emails sent to me after 5 pm weekdays as well as any time during the weekend will be significantly slow.
-  - For your own interest, you might want to try to use the normal working hours (9 AM to 5 PM, Monday through Friday). In your email, please indicate <red>who you are</red> and <red>which class you’re in (i.e., GLOA 101)</red>.
-
+-   Byunghwan 'Ben' Son (bson3\@gmu.edu)
+    -   Associate Professor of Global Affairs
+    -   [{{< fa house size=small >}} Personal Webpage](https://textvulture.github.io/)
+    -   [{{< fa school-flag size=small >}} GLOA Profile](https://globalaffairs.gmu.edu/)
+    -   [{{< fa brands github >}} Github](https://github.com/textvulture)
+    -   [{{< fa brands google-scholar >}} Google Scholar](https://scholar.google.com/citations?user=h0o27GgAAAAJ&hl=en)
+-   Office Hours
+    -   The class is online asynchronous. By design, there are no particular office hours. Instead, your email will be answered within 24 hours (except for the weekend). Please do not use the Message function within Canvas. All communications happen through GMU emails. For security reasons and in compliance with the University regulations, non-Mason emails will not be responded.
+    -   You can email me whenever you want, but my responses to the emails sent to me after 5 pm weekdays as well as any time during the weekend will be significantly slow.
+    -   For your own interest, you might want to try to use the normal working hours (9 AM to 5 PM, Monday through Friday). In your email, please indicate <red>who you are</red> and <red>which class you’re in (i.e., GLOA 101)</red>.
 
 # Course Description
 
 We live in an era in which anything is hardly ‘domestic’. In this class, we study the driving forces that got us in this situation, namely, globalization. Rather than focusing on specific event, country, or subject, we take a comprehensive approach to how the globalizing world aﬀects cultures, societies, organizations, and individuals (and vice versa). For the first half of the semester, we will focus on examining how we got here; what globalization is, and how it is understood in a number of diﬀerent dimensions. The second half of the semester will be spent on the substantive issues of globalization that we deal with in a daily basis, including (but not limited to) violence, justice, governance, environment, and crime. The class serves as an introduction to the study of global aﬀairs and aims at helping students establish analytical tools to understand global issues.
 
-## Course Delivery <br>(aka, *you* signed up for this)
+## Course Delivery <br>(aka, *online ain't mean an easy ride*)
 
 This course will be delivered online using an <blue>asynchronous</blue>, non-real-time format via Canvas. There are well-known advantages of an asynchronous class. During a summer semester, committing to a regular real-time meeting, in-person or not, is challenging. This particular section is to accommodate this situation. Throughout the course of this class, there won’t be any real-time contact by design, therefore. This by no means suggests that the course's workload is any lighter than an ordinary GLOA 101's. In fact, given that we are given only five weeks, you are expected to engage with the course materials *more* intensively than you do in other circumstances.
 
@@ -86,39 +80,126 @@ This course will be delivered online using an <blue>asynchronous</blue>, non-rea
 
 The objectives of this course are:
 
-1. Familiarize students with key terms and related to global studies
+1.  Familiarize students with key terms and related to global studies
 
-2. Acquaint students with the multiple cultural, political, and economic dimensions that shape and are shaped by global processes
+2.  Acquaint students with the multiple cultural, political, and economic dimensions that shape and are shaped by global processes
 
-3. Encourage students to use an interdisciplinary lens to critically engage the representation of global issues and their potential solutions
+3.  Encourage students to use an interdisciplinary lens to critically engage the representation of global issues and their potential solutions
 
-4. Support students in developing academic reading and writing skills
-By the end of this course, each student will (i.e., student ‘learning outcomes’):
+4.  Support students in developing academic reading and writing skills By the end of this course, each student will (i.e., student ‘learning outcomes’):
 
-  - Apply key terms to the study of global issues
-  - Describe the multiple dimensions of global processes
-  - Reflect critically on everyday representations of global issues and conflicts
-  - Identify in their own work and in that of others the elements of a strong academic analysis.
-  
+-   Apply key terms to the study of global issues
+-   Describe the multiple dimensions of global processes
+-   Reflect critically on everyday representations of global issues and conflicts
+-   Identify in their own work and in that of others the elements of a strong academic analysis.
+
 This course also fulfills the global understanding requirement in the Mason Core. It is designed to help you to meet at least three of the following learning outcomes at the completion of the course:
 
-1. Identify and articulate one’s own values and how those values influence one’s interactions and relationships with others, both locally and globally
+1.  Identify and articulate one’s own values and how those values influence one’s interactions and relationships with others, both locally and globally
 
-2. Demonstrate understanding of how the patterns and processes of globalization make visible the interconnections and differences among and within contemporary global societies 
+2.  Demonstrate understanding of how the patterns and processes of globalization make visible the interconnections and differences among and within contemporary global societies
 
-3. Demonstrate development of intercultural competencies
+3.  Demonstrate development of intercultural competencies
 
-4. Explore individual and collective responsibilities within a global society through analytical, practical, or creative responses to problems or issues, using resources appropriate to the field
-(These goals are quoted from the [Mason Core website](http://masoncore.gmu.edu/global-understanding-2))
+4.  Explore individual and collective responsibilities within a global society through analytical, practical, or creative responses to problems or issues, using resources appropriate to the field (These goals are quoted from the [Mason Core website](http://masoncore.gmu.edu/global-understanding-2))
 
+# Course Requirements
 
-# Course Requirement
+## Canvas
+
+(There will be a brief video posted in the first week as to learn you way around our course page in Canvas.)
+
+The first and foremost thing you have to do whenever you come to the course page is to check the **Modules** menu. Pretty much all the things you'd need (e.g., lecture videos, links to the assignments, weeakly learning subjects) will be put up there. Other stuff in the page is also important and it is your responsibility to get yourself familiar with it.
+
+You are required to get in to the course page at least four times a week. Given the way the assignments are structured, it would be really hard not too.
 
 ## Required Textbook
-You are asked to complete all the readings no later than the end (and preferably, the beginning) of each weekly module (see below for the @sec-schedule). The importance of reading in higher education cannot be overstated. Much of the learning takes place while you're completing the readings. Our class serves to affirm what you've already learned from the reading. These readings are NOT available in the University Bookstore. An <red>e-book</red> version of the textbook is available for free in the library. If you prefer a hard copy, you can purchase it online very easily. Either way, you're responsible for securing the readings before the end of each module. 
 
-- Smallman, Shawn C., and Kimberley Brown. 2020. *Introduction to International and Global Studies*. 3rd ed, Revised and Expanded. Chapel Hill: The University of North Carolina Press.  
-  - Additional articles are assigned. These will be made available in Canvas.
+You are asked to complete all the readings no later than the end (and preferably, the beginning) of each weekly module (see below for the @sec-schedule). The importance of reading in higher education cannot be overstated. Much of the learning takes place while you're completing the readings. Our class serves to affirm what you've already learned from the reading. These readings are NOT available in the University Bookstore. An <red>e-book</red> version of the textbook is available for free in the library. If you prefer a hard copy, you can purchase it online very easily. Either way, you're responsible for securing the readings before the end of each module.
 
+-   Smallman, Shawn C., and Kimberley Brown. 2020. *Introduction to International and Global Studies*. 3rd ed, Revised and Expanded. Chapel Hill: The University of North Carolina Press.
+    -   Additional articles are assigned. These will be made available in Canvas.
+
+## Video Creations
+
+This course asks you create quite a few videos. The preferred ways of making videos in this course are through online video-sharing platforms such as YouTube <red>{{< fa brands youtube >}}</red> or Vimeo <blue>{{< fa brands vimeo >}}</blue>. You can take these very simple steps:
+
+-   Record a video using your cellphone (simplest) or other video device. There are numerous videos in YouTube (e.g., like [this](https://youtu.be/am7kaAerVCQ?feature=shared) one) which can help you record, you know,a YouTube video.
+    -   Upload the video to a platform such as <red>{{< fa brands youtube >}}</red> or <blue>{{< fa brands vimeo >}}</blue>.
+    -   You can make the video indiscoverable to random people of the internet if you want (e.g., '[unlisted](https://youtu.be/X2sZH3deVPg)' option in YouTube)
+    -   Just copy a link to this video.
+    -   Finally, post to Canvas a link to your video.
+
+There's no extra point for a fancy-looking video (But IF you're into it, here's an easy [first step](https://youtu.be/ek53TQ9U35o)). Nor will there be any punishment for a crude one (as far as clarity is there). But you have to show your <red>face</red> for identification. It's okay if you wear sunglasses and masks.
+
+Alternatively, you can use Kaltura, which is embedded in Blackboard. Follow these step-by-step procedures [here](https://its.gmu.edu/knowledge-base/kaltura-capture-new/). You can also upload your video or record new video from [a mobile device](https://goo.gl/r9xLPW) and upload it directly to Canvas in this course using Kaltura.
+
+<red>NEVER</red> directly upload a whole video file (such as `.mpg4`, or `.mov`). A Dropbox or Google Drive link to such a video file is not acceptable either. There are security and efficiency reasons not to do so. Files submitted in this kind of format will not be graded.
+
+## Assignments
 
 # Schedule {#sec-schedule}
+
+This course consists of five modules. Each module takes one week (seven days) to complete. At the beginning of each week (7:00 AM, Monday), the week's module is made available in Canvas. In our Canvas page, simply go to "Modules" (on the left-hand side menu). This is where things start and end. I strongly recommend that you also review the GMU Academic Calendar for [Summer 2025](https://registrar.gmu.edu/calendars/summer_2025/). Ours is **Session A**.
+
+```{r, echo=F, message=F}
+
+source <- data.frame(
+  week = c("W1", "W2", "W3", "W4", "W5"),
+  Topics = c(
+    "Introduction: What is Globalization",
+    "Economic Globalization",
+    "Political Globalization",
+    "Global Conflicts, Crimes, and Terrorism",
+    "Global Environment & Health"
+    ),
+  
+  Readings = c(
+    "SB Chs. 1 & 2; Poast (2022)", 
+    "SB Chs. 3 & 6; Broz et al.; Lang & Tavares (2018); Noorudding and Woo (2015); The United Nations (2017)",
+    "SB Ch. 4; V-Dem (2024); Luhrmann & Lindberg (2019); Davis and Morse (2018)",
+    "SB Ch. 7; Huth et al. (2011); Jo & Simmons (2016); Jablonski and Oliver (2012); Harding and Nwokolo (2023)",
+    "SB Chs. 9 & 11; Kallis et al. (2018); Son & Belling (2022); Daoud et al. (2017)"
+    ),
+  
+  Assignment = c("MVG #1, CR #1", 
+                 "CR #2, VE #1",
+                 "CR #3, VE #2",
+                 "CR #4, VE #3",
+                 "MVG #2, CR#5, VE #4")
+)
+
+library(dplyr)
+
+library(kableExtra)
+
+kbl(source)
+
+```
+
+## Readings other than the SB textbook: 
+
+- ***the PDFs will be posted in Modules (Canvas)***
+-   Poast, Paul. "The 'Golden Age' of Globalization Is Officially Over", 2022. Available at <https://www.worldpoliticsreview.com/china-us-trade-war-globalized-economy/.>
+-    Broz, J. Lawrence, Jeffry Frieden, and Stephen Weymouth. "Populism in Place: The Economic Geography of the Globalization Backlash," 2019. Working Paper. Available at: <https://scholar.harvard.edu/files/jfrieden/files/populism_in_place_v1.3_0.pdf>.
+-   Lang, Valentin F., and Marina Mendes Tavares. "The Distribution of Gains from Globalization", 2018. Published: IMF Working Paper. 18-54. Available at: <https://www.imf.org/en/Publications/WP/Issues/2018/03/13/The-Distribution-of-Gains-from-Globalization-45722>.
+- Nooruddin, Irfan, and Byungwon Woo. “Heeding the Sirens: The Politics of IMF Program Participation.” *Political Science Research and Methods* 3, no. 1 (2015): 73–93.
+- V-Dem Institute. Democracy Report 2024: Democracy Winning and Losing at the Ballot, 2024. <https://v-dem.net/publications/democracy-reports/>.
+- Lührmann, Anna, and Staffan I Lindberg. “A Third Wave of Autocratization Is Here: What Is New about It?” *Democratization* 26, no. 7 (2019): 1095–1113.
+- Davis, Christina L, and Julia C Morse. “Protecting Trade by Legalizing Political Disputes: Why Countries Bring Cases to the International Court of Justice.” *International Studies Quarterly* 62, no. 4 (2018): 709–22.
+- Huth, Paul K., Sarah E. Croco, and Benjamin J. Appel. “Does International Law Promote the Peaceful Settlement of International Disputes? Evidence from the Study of Territorial Conflicts since 1945.” *American Political Science Review* 105, no. 2 (2011): 415–36.
+- Jo, Hyeran, and Beth A. Simmons. “Can the International Criminal Court Deter Atrocity?” *International Organization* 70, no. 3 (2016): 443—475.
+- Jablonski, Ryan S., and Steven Oliver. “The Political Economy of Plunder: Economic Opportunity and Modern Piracy.” *Journal of Conflict Resolution* 57, no. 4 (2012): 682–708.
+- Harding, Robin, and Arinze Nwokolo. “Terrorism, Trust, and Identity: Evidence from a Natural Experiment in Nigeria.” *American Journal of Political Science* 68, no. 3 (2024): 942–57.
+- Kallis, Giorgos, Vasilis Kostakis, Steffen Lange, Barbara Muraca, Susan Paulson, and Matthias Schmelzer. “Research on Degrowth.” *Annual Review of Environment and Resources* 43 (2018): 291–316.
+- Son, Byunghwan, and Nisha Bellinger. “The Health Cost of Autocratization.” *Journal of Development Studies* 58, no. 5 (2022): 873–90.
+- Daoud, Adel, Elias Nosrati, Bernhard Reinsberg, Alexander E Kentikelenis, Thomas H Stubbs, and Lawrence P King. “Impact of International Monetary Fund Programs on Child Health.” *Proceedings of the National Academy of Sciences* 114, no. 25 (2017): 6492–97.
+
+
+
+
+
+
+
+
+
