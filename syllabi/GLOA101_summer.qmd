@@ -88,10 +88,10 @@ The objectives of this course are:
 
 4.  Support students in developing academic reading and writing skills By the end of this course, each student will (i.e., student ‘learning outcomes’):
 
--   Apply key terms to the study of global issues
--   Describe the multiple dimensions of global processes
--   Reflect critically on everyday representations of global issues and conflicts
--   Identify in their own work and in that of others the elements of a strong academic analysis.
+    - Apply key terms to the study of global issues
+    - Describe the multiple dimensions of global processes
+    - Reflect critically on everyday representations of global issues and conflicts
+    - Identify in their own work and in that of others the elements of a strong academic analysis.
 
 This course also fulfills the global understanding requirement in the Mason Core. It is designed to help you to meet at least three of the following learning outcomes at the completion of the course:
 
@@ -105,7 +105,7 @@ This course also fulfills the global understanding requirement in the Mason Core
 
 # Course Requirements
 
-## Canvas
+## Canvas {#sec-canvas}
 
 (There will be a brief video posted in the first week as to learn you way around our course page in Canvas.)
 
@@ -120,7 +120,7 @@ You are asked to complete all the readings no later than the end (and preferably
 -   Smallman, Shawn C., and Kimberley Brown. 2020. *Introduction to International and Global Studies*. 3rd ed, Revised and Expanded. Chapel Hill: The University of North Carolina Press. (Referred to as 'SB' in @sec-schedule)
     -   Additional articles are assigned. These will be made available in Canvas.
 
-## Video Creations
+## Video Creation
 
 This course asks you create quite a few videos. The preferred ways of making videos in this course are through online video-sharing platforms such as YouTube <red>{{< fa brands youtube >}}</red> or Vimeo <blue>{{< fa brands vimeo >}}</blue>. You can take these very simple steps:
 
@@ -136,11 +136,11 @@ Alternatively, you can use Kaltura, which is embedded in Blackboard. Follow thes
 
 <red>NEVER</red> directly upload a whole video file (such as `.mpg4`, or `.mov`). A Dropbox or Google Drive link to such a video file is not acceptable either. There are security and efficiency reasons not to do so. Files submitted in this kind of format will not be graded.
 
-## Assignments
+## Assignments and Final Exam
 
 ### My Views on Globalization ({{< fa video >}}, 'MVG' in @sec-schedule)
 
-The first MVG is not graded and worth zero % of your class grade. If not submitted, however, there will be reduction in grades in accordance with the late submission policy. The second MVG, due in W5 (11:59PM, Tuesday), is worth 5 % of your class grade.
+The first MVG is not graded and worth zero % of your class grade. If not submitted, however, there will be reduction in grades in accordance with the late submission policy. The second MVG, due in W5 (11:59PM, Tuesday), is worth **5 %** of your class grade.
 
 To complete My View of Globalization, you will be asked to create and submit a short video. In making these videos, you should keep in mind:
 
@@ -152,7 +152,7 @@ To complete My View of Globalization, you will be asked to create and submit a s
 
 ### Critical Review ({{< fa file-word >}}, 'CR' in @sec-schedule)
 
-- Each CR is worth 8 % of your class grade (5 CRs $\times$ 8 % = 40 %).
+- Each CR is worth 8 % of your class grade (5 CRs $\times$ 8 % = **40 %**).
 - <red>Deadline</red>: Wednesday midnight (11:59 PM) unless otherwise specified.
 
 Case Review is to critique/correct/expand/supplement a short essay written by a large language model (LLM) such as ChatGPT or Gemini. You will be given several such essays and asked to choose one (and only one), to which you will offer your comments (hence 'review'). These comments include:
@@ -168,7 +168,7 @@ Here are things you have to keep in mind while completing this assignment.
 
 - Use the 'Track Change' (what is [Track Change](https://youtu.be/ymBMonYehFA?feature=shared)?) of Microsoft Word. As a Mason student, you have free access to MS Office, including Word (see the [instruction](\href{https://its.gmu.edu/knowledge-base/how-to-install-microsoft-365-apps-for-enterprise-on-your-computer/) if you don't have the program already). When submitting the file, be sure to keep the Track Change 'on' and choose 'All Markups' option. 
 - Do NOT submit a separate paper/essay. Instead, each part of your review should clearly identify which part of the AI-generated essay it is talking about. This can be easily done by using the 'comment' function of the Word. 
-- The comments can be your opinions. But include citations and references if your comment involves other sources. Use [author-year style](\href{https://youtu.be/opp259YvaoE?feature=shared) for citation.  Either [Harvard](https://youtu.be/vcx4rfCHqSY?feature=shared) or [APA](https://youtu.be/JmVZP2309P4?feature=shared) is acceptable.
+- The comments can be your opinions. But include citations and references if your comment involves other sources. Use [author-year style](\href{https://youtu.be/opp259YvaoE?feature=shared) for citation.  Either [Harvard](https://youtu.be/vcx4rfCHqSY?feature=shared) or [APA](https://youtu.be/JmVZP2309P4?feature=shared) is acceptable. This is where the optional readings (see @sec-schedule) may come in handy.
 - No footnote citations. 
 - Do not submit a Page file. Only an MS Word (again, you have free access to this!) file is acceptable.
 - Be constructive and polite as if you are giving your feedback to your colleagues.
@@ -181,71 +181,182 @@ Here are things you have to keep in mind while completing this assignment.
 
 ### Video Essay ({{< fa video >}}, 'VE' in @sec-schedule)
 
-- each CR is worth 5 % of your class grade (4 VEs $\times$ 5 % = 20 %).
+- Each VE is worth 5 % of your class grade (4 VEs $\times$ 5 % = **20 %**).
+- Reflecting on your CR, make a video essay on the very topic the CR is about. 
+  - For example, if CR is a critique on AI-generated texts on the relationship between the World Bank and development, make a video about *what you think* about that topic.
+  - The video should be longer than 1 minute and shorter than 4 minutes.
 - <red>Deadline</red>: Sunday midnight (11:59 PM) unless otherwise specified.
+
+
+### Final Exam (**35%**)
+
+We have one final exam, which will take the form of an essay. A link that contains the essay question(s) will be made available on the left-hand side of our Canvas page ('Assignment' tab) *24* hours in advance (that is, 11:59 <red>**AM**</red> 6/23). The submission will be completed in the same link no later than 11:59 AM, 6/24. Do NOT consider this a 'take-home exam,' which would take a very long time to complete. Instead, this would be a typical final exam that takes 2-3 hours on average. We are taking this exam online only because, you know, it's an online class. You are given 24 hours because I want to give you some flexibility (life happens!). Therefore, barring medical emergencies, there shall be absolutely no extension for this deadline. 
+
+The exam will be exclusively about the course readings and lectures. No matter how good a point you offer, answers based on non-class materials will not be graded.
 
 # Schedule {#sec-schedule}
 
 This course consists of five modules. Each module takes one week (seven days, Monday through Sunday) to complete. At the beginning of each week (7:00 AM, Monday), the week's module is made available in Canvas. In our Canvas page, simply go to "Modules" (on the left-hand side menu). This is where things start and end. I strongly recommend that you also review the GMU Academic Calendar for [Summer 2025](https://registrar.gmu.edu/calendars/summer_2025/). Ours is **Session A**.
 
-```{r, echo=F, message=F}
+```{r, echo=F, message=F, results = "asis"}
 
 source <- data.frame(
-  week = c("W1", "W2", "W3", "W4", "W5"),
+  week = c("W1 (5/19-25)", "W2 (5/26-6/1)", "W3 (6/2-8)", "W4 (6/9-15)", "W5 (6/16-22)", "6/23-24"),
   Topics = c(
     "Introduction: What is Globalization",
     "Economic Globalization",
     "Political Globalization",
     "Global Conflicts, Crimes, and Terrorism",
-    "Global Environment & Health"
+    "Global Environment & Health",
+    "Final Exam"
     ),
   
   Readings = c(
-    "SB Chs. 1 & 2; Poast (2022)", 
-    "SB Chs. 3 & 6; Broz et al.; Lang & Tavares (2018); Noorudding and Woo (2015); The United Nations (2017)",
-    "SB Ch. 4; V-Dem (2024); Luhrmann & Lindberg (2019); Davis and Morse (2018)",
-    "SB Ch. 7; Huth et al. (2011); Jo & Simmons (2016); Jablonski and Oliver (2012); Harding and Nwokolo (2023)",
-    "SB Chs. 9 & 11; Kallis et al. (2018); Son & Belling (2022); Daoud et al. (2017)"
+    "SB Chs. 1 & 2*; Poast (2022)*", 
+    "SB Chs. 3 & 6*; Broz et al.; Lang & Tavares (2018); Noorudding and Woo (2015); The United Nations (2017)",
+    "SB Ch. 4*; V-Dem (2024)*; Luhrmann & Lindberg (2019); Davis and Morse (2018)",
+    "SB Ch. 7*; Huth et al. (2011); Jo & Simmons (2016); Jablonski and Oliver (2012); Harding and Nwokolo (2023)",
+    "SB Chs. 9 & 11*; Kallis et al. (2018); Son & Belling (2022); Daoud et al. (2017)", "Available in Canvas ('Assignment')"
     ),
   
   Assignment = c("MVG #1, CR #1", 
                  "CR #2, VE #1",
                  "CR #3, VE #2",
                  "CR #4, VE #3",
-                 "MVG #2, CR#5, VE #4")
+                 "MVG #2, CR#5, VE #4",
+                 "24 hours")
 )
 
 library(dplyr)
 
 library(kableExtra)
 
-kbl(source)
+kbl(source) %>%
+  row_spec(6, bold = T, color = "white", background = "#D7261E")
 
 ```
 
-## Readings other than the SB textbook: 
+- ** denotes required readings. Others are optional, though they might still be helpful.*
+- <red>Deadlines</red>
+  - *MVG* #1 and #2: Tuesday of W1 and W5 (midnight)
+  - *CR*: Wednesday (midnight), all weeks
+  - *VE*: Sunday (midnight), all but W1
+  
+- **the PDFs of non-SB book will be posted in Modules (Canvas)**
+  -   Poast, Paul. "The 'Golden Age' of Globalization Is Officially Over", 2022. Available at <https://www.worldpoliticsreview.com/china-us-trade-war-globalized-economy/.>
+  -    Broz, J. Lawrence, Jeffry Frieden, and Stephen Weymouth. "Populism in Place: The Economic Geography of the Globalization Backlash," 2019. Working Paper. Available at: <https://scholar.harvard.edu/files/jfrieden/files/populism_in_place_v1.3_0.pdf>.
+  -   Lang, Valentin F., and Marina Mendes Tavares. "The Distribution of Gains from Globalization", 2018. Published: IMF Working Paper. 18-54. Available at: <https://www.imf.org/en/Publications/WP/Issues/2018/03/13/The-Distribution-of-Gains-from-Globalization-45722>.
+  - Nooruddin, Irfan, and Byungwon Woo. “Heeding the Sirens: The Politics of IMF Program Participation.” *Political Science Research and Methods* 3, no. 1 (2015): 73–93.
+  - V-Dem Institute. Democracy Report 2024: Democracy Winning and Losing at the Ballot, 2024. <https://v-dem.net/publications/democracy-reports/>.
+  - Lührmann, Anna, and Staffan I Lindberg. “A Third Wave of Autocratization Is Here: What Is New about It?” *Democratization* 26, no. 7 (2019): 1095–1113.
+  - Davis, Christina L, and Julia C Morse. “Protecting Trade by Legalizing Political Disputes: Why Countries Bring Cases to the International Court of Justice.” *International Studies Quarterly* 62, no. 4 (2018): 709–22.
+  - Huth, Paul K., Sarah E. Croco, and Benjamin J. Appel. “Does International Law Promote the Peaceful Settlement of International Disputes? Evidence from the Study of Territorial Conflicts since 1945.” *American Political Science Review* 105, no. 2 (2011): 415–36.
+  - Jo, Hyeran, and Beth A. Simmons. “Can the International Criminal Court Deter Atrocity?” *International Organization* 70, no. 3 (2016): 443—475.
+  - Jablonski, Ryan S., and Steven Oliver. “The Political Economy of Plunder: Economic Opportunity and Modern Piracy.” *Journal of Conflict Resolution* 57, no. 4 (2012): 682–708.
+  - Harding, Robin, and Arinze Nwokolo. “Terrorism, Trust, and Identity: Evidence from a Natural Experiment in Nigeria.” *American Journal of Political Science* 68, no. 3 (2024): 942–57.
+  - Kallis, Giorgos, Vasilis Kostakis, Steffen Lange, Barbara Muraca, Susan Paulson, and Matthias Schmelzer. “Research on Degrowth.” *Annual Review of Environment and Resources* 43 (2018): 291–316.
+  - Son, Byunghwan, and Nisha Bellinger. “The Health Cost of Autocratization.” *Journal of Development Studies* 58, no. 5 (2022): 873–90.
+  - Daoud, Adel, Elias Nosrati, Bernhard Reinsberg, Alexander E Kentikelenis, Thomas H Stubbs, and Lawrence P King. “Impact of International Monetary Fund Programs on Child Health.” *Proceedings of the National Academy of Sciences* 114, no. 25 (2017): 6492–97.
 
-- ***the PDFs will be posted in Modules (Canvas)***
--   Poast, Paul. "The 'Golden Age' of Globalization Is Officially Over", 2022. Available at <https://www.worldpoliticsreview.com/china-us-trade-war-globalized-economy/.>
--    Broz, J. Lawrence, Jeffry Frieden, and Stephen Weymouth. "Populism in Place: The Economic Geography of the Globalization Backlash," 2019. Working Paper. Available at: <https://scholar.harvard.edu/files/jfrieden/files/populism_in_place_v1.3_0.pdf>.
--   Lang, Valentin F., and Marina Mendes Tavares. "The Distribution of Gains from Globalization", 2018. Published: IMF Working Paper. 18-54. Available at: <https://www.imf.org/en/Publications/WP/Issues/2018/03/13/The-Distribution-of-Gains-from-Globalization-45722>.
-- Nooruddin, Irfan, and Byungwon Woo. “Heeding the Sirens: The Politics of IMF Program Participation.” *Political Science Research and Methods* 3, no. 1 (2015): 73–93.
-- V-Dem Institute. Democracy Report 2024: Democracy Winning and Losing at the Ballot, 2024. <https://v-dem.net/publications/democracy-reports/>.
-- Lührmann, Anna, and Staffan I Lindberg. “A Third Wave of Autocratization Is Here: What Is New about It?” *Democratization* 26, no. 7 (2019): 1095–1113.
-- Davis, Christina L, and Julia C Morse. “Protecting Trade by Legalizing Political Disputes: Why Countries Bring Cases to the International Court of Justice.” *International Studies Quarterly* 62, no. 4 (2018): 709–22.
-- Huth, Paul K., Sarah E. Croco, and Benjamin J. Appel. “Does International Law Promote the Peaceful Settlement of International Disputes? Evidence from the Study of Territorial Conflicts since 1945.” *American Political Science Review* 105, no. 2 (2011): 415–36.
-- Jo, Hyeran, and Beth A. Simmons. “Can the International Criminal Court Deter Atrocity?” *International Organization* 70, no. 3 (2016): 443—475.
-- Jablonski, Ryan S., and Steven Oliver. “The Political Economy of Plunder: Economic Opportunity and Modern Piracy.” *Journal of Conflict Resolution* 57, no. 4 (2012): 682–708.
-- Harding, Robin, and Arinze Nwokolo. “Terrorism, Trust, and Identity: Evidence from a Natural Experiment in Nigeria.” *American Journal of Political Science* 68, no. 3 (2024): 942–57.
-- Kallis, Giorgos, Vasilis Kostakis, Steffen Lange, Barbara Muraca, Susan Paulson, and Matthias Schmelzer. “Research on Degrowth.” *Annual Review of Environment and Resources* 43 (2018): 291–316.
-- Son, Byunghwan, and Nisha Bellinger. “The Health Cost of Autocratization.” *Journal of Development Studies* 58, no. 5 (2022): 873–90.
-- Daoud, Adel, Elias Nosrati, Bernhard Reinsberg, Alexander E Kentikelenis, Thomas H Stubbs, and Lawrence P King. “Impact of International Monetary Fund Programs on Child Health.” *Proceedings of the National Academy of Sciences* 114, no. 25 (2017): 6492–97.
+
+# Course Policy
+
+## Grading Scale
+
+```{r, echo=F, message=F}
+
+source2 <- data.frame(
+    Point.Total = c(
+      "93.00 or higher",  
+      "90.00 - 92.99",   
+      "87.00 - 89.99",    
+      "83.00 - 86.99",  
+      "80.00 - 82.99",  
+      "77.00 - 79.99",  
+      "73.00 - 76.99",  
+      "70.00 - 72.99", 
+      "60.00 - 69.99",  
+      "59.99 or lower"
+    ),
+  Letter.Grade = c("A", "A-", "B+", "B", "B-", "C+", "C", "C-", "D", "F")
+)
+
+library(tinytable)
+tt(source2)
+
+# kbl(source2) %>%
+#   kable_classic(full_width = F) %>%
+#   column_spec(1, width = "5em") %>%
+#   column_spec(2, width = "5em")
+
+
+```
 
 
 
+## Assignment Submission
+- Late submissions will be penalized with a reduction of 5% of the assignment grade per day. Assignments submitted on the same day *after* the class will be considered one day late. Weekends and holidays still count here (for example, a Monday submission of an assignment that was due Friday will be considered three days late). Beyond twelve days from the submission, the grade penalty for any late assignments will be equally 60%. 
+- If you are submitting a document file (i.e., MS Word), please include 1) your name (seriously!), 2) date of submission, 3) word count, and 4) title. 
+- NO early submission. Do not submit assignments early. Strictly adhere to the weekly module. That is, do not submit an assignment any earlier than 96 hours before its deadline. One letter-grade reduction will accrue from an assignment not complying with this rule.
+- This is redundant, but: Please do <red>not</red> upload a video file itself (e.g., `.mp4` or `.mov`) or a link to the file via Google Drive or Dropbox directly to the Blackboard Discussion Board. There are legal and ethical issues here. Video submissions made in these forms will not be graded. You should use the Canvas-built in Kaltura or instead a video-sharing service like YouTube or Vimeo. If you are using the likes of YouTube, you can simply submit a **link** to the video. Simple as that.
 
 
+## Attendance / Make-up
+Given the online, asynchronous nature of the course, there is no attendance. Instead you're required to visit our course page in Canvas at least four times a week (see @sec-canvas). 
+
+To obtain the extension, you must submit to me a written request (i.e., email) that identifies the date and cause of the emergency. This written request must be submitted no later than 24 hours after the designated deadline. No extension can be granted after the completion of the Summer A (i.e., June 24). 
+
+## Extra Credits and Incompletes ('I')
+Following the [general guideline](http://chss.gmu.edu/faculty}, there well be *no* extra credits to be granted in this class to improve grades. Likewise, 'incomplete' is granted only under extraordinary circumstances such as medical emergencies and the student is already on the path toward a successful completion of the course (e.g., 90% completion of the course). According to the Mason regulation, 'I' cannot be used just in anticipation of an unsatisfactory grade.
+
+## Request of Regrading
+If it is a simple calculation/typing error at my end, students can point me to it any time during the semester. For all other matters, students must wait 24 hours after receiving a grade or graded work before approaching me about the grade. If the student disagrees with the grade assigned, they can request re-grading by simply emailing me clearly stating which assignment/item they wish to be re-graded. Upon the request, I will reassess the *entire* assignment/exam. The grade can increase, decrease, or remain the same as a result of this re-grading.
+
+## Academic Honesty
+The principle of academic integrity is taken very seriously in this class. George Mason University has [Academic Standards Code](https://academicstandards.gmu.edu/academic-standards-code/) ('Honor Code,' previously) with clear guidelines regarding academic integrity:  Unauthorized Assistance, Fabrication, and Plagiarism are strictly prohibited.
+
+Plagiarism is of particular concern: 1) all work submitted must be your own; 2) when using the work or ideas of others, including fellow students, give full credit through accurate citations. While collaboration and learning from others, especially established scholars in the field is not only encouraged but also required, using someone else's words or ideas without giving them credit is plagiarism. If you quote directly from any text, you MUST use the exact words (including punctuation) just as the words, phrases, and sentences appear in the original text. You must also follow proper citation rules to indicate that you are quoting directly from a text. If you paraphrase ideas, that is, convey the author's ideas in your own words, you must still cite the source, using an established citation format. Otherwise, even if you did not copy and paste the text, it still counts as plagiarism. In this class, APA Style is strongly preferred (use these resources: [Style Guide](https://dacc.nmsu.edu/library/Citations/styleguide); [Online Citation Generator](http://www.citationmachine.net/apa/cite-a-website)). 
+
+*Your intentions do not matter*; if certain sentences/phrases of someone that is not you are used without citation, it is plagiarism even if you did not mean to do it. The re-use of papers, presentations, and other materials from one course in another course is not appropriate unless the instructor permits. I expect that submitted work has been prepared for this class only. In that sense, I strongly advise against consulting those student essay webpages where you can 'sample' some of the examples; they are generally a mishmash of plagiarized texts, which will put you in a double-whammy of Plagiarism and Unauthorized Assistance. When in doubt, ask me for clarification. GMU provides a range of services to help with test anxiety, writing and study skills, personal issues, and other concerns. 
 
 
+## AI usage policy
+You can use AI-based programs such as ChatGPT or Gemini only for research purposes (i.e., finding topics or keywords). Using any computer program for <red>writing</red> in part or in its entirety will be considered Plagiarism and Unauthorized Assistance. Don't use AIs to come up with better prose. This is not a literature class and you won't be graded on how beautiful your writing is. Don't use AIs for proofreading--proofread your work yourself. *Just not bothering at all to use it remains a great option*. Some people may use the likes of 'humanize AI,' which is not a great idea because they generally are built on algorithms trained on old data. They tend to be one-step late.
+
+I use the following three AI-writing detection services. A submitted written assignment that hits 75\% chance of AI-writing or higher (the whole or part of the submission) in at least \textit{two} of these services will be considered use of AI.
+
+- [Zero GPT](https://www.zerogpt.com/)
+- [AI Content Detector](https://copyleaks.com/ai-content-detector)
+- [GPT Zero:](https://gptzero.me/)
+
+## Civility and Privacy
+
+In this online asynchronous class, maintaining a respectful and courteous learning environment is essential. Because we do not meet in person, written communication is our primary mode of interaction, making it especially important to be polite, constructive, and mindful in all discussions and exchanges. Personal attacks, disrespectful language, or dismissive behavior will not be tolerated. Additionally, to protect the privacy of all participants, students must not share course materials—including discussion posts, video lectures, or any content posted on Canvas—outside of the course platform without explicit permission. This helps ensure that everyone can engage in the class with confidence and mutual trust.
+
+## Accommodation
+
+Any accommodation should be communicated to me through the Office of Disability Service (ODS). Requests without the ODS documentation cannot be accommodated (see @sec-resource).
+
+## Other Policies
+All other policies not specified in this syllabus follow the policies of GMU. See the details in the following links.   \\
+
+- [University Catalog](http://catalog.gmu.edu/)
+- [University Policies](http://universitypolicy.gmu.edu/)        
+- [Student Rights \& Responsibilities](http://chssundergrad.gmu.edu/rights)
+- [Student Privacy](http://registrar.gmu.edu/ferpa/)
+
+
+# Important Resource {#sec-resource}
+
+- GMU Library: There are two libraries on Fairfax Campus: Fenwick and Johnson Center. You should be acquainted with these locations and how to use the library online catalog and databases. If you need any help with the library please do not hesitate contacting [the library staff](http://library.gmu.edu/help/).
+
+- Counseling Services: (703-993-2380; SUB I, Room 3129) provides individual and group sessions for personal development and assistance with a range of emotional and relational issues. In addition, the Learning Services Program (703-993-2999) offers academic skill-building workshops as well as a tutor referral service.
+
+- Office of Disability Services: (703-993-2474; SUB I, Room 2500) assists students with learning or physical conditions affecting learning. If you qualify for accommodation, the [ODS staff](http://ods.gmu.edu) will provide a form to give to your instructor at the beginning of every course. If you have a documented learning disability or other condition that may affect the academic performance you should: 1) Make sure this documentation is on file with the Office of Disability Services to determine the accommodations you need; and Talk with me to plan your accommodation needs, especially regarding exams.
+
+- Student Technology Assistance and Resource (STAR) Lab: Johnson Center 229; 993-8990; <http://media.gmu.edu>
+
+
+*Disclaimer*: There are many links in this syllabus to YouTube videos and web documents for various purposes. I do not have any personal ties with any of the producers of these videos/documents. Nor do I benefit from them in any possible way. They are chosen simply because they tend to be intuitive and concise.
 
 
