@@ -132,7 +132,7 @@ This course asks you create quite a few videos. The preferred ways of making vid
 
 There's no extra point for a fancy-looking video (But IF you're into it, here's an easy [first step](https://youtu.be/ek53TQ9U35o)). Nor will there be any punishment for a crude one (as far as clarity is there). But you have to show your <red>face</red> for identification. It's okay if you wear sunglasses and masks.
 
-Alternatively, you can use Kaltura, which is embedded in Blackboard. Follow these step-by-step procedures [here](https://its.gmu.edu/knowledge-base/kaltura-capture-new/). You can also upload your video or record new video from [a mobile device](https://goo.gl/r9xLPW) and upload it directly to Canvas in this course using Kaltura.
+Alternatively, you can use Kaltura, which is embedded in Canvas. Follow these step-by-step procedures [here](https://its.gmu.edu/knowledge-base/kaltura-capture-new/). You can also upload your video or record new video from [a mobile device](https://goo.gl/r9xLPW) and upload it directly to Canvas in this course using Kaltura.
 
 <red>NEVER</red> directly upload a whole video file (such as `.mpg4`, or `.mov`). A Dropbox or Google Drive link to such a video file is not acceptable either. There are security and efficiency reasons not to do so. Files submitted in this kind of format will not be graded.
 
@@ -162,7 +162,7 @@ Case Review is to critique/correct/expand/supplement a short essay written by a 
 - to offer an example(s) for what the essay discusses.
 - to provide things that could be added.
 
-An example as well as a video instruction can be found in Canvas ('Modules > Model #1'). The assignment entails quite a bit more reading of your own than the required reading materials for each weekly module. To prevent you from wandering around in a complete wilderness, there will be a list of further reading each week. These not required readings, but if you don't want to start from scratch, they should be helpful. Instead of reading it line-by-line, pay attention to their reference sections to see any helpful sources.
+An example as well as a video instruction can be found in Canvas ('Modules > Module #1' -- available on the first day). The assignment entails quite a bit more reading of your own than the required reading materials for each weekly module. To prevent you from wandering around in a complete wilderness, there will be a list of further reading each week. These not required readings, but if you don't want to start from scratch, they should be helpful. Instead of reading it line-by-line, pay attention to their reference sections to see any helpful sources.
 
 Here are things you have to keep in mind while completing this assignment. 
 
@@ -236,7 +236,7 @@ kbl(source) %>%
 
 ```
 
-- ** denotes required readings. Others are optional, though they might still be helpful.*
+- * denotes required readings. Others are optional, though they might still be helpful.
 - <red>Deadlines</red>
   - *MVG* #1 and #2: Tuesday of W1 and W5 (midnight)
   - *CR*: Wednesday (midnight), all weeks
@@ -298,7 +298,7 @@ tt(source2)
 - Late submissions will be penalized with a reduction of 5% of the assignment grade per day. Assignments submitted on the same day *after* the class will be considered one day late. Weekends and holidays still count here (for example, a Monday submission of an assignment that was due Friday will be considered three days late). Beyond twelve days from the submission, the grade penalty for any late assignments will be equally 60%. 
 - If you are submitting a document file (i.e., MS Word), please include 1) your name (seriously!), 2) date of submission, 3) word count, and 4) title. 
 - NO early submission. Do not submit assignments early. Strictly adhere to the weekly module. That is, do not submit an assignment any earlier than 96 hours before its deadline. One letter-grade reduction will accrue from an assignment not complying with this rule.
-- This is redundant, but: Please do <red>not</red> upload a video file itself (e.g., `.mp4` or `.mov`) or a link to the file via Google Drive or Dropbox directly to the Blackboard Discussion Board. There are legal and ethical issues here. Video submissions made in these forms will not be graded. You should use the Canvas-built in Kaltura or instead a video-sharing service like YouTube or Vimeo. If you are using the likes of YouTube, you can simply submit a **link** to the video. Simple as that.
+- This is redundant, but: Please do <red>not</red> upload a video file itself (e.g., `.mp4` or `.mov`) or a link to the file via Google Drive or Dropbox directly to Canvas. There are legal and ethical issues here. Video submissions made in these forms will not be graded. You should use the Canvas-built in Kaltura or instead a video-sharing service like YouTube or Vimeo. If you are using the likes of YouTube, you can simply submit a **link** to the video. Simple as that.
 
 
 ## Attendance / Make-up
