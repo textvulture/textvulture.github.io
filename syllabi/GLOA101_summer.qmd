@@ -54,6 +54,7 @@ blue {
 **Update log**
 
 -   <font size='2'>May 13: This syllabus is created.</font>
+- <font size='2'>May16: The draft first shared with the class</font>
 
 # Instructor
 
@@ -291,7 +292,7 @@ tt(source2)
 
 
 ```
-
+ - There will be no 'round-up.' If, for example, the total points earned is 92.99999 it still is A-, not A. So give your 100%. Don't leave anything behind that you will regret.
 
 
 ## Assignment Submission
@@ -338,7 +339,7 @@ In this online asynchronous class, maintaining a respectful and courteous learni
 Any accommodation should be communicated to me through the Office of Disability Service (ODS). Requests without the ODS documentation cannot be accommodated (see @sec-resource).
 
 ## Other Policies
-All other policies not specified in this syllabus follow the policies of GMU. See the details in the following links.   \\
+All other policies not specified in this syllabus follow the policies of GMU. See the details in the following links.   
 
 - [University Catalog](http://catalog.gmu.edu/)
 - [University Policies](http://universitypolicy.gmu.edu/)        
