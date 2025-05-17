@@ -237,7 +237,7 @@ kbl(source) %>%
 
 ```
 
-- * denotes required readings. Others are optional, though they might still be helpful.
+- Those with * are required readings. Others are optional, though they might still be helpful.
 - <red>Deadlines</red>
   - *MVG* #1 and #2: Tuesday of W1 and W5 (midnight)
   - *CR*: Wednesday (midnight), all weeks
