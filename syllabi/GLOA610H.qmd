@@ -1,6 +1,6 @@
 ---
 title: "Syllabus: GLOA 610 Economic Globalization & Development"
-subtitle: Fall 2025. Hybrid 7:30--9:00 PM (T) + Asynchronous [Innovation Hall 330](https://maps.app.goo.gl/qKt8oZPFcbQzFc5u8)
+subtitle: Fall 2025. <br> Hybrid. F2F lecture, 7:30--9 PM (T) + online <br> [Innovation Hall 330](https://maps.app.goo.gl/qKt8oZPFcbQzFc5u8)
 format: 
   html:
 #    math: mathjax
@@ -59,7 +59,6 @@ blue {
 </style>
 ```
 
-**Update log**
 
 # Instructor
 
@@ -164,7 +163,7 @@ kbl(df,
     -   You might want to touch upon of the questions mentioned above.
     -   While there's no specific template for this assignment, a good summary would, you know, summarize all of the required readings of the week. It would also discuss 1) what the reasoning behind the authors' arguments is and 2) how (some of) the readings can be related to each other (e.g., A disagrees with B; C complements D; E expands F for XYZ reasons) in a {compelling} way. Again, delivering this with your own words, not jargon, is the key.
         -   Each summary accounts for 5% of your class grade.
-        -   The summary is due **4:00 pm**, the class day (right before the class, that is).
+        -   The summary is due **7:00 pm**, the class day (right before the class, that is).
 -   There is no textbook you need to purchase. Instead, the reading list for each week is specified below. But if you want to have a reasonable textbook-like foundation for what we discuss, which is pretty advanced, this should be helpful (again, not a requirement):
     -   Oatley, Thomas. 2018. *International Political Economy*. 6th ed. New York, NY: Routledge.
 -   Most of the readings are electronically available via GMU library webpage (as well as in Google Scholar [{{< fa brands google-scholar >}}](scholar.google.com)).
@@ -283,12 +282,12 @@ kbl(df,
 
 ### the logistics 
 
--   The deadline for each Report is <red>4pm, Tuesday</red> (Canvas) in the week of the subject. By this time both the Report and presentation video should be submitted in the designated places in Canvas.
+-   The deadline for each Report/presentation is <red>7:00 PM, Tuesday</red> (Canvas) in the week of the subject. By this time both the Report and presentation video should be submitted in the designated places in Canvas.
 -   Each Report should not exceed 2,500 words. There is no minimum but it'll be difficult to keep it under 1,500 words.
 -   You will give a brief (10 minutes max., but preferably around 6-7 minutes) presentation of your Report via a video posted in Canvas. You <red>have to</red> have presentation slides. Your face should be visible at least for some parts of the presentation although wearing a mask is allowed.
 -   The evaluation will be based on both your presentation (2%) and paper (18%).
-    -   Presentations are part of evaluation, but there's no extra point for pretty slides. You do what you like, but what counts at the end of the day is clarity (of the message) and effectiveness (of how the message is delivered). 
-    -   The presentation grade includes your handling of your peers' reaction (e.g., answering questions). 
+    -   Presentations are part of evaluation. While aesthetics of presentation slides do not matter, clarity (of the message) and effectiveness (of how the message is delivered) do. Don't excessively beautify your slides, but make them clear and effective. 
+    -   The presentation grade includes your handling of your peers' reaction (e.g., answering questions posted in Canvas). So check back on your presentation to see if there are questions. 
 -   For each case report, you will decide which country (or countries or organization) you are interested in. Pick two.
     -   For each case report, you will also decide which topic (i.e. which week's theme) you are interested in. Pick two.
         -   Make sure your topic actually speaks directly to the topic of the week. If your report is on immigration, for example, the migrants' hardship coming through the American southern border, though important, is not a good topic. 'Why migrants choose to move to the US' is.
@@ -314,11 +313,11 @@ kbl(df,
 
 ## Final Exam (20%) {#sec-final}
 
--   the exam date is determined by [the University](https://registrar.gmu.edu/wp-content/uploads/Spring-2025-Final-Exam-Schedule.pdf). You cannot take it early or later than the designated date except for a medical emergency.
--   This essay exam will broadly reflect one of the general themes of the seminar and answer questions about our readings. Discussing non-class readings won't be helpful.
+-   the exam date is determined by [the University](https://registrar.gmu.edu/wp-content/uploads/Final-Exams-202570.pdf). You cannot take it early or later than the designated date except for a medical emergency.
+-   This essay exam will broadly reflect one of the general themes of the seminar and answer questions about our readings. Discussing non-class readings won't be helpful (and potentially hurt your grade).
   -   It is designed in a way that if you regularly complete the readings throughout the semester, you need to put in little extra effort for it.
 -   Write an essay and submit it to Canvas (Assignment section).
--   Two questions will be given through Canvas **36** hours in advance, which is 7:10 <mark2>AM</mark2>, May 12. 
+-   Two questions will be given through Canvas **36** hours in advance, which is 7:30 <mark2>AM</mark2>, 12/15. 
 -   36 hours are given solely for flexibility. The actual exam-taking wouldn't take more than three hours. Many of you work and/or have other important commitments. So what you are asked is simply to carve out several hours from this 36-hour window. 
   - In other words, this is not a traditional 'take-home essay' that would take up an extensive amount of time to complete. It is a regular essay-type final exam that is allowed to be taken at any time during this 36-hour window at a place convenient to you.
 -   Be familiar with the University [policy](https://academicaffairs.chss.gmu.edu/ugradpolicies/ugpolicies/final-exams) on final exams.
@@ -396,7 +395,7 @@ George Mason University promotes a living and learning environment for outstandi
 
 An emphasis upon diversity and inclusion throughout the campus community is essential to achieve these goals. Diversity is broadly defined to include such characteristics as, but not limited to, race, ethnicity, gender, religion, age, disability, and sexual orientation. Diversity also entails different viewpoints, philosophies, and perspectives. Attention to these aspects of diversity will help promote a culture of inclusion and belonging, and an environment where diverse opinions, backgrounds and practices have the opportunity to be voiced, heard and respected.
 
-There’s a practical element here too. You (will) live in an increasingly diverse society where practicing inclusiveness might help you in the long run (even if you do not agree with some of these values!). You are strongly encouraged to check out important websites such as [Anti-Racism Resources](https://caps.gmu.edu/resources-and-self-help/anti-racism-resources/) and GMU [Religious Holiday Calendar](https://ulife.gmu.edu/religious-holiday-calendar/). It is the obligation of the student to provide faculty, within the first two weeks of the semester, with the dates of major religious holidays on which they will be absent due to religious observances.
+There’s a practical element here too. You (will) live in an increasingly diverse society where practicing inclusiveness might help you in the long run (even if you do not agree with some of these values!). It is the obligation of the student to provide faculty, within the first two weeks of the semester, with the dates of major religious holidays on which they will be absent due to religious observances.
 
 ## Grading Scale
 
@@ -414,7 +413,7 @@ The grading scale in this course follows [GMU Catalogue](https://catalog.gmu.edu
   -   Readings and the reading schedules are subject to change. In fact, to reflect most up-to-date events in economic and political globalization, it is not uncommon that new readings are inserted and some readings are dropped. Although I try my best to give you at least one week before such changes, it is advisable that you do not complete the reading too much in advance.
   - If links to newspapers (NYT, FT, WSJ, or The Economist) do not work, use your own search. As Mason students, you have free access to these outlets.
 
-## Week 1. Jan 21. First Day {.unnumbered}
+## Week 1. Aug 26. First Day {.unnumbered}
 
   -  Class intro. There are readings, but no reading summary yet.
   -  Set the presentation schedule.
@@ -424,7 +423,7 @@ The grading scale in this course follows [GMU Catalogue](https://catalog.gmu.edu
   -  Miller, S. (2014). Reading a Regression Table: A Guide for Students. [link.](https://svmiller.com/blog/2014/08/reading-a-regression-table-a-guide-for-students/)
     : <font size=2>You can actually understand most of the readings without reading these ‘regression tables’ and we won’t spend time on this matter unless there’s a specific question. But knowing this opens up much more intellectual opportunities. So give it a careful read.</font>
 
-## Week 2. Jan 28. What are Development and Economic Globalization? {.unnumbered}
+## Week 2. Sep 2. What are Development and Economic Globalization? {.unnumbered}
 
   -  No reading summary yet.
   -  Rapley, J. (2007). *Understanding Development: Theory and Practice in the Third World*. Lynne Rienner, Boulder. Ch. 1 & 2. 
@@ -435,7 +434,7 @@ The grading scale in this course follows [GMU Catalogue](https://catalog.gmu.edu
   -  Solow, R. M. (1956). A contribution to the theory of economic growth. *Quarterly Journal of Economics*, 70(1):65–94. <mark>not required</mark>
   -  The Economist. (2019). “The Middle Income Spread” [link.](https://www.economist.com/graphic-detail/2017/10/11/the-middle-income-spread??fsrc=scn/fb/te/bl/ed/themiddleincomespread&fbclid=IwAR3LKWm8Qk2gaNF-I7kB90fUxFu6-b0_ZWW_TC-EzhDnWxNX6ovqMYECAdc) <mark>not required</mark>
 
-## Week 3. Feb 4. Institutions and development {.unnumbered}
+## Week 3. Sep 9. Institutions and development {.unnumbered}
 
   -  first week where you can do a reading summary.
   -  North, D. C. (1991). Institutions. *Journal of Economic Perspectives*, 5(1):97–112.
@@ -448,7 +447,7 @@ The grading scale in this course follows [GMU Catalogue](https://catalog.gmu.edu
   -  Besley, T., Burgess, R., Khan, A., and Xu, G. (2022). Bureaucracy and development. *Annual Review of Economics*, 14(1):397–424. <mark>not required</mark>
   -  Jales, H., Kang, T. H., Stein, G., and Garcia Ribeiro, F. (2018). Measuring the role of the 1959 revolution on Cuba’s economic performance. *The World Economy*, 41(8):2243–2274. <mark>not required</mark>
 
-## Week 4. Feb 11. (Modern) Trade and Development {.unnumbered}
+## Week 4. Sep 16. (Modern) Trade and Development {.unnumbered}
 
   -  first week where you can do a presentation.
   - Caliendo, L. and Parro, F. (2022). Lessons from US-China Trade Relations. *Annual Review of Economics*, 15:513–541.
@@ -464,7 +463,9 @@ The grading scale in this course follows [GMU Catalogue](https://catalog.gmu.edu
   -  Blanchard, E. J., Brown, C. P., and Shor, D. (2019). Did Trump’s Trade War Impact the 2018 Election. NBER Working Paper 26434. [link.](http://www.nber.org/papers/w26434) <mark>not required</mark>
   -  Eichengreen, B. (2018). Trade policy and the macroeconomy. *IMF Economic Review*, Forthcoming. DOI: [https://doi.org/10.1057/s41308-018-0053-9.](https://doi.org/10.1057/s41308-018-0053-9) <mark>not required</mark>
 
-## Week 5. Feb 18.  Finance and Development {.unnumbered}
+## Week 5. Sep 23.  Finance and Development {.unnumbered}
+
+Those who like to present on this week might note that the primary focus is on debt, banking, currency, and exchange rates. 
 
   -  Schneider, C. J. and Tobin, J. L. (2020). The Political Economy of Bilateral Bailouts. *International Organization*, 74(1):1–29.
   -  Ballard-Rosa, C., Mosley, L., and Wellhausen, R. L. (2021). Coming to Terms: The Politics of Sovereign Bond Denomination. *International Organization*, Forthcoming. Doi: [https://doi.org/10.1017/S0020818321000357](https://doi.org/10.1017/S0020818321000357)
@@ -479,8 +480,11 @@ The grading scale in this course follows [GMU Catalogue](https://catalog.gmu.edu
   -  Rodrik, D. and Subramanian, A. (2009). Why does financial globalization disappoint? *IMF Staff Papers*, 56(1):112–138 <mark>not required</mark>.
   -  Ferguson, N. (2018). *The Ascent of Money*. New York: Penguin. <mark>not required</mark>
   -  Reichert-Facilides, D. (2023) New York rewrites the rules on sovereign debt restructurings. Financial Times. June 2, 2023. [https://www.ft.com/content/213aa90a-3eba-445](https://www.ft.com/content/213aa90a-3eba-4451-a509-b9d17e1d56c8) <mark>not required</mark>
+  - Reuters. (2025) The 'Triple A' soeverign bond club has shrunk. Reuters. May 19, 2025. [link](https://www.reuters.com/business/finance/triple-a-sovereign-bond-club-has-shrunk-2025-05-19/?utm_campaign=trueAnthem%3A+Trending+Content&utm_medium=trueAnthem&utm_source=facebook&fbclid=IwY2xjawKYQEdleHRuA2FlbQIxMQBicmlkETE4WWpreXl4bExINGNQSFNMAR6oXF0qeDFo0Y3qqUgOw8UUqMVM5hgakl7VaVQ60O8D9_cKx-kNFWx8CDtUZA_aem_-z_hfkLGYPha5G0PyxScow). <mark>not required</mark>
 
-## Week 6. Feb 25. Investment and Development {.unnumbered}
+## Week 6. Sep 30. Investment and Development {.unnumbered}
+
+Presenters might note that the focus is essentially foreign direct investment (FDI) from the perspectives of host governments, originating governments, investors, and/or people involved. Some of the easiest ways to approach this topic would be to start with particular multinational corporations as they are usually the investors.
 
   -  Frieden, J. A. (1994). International investment and colonial control: A new interpretation. *International Organization*, 48:559–593.
   -  Büth, T. and Milner, H. V. (2014). Foreign direct investment and institutional diversity in trade agreements: Credibility, commitment, and economic flows in the developing world, 1971–2007. *World Politics*, 66(1):88–122.
@@ -496,11 +500,7 @@ The grading scale in this course follows [GMU Catalogue](https://catalog.gmu.edu
   -  Bechtel, M. M. (2009). The political sources of systematic investment risk. *Journal of Politics*, 71:661–677. <mark>not required</mark>
   - Jensen, N. (2008). Political risk, domestic institutions, and foreign direct investment. *Journal of Politics*, 70(4):1040–1052. <mark>not required</mark>.
 
-## Week 7. Mar 4. Conference Participation (No Class)
-
-## Week 8. Mar 11. Spring Recess (No Class)
-
-## Week 9. Mar 18. International Economic Organizations and Development {.unnumbered}
+## Week 7. Oct 7. International Economic Organizations and Development {.unnumbered}
 
   - *We read a bunch of very short articles in this week. For more textbook-like discussions, refer to* Copelovitch *and* Stiglitz *below*.
   -  Daoud, A., Nosrati, E., Reinsberg, B., Kentikelenis, A. E., Stubbs, T. H., and King, L. P. (2017). Impact of International Monetary Fund programs on child health. *Proceedings of the National Academy of Sciences*, 114(25):6492–6497.
@@ -517,7 +517,9 @@ The grading scale in this course follows [GMU Catalogue](https://catalog.gmu.edu
   -  Abouharb, M. R. and Cingranelli, D. L. (2006). The Human Rights Effects of World Bank Structural Adjustment, 1981–2000. *International Studies Quarterly*, 50(2):233–262. <mark>not required</mark>
   -  Arauz, A. and Cashman, K. (2022). Special drawing rights one year later, by the numbers. CEPR Working Paper. Available at: [https://cepr.net/special-drawing-rightsone-year-later-by-the-numbers/.](https://cepr.net/special-drawing-rights-one-year-later-by-the-numbers/) <mark>not required</mark>
 
-## Week 10. Mar 25. Foreign Aid {.unnumbered}
+## Week 8. Oct 14. Foreign Aid {.unnumbered}
+
+Those interested in presenting in this week should be aware that foreign aid is very diverse and any presentation would need to explain what kind of aid it is talking about. For example, 'DRC's aid dependency' would be quite a tough topic to pull off because it points to a very wide array of things. 'What happened to the food assistance to Nicaragua in 1998?' would be more doable. In addition, humanitarian aid, usually a very important topic, would be hard to work on because its connection to economic globalization and/or development is very hard to explain.
 
   -  Williams, M. (2018). The political economy of unfinished development projects: Corruption, clientelism, or collective choice? *American Political Science Review*, 111(4):705–723.
   - Findley, M. G., Harris, A. S., Milner, H. V., and Nielson, D. L. (2017). Who Controls Foreign Aid? Elite versus Public Perceptions of Donor Influence in Aid-Dependent Uganda. *International Organization*, 71(4):633–663.
@@ -531,7 +533,10 @@ The grading scale in this course follows [GMU Catalogue](https://catalog.gmu.edu
   -  Alesina, A. and Dollar, D. (2000). Who gives foreign aid to whom and why? *Journal of Economic Growth*, 5(1):33–57. <mark>not required</mark>
   -  Edwards, S. (2015). Economic development and the effectiveness of foreign aid: A historical perspective. *Kyklos*, 68(3):277–316. <mark>not required</mark>. An accessible primer of foreign aid history.
 
-## Week 11. Apr 1. Poverty & Inequality Reduction {.unnumbered}
+## Week 9. Oct 21. Poverty & Inequality Reduction {.unnumbered}
+
+Those presenting this week might want to know that there's a difference between poverty/inequality and general under-development. A developed country might still have poverty issues, for example.
+
 
   -  Briggs, R. (2018). “Millions of Americans as destitute as the world’s poorest? Don’t believe it.” Vox. February 4, 2018. [https://www.vox.com/the-big-idea/2018/2/1/169596 34/millions-americans-destitute-2-day-worlds-poorest-deaton-aid.](https://www.vox.com/the-big-idea/2018/2/1/16959634/millions-americans-destitute-2-day-worlds-poorest-deaton-aid) 
   -  Rudra, N. and Tirone, D. C. (2017). Trade, Politics, and the Poor: Is Sen Right and Bhagwati Wrong? *Studies in Comparative International Development*, 52(1):1–22.
@@ -546,7 +551,9 @@ The grading scale in this course follows [GMU Catalogue](https://catalog.gmu.edu
   -  Basu, K. (2006). Globalization, poverty, and inequality: What is the relationship? what can be done? *World Development*, 34:1361–1373. <mark>not required</mark>
 
 
-## Week 12. Apr 8. Political Economy of Immigration {.unnumbered}
+## Week 10. Oct 28. Political Economy of Immigration {.unnumbered}
+
+Those presenting this week are advised to **not** to focus on non-political economy dimension of the topic, such as 'the cruelty of the immigration policies of country X' or 'the agony of migrants.' It is important, but no directly related to our course subject. 
 
   -  Leblang, D. and Peters, M. E. (2022). Immigration and globalizagtion (and deglobalization). *Annual Review of Political Science*, 25:377–399.
   -  Fitzgerald, J., Leblang, D., and Teets, J. C. (2014). Defying the law of gravity: The political economy of international migration. *World Politics*, 66(3):406–445.
@@ -558,10 +565,13 @@ The grading scale in this course follows [GMU Catalogue](https://catalog.gmu.edu
   -  Mosley, L. and Singer, D. A. (2015). Migration, labor, and the international political economy. *Annual Review of Political Science*, 18(1):283–301. <mark>not required</mark>
   -  Hainmueller, J. and Hangartner, D. (2013). Who gets a swiss passport? a natural experiment in immigrant discrimination. *American Political Science Review*, 107(1):159–187. <mark>not required</mark>
 
+## Week 11. Nov 4. No Class (Election Day)
 
-## Week 13. Apr 15. Global Economic Crisis {.unnumbered}
+## Week 12. Nov 11. Global Economic Crisis {.unnumbered}
+Those presenting this week should note that we are talking about actual crises, not general economic difficulties. You should be able to point to a crisis as an event.
 
-  -  Last week where you can do a presentation.
+
+  -  <mark2>Last</mark2> week where you can do a presentation.
   -  Kindleberger, C. P. (1978). *Manias, Panics, and Crashes: A History of Financial Crises*. John Wiley & Sons, Inc., New York Chs. 1 and 2. Canvas
   -  The Economist (2014). Don’t Lie to Me, Argentina. The Economist. June 20th 2014. Available at: [https://www.economist.com/leaders/2014/06/20/dont-lie-to-me-ar gentin~a~.](https://www.economist.com/leaders/2014/06/20/dont-lie-to-me-argentina) Also in Canvas
   - Oatley, T. (2019). Toward a political economy of complex interdependence. *European Journal of International Relations*, 25(4):957–978.
@@ -574,7 +584,7 @@ The grading scale in this course follows [GMU Catalogue](https://catalog.gmu.edu
   -  Reinhart, C. and Reinhart, V. (2020). The pandemic depression: The global economy will never be the same. Foreign Affairs. August 6, 2020. Available at: [link.](https://www.foreignaffairs.com/articles/united-states/2020-08-06/coronavirus-depression-global-economy) <mark>not required</mark>
 
 
-## Week 14. Apr 22. Global Health, Environment & Resource {.unnumbered}
+## Week 13. Nov 18. Global Health, Environment & Resource {.unnumbered}
 
   -  Last week where you can do a reading summary.
   -  Savoia, A. and Sen, K. (2021). The political economy of the resource curse: A development perspective. *Annual Review of Resource Economics*, 13:203–223.
@@ -587,10 +597,9 @@ The grading scale in this course follows [GMU Catalogue](https://catalog.gmu.edu
   - Bayer, P. and Urpelainen, J. (2016). It is all about political incentives: democracy and the renewable feed-in tariff. *The Journal of Politics*, 78(2):603–619. <mark>not required</mark>
   -  Lawrence, R. Z. (2024). Climate action: Implications for factor market reallocation. PIIE Working Paper. 24-1. [link.](https://www.piie.com/sites/default/files/2024-01/wp24-1.pdf) <mark>not required</mark>
 
-## Week 15. Apr 28. De-globalization and Collapse of Global Value Chains? {.unnumbered}
+## Week 14. Nov 25. Economic Security and De-globalization {.unnumbered}
 
-  -  *This week, we have many but short articles*.
-  - Also a class wrap-up and coure evaluations.
+  -  *The readings in this week are particularly prone to change, so stay tuned*.
   -  Poast, P. (2022). The ‘Golden Age’ of Globalization is Officially Over. World Politics Review. October 21, 2022. [link.](https://www.worldpoliticsreview.com/china-us-trade-war-globalized-economy/)
   -  Danzman, S. B. (2022). CHIPS+ could change the U.S. semiconductor supply chain, and more, Washington Post. August 9, 2022. [link.](https://www.washingtonpost.com/politics/2022/08/09/chips-act-semiconductors-supply/?utm_medium=social&utm_source=twitter&utm_campaign=wp_monkeycage)
   - Hayashi, Y. 2023. WSJ News Exclusive | U.S. to Allow South Korean, Taiwan Chip Makers to Keep Operations in China. Wall Street Journal. [Link.](https://www.wsj.com/articles/u-s-to-allow-south-korean-taiwan-chip-makers-to-keep-operations-in-china-5d7d72cc).
@@ -600,11 +609,13 @@ The grading scale in this course follows [GMU Catalogue](https://catalog.gmu.edu
   -  Agarwal, R. (2023). Industrial policy and growth strategy trilemma. Finance & Development. International Monetary Fund. Available at: [link.](https://www.imf.org/en/Publications/fandd/issues/Series/Analytical-Series/industrial-policy-and-the-growth-strategy-trilemma-ruchir-agarwal?utm_medium=email&utm_source=govdelivery)
   -  Eichengreen, B. (2022). Sanctions, swift, and china’s cross-border inter-bank payments system. CSIS Briefs. May 20, 2022. [link.](https://www.csis.org/analysis/sanctions-swift-and-chinas-cross-border-interbank-payments-system)
 
+## Week 15. Dec 2. Wrap-up & Course Evaluation {.unnumbered}
 
 ## Final Exam {.unnumbered}
 
-  - May 4 (Mon) is the last day of the semester for the [University.](https://registrar.gmu.edu/calendars/spring_2025/)
-  - <red>**May 13**</red>: Final Essay Due, 7:10 PM 
+  - 12/8 is the last day of the semester for the [University.](https://registrar.gmu.edu/wp-content/uploads/Final-Exams-202570.pdf)
+  - <red>**12/16**</red>: Final Essay Due, 7:30 PM 
   -  The final exam schedule is determined entirely by the University authority. It is thus subject to the University’s schedule change.
-  -  Essay questions made available 36 hours in advance (7:10 <mark2>AM</mark2>, May 12); no exceptions
-  -  Submission via Canvas (by 7:10 PM). So we do *not* meet.
+  -  Essay questions made available 36 hours in advance (7:30 <mark2>AM</mark2>, 12/15); no exceptions
+  -  Submission via Canvas (by 7:30 PM). So we do *not* meet.
+  - Detailed instructions will be provided as we approach the end of the semester.
