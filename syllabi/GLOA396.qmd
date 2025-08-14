@@ -1,0 +1,444 @@
+---
+title: Syllabus. <span style="color:red">GLOA 396</span> <br> "Global Politics & Revolution -- <em>Transformation and Resilience</em>"  
+subtitle: Fall 2025, Online Asynchronous ([Link to Canvas](https://canvas.gmu.edu/courses/52802))
+format: 
+  html:
+    number-sections: true
+    theme: cosmo
+#editor: visual
+# author:
+#   - name: "Byunghwan 'Ben' Son (bson3@gmu.edu)"
+#     meta-data:
+#       custom-info: "Office Hours"
+#     affiliations:
+#       - name: Global Affairs, George Mason University
+#         url: https://globalaffairs.gmu.edu/
+toc: true
+toccolor: blue
+smooth-scroll: true
+
+execute:
+  warning: false
+  message: false
+  error: false
+  echo: false
+
+---
+
+
+```{=html}
+<style>
+
+
+mark {
+  background-color: #ece985;
+  color: black;
+  border-radius: 5px; 
+  padding: 0.2em;
+}
+
+mark2 {
+  background-color: #840a73;
+  color: white;
+  border-radius: 5px; 
+  padding: 0.2em;
+}
+
+red {
+  color: #9b1212;
+}
+
+blue {
+  color: #124921;
+}
+
+</style>
+```
+
+
+**Update log**
+
+  - <font size='2'>August 11: This syllabus is created.</font>
+
+# Instructor
+
+- Byunghwan 'Ben' Son (bson3@gmu.edu)
+  - Associate Professor of Global Affairs
+  - [{{< fa house size=small >}} Personal Webpage](https://textvulture.github.io/)
+  - [{{< fa school-flag size=small >}} GLOA Profile](https://globalaffairs.gmu.edu/)
+  - [{{< fa brands github >}} Github](https://github.com/textvulture)
+  - [{{< fa brands google-scholar >}} Google Scholar](https://scholar.google.com/citations?user=h0o27GgAAAAJ&hl=en)
+- Office Hours
+  - Office Hours 1:30-3:00 PM, TR. In person or Zoom (link available in Canvas).
+    - Either way, it is strongly recommended that you let me know that you're coming in at least a couple hours in advance. Just drop me an email.  
+- Email Communications
+  -   You can email me whenever you want, but my responses to the emails sent to me after 5 pm weekdays as well as any time during the weekend will be significantly slow.
+    -   For your own interest, you might want to try to use the normal working hours (9 AM to 5 PM, Monday through Friday). In your email, please indicate <red>who you are</red> and <red>which class you’re in (i.e., GLOA 720)</red>.
+    -   For security reasons, emails not sent from the Mason account (i.e., gmu.edu) won't be answered. This is the University policy.
+
+# Course Description
+
+Political globalization involves homogenization of political systems across borders, which inevitably pits together the forces of changes and those of resistance to them. This upper-level course examines how such tensions play out in global societies through revolution, democratization, coup, or gradual reform. It also looks at how they resist such changes--for better or worse--even when the odds were stacked up against them. Drawing on historical and contemporary cases as well as cutting edge scientific research methods, students will engage with theoretical and empirical dimensions of revolution, regime change, military coups, authoritarian resurgence, and global democratic decline. 
+
+By the end of the course, students will have critical understandings of the transformative consequences of political globalization. In particular, they will be able to:
+
+- **Compare** major theories of revolution, democratization, and regime change.
+- **Explain** the causes and processes of democratic backsliding and coups.
+- **Evaluate** strategies for resilience against authoritarian resurgence.
+- **Analyze** historical and contemporary case studies of political transformation.
+- **Synthesize** research on global patterns of political change for written and oral analysis.
+
+
+# Course Requirements {#sec-require}
+
+## Canvas Page 
+
+The primary platform of all our class activities is our course page in [Canvas](https://canvas.gmu.edu/courses/52802). Announcements, course materials, exams, assignments and submissions are all happening there. It is your responsibility to check the Canvas page at least three times a week. Email reminders of important things might be made, but only out of courtesy--so don't really on it. One cannot pass the course if there more than three weeks where they fail to connect to the Canvas course page less than three times (i.e., once, twice, or not at all).
+
+When you come to the Canvas page, the most important place is the 'Weakly Module' where almost all actions are happening. Be sure to check it first.
+
+## Required Textbook
+
+- You have **free access** to these three books through GMU Library. No need to purchase any of them.
+
+- Goldstone, Jack A. 2023. *Revolutions: A Very Short Introduction*. Oxford University Press. (We probably will read almost all chapters of this short book) 
+
+- Haggard, Stephan, and Robert R Kaufman. 2016. *Dictators and Democrats: Masses, Elites, and Regime Change*. Princeton University Press. (We will read many, though not all, of the chapters.)
+
+- Miller, Michael K. 2021. *Shock to the System: Coups, Elections, and War on the Road to Democratization*. Princeton University Press.
+ (We will read many, though not all, of the chapters.) 
+
+There are various articles and book chapters, all of which will be made available in Canvas. 
+
+
+
+## Graded Items
+
+### Critical Reflection Videos (6 $\times$ 10 pts = 60 pts)
+
+Make a video containing your reflection on the course material of the week (i.e., readings and lecture) in relation to the Moments of Uncertainty (MOU) you choose (see below). The video is about 5 to 7 minutes. In the video:
+
+- Discuss briefly what you thought the major takeaways of the week's course material.
+- Discuss how your MOU is related to the takeaways. In particular, talk about <red>how</red> the situation in MOU could've developed into a certain direction or how it didn't happen. For instance, if the week's primary topic was coups (when and how they happen) and you chose MOU of the Philippines in 1983, you could discuss either why the military didn't take advantage of the power vacuum.
+- Be creative and at times become an alt-history writer, though your discussion always needs to be anchored to the class materials, not merely wild imaginations.
+- While not strictly required, using slides and visual aids would be helpful. 
+- Make sure you actually show up at least in some portions of the video in an 'identifiable' way, although you are allowed to wear masks and sunglasses.
+
+Make <blue>six</blue> of these videos. It's up to you which week you decide to work on. The deadline is midnight (11:59 PM), the Thursday of the week. Post the video in the designated place in Canvas.
+
+The list of MOUs are as follows. Relatively less known cases are collected on purpose. You have to choose one, and only one, MOU and work on it throughout the semester.
+
+1. *Portugal*, 1974–1976 – Carnation Revolution aftermath
+Military coup ousts dictatorship; country wavers between radical left revolution, communist takeover, and liberal democracy before settling on democracy.
+
+2. *South Korea*, 1979–1980 – Post–Park Chung-hee crisis
+After Park’s assassination, the country entered a volatile period with possibilities of democratic reform, continued military rule, or mass uprising (Gwangju).
+
+3. *Philippines*, 1983–1986 – Post–Ninoy Aquino assassination
+The Marcos regime faced growing protests, elite defections, and uncertainty over whether reforms, repression, or revolution would follow.
+
+4. *Russia*, 1991–1993 – Collapse of the USSR & constitutional crisis
+Competing visions: liberal democracy, restored authoritarianism, or even civil war during the Yeltsin–parliament standoff.
+
+5. *Indonesia*, 1997–1999 – Asian Financial Crisis & Suharto’s fall
+Economic collapse opened possibilities: authoritarian restoration, democratic reform, or military–civilian power-sharing.
+
+6. *Egypt*, 2011–2013
+After Mubarak’s fall, Egypt oscillated between democratic elections, Islamist-majority government, military oversight, and eventual 2013 coup.
+
+7. *Tunisia*, 2011–2014
+Post-revolution politics balanced between successful democratic consolidation, Islamist–secular conflict, or a return to authoritarian rule.
+
+8. *Sudan*, 2019–2021 – Post-Bashir transition
+Civilian–military power-sharing could have led to full democratization, military restoration, or civil conflict (2021 coup, then war in 2023).
+
+9. *Armenia*, 2018 – Velvet Revolution
+Peaceful uprising removed entrenched leadership; uncertainty about whether it would be a democratic breakthrough, elite reshuffle, or return to old patterns.
+
+10. *Thailand*, 2006–2010 – Post-Thaksin crisis
+Elite polarization, mass protests, and military influence created paths toward democratic reform, entrenched military dominance, or negotiated settlement.
+
+11. *Bolivia*, 2019–2020 – Post-Evo Morales Crisis
+After contested elections and protests, President Evo Morales resigned under military pressure and fled. 
+
+12. *Guatemala*, 2015 – Pérez Molina Resignation
+Massive anti-corruption protests forced President Otto Pérez Molina to resign amid a UN-backed investigation.
+
+### Peer-Reaction (10%)
+
+On Friday and/or Saturday (i.e., when videos are posted), you may put comments on your classmates videos. And you will react to the comments that your classmates put on your video. Your engagement will be holistically evaluated at the end of the semester, reflecting both its frequencies and qualities. Roughly speaking:
+
+
+```{r}
+library(dplyr)
+library(gt)
+
+col1 <- c("frequency", "quality")
+col2 <- c("high", "high")
+col3 <- c("medium", "high")
+col4 <- c("high", "medium")
+col5 <- c("medium", "medium")
+col6 <- c("very low", "ver low")
+
+df <- data.frame(col1, col2, col3, col4, col5, col6)
+
+df %>% 
+  gt() %>%
+  tab_spanner(
+    label = "10.0-9.0",
+    columns = c(col2),
+  ) %>%
+  tab_spanner(
+    label = "8.9-7.00",
+    columns = c(col3, col4)
+  ) %>%
+  tab_spanner(
+    label = "6.99-5.0",
+    columns = c(col5)
+  ) %>%
+  tab_spanner(
+    label = "4.9-0.0",
+    columns = c(col6)
+  ) %>%
+  cols_label(
+    col1 = "",
+    col2 = "",
+    col3 = "",
+    col4 = "",
+    col5 = "",
+    col6 = ""
+  ) %>%
+  tab_options(column_labels.hidden = F) %>%
+  cols_width(
+  col2 ~ px(180),  
+  col3 ~ px(180),  
+  col4 ~ px(180),   
+  col5 ~ px(180),
+  col6 ~ px(180)) %>%
+  cols_align(
+    align = "center", 
+    columns = c(col2, col3, col4, col5, col6) 
+  ) %>%
+  tab_style(
+    style = cell_text(style = "italic"),  #weight="bold"
+    locations = cells_body(
+      columns = col1,
+      rows = c(1,2)) 
+  )
+
+```
+
+### Critical Reflection Syntehsis (10%)
+
+Putting together all six Critical Reflection Videos, write a paper talking about 1) which of the situation discussed was most *theoretically* convincing path and 2) why the actual history did (or did not) materialize that way. The paper needs to be longer than 1,000 words and shorter than 1,700 words. All the common requirements for a research paper (e.g., citation, intro, conclusion) apply.
+
+It would be a great idea that when making videos, you consider how they might eventually translate into this syntehsis.
+
+### Final Exam (20%)
+
+The final exam will take the form of essay. The question(s) will be on 1) the readings and 2) student presentation videos. So, in general, <mark>completing each week's reading</mark> and <mark2>paying attention to fellow classmates' critical reflection of MOUs</mark2> would prepare you for the exam. There would be no other way, in fact, answers not based on these two factors (i.e., sources not discussed in class) would not be graded.
+
+The question(s) will be made available in Canvas at 7:30 PM, Dec 10. The deadline for submission (Canvas) is 7:30 PM, Dec 11. So you are given 24 hours. This does not mean that it will take 24 hours for you to complete the exam. You can take as much time as you want, but I expect that it would take about a couple of hours. So not very different from an in-class exam (only taking place on-line) and you are responsible for carving out 2 to 3 hours out of the 24-hour window. More details about the exam will be provided as we get closer to the end of the semester.
+
+
+# Course Policies
+
+## Assignment Submission
+
+All assignments are expected to be submitted electronically in Canvas. Do *not* email any assignments. They won't be graded.
+
+- For video submissions, either YouTube or **Kaltura MyMedia** can be used. When using YouTube, you can upload your video to YouTube, set the video privacy as 'unlisted', and simply submit a <red>link</red> to your video. 
+  - Do <red>not</red> attach your video file directly to our Canvas page, though.
+- Technical difficulties are not rare. Try to submit it early if you can.
+- If uploading a document file (e.g., final exam), be sure to make it a MS Word or PDF file. Absolutely NO Pages file as it causes a problem in the system. You have free access to MS Office software as a Mason student. You can also 'export' a Page file as a Word file. 
+- 10 % reduction in grade (e.g., one day late for a literature review submission will translate into 1.5 points reduction = 10% $\times$ 15 pts) will be applied to a same day late submission (so it is still a good idea to turn things in no later than the day of the deadline—the damage would be minimal!). Additional 10% reduction will be added for each midnight (11:59 pm) until the submission.
+ 
+
+## Accommodations
+
+If you have a documented learning disability or other conditions that may affect academic performance you should: 1) Make sure this documentation is on file with the Office of Disability Services (SUB I, Rm. 222; 993-2474; [www.gmu.edu/student/drc](www.gmu.edu/student/drc)) to determine the accommodations you need; and 2) Discuss with me to plan your accommodation needs. Accommodations cannot be provided unless the document from the ODS is provided in advance.
+
+## Academic Integrity/Standard
+
+Mason places utmost importance on everybody in our community upholding its high standards on academic integrity. The principle of academic integrity is taken very seriously and violations are treated gravely. Please see the official [University Document](https://academicstandards.gmu.edu/wp-content/uploads/2025/08/Academic-Standards-Code-2025-2026-final-SaveAsPDF.pd) for a full description of the code. 
+
+Don't rely on Reddit or your friends on this matter. They don't know and are very often misleading. The most important part of this document is that everybody from the moment they submit an application to GMU (i.e., not even before they are accepted as a student) is subject to the code. Neither 'I didn't know the rules' nor 'I didn't mean it' constitutes a legitimate excuse, it states. So, it is your own interest that you get yourself familiar with it.
+
+The basic idea is that when you rely on someone else’s work, you will give that source full credit, typically in the form of an in-text citation and bibliographic reference. If you are unaware of what counts as plagiarism see here:
+[http://mason.gmu.edu/~montecin/plagiarism.htm](http://mason.gmu.edu/~montecin/plagiarism.htm). Students caught violating the Academic Standard Code will receive a failing grade in the related course assignment and will be reported to the university authorities for further disciplinary action.
+
+
+## Use of Artificial Intelligence
+
+A Large Language Model (LLM), commonly referred to as AI (which are two different things, actually), is a double-edged sword, in that it can help you research better but doing so could easily involve plagiarism/cheating. As a general rule, making an LLM ‘write,’ be it partial or entirely, is considered unequivocal cheating (‘consulting unauthorized materials’) and a direct violation of GMU Honor Code.
+
+Doing so also risks committing plagiarism. The writing itself has to be yours and yours only. Note that a ‘light’ rephrasing (e.g., altering some words) is still plagiarism. Similarly, submission of an edited version of LLM-generated writing is still considered plagiarism. Trusting the 'humanizing' programs (applications that promises to make AI-written texts look as if human-written) is also a gravely dangerous idea because all it does is replacing some words known to be often used by AI--which is also easy to track down.
+
+LLM could be used in the *process* of research, the result of which *you* actually write about. A good example is to use LLM in finding topics. The more you dig in, the more useful the outcome. One way to see if you are using LLM properly is to see how much time and energy you’re spending on it. If it takes a lot of effort and committing many hours of time to a task, you are probably using LLM right (as a general rule, if what it does is simply make your life more comfortable, there’s a good chance that you’re violating the Academic Standard Code). 
+
+Another way is to use LLM to find relevant readings, although this is proven quite unreliable. A lot of 'new' AI models (which are actually based on a couple of existing AI engines) boast about how good they are at this, but they really aren't because the more training an LLM algorithm takes, the more probable that it generates hallucinated stuff that sounds very reasonable.  
+
+You can also use AI to detect typos or *obvious/simple* grammar errors. However, if you let it offer basically the whole prose for you, then it's considered plagiarism. An easy way to tell this is to ask yourself: "Could I come up with this kind of expression/sentence myself?" If the answer is 'no' or 'not sure,' then you have to stay away from it. Remember, this is not a writing or literature class and, however elegant, *your prose is not relevant* to your grades. In fact, good prose that compromises the clarity would work adversely for you. F. Scott Fitzgerald would've struggled in this class unless he altered his prose, for example.
+
+<mark2>Not bothering using an LLM or any kind of program in the first place remains a great option.</mark2>
+
+## Mutual Respect and Collegiality
+
+George Mason University promotes a living and learning environment for outstanding growth and productivity among its students, faculty, and staff. Through its curriculum, programs, policies, procedures, services, and resources, Mason strives to maintain a quality environment for work, study and personal growth.
+
+An emphasis upon diversity and inclusion throughout the campus community is essential to achieve these goals. Diversity entails different viewpoints, philosophies, and perspectives. Attention to these aspects of diversity will help promote a culture of inclusion and belonging, and an environment where diverse opinions, backgrounds and practices have the opportunity to be voiced, heard and respected.
+
+It is the obligation of the student to provide faculty, within the first two weeks of the semester, with the dates of major religious holidays on which they will be absent due to religious observances.
+
+## Grading Scale
+
+```{r, echo=F, message=F}
+
+source2 <- data.frame(
+    Point.Total = c(
+      "93.00 or higher",  
+      "90.00 - 92.99",   
+      "87.00 - 89.99",    
+      "83.00 - 86.99",  
+      "80.00 - 82.99",  
+      "60.00 - 79.99",  
+      "59.99 or lower"
+    ),
+  Letter.Grade = c("A or A+", "A-", "B+", "B", "B-", "C", "F")
+)
+
+library(tinytable)
+tt(source2)
+```
+
+
+The grading scale in this course follows [GMU Catalogue](https://catalog.gmu.edu/policies/academic/grading/#ap-3-2).
+
+- The class does not give ‘I’ (incomplete) unless you have already completed about 95% of the course requirement.
+- Please note that there is no ‘round up’ of scores at the end of the semester. 92.99999, for example, is A–.
+- CHSS strictly prohibits giving an extra assignment for the purpose of improving a grade. I adhere to this policy.
+
+# Course Schedule and Readings {#sec-schedule}
+
+-   We mimic the schedule of a face-to-face version of this class. In the weeks where lectures are included, the video will be uploaded at the beginning of the week (Monday). It does NOT mean that you are supposed to watch the video right away because, again, this is an *asynchronous* course. But the expectation is you complete the video by Tuesday morning.
+-   Readings and the reading schedules are subject to change. When such changes are made, the change 'log' will be printed at the beginning of this syllabus.
+-   Unless specified as <mark>not required</mark>, all the listed readings are required readings.
+    -   Required readings are indispensable for your successful completion of this course.
+    -   <mark>not required</mark> readings might still be tremendously helpful and you are strongly encouraged to finish them too.
+-   Some readings might have hyperlinks. Others don't. It doesn't matter. You should be able to find almost all readings in the syllabus in <red>PDF</red> in [Fenwick library](https://library.gmu.edu/) because all the reference information is provided.
+-   You are expected to complete the reading within the first three days of the week.
+
+## Week 1 (Aug 25-31). Course Introduction and Basic Social Science Methods
+
+- *Going over the syllabus*
+- *A short instruction to social science methods that can help with readings*
+- *An <red>optional</red> Zoom meeting (link available in Canvas) at 9:45 PM, Aug 26 for live introductions and socializing.*
+
+## Week 2 (Sep 1-7). Big Picture: Political Transformation in Global Context: Concepts and Theories
+
+- Goldstone, Ch. 1.
+- Haggard, "Introduction: Regime change ..." chapter.
+- Acemoglu, Daron, and James A. Robinson. 2001. “A Theory of Political Transitions.” American Economic Review 91(4): 938–63. <mark>not required</mark>
+- Roessler, Philip. 2011. “The Enemy within: Personal Rule, Coups, and Civil War in Africa.” *World Politics* 63(2): 300–346. <mark>not required</mark>
+- Olson, Mancur. 1965. *Logic of Collective Action: Public Goods and the Theory of Groups*. Harvard University Press. <mark>not required</mark> (But this is a very short book that is an all time classic in modern social science--if you have time, give it a try.)
+
+## Week 3 (Sep 15-21). Revolutions
+
+- Goldstone, Chs. 2, 3, 6, and 7
+- Weyland, Kurt. 2012. “The Arab Spring: Why the Surprising Similarities with the Revolutionary Wave of 1848?” *Perspectives on Politics* 10(4): 917–34. 
+- Skocpol, Theda. 1979. *States and Social Revolutions: A Comparative Analysis of France, Russia and China.* Cambridge University Press. <mark>not required</mark> (Part I is highly recommended, though.)
+
+## Week 4 (Sep 22-28). Democratization Theory
+
+- Haggard, Chs. 2 through 4.
+- Miller, Ch. 2.
+- Svolik, Milan W. 2019. “Democracy as an Equilibrium: Rational Choice and Formal Political Theory in Democratization Research.” *Democratization* 26(1): 40–60. <mark>not required</mark>, but might be useful for those interested in more mathmatically oriented explanations for democratization
+
+## Week 5 (Sep 29 - Oct 5). Coups and Regime Survival
+
+- De Bruin, Erica. 2020. *How to Prevent Coups d’état: Counterbalancing and Regime Survival*. Cornell University Press. Chs. 2 and 4. (You have free access to these chapters through the GMU Library).
+
+- Sudduth, Jun Koga. 2017. “Coup Risk, Coup-Proofing and Leader Survival.” Journal of Peace Research 54(1): 3–15. 
+
+- Svolik, Milan W. 2015. “Which Democracies Will Last? Coups, Incumbent Takeovers, and the Dynamic of Democratic Consolidation.” *British Journal of Political Science* 45(4): 715–38. <mark>not required</mark>
+
+## Week 6 (Oct 6-12). Authoritarian Resilience
+
+- Miller. Ch. 6.
+
+- Scoggins, Suzanne E. 2021. “Rethinking Authoritarian Resilience and the Coercive Apparatus.” *Comparative Politics* 53(2): 309–30.
+
+- Huang, Haifeng, Serra Boranbay-Akan, and Ling Huang. 2019. “Media, Protest Diffusion, and Authoritarian Resilience.” *Political Science Research and Methods* 7(1): 23–42.
+
+- Nadporozhskii, Ilia. 2023. “Influence of Elite Rotation on Authoritarian Resilience.” *Democratization* 30(5): 794–814.
+
+- Nathan, Andrew J. 2003. “China’s Changing of the Guard: Authoritarian Resilience.” *Journal of democracy* 14(1): 6–17. <mark>not required</mark>
+
+
+
+## Week 7 (Oct 13-19). Democratic Backsliding
+
+- Gandhi, Jennifer. 2019. “The Institutional Roots of Democratic Backsliding.” *The Journal of Politics* 81(1): e11–16. (This is a review essay drawing on some of our textbooks)
+
+- Haggard, Stephan, and Robert Kaufman. 2021. *Backsliding: Democratic Regress in the Contemporary World.* Cambridge University Press. Chs. 2 and 3.
+
+- Wolf, Anne, Kathrin Bachleitner, and Sarah Bufkin. 2024. “Rumors, Propaganda, and Conspiracies: New Insights on the Ideological Dimensions of Democratic Backsliding and Autocratization.” *Perspectives on Politics* 22(4): 1271–74.
+
+## Week 8 (Oct 20-26). Democratic Resilience
+
+- Bianchi, Matías, Nic Cheeseman, and Jennifer Cyr. 2025. “The Myth of Democratic Resilience.” *Journal of Democracy* 36(3): 33–46.
+
+- Cheeseman, Nic, Marie-Eve Desrosiers, Licia Cianetti, and Manoel Gehrke. 2024. “How to Strengthen Democratic Resilience” European Democracy Hub. [Link](https://europeandemocracyhub.epd.eu/wp-content/uploads/2024/12/How-to-Strengthen-Democratic-Resilience-Five-Lessons-for-Democratic-Renewal_final.pdf?_gl=1*tv8mi8*_up*MQ..*_ga*MTI0OTQ2NzA2Ni4xNzU1MTk1NTgx*_ga_BHNNDW48HC*czE3NTUxOTU1NzgkbzEkZzEkdDE3NTUxOTU2NDckajU0JGwwJGgw).
+
+- Boese, Vanessa A, Amanda B Edgell, Sebastian Hellmeier, Seraphine F Maerz, and Staffan I Lindberg. 2021. “How Democracies Prevail: Democratic Resilience as a Two-Stage Process.” *Democratization* 28(5): 885–907.
+
+
+
+## Week 9 (Oct 27- Nov 2). How domestic factors all come together
+
+- Miller. Ch. 3
+
+- Thyne, Clayton L., and Jonathan M. Powell. 2016. “Coup d’état or Coup d’Autocracy? How Coups Impact Democratization, 1950–2008 1.” *Foreign Policy Analysis* 12(2): 192–213. 
+
+- Thyne, Clayton, and Kendall Hitch. 2020. “Democratic versus Authoritarian Coups: The Influence of External Actors on States’ Postcoup Political Trajectories.” *Journal of Conflict Resolution* 64(10): 1857–84.
+
+
+## Week 10 (Nov 3-9). International Factors
+
+- Miller. Ch. 4.
+
+- Wobig, Jacob. 2015. “Defending Democracy with International Law: Preventing Coup Attempts with Democracy Clauses.” *Democratization* 22(4): 631–54. 
+
+## Week 11 (Nov 10-16). Consequences: Economic
+
+- de Kadt, Daniel, and Stephen B Wittels. 2019. “Democratization and Economic Output in Sub-Saharan Africa.” *Political Science Research and Methods* 7(1): 63–84.
+
+- Girardi, Daniele, and Samuel Bowles. 2018. “Institution Shocks and Economic Outcomes: Allende’s Election, Pinochet’s Coup and the Santiago Stock Market.” *Journal of Development Economics* 134(1): 16–27.
+
+- Acemoglu, Daron, Suresh Naidu, Pascual Restrepo, and James A. Robinson. 2019. “Democracy Does Cause Growth.” *Journal of Political Economy* 127(1): 47–100. <mark>not required</mark>
+
+- Jales, Hugo, Thomas H Kang, Guilherme Stein, and Felipe Garcia Ribeiro. 2018. “Measuring the Role of the 1959 Revolution on Cuba’s Economic Performance.” *The World Economy* 41(8): 2243–74. <mark>not required</mark>
+
+
+## Week 12 (Nov 17-23). Consequences: Socio-cultural
+
+- Son, Byunghwan. 2024. “Consequences of Democratic Backsliding in Popular Culture: Evidence from Blacklist in South Korea.” Democratization 31(8): 1798–1822. 
+
+- Son, Byunghwan, and Nisha Bellinger. 2022. “The Health Cost of Autocratization.” The Journal of Development Studies 58(5): 873–90.
+
+- Nalepa, Monika. 2022. *After Authoritarianism*. New York: Cambridge University Press. Chs. 6 and 7.
+
+
+## Week 13 (Nov 24-30). No Class. Thanksgiving Break
+
+## Week 14 (Dec 1-7). Wrap-up. QnA. 
+- An optional Zoom session will be held at 9:00 PM, Dec 2 (Tuesday). Zoom link will be made available in Canvas.
+
+## Final Exam (Dec 11)
+
+- The final exam takes the form of essay.
+- The questions are to open at 7:30 PM, Dec 10.
+- The deadline is 7:30 PM, Dec 12. 
+- More detailed instructions will be made available as we get closer to the end of the semester.
+
+
