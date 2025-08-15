@@ -1,5 +1,5 @@
 ---
-title: Syllabus. <span style="color:red">GLOA 396</span> <br> "Global Politics & Revolution -- <em>Transformation and Resilience</em>"  
+title: Syllabus. <br> <span style="color:green">GLOA 396</span> "Global Politics & Revolution -- <em>Transformation and Resilience</em>"  
 subtitle: Fall 2025, Online Asynchronous ([Link to Canvas](https://canvas.gmu.edu/courses/52802))
 format: 
   html:
@@ -58,7 +58,7 @@ blue {
 
 **Update log**
 
-  - <font size='2'>August 11: This syllabus is created.</font>
+  - <font size='2'>August 14: This syllabus is created.</font>
 
 # Instructor
 
@@ -73,12 +73,12 @@ blue {
     - Either way, it is strongly recommended that you let me know that you're coming in at least a couple hours in advance. Just drop me an email.  
 - Email Communications
   -   You can email me whenever you want, but my responses to the emails sent to me after 5 pm weekdays as well as any time during the weekend will be significantly slow.
-    -   For your own interest, you might want to try to use the normal working hours (9 AM to 5 PM, Monday through Friday). In your email, please indicate <red>who you are</red> and <red>which class you’re in (i.e., GLOA 720)</red>.
+    -   For your own interest, you might want to try to use the normal working hours (9 AM to 5 PM, Monday through Friday). In your email, please indicate <red>who you are</red> and <red>which class you’re in (i.e., GLOA 396)</red>.
     -   For security reasons, emails not sent from the Mason account (i.e., gmu.edu) won't be answered. This is the University policy.
 
 # Course Description
 
-Political globalization involves homogenization of political systems across borders, which inevitably pits together the forces of changes and those of resistance to them. This upper-level course examines how such tensions play out in global societies through revolution, democratization, coup, or gradual reform. It also looks at how they resist such changes--for better or worse--even when the odds were stacked up against them. Drawing on historical and contemporary cases as well as cutting edge scientific research methods, students will engage with theoretical and empirical dimensions of revolution, regime change, military coups, authoritarian resurgence, and global democratic decline. 
+Political globalization involves homogenization of political systems across borders, which inevitably pits together the forces of changes and those fighting them. This upper-level course examines how such tensions play out in global societies through revolution, democratization, democratic backsliding, or coup. It also looks at how they resist such changes--for better or worse--even when the odds were stacked up against them. Drawing on historical and contemporary cases as well as cutting edge scientific research methods, students will engage with theoretical and empirical dimensions of revolution, regime change, military coups, authoritarian resurgence, and global democratic decline. 
 
 By the end of the course, students will have critical understandings of the transformative consequences of political globalization. In particular, they will be able to:
 
@@ -86,30 +86,30 @@ By the end of the course, students will have critical understandings of the tran
 - **Explain** the causes and processes of democratic backsliding and coups.
 - **Evaluate** strategies for resilience against authoritarian resurgence.
 - **Analyze** historical and contemporary case studies of political transformation.
-- **Synthesize** research on global patterns of political change for written and oral analysis.
+- **Synthesize** research on global patterns of political change for written and verbal analysis.
+
+Often asynchronous online courses are misconstrued as a 'light' course. In reality, when done right, it could be a demanding, intensive course. This class is a good example.
 
 
 # Course Requirements {#sec-require}
 
 ## Canvas Page 
 
-The primary platform of all our class activities is our course page in [Canvas](https://canvas.gmu.edu/courses/52802). Announcements, course materials, exams, assignments and submissions are all happening there. It is your responsibility to check the Canvas page at least three times a week. Email reminders of important things might be made, but only out of courtesy--so don't really on it. One cannot pass the course if there more than three weeks where they fail to connect to the Canvas course page less than three times (i.e., once, twice, or not at all).
+The primary platform of all our class activities is our course page in [Canvas](https://canvas.gmu.edu/courses/52802). Announcements, course materials, exams, assignments and submissions are all happening there. "Weekly Modules" will be particularly important. It is your responsibility to check the Canvas page at least three times a week. Email reminders of important things might be made, but only out of courtesy--so don't rely on it. One may fail the course if there more than three weeks where they fail to connect to the Canvas course page less than three times (i.e., once, twice, or not at all).
 
 When you come to the Canvas page, the most important place is the 'Weakly Module' where almost all actions are happening. Be sure to check it first.
 
 ## Required Textbook
 
-- You have **free access** to these three books through GMU Library. No need to purchase any of them.
+You have **free online access** to these three books through GMU Library. No need to purchase any of them.
 
-- Goldstone, Jack A. 2023. *Revolutions: A Very Short Introduction*. Oxford University Press. (We probably will read almost all chapters of this short book) 
+- Goldstone, Jack A. 2023. *Revolutions: A Very Short Introduction*. Oxford University Press. 
 
-- Haggard, Stephan, and Robert R Kaufman. 2016. *Dictators and Democrats: Masses, Elites, and Regime Change*. Princeton University Press. (We will read many, though not all, of the chapters.)
+- Haggard, Stephan, and Robert R Kaufman. 2016. *Dictators and Democrats: Masses, Elites, and Regime Change*. Princeton University Press. 
 
 - Miller, Michael K. 2021. *Shock to the System: Coups, Elections, and War on the Road to Democratization*. Princeton University Press.
- (We will read many, though not all, of the chapters.) 
 
-There are various articles and book chapters, all of which will be made available in Canvas. 
-
+In addition, there are various articles and book chapters. They should be available to you through the Mason Library [webpage](https://library.gmu.edu/) (simply copy-and-paste the title into the search bar). There are some exceptions to this and their PDF versions will be available in Canvas.
 
 
 ## Graded Items
@@ -118,13 +118,15 @@ There are various articles and book chapters, all of which will be made availabl
 
 Make a video containing your reflection on the course material of the week (i.e., readings and lecture) in relation to the Moments of Uncertainty (MOU) you choose (see below). The video is about 5 to 7 minutes. In the video:
 
-- Discuss briefly what you thought the major takeaways of the week's course material.
-- Discuss how your MOU is related to the takeaways. In particular, talk about <red>how</red> the situation in MOU could've developed into a certain direction or how it didn't happen. For instance, if the week's primary topic was coups (when and how they happen) and you chose MOU of the Philippines in 1983, you could discuss either why the military didn't take advantage of the power vacuum.
-- Be creative and at times become an alt-history writer, though your discussion always needs to be anchored to the class materials, not merely wild imaginations.
-- While not strictly required, using slides and visual aids would be helpful. 
-- Make sure you actually show up at least in some portions of the video in an 'identifiable' way, although you are allowed to wear masks and sunglasses.
+- Discuss briefly what you thought the major takeaways of the week's course material were.
+- Discuss how your MOU is related to the takeaways. In particular, talk about <red>how</red> the situation in MOU could've developed into a certain direction or how it didn't happen. For instance, if the week's primary topic was coups (when and how they happen) and you chose MOU of the Philippines in 1983, you could discuss why the military didn't take advantage of the power vacuum--or how the military could in fact simply grab the power.
+- Be creative and at times become an alt-history writer, playing with hypotheticals, though your discussion always needs to be anchored to the class materials, not merely wild imaginations.
+- While not strictly required, using slides and visual aids would be helpful. It is important that they are used effectively--slides full of numerous texts, which you simply read out, may hurt your grades. 
+- Make sure you actually show up at least in some portions of the video in an 'identifiable' way, although you are allowed to wear masks and sunglasses. In other words, a voice-over PPT could be part of your video, but you still need to show up at some point in their.
+  - There are many ways to go about this and it is completely up to you. One easy (and free) way is to use Zoom. There's a lot of instructions for doing this in YouTube ([ example](https://youtu.be/P6cTbnUPwfY)). I use OBS, which I think is just as easy. Numerous YouTube instructions for this too ([example](https://youtu.be/Kjuwk2Gh_qg)). Kaltura is also a good option. It's slow but directly plugged into Canvas ([YouTube Instruction of 'how to'](https://youtu.be/GWhzoEpwP9U)). And, of course, there must be a lot more alternatives. It doesn't matter--it's your call.
+  - We live in an era where video (online) presentations are considered basic skills in almost all occupations. Consider this assignment a practice. 
 
-Make <blue>six</blue> of these videos. It's up to you which week you decide to work on. The deadline is midnight (11:59 PM), the Thursday of the week. Post the video in the designated place in Canvas.
+Make <red>six</red> of these videos. It's up to you which week you decide to work on. The deadline is midnight (11:59 PM), the Thursday of the week. Post the video in the designated place in Canvas. All Critical Reflection Videos should be submitted by **Week 12** (Nov 14).
 
 The list of MOUs are as follows. Relatively less known cases are collected on purpose. You have to choose one, and only one, MOU and work on it throughout the semester.
 
@@ -166,7 +168,7 @@ Massive anti-corruption protests forced President Otto Pérez Molina to resign a
 
 ### Peer-Reaction (10%)
 
-On Friday and/or Saturday (i.e., when videos are posted), you may put comments on your classmates videos. And you will react to the comments that your classmates put on your video. Your engagement will be holistically evaluated at the end of the semester, reflecting both its frequencies and qualities. Roughly speaking:
+On Friday and/or Saturday (i.e., after video presentations are posted), you may put comments on your classmates videos. And you will react to the comments that your classmates put on your video. Your engagement will be holistically evaluated at the end of the semester, reflecting both its frequencies and qualities. Roughly speaking:
 
 
 ```{r}
@@ -236,9 +238,9 @@ It would be a great idea that when making videos, you consider how they might ev
 
 ### Final Exam (20%)
 
-The final exam will take the form of essay. The question(s) will be on 1) the readings and 2) student presentation videos. So, in general, <mark>completing each week's reading</mark> and <mark2>paying attention to fellow classmates' critical reflection of MOUs</mark2> would prepare you for the exam. There would be no other way, in fact, answers not based on these two factors (i.e., sources not discussed in class) would not be graded.
+The final exam will take the form of essay. The question(s) will be on 1) the readings and 2) student presentation videos. So, in general, <mark>completing each week's reading</mark> and <mark>paying attention to fellow classmates' critical reflection of MOUs</mark> would prepare you for the exam. There would be no other way, in fact, answers not based on these two factors (i.e., sources not discussed in class) would not be graded.
 
-The question(s) will be made available in Canvas at 7:30 PM, Dec 10. The deadline for submission (Canvas) is 7:30 PM, Dec 11. So you are given 24 hours. This does not mean that it will take 24 hours for you to complete the exam. You can take as much time as you want, but I expect that it would take about a couple of hours. So not very different from an in-class exam (only taking place on-line) and you are responsible for carving out 2 to 3 hours out of the 24-hour window. More details about the exam will be provided as we get closer to the end of the semester.
+The question(s) will be made available in Canvas at **7:30 PM, Dec 10**. The deadline for submission (Canvas) is **7:30 PM, Dec 11**. So you are given 24 hours. This does not mean that it will take 24 hours for you to complete the exam. You can take as much time as you want, but I expect that it would take about a couple of hours. So not very different from an in-class exam (only taking place on-line) and you are responsible for carving out 2 to 3 hours out of the 24-hour window. More details about the exam will be provided as we get closer to the end of the semester.
 
 
 # Course Policies
@@ -248,11 +250,19 @@ The question(s) will be made available in Canvas at 7:30 PM, Dec 10. The deadlin
 All assignments are expected to be submitted electronically in Canvas. Do *not* email any assignments. They won't be graded.
 
 - For video submissions, either YouTube or **Kaltura MyMedia** can be used. When using YouTube, you can upload your video to YouTube, set the video privacy as 'unlisted', and simply submit a <red>link</red> to your video. 
-  - Do <red>not</red> attach your video file directly to our Canvas page, though.
+  - Submitting your video file itself directly to our Canvas page is not recommended.
 - Technical difficulties are not rare. Try to submit it early if you can.
-- If uploading a document file (e.g., final exam), be sure to make it a MS Word or PDF file. Absolutely NO Pages file as it causes a problem in the system. You have free access to MS Office software as a Mason student. You can also 'export' a Page file as a Word file. 
+- If uploading a document file (e.g., final exam), be sure to make it a MS Word or PDF file. Absolutely <red>no</red> Pages file as it causes a problem in the system. You have free access to MS Office software as a Mason student. You can also 'export' a Page file as a Word file. 
 - 10 % reduction in grade (e.g., one day late for a literature review submission will translate into 1.5 points reduction = 10% $\times$ 15 pts) will be applied to a same day late submission (so it is still a good idea to turn things in no later than the day of the deadline—the damage would be minimal!). Additional 10% reduction will be added for each midnight (11:59 pm) until the submission.
  
+## Grading and Feedback
+
+This is not a math or computer science course with a clear path to the “right answer” on each problem set. In those courses, the closer your work is to that path, the better the grade — and it is sometimes possible to earn 100% with feedback like “correct X, Y, and Z, and you’ll have full marks.”
+
+That dynamic does not exist here, nor in most social science and humanities courses. Your assignments will be verbal or written, and there is no single “correct” answer. Paths to excellence vary and depend heavily on context. There is no formulaic feedback such as “fix X, Y, and Z, and you’re golden.” Changing one part of your argument often creates new issues elsewhere.
+I will provide constructive feedback to help you improve, but addressing every comment does not guarantee a perfect grade. In fact, earning 100% in any of the grading item will be extremely rare. So 'why am I not getting 100% on this assignment' is a wrong question to ask unless you believe it is indisputably perfect in all aspect.  
+
+That said, there is a clear distinction between strong and weak work. And good ones will be recognized with grades close to (though not equal to) 100%. Eventually, a good number of you will earn As from this course, and I will do my best to push you toward the “good” end of the spectrum. If you take a step back and really think about it, this approach is simply common sense.
 
 ## Accommodations
 
@@ -280,7 +290,7 @@ Another way is to use LLM to find relevant readings, although this is proven qui
 
 You can also use AI to detect typos or *obvious/simple* grammar errors. However, if you let it offer basically the whole prose for you, then it's considered plagiarism. An easy way to tell this is to ask yourself: "Could I come up with this kind of expression/sentence myself?" If the answer is 'no' or 'not sure,' then you have to stay away from it. Remember, this is not a writing or literature class and, however elegant, *your prose is not relevant* to your grades. In fact, good prose that compromises the clarity would work adversely for you. F. Scott Fitzgerald would've struggled in this class unless he altered his prose, for example.
 
-<mark2>Not bothering using an LLM or any kind of program in the first place remains a great option.</mark2>
+<mark2>Not bothering using an LLM or any kind of program in the first place remains a great option.</mark2> I actually don't see any upside.
 
 ## Mutual Respect and Collegiality
 
@@ -326,15 +336,15 @@ The grading scale in this course follows [GMU Catalogue](https://catalog.gmu.edu
     -   Required readings are indispensable for your successful completion of this course.
     -   <mark>not required</mark> readings might still be tremendously helpful and you are strongly encouraged to finish them too.
 -   Some readings might have hyperlinks. Others don't. It doesn't matter. You should be able to find almost all readings in the syllabus in <red>PDF</red> in [Fenwick library](https://library.gmu.edu/) because all the reference information is provided.
--   You are expected to complete the reading within the first three days of the week.
+-   You are expected to complete the reading within the first three days of the week. Completing them in advance is recommended, though. 
 
-## Week 1 (Aug 25-31). Course Introduction and Basic Social Science Methods
+## Week 1 (Aug 25-31). Course Introduction and Basic Social Science Methods {.unnumbered}
 
 - *Going over the syllabus*
 - *A short instruction to social science methods that can help with readings*
 - *An <red>optional</red> Zoom meeting (link available in Canvas) at 9:45 PM, Aug 26 for live introductions and socializing.*
 
-## Week 2 (Sep 1-7). Big Picture: Political Transformation in Global Context: Concepts and Theories
+## Week 2 (Sep 1-7). Big Picture: Political Transformation in Global Context: Concepts and Theories {.unnumbered}
 
 - Goldstone, Ch. 1.
 - Haggard, "Introduction: Regime change ..." chapter.
@@ -342,19 +352,20 @@ The grading scale in this course follows [GMU Catalogue](https://catalog.gmu.edu
 - Roessler, Philip. 2011. “The Enemy within: Personal Rule, Coups, and Civil War in Africa.” *World Politics* 63(2): 300–346. <mark>not required</mark>
 - Olson, Mancur. 1965. *Logic of Collective Action: Public Goods and the Theory of Groups*. Harvard University Press. <mark>not required</mark> (But this is a very short book that is an all time classic in modern social science--if you have time, give it a try.)
 
-## Week 3 (Sep 15-21). Revolutions
+## Week 3 (Sep 8-14 ). Revolutions {.unnumbered}
 
 - Goldstone, Chs. 2, 3, 6, and 7
 - Weyland, Kurt. 2012. “The Arab Spring: Why the Surprising Similarities with the Revolutionary Wave of 1848?” *Perspectives on Politics* 10(4): 917–34. 
 - Skocpol, Theda. 1979. *States and Social Revolutions: A Comparative Analysis of France, Russia and China.* Cambridge University Press. <mark>not required</mark> (Part I is highly recommended, though.)
 
-## Week 4 (Sep 22-28). Democratization Theory
+## Week 4 (Sep 15-21). Democratization Theory {.unnumbered}
 
 - Haggard, Chs. 2 through 4.
 - Miller, Ch. 2.
+- Slater, Dan, and Joseph Wong. 2013. “The Strength to Concede: Ruling Parties and Democratization in Developmental Asia.” *Perspectives on Politics* 11(3): 717–33.
 - Svolik, Milan W. 2019. “Democracy as an Equilibrium: Rational Choice and Formal Political Theory in Democratization Research.” *Democratization* 26(1): 40–60. <mark>not required</mark>, but might be useful for those interested in more mathmatically oriented explanations for democratization
 
-## Week 5 (Sep 29 - Oct 5). Coups and Regime Survival
+## Week 5 (Sep 22-28). Coup {.unnumbered}
 
 - De Bruin, Erica. 2020. *How to Prevent Coups d’état: Counterbalancing and Regime Survival*. Cornell University Press. Chs. 2 and 4. (You have free access to these chapters through the GMU Library).
 
@@ -362,7 +373,7 @@ The grading scale in this course follows [GMU Catalogue](https://catalog.gmu.edu
 
 - Svolik, Milan W. 2015. “Which Democracies Will Last? Coups, Incumbent Takeovers, and the Dynamic of Democratic Consolidation.” *British Journal of Political Science* 45(4): 715–38. <mark>not required</mark>
 
-## Week 6 (Oct 6-12). Authoritarian Resilience
+## Week 6 (Sep 29 - Oct 5). Authoritarian Resilience {.unnumbered}
 
 - Miller. Ch. 6.
 
@@ -376,7 +387,7 @@ The grading scale in this course follows [GMU Catalogue](https://catalog.gmu.edu
 
 
 
-## Week 7 (Oct 13-19). Democratic Backsliding
+## Week 7 (Oct 6-12). Democratic Backsliding {.unnumbered}
 
 - Gandhi, Jennifer. 2019. “The Institutional Roots of Democratic Backsliding.” *The Journal of Politics* 81(1): e11–16. (This is a review essay drawing on some of our textbooks)
 
@@ -384,7 +395,7 @@ The grading scale in this course follows [GMU Catalogue](https://catalog.gmu.edu
 
 - Wolf, Anne, Kathrin Bachleitner, and Sarah Bufkin. 2024. “Rumors, Propaganda, and Conspiracies: New Insights on the Ideological Dimensions of Democratic Backsliding and Autocratization.” *Perspectives on Politics* 22(4): 1271–74.
 
-## Week 8 (Oct 20-26). Democratic Resilience
+## Week 8 (Oct 13-19). Democratic Resilience {.unnumbered}
 
 - Bianchi, Matías, Nic Cheeseman, and Jennifer Cyr. 2025. “The Myth of Democratic Resilience.” *Journal of Democracy* 36(3): 33–46.
 
@@ -394,7 +405,7 @@ The grading scale in this course follows [GMU Catalogue](https://catalog.gmu.edu
 
 
 
-## Week 9 (Oct 27- Nov 2). How domestic factors all come together
+## Week 9 (Oct 20-26). How domestic factors all come together {.unnumbered}
 
 - Miller. Ch. 3
 
@@ -403,13 +414,13 @@ The grading scale in this course follows [GMU Catalogue](https://catalog.gmu.edu
 - Thyne, Clayton, and Kendall Hitch. 2020. “Democratic versus Authoritarian Coups: The Influence of External Actors on States’ Postcoup Political Trajectories.” *Journal of Conflict Resolution* 64(10): 1857–84.
 
 
-## Week 10 (Nov 3-9). International Factors
+## Week 10 (Oct 27- Nov 2). International Factors {.unnumbered}
 
 - Miller. Ch. 4.
 
 - Wobig, Jacob. 2015. “Defending Democracy with International Law: Preventing Coup Attempts with Democracy Clauses.” *Democratization* 22(4): 631–54. 
 
-## Week 11 (Nov 10-16). Consequences: Economic
+## Week 11 (Nov 3-9). Consequences: Economic {.unnumbered}
 
 - de Kadt, Daniel, and Stephen B Wittels. 2019. “Democratization and Economic Output in Sub-Saharan Africa.” *Political Science Research and Methods* 7(1): 63–84.
 
@@ -420,7 +431,9 @@ The grading scale in this course follows [GMU Catalogue](https://catalog.gmu.edu
 - Jales, Hugo, Thomas H Kang, Guilherme Stein, and Felipe Garcia Ribeiro. 2018. “Measuring the Role of the 1959 Revolution on Cuba’s Economic Performance.” *The World Economy* 41(8): 2243–74. <mark>not required</mark>
 
 
-## Week 12 (Nov 17-23). Consequences: Socio-cultural
+## Week 12 (Nov 10-16). Consequences: Socio-cultural {.unnumbered}
+
+*All video presentations should be submitted by this week.*
 
 - Son, Byunghwan. 2024. “Consequences of Democratic Backsliding in Popular Culture: Evidence from Blacklist in South Korea.” Democratization 31(8): 1798–1822. 
 
@@ -429,12 +442,15 @@ The grading scale in this course follows [GMU Catalogue](https://catalog.gmu.edu
 - Nalepa, Monika. 2022. *After Authoritarianism*. New York: Cambridge University Press. Chs. 6 and 7.
 
 
-## Week 13 (Nov 24-30). No Class. Thanksgiving Break
 
-## Week 14 (Dec 1-7). Wrap-up. QnA. 
+## Week 13 (Nov 17-23). No Class. Thanksgiving Break {.unnumbered}
+
+## Week 14 (Nov 24-30). Special Topic. Details to be announced.{.unnumbered}
+
+## Week 15 (Dec 1-7). Wrap-up. QnA.  {.unnumbered}
 - An optional Zoom session will be held at 9:00 PM, Dec 2 (Tuesday). Zoom link will be made available in Canvas.
 
-## Final Exam (Dec 11)
+## Final Exam (Dec 11) {.unnumbered}
 
 - The final exam takes the form of essay.
 - The questions are to open at 7:30 PM, Dec 10.
