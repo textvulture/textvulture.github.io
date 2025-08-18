@@ -310,11 +310,14 @@ source2 <- data.frame(
       "90.00 - 92.99",   
       "87.00 - 89.99",    
       "83.00 - 86.99",  
-      "80.00 - 82.99",  
-      "60.00 - 79.99",  
+      "80.00 - 82.99",
+      "77.00 - 79.99",
+      "74.00 - 76.99",
+      "70.00 - 73.99",
+      "60.00 - 69.99",  
       "59.99 or lower"
     ),
-  Letter.Grade = c("A or A+", "A-", "B+", "B", "B-", "C", "F")
+  Letter.Grade = c("A or A+", "A-", "B+", "B", "B-", "C+", "C", "C-", "D", "F")
 )
 
 library(tinytable)
@@ -322,7 +325,7 @@ tt(source2)
 ```
 
 
-The grading scale in this course follows [GMU Catalogue](https://catalog.gmu.edu/policies/academic/grading/#ap-3-2).
+The grading scale in this course follows [GMU Catalogue](https://catalog.gmu.edu/policies/academic/grading/#ap-3-1).
 
 - The class does not give ‘I’ (incomplete) unless you have already completed about 95% of the course requirement.
 - Please note that there is no ‘round up’ of scores at the end of the semester. 92.99999, for example, is A–.
