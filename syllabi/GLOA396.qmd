@@ -456,8 +456,8 @@ The grading scale in this course follows [GMU Catalogue](https://catalog.gmu.edu
 ## Final Exam (Dec 11) {.unnumbered}
 
 - The final exam takes the form of essay.
-- The questions are to open at 7:30 PM, Dec 10.
-- The deadline is 7:30 PM, Dec 12. 
+- The questions are to open at **7:30 PM, Dec 10**.
+- The deadline is **7:30 PM, Dec 11**. 
 - More detailed instructions will be made available as we get closer to the end of the semester.
 
 
