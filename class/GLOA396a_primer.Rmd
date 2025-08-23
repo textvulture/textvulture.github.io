@@ -1,0 +1,165 @@
+---
+title: "GLOA396 Primer"
+author: "Byunghwan Son <br> George Mason University"
+date: " "
+#########################################
+linkcolor: red
+citecolor: blue
+urlcolor: blueß
+output: 
+  xaringan::moon_reader:
+    seal: false
+    nature:
+      beforeInit: "https://platform.twitter.com/widgets.js"
+      ratio: '16:9'
+      highlightStyle: github
+  #    self-contained: TRUE
+  chakra: css/libs/remark-latest.min.js
+css: ["default", 
+      "css/footer.css", 
+      "css/color.css", 
+      # "css/xaringan-themer.css",
+      default-fonts]
+lib_dir: css/libs
+beforeInit: "css/macros.js"
+# seal: false  
+#bibliography: /Users/bson3/Dropbox/latex/mybib2.bib
+#remotes::install_github('yihui/xaringan', upgrade = TRUE)
+---
+
+```{r setup, include=FALSE}
+# to use FontAwesome
+#htmltools::tagList(rmarkdown::html_dependency_font_awesome())
+library(dplyr)
+library(tidyr)
+library(fs)
+library(fontawesome)
+# library(magick)  
+library(ggplot2)
+knitr::opts_chunk$set(warning = FALSE, message = FALSE, error=F, echo=F)
+options(htmltools.preserve.raw = FALSE)
+```
+
+class: center, middle, inverse
+background-image: url(https://github.com/textvulture/textvulture.github.io/blob/master/images/deskBackground3.png?raw=true)
+background-size: 110%
+
+# .LARGE[**A Primer on Social Science Research Methods**]
+
+# .times[**.yellow[GLOA 396**]]
+
+---
+
+# Every research uses .pink[methods]. 
+
+--
+
+.blockquote[
+
+### **methods**: .orange[The ways in which the conclusion of the research is presented and drawn.]
+
+]
+
+--
+
+## - 'what is a good method' depends a lot on the purpose of the research project, which is often reflected in .Blue[research question].
+
+--
+
+## - It is therefore a great idea to identify what the research question is when evaluating a project (i.e., paper, report, or a book.)
+
+--
+
+## - Very often (though not always), straightforwardly presented in form of a .green[question] in the intro.
+
+---
+
+# For example:
+
+--
+
+> .Large["Rather than conceding and withdrawing, rulingparties in these Asian developmental states conceded andthrived. But why, when, and how do such "conceding-to-thrive" scenarios come to pass?" (Slater and Wong 2013, 718)]
+
+--
+
+> .Large["These descriptive similarities raise an explanatory puzzle: Why would two contentious waves that played out at very differenttimes in very different regions share these distinctivefeatures?" (Weyland 2012, 918)]
+
+
+---
+
+class: center, middle, inverse
+background-image: url(https://github.com/textvulture/textvulture.github.io/blob/master/images/forestBackground3.jpg?raw=true)
+
+
+# .Large[Let's see what kind of different methods are there to answer different questions.]
+
+---
+
+
+```{r, out.width="75%", fig.align='center'}
+
+knitr::include_graphics("https://raw.githubusercontent.com/textvulture/textvulture.github.io/refs/heads/master/images/methods_tree_1.png")
+
+```
+
+
+---
+
+
+```{r, out.width="75%", fig.align='center'}
+
+knitr::include_graphics("https://raw.githubusercontent.com/textvulture/textvulture.github.io/refs/heads/master/images/methods_tree_3.png")
+
+```
+
+
+---
+
+
+```{r, out.width="75%", fig.align='center'}
+
+knitr::include_graphics("https://raw.githubusercontent.com/textvulture/textvulture.github.io/refs/heads/master/images/methods_tree_4.png")
+
+```
+
+
+---
+
+
+```{r, out.width="75%", fig.align='center'}
+
+knitr::include_graphics("https://raw.githubusercontent.com/textvulture/textvulture.github.io/refs/heads/master/images/methods_tree_5.png")
+
+```
+
+
+---
+
+
+```{r, out.width="75%", fig.align='center'}
+
+knitr::include_graphics("https://raw.githubusercontent.com/textvulture/textvulture.github.io/refs/heads/master/images/methods_tree_6.png")
+
+```
+
+
+---
+
+# Why do we care about all this stuff in this particular .pink[class]?
+
+--
+
+.content-box-green[
+## 1. They help you understand the readings.
+] 
+
+--
+
+.content-box-yellow[
+## 2. They help you evaluate the readings critically. 
+]
+--
+
+.content-box-red[
+## 3. They help you come up with the Critical Reflection ideas.
+]
