@@ -59,6 +59,7 @@ blue {
 **Update log**
 
   - <font size='2'>August 14: This syllabus is created.</font>
+  - <font size='2'>August 23: Critical Synthesis deadline eded. </font>
 
 # Instructor
 
@@ -230,11 +231,11 @@ df %>%
 
 ```
 
-### Critical Reflection Syntehsis (10%)
+### Critical Reflection Synthesis (10%)
 
 Putting together all six Critical Reflection Videos, write a paper talking about 1) which of the situation discussed was most *theoretically* convincing path and 2) why the actual history did (or did not) materialize that way. The paper needs to be longer than 1,000 words and shorter than 1,700 words. All the common requirements for a research paper (e.g., citation, intro, conclusion) apply.
 
-It would be a great idea that when making videos, you consider how they might eventually translate into this syntehsis.
+It would be a great idea that when making videos, you consider how they might eventually translate into this synthesis. It is due **7:30 PM, December 1**.
 
 ### Final Exam (20%)
 
@@ -452,6 +453,7 @@ The grading scale in this course follows [GMU Catalogue](https://catalog.gmu.edu
 
 ## Week 15 (Dec 1-7). Wrap-up. QnA.  {.unnumbered}
 - An optional Zoom session will be held at 9:00 PM, Dec 2 (Tuesday). Zoom link will be made available in Canvas.
+- Critical Synthesis Due (7:30 PM, December 1)
 
 ## Final Exam (Dec 11) {.unnumbered}
 
