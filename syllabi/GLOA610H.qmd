@@ -1,6 +1,6 @@
 ---
 title: "Syllabus: GLOA 610 Economic Globalization & Development"
-subtitle: Fall 2025. <br> Hybrid. F2F lecture, 7:30--9 PM (T) + online <br> [Innovation Hall 330](https://maps.app.goo.gl/qKt8oZPFcbQzFc5u8)
+subtitle: Fall 2025. <br> Hybrid. F2F lecture, 7:20--9 PM (T) + online <br> [Innovation Hall 330](https://maps.app.goo.gl/qKt8oZPFcbQzFc5u8)
 format: 
   html:
 #    math: mathjax
