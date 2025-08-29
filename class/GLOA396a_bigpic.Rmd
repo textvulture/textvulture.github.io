@@ -62,10 +62,54 @@ knitr::include_graphics("https://freedomhouse.org/sites/default/files/styles/120
 
 ```
 
+---
 
+# Or more like this:
 
+![](https://github.com/textvulture/textvulture.github.io/blob/master/images/cartoonworld.png?raw=true)
+
+source: ChatGPT5
+---
+
+# But in reality: .tiny[(based on Vdem data)]
+
+--
+
+```{r, fig.width=14, fig.height=7.25, fig.align='center', cache=TRUE}
+
+library(vdemdata) 
+library(dplyr)
+library(ggplot2)
+
+data <- vdem %>% select("country_id", "country_name", "year",
+                "v2x_polyarchy")
+
+data %>% 
+  ggplot(aes(x=year, y=v2x_polyarchy)) +
+  geom_line(alpha = 0.25, 
+            aes(group=factor(country_id),
+                fill='gray')) +
+  geom_smooth(se=F, color='red') +
+  theme_minimal() +
+  labs(y="democracy") +
+  theme(legend.position = 'none',
+        text = element_text(size=20))
+
+```
 
 
 ---
 
+class: inverse, middle
+background-image: url(https://github.com/textvulture/textvulture.github.io/blob/master/images/forestBackground2.jpg?raw=true)
 
+
+# The extremely .pink[dynamic] nature of global political reigmes implies that there have been a lot of .yellow[transformative] events and moments.
+
+--
+
+# Our job is to take on them. 
+
+--
+
+# To do so, it is important to get our concepts (and how they are related) right.
