@@ -118,4 +118,82 @@ background-image: url(https://github.com/textvulture/textvulture.github.io/blob/
 
 ---
 
-# The big picture 
+# The big picture: how everything is related.
+
+--
+
+.center[
+![](https://github.com/textvulture/textvulture.github.io/blob/master/images/396_1.png?raw=true)
+]
+
+---
+
+# Revolutions
+
+
+## coups
+
+## sessions / civil wars
+
+
+---
+
+# Events that lead to (or are related with) Revolutions
+
+--
+
+## Often .pink[misconstrued] as revolutions, but .red[not] revolutions themselves
+
+.center[
+![](https://github.com/textvulture/textvulture.github.io/blob/master/images/396_1.png?raw=true)
+]
+
+---
+
+# Events that lead to (or are related with) Revolutions
+
+## Often .pink[misconstrued] as revolutions, but .red[not] revolutions themselves
+
+<!-- insert actual stuff here-->
+
+---
+
+# Consequences of Revolutions
+
+.center[
+![](https://github.com/textvulture/textvulture.github.io/blob/master/images/396_1.png?raw=true)
+]
+
+---
+
+
+# Consequences of Revolutions
+<!-- insert actual stuff here-->
+
+
+---
+
+# The underlying factors 
+
+.center[
+![](https://github.com/textvulture/textvulture.github.io/blob/master/images/396_1.png?raw=true)
+]
+
+---
+
+# The underlying factors 
+<!-- insert actual stuff here-->
+
+
+---
+
+class: inverse, middle
+background-image: url(https://github.com/textvulture/textvulture.github.io/blob/master/images/background_leftEmpty3.jpeg?raw=true)
+background-size: 120%
+
+
+# We talked about the big picture where different types of political transformation are .pink[inter-related].
+
+--
+
+# We delve into each one of these throughout the semester.
