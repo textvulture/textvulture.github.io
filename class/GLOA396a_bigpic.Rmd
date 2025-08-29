@@ -41,8 +41,19 @@ options(htmltools.preserve.raw = FALSE)
 ```
 
 class: inverse, center, middle
+background-image: url(https://github.com/textvulture/textvulture.github.io/blob/master/images/rev.png?raw=true)
+background-size: 100%
 
-# .Large[.yellow[Political Transformation in Global Context <br> .pink[Concepts and Theories]]]
+# .Huge[.yellow[Political Transformation in Global Context]]
+
+# .large[.pink[Concepts and Theories]]
 
 # .Large[.Green[GLOA 396]]
+
+---
+
+
+
+---
+
 
