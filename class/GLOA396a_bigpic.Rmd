@@ -64,11 +64,13 @@ knitr::include_graphics("https://freedomhouse.org/sites/default/files/styles/120
 
 ---
 
-# Or more like this:
+class: inverse
 
-![](https://github.com/textvulture/textvulture.github.io/blob/master/images/cartoonworld.png?raw=true)
+background-image: url(https://github.com/textvulture/textvulture.github.io/blob/master/images/cartoonWorld.png?raw=true)
+background-size: 100%
 
-source: ChatGPT5
+# .bluey[.LARGE[**Or, probably, more like this.**]]
+
 ---
 
 # But in reality: .tiny[(based on Vdem data)]
@@ -108,8 +110,12 @@ background-image: url(https://github.com/textvulture/textvulture.github.io/blob/
 
 --
 
-# Our job is to take on them. 
+# Our job is to investigate them. 
 
 --
 
-# To do so, it is important to get our concepts (and how they are related) right.
+# To do so, it is important to get our .Green[concepts] (and how they are related) right, which is what we want to accomplish this week.
+
+---
+
+# The big picture 
