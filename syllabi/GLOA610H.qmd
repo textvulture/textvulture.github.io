@@ -59,6 +59,11 @@ blue {
 </style>
 ```
 
+**Change log** 
+
+- <font size=2>Sep. 2: A new (short) reading added to the week of immigration (Reuters)</font>
+
+
 
 # Instructor
 
@@ -580,6 +585,7 @@ Those presenting this week are advised to **not** to focus on non-political econ
   -  Hangartner, D., Dinas, E., Marbach, M., Matakos, K., and Xefteris, D. (2019). Does exposure to the refugee crisis make natives more hostile? *American Political Science Review*, 113(2):442–455.
   -  Hainmueller, J. and Hopkins, D. J. (2015). The hidden american immigration consensus: A conjoint analysis of attitudes toward immigrants. *American Journal of Political Science*, 59(3):529–548.
   -  Bansak, K., Ferwerda, J., Hainmueller, J., Dillon, A., Hangartner, D., Lawrence, D., and Weinstein, J. (2018). Improving refugee integration through data-driven algorithmic assignment. *Science*, 359(6373):325–329.
+  - Alkousaa, R. (2025). A German Town Hoped Migration Could Turn Its Fortunes around. It Was No Panacea. Reuters. [link](https://www.reuters.com/world/europe/german-town-hoped-migration-could-turn-its-fortunes-around-it-was-no-panacea-2025-08-31/) (September 2, 2025). PDF availabe in Canvas.
   -  Just, A. (2015). The far-right, immigrants, and the prospects of democracy satisfaction in europe. *Party Politics*, page doi:10.1177/1354068815604823. <mark>not required</mark>
   -  Mosley, L. and Singer, D. A. (2015). Migration, labor, and the international political economy. *Annual Review of Political Science*, 18(1):283–301. <mark>not required</mark>
   -  Hainmueller, J. and Hangartner, D. (2013). Who gets a swiss passport? a natural experiment in immigrant discrimination. *American Political Science Review*, 107(1):159–187. <mark>not required</mark>
