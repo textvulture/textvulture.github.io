@@ -53,3 +53,79 @@ background-size: 110%
 # What we do this week:
 
 # We start with .red[revolutions], the most important 'milestone event' in global political transformation. 
+
+---
+
+# What is revolution? .tiny[(we've already talked about this)]
+
+.content-box-blue[
+### [T]he forcible overthre of a government through mass mobilization ... in the name of .green[social justice] to create .orange[new political institutions]. (Goldstone 2023, 4) 
+
+ ### [T]he process by which visionary leaders draw on the power of the masses to seek to forcibly bring into existence a .orange[new political order] (Goldstone 2023, 8) 
+]
+
+--
+
+## A more traditional definition
+
+.content-box-red[ 
+### Social revolutions are rapid, basic transformations of a society’s state and class structures … accompanied and in part carried through by class-based revolts from below. (Skocpol 1979, 4)
+]
+
+---
+
+# The contagion (Weyland 2012): 1848 Europe and 2011 MENA
+
+.pull-left[
+
+.large[People's Spring, 1848-9]
+
+![](https://ehne.fr/sites/default/files/styles/image_notice/public/illustration/2_9_ns_1848printempspeuples3.png?itok=hvZCOte2)
+]
+
+--
+
+
+.pull-right[
+
+.large[Arab Spring, 2011]
+
+![](https://www.economist.com/sites/default/files/images/2016/01/blogs/graphic-detail/20160109_mam931.png)
+]
+
+
+---
+
+# The contagion (Weyland 2012): 1848 Europe and 2011 MENA
+
+- .Large[traditional explanations (structural, ideas, external influence) fall short:]
+
+--
+
+  - .large[combustion `r fa("fire", fill='red')` led by one event: France  (Louis Phillip) and Tunisia (Ben Ali)]
+  
+--
+  - .large[rapid and regionally clustered]
+  
+--
+  - .large[subsided rather quickly]
+  
+--
+  - .large[no strong foreign promoter]
+
+--
+
+- .Large[A better explanation: .pink[cognitive shortcuts] and .Green[inferential heuristics]]
+
+--
+  - .large[**psychology**: in times of profound uncertainty, norms and institutions losing legitimacy, and 'anything viewed as possible', people tend to rely on easy ways (cognitive shortcuts--dramatic events) to 'get a minimal grip' (Weyland 2012, 921), even though that might be .green[irrational].]
+  
+--
+  - .large[the .red[fall] of a well-known regional leader: a cognitive shortcut `r fa("arrow-right", fill='blue')` a rush to emulating effort, .orange[discounting] local conditions]
+  
+--
+  - .large[a compounding factor: lack of .red[social organizations]]
+
+---
+
+
