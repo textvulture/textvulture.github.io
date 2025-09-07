@@ -74,6 +74,131 @@ background-size: 110%
 
 ---
 
+class: inverse
+background-image: url(https://static.planetminecraft.com/files/banners/minecraft_banner_21c1C2h23.png)
+background-position: right
+background-size: 28%
+background-color: black
+
+
+# What drives a revolution?
+
+--
+
+### A good explanation would offer .orange[when] and .Green[how]: <br> .small[*grievance, modernization, and ideologies offer insufficient accounts.*]
+
+--
+
+ - .large[Anger (poverty, injustice, discrimination) is never enough.] 
+--
+
+ - .large[Underdevelopment (modernization) can be context-dependent.]
+--
+
+ - .large[Ideologies might fall on deaf years.]
+
+--
+
+### Collective action = .yellow[motivation] + .pink[opportunity]
+
+--
+
+ - .large[e.g., The elites and public .Yellow[blame] the regime <br> while the generals .bluey[defect.] `r fa("arrow-right", fill='yellow')`` `r fa("hand-fist", fill='purple')` (may still need a .pink[trigger])]
+--
+
+ - .large[Opportunity can .red[**react**] to revolutionary moves.]
+--
+
+ - .large[.pink[Either] weak motivation or low opportunity `r fa("arrow-right", fill='yellow')`` no revolution]
+--
+
+ - .large[Tricky to observe. `r fa("clipboard-question")`]
+
+---
+
+background-image: url(https://www.unicef.org/youthledaction/sites/unicef.org.youthledaction/files/storytelling-group-gif.gif)
+background-size: 45%
+background-position: right bottom
+
+
+.content-box-green[
+
+# When do we know a society is .red[heading] to a revolution?
+
+]
+
+--
+
+## 1. Economic Crisis
+
+--
+
+## 2. Growing alienation of elites 
+
+--
+
+## 3. Popular anger organized through groups
+
+--
+
+## 4. Ideology
+
+--
+
+## 5. Favorable international conditions
+
+--
+
+### *The regime cannot adequately react to all five.*
+
+---
+
+# Processes of a Revolution
+
+.content-box-blue[
+.Large[**Underlying 'disequilibrium' conditions**]
+]
+
+--
+
+.content-box-red[
+.Large[**Gov't loses control of people/territory to revisionists** <br>(protests, strikes, uprisings, and/or guerrilla warfare continue growing).]
+]
+
+--
+
+.content-box-green[
+.Large[**Turmoil events linger on without being meaningfully subdued**
+<br>(gov't *partially* taken over; foreign intervention; possible nego)
+]
+]
+
+--
+
+.content-box-yellow[
+.Large[**Power turnover and 'revolutionary honeymoon'**<br>constitutinal changes and founding elections, usually]
+]
+
+---
+
+# Some old examples (1): Constitutional Revolutions
+
+--
+
+### US, France, and Japan
+
+
+
+---
+
+class: inverse, center, middle
+background-image: url(https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Febzod3zq02915ama0fxx.jpg)
+background-size: 130%
+
+# .LARGE[**A treacherous road ahead: <br>the question of .red[governance]**]
+---
+
+
 # The contagion (Weyland 2012): 1848 Europe and 2011 MENA
 
 .pull-left[
@@ -125,7 +250,3 @@ background-size: 110%
   
 --
   - .large[a compounding factor: lack of .red[social organizations]]
-
----
-
-
