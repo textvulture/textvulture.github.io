@@ -45,14 +45,32 @@ background-image: url(https://humanities.princeton.edu/wp-content/uploads/2017/0
 background-size: 110%
 
 # .Large[.yellow[.HUGE[**Revolution**]]]
-# .Large[.Green[**GLOA 396**]]
+# .Large[.Yellow[**GLOA 396**]]
 
 
 ---
 
+<br>
+.center[
+![](https://github.com/textvulture/textvulture.github.io/blob/master/images/396_1.png?raw=true)
+]
+
+---
+
+class: inverse
+background-image: url(https://images.unsplash.com/photo-1711062717294-8902df8cebe3?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8YmxhY2tib2FyZHxlbnwwfHwwfHx8MA%3D%3D)
+background-size: 110%
+
+
 # What we do this week:
 
-# We start with .red[revolutions], the most important 'milestone event' in global political transformation. 
+## - Concept
+
+## - Causes
+
+## - Process
+
+## - Case Studies
 
 ---
 
@@ -81,7 +99,7 @@ background-size: 28%
 background-color: black
 
 
-# What drives a revolution?
+# Causes of a revolution?
 
 --
 
@@ -109,7 +127,7 @@ background-color: black
  - .large[Opportunity can .red[**react**] to revolutionary moves.]
 --
 
- - .large[.pink[Either] weak motivation or low opportunity `r fa("arrow-right", fill='yellow')`` no revolution]
+ - .large[.pink[Either] weak motivation or low opportunity `r fa("arrow-right", fill='yellow')` no revolution]
 --
 
  - .large[Tricky to observe. `r fa("clipboard-question")`]
@@ -181,25 +199,84 @@ background-position: right bottom
 
 ---
 
-# Some old examples (1): Constitutional Revolutions
-
---
-
-### US, France, and Japan
-
-
-
----
-
 class: inverse, center, middle
 background-image: url(https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Febzod3zq02915ama0fxx.jpg)
 background-size: 130%
 
 # .LARGE[**A treacherous road ahead: <br>the question of .red[governance]**]
+
+---
+
+class: inverse
+background-color: #181896
+
+# Some old examples (1): Constitutional Revolutions
+
+--
+
+## US, France, and Japan
+
+--
+
+### - Essentially the first wave of .pink[modern] revolutions: a complete discontinuity
+
+--
+
+### - Skeptical of churches and kings
+
+--
+
+### - a completely new set of governance structure
+
+  - .Large[A (representative) republic buttressed by a constitution]
+  
+--
+  
+  - .Large[New ideals (leading to .yellow[other movements)]]
+  
+
+---
+
+class: inverse
+background-color: #8F183E
+
+# Some old examples (2): Communist Revolutions
+
+--
+
+## Russia and China (Cuba, perhaps?)
+
+--
+
+### - In principle, class-based (though .yellow[not] the proletariat revolution originally thought of)
+
+--
+
+### - Peasant-based, .Green[elite-led] takeover of stalled reform
+
+--
+
+### - Protracted military campagins to take control (less so for Cuba)
+
+--
+
+### - Favorable .bluey[international] circumstances (less so for Cuba)
+
+---
+
+class: inverse, center, bottom
+background-image: url(https://i.makeagif.com/media/3-29-2016/Ns8QTJ.gif)
+background-size: 110%
+
+
+# .LARGE[**Do revolutionaries learn from each other .Green[across boarders?]**]
+
 ---
 
 
 # The contagion (Weyland 2012): 1848 Europe and 2011 MENA
+
+--
 
 .pull-left[
 
@@ -250,3 +327,23 @@ background-size: 130%
   
 --
   - .large[a compounding factor: lack of .red[social organizations]]
+
+---
+
+background-image: url(https://github.com/textvulture/textvulture.github.io/blob/master/images/background_White2.jpg?raw=true)
+background-size: 105%
+
+# What do we know about revolutions?
+
+--
+
+## - A simple answer doesn't exist.
+
+--
+
+## - Highly context dependent: but [.orange[motivation] + .pink[opportunity]] applies!
+
+--
+
+## - Cognitive .Blue[shortcuts] work when it comes to contagion.
+
