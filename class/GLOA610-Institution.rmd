@@ -44,7 +44,7 @@ background-size: cover
 background-color: black
 
 # .yellow[.Huge[**Institutions & <br> Development**]]
-# .huge[.times[GLOA 610]]
+# .huge[**GLOA 610**]
 
 ---
 
@@ -103,7 +103,7 @@ background-size: cover
 
 --
 
-### .red[Impersonal enforcement `r fa("gavel")`] `r fa("arrow-right")` more transactions `r fa("arrow-right")` .bluey[development]
+### **Institution**: .red[Impersonal enforcement `r fa("gavel")`] `r fa("arrow-right")` more transactions `r fa("arrow-right")` .bluey[development]
 
 ---
 
@@ -182,23 +182,6 @@ background-position: right
 
 ---
 
-background-image: url(https://miro.medium.com/max/800/0*AXgnCR1u_1sKpeLc.jpg)
-background-size: contain
-background-position: right
-
-
-# `r fa("landmark")` Sometimes, got a .red[bad] name
-
---
- 
-## - when institution = enforcement
-
-## - .red[unfettered] protection of property rights
-
-### e.g., vulture capitalism
-
----
-
 
 # .large[`r fa("landmark")` Most common measure `r fa("magnifying-glass", fill='purple')` ]
 
@@ -231,6 +214,7 @@ background-size: contain
 
  - .Large[.times[*will my property be just taken away?*]]
 
+--
 
 # - .red[corruption-control]
 
@@ -268,16 +252,12 @@ ggplot(df, aes(x = e_wbgi_gee, y=e_migdppcln)) +
 
 ---
 
-class: inverse
+class: inverse, center, middle
 background-image: url(https://github.com/textvulture/textvulture.github.io/blob/master/images/forestBackground3.jpg?raw=true)
 background-size: cover
 
 
-# .yellow[What] makes good and bad institutions?
-
---
-
-# .pink[Where] does the difference come from?
+# .Huge[.pink[Where] does the difference come from?]
 
 ---
 class: inverse, bottom
@@ -327,7 +307,7 @@ background-position: right
 
 ### - Sokoloff and Engerman (2000)
 
-### - what kind of .Yellow[institutions]?
+### - what kind of .pink[institutions]?
 
 ---
 class: inverse, bottom
