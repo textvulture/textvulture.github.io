@@ -62,6 +62,7 @@ blue {
 **Change log** 
 
 - <font size=2>Sep. 2: A new (short) reading added to the week of immigration (Reuters)</font>
+- <font size=2>Sep. 9: A short news article added to the week of finance</font>
 
 
 
@@ -505,6 +506,7 @@ Those who like to present on this week might note that the primary focus is on d
   -  Ferguson, N. (2018). *The Ascent of Money*. New York: Penguin. <mark>not required</mark>
   -  Reichert-Facilides, D. (2023) New York rewrites the rules on sovereign debt restructurings. Financial Times. June 2, 2023. [https://www.ft.com/content/213aa90a-3eba-445](https://www.ft.com/content/213aa90a-3eba-4451-a509-b9d17e1d56c8) <mark>not required</mark>
   - Reuters. (2025) The 'Triple A' soeverign bond club has shrunk. Reuters. May 19, 2025. [link](https://www.reuters.com/business/finance/triple-a-sovereign-bond-club-has-shrunk-2025-05-19/?utm_campaign=trueAnthem%3A+Trending+Content&utm_medium=trueAnthem&utm_source=facebook&fbclid=IwY2xjawKYQEdleHRuA2FlbQIxMQBicmlkETE4WWpreXl4bExINGNQSFNMAR6oXF0qeDFo0Y3qqUgOw8UUqMVM5hgakl7VaVQ60O8D9_cKx-kNFWx8CDtUZA_aem_-z_hfkLGYPha5G0PyxScow). <mark>not required</mark>
+  - Smith, I., Herbert, E., and Abboud, L. (2025). France joins Eurozone's 'periphery' as turmoil deepens, say investors. Financial Times. September 9, 2025. [link](https://on.ft.com/3JYbuUi)
 
 ## Week 6. Sep 30. Investment and Development {.unnumbered}
 
