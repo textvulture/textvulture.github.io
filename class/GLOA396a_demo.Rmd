@@ -46,3 +46,59 @@ background-color: black
 # .huge[**GLOA 396**]
 
 ---
+
+class: inverse, center, middle
+background-image: url(https://66.media.tumblr.com/56cc5633ece20fd79b4f94051c358453/tumblr_pe08wvbK1m1vgzd4so1_r1_500.gif)
+background-size: 140%
+
+
+# .LARGE[**No disruption, no democracy**]
+
+--
+
+> ## [P]rotest pressure is rarely sufficient to incentivize democratization without a prior disruptive event, while democratic expectations are usually weak without a confident ruling party. (Miller 2021, 39)
+
+
+---
+
+class: inverse, bottom
+background-image: url(https://scitechdaily.com/images/Star-Spaghettification-Black-Hole.gif)
+background-size: 100%
+
+
+# .huge[How does .pink[disruption] happen?]
+
+---
+
+# Paths through shocks.content-box-red[].content-box-green[] and continuity.content-box-purple[] .tiny[(not necessarily 'causes')]
+
+--
+: .Large[.orange[symptoms] of disruption in autocratic regimes; '.red[**necessary conditions**]']
+
+--
+
+: .Large[does not matter much absent pro-democracy actors]
+
+--
+
+.content-box-red[.LARGE[**- Coups** that remove the previous gov't]]
+
+--
+
+.content-box-red[.LARGE[**- Civil War**, though the aim isn't democratization]]
+
+--
+
+.content-box-red[.LARGE[**- Assassination** of the head of the state/gov't]]
+
+--
+
+.content-box-green[.LARGE[**- Defeat in War**, partial or complete]]
+
+--
+
+.content-box-green[.LARGE[**- Withdrawal of Superpower**]]
+
+--
+
+.content-box-purple[.LARGE[**- Electoral Continuity** keeping the ruling party in power]]
