@@ -1,0 +1,48 @@
+---
+title: "Democratization GLOA396"
+author: "Byunghwan Son <br> George Mason University"
+date: " "
+#########################################
+linkcolor: red
+citecolor: blue
+urlcolor: blueß
+output: 
+  xaringan::moon_reader:
+    seal: false
+    nature:
+      ratio: '16:9'
+      highlightStyle: github
+#    self-contained: TRUE
+  chakra: css/libs/remark-latest.min.js
+css: ["default", 
+      "css/footer.css", 
+      "css/color.css", 
+#          "xaringan-themer.css",
+      default-fonts]
+lib_dir: css/libs
+beforeInit: "css/macros.js"
+#bibliography: /Users/bson3/Dropbox/latex/mybib2.bib
+#remotes::install_github('yihui/xaringan', upgrade = TRUE)
+---
+
+```{r setup, include=FALSE}
+# to use FontAwesome
+# htmltools::tagList(rmarkdown::html_dependency_font_awesome())
+library(fs)
+library(fontawesome)
+library(flagr)
+library(dplyr)
+library(ggplot2)
+knitr::opts_chunk$set(warning = FALSE, message = FALSE, error=F, echo=F)
+options(htmltools.preserve.raw = FALSE) # prevents fa breakdown
+```
+
+class: inverse, right, middle
+background-image: url(https://s3-us-west-2.amazonaws.com/courses-images/wp-content/uploads/sites/2157/2017/07/11024601/Bingham-1000x734.jpg)
+background-size: cover
+background-color: black
+
+# .Yellow[.HUGE[**Democratization**]]
+# .huge[**GLOA 396**]
+
+---
