@@ -47,6 +47,28 @@ background-color: black
 
 ---
 
+# Authoritarian Equilibrium: why durable?
+
+.pull-left[
+
+![](https://github.com/textvulture/textvulture.github.io/blob/master/images/396_auto_tri.png?raw=true)
+
+]
+
+--
+
+.pull-right[
+
+- .LARGE[authoritarian resources]
+- .LARGE[ ]
+
+
+]
+
+
+---
+
+
 class: inverse, center, middle
 background-image: url(https://66.media.tumblr.com/56cc5633ece20fd79b4f94051c358453/tumblr_pe08wvbK1m1vgzd4so1_r1_500.gif)
 background-size: 140%
