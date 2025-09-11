@@ -62,13 +62,19 @@ background-color: black
 
 # Trend (1)
 
+```{r, out.width="70%", fig.align='center'}
+
+knitr::include_graphics('https://github.com/textvulture/textvulture.github.io/blob/master/images/trend_demo.png?raw=true')
 
 
-![](https://github.com/textvulture/textvulture.github.io/blob/master/images/trend_demo.png?raw=true)
+```
+
+
 
 ---
 
 # Trend (2)
+
 ![](https://github.com/textvulture/textvulture.github.io/blob/master/images/demo_map.png?raw=true)
 
 
