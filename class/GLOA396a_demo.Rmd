@@ -57,10 +57,10 @@ background-color: black
 
 # What is democratization (and how is it different revolution?)
 
-
 ---
 
-# Trend (1) .tiny[raw data source: V-dem]
+# Trend (1): Number of Democratization Episodes (V-dem)
+
 
 ```{r, out.width="90%", fig.align='center'}
 
@@ -72,7 +72,7 @@ knitr::include_graphics('https://github.com/textvulture/textvulture.github.io/bl
 
 ---
 
-# Trend (2) .tiny[raw data source: V-dem]
+# Trend (2): Democratization Episodes since 2000
 
 ![](https://github.com/textvulture/textvulture.github.io/blob/master/images/demo_map.png?raw=true)
 
@@ -80,7 +80,7 @@ knitr::include_graphics('https://github.com/textvulture/textvulture.github.io/bl
 ---
 
 
-# Authoritarian Equilibrium: why durable?
+# Authoritarian Equilibrium: why .pink[so durable]?
 
 .pull-left[
 
@@ -92,8 +92,8 @@ knitr::include_graphics('https://github.com/textvulture/textvulture.github.io/bl
 
 .pull-right[
 
-- .LARGE[authoritarian resources]
-- .LARGE[ ]
+- .LARGE[Authoritarian .orange[resources] are widely available.]
+- .LARGE[Expected benefits from democracy is often just .purple[insufficient] compared to the risk (i.e., uncertainty).]
 
 
 ]
@@ -107,11 +107,8 @@ background-image: url(https://66.media.tumblr.com/56cc5633ece20fd79b4f94051c3584
 background-size: 140%
 
 
-# .LARGE[**No disruption, no democracy**]
-
---
-
-> ## [P]rotest pressure is rarely sufficient to incentivize democratization without a prior disruptive event, while democratic expectations are usually weak without a confident ruling party. (Miller 2021, 39)
+# .LARGE[**Disruption events break equilibrium.**]
+ß
 
 
 ---
@@ -157,3 +154,54 @@ background-size: 100%
 --
 
 .content-box-purple[.LARGE[**- Electoral Continuity** keeping the ruling party in power]]
+
+---
+class: inverse
+background-image: url(https://github.com/textvulture/textvulture.github.io/blob/master/images/background_leftEmpty.jpg?raw=true)
+background-size: 160%
+
+
+# After disruption events (not mutually exclusive)
+
+--
+
+### - .pink[**Leader Insecurity**]: usually rampant political violence (threats), weakening coercive capacity, and/or economic crises--all enabled by the collapse of the equilibrium
+
+--
+
+### - .Green[Changes in loyalty and beliefs]: '*how long can this system endure?*'
+
+--
+
+### - .orange[Increased opportunities for the opposition]: weakness and divide = opportunities for the elites, people, and outsiders
+
+--
+
+### - .Blue[Limited responses]: driven by lost self-confidence
+
+---
+class: inverse
+background-image: url(https://github.com/textvulture/textvulture.github.io/blob/master/images/background_leftEmpty2.jpg?raw=true)
+background-size: 160%
+
+
+# (Autocrats') Deciding to concede
+
+--
+
+## - When there's .pink[not much to lose] in democracy
+
+--
+  - .LARGE[.Green[renew] legitimacy via elections: possibly *more* power]
+
+--
+  - .LARGE[.yellow[alleviate] the tension with the elites]
+
+--
+  - .LARGE[.bluey[salvation] from the impending ouster]
+
+--
+  *** .LARGE[provided that there are active pro-democracy forces]
+  
+  
+
