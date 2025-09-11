@@ -60,12 +60,11 @@ background-color: black
 
 ---
 
-# Trend (1)
+# Trend (1) .tiny[raw data source: V-dem]
 
 ```{r, out.width="90%", fig.align='center'}
 
 knitr::include_graphics('https://github.com/textvulture/textvulture.github.io/blob/master/images/trend_demo.png?raw=true')
-
 
 ```
 
@@ -73,7 +72,7 @@ knitr::include_graphics('https://github.com/textvulture/textvulture.github.io/bl
 
 ---
 
-# Trend (2)
+# Trend (2) .tiny[raw data source: V-dem]
 
 ![](https://github.com/textvulture/textvulture.github.io/blob/master/images/demo_map.png?raw=true)
 
