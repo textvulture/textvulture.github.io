@@ -82,6 +82,7 @@ ggplot(dem_timeseries, aes(year, countries_in_dem_ep)) +
     x = NULL, y = "Num. of countries in democratization"
   ) +
   geom_area(fill="69b3a2", alpha=0.6) +
-  theme_minimal()
+  theme_minimal() +
+  theme(text = element_text(size=14))
 
-ggsave('trend_demo.png', bg='white')
+ggsave('trend_demo.png', bg='white', width=13, height=7)
