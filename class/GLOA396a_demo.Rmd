@@ -47,6 +47,20 @@ background-color: black
 
 ---
 
+class: inverse
+background-image: url(https://github.com/textvulture/textvulture.github.io/blob/master/images/background_leftEmpty3.jpeg?raw=true)
+background-size: 100%
+
+# What we talk about:
+
+## - Concepts of democratization
+
+## - Patterns of democratization
+
+## - Processes of democratization
+
+---
+
 # The big picture, again.
 
 .center[
@@ -165,19 +179,19 @@ background-size: 160%
 
 --
 
-### - .pink[**Leader Insecurity**]: usually rampant political violence (threats), weakening coercive capacity, and/or economic crises--all enabled by the collapse of the equilibrium
+## - .pink[**Leader Insecurity**]: usually rampant political violence (threats), weakening coercive capacity, and/or economic crises--all enabled by the collapse of the equilibrium
 
 --
 
-### - .Green[Changes in loyalty and beliefs]: '*how long can this system endure?*'
+## - .Green[Changes in loyalty and beliefs]: '*how long can this system endure?*'
 
 --
 
-### - .orange[Increased opportunities for the opposition]: weakness and divide = opportunities for the elites, people, and outsiders
+## - .orange[Increased opportunities for the opposition]: weakness and divide = opportunities for the elites, people, and outsiders
 
 --
 
-### - .Blue[Limited responses]: driven by lost self-confidence
+## - .Blue[Limited responses]: driven by lost self-confidence
 
 ---
 class: inverse
@@ -185,14 +199,14 @@ background-image: url(https://github.com/textvulture/textvulture.github.io/blob/
 background-size: 160%
 
 
-# (Autocrats') Deciding to concede
+# (possible) Final Steps of Democratization
 
 --
 
-## - When there's .pink[not much to lose] in democracy
+## - Autocrats' .red[concession]: When there's .pink[not much to lose] in democracy
 
 --
-  - .LARGE[.Green[renew] legitimacy via elections: possibly *more* power]
+  - .LARGE[.Green[renew] legitimacy via elections: 'regaining' power]
 
 --
   - .LARGE[.yellow[alleviate] the tension with the elites]
@@ -203,5 +217,14 @@ background-size: 160%
 --
   *** .LARGE[provided that there are active pro-democracy forces]
   
-  
+--
+
+## - Pro-democracy Takeover (reformers)
+
+--
+  - .LARGE[foreign intervention ('democratic promotion')]
+
+--
+  - .LARGE[.pink[surprise] win in autocratic elections]
+
 
