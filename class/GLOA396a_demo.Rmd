@@ -73,17 +73,17 @@ background-size: 100%
 
 --
 
-## Increasing accountability: .blue[vertical] and/or .red[horizontal]
+### Increasing accountability: .blue[vertical] and/or .red[horizontal] (Dahl 1964)
 
-```{r}
+--
+
+```{r, fig.align='center'}
 
 
-knitr::include_graphics('https://github.com/textvulture/textvulture.github.io/blob/master/images/backsliding_concept.jpg?raw=true')
+knitr::include_graphics('https://github.com/textvulture/textvulture.github.io/blob/master/images/democratization_concept.jpg?raw=true')
 
 
 ```
-
-
 
 
 ---
@@ -93,10 +93,6 @@ background-image: url(https://images.unsplash.com/photo-1711062717294-8902df8ceb
 
 
 # What is democratization? (2)
-
---
-
-## - movement from autocracy towards democracy
 
 --
 
@@ -118,6 +114,58 @@ background-image: url(https://images.unsplash.com/photo-1711062717294-8902df8ceb
   - .Large[insulation from .pink[threats] (e.g., praetorians; juntas; foreign interference)]
 
 ---
+
+# Traditional (& .red[limited]) Explanations for Demcratization 
+
+--
+
+## - distributive conflicts 
+--
+
+  - .Large[traditional accounts tend to focus on big structural contradictions.]
+--
+
+  - .Large[`r fa("circle-plus", fill='red')` highly repressive regime = .pink[mobilization] (few alternative)]
+--
+
+  - .Large[doesn't concern *HOW* it actually happens: 'theoretical black box']
+--
+
+  - .Large[More an attempt to explain revolutions `r fa("hand-fist")`]
+  
+--
+
+## - non-transient, organized social groups
+--
+
+  - .Large[sustained resistance poses actual threats to the regime.]
+--
+
+  - .Large[help with the collective action problems]
+--
+
+  - .Large[Not a good explanation for .Blue[elite-led] democratization cases]
+
+---
+
+class: inverse
+background-image: url(https://github.com/textvulture/textvulture.github.io/blob/master/images/waveBackground2.jpg?raw=true)
+background-size: 100%
+
+--
+
+# - When subjected to extensive empirical scrutiny (Haggard and Kaufman 2016), .Green[neither] distributiion- .Green[nor] organization-centric explanations hold up well. 
+
+--
+
+# - Probably democratization involves a .yellow[diverse] set of processes.
+
+--
+
+# - Instead of seeking a unified theory, focus on the causal sequences and find some regularities to better explain the .pink[empirical reality].
+
+---
+
 
 # Trend (1): Number of Democratization Episodes (V-dem)
 
@@ -161,6 +209,19 @@ knitr::include_graphics('https://github.com/textvulture/textvulture.github.io/bl
 
 ---
 
+class: inverse, middle
+background-image: url(https://media1.tenor.com/m/ar8HPPEkYYsAAAAC/dam-break.gif)
+background-size: 130%
+
+# .LARGE[**.Green[A better question to ask:]**]
+
+--
+
+# .LARGE[**How does democratization occur .pink[despite] the authoritarian durability?**]
+
+
+
+---
 
 class: inverse, center, middle
 background-image: url(https://66.media.tumblr.com/56cc5633ece20fd79b4f94051c358453/tumblr_pe08wvbK1m1vgzd4so1_r1_500.gif)
@@ -168,7 +229,6 @@ background-size: 140%
 
 
 # .LARGE[**Disruption events break equilibrium.**]
-ß
 
 
 ---
@@ -273,4 +333,27 @@ background-size: 160%
 --
   - .LARGE[.pink[surprise] win in autocratic elections]
 
+---
+
+class: inverse
+background-image: url(https://github.com/textvulture/textvulture.github.io/blob/master/images/night_background6.jpg?raw=true)
+background-size: 100%
+
+# **We talked about:**
+
+--
+
+## - Patterns/paths of democratization. 
+
+--
+
+## - Didn't quite answer the WHY question quite straightforwardly, but some regularities are discussed.
+
+--
+
+## - Disruption events are necessary conditions.
+
+--
+
+## - Autocrats need to feel secure enough to concede (though not always).
 
