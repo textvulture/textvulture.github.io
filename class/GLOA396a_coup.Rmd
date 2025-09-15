@@ -1,0 +1,84 @@
+---
+title: "Coups GLOA396"
+author: "Byunghwan Son <br> George Mason University"
+date: " "
+#########################################
+linkcolor: red
+citecolor: blue
+urlcolor: blueß
+output: 
+  xaringan::moon_reader:
+    seal: false
+    nature:
+      ratio: '16:9'
+      highlightStyle: github
+#    self-contained: TRUE
+  chakra: css/libs/remark-latest.min.js
+css: ["default", 
+      "css/footer.css", 
+      "css/color.css", 
+#          "xaringan-themer.css",
+      default-fonts]
+lib_dir: css/libs
+beforeInit: "css/macros.js"
+#bibliography: /Users/bson3/Dropbox/latex/mybib2.bib
+#remotes::install_github('yihui/xaringan', upgrade = TRUE)
+---
+
+```{r setup, include=FALSE}
+# to use FontAwesome
+# htmltools::tagList(rmarkdown::html_dependency_font_awesome())
+library(fs)
+library(fontawesome)
+library(flagr)
+library(dplyr)
+library(ggplot2)
+knitr::opts_chunk$set(warning = FALSE, message = FALSE, error=F, echo=F)
+options(htmltools.preserve.raw = FALSE) # prevents fa breakdown
+```
+
+class: inverse, center, middle
+background-image: url(https://www.worldhistory.org/img/c/p/1600x900/16941.jpg)
+background-size: 100%
+
+# .Yellow[.HUGE[**Coup**]] <br> .Large[and how to prevent it]
+
+# .bluey[.LARGE[GLOA 396]]
+
+---
+
+# The big picture, again.
+
+.center[
+![](https://github.com/textvulture/textvulture.github.io/blob/master/images/396_1.png?raw=true)
+]
+
+---
+
+class: inverse
+background-image: url(https://github.com/textvulture/textvulture.github.io/blob/master/images/background_leftEmpty3.jpeg?raw=true)
+background-size: 100%
+
+# What we talk about:
+
+## - Concepts of coups
+
+## - Patterns of coups
+
+## - Processes of coups
+
+---
+
+# What is a coup? .tiny[(click the authors for the source)]
+
+--
+
+> ## "[T]he infiltration of a small but critical segment of the .Blue[state apparatus] which is used to displace the government from control of the remainder" <br> [Luttwak (1969, 12)](https://ia601700.us.archive.org/19/items/coup-detat-a-practical-handbook/Coup-d%E2%80%99%C3%89tat-A-Practical-Handbook.pdf#page=26.15)
+
+
+--
+
+> ## ".Blue[illegal] and overt attempts by the military or other elites within the .Blue[state apparatus] to unseat the sitting executive"<br> [Powell and Thyne (2011, 252)](https://journals.sagepub.com/doi/abs/10.1177/0022343310397436) 
+
+
+
