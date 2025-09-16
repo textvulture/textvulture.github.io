@@ -80,5 +80,70 @@ background-size: 100%
 
 > ## ".Blue[illegal] and overt attempts by the military or other elites within the .Blue[state apparatus] to unseat the sitting executive"<br> [Powell and Thyne (2011, 252)](https://journals.sagepub.com/doi/abs/10.1177/0022343310397436) 
 
+---
+
+# Patterns of Coups .tiny[(using Powell and Thyne (2011) data)]
+
+```{r, fig.width=14, fig.align='center'}
+
+library(vdemdata)
+library(dplyr)
+library(ggplot2)
+library(tidyr)
+
+vdemdata::vdem %>%
+  select(country_name, year, contains('coup')) %>%
+  filter(year>1949) %>%
+  filter(year<2021) %>%
+  drop_na() %>%
+  group_by(year) %>%
+  summarise(
+    across(contains("coup") & where(is.numeric), ~ sum(.x, na.rm = TRUE)),
+    .groups = "drop"
+  ) %>%
+  dplyr::rename(coup = e_pt_coup,
+                coup_attempt = e_pt_coup_attempts) %>%
+  dplyr::select(year, coup, coup_attempt) -> data
+
+
+# coup_long <- coup_year %>%
+#   pivot_longer(cols = c(coup, coup_attempt),
+#                names_to = "type",
+#                values_to = "count")
+
+library(ggplot2)
+
+data %>%
+ggplot(aes(x = year)) +
+  geom_line(aes(y = coup, color = "Coup"), size = 4, alpha=0.75) +
+#  geom_point(aes(y = coup, color = "Coup"), size = 2) +
+  geom_line(aes(y = coup_attempt, color = "Coup Attempt"), 
+            alpha=0.75, size = 4) +
+#  geom_point(aes(y = coup_attempt, color = "Coup Attempt"), size = 2) +
+  labs(
+#    title = "Global Coup and Coup Attempts Over Time",
+    x = "Year",
+    y = "Number of Cases",
+    color = "Event Type"
+  ) +
+  theme_minimal() +
+  theme(legend.position = "bottom",
+        text = element_text(size=20)) +
+  scale_color_manual(
+    values = c("Coup" = "blue", "Coup Attempt" = "red")
+  ) 
+
+
+```
+
+---
+
+# A relatively .pink[rare] event if focused only on the .Green[observables].
+
+--
+
+# The risk is prevalent: one of the two major sources of democratic breakdown (e.g., Svolik 2015)
+
+--
 
 
