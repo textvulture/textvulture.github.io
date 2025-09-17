@@ -3,6 +3,11 @@ library(dplyr)
 library(ggplot2)
 library(tidyr)
 
+vdem %>%
+  select(country_name, year, contains('coup')) %>%
+  filter(e_pt_coup_attempts == 4) %>%
+  select(country_name, year) # Bolivia 1981; Togo 1991
+
 vdemdata::vdem %>%
   select(country_name, year, contains('coup')) %>%
   filter(year>1949) %>%
