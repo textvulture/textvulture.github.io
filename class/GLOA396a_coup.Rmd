@@ -166,6 +166,26 @@ most prominent ($\approx$ 60%) source of <br>democratic breakdown <br> (e.g., Sv
 The next ($\approx$ 30%) is '.Blue[incumbent <br>takeover],' some which also take  <br> the form of a 'self-.pink[coup].']
 
 ---
+background-image: url(https://blog.prif.org/wp-content/uploads/2021/02/1962_Burmese_coup_detat2_Wikimedia-Commons_Public-Domain.jpg)
+background-position: right
+background-size: 39%
+
+
+# Coups are .Green[likely] when:
+
+--
+
+## - military grievances  (motivation)
+
+--
+
+## - military capabilities, compared to the society <br>(motivation & opportunity)
+
+--
+
+## - political, social, economic turmoil <br>(opportunity)
+
+---
 
 # Coups are .red[less] likely when:
 
@@ -190,4 +210,93 @@ background-size: 40%
 
 ## - democratic neighbors
 
+---
+
+class: inverse, center, middle
+background-image: url(https://thumbs.dreamstime.com/b/military-generals-gathered-around-table-dimly-lit-war-room-discussing-strategy-amidst-scattered-papers-globe-nearby-399067814.jpg)
+background-size: 100%
+
+# .Large[But what about more .yellow[**options**] (that even autocrats can use) to prevent coups?]
+
+---
+
+class: inverse
+background-color: #032B0B
+
+# Coup Proofing .tiny[(Sudduth 2017)]
+
+--
+
+## - A leader's strategies to .Green[weaken] the military's .pink[ability] to mount a coup.
+
+--
+
+- .Large[.orange[paramilitary] organizations (sitting outside of the usual command)]
+--
+
+- .Large[frequent .orange[rotation] of commanders]
+--
+
+- .Large[division of the military into smaller .orange[rival] branches]
+
+--
+
+## - Could be effective if the military .violet[does not react] (but they do `r fa("person-military-rifle", fill='#EBBEE9')`)
+
+--
+
+- .Large[leader-military strategic interactions: zero-sum game]
+--
+
+- .Large[Generals like to maintain the credible threat (to protect their .Blue[interest])]
+--
+
+- .Large[coup-proofing `r fa("arrow-right", fill='yellow')` coup, thus .red[less] coup-proofing: coup risk is already high]
+
+---
+
+# So coup-proofing doesn't work at all?
+
+---
+
+background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Reislaeufer_Luzerner_Schilling_%28cropped%29.jpg/320px-Reislaeufer_Luzerner_Schilling_%28cropped%29.jpg)
+background-position: right
+background-size: 37%
+
+
+
+# Counterbalancing (De Bruin 2020)
+
+--
+
+## - security forces .Green[independent] from the regular <br>military chain of command, located .pink[close] <br>to the capital
+
+--
+
+## - .orange[NOT] great at deterring a coup
+
+--
+
+## - effective at .red[reducing] coup success rates, <br>once attempted
+--
+
+- .Large[physical resistance]
+--
+
+- .Large[complicates coordination among plotters]
+
+
+---
+
+background-image: url(https://arc-anglerfish-arc2-prod-bostonglobe.s3.amazonaws.com/public/PM7IMXQZUQI6HAVJOG6SNZ7CBU.jpg)
+background-position: right
+background-size: contain
+
+# We talked about:
+
+## - What coups are
+
+## - When coups (don't) happen
+
+## - What could be done to deter <br>(and/or deal with) them
 
