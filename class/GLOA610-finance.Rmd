@@ -144,12 +144,75 @@ background-size: 30%
 ]
 
 ---
+
+# The empirical reality of .blue[strong]/.pink[weak] currency policies <br> .tiny[: real effective exchange rates (inflation adjusted exchange rate against major trade partners)]
+
+
+```{r, fig.width=13}
+
+library(dplyr)
+library(ggplot2)
+
+
+# Under- or Overvaluation of global currencies
+
+library(wbstats)
+library(stringr)
+library(ggrepel)
+
+# indicators <- wb_search("real effective exchange rate") %>%
+#   filter(str_detect(indicator_id, regex("REER|REX", ignore_case = TRUE)))
+
+countries <- c("JPN", "USA", "GBR", "CHN", "MEX")  
+reer <- wb_data(
+  indicator   = "REER",
+  country     = countries,
+  start_date  = 1975,
+  end_date    = 2020,
+  return_wide = FALSE
+) %>%
+  select(country, iso3c, date, value) %>%
+  arrange(country, date)
+
+reer %>% 
+  filter(date>1994) %>%
+  ggplot(aes(x = date, y = value, color = iso3c)) +
+  geom_line(size = 1) +
+  geom_label_repel(
+    data = reer %>% filter(date==2020),
+    aes(label = iso3c),
+    nudge_x = 2,          
+    direction = "y",
+    hjust = 0,
+    show.legend = FALSE,
+    segment.color = "grey50",
+    size = 11
+  ) +
+  labs(
+    x = "Year",
+    y = "REER (year 2010=100)",
+    caption = "Data Source: World Bank"
+  ) +
+  scale_x_continuous(breaks = seq(1995, 2020, by = 5)) +
+  theme_minimal() +
+  theme(legend.position = "none",
+        text = element_text(size = 18))
+
+
+
+```
+
+
+
+
+---
+
 class: inverse
 background-color: #d64161
 background-image: url(https://raw.githubusercontent.com/textvulture/textvulture.github.io/master/images/background_leftEmpty2.jpg)
 background-size: 140%
 
-# .large[So undervaluation .Small[(.pink[weak] currency)] is .yellow[all] good?]
+# .large[The effect of undervaluation .Small[(.pink[weak] currency)]]
 
 --
 
