@@ -1,0 +1,46 @@
+---
+title: "Authoritarian Resilience GLOA396"
+author: "Byunghwan Son <br> George Mason University"
+date: " "
+#########################################
+linkcolor: red
+citecolor: blue
+urlcolor: blueß
+output: 
+  xaringan::moon_reader:
+    seal: false
+    nature:
+      ratio: '16:9'
+      highlightStyle: github
+#    self-contained: TRUE
+  chakra: css/libs/remark-latest.min.js
+css: ["default", 
+      "css/footer.css", 
+      "css/color.css", 
+#          "xaringan-themer.css",
+      default-fonts]
+lib_dir: css/libs
+beforeInit: "css/macros.js"
+#bibliography: /Users/bson3/Dropbox/latex/mybib2.bib
+#remotes::install_github('yihui/xaringan', upgrade = TRUE)
+---
+
+```{r setup, include=FALSE}
+# to use FontAwesome
+# htmltools::tagList(rmarkdown::html_dependency_font_awesome())
+library(fs)
+library(fontawesome)
+library(flagr)
+library(dplyr)
+library(ggplot2)
+knitr::opts_chunk$set(warning = FALSE, message = FALSE, error=F, echo=F)
+options(htmltools.preserve.raw = FALSE) # prevents fa breakdown
+```
+
+class: inverse, center, middle
+background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/The_Gordon_Riots_by_John_Seymour_Lucas.jpg/500px-The_Gordon_Riots_by_John_Seymour_Lucas.jpg)
+background-size: 100%
+
+# .Huge[.bluey[**Authoritarian Resilience**]]
+# **.yellow[GLOA 396]**
+
