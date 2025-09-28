@@ -44,3 +44,221 @@ background-size: 100%
 # .Huge[.bluey[**Authoritarian Resilience**]]
 # **.yellow[GLOA 396]**
 
+---
+
+class: inverse, middle
+background-image: url(https://github.com/textvulture/textvulture.github.io/blob/master/images/waveBackground3.jpg?raw=true)
+
+# We talk about:
+
+## 1. What 'authoritarian resilience' means
+
+## 2. Why 'authoritarian resilience' matters
+
+## 3. What helps some authoritarian systems .yellow[remain] resilient against shocks
+
+---
+
+.full-width-green[
+# Authoritarian Resilience
+]
+
+--
+
+<br>
+.content-box-red[
+
+## .green[In theory], *any* authoritarian regime .pink[not collapsing] and not transforming into a different political system. (Transformation is a .yellow[rare] event)
+
+]
+--
+
+  - .Large[.purple[nothing] happening to the regime;]
+--
+
+  - .Large[re-consolidation after shocks;]
+--
+
+  - .Large[long period of state collapse (w/o transitioning); or]
+--
+
+  - .Large[ruling parties resisting democratic pressure]
+
+--
+
+## `r fa("hand-point-right", fill='green')`  Particularly important after .red[shocks]: 'stress test' `r fa("cloud-bolt", fill='red')`
+
+
+
+---
+
+
+# In the big picture:
+
+.center[
+![](https://github.com/textvulture/textvulture.github.io/blob/master/images/396_1.png?raw=true)
+]
+
+---
+
+.full-width-green[
+# Types of Resilience based on Circumstances
+]
+
+<br>
+
+- .Large[**shocks** (of any kind)]
+- .Large[**party strength** in (potential) electoral competition]
+
+--
+
+  - .Large[The two .red[necessary] conditions for transformation: lack thereof `r fa("arrow-right")` resilience]
+
+--
+
+
+```{r, results='asis'}
+
+library(kableExtra)
+
+tab <- tibble(
+  empty = c("No Party", "Party"),   
+  
+  `No Shock`    = c("<b>Most Frequent monarchy</b><br> military; personalist", "<b>Hegemonic control</b><br>: party weak or not motivated to  compete"),                  
+  Shock   = c("<b>reconsolidation</b><br> weak mobilization; 'lost' chances; further strengthening", "<b>Resilience unlikely</b><br> but weak states are obstacles")                   
+)
+
+# Fix the first column name so top-left is blank
+names(tab)[1] <- ""
+
+kbl(tab,
+    escape = FALSE,
+    full_width=T) %>%
+  column_spec(1, 
+              width = "7em",
+              bold = T) %>%
+  column_spec(2, width = "14.25em") %>%
+  column_spec(3, width = "14.25em") %>%
+  kable_styling(font_size = 25, position = "center")
+
+```
+
+---
+
+class: inverse, bottom
+background-image: url(https://i0.wp.com/media1.giphy.com/media/129NVCr1UfsGTS/giphy.gif)
+background-size: 100%
+
+# .Large[**But even when nothing happens, .yellow[resilient] autocrats don't just lie around.**]
+
+
+---
+
+.full-width-green[
+# The theoretical angle
+]
+
+<br>
+
+> ## "Authoritarian resilience lies in the blending of repression and responsiveness" (Coggins 2021, 11).
+
+--
+
+## - institutional adaptation (legal, bureaucratic, coercive) 
+
+--
+
+## - socio-political practices (co-optation, ideology, nationalism) 
+
+--
+
+## `r fa("hands-clapping", fill='violet')`  .georgia[resilience represents the .Blue[process] of .pink[blending] them]
+
+
+---
+
+class: inverse, center, middle
+background-image: url(https://github.com/textvulture/textvulture.github.io/blob/master/images/night_background1.jpg?raw=true)
+
+# .LARGE[**Can autocrats .yellow[under stress] try some .pink[specific strategies] to shield themselves against .Green[shocks]?**]
+
+---
+
+.full-width-blue[
+# 'Elite Rotation' in the ruling coalition
+]
+
+<br>
+## - The .blue[**Idea**]: altering the members of the ruling coalition `r fa("arrow-right")` shock-proof
+
+--
+
+  - .LARGE[loyalty questions]
+--
+
+  - .LARGE[growing outsiders; generational transitions]
+
+--
+
+## - The .red[**risk**]: equilibrium broken; breakdown more likely (Nadporozhskii 2023)
+
+--
+
+  - .LARGE[can introduce uncertainty/fear]
+--
+
+  - .LARGE[can sow the seeds of shocks]
+  
+--
+
+.LARGE[`r fa("hand", fill='red')` caveat: Could be a reverse causality ('endogeneity')]
+
+
+---
+
+class: inverse, center, middle
+background-image: url(https://github.com/textvulture/textvulture.github.io/blob/master/images/night_background7.jpg?raw=true)
+background-size: 100%
+
+# .huge[Okay, rotation doesn't work. Something .pink[less blunt] to prevent shocks?]
+
+
+---
+
+.full-width-green[
+# Media Censorship .tiny[(click authors for non-class redings)]
+]
+
+<br>
+## - The .blue[idea]: preventing negative signals
+
+--
+
+  - .Large[.hl2[Public information] of poor regime performance encourages collective action ([Hollyer et al. 2015](https://www.cambridge.org/core/journals/american-political-science-review/article/transparency-protest-and-autocratic-instability/6EE68292EBE8374553FC6407FCA42A27))]
+--
+
+  - .Large[If not censored, .orange[elites] could take public turmoil as a 'chance.']
+
+--
+
+## - The .red[risk]: grievance adds up (Huang et al. 2019)
+
+--
+
+  - .Large[Limited to .pink[local] protests, media can 'let the steam out' and address grievances.]
+--
+
+  - .Large[Selective censorship: let the criticism be, but don't allow the collective action info itself ([King et al. 2013](https://gking.harvard.edu/publications/how-censorship-china-allows-government-criticism-silences-collective-expression)).]
+  
+---
+
+class: inverse
+background-image: url(https://github.com/textvulture/textvulture.github.io/blob/master/images/background_leftEmpty3.jpeg?raw=true)
+background-size: 100%
+
+# We talked about:
+
+## 1. the nature of authoritarian resilience <br>(empirical & theoretical)
+
+## 2. Some strategies autocrats may take <br>(and their side effects)
+

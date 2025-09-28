@@ -109,6 +109,21 @@
   box-decoration-break: clone;
 }
 
+.banner {
+  margin: 0 -0.4em;
+  padding: 0.1em 0.4em;
+  border-radius: 0.8em 0.3em;
+  background: transparent;
+  background-image: linear-gradient(
+    to right,
+    rgba(111, 238, 0, 0.1),
+    rgba(111, 238, 0, 0.7) 4%,
+    rgba(111, 238, 0, 0.3)
+  );
+  -webkit-box-decoration-break: clone;
+  box-decoration-break: clone;
+}
+
 /* USYD blockquote */
 blockquote, .blockquote {
   display: block;
@@ -218,8 +233,6 @@ blockquote, .blockquote {
   background: none;
 }
 
-.content-box-long { background-color: green;}
-
 .full-width {
     display: flex;
     width: 100%;
@@ -228,11 +241,10 @@ blockquote, .blockquote {
 
 
 
-```{css echo=FALSE}
 .right-column{
   padding-top: 0;
 }
-```
+
 
 .pull-left2 {
   float: left;
@@ -254,7 +266,7 @@ blockquote, .blockquote {
 }
 
 
-.full-width-tinted {
+.full-width-tint {
   position: relative;  /* for child pseudo-element */
   z-index: 0;
   margin: -2.5rem -600rem;
@@ -265,15 +277,27 @@ blockquote, .blockquote {
   color: white;
 }
 
-.full-width-banner{
+.full-width-blue {
   position: relative;  
   z-index: 0;
-  margin: -2.5rem -600rem;
-  top: 0;
-  padding: 0.05rem 600rem;
-  background: #1abc9c;
+  margin: -1.5rem -600rem;
+  top: 1;
+  padding: 0.2rem 600rem;
+  background: #273FF5;
   color: white;
 }
+
+
+.full-width-green {
+  position: relative;  
+  z-index: 0;
+  margin: -1.5rem -600rem;
+  top: 1;
+  padding: 0.2rem 600rem;
+  background: #034F3B;
+  color: white;
+}
+
 
 .pulse {
   -webkit-animation-name: pulse;
