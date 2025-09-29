@@ -105,6 +105,7 @@ background-image: url(https://github.com/textvulture/textvulture.github.io/blob/
 # Types of Resilience based on Circumstances
 ]
 
+--
 <br>
 
 - .Large[**shocks** (of any kind)]
@@ -113,7 +114,6 @@ background-image: url(https://github.com/textvulture/textvulture.github.io/blob/
 --
 
   - .Large[The two .red[necessary] conditions for transformation: lack thereof `r fa("arrow-right")` resilience]
-
 --
 
 
@@ -124,7 +124,7 @@ library(kableExtra)
 tab <- tibble(
   empty = c("No Party", "Party"),   
   
-  `No Shock`    = c("<b>Most Frequent monarchy</b><br> military; personalist", "<b>Hegemonic control</b><br>: party weak or not motivated to  compete"),                  
+  `No Shock`    = c("<b>Most frequent</b><br> monarchy military; personalist", "<b>Hegemonic control</b><br>: party weak or not motivated to  compete"),                  
   Shock   = c("<b>reconsolidation</b><br> weak mobilization; 'lost' chances; further strengthening", "<b>Resilience unlikely</b><br> but weak states are obstacles")                   
 )
 
