@@ -1,0 +1,151 @@
+---
+title: "Democratic Backsliding GLOA396"
+author: "Byunghwan Son <br> George Mason University"
+date: " "
+#########################################
+linkcolor: red
+citecolor: blue
+urlcolor: blueß
+output: 
+  xaringan::moon_reader:
+    seal: false
+    nature:
+      beforeInit: "https://platform.twitter.com/widgets.js"
+      ratio: '16:9'
+      highlightStyle: github
+  #    self-contained: TRUE
+  chakra: css/libs/remark-latest.min.js
+css: ["default", 
+      "css/footer.css", 
+      "css/color.css", 
+      # "css/xaringan-themer.css",
+      default-fonts]
+lib_dir: css/libs
+beforeInit: "css/macros.js"
+# seal: false  
+#bibliography: /Users/bson3/Dropbox/latex/mybib2.bib
+#remotes::install_github('yihui/xaringan', upgrade = TRUE)
+---
+
+```{r setup, include=FALSE}
+# to use FontAwesome
+#htmltools::tagList(rmarkdown::html_dependency_font_awesome())
+library(dplyr)
+library(tidyr)
+library(fs)
+library(fontawesome)
+# library(magick)  
+library(ggplot2)
+knitr::opts_chunk$set(warning = FALSE, message = FALSE, error=F, echo=F)
+options(htmltools.preserve.raw = FALSE)
+```
+
+class: inverse, center, middle
+background-image: url(https://www.economist.com/cdn-cgi/image/width=1424,quality=80,format=auto/sites/default/files/images/print-edition/20150221_FBD001_0.jpg)
+background-size: 100%
+
+# .Huge[.bluey[**Democratic Backsliding**]]
+
+# .LARGE[.yellow[**GLOA 396**]]
+
+
+---
+
+# In the big picture:
+
+.center[
+![](https://github.com/textvulture/textvulture.github.io/blob/master/images/396_1.png?raw=true)
+]
+
+---
+
+class: center, inverse, middle
+background-image: url(https://github.com/textvulture/textvulture.github.io/blob/master/images/greenbackground2.jpg?raw=true)
+background-size: 100%
+
+# .LARGE[This week is .pink[different] because the baseline is a .yellow[democratic regime].]
+
+---
+
+.full-width-green[
+# What is .pink[Democratic Backsliding?]
+]
+
+--
+
+<br>
+
+> ## [T]he .Blue[incremental] erosion of democratic institutions, rules and norms that results from the actions of .green[duly elected governments], typically driven by an autocratic leader. .black[.small[(Haggard & Kaufman 2020, 1)]]
+
+--
+
+## - Democratic Backsliding $\subset$ Autocratization .tiny[(.red[any] movement away from democracy)]
+
+---
+
+# Global Backsliding .tiny[(Autocratization)] Trend (V-dem data)
+
+--
+
+```{r, fig.width=14.5, fig.height=7, fig.align='center'}
+
+library(ERT)
+
+
+data <- get_eps() %>%
+  select(c("aut_ep", "country_name", "year")) %>%
+  filter(year>1949)
+
+
+data %>%
+  ggplot(aes(x=year)) +
+  geom_bar(aes(fill=factor(aut_ep)), 
+           stat = 'count',
+           alpha=0.75) +
+  labs(fill = "autocratization") +
+  theme_minimal() + 
+  scale_fill_manual(labels = c("No", "Yes"),
+                    values = c("blue", "red")) +
+  theme(text = element_text(size = 25))
+```
+
+---
+
+background-image: url(https://antigonejournal.com/wp-content/uploads/2023/09/CentJT.png)
+background-position: right
+background-size: contain
+
+# Two-step process to backsliding
+
+--
+
+## 1. Underlying factors doing the groundwork
+--
+
+  - .Large[Financial crises]
+--
+
+  - .Large[inequality, globalization, technological change]	
+--
+
+  - .Large[Racial, ethnic, cultural divides]
+
+--
+
+## 2. Drastic .pink[polarization] completing the process
+
+--
+
+  - .Large[Opens up a political opportunity for an autocrat]
+--
+
+  - .Large[Legislative compliance]
+--
+
+  - .Large[Party fragmentation]
+  
+--
+
+## `r fa("marker", fill='red')`  End result: Removal of political contestation
+  
+---
