@@ -67,6 +67,31 @@ background-size: 100%
 
 ---
 
+class: middle
+background-image: url(https://github.com/textvulture/textvulture.github.io/blob/master/images/halfBackground4.jpg?raw=true)
+background-size: 110%
+
+# **What we talk about:**
+
+# 1. The concept/empirics of democratic backsliding
+
+# 2. How a backsliding unfolds
+
+# 3. Institutional and social roots of backsliding
+
+---
+
+class: inverse, bottom, center
+background-image: url(https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExNjF2c2pzMDlkMWhsZjM0OGV4czFrZXRtdGJoMjhocDV2a2hmY3prcSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/4pMX5rJ4PYAEM/giphy.gif)
+background-color: black
+background-size: 100%
+
+--
+
+# .LARGE[**What is backsliding?**]
+
+---
+
 .full-width-green[
 # What is .pink[Democratic Backsliding?]
 ]
@@ -93,8 +118,10 @@ library(ERT)
 
 
 data <- get_eps() %>%
-  select(c("aut_ep", "country_name", "year")) %>%
-  filter(year>1949)
+  select(c("country_name", "year",
+         "v2x_polyarchy", "v2x_regime", "reg_type",
+         "aut_ep", "aut_ep_subreg")) %>%
+  filter(year>1944)
 
 
 data %>%
@@ -111,11 +138,30 @@ data %>%
 
 ---
 
+# Global Backsliding .tiny[(Autocratization)] Trend (V-dem data): .green[**zoom-in**]
+
+```{r, fig.width=14, fig.height=7, fig.align='center'}
+
+data %>%
+  filter(aut_ep == 1) %>%
+  ggplot(aes(x=year,
+             fill=factor(aut_ep_subreg))) +
+  geom_bar() +
+  theme_minimal() +
+  scale_fill_manual(values = c("red", "blue"),
+                    labels = c("No", "Yes")) +
+  labs(fill = "breakdown, eventually?") +
+  theme(text = element_text(size = 25))
+
+```
+
+---
+
 background-image: url(https://antigonejournal.com/wp-content/uploads/2023/09/CentJT.png)
 background-position: right
 background-size: contain
 
-# Two-step process to backsliding
+# .orange[Two-step] process to backsliding
 
 --
 
@@ -149,3 +195,71 @@ background-size: contain
 ## `r fa("marker", fill='red')`  End result: Removal of political contestation
   
 ---
+
+background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Quintus_Fabius_Maximus_Before_the_Senate_of_Carthage.jpg/250px-Quintus_Fabius_Maximus_Before_the_Senate_of_Carthage.jpg)
+background-position: right
+background-size: contain
+
+
+# Institutional Roots of Backsliding <br> .tiny[(the fundamental source of grievance)]
+
+### - Democratization becomes its own .pink[victim] (Gandhi 2019).
+
+  - .Large[.green[Vertical] democratic accountability problem.]
+
+--
+
+### - Institutions to .purple[complement] democracy:  weaponization `r fa("arrow-down", fill='red')`
+--
+
+  - .Large[central bank independence]
+  - .Large[judicial independence]
+
+--
+
+### - .violet[Founding] constitution (often) protects authoritarian legacy
+
+--
+
+### - Vulnerability: independence is protected .red[only] by norms.
+
+---
+
+
+class: inverse
+background-color: black
+
+
+.full-width-blue[
+# Society: .Green[Media] and .pink[Communication] during Backsliding
+]
+
+--
+<br>
+### - Backsliding & information:  "rumors, propaganda, & conspiracies" (Wolf 2024) are .pink[accelerators]
+
+--
+
+### - Political information is .Green[costly] to process/verify for ordinary people (time & attention)
+
+--
+
+  - .Large[`r fa("person-through-window", fill='yellow')` a great opportunity for populist propaganda: info (cost) asymmetry ]
+  
+--
+
+### - Propaganda can be professed in two different ways:
+
+  - .Large[.pink[de-]politicization]
+  - .Large[.Blue[over-]politicization]
+
+ 
+---
+
+class: inverse, center, bottom
+background-image: url(https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExZDhqbnh6M2I4eTV4c2R5OXY5YnNyd3ZyamZnODBmZjdlN2Iyemw0byZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/023GUNo0864Vzgu4n6/giphy.gif)
+background-size: 100%
+
+# .huge[**Democratic Resilience?**]
+
+
