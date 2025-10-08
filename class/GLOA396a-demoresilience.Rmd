@@ -1,0 +1,156 @@
+---
+title: "Democratic Resilience GLOA396"
+author: "Byunghwan Son <br> George Mason University"
+date: " "
+#########################################
+linkcolor: red
+citecolor: blue
+urlcolor: blueß
+output: 
+  xaringan::moon_reader:
+    seal: false
+    nature:
+      beforeInit: "https://platform.twitter.com/widgets.js"
+      ratio: '16:9'
+      highlightStyle: github
+  #    self-contained: TRUE
+  chakra: css/libs/remark-latest.min.js
+css: ["default", 
+      "css/footer.css", 
+      "css/color.css", 
+      # "css/xaringan-themer.css",
+      default-fonts]
+lib_dir: css/libs
+beforeInit: "css/macros.js"
+# seal: false  
+#bibliography: /Users/bson3/Dropbox/latex/mybib2.bib
+#remotes::install_github('yihui/xaringan', upgrade = TRUE)
+---
+
+```{r setup, include=FALSE}
+# to use FontAwesome
+#htmltools::tagList(rmarkdown::html_dependency_font_awesome())
+library(dplyr)
+library(tidyr)
+library(fs)
+library(fontawesome)
+# library(magick)  
+library(ggplot2)
+knitr::opts_chunk$set(warning = FALSE, message = FALSE, error=F, echo=F)
+options(htmltools.preserve.raw = FALSE)
+```
+
+class: inverse, center, middle
+background-image: url(https://eclecticlight.co/wp-content/uploads/2018/10/maccaricicerodenouncescatiline.jpg)
+background-size: 100%
+
+# .Huge[**Democratic Resilience**]
+
+# .yellow[**GLOA 396**]
+
+
+---
+
+# Empirical Landscape of Democratic Resilience .tiny[(or the lackthereof)]
+
+```{r, include=F}
+
+library(ERT)
+var <- c("country_name", "year",
+         "v2x_polyarchy", "v2x_regime", "reg_type",
+         "aut_ep", "aut_ep_subreg",
+         "aut_ep_start_year",
+         "aut_ep_end_year")
+
+data <- ERT::get_eps() %>%
+  select(var) %>%
+  filter(year>1944) 
+
+
+data2 <-
+  data %>%
+  arrange(country_name, year) %>%
+  group_by(country_name) %>%
+  mutate(
+    finale = as.integer(year == aut_ep_end_year),
+    episode = cumsum(finale)   # each block of years after a finale
+  ) %>%
+  group_by(country_name, episode) %>%
+  mutate(
+    event_year = if_else(finale == 1, year, NA_integer_)
+  ) %>%
+  mutate(event_year = if_else(finale == 1, year, NA_integer_)   # store event year only at the event row
+  ) %>%
+  fill(event_year, .direction = "down") %>%                # carry event year forward ONLY 
+  mutate(
+    post = if_else(is.na(event_year), NA_integer_, year - event_year)
+    # result: pre-event = NA; event year = 0; then 1, 2, 3, ...
+  ) %>%
+  mutate(pre = - (aut_ep_end_year - year)) %>%
+  mutate(prepost = ifelse(!is.na(pre), pre, post)) %>%
+  filter(prepost > -4 & prepost < 7) %>%
+  mutate(event_year = 
+           ifelse(prepost<0, aut_ep_end_year, event_year)) %>%
+  mutate(country_event = paste0(country_name, event_year)) %>%
+  ungroup()
+
+
+data3 <- data2 %>%
+  group_by(country_event) %>%
+  mutate(
+    poly0 = ifelse(any(prepost == 0), v2x_polyarchy[prepost == 0][1], NA_real_),
+    poly3 = ifelse(any(prepost == 3), v2x_polyarchy[prepost == 3][1], NA_real_),
+    diff  = case_when(
+      !is.na(poly0) & !is.na(poly3) & (poly3 - poly0 > 0) ~ "improve",
+      !is.na(poly0) & !is.na(poly3) ~ "not",
+      TRUE ~ NA_character_
+    )
+  ) %>%
+  ungroup()
+
+data3 <- data2 %>%
+  group_by(country_event) %>%
+  mutate(
+    poly0 = ifelse(any(prepost == 0), v2x_polyarchy[prepost == 0][1], NA_real_),
+    poly3 = ifelse(any(prepost == 3), v2x_polyarchy[prepost == 3][1], NA_real_),
+    diff  = case_when(
+      !is.na(poly0) & !is.na(poly3) & (poly3 - poly0 > 0) ~ "improve",
+      !is.na(poly0) & !is.na(poly3) ~ "not",
+      TRUE ~ NA_character_
+    )
+  ) %>%
+  mutate(color = ifelse(prepost>=0, diff, "pre")) %>%
+  ungroup()
+
+
+
+
+```
+
+
+
+```{r, fig.align='center', fig.width=14}
+
+data3 %>% 
+  ggplot(aes(x=factor(prepost),
+             y=v2x_polyarchy,
+             group=country_event,
+             color = color)) +
+  geom_line(alpha=0.15) +
+  geom_smooth(aes(group = 4), 
+              color="black", se=F, linetype="dashed"
+              ) +
+  geom_vline(xintercept = "0",
+             linetype = 2) +
+  theme_minimal() +
+  labs(x="Before-and-After",
+       y="Demoracy") +
+  theme(legend.position = 'none',
+        text = element_text(size=20)) +
+  scale_color_manual(values = c("blue", "red", "grey" )) +
+  annotate("text", x=4.2, y=0.5, label="Autocratization Ends", angle=90, size=9)
+
+
+```
+
+
