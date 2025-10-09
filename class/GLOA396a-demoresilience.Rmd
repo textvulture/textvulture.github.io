@@ -148,9 +148,42 @@ data3 %>%
   theme(legend.position = 'none',
         text = element_text(size=20)) +
   scale_color_manual(values = c("blue", "red", "grey" )) +
-  annotate("text", x=4.2, y=0.5, label="Autocratization Ends", angle=90, size=9)
+  annotate("text", x=4.2, y=0.5, 
+           label="Autocratization Ends", 
+           angle=90, size=9, color='purple') -> plot
 
+plot
 
 ```
 
+---
 
+
+# Empirical Landscape of Democratic Resilience .tiny[(or the lackthereof)]
+
+.pull-left[
+
+```{r, echo=F}
+
+plot
+
+```
+
+]
+
+.pull-right[
+
+## What do we see here?
+
+- .Large[Quite a few 'bounce-back' cases.]
+
+- .Large[Many never recover.]
+
+- .Large[On average, recovery .pink[very] slow.]
+
+---
+
+
+
+
+]
