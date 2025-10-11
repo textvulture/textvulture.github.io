@@ -51,7 +51,29 @@ background-size: 100%
 
 ---
 
+class: inverse
+background-image: url(https://github.com/textvulture/textvulture.github.io/blob/master/images/background_leftEmpty.jpg?raw=true)
+background-size: 125%
+
+# We talked a lot about how dictators sometimes remain resilient against shocks.
+
+--
+
+# This week, we talk about the same, but for .pink[democracy.]
+
+--
+
+# Democratic resilience: a democratic regime remain <br> .Blue[reasonably] democratic (despite challenges).
+
+--
+
+# .yellow[How resilient are contemporary democracies?]
+
+---
+
 # Empirical Landscape of Democratic Resilience .tiny[(or the lackthereof)]
+
+--
 
 ```{r, include=F}
 
@@ -185,7 +207,7 @@ plot
 ---
 
 .full-width-green[
-# We are not hallucinating.
+# We are not hallucinating. (Bianchi et al. 2025)
 ]
 <br><br>
 --
@@ -219,7 +241,7 @@ plot
 - .large[.pink[Does an ongoing autocratization lead to a collapse of a democracy?]]
 
 --
-
+<br><br>
 ```{r, fig.align='center', fig.width=12, fig.height=4.5}
 
 library(ggplot2)
@@ -287,7 +309,7 @@ p +
 background-image: url(https://github.com/textvulture/textvulture.github.io/blob/master/images/Boese2021.png?raw=true)
 background-size: 75%
 
-### Boese at al. (2021): .orange[onset] and breakdown resilience
+### Boese at al. (2021): onset and .orange[breakdown] resilience
 
 ---
 
@@ -320,6 +342,56 @@ background-position: right
 - .Large[other stuff: .pink[economic crisis], .pink[polarization]]
 
 ---
+
+class: inverse, center, middle
+background-image: url(https://github.com/textvulture/textvulture.github.io/blob/master/images/background_glass.jpg?raw=true)
+background-size: 100%
+
+# .Huge[**How can democracy be made .yellow[more] resilient?**]
+
+--
+
+# Cheeseman et al. (2024)
+
+---
+
+.full-width-blue[
+# Enhancing Resilience
+]
+<br><br>
+
+--
+
+- .Large[Stronger .pink[institutional] guardrails] 
+  - .large[stricter thresholds for changing core rules]
+  - .large[strengthen institutional independence (courts, electoral commissions)] 
+  - .large[more protection for marginalized groups: legitimacy `r fa("arrow-up")`]
+  - .large[improve tools to counter disinformation]
+  
+--
+
+- .Large[Central + local government resilience: more .green[linkages]]
+
+--
+
+- .Large[Country .red[contexts]: media literacy for some; civic education for others]
+
+--
+
+- .Large[Re-democratization: a tricky business as .Blue[rule-compliance] becomes difficult]
+
+---
+
+class: inverse
+background-image: url(https://github.com/textvulture/textvulture.github.io/blob/master/images/background_leftEmpty3.jpeg?raw=true)
+background-size: 100%
+
+# We talked about:
+
+## - the theoretical concepts and empirical realities <br> of democratic resilience
+
+## - some practical suggestions for making <br>democracy more resilient
+
 
 
 
