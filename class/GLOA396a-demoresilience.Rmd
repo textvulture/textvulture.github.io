@@ -180,10 +180,32 @@ plot
 - .Large[Many never recover.]
 
 - .Large[On average, recovery .pink[very] slow.]
+]
+
+---
+
+.full-width-green[
+# We are not hallucinating.
+]
+<br><br>
+--
+
+> ### **A .blue[longer-term] view**: “Nearly .green[90 percent] of countries that turned back to democracy since 1994 failed to sustain the level of democracy they returned to” (Bianchi et al. 2025)
+
+--
+
+- .LARGE[authoritarian .pink[institutional legacy] linger on (India, Poland)]
+--
+
+- .LARGE[new leaders turn repressive (Zambia)]
+--
+
+- .LARGE[continued social problems; .orange[sympathizers] (Brazil)]
+--
+
+- .LARGE[.Blue[international] spoilers (anti-democratic influence)]
 
 ---
 
 
 
-
-]
