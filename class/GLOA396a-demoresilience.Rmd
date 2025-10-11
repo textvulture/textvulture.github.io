@@ -207,5 +207,119 @@ plot
 
 ---
 
+.full-width-blue[
+# Is it *that* bad? A more comprehensive look.
+]
+
+--
+
+### Distinction between .green[onset] and .pink[breakdown] resilience
+
+- .large[.green[Does an autocratization episode start on a democracy?]]
+- .large[.pink[Does an ongoing autocratization lead to a collapse of a democracy?]]
+
+--
+
+```{r, fig.align='center', fig.width=12, fig.height=4.5}
+
+library(ggplot2)
+library(dplyr)
+
+# Node positions & labels (with line break)
+nodes <- tibble(
+  label = c("Democracy", "Autocratization", "Regime\nCollapse"),
+  x = c(1, 2.8, 4.6),
+  y = 0
+)
+
+box_w <- 1.6
+box_h <- 1.2
+
+nodes <- nodes %>%
+  mutate(
+    xmin = x - box_w/2, xmax = x + box_w/2,
+    ymin = y - box_h/2, ymax = y + box_h/2
+  )
+
+arrows_df <- nodes %>%
+  arrange(x) %>%
+  mutate(x_start = xmax, y_start = y) %>%
+  mutate(x_end   = lead(xmin), y_end = lead(y)) %>%
+  slice(1:(n() - 1))
+
+# Draw base chart
+p <- ggplot() +
+  geom_rect(data = nodes, aes(xmin = xmin, xmax = xmax, ymin = ymin, ymax = ymax, fill = label),
+            color = "white", linewidth = 1) +
+  geom_text(data = nodes, aes(x = x, y = y, label = label),
+            color = "white", fontface = "bold", size = 8, lineheight = 0.9) +
+  geom_segment(data = arrows_df,
+               aes(x = x_start, xend = x_end, y = y_start, yend = y_end),
+               linewidth = 1.2, color = "gray25",
+               lineend = "butt",
+               arrow = arrow(length = unit(0.25, "cm"), type = "closed")) +
+  scale_fill_manual(values = c("Democracy" = "steelblue",
+                               "Autocratization" = "sienna",
+                               "Regime\nCollapse" = "firebrick")) +
+  coord_fixed(1) +
+  theme_void() +
+   theme(legend.position = "none") 
+
+# Add braces (curved lines)
+p +
+  geom_curve(aes(x = 0.5, xend = 3, y = -.75, yend = -.75),
+             curvature = +0.3, linewidth = 1.2, color = "green") +
+  annotate("text", x = 1.8, y = -1.25, label = "Onset resilience",
+           fontface = "italic", size = 5) +
+  
+  # Top brace (covers last two) -- frown
+  geom_curve(aes(x = 2.5, xend = 5, y = .75, yend = .75),
+             curvature = -0.3, linewidth = 1.2, color = "red") +
+  annotate("text", x = 3.75, y = 1.25, label = "Breakdown resilience",
+           fontface = "italic", size = 5) +
+    coord_cartesian(xlim = c(0.3, 5), ylim = c(-1.6, 1.6), clip = "off")
+
+
+```
+
+---
+
+background-image: url(https://github.com/textvulture/textvulture.github.io/blob/master/images/Boese2021.png?raw=true)
+background-size: 75%
+
+### Boese at al. (2021): .orange[onset] and breakdown resilience
+
+---
+
+background-image: url(https://c7.alamy.com/comp/A4KK8M/citizens-meeting-with-agrippa-in-ancient-rome-in-the-time-of-emperor-A4KK8M.jpg)
+background-size: contain
+background-position: right
+
+## .pink[Enablers] and .Blue[Bulwarks] (Boese et al.2021)
+
+- .Large[.Blue[Judicial constraints on the executive]: <br>both onset and breakdown resilience. <br>Courts function as the “last bulwark”]
+
+--
+
+- .Large[.Blue[Democratic stock]: both onset and breakdown <br>thru institutionalizing norms and practices.]
+
+--
+
+-	.Large[.Blue[Econ development]: only onset & marginally]
+
+--
+
+- .Large[.Blue[Regional democracy levels]: only breakdown <br>and marginally] 
+
+--
+
+- .Large[.pink[Coups] – mostly onset]
+
+--
+
+- .Large[other stuff: .pink[economic crisis], .pink[polarization]]
+
+---
+
 
 
