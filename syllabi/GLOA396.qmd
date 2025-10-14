@@ -60,6 +60,7 @@ blue {
 
   - <font size='2'>August 14: This syllabus is created.</font>
   - <font size='2'>August 23: Critical Synthesis deadline eded. </font>
+  - <font size='2'>October 14: Schedule corrected for Thanksgiving Break</font>
 
 # Instructor
 
@@ -446,10 +447,10 @@ The grading scale in this course follows [GMU Catalogue](https://catalog.gmu.edu
 - Nalepa, Monika. 2022. *After Authoritarianism*. New York: Cambridge University Press. Chs. 6 and 7.
 
 
+## Week 13 (Nov 17-23). Special Topic. Details to be announced.{.unnumbered}
 
-## Week 13 (Nov 17-23). No Class. Thanksgiving Break {.unnumbered}
+## Week 14 (Nov 24-30). No Class. Thanksgiving Break {.unnumbered}
 
-## Week 14 (Nov 24-30). Special Topic. Details to be announced.{.unnumbered}
 
 ## Week 15 (Dec 1-7). Wrap-up. QnA.  {.unnumbered}
 - An optional Zoom session will be held at 9:00 PM, Dec 2 (Tuesday). Zoom link will be made available in Canvas.
