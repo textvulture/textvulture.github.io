@@ -62,10 +62,10 @@ background-size: 20%
 
 ```{r, echo=F, include=F}
 
-library(qrcode)
- 
+# library(qrcode)
+#  
 # png(file="qr.png")
-# qr <- qr_code("https://textvulture.github.io/presentations/GuestLecture_10292024.html")
+# qr <- qr_code("https://textvulture.github.io/presentations/GuestLecture_GLOA491.html")
 # plot(qr)
 # dev.off()
 
@@ -203,10 +203,16 @@ background-size: 100%
 
 # Now let's get on to the .Blue[project]: 
 
-### `r fa("book", fill='red')` "Consequences of Democratic Backsliding on Popular Culture: Evidence from Blacklist in South Korea" *Democratization*, Forthcoming.
+### `r fa("book", fill='red')` "Consequences of Democratic Backsliding on Popular Culture: Evidence from Blacklist in South Korea" *Democratization*, 31(8): 1798-1822.
 
 ---
+class: inverse, center, middle
+background-image: url(https://github.com/textvulture/textvulture.github.io/blob/master/images/deskBackground3.png?raw=true)
+background-size: 100%
 
+# .HUGE[.yellow[**The Subject**]]
+
+---
 
 class: inverse
 background-color: black
@@ -232,7 +238,6 @@ background-position: right
 ## - discrete operation
 
 ---
-
 
 background-image: url(https://img.khan.co.kr/news/2015/11/04/l_2015110401000555600049501.jpg)
 background-position: right
@@ -602,7 +607,7 @@ expression %>%
 ### Filling in .red[zeros] for the years of no movie work.
 
 ```{r, echo=F}
-df <- readRDS('/Users/bson3/GitHub/bkv/data.rds')
+df <- readRDS('/Users/bson3/GitHub/archive/bkv_democratization_2024/data.rds')
 ```
 
 ```{r, echo=T}
