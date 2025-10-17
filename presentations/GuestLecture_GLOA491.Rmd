@@ -201,9 +201,7 @@ background-size: 100%
 
 --
 
-# Now let's get on to the .Blue[project]: 
-
-### `r fa("book", fill='red')` "Consequences of Democratic Backsliding on Popular Culture: Evidence from Blacklist in South Korea" *Democratization*, 31(8): 1798-1822.
+# Now let's get on to the .bluey[project].
 
 ---
 class: inverse, center, middle
@@ -212,6 +210,10 @@ background-size: 100%
 
 # .HUGE[.yellow[**The Subject**]]
 
+--
+
+## .Green[The thing that you just come across.]
+
 ---
 
 class: inverse
@@ -219,7 +221,7 @@ background-color: black
 background-image: url(https://github.com/textvulture/textvulture.github.io/blob/master/images/blacklist_eg.jpeg?raw=true)
 background-position: right
 
-# `r fa("book", fill='orange')` Blacklists, literally
+# `r fa("book", fill='orange')` Blacklists
 
 --
 
@@ -239,11 +241,48 @@ background-position: right
 
 ---
 
+background-image: url(https://pbs.twimg.com/media/ENzTfM7VUAEyaEI.jpg)
+background-position: right
+background-size: contain
+
+
+# **Motivation** .pink[.small[.tiny[(& why I chose the particular method)]]]
+
+--
+
+- .Large[This is upsetting `r fa('face-angry', fill='red')`.]
+
+--
+
+  - .Large[But .pink[what] exactly am I upset about?]
+  
+--
+
+  - .Large[Suppression of freedom of speech?<br>**Yes,** but more.]
+
+--
+
+  - .Large[*sleazy people ruining<br> cool people's lives.* `r fa('face-tired', fill='orange')`]
+      
+--
+
+  - .Large[I need to show this was real bad<br> on people's lives. But .red[how?]]
+
+--
+
+  - .Large[Interviews? Fieldwork?]
+    
+--
+  
+- .Large[**Only** if the victims were aware of things.]
+
+---
+
 background-image: url(https://img.khan.co.kr/news/2015/11/04/l_2015110401000555600049501.jpg)
 background-position: right
 background-size: 40%
 
-# How to Get on the List
+# But many didn't know
 
 .pull-left[
 ```{r blacklist, echo=F, message=F, error=F, warning=F, result='asis'}
@@ -283,44 +322,6 @@ background-size: contain
 # "*Why have you not .red[sanctioned] <br> these [anti-government] <br> movie producers yet?*" <br><br> 
 
 ## **Kim Ki-choon**, <br> Park Geun-hye's Chief Secretary, <br> after watching *The Attorney* <br> to **Yoo Jin-ryong**, <br> Minister of Culture, Sports and Tourism. 
-
----
-
-background-image: url(https://pbs.twimg.com/media/ENzTfM7VUAEyaEI.jpg)
-background-position: right
-background-size: contain
-
-
-# **Motivation** .pink[.small[.tiny[(why chose the particular method)]]]
-
---
-
-- This is upsetting `r fa('face-angry', fill='red')`.
-
---
-
-  - But .pink[what] exactly am I upset about?
-  
---
-
-  - Suppression of freedom of speech? Yes, but more.
-
---
-
-  - .green[personal] to me: 
-      - *sleazy people ruining cool people's lives.* `r fa('face-tired', fill='orange')`
-      
---
-
-  - Okay, but how can I demonstrate this empirically?
-  
---
-
-    - Interviews? Fieldwork?
-    
---
-  
-- **Only** if the victims were really aware of things.
 
 ---
 

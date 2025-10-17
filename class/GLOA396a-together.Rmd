@@ -73,3 +73,69 @@ background-size: 100%
 ---
 
 
+.full-width-blue[
+# Most dramatic types of transformation
+]
+<br><br>
+--
+
+## - among shocks: .orange[**coup**]
+
+--
+
+## - among transitions: .violet[**democratization**]
+
+--
+
+## What's the relationship? `r fa("arrow-up", fill='red')`, `r fa("arrow-down", fill='blue')`, or `r fa("arrows-up-down")`?
+
+---
+
+.full-width-green[
+# Coups `r fa('arrow-right')` democracy (Thyne and Powell 2016) .tiny[: not really a new point!!]
+]
+
+<br>
+--
+
+## - .pink[successful] coups: new leaders' need for legitimacy `r fa("arrow-up", fill='red')` (domestic & political)
+
+--
+
+## - .Green[failed] coups: old leaders' need for improvement `r fa("arrow-up", fill='red')`
+
+--
+
+- .LARGE[compare this with Coup-proofing]
+
+--
+
+## `r fa("lightbulb", fill='red')` Caveat: only applies to .orange[autocratic] conditions. Coups are .pink[detrimental] to democracies.
+
+---
+
+.full-width-blue[
+# But do you have a democratic friend? (Thyne & Hitch 2020)
+]
+
+<br>
+--
+
+## - Post-coup situtations are fluid: room for negotiation and rectification 
+
+--
+
+## - Democratic foreign governments's reactions 
+
+--
+
+- .Large[support for the new elites: resource, legitimacy, security `r fa("arrow-right")` democratization]
+
+--
+
+- .Large[condemning the new elites: leaning to autocratic allies for survival `r fa("arrow-right")` autocratization]
+
+--
+
+## - But IOs don't have similar effects. Why?
+
