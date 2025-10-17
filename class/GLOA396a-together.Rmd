@@ -33,6 +33,7 @@ beforeInit: "css/macros.js"
 library(dplyr)
 library(tidyr)
 library(fs)
+library(kableExtra)
 library(fontawesome)
 # library(magick)  
 library(ggplot2)
@@ -57,9 +58,11 @@ background-size: 100%
 
 # What we talk about:
 
---
+## - Relationships between different transformative events
 
-## How all these events and steps we talked about so far are .bluey[conneceted]
+## - Factors behind those relationships
+
+## - Some more emphasis on coup and democratization
 
 
 ---
@@ -148,4 +151,324 @@ background-size: 120%
 # .LARGE[**But of course, it's .yellow[not just] coup and democratization.**]
 
 ---
+
+background-image: url(https://github.com/textvulture/textvulture.github.io/blob/master/images/Miller2021Iceberg.png?raw=true)
+background-size: contain
+
+---
+class: inverse, center, middle
+background-image: url(https://github.com/textvulture/textvulture.github.io/blob/master/images/deskBackground4.png?raw=true)
+background-size: 115%
+
+# .LARGE[**Let's see how the .yellow[underlying factors] manifest themselves into different forms.**]
+
+---
+
+# Miller (2021)
+
+--
+
+```{r, echo=FALSE}
+
+mechanisms_df <- data.frame(
+  Mechanism = c("Elite defection", "Mass mobilization", "Institutional innovation", "External signaling"),
+  Description = c(
+    "When parts of the ruling coalition (e.g., military, ruling party) abandon incumbents",
+    "Expands uncertainty and forces concessions",
+    "New rules or bodies emerge to stabilize power",
+    "Foreign recognition, sanctions, or aid shape incentives"
+  ),
+  Illustrative_Effect = c(
+    "*Precondition* for coups or negotiated transitions",
+    "Democratization more likely when mobilization is broad and sustained",
+    "Constitutions, elections, or transitional governments",
+    "Determines postcoup trajectories (Thyne & Hitch 2020)"
+  )
+)
+
+mechanisms_df1 <- data.frame(
+  Mechanism = c("Elite defection", "Mass mobilization", "Institutional innovation", "External signaling"),
+  Description = c(
+    " ", " ", " ", " "
+  ),
+  Illustrative_Effect = c(
+    " ", " ", " ", " "
+  )
+)
+
+
+mechanisms_df2 <- data.frame(
+  Mechanism = c("Elite defection", "Mass mobilization", "Institutional innovation", "External signaling"),
+  Description = c(
+    "When parts of the ruling coalition (e.g., military, ruling party) abandon incumbents",
+    " ", " ", " "
+  ),
+  Illustrative_Effect = c(
+    "Precondition for coups or negotiated transitions",
+    " ", " ", " "
+  )
+)
+
+mechanisms_df3 <- data.frame(
+  Mechanism = c("Elite defection", "Mass mobilization", "Institutional innovation", "External signaling"),
+  Description = c(
+    "When parts of the ruling coalition (e.g., military, ruling party) abandon incumbents",
+    "Expands uncertainty and forces concessions",
+   " ", " "
+  ),
+  Illustrative_Effect = c(
+    "*Precondition* for coups or negotiated transitions",
+    "Democratization more likely when mobilization is broad and sustained",
+ " ", " "
+  )
+)
+
+mechanisms_df4 <- data.frame(
+  Mechanism = c("Elite defection", "Mass mobilization", "Institutional innovation", "External signaling"),
+  Description = c(
+    "When parts of the ruling coalition (e.g., military, ruling party) abandon incumbents",
+    "Expands uncertainty and forces concessions",
+    "New rules or bodies emerge to stabilize power",
+    " "
+  ),
+  Illustrative_Effect = c(
+    "*Precondition* for coups or negotiated transitions",
+    "Democratization more likely when mobilization is broad and sustained",
+    "Constitutions, elections, or transitional governments",
+    " "
+  )
+)
+```
+
+
+
+
+```{r, echo=F}
+kbl(mechanisms_df1) %>%
+    kable_paper("hover", full_width = F) %>%
+    column_spec(1, 
+                width = "3.5cm",
+                bold = T) %>%
+    kable_styling(bootstrap_options = "striped", font_size = 28) %>%
+  row_spec(0,
+           color = 'white',
+           background = 'green')  %>%
+  column_spec(2, 
+           width = '11cm') %>%
+  column_spec(3, 
+           width = '11cm') %>%
+  row_spec(4,
+           italic = T,
+           color = 'gray')
+
+
+```
+
+---
+
+# Miller (2021)
+
+
+```{r, echo=F}
+kbl(mechanisms_df2) %>%
+    kable_paper("hover", full_width = F) %>%
+    column_spec(1, 
+                width = "3.5cm",
+                bold = T) %>%
+    kable_styling(bootstrap_options = "striped", font_size = 28) %>%
+  row_spec(0,
+           color = 'white',
+           background = 'green')  %>%
+  column_spec(2, 
+           width = '11cm') %>%
+  column_spec(3, 
+           width = '11cm') %>%
+  row_spec(4,
+           italic = T,
+           color = 'gray')
+
+
+```
+
+---
+
+
+# Miller (2021)
+
+
+
+```{r, echo=F}
+kbl(mechanisms_df3) %>%
+    kable_paper("hover", full_width = F) %>%
+    column_spec(1, 
+                width = "3.5cm",
+                bold = T) %>%
+    kable_styling(bootstrap_options = "striped", font_size = 28) %>%
+  row_spec(0,
+           color = 'white',
+           background = 'green')  %>%
+  column_spec(2, 
+           width = '11cm') %>%
+  column_spec(3, 
+           width = '11cm') %>%
+  row_spec(4,
+           italic = T,
+           color = 'gray')
+
+
+```
+
+---
+
+
+# Miller (2021)
+
+
+```{r, echo=F}
+kbl(mechanisms_df4) %>%
+    kable_paper("hover", full_width = F) %>%
+    column_spec(1, 
+                width = "3.5cm",
+                bold = T) %>%
+    kable_styling(bootstrap_options = "striped", font_size = 28) %>%
+  row_spec(0,
+           color = 'white',
+           background = 'green')  %>%
+  column_spec(2, 
+           width = '11cm') %>%
+  column_spec(3, 
+           width = '11cm') %>%
+  row_spec(4,
+           italic = T,
+           color = 'gray')
+
+
+```
+
+
+---
+
+
+# Miller (2021)
+
+
+
+```{r, echo=F}
+kbl(mechanisms_df) %>%
+    kable_paper("hover", full_width = F) %>%
+    column_spec(1, 
+                width = "3.5cm",
+                bold = T) %>%
+    kable_styling(bootstrap_options = "striped", font_size = 28) %>%
+  row_spec(0,
+           color = 'white',
+           background = 'green') %>%
+  column_spec(2, 
+           width = '11cm') %>%
+  column_spec(3, 
+           width = '11cm') %>%
+  row_spec(4,
+           italic = T,
+           color = 'gray')
+
+```
+
+
+---
+
+.full-width-green[
+# Elite Competition and Strategic Uncertainty
+]
+
+<br>
+--
+
+## - .Blue[Uncertainty]: The inability of ruling and rival elites to know how future power relations will unfold. Generally high in the .orange[moments of uncertainty]
+--
+
+## - All dramatic events stem from .pink[shifts] in this uncertainty: 
+--
+
+- .Large[**Coups**: when elites believe the ruler’s hold on power is weakening and that seizing control could secure their own position]
+--
+
+- .Large[**Democratization**: when elites see uncertainty as too costly and prefer more predictable option (e.g., election)]
+--
+
+- .Large[**Autocratization**: when elites regain confidence in their dominance (i.e., undertainty `r fa("arrow-down", fill='red')`)]
+
+---
+
+.full-width-green[
+#Mass Mobilization
+]
+<br>
+--
+
+## : Popular mobilization (protests, strikes, and revolts) determines their .purple[direction] and .Blue[depth].
+
+--
+
+- .Large[Raising the .red[costs] of repression]
+
+--
+
+- .Large[Signaling widespread discontent (i.e., private to public info)]
+
+--
+
+-	.Large[Potentially .orange[fracturing] elite coalitions]
+
+---
+
+.full-width-blue[
+# Institutions and Path Dependence
+]
+<br>
+
+--
+
+## Institutions, even weak ones, shape how uncertainty is resolved.
+
+--
+
+- .Large[Strong .orange[parties and bureaucracies] constrain opportunistic coups.]
+--
+
+- .Large[Electoral systems and constitutional rules affect determines the speed of liberalization.]
+--
+
+- .Large[Military (as an institution) with histories of political engagement are more prone to intervene.]
+--
+
+## `r fa("tape", fill="purple")` Path-dependence
+
+---
+
+.full-width-blue[
+# All connected
+]
+<br>
+--
+
+## - Different manifestations of the same underlying instability:
+--
+
+-	.Large[**Coup**: elite-led, institutional breakdown from above.]
+--
+
+- .Large[**Revolution**: mass-led, breakdown from below.]
+--
+
+- .Large[**Democratization**: negotiated settlement between elites and masses after instability.]
+
+---
+
+class: middle
+background-image: url(https://i.gifer.com/L2cq.gif)
+background-position: right
+background-size: contain
+
+
+# We talked about how <br> all the transformative <br> events  are rooted <br>in similar variables<br> and, thus, connected.
 
