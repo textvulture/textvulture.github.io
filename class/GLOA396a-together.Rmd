@@ -98,11 +98,11 @@ background-size: 100%
 <br>
 --
 
-## - .pink[successful] coups: new leaders' need for legitimacy `r fa("arrow-up", fill='red')` (domestic & political)
+## - .pink[successful] coups: new leaders' need for legitimacy `r fa("arrow-up", fill='red')` (domestic & .orange[international])
 
 --
 
-## - .Green[failed] coups: old leaders' need for improvement `r fa("arrow-up", fill='red')`
+## - .green[failed] coups: old leaders' need for improvement `r fa("arrow-up", fill='red')`
 
 --
 
@@ -138,4 +138,14 @@ background-size: 100%
 --
 
 ## - But IOs don't have similar effects. Why?
+
+---
+
+class: inverse, center, middle
+background-image: url(https://github.com/textvulture/textvulture.github.io/blob/master/images/forestBackground3.jpg?raw=true)
+background-size: 120%
+
+# .LARGE[**But of course, it's .yellow[not just] coup and democratization.**]
+
+---
 
