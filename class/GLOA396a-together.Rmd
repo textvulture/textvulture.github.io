@@ -379,20 +379,24 @@ kbl(mechanisms_df) %>%
 .full-width-green[
 # Elite Competition and Strategic Uncertainty
 ]
-
 <br>
+
 --
 
 ## - .Blue[Uncertainty]: The inability of ruling and rival elites to know how future power relations will unfold. Generally high in the .orange[moments of uncertainty]
+
 --
 
 ## - All dramatic events stem from .pink[shifts] in this uncertainty: 
+
 --
 
 - .Large[**Coups**: when elites believe the ruler’s hold on power is weakening and that seizing control could secure their own position]
+
 --
 
 - .Large[**Democratization**: when elites see uncertainty as too costly and prefer more predictable option (e.g., election)]
+
 --
 
 - .Large[**Autocratization**: when elites regain confidence in their dominance (i.e., undertainty `r fa("arrow-down", fill='red')`)]
@@ -403,9 +407,10 @@ kbl(mechanisms_df) %>%
 #Mass Mobilization
 ]
 <br>
+
 --
 
-## : Popular mobilization (protests, strikes, and revolts) determines their .purple[direction] and .Blue[depth].
+## : Popular mobilization (protests, strikes, and revolts) determines the .purple[direction] and .Blue[depth] of transformation.
 
 --
 
@@ -433,12 +438,15 @@ kbl(mechanisms_df) %>%
 --
 
 - .Large[Strong .orange[parties and bureaucracies] constrain opportunistic coups.]
+
 --
 
 - .Large[Electoral systems and constitutional rules affect determines the speed of liberalization.]
+
 --
 
 - .Large[Military (as an institution) with histories of political engagement are more prone to intervene.]
+
 --
 
 ## `r fa("tape", fill="purple")` Path-dependence
@@ -449,15 +457,19 @@ kbl(mechanisms_df) %>%
 # All connected
 ]
 <br>
+
 --
 
 ## - Different manifestations of the same underlying instability:
+
 --
 
 -	.Large[**Coup**: elite-led, institutional breakdown from above.]
+
 --
 
 - .Large[**Revolution**: mass-led, breakdown from below.]
+
 --
 
 - .Large[**Democratization**: negotiated settlement between elites and masses after instability.]
