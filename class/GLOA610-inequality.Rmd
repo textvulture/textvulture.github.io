@@ -102,21 +102,15 @@ background-size: 100%
 
 # .huge[poverty `r fa('not-equal', fill='red')` development]
 
---
-
-# .huge[inequality `r fa('not-equal', fill='red')` development]
-
---
-
-# .huge[inequality .orange[::] poverty?]
 
 ---
 
 class: inverse
 
-<div class="full-width-tinted"><br>
-  <h1> .Large[Things to think & talk about:] </h1>
-</div><br><br>
+.full-width-green[
+#Things to think & talk about
+] 
+<br><br>
 
 # 1) Has globalization reduced poverty/inequality? 
 
@@ -124,7 +118,7 @@ class: inverse
 
 # 2) What's the problem?
 
-  - .Large[poverty/inequality .yellow[increasing] or decreasing .orange[not fast enough?] ]
+  - .Large[poverty/inequality .yellow[increasing] or decreasing, but .orange[not fast enough?] ]
 
 --
 
@@ -132,9 +126,7 @@ class: inverse
 
 ---
 
-<div class="full-width-tinted"><br>
-  <h1> .Large[Global Poverty, .yellow[inflation adjusted]] </h1>
-</div><br><br>
+# Global Poverty .tiny[(you've seen this one before)]
 
 ```{r, message=FALSE, echo=FALSE, warning=FALSE, results="asis", fig.width=16, fig.height=6.5, cache=T}
 
@@ -156,9 +148,8 @@ wdi2 %>%
 ```
 
 ---
-<div class="full-width-tinted"><br>
-  <h1> .Large[Global Poverty, .yellow[by infant mortality]] </h1>
-</div><br><br>
+
+# Global Poverty, .pink[by infant mortality]
 
 ```{r, message=FALSE, echo=FALSE, warning=FALSE, results="asis", fig.width=16, fig.height=6.5, cache=T}
 
@@ -181,15 +172,11 @@ wdi2 %>%
 
 ---
 
-<div class="full-width-tinted"><br>
-  <h1> .Large[Global Inequality, composite Gini Index] </h1>
-</div><br><br>
+# Global Inequality, composite Gini Index .tiny[(based on SWIID, Solt 2020)]
 
-.large[Data: SWIID, Solt 2020]
+```{r, message=FALSE, echo=FALSE, warning=FALSE, results="asis", fig.width=16, fig.height=7.5}
 
-```{r, message=FALSE, echo=FALSE, warning=FALSE, results="asis", fig.width=16, fig.height=6, cache=T}
-
-load(file = "images/swiid9_1.rda")
+## Startover
 
 swiid_summary %>%
   ggplot(aes(x=year,
@@ -207,9 +194,7 @@ swiid_summary %>%
 
 ---
 
-<div class="full-width-tinted"><br>
-  <h1> Inequality in Some Countries </h1>
-</div><br><br>
+# Inequality in Some Countries 
 
 --
 
@@ -285,6 +270,12 @@ wdi2 %>%
 ]
 
 ---
+
+# Briggs
+
+
+
+---
 class: inverse, middle
 background-color: black
 
@@ -294,7 +285,9 @@ background-color: black
 
 # Elephant 🐘 Story
 
+
 ---
+
 class: inverse, middle
 background-color: black
 background-image: url(https://milescorak.files.wordpress.com/2016/05/branko-milanovice-global-inequality-elephant-curve.png?w=640)
@@ -305,7 +298,7 @@ background-position: right
 
 # Elephant 🐘 Story
 
-### source: Milanovic (2020) <br>(also, Briggs(2018))
+### source: Milanovic (2020)
 
 ---
 
