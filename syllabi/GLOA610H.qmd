@@ -63,6 +63,7 @@ blue {
 
 - <font size=2>Sep. 2: A new (short) reading added to the week of immigration (Reuters)</font>
 - <font size=2>Sep. 9: A short news article added to the week of finance</font>
+- <font size=2>Oct. 19: Briggs's short article (Poverty week) is turned 'not required.'
 
 
 
@@ -564,7 +565,7 @@ Those interested in presenting in this week should be aware that foreign aid is 
 Those presenting this week might want to know that there's a difference between poverty/inequality and general under-development. A developed country might still have poverty issues, for example.
 
 
-  -  Briggs, R. (2018). “Millions of Americans as destitute as the world’s poorest? Don’t believe it.” Vox. February 4, 2018. [https://www.vox.com/the-big-idea/2018/2/1/169596 34/millions-americans-destitute-2-day-worlds-poorest-deaton-aid.](https://www.vox.com/the-big-idea/2018/2/1/16959634/millions-americans-destitute-2-day-worlds-poorest-deaton-aid) 
+  -  Briggs, R. (2018). “Millions of Americans as destitute as the world’s poorest? Don’t believe it.” Vox. February 4, 2018. [https://www.vox.com/the-big-idea/2018/2/1/169596 34/millions-americans-destitute-2-day-worlds-poorest-deaton-aid.](https://www.vox.com/the-big-idea/2018/2/1/16959634/millions-americans-destitute-2-day-worlds-poorest-deaton-aid) <mark>not required</mark>.
   -  Rudra, N. and Tirone, D. C. (2017). Trade, Politics, and the Poor: Is Sen Right and Bhagwati Wrong? *Studies in Comparative International Development*, 52(1):1–22.
   -  Attanasio, O., Augsburg, B., De Haas, R., Fitzsimons, E., and Harmgart, H. (2015). The impacts of microfinance: Evidence from joint-liability lending in Mongolia. *American Economic Journal: Applied Economics*, 7(1):90–122.
   -  Banerjee, A., Duflo, E., Glennerster, R., and Kinnan, C. (2015a). The miracle of microfinance? evidence from a randomized evaluation. *American Economic Journal: Applied Economics*, 7(1):22–53.
