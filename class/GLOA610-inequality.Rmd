@@ -198,15 +198,20 @@ swiid_summary %>%
 
 --
 
-```{r, message=FALSE, echo=FALSE, warning=FALSE, results="asis", fig.width=16, fig.height=6.5, cache=T}
+```{r, message=FALSE, echo=FALSE, warning=FALSE, results="asis", fig.width=16, fig.height=6.5}
 
 library(ggrepel)
+library(dplyr)
+library(ggplot2)
+
+load("/Users/bson3/Library/CloudStorage/OneDrive-GeorgeMasonUniversity-O365Production/data_repo/swiid9_9/swiid9_9.rda")
+
 
 name <- c("United States", 
           "China", 
-          "India",
+          "Brazil",
           "Sweden",
-          "Canada")
+          "Australia")
 
 swiid_summary %>%
   filter(country==name) %>%
@@ -226,12 +231,11 @@ swiid_summary %>%
   geom_label_repel(aes(label=label), fill=NA,
                    nudge_x = 1, nudge_y = -1, size=8) +
   theme(legend.position = "none",
-    #legend.title = element_text(size=20),
-        #legend.text = element_text(size=20),
+        legend.text = element_text(size=20),
         axis.text=element_text(size=20),
         axis.title=element_text(size=20)) +
   labs(x="Year", y="Gini Coefficient")
-         
+
 
 ```   
 
@@ -271,8 +275,34 @@ wdi2 %>%
 
 ---
 
-# Briggs
+# Some caveats
 
+--
+
+.pull-left[
+
+```{r, out.width="72%", fig.align='center'}
+
+knitr::include_graphics('https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Angus_Deaton_5289-2015.jpg/250px-Angus_Deaton_5289-2015.jpg')
+
+```
+
+.Large["Millions of Americans as destitute as the world’s poorest!"]
+]
+
+--
+
+.pull-right[
+
+```{r, fig.align='center', out.width="75%"}
+
+knitr::include_graphics('https://images.squarespace-cdn.com/content/v1/5acc1ee17e3c3a103525fb2b/1621202008123-0IV38UB6HXV8TE55WQ85/P5160125.jpeg?format=1000w')
+
+```
+
+
+.center[.Large[.red["Don believe that!"]]]
+]
 
 
 ---
