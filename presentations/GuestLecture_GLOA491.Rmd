@@ -51,7 +51,7 @@ background-size: 20%
 
 ## .right[Byunghwan Ben Son <br> .tiny[(Associate Professor, GLOA, GMU)]]
 
-### .right[GLOA 491 (MK) Guest Lecture]
+### .right[GLOA 396 (MK) Guest Lecture]
 
 
 ---
