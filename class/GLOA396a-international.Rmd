@@ -1,0 +1,215 @@
+---
+title: "Synthesis GLOA396"
+author: "Byunghwan Son <br> George Mason University"
+date: " "
+#########################################
+linkcolor: red
+citecolor: blue
+urlcolor: blueß
+output: 
+  xaringan::moon_reader:
+    seal: false
+    nature:
+      beforeInit: "https://platform.twitter.com/widgets.js"
+      ratio: '16:9'
+      highlightStyle: github
+  #    self-contained: TRUE
+  chakra: css/libs/remark-latest.min.js
+css: ["default", 
+      "css/footer.css", 
+      "css/color.css", 
+      # "css/xaringan-themer.css",
+      default-fonts]
+lib_dir: css/libs
+beforeInit: "css/macros.js"
+# seal: false  
+#bibliography: /Users/bson3/Dropbox/latex/mybib2.bib
+#remotes::install_github('yihui/xaringan', upgrade = TRUE)
+---
+
+```{r setup, include=FALSE}
+# to use FontAwesome
+#htmltools::tagList(rmarkdown::html_dependency_font_awesome())
+library(dplyr)
+library(tidyr)
+library(fs)
+library(kableExtra)
+library(fontawesome)
+# library(magick)  
+library(ggplot2)
+knitr::opts_chunk$set(warning = FALSE, message = FALSE, error=F, echo=F)
+options(htmltools.preserve.raw = FALSE)
+```
+
+class: inverse, center, middle
+background-image: url(https://images.stockcake.com/public/b/a/8/ba8b28fa-5963-46d9-ba52-d481488d9452_large/bustling-harbor-scene-stockcake.jpg)
+background-size: 100%
+
+
+# .Huge[**International Factors**]
+
+# .bluey[**GLOA 396**]
+
+---
+
+# Some of these things are affected by external factors.
+
+.center[
+![](https://github.com/textvulture/textvulture.github.io/blob/master/images/396_1.png?raw=true)
+]
+
+
+---
+
+background-image: url(https://github.com/textvulture/textvulture.github.io/blob/master/images/background_White2.jpg?raw=true)
+background-size: 100%
+
+# We talk about:
+
+# 1. .pink[International] factors that affect political transformation.
+
+# 2. The effect: democratic, autocratic, or a mix?
+
+
+---
+
+.full-width-green[
+# International Factors: The big-ticket items
+]
+
+--
+
+## 1. Defeat in foreign war
+
+--
+
+## 2. Withdrawal of an autocratic hegemon (USSR & Nazi)
+
+--
+
+## 3. End of an empire (rare, Ottoman Empire)
+
+--
+
+## 4. Democracy promotion
+
+---
+
+# Quick Summary
+
+```{r}
+
+df_shocks <- read.csv(text = '
+Shock, Cases, Mechanism, Effect
+"Defeat in Foreign War (Intentional)","Japan 1952; Italy 1946; France 1946; Greece 1944; Philippines 1946; Panama 1991; Grenada 1984","Occupation/intervention by democratic victors; regime replacement; institutional reform","stable democracy; democratic collapse; democratic backsliding"
+"Defeat in Foreign War (Unintentional)","France 1870; Germany 1919; Italy 1919; Honduras 1971; Uganda 1980; Cyprus 1977","Loss undermines regime legitimacy; domestic reformers seize opening","unrest and revolution; conditional democratization"
+"Withdrawal of Autocratic Sponsor (Soviet & Nazi Collapse)","Central & Eastern Europe; Mongolia; Austria; Italy; Cuba; Vietnam; N. Korea; Spain","Loss of coercive backing and ideological control; elite reform and popular mobilization","Widespread democratization; Autocratic resilience"
+"Collapse of an Empire (Ottoman)","Armenia; Balkan; Albania","suppressed grievance/conflicts laid bear","civil/inter-state conflicts"
+"Democracy promotion", "Hungary; Poland; many other cases", "institutional guardrails", "democratic resilience; status quo"
+')
+
+df_shocks %>% 
+  kbl() %>%
+  kable_paper("hover", full_width = T) %>%
+  row_spec(0, align = 'center')
+
+```
+
+---
+
+.full-width-blue[
+# Defeat in War: what does it do to an .Green[authoritarian] regime?
+]
+--
+<br>
+
+### - **Discrediting the regime**: contradicts autocrats claims (competence; devinity; nationalism).
+
+--
+  - .large[successful/ongoing war has regime-consolidating effects.]
+  
+--
+
+### - **Elite fragmentation**: military .pink[and] political elites
+
+--
+
+### - **Mass mobilization**: unrest, strikes, and revolutionary sentiment
+
+--
+
+### - **Foreign intervention**: e.g., Japan (1952)
+
+--
+
+### `r fa('lightbulb', fill='red')` But, what about .green[democracies]??
+
+--
+  - .large[Seeing all the costly consequences, democracies rarely engage in a war where they don't stand a good chance to win (Reiter & Stam 2002: [Link)](https://press.princeton.edu/books/paperback/9780691089492/democracies-at-war?srsltid=AfmBOool89VHuGMUCkQoL-GSUGWbmKmXMIe8B-UQWqIFIUuvKJRFLNVA)] 
+
+---
+
+.full-width-blue[
+# Withdrawal of Authoritarian Hegemon (sponsor)
+]
+--
+
+<br>
+
+--
+
+## The collapse of USSR & Nazi Germany
+
+--
+
+### - **Loss of coercive protection**: no more military backing.
+
+--
+
+### - **Ideological delegitimation**
+
+--
+
+### - **Elite defection and reform**
+
+--
+
+###	- **Mass mobilization**: much less chances of effective repression
+
+---
+
+.full-width-blue[
+# Democracy Promotion (int'l legal commitment as coup blocker)
+]
+
+<br>
+
+--
+
+## `r fa('bullhorn', fill='orange')`  .green[Economic] and .Blue[Reputational] costs that are predictable
+
+--
+
+### - pre-coup consideration: unsure to join (smaller rents)
+
+--
+
+### - post-coup consideration: economic hardship + legitimacay crisis
+
+--
+
+### - "States with democracy clauses were .red[20–30% less] likely to experience coup attempts than those without" (Wobig 2015, 71)
+
+--
+
+### - Democracy promotion might not have .violet[visibly] dramatic effects (i.e., democratization). But they contribute to democratic resilience, which is often not visible.
+
+---
+
+class: inverse, middle
+background-image: url(https://pub.mdpi-res.com/arts/arts-12-00171/article_deploy/html/images/arts-12-00171-g009.png?1691464977)
+background-size: 100%
+
+# .Large[One underlying factor: International events expose leaders' incompetence (private `r fa('arrow-right', fill='yellow')` public information)]
+
+
