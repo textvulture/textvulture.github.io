@@ -63,7 +63,7 @@ blue {
 
 - <font size=2>Sep. 2: A new (short) reading added to the week of immigration (Reuters)</font>
 - <font size=2>Sep. 9: A short news article added to the week of finance</font>
-- <font size=2>Oct. 19: Briggs's short article (Poverty week) is turned 'not required.'
+- <font size=2>Oct. 19: Briggs's short article (Poverty week) is turned 'not required.'</font>
 
 
 
