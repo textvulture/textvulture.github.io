@@ -50,24 +50,24 @@ background-size: 100%
 ---
 
 
-&lt;div class="full-width-tinted"&gt;&lt;br&gt;
-  &lt;h1&gt; .large[Immigration 'stock' (% population) trend ] &lt;/h1&gt; 
-&lt;/div&gt;&lt;br&gt;&lt;br&gt; 
+# Immigration 'stock' (% population) trend
+
+--
 
 ![](GLOA610-immigration_files/figure-html/unnamed-chunk-2-1.png)&lt;!-- --&gt;
 ---
 
-&lt;div class="full-width-tinted"&gt;&lt;br&gt;
-  &lt;h1&gt; .large[Refugees by .yellow[Origins] ] &lt;/h1&gt; 
-&lt;/div&gt;&lt;br&gt;&lt;br&gt; 
+# Refugees by .orange[Origins] 
+
+--
 
 ![](GLOA610-immigration_files/figure-html/unnamed-chunk-3-1.png)&lt;!-- --&gt;
 
 ---
 
-&lt;div class="full-width-tinted"&gt;&lt;br&gt;
-  &lt;h1&gt; .large[Refugees by .yellow[Destinations]] &lt;/h1&gt; 
-&lt;/div&gt;&lt;br&gt;&lt;br&gt; 
+# Refugees by .green[Destinations]
+
+--
 
 ![](GLOA610-immigration_files/figure-html/unnamed-chunk-4-1.png)&lt;!-- --&gt;
 
@@ -77,7 +77,7 @@ background-image: url(https://cdn.dribbble.com/users/504316/screenshots/4751850/
 background-color: black
 background-position: bottom right
 background-size: contain
-background-size: 50%
+background-size: 40%
 
 
 # Where do .red[immigrants] end up? 
@@ -93,13 +93,29 @@ background-size: 50%
 # - .Green[Affinity?]
 
 ---
-background-image: url(https://github.com/textvulture/textvulture.github.io/blob/master/images/Fitzgerald2014.png?raw=true)
-background-position: bottom right 
-background-size: 60%
 
-# .large[Fitzgerald et al. (2014)]
-## - The .bluey[conditional] effect of &lt;br&gt; economic incentives
-## - Political factors
+# Fitzgerald et al. (2014)
+
+--
+
+.pull-left[
+## - The Gravity Model: 
+
+.Large[
+`$$y_{ijt} = \alpha\frac{x_{it} \times x_{jt}}{d_{ijt}}$$`]
+
+
+## - The .Blue[conditional] effect of economic incentives
+## - Political factors?
+]
+
+--
+
+.pull-right[
+![](https://github.com/textvulture/textvulture.github.io/blob/master/images/Fitzgerald2014.png?raw=true)
+]
+
+
 
 ---
 
@@ -109,7 +125,7 @@ background-image: url(https://c.tenor.com/Cw777VnGhWwAAAAC/slamming-door-shuttin
 background-position: right
 background-size: contain
 
-# .Large[What do .red[hosts] think?] 
+# .Large[What do .bluey[hosts] think?] 
 
 --
 
@@ -236,7 +252,8 @@ background-size: 50%
 <script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
 <script>var slideshow = remark.create({
   "ratio": "16:9",
-  "highlightStyle": "github"
+  "highlightStyle": "github",
+  "mathjax": "default"
 });
 if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
   window.dispatchEvent(new Event('resize'));

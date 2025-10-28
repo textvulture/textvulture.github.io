@@ -12,6 +12,7 @@ output:
     nature:
       ratio: '16:9'
       highlightStyle: github
+      mathjax: "default"  
   #    self-contained: TRUE
   chakra: css/libs/remark-latest.min.js
 css: ["default", 
@@ -88,9 +89,9 @@ background-size: 100%
 ---
 
 
-<div class="full-width-tinted"><br>
-  <h1> .large[Immigration 'stock' (% population) trend ] </h1> 
-</div><br><br> 
+# Immigration 'stock' (% population) trend
+
+--
 
 ```{r message=FALSE, echo=FALSE, warning=FALSE, results="asis", fig.width=16, fig.height=7, cache=T}
 
@@ -125,9 +126,9 @@ wdi %>%
 ```     
 ---
 
-<div class="full-width-tinted"><br>
-  <h1> .large[Refugees by .yellow[Origins] ] </h1> 
-</div><br><br> 
+# Refugees by .orange[Origins] 
+
+--
 
 ```{r message=FALSE, echo=FALSE, warning=FALSE, results="asis", fig.width=16, fig.height=7, cache=T}
 
@@ -158,9 +159,9 @@ wdi %>%
 
 ---
 
-<div class="full-width-tinted"><br>
-  <h1> .large[Refugees by .yellow[Destinations]] </h1> 
-</div><br><br> 
+# Refugees by .green[Destinations]
+
+--
 
 ```{r message=FALSE, echo=FALSE, warning=FALSE, results="asis", fig.width=16, fig.height=7, cache=T}
 
@@ -195,7 +196,7 @@ background-image: url(https://cdn.dribbble.com/users/504316/screenshots/4751850/
 background-color: black
 background-position: bottom right
 background-size: contain
-background-size: 50%
+background-size: 40%
 
 
 # Where do .red[immigrants] end up? 
@@ -211,13 +212,29 @@ background-size: 50%
 # - .Green[Affinity?]
 
 ---
-background-image: url(https://github.com/textvulture/textvulture.github.io/blob/master/images/Fitzgerald2014.png?raw=true)
-background-position: bottom right 
-background-size: 60%
 
-# .large[Fitzgerald et al. (2014)]
-## - The .bluey[conditional] effect of <br> economic incentives
-## - Political factors
+# Fitzgerald et al. (2014)
+
+--
+
+.pull-left[
+## - The Gravity Model: 
+
+.Large[
+$$y_{ijt} = \alpha\frac{x_{it} \times x_{jt}}{d_{ijt}}$$]
+
+
+## - The .Blue[conditional] effect of economic incentives
+## - Political factors?
+]
+
+--
+
+.pull-right[
+![](https://github.com/textvulture/textvulture.github.io/blob/master/images/Fitzgerald2014.png?raw=true)
+]
+
+
 
 ---
 
@@ -227,7 +244,7 @@ background-image: url(https://c.tenor.com/Cw777VnGhWwAAAAC/slamming-door-shuttin
 background-position: right
 background-size: contain
 
-# .Large[What do .red[hosts] think?] 
+# .Large[What do .bluey[hosts] think?] 
 
 --
 
