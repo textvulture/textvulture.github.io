@@ -1,5 +1,5 @@
 ---
-title: "Synthesis GLOA396"
+title: "International GLOA396"
 author: "Byunghwan Son <br> George Mason University"
 date: " "
 #########################################

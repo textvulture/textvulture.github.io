@@ -1,0 +1,275 @@
+---
+title: "Economic GLOA396"
+author: "Byunghwan Son <br> George Mason University"
+date: " "
+#########################################
+linkcolor: red
+citecolor: blue
+urlcolor: blueß
+output: 
+  xaringan::moon_reader:
+    seal: false
+    nature:
+      beforeInit: "https://platform.twitter.com/widgets.js"
+      ratio: '16:9'
+      highlightStyle: github
+  #    self-contained: TRUE
+  chakra: css/libs/remark-latest.min.js
+css: ["default", 
+      "css/footer.css", 
+      "css/color.css", 
+      # "css/xaringan-themer.css",
+      default-fonts]
+lib_dir: css/libs
+beforeInit: "css/macros.js"
+# seal: false  
+#bibliography: /Users/bson3/Dropbox/latex/mybib2.bib
+#remotes::install_github('yihui/xaringan', upgrade = TRUE)
+---
+
+```{r setup, include=FALSE}
+# to use FontAwesome
+#htmltools::tagList(rmarkdown::html_dependency_font_awesome())
+library(dplyr)
+library(tidyr)
+library(fs)
+library(kableExtra)
+library(fontawesome)
+# library(magick)  
+library(ggplot2)
+knitr::opts_chunk$set(warning = FALSE, message = FALSE, error=F, echo=F)
+options(htmltools.preserve.raw = FALSE)
+```
+
+class: inverse, center, middle
+background-image: url(https://images.fineartamerica.com/images/artworkimages/mediumlarge/2/market-place-scene-francis-sampson.jpg)
+background-size: 100%
+
+
+# .yellow[.LARGE[**Economic Consequences of <br>Political Transformation**]]
+
+# .bluey[**GLOA 396**]
+
+---
+
+# The aftermath
+
+.left[
+![](https://github.com/textvulture/textvulture.github.io/blob/master/images/396_1.png?raw=true)
+]
+
+---
+
+class: inverse
+background-image: url(https://github.com/textvulture/textvulture.github.io/blob/master/images/background_leftEmpty.jpg?raw=true)
+background-size: 120%
+
+# We talk about economic consequences of political transformation:
+
+# 1. Coup
+
+# 2. Democratization
+
+---
+
+.full-width-blue[
+# Some underlying theoretical tenets
+] 
+<br>
+--
+
+## - The market hates .pink[uncertainty]: .Green[property rights]
+
+--
+  
+- .LARGE[drastic changes in tax rates `r fa("hand", fill='red')`] 
+--
+
+- .LARGE[nationalization & expropriation risks `r fa("skull-crossbones", fill='purple')`] 
+--
+
+- .LARGE[.times['*what would others think of this??*'] `r fa("person-circle-question", fill='blue')`] 
+
+
+--
+
+## - Political transformation can introduce .pink[uncertainty]. A lot.
+
+--
+
+## - The economy is expected to contract in times of transformation.
+
+--
+
+## - But what if transformation .red[=] improvement?
+
+
+
+---
+
+class: inverse, center, middle
+background-image: url(https://github.com/textvulture/textvulture.github.io/blob/master/images/forestBackground2.jpg?raw=true)
+background-size: 110%
+
+# .LARGE[Let's talk about <br>democratization first.]
+
+---
+
+class: inverse
+background-image: url(https://github.com/textvulture/textvulture.github.io/blob/master/images/Acemoglu2018.png?raw=true)
+
+# .center[Acemoglu et al. (2018)]
+
+--
+
+# .center[.Green[On average, long-term positive effect.]]
+
+---
+
+.full-width-green[
+# Why the long-term positive effect?
+]
+<br>
+--
+
+## - **Democracies**: public investment and human capital `r fa("arrow-up")`
+
+--
+
+## - **Democracies**: property-rights & economic reforms (accountability)
+
+--
+
+## - **Democracies**: social stability (democratic resilience)
+
+--
+
+## - **Autocracies**: tempting to steal ('roving bandits')
+
+---
+class: inverse, center, middle
+background-image: url(https://github.com/textvulture/textvulture.github.io/blob/master/images/deskBackground3.png?raw=true)
+background-size: 110%
+
+# .LARGE[But if we look at them more .violet[closely]...]
+
+---
+
+background-image: url(https://github.com/textvulture/textvulture.github.io/blob/master/images/deKadt2016.png?raw=true)
+background-size: contain
+
+---
+
+# De Kadt & Wittels (2016): .red[reforms] + .violet[transition] = .green[good] result
+
+--
+
+```{r}
+
+library(kableExtra)
+
+tbl <- data.frame(
+  Country = c("Mali", "Benin", "Ghana", "Senegal", 
+              "Kenya", "Malawi", "Madagascar", "Tanzania", "Zambia"),
+  Effect = c("Strongly positive", "Positive", "Positive", "Positive",
+             "Null / negligible", "Null / negligible", "Negative", "Negative", "Strongly negative"),
+  Magnitude = c("+42% annual", "Sizable gain", "Sizable gain", "Sizable gain",
+                "≈ 0", "≈ 0", "Substantial loss", "Moderate loss", "−19% annual drop"),
+  Interpretation = c("Early and aggresive institutional reforms",
+                     "Peaceful transition, early reforms",
+                     "Sustained growth following 1992 democratic consolidation",
+                     "Incremental liberalization within stable institutions",
+                     "Elections marred by fraud; little policy change",
+                     "Limited institutional or policy shift",
+                     "Political instability, weak institutions",
+                     "Gradual liberalization; limited competition",
+                     "Economic contraction, policy reversals, instability")
+)
+
+kbl(tbl)
+
+
+```
+
+
+---
+
+.full-width-blue[
+# More in-depth
+]
+<br><br>
+
+--
+
+.content-box-green[
+.Large[**Mali** (positive example)]
+- .Large[After democratization, Konaré’s government: close ties with the IMF / WB;  sustained adjustment programs; and donor investment in education & health.]
+- .Large[*Synthetic-control* estimates: 30% GDPpc *gain*]
+]
+
+--
+
+.content-box-red[
+.Large[**Zambia** (negative example)]
+- .Large[Not entirely clear, but policy reversals in the post-transition period probably mattered.]
+- .Large[Synthetic estimates: 16% GDPpc *loss*]
+]
+
+
+---
+class: inverse, center, middle
+background-image: url(https://media.invisioncic.com/f316477/monthly_2022_11/Napoleon-Coup-of-18-Brumaire.jpg.d32db0d106522a2898610e2443cc1fd6.jpg)
+background-size: 110%
+
+
+# .LARGE[**What about a coup? <br> .yellow[In principle], it should be bad news to the market.**]
+
+---
+
+# Girardi & Bowels (2018): but when a coup has a .red[clear signal]...
+
+--
+
+.pull-left[
+![](https://github.com/textvulture/textvulture.github.io/blob/master/images/Girardi2018a.png?raw=true)
+]
+
+--
+
+.pull-right[
+![](https://github.com/textvulture/textvulture.github.io/blob/master/images/Girardi2018b.png?raw=true)
+]
+
+---
+
+class: inverse, middle
+background-image: url(https://github.com/textvulture/textvulture.github.io/blob/master/images/waveBackground2.jpg?raw=true)
+background-size: 110%
+
+# A natural experiment, because neither was expected.
+
+--
+
+# Important to note that stock market `r fa("not-equal", fill='red')` the economy.
+
+
+---
+
+# Revolution: (Jales et al. 2018): Cuba GDPpc - [.green[comparison]] = 
+
+--
+
+![](https://github.com/textvulture/textvulture.github.io/blob/master/images/Jales2018.png?raw=true)
+---
+
+class: inverse
+background-image: url(https://github.com/textvulture/textvulture.github.io/blob/master/images/background_leftEmpty3.jpeg?raw=true)
+background-size: 100%
+
+# We talked about the economic consequences of <br> political transformation.
+
+# 1. Democratization: generally positive <br>with some .yellow[mixed results].
+
+# 2. Coup: generally negative, but .pink[some exceptions]
+
+# 3. .Green[Institutional/policy] reform is the key.
