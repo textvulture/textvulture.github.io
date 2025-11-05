@@ -5,7 +5,7 @@ date: " "
 #########################################
 linkcolor: red
 citecolor: blue
-urlcolor: blueß
+urlcolor: blue
 output: 
   xaringan::moon_reader:
     seal: false
@@ -33,7 +33,7 @@ library(fs)
 library(fontawesome)
 # library(magick)  
 library(ggplot2)
-knitr::opts_chunk$set(warning = FALSE, message = FALSE, error=F, echo=F)
+knitr::opts_chunk$set(warning = FALSE, message = FALSE, error=FALSE, echo=F)
 options(htmltools.preserve.raw = FALSE)
 library(tidyr)
 ```
@@ -42,7 +42,7 @@ class: inverse, center, middle
 background-image: url(https://www.timeshighereducation.com/sites/default/files/styles/the_breaking_news_image_style/public/istock-530583132.jpg?itok=CekMzkG3)
 background-size: cover
 
-# .HUGE[**Global Economic Crisis**] <br><br> **.green[GLOA] .yellow[610]**
+# .HUGE[**Global Economic Crisis**] <br><br> **.Green[GLOA] .yellow[610]**
 
 ---
 class: inverse
@@ -69,6 +69,24 @@ background-size: cover
 ## - .red[Not wrong], but offer only a partial picture; little to no solution 
 
 # `r fa("circle-exclamation", fill='gray')` &nbsp; A .orange[big-picture] framework is rare.
+
+---
+
+
+# Our Working Definition
+
+--
+
+.content-box-purple[
+# **Economic Crisis**: 
+
+## - An identifiable .pink[event of economic distress] resulting from .orange[precipitously] and .green[dramatically] worsening macroeconomic conditions that authorities .blue[cannot readily improve].
+
+]
+
+--
+### - Perennial problems aren't economic .red[crises].
+
 
 ---
 class: inverse, middle, center
@@ -288,13 +306,11 @@ background-color: black
 class: inverse
 background-color: black
 
-<div class="full-width-tinted"><br>
-  <h1> .Large[Consequences] </h1> 
-</div><br><br> 
+# .pink[Consequences]: policy switches (Campello 2014)
 
 --
 
-## So much liberalization even from a .red[left]-leaning government
+## A difference crises can make:
 
 --
 
@@ -309,6 +325,8 @@ background-position: right
 # The aftermath
 
 ## Quaglia & Verdun (2023)
+
+--
 
 ## ECB: .pink[Learning] from previous crises <br>in responding to the pandemic 
 
@@ -338,3 +356,4 @@ background-color: black
 --
 
 # .large[but they are all .yellow[different].]
+
