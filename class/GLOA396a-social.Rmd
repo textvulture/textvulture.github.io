@@ -42,12 +42,72 @@ options(htmltools.preserve.raw = FALSE)
 ```
 
 class: inverse, center, middle
-background-image: url(https://images.fineartamerica.com/images/artworkimages/mediumlarge/2/market-place-scene-francis-sampson.jpg)
+background-image: url(https://cdn2.opendemocracy.net/media/images/santa_domingo_565_Kmbwzqe.width-800.jpg)
 background-size: 100%
 
 
-# .yellow[.LARGE[**Social Consequences of <br>Political Transformation**]]
+# .Huge[**Social Consequences of <br>Political Transformation**]
 
 # .bluey[**GLOA 396**]
 
 ---
+
+
+# The aftermath
+
+.left[
+![](https://github.com/textvulture/textvulture.github.io/blob/master/images/396_1.png?raw=true)
+]
+
+---
+
+background-image: url(https://images.fineartamerica.com/images/artworkimages/medium/3/catholicism-censorship-granger.jpg)
+background-size: contain
+background-position: right
+
+# We talk about socio-cultural <br> consequences of <br>political transformation:
+
+# 1. Authoritarian Resilience: <br>.Green[religion] & .pink[social control]
+
+# 2. Democratic Backsliding: <br>.bluey[public health] & .orange[popular culture]
+
+
+---
+
+class: inverse, middle
+background-image: url(https://github.com/textvulture/textvulture.github.io/blob/master/images/wayBackground2.jpg?raw=true)
+background-size: 110%
+
+# .Large[Why **.bluey[socio-cultural]** consequences?]
+
+--
+
+# - Political transformation (particularly .yellow[democratic backsliding]) creates real-world consequences, which are often under-appreciated.
+
+--
+
+# - There are often lingering, but less visible, effects of the previous regime (particulary .pink[autocratic resilience]) that are mosts profound in the socio-cultural realm.
+
+---
+
+.full-width-blue[
+# Poland: the .pink[Red Priests] (Nalepa & Pop-Eleches 2019)
+]
+<br><br>
+--
+
+- .LARGE[Polish Communist Party: infiltrate the Catholic Church with 'patriotic priests.']
+
+--
+
+  - .Large[To weaken social institutions' ability to challenge the regime]
+  - .Large[To galvanize regime support from bottom-up]
+  - .Large[Both at rank-and-file and elite levels (40s-50s)]
+
+
+
+
+
+
+---
+
