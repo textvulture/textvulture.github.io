@@ -59,8 +59,9 @@ blue {
 **Update log**
 
   - <font size='2'>August 14: This syllabus is created.</font>
-  - <font size='2'>August 23: Critical Synthesis deadline eded. </font>
+  - <font size='2'>August 23: Critical Synthesis deadline edited. </font>
   - <font size='2'>October 14: Schedule corrected for Thanksgiving Break</font>
+  - <font size='2'>November 8: Nalepa book turned 'not required' as it is not available in the library anymore; an alternative reading is added.</font>
 
 # Instructor
 
@@ -444,7 +445,9 @@ The grading scale in this course follows [GMU Catalogue](https://catalog.gmu.edu
 
 - Son, Byunghwan, and Nisha Bellinger. 2022. “The Health Cost of Autocratization.” The Journal of Development Studies 58(5): 873–90.
 
-- Nalepa, Monika. 2022. *After Authoritarianism*. New York: Cambridge University Press. Chs. 6 and 7.
+- Nalepa, Monika, and Grigore Pop-Eleches. 2019. “Authoritarian Institutional Infiltration: Causes and Consequences.” Working Paper. [Link]( https://www.monikanalepa.com/uploads/6/6/3/1/66318923/authoritarian_institutional_infiltration_july_16.pdf).
+
+- Nalepa, Monika. 2022. *After Authoritarianism*. New York: Cambridge University Press. Chs. 6 and 7.<mark>not required</mark>
 
 
 ## Week 13 (Nov 17-23). Special Topic. Details to be announced.{.unnumbered}
