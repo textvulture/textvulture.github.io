@@ -13,6 +13,7 @@ output:
       beforeInit: "https://platform.twitter.com/widgets.js"
       ratio: '16:9'
       highlightStyle: github
+      mathjax: default
   #    self-contained: TRUE
   chakra: css/libs/remark-latest.min.js
 css: ["default", 
@@ -89,6 +90,70 @@ background-size: 110%
 # - There are often lingering, but less visible, effects of the previous regime (particulary .pink[autocratic resilience]) that are mosts profound in the socio-cultural realm.
 
 ---
+class: inverse, middle, center
+background-image: url(https://github.com/textvulture/textvulture.github.io/blob/master/images/deskBackground1.png?raw=true)
+background-size: 100%
+
+# .Huge[**.Green[Let's talk about the] .orange[real-world] .Green[effect of political transformation.]**]
+
+---
+
+.full-width-blue[
+# Democratic Backsliding and Public Health (Son & Bellinger 2022)
+]
+<br>
+
+--
+
+## - The backsliders now consolidated the power--.pink[now what]?
+--
+
+  - .Large[the incentives to deliver .green[public goods] `r fa("arrow-down", fill='red')`]
+--
+
+  - .Large[public health: quintessential public good: e.g., vaccines; portable water]
+--
+
+  - .Large[∴ backsliding `r fa("arrow-right")` public goods `r fa("arrow-down", fill='red')`]
+
+--
+
+## - Cross-national evidence
+
+--
+
+## - But is there more substantial evidence?
+
+---
+
+.full-width-green[
+# Three Backsliding Cases
+]
+--
+.center[
+![](https://github.com/textvulture/textvulture.github.io/blob/master/images/Son2022_1.png?raw=true)
+]
+
+---
+
+.full-width-green[
+# Three Backsliding Cases: .pink[cohort] regression discontinuity]
+--
+.center[
+![](https://github.com/textvulture/textvulture.github.io/blob/master/images/Son2022_2.png?raw=true)
+]
+
+---
+
+class: inverse, middle, center
+background-image: url(https://github.com/textvulture/textvulture.github.io/blob/master/images/deskBackground3.png?raw=true)
+background-size: 100%
+
+
+# **.Huge[.pink[Lingering] Effect of Political Transformation]**
+
+---
+
 
 .full-width-blue[
 # Poland: the .pink[Red Priests] (Nalepa & Pop-Eleches 2019)
@@ -96,18 +161,157 @@ background-size: 110%
 <br><br>
 --
 
-- .LARGE[Polish Communist Party: infiltrate the Catholic Church with 'patriotic priests.']
+.pull-left[
+
+## Polish Gov't: infiltrate the Catholic Church with 'patriotic priests.'
+
+
+  - .Large[To .red[weaken] social institutions' ability to challenge the regime]
+  - .Large[To galvanize regime .green[support] from bottom-up]
+  - .Large[Both at rank-and-file and elite levels (40s-50s)]
+]
 
 --
 
-  - .Large[To weaken social institutions' ability to challenge the regime]
-  - .Large[To galvanize regime support from bottom-up]
-  - .Large[Both at rank-and-file and elite levels (40s-50s)]
-
-
-
-
-
+.pull-right[
+![](https://github.com/textvulture/textvulture.github.io/blob/master/images/Nalepa2019.png?raw=true)
+]
 
 ---
 
+.full-width-green[
+# The Effect 
+]
+<br>
+
+--
+
+## - Data: seven surveys (.pink[1985–1989]) by CBOS; .blue[Cohort] analysis
+
+--
+## - More 'vulnerable' regions: attendance `r fa("arrow-right")` .Green[anti‐communist] attitudes **`r fa("arrow-down", fill='purple')`**.
+
+--
+
+  - .Large[The church was weakened in these regions: conducive to the infiltration]
+--
+
+  - .Large[But infiltration .red[didn't] affect attendance or trust in the church was weak.]  
+  
+--
+
+## - The lingering effect: declined, but .pink[still alive] after 30+ years
+
+--
+
+## - The regime's effort to quash a social organization pays off for .orange[a long time].
+
+---
+
+.full-width-blue[
+# Backsliding and Movie Blacklist (Son 2024)
+]
+<br><br>
+
+--
+
+```{r, echo=F, warning=F, message=F, error=F, cache=T, fig.align='center', fig.width=11}
+
+library(vdem) 
+#remotes::install_github("xmarquez/vdem")
+
+var <- c("v2x_freexp")
+
+country <- c("South Korea", 
+            "Hungary",
+            "Russia")
+  
+  
+expression <- extract_vdem(
+  include_sd = TRUE,
+  label_pattern = "expression"
+)
+
+library(geomtextpath)
+
+expression %>% 
+  filter(vdem_country_name == country) %>%
+  filter(year>1979) %>%
+  ggplot(aes(x=year, y=v2x_freexp, 
+             fill=vdem_country_name, label=vdem_country_name)) +
+    theme_minimal(base_size = 25) +
+  geom_vline(xintercept = c(2008, 2017), color="gray", 
+                  linetype="longdash", alpha=0.9) +
+  geom_ribbon(aes(ymin = v2x_freexp_codelow,
+                  ymax = v2x_freexp_codehigh),
+                  alpha=0.2) +
+  geom_textline(aes(label=vdem_country_name,
+                    color=vdem_country_name)) +
+     theme(legend.position = "none") +
+  labs(x="year", y="Freedom of Expression Index")
+
+```
+
+---
+
+.full-width-blue[
+# Backsliding and Movie Blacklist (Son 2024)
+]
+<br>
+--
+
+## - names of individuals and groups, considered 'anti-government' or 'lefty' `r fa("flag", fill='red')`
+
+--
+
+## - mostly using existing lists: e.g., open letter signatories
+
+ - .LARGE[exclusion and disadvantage: old authoritarian tactic]
+
+--
+
+## - Govt: NIS, Blue House, MHST; .pink[discrete] operation (2008-2016)
+
+--
+
+## - 8k victims, many of whom didn't realize they were blacklisted.
+
+---
+
+
+.full-width-green[
+### .Large[**.yellow[The evidence]**]: $movie.jobs_{\color{pink}{blacklisted}}-movie.jobs_{unblacklisted}$
+]
+
+--
+<br>
+
+.pull-left[.large[Benchmark]
+```{r, echo=F, fig.align='center', out.height="90%"}
+knitr::include_graphics("https://github.com/textvulture/textvulture.github.io/blob/master/images/bkv1.JPG?raw=true")
+```
+]
+
+--
+
+.pull-right[.large[.red[Non]-actors]
+```{r, echo=F, fig.align='center', out.height="90%"}
+knitr::include_graphics("https://github.com/textvulture/textvulture.github.io/blob/master/images/bkv2.JPG?raw=true")
+```
+]
+
+---
+
+class: inverse
+background-image: url(https://github.com/textvulture/textvulture.github.io/blob/master/images/blackboardBackground.jpg?raw=true)
+background-size: 120%
+
+# We talked about
+
+--
+
+## - Political transformation has real-world consequences on real people.
+
+--
+
+## - The effect lingers on, even (long) after the transformation ends.
