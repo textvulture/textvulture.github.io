@@ -62,6 +62,7 @@ blue {
   - <font size='2'>August 23: Critical Synthesis deadline edited. </font>
   - <font size='2'>October 14: Schedule corrected for Thanksgiving Break</font>
   - <font size='2'>November 8: Nalepa book turned 'not required' as it is not available in the library anymore; an alternative reading is added.</font>
+  - <font size='2'>November 10: The readings for the special topic week added</font>
 
 # Instructor
 
@@ -450,14 +451,19 @@ The grading scale in this course follows [GMU Catalogue](https://catalog.gmu.edu
 - Nalepa, Monika. 2022. *After Authoritarianism*. New York: Cambridge University Press. Chs. 6 and 7.<mark>not required</mark>
 
 
-## Week 13 (Nov 17-23). Special Topic. Details to be announced.{.unnumbered}
+## Week 13 (Nov 17-23). Special Topic (chosen by votes): Polarization and Backsliding {.unnumbered}
+
+- Orhan, Yunus Emre. 2021. “The Relationship between Affective Polarization and Democratic Backsliding: Comparative Evidence.” *Democratization* 29(4): 714–35.
+
+- Svolik, Milan W. 2019. “Polarization versus Democracy.” *Journal of Democracy* 30(3): 20–32.
+
+- Gessler, Theresa, and Natasha Wunsch. 2025. “A New Regime Divide? Democratic Backsliding, Attitudes towards Democracy and Affective Polarization.” *European Journal of Political Research*. Forthcoming. DOI: https://doi.org/10.1111/1475-6765.12751
 
 ## Week 14 (Nov 24-30). No Class. Thanksgiving Break {.unnumbered}
 
-
 ## Week 15 (Dec 1-7). Wrap-up. QnA.  {.unnumbered}
-- An optional Zoom session will be held at 9:00 PM, Dec 2 (Tuesday). Zoom link will be made available in Canvas.
-- Critical Synthesis Due (7:30 PM, December 1)
+- An optional Zoom session will be held at 8:00 PM, Dec 2 (Tuesday). Zoom link will be made available in Canvas.
+- **Critical Synthesis Due** (7:30 PM, December 1)
 
 ## Final Exam (Dec 11) {.unnumbered}
 
