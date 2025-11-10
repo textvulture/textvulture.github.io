@@ -196,7 +196,7 @@ background-size: 100%
   - .Large[The church was weakened in these regions: conducive to the infiltration]
 --
 
-  - .Large[But infiltration .red[didn't] affect attendance or trust in the church was weak.]  
+  - .Large[But infiltration .red[didn't] affect attendance or trust in the church.]  
   
 --
 
