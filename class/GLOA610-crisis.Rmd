@@ -16,7 +16,7 @@ output:
   chakra: css/libs/remark-latest.min.js
 css: ["default", 
       "css/footer.css", 
-      "css/color.css", 
+      css/color.css, 
       # "css/xaringan-themer.css",
       default-fonts]
 lib_dir: css/libs
@@ -45,6 +45,7 @@ background-size: cover
 # .HUGE[**Global Economic Crisis**] <br><br> **.Green[GLOA] .yellow[610]**
 
 ---
+
 class: inverse
 background-image: url(https://github.com/textvulture/textvulture.github.io/blob/master/images/waveBackground2.jpg?raw=true)
 background-size: cover
@@ -356,4 +357,3 @@ background-color: black
 --
 
 # .large[but they are all .yellow[different].]
-
