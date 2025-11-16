@@ -1,5 +1,5 @@
 ---
-title: "Economic GLOA396"
+title: "Social GLOA396"
 author: "Byunghwan Son <br> George Mason University"
 date: " "
 #########################################

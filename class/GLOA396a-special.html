@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+  <head>
+    <title>Special GLOA396</title>
+    <meta charset="utf-8" />
+    <meta name="author" content="Byunghwan Son   George Mason University" />
+    <script src="GLOA396a-special_files/header-attrs-2.29/header-attrs.js"></script>
+    <link href="GLOA396a-special_files/remark-css-0.0.1/default.css" rel="stylesheet" />
+    <link href="GLOA396a-special_files/remark-css-0.0.1/default-fonts.css" rel="stylesheet" />
+    <link href="GLOA396a-special_files/htmltools-fill-0.5.8.1/fill.css" rel="stylesheet" />
+    <script src="GLOA396a-special_files/htmlwidgets-1.6.4/htmlwidgets.js"></script>
+    <script src="GLOA396a-special_files/viz-1.8.2/viz.js"></script>
+    <link href="GLOA396a-special_files/DiagrammeR-styles-0.2/styles.css" rel="stylesheet" />
+    <script src="GLOA396a-special_files/grViz-binding-1.0.11/grViz.js"></script>
+    <link rel="stylesheet" href="default" type="text/css" />
+    <link rel="stylesheet" href="css/footer.css" type="text/css" />
+    <link rel="stylesheet" href="css/color.css" type="text/css" />
+    <link rel="stylesheet" href="default-fonts" type="text/css" />
+  </head>
+  <body>
+    <textarea id="source">
+
+
+
+
+
+class: inverse, center, middle
+background-image: url(https://thumbs.dreamstime.com/b/businessman-stands-crossroads-two-worlds-ai-illustration-looking-direction-self-reflection-to-make-355464496.jpg?w=768)
+background-size: 100%
+
+
+# .Huge[**Polarization and Democratic Backsliding**]
+
+# .bluey[**GLOA 396, Special Topic**]
+
+---
+.full-width-blue[
+# Affective polarization → Democratic backsliding
+]
+&lt;br&gt;
+--
+
+<div class="grViz html-widget html-fill-item" id="htmlwidget-58ff674ea529b9f63007" style="width:100%;height:504px;"></div>
+<script type="application/json" data-for="htmlwidget-58ff674ea529b9f63007">{"x":{"diagram":"\ndigraph orhan_dag {\n\n  graph [\n    layout  = dot,\n    rankdir = TB,   // top → bottom\n    ranksep = 0.4,  // vertical spacing\n    nodesep = 0.4   // horizontal spacing\n  ]\n\n  node [shape = rectangle, style = filled, fillcolor = \"#f7f7f7\",\n        fontsize = 17, fontname = \"Helvetica\"]\n\n#  AP        [label = \"Affective polarization\"]\n  Identity  [label = \"Salient partisan identity & in-/out-group\"]\n  Beliefs   [label = \"Biased beliefs about out-party\\n(\\\"existential threat\\\")\"]\n  Loyalty   [label = \"Reluctance to cross party lines\\n(partisan loyalty)\"]\n  Acc       [label = \"Reduced electoral accountability\"]\n  Opp       [label = \"Opportunity for\\nundemocratic incumbents\"]\n  Backslide [\n    label     = \"Democratic\\nbacksliding\",\n    fillcolor = \"#CC0000\",   // red\n    fontcolor = \"white\",     // white text\n    style     = filled\n  ]\n  \n// Vertical part of the L\n#  AP       -> Identity\n  Identity -> Beliefs\n  Beliefs  -> Loyalty\n\n  // Horizontal part of the L\n  Loyalty  -> Acc\n  Acc      -> Opp\n  Opp      -> Backslide\n\n  // Put these on the same horizontal level to form the base of the L\n  { rank = same; Acc; Opp; Backslide }\n  \n}\n","config":{"engine":"dot","options":null}},"evals":[],"jsHooks":[]}</script>
+
+---
+
+.full-width-green[
+# What leads to affective polarization?
+]
+&lt;br&gt;
+
+--
+
+.Large[based on Iyengar, Sood &amp; Lelkes (2019)]
+
+- .LARGE[.purple[Elite] polarization and partisan cues]
+
+--
+
+- .LARGE[Cross‐cutting identities (religion, community, family) <svg aria-hidden="true" role="img" viewBox="0 0 384 512" style="height:1em;width:0.75em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:red;overflow:visible;position:relative;"><path d="M169.4 470.6c12.5 12.5 32.8 12.5 45.3 0l160-160c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L224 370.8 224 64c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 306.7L54.6 265.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l160 160z"/></svg>]
+
+--
+
+- .LARGE[Negative partisanship <svg aria-hidden="true" role="img" viewBox="0 0 384 512" style="height:1em;width:0.75em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:red;overflow:visible;position:relative;"><path d="M214.6 41.4c-12.5-12.5-32.8-12.5-45.3 0l-160 160c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L160 141.2V448c0 17.7 14.3 32 32 32s32-14.3 32-32V141.2L329.4 246.6c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3l-160-160z"/></svg>]
+
+--
+
+- .LARGE[Institutional and .orange[media] environment]
+
+--
+
+- .LARGE[.Blue[Nationalization] of politics]
+
+---
+
+.full-width-blue[
+# A vicious cycle .tiny[(Gessler and Wunsch 2025)]
+]
+&lt;br&gt;
+--
+
+<div class="grViz html-widget html-fill-item" id="htmlwidget-c3de8d344ee56dd2458b" style="width:100%;height:504px;"></div>
+<script type="application/json" data-for="htmlwidget-c3de8d344ee56dd2458b">{"x":{"diagram":"\ndigraph gessler_dag {\n\n  graph [\n    layout  = dot,\n    rankdir = TB,   // top → bottom\n    ranksep = 0.4,  // vertical spacing\n    nodesep = 0.4,   // horizontal spacing\n    margin = 0.0\n  ]\n\n  node [shape = rectangle, style = filled, fillcolor = \"#f7f7f7\",\n        fontsize = 15, fontname = \"Helvetica\"]\n\n  a1   [label = \"Backsliding\"]\n  a2   [label = \"Democracy salient\"]\n  a3   [label = \"Affective dislike of\\nthe ruling party\"]\n  a4   [label = \"Opposition Unity\\n& Bipolarity\"]\n  a5   [\n    label = \"Opposition = \\\"Existential threat\\\" \",\n    fillcolor = \"#CC0000\",   \n    fontcolor = \"white\",     \n    style     = filled\n  ]\n  a6 [label = \"Polarization\",\n  fillcolor = \"red\",\n  fontcolor = \"white\",\n  style = filled]\n  \na1 -> a2\na2 -> a3\na3 -> a4\na4 -> a5\na5 -> a6\n\n{ rank = same; a3; a4; a5 }\n\n}\n","config":{"engine":"dot","options":null}},"evals":[],"jsHooks":[]}</script>
+
+---
+
+
+    </textarea>
+<style data-target="print-only">@media screen {.remark-slide-container{display:block;}.remark-slide-scaler{box-shadow:none;}}</style>
+<script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
+<script src="https://platform.twitter.com/widgets.js"></script>
+<script>var slideshow = remark.create({
+  "ratio": "16:9",
+  "highlightStyle": "github",
+  "mathjax": "default"
+});
+if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
+  window.dispatchEvent(new Event('resize'));
+});
+(function(d) {
+  var s = d.createElement("style"), r = d.querySelector(".remark-slide-scaler");
+  if (!r) return;
+  s.type = "text/css"; s.innerHTML = "@page {size: " + r.style.width + " " + r.style.height +"; }";
+  d.head.appendChild(s);
+})(document);
+
+(function(d) {
+  var el = d.getElementsByClassName("remark-slides-area");
+  if (!el) return;
+  var slide, slides = slideshow.getSlides(), els = el[0].children;
+  for (var i = 1; i < slides.length; i++) {
+    slide = slides[i];
+    if (slide.properties.continued === "true" || slide.properties.count === "false") {
+      els[i - 1].className += ' has-continuation';
+    }
+  }
+  var s = d.createElement("style");
+  s.type = "text/css"; s.innerHTML = "@media print { .has-continuation { display: none; } }";
+  d.head.appendChild(s);
+})(document);
+// delete the temporary CSS (for displaying all slides initially) when the user
+// starts to view slides
+(function() {
+  var deleted = false;
+  slideshow.on('beforeShowSlide', function(slide) {
+    if (deleted) return;
+    var sheets = document.styleSheets, node;
+    for (var i = 0; i < sheets.length; i++) {
+      node = sheets[i].ownerNode;
+      if (node.dataset["target"] !== "print-only") continue;
+      node.parentNode.removeChild(node);
+    }
+    deleted = true;
+  });
+})();
+// add `data-at-shortcutkeys` attribute to <body> to resolve conflicts with JAWS
+// screen reader (see PR #262)
+(function(d) {
+  let res = {};
+  d.querySelectorAll('.remark-help-content table tr').forEach(tr => {
+    const t = tr.querySelector('td:nth-child(2)').innerText;
+    tr.querySelectorAll('td:first-child .key').forEach(key => {
+      const k = key.innerText;
+      if (/^[a-z]$/.test(k)) res[k] = t;  // must be a single letter (key)
+    });
+  });
+  d.body.setAttribute('data-at-shortcutkeys', JSON.stringify(res));
+})(document);
+(function() {
+  "use strict"
+  // Replace <script> tags in slides area to make them executable
+  var scripts = document.querySelectorAll(
+    '.remark-slides-area .remark-slide-container script'
+  );
+  if (!scripts.length) return;
+  for (var i = 0; i < scripts.length; i++) {
+    var s = document.createElement('script');
+    var code = document.createTextNode(scripts[i].textContent);
+    s.appendChild(code);
+    var scriptAttrs = scripts[i].attributes;
+    for (var j = 0; j < scriptAttrs.length; j++) {
+      s.setAttribute(scriptAttrs[j].name, scriptAttrs[j].value);
+    }
+    scripts[i].parentElement.replaceChild(s, scripts[i]);
+  }
+})();
+(function() {
+  var links = document.getElementsByTagName('a');
+  for (var i = 0; i < links.length; i++) {
+    if (/^(https?:)?\/\//.test(links[i].getAttribute('href'))) {
+      links[i].target = '_blank';
+    }
+  }
+})();</script>
+
+<script>
+slideshow._releaseMath = function(el) {
+  var i, text, code, codes = el.getElementsByTagName('code');
+  for (i = 0; i < codes.length;) {
+    code = codes[i];
+    if (code.parentNode.tagName !== 'PRE' && code.childElementCount === 0) {
+      text = code.textContent;
+      if (/^\\\((.|\s)+\\\)$/.test(text) || /^\\\[(.|\s)+\\\]$/.test(text) ||
+          /^\$\$(.|\s)+\$\$$/.test(text) ||
+          /^\\begin\{([^}]+)\}(.|\s)+\\end\{[^}]+\}$/.test(text)) {
+        code.outerHTML = code.innerHTML;  // remove <code></code>
+        continue;
+      }
+    }
+    i++;
+  }
+};
+slideshow._releaseMath(document);
+</script>
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+(function () {
+  var script = document.createElement('script');
+  script.type = 'text/javascript';
+  script.src  = 'https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML';
+  if (location.protocol !== 'file:' && /^https?:/.test(script.src))
+    script.src  = script.src.replace(/^https?:/, '');
+  document.getElementsByTagName('head')[0].appendChild(script);
+})();
+</script>
+  </body>
+</html>

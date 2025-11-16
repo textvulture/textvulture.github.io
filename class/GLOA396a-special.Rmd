@@ -1,0 +1,191 @@
+---
+title: "Special GLOA396"
+author: "Byunghwan Son <br> George Mason University"
+date: " "
+#########################################
+linkcolor: red
+citecolor: blue
+urlcolor: blueß
+output: 
+  xaringan::moon_reader:
+    seal: false
+    nature:
+      beforeInit: "https://platform.twitter.com/widgets.js"
+      ratio: '16:9'
+      highlightStyle: github
+      mathjax: default
+  #    self-contained: TRUE
+  chakra: css/libs/remark-latest.min.js
+css: ["default", 
+      "css/footer.css", 
+      "css/color.css", 
+      # "css/xaringan-themer.css",
+      default-fonts]
+lib_dir: css/libs
+beforeInit: "css/macros.js"
+# seal: false  
+#bibliography: /Users/bson3/Dropbox/latex/mybib2.bib
+#remotes::install_github('yihui/xaringan', upgrade = TRUE)
+---
+
+```{r setup, include=FALSE}
+# to use FontAwesome
+#htmltools::tagList(rmarkdown::html_dependency_font_awesome())
+library(dplyr)
+library(tidyr)
+library(fs)
+library(kableExtra)
+library(fontawesome)
+# library(magick)  
+library(ggplot2)
+knitr::opts_chunk$set(warning = FALSE, message = FALSE, error=F, echo=F)
+options(htmltools.preserve.raw = FALSE)
+```
+
+
+class: inverse, center, middle
+background-image: url(https://thumbs.dreamstime.com/b/businessman-stands-crossroads-two-worlds-ai-illustration-looking-direction-self-reflection-to-make-355464496.jpg?w=768)
+background-size: 100%
+
+
+# .Huge[**Polarization and Democratic Backsliding**]
+
+# .bluey[**GLOA 396, Special Topic**]
+
+---
+.full-width-blue[
+# Affective polarization → Democratic backsliding
+]
+<br>
+--
+
+```{r, echo=FALSE, message=FALSE, warning=FALSE, out.width="100%"}
+library(DiagrammeR)
+
+grViz("
+digraph orhan_dag {
+
+  graph [
+    layout  = dot,
+    rankdir = TB,   // top → bottom
+    ranksep = 0.4,  // vertical spacing
+    nodesep = 0.4   // horizontal spacing
+  ]
+
+  node [shape = rectangle, style = filled, fillcolor = \"#f7f7f7\",
+        fontsize = 17, fontname = \"Helvetica\"]
+
+#  AP        [label = \"Affective polarization\"]
+  Identity  [label = \"Salient partisan identity & in-/out-group\"]
+  Beliefs   [label = \"Biased beliefs about out-party\\n(\\\"existential threat\\\")\"]
+  Loyalty   [label = \"Reluctance to cross party lines\\n(partisan loyalty)\"]
+  Acc       [label = \"Reduced electoral accountability\"]
+  Opp       [label = \"Opportunity for\\nundemocratic incumbents\"]
+  Backslide [
+    label     = \"Democratic\\nbacksliding\",
+    fillcolor = \"#CC0000\",   // red
+    fontcolor = \"white\",     // white text
+    style     = filled
+  ]
+  
+// Vertical part of the L
+#  AP       -> Identity
+  Identity -> Beliefs
+  Beliefs  -> Loyalty
+
+  // Horizontal part of the L
+  Loyalty  -> Acc
+  Acc      -> Opp
+  Opp      -> Backslide
+
+  // Put these on the same horizontal level to form the base of the L
+  { rank = same; Acc; Opp; Backslide }
+  
+}
+")
+
+```
+
+---
+
+.full-width-green[
+# What leads to affective polarization?
+]
+<br>
+
+--
+
+.Large[based on Iyengar, Sood & Lelkes (2019)]
+
+- .LARGE[.purple[Elite] polarization and partisan cues]
+
+--
+
+- .LARGE[Cross‐cutting identities (religion, community, family) `r fa("arrow-down", fill='red')`]
+
+--
+
+- .LARGE[Negative partisanship `r fa("arrow-up", fill='red')`]
+
+--
+
+- .LARGE[Institutional and .orange[media] environment]
+
+--
+
+- .LARGE[.Blue[Nationalization] of politics]
+
+---
+
+.full-width-blue[
+# A vicious cycle .tiny[(Gessler and Wunsch 2025)]
+]
+<br>
+--
+
+```{r, out.width="100%"}
+library(DiagrammeR)
+  grViz("
+digraph gessler_dag {
+
+  graph [
+    layout  = dot,
+    rankdir = TB,   // top → bottom
+    ranksep = 0.4,  // vertical spacing
+    nodesep = 0.4,   // horizontal spacing
+    margin = 0.0
+  ]
+
+  node [shape = rectangle, style = filled, fillcolor = \"#f7f7f7\",
+        fontsize = 15, fontname = \"Helvetica\"]
+
+  a1   [label = \"Backsliding\"]
+  a2   [label = \"Democracy salient\"]
+  a3   [label = \"Affective dislike of\\nthe ruling party\"]
+  a4   [label = \"Opposition Unity\\n& Bipolarity\"]
+  a5   [
+    label = \"Opposition = \\\'Existential threat\\\' \",
+    fillcolor = \"#CC0000\",   
+    fontcolor = \"white\",     
+    style     = filled
+  ]
+  a6 [label = \"Polarization\",
+  fillcolor = \"red\",
+  fontcolor = \"white\",
+  style = filled]
+  
+a1 -> a2
+a2 -> a3
+a3 -> a4
+a4 -> a5
+a5 -> a6
+
+{ rank = same; a3; a4; a5 }
+
+}
+")
+```
+
+---
+
+
