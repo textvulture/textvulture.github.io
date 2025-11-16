@@ -53,8 +53,80 @@ background-size: 100%
 # .bluey[**GLOA 396, Special Topic**]
 
 ---
+
+.full-width-yellow[
+# Polarization: Why care about .Green[voters]? 
+]
+<br>
+--
+
+## - political transformation happens through structural/elite channels, no?
+
+--
+
+## - Modern backslidings have more to do with .purple[executive takeover] than coups (Svolik 2019): 88 vs 46 (e.g., Chavez, Putin, Erdogan).
+
+--
+
+## - Polarization dramatically increases the .Blue[stakes] of elections.
+
+ - .Large["Even voters who value democracy will be willing to sacrifice fair democratic competition for the sake of electing politicians who champion their interests"] (p. 24)
+ 
+---
+
 .full-width-blue[
-# Affective polarization → Democratic backsliding
+# The Tale of Two Polarizations .tiny[(Iyengar and Wagner 2025: [click](https://www.elgaronline.com/downloadpdf/edcollchap-oa/book/9781035310609/chapter2.pdf))]
+]
+<br>
+--
+
+.content-box-blue[
+## Ideological Polarization
+.LARGE[: Divergence in substantive policy or ideological positions between groups. The distance of between .pink[policy] positions between different groups.]
+]
+
+--
+.content-box-red[
+## Affective Polarization
+.LARGE[: Emotional dimension. Positive .Blue[feelings] toward in-group and negative feelings toward the out-group.]
+]
+
+---
+
+
+
+.full-width-brown[
+# What leads to affective polarization?
+]
+<br>
+
+--
+
+.Large[based on Iyengar, Sood & Lelkes (2019) [[click for a link]](https://www.annualreviews.org/content/journals/10.1146/annurev-polisci-051117-073034)]
+
+- .LARGE[.purple[Elite] polarization and partisan cues]
+
+--
+
+- .LARGE[Cross‐cutting identities (religion, community, family) `r fa("arrow-down", fill='red')`]
+
+--
+
+- .LARGE[Negative partisanship `r fa("arrow-up", fill='red')`]
+
+--
+
+- .LARGE[Institutional and .orange[media] environment]
+
+--
+
+- .LARGE[.Blue[Nationalization] of politics]
+
+
+---
+
+.full-width-blue[
+# Affective polarization → Democratic backsliding .tiny[(Orhan 2022)]
 ]
 <br>
 --
@@ -106,34 +178,6 @@ digraph orhan_dag {
 
 ```
 
----
-
-.full-width-green[
-# What leads to affective polarization?
-]
-<br>
-
---
-
-.Large[based on Iyengar, Sood & Lelkes (2019)]
-
-- .LARGE[.purple[Elite] polarization and partisan cues]
-
---
-
-- .LARGE[Cross‐cutting identities (religion, community, family) `r fa("arrow-down", fill='red')`]
-
---
-
-- .LARGE[Negative partisanship `r fa("arrow-up", fill='red')`]
-
---
-
-- .LARGE[Institutional and .orange[media] environment]
-
---
-
-- .LARGE[.Blue[Nationalization] of politics]
 
 ---
 
@@ -161,7 +205,12 @@ digraph gessler_dag {
 
   a1   [label = \"Backsliding\"]
   a2   [label = \"Democracy salient\"]
-  a3   [label = \"Affective dislike of\\nthe ruling party\"]
+  a3   [
+    label = \"Affective dislike of\\nthe ruling party\\n& supporters\",
+    fillcolor = \"blue\",
+    fontcolor = \"white\",
+    style = filled
+    ]
   a4   [label = \"Opposition Unity\\n& Bipolarity\"]
   a5   [
     label = \"Opposition = \\\'Existential threat\\\' \",
@@ -187,5 +236,16 @@ a5 -> a6
 ```
 
 ---
+background-image: url(https://www.proantic.com/galerie/antiquite-mouttet/img/101221-643d76d49bac3.jpg)
+background-position: right
+background-size: contain
 
+
+# We talked about
+
+## - Factors behind affective polarization
+
+## - How affective polarization <br> drives democratic backsliding
+
+## - The vicious cycle
 
