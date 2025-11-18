@@ -86,9 +86,11 @@ background-size: cover
 
 ---
 
-<div class="full-width-tinted"><br>
-  <h1> $CO_2$ Emission, $ 20 per t, % of GNI </h1> 
-</div><br><br>
+.full-width-blue[
+# CO.tiny[2] Emission, $ 20 per ton, % of GNI
+]
+<br>
+--
 
 ```{r message=FALSE, echo=FALSE, warning=FALSE, results="asis", fig.width=16, fig.height=7, cache=T}
 
@@ -112,9 +114,12 @@ wdi %>%
 
 ---
 
-<div class="full-width-tinted"><br>
-  <h1> .large[Air Pollution] </h1> 
-</div><br><br>
+.full-width-green[
+# Air Pollution
+]
+<bt>
+
+--
 
 ```{r message=FALSE, echo=FALSE, warning=FALSE, results="asis", fig.width=16, fig.height=7, cache=T}
 
@@ -193,10 +198,12 @@ background-position: right
 ---
 
 class: inverse, center, middle
-background-image: url(https://media0.giphy.com/media/AkjrwuWU6RQQMrNOlg/200w.webp?cid=ecf05e47lsgynnhqs64j646in1ahczbmuehvpjc5g9dhlkwf&rid=200w.webp&ct=g)
+background-color: black
 background-size: contain
+background-image: url(https://c.tenor.com/inSUlloTGjgAAAAd/tenor.gif)
+background-size: 100%
 
-# .huge[**Is .red[De-growth] the Answer? <br> (McAfee 2020)**]
+# .huge[**Is .red[De-growth] the Answer? **]
 
 ---
 
@@ -275,26 +282,34 @@ background-size: 100%
 
 ---
 class: inverse, middle
-background-image: url(http://sierraclub.typepad.com/.a/6a00d83451b96069e201543218b868970c-pi)
-background-size: contain
+background-image: url(https://media.cnn.com/api/v1/images/stellar/prod/230113124012-03-lutzerath-germany-coal-mine-climate-intl-restricted.jpg?c=original)
 background-position: right
+background-size: 100%
 background-color: black
 
 
 # .Large[Political .yellow[incentive] structure]
 
-# .Large[.green[Old] problems, .red[new] issues]
+# .Large[.Green[Old] problems, .red[new] issues]
 
 # - Economist (2019)
 
 
 ---
 
+class: inverse, center, bottom
+background-image: url(https://www.mdgsolutions.com/wp-content/uploads/2022/11/2178_twitter_1200x600_animated.gif)
+background-size: 100%
 
-<div class="full-width-tinted"><br>
-  <h1> .large[**Life Expectancy at Birth**] </h1> 
-</div><br><br>
+# .Huge[Global Public Health]
 
+---
+
+.full-width-green[
+# **Life Expectancy at Birth**
+]
+<br>
+--
 
 ```{r message=FALSE, echo=FALSE, warning=FALSE, results="asis", fig.width=16, fig.height=7, cache=T}
 
@@ -366,6 +381,31 @@ knitr::include_graphics("https://github.com/textvulture/textvulture.github.io/bl
 
 ---
 
+background-image: url(https://github.com/textvulture/textvulture.github.io/blob/master/images/oilCurseChatGPT.gif?raw=true)
+background-position: right
+background-size: 45%
+
+# `r fa("book-skull", fill='orange')` Often understood as 'oil-curse'
+
+## free revenue `r fa("arrow-up", fill='green')` `r fa("arrow-right")` accountability `r fa("arrow-down", fill='red')`
+
+--
+
+## `r fa('book', fill='red')` Savoia & Sen (2021)
+
+### - the types of state and political institutions
+
+--
+
+  - .Large[resource `r fa("arrow-right")` weak state <br>`r fa("arrow-right")` low responsiveness `r fa("arrow-right")` low welfare]
+
+--
+
+  - .Large[resource `r fa("arrow-right")` better resist <br>democratization `r fa("arrow-right")` low welfare]
+
+
+---
+
 # But, still, .red[some] positive effect? 
 
 --
@@ -413,44 +453,6 @@ wdi %>%
 
 
 ```
-
----
-
-# `r fa("book-skull", fill='orange')` Often understood as 'oil-curse'
-
---
-
-## free revenue `r fa("arrow-up", fill='green')` `r fa("arrow-right")` accountability `r fa("arrow-down", fill='red')`
-
---
-
-## But, rank-and-file Bureaucrats?
-
-
----
-
-background-image: url(https://github.com/textvulture/textvulture.github.io/blob/master/images/oilCurseChatGPT.gif?raw=true)
-background-position: right
-background-size: 45%
-
-# `r fa("book-skull", fill='orange')` Often understood as 'oil-curse'
-
-## free revenue `r fa("arrow-up", fill='green')` `r fa("arrow-right")` accountability `r fa("arrow-down", fill='red')`
-
---
-
-## `r fa('book', fill='red')` Savoia & Sen (2021)<br>: not that simple (literature review)
-
-### - the types of state and political institutions
-
---
-
-  - .Large[resource `r fa("arrow-right")` weak state <br>`r fa("arrow-right")` low responsiveness `r fa("arrow-right")` low welfare]
-
---
-
-  - .Large[resource `r fa("arrow-right")` better resist <br>democratization `r fa("arrow-right")` low welfare]
-
 
 
 
