@@ -434,8 +434,13 @@ background-size: contain
 
 # .huge[**.yellow[The On-shoring Challenge]**]
 ---
-![](https://images.ft.com/v3/image/raw/https%3A%2F%2Fig.ft.com%2Fus-iphone%2Fassets%2Fstatic%2Fapple_factories_world-xl.ChrHH5Vj.png?source=ig&redirect-from-v2=true)
 
+class: inverse, left, top
+background-color: #FFF1E5
+background-image: url(https://github.com/textvulture/textvulture.github.io/blob/master/images/AppleFT.png?raw=true)
+background-size: 90%
+
+### .green[source: FT]
 
 ---
 class: inverse
