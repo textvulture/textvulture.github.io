@@ -1,0 +1,80 @@
+---
+title: "Guest Lecture"
+author: "Byunghwan Son <br> George Mason University"
+date: " "
+#########################################
+linkcolor: red
+citecolor: blue
+urlcolor: blueß
+output: 
+  xaringan::moon_reader:
+    seal: false
+    nature:
+      ratio: '16:9'
+      highlightStyle: github
+      self-contained: TRUE
+  chakra: css/libs/remark-latest.min.js
+css: ["default", 
+      "css/footer.css", 
+      "css/color.css", 
+      default-fonts]
+lib_dir: css/libs
+beforeInit: "css/macros.js"
+#bibliography: /Users/bson3/Dropbox/latex/mybib2.bib
+#remotes::install_github('yihui/xaringan', upgrade = TRUE)
+---
+
+```{r setup, include=FALSE}
+# to use FontAwesome
+#htmltools::tagList(rmarkdown::html_dependency_font_awesome())
+
+library(fontawesome)
+library(dplyr)
+library(ggplot2)
+library(tinytable)
+library(modelsummary)
+
+knitr::opts_chunk$set(warning = FALSE, message = FALSE, error=F, echo=F)
+options(htmltools.preserve.raw = FALSE) 
+
+```
+
+
+background-color: #094e0d
+class: inverse, middle
+background-image: url(https://textvulture.github.io/portrait_July2024.png)
+background-position: 23cm 2.5cm
+background-size: 20%
+
+# .large[K-pop Fans in the United States:] <br> .large[A Data-Driven Approach]<br>
+----
+
+## .right[Byunghwan Ben Son <br> .tiny[(Associate Professor, GLOA, GMU)]]
+
+
+---
+
+
+
+# Before we start:
+
+### The slides are completely .pink[online] and you can easily access it.
+
+```{r, echo=F, include=F}
+
+# library(qrcode)
+#  
+# png(file="qr.png")
+# qr <- qr_code("https://textvulture.github.io/presentations/GuestLecture_GLOA491.html")
+# plot(qr)
+# dev.off()
+
+```
+
+```{r, fig.align='center', out.width="400px"}
+
+knitr::include_graphics('qr.png')
+
+```
+
+---
