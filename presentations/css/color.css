@@ -321,7 +321,9 @@ blockquote, .blockquote {
 }
 
 
-
+.img-center img {
+  width: 80%;
+}
 
 .pulse {
   -webkit-animation-name: pulse;
