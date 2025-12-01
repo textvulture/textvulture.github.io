@@ -107,10 +107,6 @@ blockquote, .blockquote {
 }
 
 
-.pull-right ~ * { clear: unset; }
-.pull-right + * { clear: both; }
-
-
 
 
 .column {
@@ -195,6 +191,7 @@ blockquote, .blockquote {
   float: left;
   width: 27%;
 }
+
 .pull-right2 {
   float: right;
   width: 72%;
@@ -221,19 +218,29 @@ blockquote, .blockquote {
   color: white;
 }
 
+.banner{
+  position: relative;  
+  z-index: 0;
+  margin: -2.5rem -600rem;
+  top: 0;
+  padding: 0.05rem 600rem;
+  background: #1abc9c;
+  color: white;
+}
+
 .pulse {
   -webkit-animation-name: pulse;
   animation-name: pulse;
 }
 
-.banner {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-color: green;
-  color: #ffffff;
-  height: 50px;
-  font-size: 24px;
-  font-weight: bold;
-  color: white;
+
+
+@keyframes blink {
+  0% { opacity: 1; }
+  50% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+.blink {
+  animation: blink 1s infinite;
 }

@@ -42,11 +42,11 @@ options(htmltools.preserve.raw = FALSE)
 
 background-color: #094e0d
 class: inverse, middle
-background-image: url(https://textvulture.github.io/portrait_July2024.png)
+background-image: url(mugshot2025a_circle.png)
 background-position: 23cm 2.5cm
 background-size: 20%
 
-# .large[K-pop Fans in the United States:] <br> .large[A Data-Driven Approach]<br>
+# .large[K-pop Fans in the United States:] <br> .large[A Data-Driven Approach]<br><br><br>
 ----
 
 ## .right[Byunghwan Ben Son <br> .tiny[(Associate Professor, GLOA, GMU)]]
@@ -78,3 +78,31 @@ knitr::include_graphics('qr.png')
 ```
 
 ---
+
+.full-width-green[
+# About the instructor
+]
+<br><br>
+--
+
+.pull-left[
+![](wordcloud_publications.png)
+]
+
+--
+
+.pull-right[<br>
+- .Large[Associate Prof. of Global Affairs]
+
+- .Large[PhD, .orange[Political Science]]
+
+- .Large[Political Economy; Global Finance; Democratic Backsliding; .red[Political Communication]]
+
+- .Large[Quant. & Mixed methods]
+
+- .Large[[🏠 Webpage](https://textvulture.github.io/)]
+]
+
+
+--
+
