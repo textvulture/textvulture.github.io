@@ -922,15 +922,16 @@ background-position: right
 
 --
 
-### Almost all posts are skepticism of K-pop and fans.
-
---
-
 ### Very likely this is .ornage[all] they know about Korea.
 
 --
 
 ### K-pop skepticism = Korea skepticism
+
+--
+
+### Almost all posts are skepticism of K-pop and fans: <br> .purple[number of posts] = .green[strength of backlash]
+
 
 ---
 
@@ -944,15 +945,73 @@ simple
 
 ```
 
+---
 
+.full-width-brown[
+## r/WeHateKpop: the effect of Pandemic News on Backlash<br> .tiny[(interrupted time-series analysis)]
+]
+<br>
+--
 
+```{r, echo=F, fig.align='center', out.width="75%"}
 
+knitr::include_graphics('kpopimages/jce1.png')
+
+```
 
 
 ---
 
+class: inverse, center, middle
+background-image: url(https://github.com/textvulture/textvulture.github.io/blob/master/images/forestBackground3.jpg?raw=true)
+background-size: 120%
+
+# .LARGE[But would that be a function of a different factor such as .yellow[anti-Asian racism] during the pandemic?]
+
+--
+
+## .bluey[If only there's some Asian topic not connected to K-pop...]
+
+---
+
+.full-width-brown[
+## r/Cringetopia: .bluey[K-pop] posts compared to .pink[China] posts .tiny[(Difference-in-Difference model)]
+]
+<br>
+--
+
+
+```{r, echo=F, fig.align='center', out.width="75%"}
+
+knitr::include_graphics('kpopimages/jce2.png')
+
+```
+
+---
+
+.full-width-brown[
+# Conclusion
+]
+
+--
+
+## - Positive news about Korea’s COVID-19 policy triggers .pink[backlash] among U.S. .pink[non-fans of K-pop].
+--
+
+- .Large[Non-fans interpret such news as indirect praise of K-pop itself (irritation) because K-pop .purple[=] Korea.]
+
+--
+
+##	- Econometric analyses show that comment activity rises only after the surge in positive Korea news.
+
+--
+
+## - The study reveals how positive national-image signals can backfire.
+
+---
+
 .full-width-yellow[
-# Is K-pop going to be a useful .pink[public diplomacy tool]?
+# Is K-pop going to be a useful .bluey[public diplomacy tool]?
 ]
 <br><br><br>
 --
