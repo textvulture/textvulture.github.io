@@ -675,13 +675,72 @@ background-image: url(kpopimages/BLM_Tulsa.png)
 background-size: contain
 background-position: right
 
-# Survey:<br> at glance
+# Survey:
+
+## Kpop Fans' <br> Political Engagement: <br> .purple[what do you think?]
+
+---
+
+background-image: url(kpopimages/effect_ologit.png)
+background-size: 80%
+background-position: bottom
+
+# Survey: ordered logit results (probabilities)
+
+---
+
+background-image: url(kpopimages/ols.png)
+background-size: 80%
+background-position: bottom
+
+# Survey: fan ambivalence (Support.tiny[.blue[BLM]] - Support.tiny[.red[Tulsa]] )
+
+---
+
+background-image: url(kpopimages/positions.png)
+background-size: 60%
+background-position: bottom
+
+# Interview: .tiny[do you support the fandom's political engagement?]
+
+---
+
+background-image: url(kpopimages/reason.png)
+background-size: contain
+background-position: right
+
+# Why? (overall)
+
+---
+
+background-image: url(kpopimages/reasons.png)
+background-size: 90%
+background-position: bottom
+
+# Why? (by types)
+
+---
+
+.full-width-blue[
+# Conclusion
+]
+
+--
 
 
+## - Fan perceptions of K-pop shape attitudes toward activism are .green[diverse].
 
+--
 
+## - Political engagement is not universally accepted within fandom, though the (.Blue[passive]) support is generally quite strong.
 
+--
 
+## - Higher .purple[partisanship] (i.e., more ’political’) ⇒ lower endorsement of activism.
+
+--
+
+## - K-pop in itself might .red[not] be the key driver of youth political activism.
 
 ---
 
@@ -692,7 +751,219 @@ background-color: #2B1908
 
 ---
 
+class: inverse, bottom
+background-image: url(https://github.com/textvulture/textvulture.github.io/blob/master/images/forestBackground4.jpg?raw=true)
+background-size: 100%
+
+# Does everybody accept K-pop (and its uniqueness)?
+
+--
+
+# After all, it's a .yellow[foreign] culture. What do those who are .pink[not fans] of K-pop think?
+
+
+---
+
 .full-width-brown[
-# The non-fans
+# Reactions to 'foreign culture' 
 ]
+<br><br>
+--
+
+- .LARGE[**Othering**: in-group vs. out-group -- negative reactions?]
+
+--
+
+- .LARGE[**COO**: .green[positive] media portrayals improve public opinion]
+
+--
+  - .Large[.red[but], only when there's no pre-formed opinion.]
+
+--
+
+- .LARGE[**Pre-formed opinions**: what if a .pink[negative] image is aleady formed?]
+
+--
+  - .Large[**backlash**: confronted with contradicting info, .red[negative] opinions `r fa('arrow-up', fill='red')`]
+
+--
+
+- .LARGE[*For those skeptical of Korea already, positive portrayal of the country may .orange[provoke a backlash].*]  
+
+---
+
+# How .orange[backlash] would come along upon .green[good news] on Korea
+
+
+```{r, echo=F, out.width="80%", fig.align='center'}
+
+library(DiagrammeR)
+
+simple <- grViz("
+digraph simple {
+
+  graph [
+    layout  = dot,
+    rankdir = LR,   // top → bottom
+    ranksep = 0.75,  // vertical spacing
+#    nodesep = 3   // horizontal spacing
+  ]
+
+  node [shape = circle, 
+        style = filled, 
+        fixsize = true,
+        width = 2,
+        fillcolor = \"#f7f7f7\",
+        fontsize = 20, fontname = \"Helvetica\"]
+
+  a [
+      label = \"Positive Portrayal\\nof Korea\",
+      fillcolor = \"#65E0F0\"
+      ]
+  b [label = \"K-pop\"]
+  c [
+      label = \"Pre-formed\\nNegative Image\\nof Korea\",
+      fillcolor = \"#F0658A\"
+      ]
+  d [
+      label = \"Backlash\",
+      fontsize = 25
+  ]
+  
+  a -> c
+  b -> c
+  c -> d
+
+ 
+  { rank = same; a; b }
+  
+}
+")
+
+simple
+
+```
+  
+---
+
+# Covid-19 News: .Blue['Korea was competent!'] (US news coverage)  
+
+--
+
+```{r, echo=F, fig.width=14, fig.height=7.5}
+
+library(haven)
+library(tidyverse)
+
+
+trend <- read_dta("/Users/bson3/Google Drive/international political economy/kpop/reddit/data/grtrend.dta")
+trend %>% 
+  mutate(Rdate = as.Date(date, "%Y-%m-%d")) %>%
+  mutate(cumul10 = cumul/10)-> trend
+
+news <- read_dta("/Users/bson3/Google Drive/international political economy/kpop/reddit/data/lexis_korea_covid_2020.dta")
+news %>% 
+  mutate(Rdate = as.Date(date, "%Y-%m-%d"))  -> news
+
+ggplot(NULL, aes(x=Rdate)) +
+  geom_histogram(data = news, 
+                 aes(x=Rdate,
+                     color='grey',
+                     size=NA),
+                 alpha=0.5) +
+  geom_line(data=trend,
+            aes(y=cumul10,
+                color='darkblue'),
+            size=2) +
+  theme_minimal(base_size = 20) +
+  guides(color=guide_legend(" ")) +
+  scale_color_manual(labels = c("Google Trend/10", "News"),
+                     values = c('darkblue', 'grey')) +
+  scale_x_date(date_breaks = "2 month", date_labels = "%m-%y") +
+  theme(
+    legend.position = c(0.1, 0.9),
+    legend.direction = "vertical"
+    # legend.text=element_text(size=10),
+    # axis.text=element_text(size=10),
+    # axis.title=element_text(size=10)
+    ) +
+  labs(x="Date",
+       y="") +
+  geom_vline(data=trend, 
+             xintercept = as.Date("2020-03-15"),
+             linetype = 2,
+             color = 'red')
+
+```
+
+---
+
+# Where can I find a bunch of people already .red[skeptical] of Korea .green[because of K-pop]?
+
+--
+
+```{r, echo=F, fig.width=10, fig.align='center'}
+
+simple
+
+```
+
+---
+
+background-image: url(kpopimages/subreddit_eg.png)
+background-size: contain
+background-position: right
+
+# Two (Sub)Reddits
+
+## - r/WeHateKpop (now defunct)
+
+## - r/Cringetopia
+
+--
+
+### Almost all posts are skepticism of K-pop and fans.
+
+--
+
+### Very likely this is .ornage[all] they know about Korea.
+
+--
+
+### K-pop skepticism = Korea skepticism
+
+---
+
+# Looking back on the diagramn:
+
+--
+
+```{r, echo=F, fig.width=10, fig.align='center'}
+
+simple
+
+```
+
+
+
+
+
+
+---
+
+.full-width-yellow[
+# Is K-pop going to be a useful .pink[public diplomacy tool]?
+]
+<br><br><br>
+--
+
+# - .green[**Yes**], given the unique identity establshed in the US. Spill over effect possible. Difficult image building process already done.
+
+--
+
+# - .red[**Not always**], given the backlash and its strong perceived association with the COO (i.e., South Korea).
+
+--
+
+# - **Caveat**: US-specific.
 
