@@ -147,9 +147,6 @@ background-size: 100%
 # K-pop Fans in the United States: .yellow[A Data-Driven Approach]
 
 ---
-class: inverse
-background-color: black
-
 .full-width-yellow[
 # The Big Questions
 ]
@@ -206,6 +203,12 @@ background-color: black
 
 
 ## - Son. 2024. "Foreign Pop Culture and Backlash: the case of non-fan K-pop Subreddits during the pandemic," *Journal of Cultural Economics*, 48 (1): 117-143. .hl2[.white[non-fan reaction]]
+
+---
+
+background-image: url(https://y.yarn.co/53a0e6cc-848d-43c8-b819-956a16230366_text.gif)
+background-position: center
+background-size: contain
 
 ---
 
@@ -400,7 +403,7 @@ background-size: contain
 # Data: Survey and Interview
 ]
 <br>
----
+--
 
 ## Online Survey (N = 920)
 --
@@ -419,8 +422,7 @@ background-size: contain
 --
 
 - .Large[Conducted in two phases:]
-	- .Large[Phase 1: 57 interviews (2020–2021)]
-	- .Large[Phase 2: 53 interviews (2022–2023)]
+	- .Large[Phase 1: 57 (2020–2021); Phase 2: 53 (2022–2023)]
 --
 
 - .Large[Interviews ranged from 30 minutes to 3 hours; .purple[semi-structured]]
@@ -470,10 +472,22 @@ knitr::include_graphics('kpopimages/map-1.png')
 ---
 background-image: url(kpopimages/gender.jpg)
 background-position: right
-background-size: contain
+background-size: 60%
 
 
-# Interviews: <br> .purple[keywords] <br>most often invoked
+# **Interviews**: <br> .small[.purple[keywords] <br>frequently invoked]
+
+--
+
+### - K-pop masculinity .orange[unique]
+
+--
+
+### - .green[normalization] of soft masculinty
+
+--
+
+### - .pink[Negotiating] the stigma
 
 ---
 
@@ -532,6 +546,12 @@ background-size: contain
 --
 
 ## - The combination of survey and interview evidence: validity `r fa("arrow-up", fill='red')`
+
+---
+
+background-image: url(https://media.tenor.com/X1I4FyPkHU8AAAAM/lololol-lol.gif)
+background-size: contain
+background-color: black
 
 ---
 
@@ -658,16 +678,19 @@ background-size: contain
 --
 
 ## Key Variables (survey):
-- .Large[**Outcome**: .red[Support] for fandom activism. Ordered]
-- .Large[**Predictor**: Perceived .red[scope] of K-pop. Factor Variable.]
+- .Large[**Outcome**: .red[Support] for fandom activism. Ordered (4 choices)]
+- .Large[**Predictor**: Perceived .red[scope] of K-pop. A factor variable (`factor`)]
 
 --
 
 ## Method: ordered logit (survey)
 
+<span style="font-size: 180%;">
 $$
-Attitude_k^i = \beta_1Effect_k^i + \mathbf{X} + ϵ_k^i
+Attitude_k^i = \color{red}{\mathbf{\beta_1}}Effect_k^i + \mathbf{X} + ϵ_k^i
 $$
+</span>
+
 
 ---
 
@@ -677,7 +700,7 @@ background-position: right
 
 # Survey:
 
-## Kpop Fans' <br> Political Engagement: <br> .purple[what do you think?]
+## Kpop Fans' <br> Political Engagement: <br> .purple[what do you think?] <br> (outcome variable)
 
 ---
 
@@ -690,7 +713,7 @@ background-position: bottom
 ---
 
 background-image: url(kpopimages/ols.png)
-background-size: 80%
+background-size: 85%
 background-position: bottom
 
 # Survey: fan ambivalence (Support.tiny[.blue[BLM]] - Support.tiny[.red[Tulsa]] )
@@ -724,7 +747,7 @@ background-position: bottom
 .full-width-blue[
 # Conclusion
 ]
-
+<br>
 --
 
 
@@ -744,6 +767,15 @@ background-position: bottom
 
 ---
 
+class: inverse, bottom, center
+background-image: url(https://media2.giphy.com/media/v1.Y2lkPTZjMDliOTUyN3RremVwMGcyYWZhdzM5aHdiMzE1bjFleHYwMmdlMnozeTF1bmgxciZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/3o7WIIvYXQNlNXq0XS/giphy.gif)
+background-size: 120%
+background-color: black
+
+# .huge[**Moving on to the last one.**]
+
+
+---
 class: inverse, center, middle
 background-color: #2B1908
 
@@ -1010,6 +1042,12 @@ knitr::include_graphics('kpopimages/jce2.png')
 
 ---
 
+background-image: url(https://y.yarn.co/772d60d6-3b75-4cce-bbd2-3afd1b151cee_text.gif)
+background-color: black
+background-size: contain
+
+---
+
 .full-width-yellow[
 # Is K-pop going to be a useful .bluey[public diplomacy tool]?
 ]
@@ -1025,4 +1063,12 @@ knitr::include_graphics('kpopimages/jce2.png')
 --
 
 # - **Caveat**: US-specific.
+
+---
+
+background-image: url(https://refuge-cdn.nolayingup.dev/original/3X/6/2/624acb3d9a55d31964d42e31b9af5f11e46bb73f.gif)
+background-size: contain
+background-position: middle
+background-color: black
+
 
