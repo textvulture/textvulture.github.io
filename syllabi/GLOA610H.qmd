@@ -1,12 +1,13 @@
 ---
 title: "Syllabus: GLOA 610 Economic Globalization & Development"
-subtitle: Fall 2025. <br> Hybrid. F2F lecture, 7:20--9 PM (T) + online <br> [Innovation Hall 330](https://maps.app.goo.gl/qKt8oZPFcbQzFc5u8)
+subtitle: Spring 2026. <br> Hybrid. F2F lecture, 4:30--6:45 PM (T) + online <br> [Krug Hall 209](https://maps.app.goo.gl/oUvvFMoMxSqvy34V7)
 format: 
   html:
 #    math: mathjax
     number-sections: true
     theme: cosmo
     table-markdown: true
+#    self-contained: true
 #editor: visual
 # author:
 #   - name: "Byunghwan 'Ben' Son (bson3@gmu.edu)"
@@ -60,11 +61,6 @@ blue {
 ```
 
 **Change log** 
-
-- <font size=2>Sep. 2: A new (short) reading added to the week of immigration (Reuters)</font>
-- <font size=2>Sep. 9: A short news article added to the week of finance</font>
-- <font size=2>Oct. 19: Briggs's short article (Poverty week) is turned 'not required.'</font>
-
 
 
 # Instructor
@@ -452,10 +448,12 @@ The grading scale in this course follows [GMU Catalogue](https://catalog.gmu.edu
 ## Week 2. Sep 2. What are Development and Economic Globalization? {.unnumbered}
 
   -  No reading summary yet.
-  -  Rapley, J. (2007). *Understanding Development: Theory and Practice in the Third World*. Lynne Rienner, Boulder. Ch. 1 & 2. 
-  -  World Bank. (2024). World Development Report 2024. [link.](https://www.worldbank.org/en/publication/wdr2024). Chs. 2 and 8 only.
+  -  Rapley, J. (2007). *Understanding Development: Theory and Practice in the Third World*. Lynne Rienner, Boulder. Ch. 1 & 2. <mark2>PDF in Canvas</mark2>
+  - Stewart, P., & Huggins, A. (2023). The Term “Global South” Is Surging. It Should Be Retired. [Link](https://carnegieendowment.org/posts/2023/08/the-term-global-south-is-surging-it-should-be-retired?lang=en)
+  - Nye, J. S. (2023). What Is the Global South? [Link](https://www.project-syndicate.org/commentary/global-south-is-a-misleading-term-by-joseph-s-nye-2023-11)
+  -  World Bank. (2025). World Development Report 2025. [link.](https://www.worldbank.org/en/publication/wdr2025). Only the 'Overview'.
   -  Martinez, L. R. (2022). How Much Should We Trust the Dictator’s GDP Growth Estimates? *Journal of Political Economy*, 130(10):2731–2769.
-  -  Steger, M. (2005). *Globalism: Market Ideology Meets Terrorism*. Rowman & Littlefield, New York, NY. Ch. 4.
+  -  Steger, M. (2005). *Globalism: Market Ideology Meets Terrorism*. Rowman & Littlefield, New York, NY. Ch. 4. <mark2>PDF in Canvas</mark2>
   -  Acemoglu, D. (2010). Theory, general equilibrium, and political economy in developing economics. *Journal of Economic Literature*, 24:17–32. <mark>not required</mark>
   -  Solow, R. M. (1956). A contribution to the theory of economic growth. *Quarterly Journal of Economics*, 70(1):65–94. <mark>not required</mark>
   -  The Economist. (2019). “The Middle Income Spread” [link.](https://www.economist.com/graphic-detail/2017/10/11/the-middle-income-spread??fsrc=scn/fb/te/bl/ed/themiddleincomespread&fbclid=IwAR3LKWm8Qk2gaNF-I7kB90fUxFu6-b0_ZWW_TC-EzhDnWxNX6ovqMYECAdc) <mark>not required</mark>
@@ -546,7 +544,7 @@ Presenters might note that the focus is essentially foreign direct investment (F
 
 ## Week 8. Oct 14. Foreign Aid {.unnumbered}
 
-Those interested in presenting in this week should be aware that foreign aid is very diverse and any presentation would need to explain what kind of aid it is talking about. For example, 'DRC's aid dependency' would be quite a tough topic to pull off because it points to a very wide array of things. 'What happened to the food assistance to Nicaragua in 1998?' would be more doable. In addition, humanitarian aid, usually a very important topic, would be hard to work on because its connection to economic globalization and/or development is very hard to explain.
+Those interested in presenting in this week should be aware that foreign aid is very diverse and any presentation would need to explain what kind of aid it is talking about. For example, 'DRC's aid dependency' would be quite a tough topic to pull off because it points to a very wide array of things. 'What happened to the food assistance to Nicaragua in 1998?' would be more doable. In addition, humanitarian, emergency, or disaster aid, usually a very important topic, would be hard to work on unless its connection to economic globalization and/or development clearly accounted for.
 
   -  Williams, M. (2018). The political economy of unfinished development projects: Corruption, clientelism, or collective choice? *American Political Science Review*, 111(4):705–723.
   - Findley, M. G., Harris, A. S., Milner, H. V., and Nielson, D. L. (2017). Who Controls Foreign Aid? Elite versus Public Perceptions of Donor Influence in Aid-Dependent Uganda. *International Organization*, 71(4):633–663.
@@ -562,7 +560,7 @@ Those interested in presenting in this week should be aware that foreign aid is 
 
 ## Week 9. Oct 21. Poverty & Inequality Reduction {.unnumbered}
 
-Those presenting this week might want to know that there's a difference between poverty/inequality and general under-development. A developed country might still have poverty issues, for example.
+Those presenting this week might want to know that there's a difference between poverty/inequality and general under-development. A developed country might still have poverty issues, for example. Avoid picking up topics of generic under-development.
 
 
   -  Briggs, R. (2018). “Millions of Americans as destitute as the world’s poorest? Don’t believe it.” Vox. February 4, 2018. [https://www.vox.com/the-big-idea/2018/2/1/169596 34/millions-americans-destitute-2-day-worlds-poorest-deaton-aid.](https://www.vox.com/the-big-idea/2018/2/1/16959634/millions-americans-destitute-2-day-worlds-poorest-deaton-aid) <mark>not required</mark>.
@@ -580,10 +578,9 @@ Those presenting this week might want to know that there's a difference between 
 
 ## Week 10. Oct 28. Political Economy of Immigration {.unnumbered}
 
-Those presenting this week are advised to **not** to focus on non-political economy dimension of the topic, such as 'the cruelty of the immigration policies of country X' or 'the agony of migrants.' It is important, but no directly related to our course subject. 
+Those presenting this week are advised to **not** to focus on non-political economy dimension of the topic, such as 'the cruelty and hypocracy of the immigration policies of country X' or 'the agony of migrants.' It is important, but no directly related to our course subject. 
 
-  -  Leblang, D. and Peters, M. E. (2022). Immigration and globalizagtion (and deglobalization). *Annual Review of Political Science*, 25:377–399.
-  -  Fitzgerald, J., Leblang, D., and Teets, J. C. (2014). Defying the law of gravity: The political economy of international migration. *World Politics*, 66(3):406–445.
+  -  Clemens, M. A. (2025). From Root Causes to Shared Gains: Migration Policy for Low-income Countries in a Labor-scarce World [IZA Discussion Paper]. [Link](https://www.iza.org/publications/dp18308).
   -  Alrababa’h, A., Dillon, A., Williamson, S., Hainmueller, J., Hangartner, D., and Weinstein, J. (2021). Attitudes toward migrants in a highly impacted economy: Evidence from the Syrian refugee crisis in Jordan. *Comparative Political Studies*, 54(1):33–76.
   -  Hangartner, D., Dinas, E., Marbach, M., Matakos, K., and Xefteris, D. (2019). Does exposure to the refugee crisis make natives more hostile? *American Political Science Review*, 113(2):442–455.
   -  Hainmueller, J. and Hopkins, D. J. (2015). The hidden american immigration consensus: A conjoint analysis of attitudes toward immigrants. *American Journal of Political Science*, 59(3):529–548.
@@ -596,8 +593,7 @@ Those presenting this week are advised to **not** to focus on non-political econ
 ## Week 11. Nov 4. No Class (Election Day)
 
 ## Week 12. Nov 11. Global Economic Crisis {.unnumbered}
-Those presenting this week should note that we are talking about actual crises, not general economic difficulties. You should be able to point to a crisis as an event.
-
+Those presenting this week should note that we are talking about actual crises, not general economic difficulties. You should be able to point to a specific crisis as an event that occurred abruptly and quickly (e.g., Mexican peso crisis in 1994; Argentine sovereign debt default 2002). Overall economic difficulties sustained for a lengthy period of time do not count. 
 
   -  <mark2>Last</mark2> week where you can do a presentation.
   -  Kindleberger, C. P. (1978). *Manias, Panics, and Crashes: A History of Financial Crises*. John Wiley & Sons, Inc., New York Chs. 1 and 2. Canvas

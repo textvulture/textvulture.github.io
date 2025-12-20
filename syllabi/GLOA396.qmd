@@ -5,6 +5,7 @@ format:
   html:
     number-sections: true
     theme: cosmo
+    self-contained: true
 #editor: visual
 # author:
 #   - name: "Byunghwan 'Ben' Son (bson3@gmu.edu)"
