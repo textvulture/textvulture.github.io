@@ -62,7 +62,8 @@ blue {
 
 **Change log** 
 
-<font size='2'>- Jan 12: This syllabus published.</font>
+- <font size='2'> Jan 12: This syllabus published.</font>
+- <font size='2'> Jan 12: The conference participation (previoiusly Week 10) is not included anymore. A new week is added (Week 14, in this version). </font>
 
 
 # Instructor
@@ -354,7 +355,8 @@ The guiding principles of this course are *fairness* and *transparency*.
 ## Assignment Submission
 
 -   All assignments are expected to be submitted electronically in Canvas ('Assignment' section). Do not email any assignments.
--   Technical difficulties are not rare. Try to submit it early if you can.
+- Your submission won't be graded *until the deadline* no matter how early you submit it.
+  - However, given that technical difficulties are not rare, submitting early (not too early--use common sense) is not a bad idea.
 -   Be sure to make it a MS Word or PDF file. Absolutely NO Pages file. Just so you know, as Mason students you have free access to MS Office software. You can also 'export' a Page file into a Word file.
 -   For all details (e.g., citation styles), strictly adhere to the GLOA MA Student Guide. If you repeatedly and consistently violate citation styles, some, though a small amount, points will be taken off.
     -   [Research](https://www.iza.org/publications/dp/14614/costly-mistakes-why-and-when-spelling-errors-in-resumes-jeopardise-interview-chances) has shown that people read a lot from basic mistakes in easy-to-correct things.
@@ -561,9 +563,8 @@ Those interested in presenting in this week should be aware that foreign aid is 
   -  Alesina, A. and Dollar, D. (2000). Who gives foreign aid to whom and why? *Journal of Economic Growth*, 5(1):33–57. <mark>not required</mark>
   -  Edwards, S. (2015). Economic development and the effectiveness of foreign aid: A historical perspective. *Kyklos*, 68(3):277–316. <mark>not required</mark>. An accessible primer of foreign aid history.
 
-## Week 10. Mar 24. Conference Participation. No Class <blue>{{< fa plane size=small >}}</blue> {.unnumbered}
 
-## Week 11. Mar 31. Poverty & Inequality Reduction {.unnumbered}
+## Week 10. Mar 24. Poverty & Inequality Reduction {.unnumbered}
 
 Those presenting this week would want to know that there's a difference between poverty/inequality and general under-development. A developed country might still have poverty issues, for example. Avoid picking up topics of generic under-development of a country.
 
@@ -581,7 +582,7 @@ Those presenting this week would want to know that there's a difference between 
   -  Basu, K. (2006). Globalization, poverty, and inequality: What is the relationship? what can be done? *World Development*, 34:1361–1373. <mark>not required</mark>
 
 
-## Week 12. Apr 7. Political Economy of Immigration {.unnumbered}
+## Week 11. Mar 31. Political Economy of Immigration {.unnumbered}
 
 Those presenting this week are advised to **not** to focus on non-political economy dimension of the topic, such as 'the cruelty and hypocracy of the immigration policies of country X' or 'the agony of migrants.' It is important, but no directly related to our course subject. 
 
@@ -595,7 +596,7 @@ Those presenting this week are advised to **not** to focus on non-political econ
   -  Mosley, L. and Singer, D. A. (2015). Migration, labor, and the international political economy. *Annual Review of Political Science*, 18(1):283–301. <mark>not required</mark>
   -  Hainmueller, J. and Hangartner, D. (2013). Who gets a swiss passport? a natural experiment in immigrant discrimination. *American Political Science Review*, 107(1):159–187. <mark>not required</mark>
 
-## Week 13. Apr 14. Global Economic Crisis {.unnumbered}
+## Week 12. Apr 7. Global Economic Crisis {.unnumbered}
 Those presenting this week should note that we are talking about actual crises, not general economic difficulties. You should be able to point to a specific crisis as an event that occurred abruptly and quickly (e.g., Mexican peso crisis in 1994; Argentine sovereign debt default 2002). Overall economic difficulties sustained for a lengthy period of time do not count. 
 
   -  <mark2>Last</mark2> week where you can do a presentation.
@@ -610,8 +611,7 @@ Those presenting this week should note that we are talking about actual crises, 
   -  Dönmez, P. E. and Zemandl, E. J. (2019). Crisis of capitalism and (de-) politicisation of monetary policymaking: reflections from hungary and turkey. *New Political Economy*, 24(1):125– 143. <mark>not required</mark>
   -  Reinhart, C. and Reinhart, V. (2020). The pandemic depression: The global economy will never be the same. Foreign Affairs. August 6, 2020. Available at: [link.](https://www.foreignaffairs.com/articles/united-states/2020-08-06/coronavirus-depression-global-economy) <mark>not required</mark>
 
-
-## Week 14. Apr 21. Global Health, Environment & Resource {.unnumbered}
+## Week 13. Apr 14. Global Health, Environment & Resource {.unnumbered}
 
   -  Last week where you can do a reading summary.
   -  Savoia, A. and Sen, K. (2021). The political economy of the resource curse: A development perspective. *Annual Review of Resource Economics*, 13:203–223.
@@ -624,8 +624,23 @@ Those presenting this week should note that we are talking about actual crises, 
   - Bayer, P. and Urpelainen, J. (2016). It is all about political incentives: democracy and the renewable feed-in tariff. *The Journal of Politics*, 78(2):603–619. <mark>not required</mark>
   -  Lawrence, R. Z. (2024). Climate action: Implications for factor market reallocation. PIIE Working Paper. 24-1. [link.](https://www.piie.com/sites/default/files/2024-01/wp24-1.pdf) <mark>not required</mark>
 
+## Week 14. Apr 21. Economic Security {.unnumbered}
+
+  -  *The readings in this week are particularly prone to change, so stay tuned*.
+  -  Poast, P. (2022). The ‘Golden Age’ of Globalization is Officially Over. World Politics Review. October 21, 2022. [link.](https://www.worldpoliticsreview.com/china-us-trade-war-globalized-economy/)
+  -  Danzman, S. B. (2022). CHIPS+ could change the U.S. semiconductor supply chain, and more, Washington Post. August 9, 2022. [link.](https://www.washingtonpost.com/politics/2022/08/09/chips-act-semiconductors-supply/?utm_medium=social&utm_source=twitter&utm_campaign=wp_monkeycage)
+  - Hayashi, Y. 2023. WSJ News Exclusive | U.S. to Allow South Korean, Taiwan Chip Makers to Keep Operations in China. Wall Street Journal. [Link.](https://www.wsj.com/articles/u-s-to-allow-south-korean-taiwan-chip-makers-to-keep-operations-in-china-5d7d72cc).
+  -  Swanson, A. and Wong, E. (2022). With New Crackdown, Biden Wages Global Campaign on Chinese Technology. New York Times. October 13, 2022. [link](https://www.nytimes.com/2022/10/13/us/politics/biden-china-technology-semiconductors.html)
+  -  Kumar, A. and Lipsky, J. (2022). The dollar has some would-be rivals. meet the challengers. New Atlanticist. September 22, 2022. Atlantic Council. [link.](https://www.atlanticcouncil.org/blogs/new-atlanticist/the-dollar-has-some-would-be-rivals-meet-the-challengers/)
+  -  Dempsey, H. and Hook, L. China set to tighten grip over global cobalt supply as price hits 32-month low. Financial Times. March 12. 2023. Available at: [link](https://www.ft.com/content/abf28c9f-54e2-45c2-8dac-c5016bd31423?fbclid=IwAR0IART6s2ckhWDIR7jmr1ZvDWO22i9W8U1nUPi5KGx0OKfujujs5QvbvSY)
+  -  Agarwal, R. (2023). Industrial policy and growth strategy trilemma. Finance & Development. International Monetary Fund. Available at: [link.](https://www.imf.org/en/Publications/fandd/issues/Series/Analytical-Series/industrial-policy-and-the-growth-strategy-trilemma-ruchir-agarwal?utm_medium=email&utm_source=govdelivery)
+  -  Eichengreen, B. (2022). Sanctions, swift, and china’s cross-border inter-bank payments system. CSIS Briefs. May 20, 2022. [link.](https://www.csis.org/analysis/sanctions-swift-and-chinas-cross-border-interbank-payments-system)
+  
 ## Week 15. Apr 28. Wrap-up & Course Evaluation {.unnumbered}
   - May 4 is the last day of the semester for the [University.](https://registrar.gmu.edu/wp-content/uploads/Spring-2026-Final-Exam-Schedule-1.pdf). The last class date possible for us, therefore, is Apr 28.
+
+
+
   
 ## Final Exam {.unnumbered}
 
