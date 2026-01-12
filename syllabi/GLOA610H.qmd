@@ -1,5 +1,5 @@
 ---
-title: "Syllabus: GLOA 610 Economic Globalization & Development"
+title: "GLOA 610 Economic Globalization & Development"
 subtitle: Spring 2026. <br> Hybrid. F2F lecture, 4:30--6:45 PM (T) + online <br> [Krug Hall 209](https://maps.app.goo.gl/oUvvFMoMxSqvy34V7)
 format: 
   html:
@@ -62,6 +62,8 @@ blue {
 
 **Change log** 
 
+<font size='2'>- Jan 12: This syllabus published.</font>
+
 
 # Instructor
 
@@ -85,7 +87,7 @@ Does globalization treat everybody equally (every country, every society, every 
 Two additional things to note:
 
 - This ain't <red>no</red> econ class. Nor am I an economist.
-- This is a <red>hybrid</red> class. The face-to-face (7:30-9 PM, T) portion of the class is for lecture and in-class discussions. The asynchronous portion, implemented through our course page in Canvas, is for your presentations (see @sec-report for details).
+- This is a mildly <red>hybrid</red> class. The face-to-face (4:30-6:45 PM, T) portion of the class is for lecture and in-class discussions. The asynchronous portion, implemented through our course page in Canvas, is for your presentations (see @sec-report for details).
 
 # COURSE REQUIREMENT
 
@@ -154,9 +156,6 @@ kbl(df,
   column_spec(1, width="7cm") %>%
   kable_paper()
 
-
-
-
 ```
 
 -   Students are expected to hand in **four**, and only four, summaries of readings.
@@ -164,7 +163,7 @@ kbl(df,
     -   The goal is to that you understood and thought about the major points of the readings (though not every single detail). Repeating the jargon used in the abstract (or 'light paraphrasing') would work against you. Show you did the reading. Use your own words.
     -   The length should not exceed 800 words. There's no minimum but a summary would typically be somewhere between 500 and 800 words.
     -   You might want to touch upon of the questions mentioned above.
-    -   While there's no specific template for this assignment, a good summary would, you know, summarize all of the required readings of the week. It would also discuss 1) what the reasoning behind the authors' arguments is and 2) how (some of) the readings can be related to each other (e.g., A disagrees with B; C complements D; E expands F for XYZ reasons) in a {compelling} way. Again, delivering this with your own words, not jargon, is the key.
+    -   While there's no specific template for this assignment, a good summary would, you know, summarize *all* of the required readings of the week. It would also discuss 1) what the reasoning behind the authors' arguments is and 2) how (some of) the readings can be related to each other (e.g., A disagrees with B; C complements D; E expands F for XYZ reasons) in a {compelling} way. Again, delivering this with your own words, not jargon, is the key.
         -   Each summary accounts for 5% of your class grade.
         -   The summary is due **7:00 pm**, the class day (right before the class, that is).
 -   There is no textbook you need to purchase. Instead, the reading list for each week is specified below. But if you want to have a reasonable textbook-like foundation for what we discuss, which is pretty advanced, this should be helpful (again, not a requirement):
@@ -177,8 +176,9 @@ kbl(df,
 
 ## Participation (20%) {#sec-part}
 
--   Active participation in class discussions is expected of every student in this graduate seminar. As is the case in any seminar, we learn the most when we talk. Answering my questions during the lecture and making an in-class comment on the class subject (or making an online comment on your classmates' presentation) are typical--but effective--ways of 'participation.'
--   Another way of participation is to partake in current event discussions. Every class will begin with discussions on a couple of current events related to global political economy. You might want to bring up a news article and we can discuss that. This is optional and designed to add to your participation grade. Note that as a Mason student, you have free access to the Financial Times, the New York Times, the Economist, and many others. Check out this [link.](https://infoguides.gmu.edu/news) for further information.
+-   Active participation in class discussions is expected of every student in this graduate seminar. As is the case in any seminar, we learn the most when we talk. Answering my questions during the lecture and making an in-class comment on the class subject are typical--and yet very effective--ways of 'participation.'
+- Another way of participation is making an online comment on your classmates' presentation, which will be made available in Canvas. If you feel that you're not talking enough in class, this is a great way to make it up.
+- Yet another way of participation is to partake in current event discussions. Every class will begin with discussions on a couple of current events related to global political economy. You might want to bring up a news article and we can discuss that. This is optional and designed to add to your participation grade. Note that as a Mason student, you have free access to the Financial Times, the New York Times, the Economist, and many others. Check out this [link.](https://infoguides.gmu.edu/news) for further information.
 -   The evaluation of your participation rests upon my **subjective** assessment of the extent to which you contributed to our collective understanding of the class subject. In practical terms, both frequency and quality matter. In general, though, questions and comments on the <red>readings</red> are considered of a much better quality than others. There's no 'right' way of participation, but roughly speaking:
 
 ```{r}
@@ -298,6 +298,8 @@ kbl(df,
 
 ### the expectation
 
+- It goes without saying, but this is a case study. You actually do your own research on the case you pick up. You will spend a lot of time in Google Scholar.
+  - Some of our class readings would naturally come into your analysis, but this is not required.  
 -   The more specific your subject and question-answering the report, the better. For instance, ‘Why did the cash transfer program in 2018 fail in a Tigray Regional government’ is infinitely better than ‘Poverty Trap in Ethiopia.’
   -   The former is a rigorous and scientific way to address the latter. That's something people actually want to know.
   -   The latter would be more or less a generic punditry essay that can be done without actually engaging any theoretical or empirical work. You can write it without any graduate school education. In effect, <red>large language models like ChatGPT can write it much better than most of us.</red> So you don't need to be trained on this at all--there's no human job for that.
@@ -311,16 +313,15 @@ kbl(df,
     -   For example, let's say you work on a cash-transfer program in Burkina Faso. You might not have a whole lot of helpful sources on the country (which is actually good news, by the way, because you're taking up a novel subject!!!). However, there are a good deal of great academic research on cash transfer programs in other countries. There are numerous cross-country studies on that too. Nobody can say these aren't relevant. Do build on those studies. Try to borrow their analytical framework.
 -   If the empirical part of your report relies solely on one source specifically talking about the very subject you're working on, that's not great (though not completely prohibited). It's prone to biases and misled conclusions. Bad science, in other words.
 -   If you found a paper/report that completely answers the question you had in mind, that should be really bad news because what you're doing is just redundant.
--   It might be nice if some of our class readings are discussed in your report, but this is not required.
 -   As a tip for writing a research paper, [this](https://sitesmedia.s3.amazonaws.com/politicalsci/files/2012/08/Guidelines-on-Writing-Research-Papers.pdf) should be helpful. The 'literature review' might not be directly relevant to this course though.
 
 ## Final Exam (20%) {#sec-final}
 
--   the exam date is determined by [the University](https://registrar.gmu.edu/wp-content/uploads/Final-Exams-202570.pdf). You cannot take it early or later than the designated date except for a medical emergency.
+-   the exam date is determined by [the University](https://registrar.gmu.edu/wp-content/uploads/Spring-2026-Final-Exam-Schedule-1.pdf). You cannot take it early or later than the designated date except for a medical emergency.
 -   This essay exam will broadly reflect one of the general themes of the seminar and answer questions about our readings. Discussing non-class readings won't be helpful (and potentially hurt your grade).
   -   It is designed in a way that if you regularly complete the readings throughout the semester, you need to put in little extra effort for it.
 -   Write an essay and submit it to Canvas (Assignment section).
--   Two questions will be given through Canvas **36** hours in advance, which is 7:30 <mark2>AM</mark2>, 12/15. 
+-   Two questions will be given through Canvas **36** hours in advance, which is 7:30 <mark2>AM</mark2>, May 11. 
 -   36 hours are given solely for flexibility. The actual exam-taking wouldn't take more than three hours. Many of you work and/or have other important commitments. So what you are asked is simply to carve out several hours from this 36-hour window. 
   - In other words, this is not a traditional 'take-home essay' that would take up an extensive amount of time to complete. It is a regular essay-type final exam that is allowed to be taken at any time during this 36-hour window at a place convenient to you.
 -   Be familiar with the University [policy](https://academicaffairs.chss.gmu.edu/ugradpolicies/ugpolicies/final-exams) on final exams.
@@ -435,7 +436,7 @@ The grading scale in this course follows [GMU Catalogue](https://catalog.gmu.edu
   -   Readings and the reading schedules are subject to change. In fact, to reflect most up-to-date events in economic and political globalization, it is not uncommon that new readings are inserted and some readings are dropped. Although I try my best to give you at least one week before such changes, it is advisable that you do not complete the reading too much in advance.
   - If links to newspapers (NYT, FT, WSJ, or The Economist) do not work, use your own search. As Mason students, you have free access to these outlets.
 
-## Week 1. Aug 26. First Day {.unnumbered}
+## Week 1. Jan 20. First Day {.unnumbered}
 
   -  Class intro. There are readings, but no reading summary yet.
   -  Set the presentation schedule.
@@ -445,7 +446,7 @@ The grading scale in this course follows [GMU Catalogue](https://catalog.gmu.edu
   -  Miller, S. (2014). Reading a Regression Table: A Guide for Students. [link.](https://svmiller.com/blog/2014/08/reading-a-regression-table-a-guide-for-students/)
     : <font size=2>You can actually understand most of the readings without reading these ‘regression tables’ and we won’t spend time on this matter unless there’s a specific question. But knowing this opens up much more intellectual opportunities. So give it a careful read.</font>
 
-## Week 2. Sep 2. What are Development and Economic Globalization? {.unnumbered}
+## Week 2. Jan 27. What are Development and Economic Globalization? {.unnumbered}
 
   -  No reading summary yet.
   -  Rapley, J. (2007). *Understanding Development: Theory and Practice in the Third World*. Lynne Rienner, Boulder. Ch. 1 & 2. <mark2>PDF in Canvas</mark2>
@@ -458,7 +459,7 @@ The grading scale in this course follows [GMU Catalogue](https://catalog.gmu.edu
   -  Solow, R. M. (1956). A contribution to the theory of economic growth. *Quarterly Journal of Economics*, 70(1):65–94. <mark>not required</mark>
   -  The Economist. (2019). “The Middle Income Spread” [link.](https://www.economist.com/graphic-detail/2017/10/11/the-middle-income-spread??fsrc=scn/fb/te/bl/ed/themiddleincomespread&fbclid=IwAR3LKWm8Qk2gaNF-I7kB90fUxFu6-b0_ZWW_TC-EzhDnWxNX6ovqMYECAdc) <mark>not required</mark>
 
-## Week 3. Sep 9. Institutions and development {.unnumbered}
+## Week 3. Feb 3. Institutions and development {.unnumbered}
 
   -  first week where you can do a reading summary.
   -  North, D. C. (1991). Institutions. *Journal of Economic Perspectives*, 5(1):97–112.
@@ -471,7 +472,7 @@ The grading scale in this course follows [GMU Catalogue](https://catalog.gmu.edu
   -  Besley, T., Burgess, R., Khan, A., and Xu, G. (2022). Bureaucracy and development. *Annual Review of Economics*, 14(1):397–424. <mark>not required</mark>
   -  Jales, H., Kang, T. H., Stein, G., and Garcia Ribeiro, F. (2018). Measuring the role of the 1959 revolution on Cuba’s economic performance. *The World Economy*, 41(8):2243–2274. <mark>not required</mark>
 
-## Week 4. Sep 16. (Modern) Trade and Development {.unnumbered}
+## Week 4. Feb 10. (Modern) Trade and Development {.unnumbered}
 
   -  first week where you can do a presentation.
   - Caliendo, L. and Parro, F. (2022). Lessons from US-China Trade Relations. *Annual Review of Economics*, 15:513–541.
@@ -487,7 +488,7 @@ The grading scale in this course follows [GMU Catalogue](https://catalog.gmu.edu
   -  Blanchard, E. J., Brown, C. P., and Shor, D. (2019). Did Trump’s Trade War Impact the 2018 Election. NBER Working Paper 26434. [link.](http://www.nber.org/papers/w26434) <mark>not required</mark>
   -  Eichengreen, B. (2018). Trade policy and the macroeconomy. *IMF Economic Review*, Forthcoming. DOI: [https://doi.org/10.1057/s41308-018-0053-9.](https://doi.org/10.1057/s41308-018-0053-9) <mark>not required</mark>
 
-## Week 5. Sep 23.  Finance and Development {.unnumbered}
+## Week 5. Feb 17.  Finance and Development {.unnumbered}
 
 Those who like to present on this week might note that the primary focus is on debt, banking, currency, and exchange rates. 
 
@@ -507,7 +508,7 @@ Those who like to present on this week might note that the primary focus is on d
   - Reuters. (2025) The 'Triple A' soeverign bond club has shrunk. Reuters. May 19, 2025. [link](https://www.reuters.com/business/finance/triple-a-sovereign-bond-club-has-shrunk-2025-05-19/?utm_campaign=trueAnthem%3A+Trending+Content&utm_medium=trueAnthem&utm_source=facebook&fbclid=IwY2xjawKYQEdleHRuA2FlbQIxMQBicmlkETE4WWpreXl4bExINGNQSFNMAR6oXF0qeDFo0Y3qqUgOw8UUqMVM5hgakl7VaVQ60O8D9_cKx-kNFWx8CDtUZA_aem_-z_hfkLGYPha5G0PyxScow). <mark>not required</mark>
   - Smith, I., Herbert, E., and Abboud, L. (2025). France joins Eurozone's 'periphery' as turmoil deepens, say investors. Financial Times. September 9, 2025. [link](https://on.ft.com/3JYbuUi)
 
-## Week 6. Sep 30. Investment and Development {.unnumbered}
+## Week 6. Feb 24. Investment and Development {.unnumbered}
 
 Presenters might note that the focus is essentially foreign direct investment (FDI) from the perspectives of host governments, originating governments, investors, and/or people involved. Some of the easiest ways to approach this topic would be to start with particular multinational corporations as they are usually the investors.
 
@@ -525,7 +526,7 @@ Presenters might note that the focus is essentially foreign direct investment (F
   -  Bechtel, M. M. (2009). The political sources of systematic investment risk. *Journal of Politics*, 71:661–677. <mark>not required</mark>
   - Jensen, N. (2008). Political risk, domestic institutions, and foreign direct investment. *Journal of Politics*, 70(4):1040–1052. <mark>not required</mark>.
 
-## Week 7. Oct 7. International Economic Organizations and Development {.unnumbered}
+## Week 7. Mar 3. International Economic Organizations and Development {.unnumbered}
 
   - *We read a bunch of very short articles in this week. For more textbook-like discussions, refer to* Copelovitch *and* Stiglitz *below*.
   -  Daoud, A., Nosrati, E., Reinsberg, B., Kentikelenis, A. E., Stubbs, T. H., and King, L. P. (2017). Impact of International Monetary Fund programs on child health. *Proceedings of the National Academy of Sciences*, 114(25):6492–6497.
@@ -542,7 +543,9 @@ Presenters might note that the focus is essentially foreign direct investment (F
   -  Abouharb, M. R. and Cingranelli, D. L. (2006). The Human Rights Effects of World Bank Structural Adjustment, 1981–2000. *International Studies Quarterly*, 50(2):233–262. <mark>not required</mark>
   -  Arauz, A. and Cashman, K. (2022). Special drawing rights one year later, by the numbers. CEPR Working Paper. Available at: [https://cepr.net/special-drawing-rightsone-year-later-by-the-numbers/.](https://cepr.net/special-drawing-rights-one-year-later-by-the-numbers/) <mark>not required</mark>
 
-## Week 8. Oct 14. Foreign Aid {.unnumbered}
+## Week 8. Mar 10: Spring Recess. NO class <red>{{< fa martini-glass size=small >}}</red>  {.unnumbered}
+
+## Week 9. Mar 17. Foreign Aid {.unnumbered}
 
 Those interested in presenting in this week should be aware that foreign aid is very diverse and any presentation would need to explain what kind of aid it is talking about. For example, 'DRC's aid dependency' would be quite a tough topic to pull off because it points to a very wide array of things. 'What happened to the food assistance to Nicaragua in 1998?' would be more doable. In addition, humanitarian, emergency, or disaster aid, usually a very important topic, would be hard to work on unless its connection to economic globalization and/or development clearly accounted for.
 
@@ -558,11 +561,13 @@ Those interested in presenting in this week should be aware that foreign aid is 
   -  Alesina, A. and Dollar, D. (2000). Who gives foreign aid to whom and why? *Journal of Economic Growth*, 5(1):33–57. <mark>not required</mark>
   -  Edwards, S. (2015). Economic development and the effectiveness of foreign aid: A historical perspective. *Kyklos*, 68(3):277–316. <mark>not required</mark>. An accessible primer of foreign aid history.
 
-## Week 9. Oct 21. Poverty & Inequality Reduction {.unnumbered}
+## Week 10. Mar 24. Conference Participation. No Class <blue>{{< fa plane size=small >}}</blue> {.unnumbered}
 
-Those presenting this week might want to know that there's a difference between poverty/inequality and general under-development. A developed country might still have poverty issues, for example. Avoid picking up topics of generic under-development.
+## Week 11. Mar 31. Poverty & Inequality Reduction {.unnumbered}
 
+Those presenting this week would want to know that there's a difference between poverty/inequality and general under-development. A developed country might still have poverty issues, for example. Avoid picking up topics of generic under-development of a country.
 
+  - Sahoo, R., Blumenstock, J., Niehaus, P., Selker, L., & Wager, S. (2025). What Would it Cost to end Extreme Poverty? http://www.nber.org/papers/w34583
   -  Briggs, R. (2018). “Millions of Americans as destitute as the world’s poorest? Don’t believe it.” Vox. February 4, 2018. [https://www.vox.com/the-big-idea/2018/2/1/169596 34/millions-americans-destitute-2-day-worlds-poorest-deaton-aid.](https://www.vox.com/the-big-idea/2018/2/1/16959634/millions-americans-destitute-2-day-worlds-poorest-deaton-aid) <mark>not required</mark>.
   -  Rudra, N. and Tirone, D. C. (2017). Trade, Politics, and the Poor: Is Sen Right and Bhagwati Wrong? *Studies in Comparative International Development*, 52(1):1–22.
   -  Attanasio, O., Augsburg, B., De Haas, R., Fitzsimons, E., and Harmgart, H. (2015). The impacts of microfinance: Evidence from joint-liability lending in Mongolia. *American Economic Journal: Applied Economics*, 7(1):90–122.
@@ -576,7 +581,7 @@ Those presenting this week might want to know that there's a difference between 
   -  Basu, K. (2006). Globalization, poverty, and inequality: What is the relationship? what can be done? *World Development*, 34:1361–1373. <mark>not required</mark>
 
 
-## Week 10. Oct 28. Political Economy of Immigration {.unnumbered}
+## Week 12. Apr 7. Political Economy of Immigration {.unnumbered}
 
 Those presenting this week are advised to **not** to focus on non-political economy dimension of the topic, such as 'the cruelty and hypocracy of the immigration policies of country X' or 'the agony of migrants.' It is important, but no directly related to our course subject. 
 
@@ -590,9 +595,7 @@ Those presenting this week are advised to **not** to focus on non-political econ
   -  Mosley, L. and Singer, D. A. (2015). Migration, labor, and the international political economy. *Annual Review of Political Science*, 18(1):283–301. <mark>not required</mark>
   -  Hainmueller, J. and Hangartner, D. (2013). Who gets a swiss passport? a natural experiment in immigrant discrimination. *American Political Science Review*, 107(1):159–187. <mark>not required</mark>
 
-## Week 11. Nov 4. No Class (Election Day)
-
-## Week 12. Nov 11. Global Economic Crisis {.unnumbered}
+## Week 13. Apr 14. Global Economic Crisis {.unnumbered}
 Those presenting this week should note that we are talking about actual crises, not general economic difficulties. You should be able to point to a specific crisis as an event that occurred abruptly and quickly (e.g., Mexican peso crisis in 1994; Argentine sovereign debt default 2002). Overall economic difficulties sustained for a lengthy period of time do not count. 
 
   -  <mark2>Last</mark2> week where you can do a presentation.
@@ -608,7 +611,7 @@ Those presenting this week should note that we are talking about actual crises, 
   -  Reinhart, C. and Reinhart, V. (2020). The pandemic depression: The global economy will never be the same. Foreign Affairs. August 6, 2020. Available at: [link.](https://www.foreignaffairs.com/articles/united-states/2020-08-06/coronavirus-depression-global-economy) <mark>not required</mark>
 
 
-## Week 13. Nov 18. Global Health, Environment & Resource {.unnumbered}
+## Week 14. Apr 21. Global Health, Environment & Resource {.unnumbered}
 
   -  Last week where you can do a reading summary.
   -  Savoia, A. and Sen, K. (2021). The political economy of the resource curse: A development perspective. *Annual Review of Resource Economics*, 13:203–223.
@@ -621,25 +624,13 @@ Those presenting this week should note that we are talking about actual crises, 
   - Bayer, P. and Urpelainen, J. (2016). It is all about political incentives: democracy and the renewable feed-in tariff. *The Journal of Politics*, 78(2):603–619. <mark>not required</mark>
   -  Lawrence, R. Z. (2024). Climate action: Implications for factor market reallocation. PIIE Working Paper. 24-1. [link.](https://www.piie.com/sites/default/files/2024-01/wp24-1.pdf) <mark>not required</mark>
 
-## Week 14. Nov 25. Economic Security and De-globalization {.unnumbered}
-
-  -  *The readings in this week are particularly prone to change, so stay tuned*.
-  -  Poast, P. (2022). The ‘Golden Age’ of Globalization is Officially Over. World Politics Review. October 21, 2022. [link.](https://www.worldpoliticsreview.com/china-us-trade-war-globalized-economy/)
-  -  Danzman, S. B. (2022). CHIPS+ could change the U.S. semiconductor supply chain, and more, Washington Post. August 9, 2022. [link.](https://www.washingtonpost.com/politics/2022/08/09/chips-act-semiconductors-supply/?utm_medium=social&utm_source=twitter&utm_campaign=wp_monkeycage)
-  - Hayashi, Y. 2023. WSJ News Exclusive | U.S. to Allow South Korean, Taiwan Chip Makers to Keep Operations in China. Wall Street Journal. [Link.](https://www.wsj.com/articles/u-s-to-allow-south-korean-taiwan-chip-makers-to-keep-operations-in-china-5d7d72cc).
-  -  Swanson, A. and Wong, E. (2022). With New Crackdown, Biden Wages Global Campaign on Chinese Technology. New York Times. October 13, 2022. [link](https://www.nytimes.com/2022/10/13/us/politics/biden-china-technology-semiconductors.html)
-  -  Kumar, A. and Lipsky, J. (2022). The dollar has some would-be rivals. meet the challengers. New Atlanticist. September 22, 2022. Atlantic Council. [link.](https://www.atlanticcouncil.org/blogs/new-atlanticist/the-dollar-has-some-would-be-rivals-meet-the-challengers/)
-  -  Dempsey, H. and Hook, L. China set to tighten grip over global cobalt supply as price hits 32-month low. Financial Times. March 12. 2023. Available at: [link](https://www.ft.com/content/abf28c9f-54e2-45c2-8dac-c5016bd31423?fbclid=IwAR0IART6s2ckhWDIR7jmr1ZvDWO22i9W8U1nUPi5KGx0OKfujujs5QvbvSY)
-  -  Agarwal, R. (2023). Industrial policy and growth strategy trilemma. Finance & Development. International Monetary Fund. Available at: [link.](https://www.imf.org/en/Publications/fandd/issues/Series/Analytical-Series/industrial-policy-and-the-growth-strategy-trilemma-ruchir-agarwal?utm_medium=email&utm_source=govdelivery)
-  -  Eichengreen, B. (2022). Sanctions, swift, and china’s cross-border inter-bank payments system. CSIS Briefs. May 20, 2022. [link.](https://www.csis.org/analysis/sanctions-swift-and-chinas-cross-border-interbank-payments-system)
-
-## Week 15. Dec 2. Wrap-up & Course Evaluation {.unnumbered}
-
+## Week 15. Apr 28. Wrap-up & Course Evaluation {.unnumbered}
+  - May 4 is the last day of the semester for the [University.](https://registrar.gmu.edu/wp-content/uploads/Spring-2026-Final-Exam-Schedule-1.pdf). The last class date possible for us, therefore, is Apr 28.
+  
 ## Final Exam {.unnumbered}
 
-  - 12/8 is the last day of the semester for the [University.](https://registrar.gmu.edu/wp-content/uploads/Final-Exams-202570.pdf)
-  - <red>**12/16**</red>: Final Essay Due, 7:30 PM 
+  - <red>**May 12**</red>: Final Essay Due, 7:30 PM 
   -  The final exam schedule is determined entirely by the University authority. It is thus subject to the University’s schedule change.
-  -  Essay questions made available 36 hours in advance (7:30 <mark2>AM</mark2>, 12/15); no exceptions
+  -  Essay questions made available 36 hours in advance (7:30 <mark2>AM</mark2>, May 11); no exceptions
   -  Submission via Canvas (by 7:30 PM). So we do *not* meet.
   - Detailed instructions will be provided as we approach the end of the semester.
