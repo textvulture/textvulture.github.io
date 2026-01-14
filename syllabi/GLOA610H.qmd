@@ -64,6 +64,7 @@ blue {
 
 - <font size='2'> Jan 12: This syllabus published.</font>
 - <font size='2'> Jan 12: The conference participation (previoiusly Week 10) is not included anymore. A new week is added (Week 14, in this version). </font>
+- <font size='2'> Jan 14: Office Hours changed. </font>
 
 
 # Instructor
@@ -75,7 +76,7 @@ blue {
     -   [{{< fa brands github >}} Github](https://github.com/textvulture)
     -   [{{< fa brands google-scholar >}} Google Scholar](https://scholar.google.com/citations?user=h0o27GgAAAAJ&hl=en)
 -   Office Hours
-    -   Office Hours 1:30-3:00 PM, TR. 6235 [Horizon Hall](https://maps.app.goo.gl/4QEBDLp3j4YNuVLB9)
+    -   Office Hours 2:45-4:15 PM (T); 10:00-11:30AM (R). 6235 [Horizon Hall](https://maps.app.goo.gl/4QEBDLp3j4YNuVLB9)
 -   Email Communications
     -   You can email me whenever you want, but my responses to the emails sent to me after 5 pm weekdays as well as any time during the weekend will be significantly slow.
     -   For your own interest, you might want to try to use the normal working hours (9 AM to 5 PM, Monday through Friday). In your email, please indicate <red>who you are</red> and <red>which class you’re in (i.e., GLOA 610)</red>.
