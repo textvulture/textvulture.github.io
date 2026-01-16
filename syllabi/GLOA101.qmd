@@ -71,7 +71,6 @@ purple{
 - <font size='2'>Jan 16: Typos corrected in 4.6 of @sec-policy.</font>
 
 
-
 # Instructor
 
 -   Byunghwan 'Ben' Son (bson3\@gmu.edu)
