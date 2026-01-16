@@ -427,7 +427,7 @@ tt(tbl_emergencies_html, escape = FALSE,
 ```
 
 
-To obtain the extension, you must submit to me a written request (i.e., email) that identifies the date and cause of the emergency. This written request must be submitted no later than 24 hours after the designated deadline. No extension can be granted after the completion of the Summer A (i.e., June 24). 
+To obtain the extension, you must submit to me a written request (i.e., email) that identifies the date and cause of the emergency. This written request must be submitted no later than 24 hours after the designated deadline. 
 
 ## Extra Credits and Incompletes ('I') {#sec-extra}
 
@@ -457,7 +457,7 @@ One could say that LLM could be used in the *process* of research, the result of
 
 ## Civility and Privacy
 
-In this class, maintaining a respectful and courteous learning environment is essential. it is especially important to be polite, constructive, and mindful in all discussions and exchanges. Inflammatory, disparaging and/or abusive speeches are prohibited. So are discriminatory speeches based on ethnicity, gender, race, religion, and/or other beliefs that belong only to personal spheres. Because of the online-heavy aspect of this course's assignments, I cannot emphasize its importance enough in the online communication too. I reserve the authority to ask individuals to excuse themselves from the classroom when they engage these acts. Additionally, to protect the privacy of all participants, students must not share course materials—including discussion posts (including screen captures), videos, or any content posted on Canvas—outside of the course platform without an explicit written permission. This helps ensure that everyone can engage in the class with confidence and mutual trust.
+In this class, maintaining a respectful and courteous learning environment is essential. it is especially important to be polite, constructive, and mindful in all discussions and exchanges. Inflammatory, disparaging and/or abusive speeches are prohibited. So are discriminatory speeches based on ethnicity, gender, race, religion, and/or other beliefs that belong only to personal spheres. Because of the online-heavy aspect of this course's assignments, I cannot emphasize its importance enough in the online communication too. I reserve the authority to ask individuals to excuse themselves from the classroom when they engage these acts. Additionally, to protect the privacy of all participants, students must not share course materials—including discussion posts (including screen captures), videos, images of course slides, or any content posted on Canvas—outside of the course platform without an explicit written permission. This helps ensure that everyone can engage in the class with confidence and mutual trust.
 
 ## Accommodation
 
