@@ -67,6 +67,7 @@ purple{
 - <font size='2'>Jan 15: This syllabus is created.</font>
 - <font size='2'>Jan 16: Caveats added at the beginning of @sec-schedule.</font>
 - <font size='2'>Jan 16: Typo corrected in the chapter number of "Human Rights" reading (@sec-schedule).</font>
+- <font size='2'>Jan 16: 'technology' policy is added to @sec-policy.</font>
 
 
 # Instructor
@@ -316,7 +317,11 @@ The exams are not cumulative (i.e., the final exam is based on the materials tha
 The exam will be exclusively about the course readings and lectures. No matter how good a point you offer, answers based on non-class materials will not be graded. Your answers will be subject to multiple-layers of plagiarism and AI-use checks. 
 
 
-# Course Policy
+# Course Policy {#sec-policy}
+
+## Technology
+
+In principle, no phones, laptops, or tablets should be 'on' in class. If you have to use laptops, you have to first obtain my permission and then sit at the very back of the classroom such that you do not distract others. 
 
 ## Grading Scale
 
@@ -356,6 +361,7 @@ tt(source2)
 - Late submissions will be penalized with a reduction of 5% of the assignment grade per day. Assignments submitted on the same day *after* the class will be considered one day late. Weekends and holidays still count here (for example, a Monday submission of an assignment that was due Friday will be considered three days late). Beyond twelve days from the submission, the grade penalty for any late assignments will be equally 60%. 
 - If you are submitting a document file (i.e., MS Word), please include 1) your name (seriously!), 2) date of submission, 3) word count, and 4) title. 
 - NO early submission. Do not submit assignments early. Strictly adhere to the weekly module. That is, do not submit an assignment any earlier than 96 hours before its deadline. One letter-grade reduction will accrue from an assignment not complying with this rule.
+- You are responsible for making sure that you submitted things properly. There won't be any special notification from me that you haven't submitted an assignment.
 
 ### Video-making
 
