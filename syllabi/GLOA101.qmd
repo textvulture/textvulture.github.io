@@ -127,7 +127,6 @@ This course also fulfills the global context requirement in the Mason Core (*app
 
 Upon completing a Just Societies Flag course, students will be able to:
 
-
 1. Define key terms related to justice, equity, diversity, and inclusion as related to this course’s field/discipline and
 2. Use those key terms to engage meaningfully with peers about course issues.
 3. Articulate obstacles to justice and equity, and strategies for addressing them, in response to local, national, and/or global issues in the field/discipline.
@@ -322,6 +321,10 @@ The exam will be exclusively about the course readings and lectures. No matter h
 ## Technology
 
 In principle, no phones, laptops, or tablets should be 'on' in class. If you have to use laptops, you have to first obtain my permission and then sit at the very back of the classroom such that you do not distract others. 
+
+## Note-taking
+
+You are strongly encouraged to take notes (i.e., using good old pens and notes) in class. Slides are all online but they are not notes (and they should not be). It not a requirement, but, I guarantee you, you would thank yourself for doing so in the end.
 
 ## Grading Scale
 
