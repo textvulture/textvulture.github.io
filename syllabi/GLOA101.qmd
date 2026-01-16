@@ -62,9 +62,10 @@ purple{
 </style>
 ```
 
-**Update log**
+**Update log (This syllabus is 'live' and any changes are recorded here.)**
 
--   <font size='2'>May 15: This syllabus is created.</font>
+-   <font size='2'>Jan 15: This syllabus is created.</font>
+- <font size='2'>Jan 16: Caveats added at the beginning of @sec-schedule.</font>
 
 # Instructor
 
@@ -482,8 +483,10 @@ Student opportunity: If you prefer to speak to someone confidentially, please co
 
 # Schedule and Reading {#sec-schedule}
 
+- <font size='2'>Readings that can be easily obtainable from Mason library (e.g., journal articles) <red>**won't**</red> be provided in Canvas. You're asked to find it yourself (which is part of training). We'll demonstrate how we can do this in our first meeting.</font>
 - <font size='2'>Unless already familiar with quantitative social science methodologies, you will find several readings too 'math-heavy.' It is *not* the purpose of this class for you to have a line-by-line understanding of the quantitative parts of each reading. You are asked, instead, to figure out what the authors actually want to deliver through all those numbers and equations. We will work on this whenever necessary and I am more than happy to help you on this individually. In fact, **things will be explained straightforwardly in class**, so no need to worry.</font>
-- <font size='2'>These are not traditiobnal 'textbooks,' I do not necessarily endorse the contents appearing in them. You are expected to critically engage with them.</font>
+- <font size='2'>These are not traditional 'textbooks,' I do not necessarily endorse the contents appearing in them. You are expected to critically engage with them.</font>
+- <font size='2'>Readings can change. Any change will be recorded in the 'change log' at the beginning.</font> 
 
 ## Jan 20, 22, 27: What is globalization (Definition & History) {.unnumbered}
 
