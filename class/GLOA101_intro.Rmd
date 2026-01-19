@@ -309,7 +309,7 @@ background-size: contain
 
 ---
 
-## Another way to think about it: 'social development index' (Morris 2013)
+## Another way to think about it: 'social development index' (Morris 2013) 
 
 .center[
 ![110%](https://media-1.carnegiecouncil.org/cceia/import/resources/images/IanMorris-Graph9.jpg)
@@ -392,7 +392,7 @@ background-size: 100%
 
 --
 
-# We will be exploring these processes in four diffrent realms
+# We will be exploring these processes in four .hl1[diffrent] realms
 
 --
 

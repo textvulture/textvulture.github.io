@@ -1,0 +1,15 @@
+.remark-slide-content:after {
+    content: "Son, GLOA-GMU. bson3@gmu.edu";
+    position: absolute;
+    bottom: 5px;
+    left: 5px;
+    height: 17.5px;
+    width: 260px;
+	font-size: 0.75em;
+	color: #ffff00;
+	background-color: #004d00;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url("images/gmu_logo_bw.jpg");
+}
+

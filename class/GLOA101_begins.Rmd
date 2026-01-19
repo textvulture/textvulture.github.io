@@ -1,0 +1,330 @@
+---
+title: "Guest Lecture"
+author: "Byunghwan Son <br> George Mason University"
+date: " "
+#########################################
+linkcolor: red
+citecolor: blue
+urlcolor: blueß
+output: 
+  xaringan::moon_reader:
+    seal: false
+    nature:
+      ratio: '16:9'
+      highlightStyle: github
+      self-contained: TRUE
+  chakra: css/libs/remark-latest.min.js
+css: ["default", 
+      "css/footer.css", 
+      "css/color.css", 
+      default-fonts]
+lib_dir: css/libs
+beforeInit: "css/macros.js"
+#bibliography: /Users/bson3/Dropbox/latex/mybib2.bib
+#remotes::install_github('yihui/xaringan', upgrade = TRUE)
+---
+
+```{r setup, include=FALSE}
+# to use FontAwesome
+#htmltools::tagList(rmarkdown::html_dependency_font_awesome())
+
+library(fontawesome)
+library(dplyr)
+library(ggplot2)
+library(tinytable)
+library(modelsummary)
+
+knitr::opts_chunk$set(warning = FALSE, message = FALSE, error=F, echo=F)
+options(htmltools.preserve.raw = FALSE) 
+
+```
+
+
+background-color: #094e0d
+class: inverse, middle
+background-image: url(mugshot2025a_circle.png)
+background-position: 23cm 2.5cm
+background-size: 20%
+
+# .large[GLOA 101:] <br> .large[A .yellow[The First Class]]<br><br><br>
+----
+
+## .right[Byunghwan Ben Son <br> .tiny[(Associate Professor, GLOA, GMU)]]
+
+
+---
+
+.full-width-yellow[
+# About the instructor
+]
+<br><br>
+--
+
+.pull-left[
+![](wordcloud_publications.png)
+]
+
+--
+
+.pull-right[<br>
+- .Large[Associate Prof. of Global Affairs]
+
+- .Large[PhD, .orange[Political Science]]
+
+- .Large[Political Economy; Global Finance; Democratic Backsliding; Political Communication; Politics in Asia]
+
+- .Large[Quant. & Mixed methods]
+
+- .Large[[🏠 Webpage](https://textvulture.github.io/)]
+]
+
+---
+
+.full-width-green[
+# The Syllabus: .small[https://textvulture.github.io/syllabi/GLOA101.html]
+]
+
+--
+
+<iframe src="https://textvulture.github.io/syllabi/GLOA101.html" width="110%" height="600">
+  </iframe>
+
+
+---
+
+class: inverse
+background-color: black
+
+
+
+.pull-left[
+```{r, fig.align='center', out.width=1200}
+knitr::include_graphics("https://media.tenor.com/47tihhueikIAAAAM/the-office-rainn-wilson.gif")
+```
+]
+
+--
+
+.pull-right[
+# Now that we talked about the nitty-gritties, let's take some .yellow[quiz]! It's not going to be graded, but take out a piece of .pink[paper] such that you will see how many you got right.]
+
+---
+
+# Question 1
+
+## I can just upload my video as a `.mov` file directly to Canvas and it will be graded.
+
+- .Large[A) Yes]  
+- .Large[B) No]  
+- .Large[C) It depends]  
+
+---
+
+# Question 1
+
+## I can just upload my video as a `.mov` file directly to Canvas and it will be graded.
+
+- .Large[A) Yes]  
+- .Large[.hl1[B) No]]  
+- .Large[C) It depends]  
+
+---
+
+# Question 2
+
+## The course fulfills which of the following Mason Core requirements?
+
+- .Large[A) Global Understanding]  
+- .Large[B) Justice Societies]  
+- .Large[C) Both A and B]  
+- .Large[D) Neither]  
+
+---
+
+# Question 2
+
+## The course fulfills which of the following Mason Core requirements?
+
+- .Large[A) Global Understanding]  
+- .Large[B) Justice Societies]  
+- .Large[.hl1[C) Both A and B]]  
+- .Large[D) Neither]  
+
+---
+
+# Question 3
+
+## Which of the following is **NOT** considered an emergency under the course policy?
+
+- .Large[A) A documented medical emergency]  
+- .Large[B) A sudden family crisis]  
+- .Large[C) A university-sanctioned activity with documentation]  
+- .Large[D) My family scheduled a trip to the Bahamas during the final]  
+
+---
+
+# Question 3
+
+## Which of the following is **NOT** considered an emergency under the course policy?
+
+- .Large[A) A documented medical emergency]  
+- .Large[B) A sudden family crisis]  
+- .Large[C) A university-sanctioned activity with documentation]  
+- .Large[.hl1[D) My family scheduled a trip to the Bahamas during the final]]  
+
+---
+
+# Question 4
+
+## The syllabus states phones, laptops, or tablets should be *on* in class as long as they’re used for note taking.
+
+- .Large[A) True]  
+- .Large[B) False]  
+
+---
+
+# Question 4
+
+## The syllabus states phones, laptops, or tablets should be *on* in class as long as they’re used for note taking.
+
+- .Large[A) True]  
+- .Large[.hl1[B) False]]  
+
+---
+
+# Question 5
+
+## What percentage is the mid-term exam worth?
+
+- .Large[A) 10%]  
+- .Large[B) 20%]  
+- .Large[C) 30%]  
+- .Large[D) 40%]  
+
+---
+
+# Question 5
+
+## What percentage is the mid-term exam worth?
+
+- .Large[A) 10%]  
+- .Large[B) 20%]  
+- .Large[.hl1[C) 30%]]  
+- .Large[D) 40%]  
+
+---
+
+# Question 6
+
+## If you miss a map quiz, there will be a make-up offered.
+
+- .Large[A) Yes]  
+- .Large[B) No]  
+
+---
+
+# Question 6
+
+## If you miss a map quiz, there will be a make-up offered.
+
+- .Large[A) Yes]  
+- .Large[.hl1[B) No]]  
+
+---
+
+# Question 7
+
+## Participation grade will consider which of the following?
+
+- .Large[A) Attendance only]  
+- .Large[B) In-class discussion engagement only]  
+- .Large[C) Attendance and engagement]  
+- .Large[D) Homework completion]  
+
+---
+
+# Question 7
+
+## Participation grade will consider which of the following?
+
+- .Large[A) Attendance only]  
+- .Large[B) In-class discussion engagement only]  
+- .Large[.hl1[C) Attendance and engagement]]  
+- .Large[D) Homework completion]  
+
+---
+
+# Question 8
+
+## According to the syllabus, use of AI (LLMs) for course assignments is:
+
+- .Large[A) Encouraged for idea generation]  
+- .Large[B) Permitted with disclosure]  
+- .Large[C) Strictly prohibited]  
+- .Large[D) Allowed only for peer review comments]  
+
+---
+
+# Question 8
+
+## According to the syllabus, use of AI (LLMs) for course assignments is:
+
+- .Large[A) Encouraged for idea generation]  
+- .Large[B) Permitted with disclosure]  
+- .Large[.hl1[C) Strictly prohibited]]  
+- .Large[D) Allowed only for peer review comments]  
+
+---
+
+# Question 9
+
+## The first required reading listed for the first week is:
+
+- .Large[A) A newspaper article]  
+- .Large[B) Course syllabus only]  
+- .Large[C) Assigned textbook chapters]  
+- .Large[D) No readings in the first week]  
+
+---
+
+# Question 9
+
+## The first required reading listed for the first week is:
+
+- .Large[A) A newspaper article]  
+- .Large[B) Course syllabus only]  
+- .Large[.hl1[C) Assigned textbook chapters]]  
+- .Large[D) No readings in the first week]  
+
+---
+
+# Question 10
+
+## You should download the syllabus and store it in your computer.
+
+- .Large[A) Yes]
+- .Large[B) No]
+- .Large[c) It depends]
+
+---
+
+# Question 10
+
+## You should download the syllabus and store it in your computer.
+
+- .Large[A) Yes]
+- .hl1[.Large[B) No]]
+- .Large[c) It depends]
+
+---
+
+.full-width-green[
+# "Can we talk about this?" (entirely optional, not required)
+]
+<br><br>
+--
+
+## GMU has subscriptions to some of the major newspapers: **.green[NYT], .orange[FT], .red[WSJ].** You can bring one (only of these three outlets) up `r fa("hand", fill='purple')` at the beginning of class as far as it concerns non-US-centric, global news. 
+
+## People doing this .pink[consistently] will be rewarded with +2% of class grade.
+
