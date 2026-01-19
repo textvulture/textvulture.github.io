@@ -69,6 +69,7 @@ purple{
 - <font size='2'>Jan 16: Typo corrected in the chapter number of "Human Rights" reading (@sec-schedule).</font>
 - <font size='2'>Jan 16: 'technology' policy is added to @sec-policy.</font>
 - <font size='2'>Jan 16: Typos corrected in 4.6 of @sec-policy.</font>
+- <font size='2'>Jan 19: 'check Canvas 4 times a week' is removed from @sec-canvas as it's redundant. </font>
 
 
 # Instructor
@@ -139,7 +140,6 @@ Upon completing a Just Societies Flag course, students will be able to:
 
 Our course page in Canvas is the primary place where announcements are made, assignments are submitted, grades are checked, (some of) the readings are made available, and other helpful resources are posted. You are required to check our course page in Canvas regularly, at least once before each class meeting (which will be incorporated into the class participation grade).
 
-You are required to get in to the course page at least four times a week. Given the way the assignments are structured, it would be really hard not too.
 
 ## Required Textbook
 
