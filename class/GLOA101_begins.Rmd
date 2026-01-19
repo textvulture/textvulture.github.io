@@ -1,5 +1,5 @@
 ---
-title: "Guest Lecture"
+title: "GLOA101"
 author: "Byunghwan Son <br> George Mason University"
 date: " "
 #########################################
