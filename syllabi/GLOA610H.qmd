@@ -65,6 +65,7 @@ blue {
 - <font size='2'> Jan 12: This syllabus published.</font>
 - <font size='2'> Jan 12: The conference participation (previoiusly Week 10) is not included anymore. A new week is added (Week 14, in this version). </font>
 - <font size='2'> Jan 14: Office Hours changed. </font>
+- <font size='2'> Jan 20: Typo and indentation corrected in @sec-read. No change in content. </font>
 
 
 # Instructor
@@ -108,17 +109,13 @@ In a nutshell, your grade is determined by:
 
 -   The assigned readings are not 'textbooks' in a traditional sense. I don't necessarily endorse or agree with them (in fact, there are some readings whose arguments I squarely disagree with). And some--though only a few--of the readings can be a bit provocative, if not misleading. These readings are here to help us think about the topics. In other words, you ain't no undergrad anymore and should be able to critically (but also productively) evaluate the readings.
 
--   Students are expected to about *some*--though maybe not all--of the following questions while working on the required readings.
+-   Students are expected to talk about *some*--though maybe not all--of the following questions while working on the required readings.
 
--   What are the central arguments of the piece and the rationale behind them?
-
--   How can this piece be connected to others?
-
--   Does the piece provide empirical evidence and if so, is it compelling? If not, why?
-
--   What would I do if I worked on the same subject?
-
--   What would be the practical implication(s)--or policy propositions--based on this piece?
+    -   What are the central arguments of the piece and the rationale behind them?
+    -   How can this piece be connected to others?
+    -   Does the piece provide empirical evidence and if so, is it compelling? If not, why?
+    -   What would I do if I worked on the same subject?
+    -   What would be the practical implication(s)--or policy propositions--based on this piece?
 
 -   Recommended readings are by definition required. They are not the subject of reading summaries. Including them in the reading summaries does not affect the grade.
 
