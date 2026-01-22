@@ -143,7 +143,7 @@ background-size: contain
 background-position: right
 class: middle
 
-# `r fa('hand-point-right', fill='green')` So the has 'end of history' emerged?
+# `r fa('hand-point-right', fill='green')` So has the 'end of history' emerged?
 
 --
 
@@ -151,7 +151,7 @@ class: middle
 
 --
 
-## If we did, then that's it. <br>We wouldn't need to talk about globalization.
+## If we did, then that's it. <br>*Globalization accomplished*.
 
 ---
 
@@ -193,7 +193,7 @@ background-size: 100%
 
 # So let's think about it:
 
-# - All the backlash because people are angry?
+# - All the backlash because people are angry<br>But angry about .yellow[WHAT]?
 
 --
 
@@ -206,7 +206,7 @@ background-size: 100%
 
 ---
 
-## But is that .pink[really] so? <br> For example, .Green[Global Poverty Rates].
+## .Green[Global Poverty Rates].
 
 
 ```{r, message=FALSE, echo=FALSE, warning=FALSE, results="asis", fig.width=16, fig.height=7.5, cache=T}
