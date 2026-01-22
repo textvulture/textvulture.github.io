@@ -178,8 +178,8 @@ background-size: 100%
 ---
 
 class: inverse
-background-image: url(https://bpr.studentorg.berkeley.edu/wp-content/uploads/2022/11/FT_18.06.19_westernEuropeMinorities_featured.webp)
-background-size: 100%
+background-image: url(https://media1.tenor.com/m/tHWzKQssV3AAAAAC/despicable-me3-despicable-me3gi-fs.gif)
+background-size: 130%
 
 # **Backlash did emerge, but .red[not] against the West.**
 
@@ -247,9 +247,9 @@ background-size: 100%
 ---
 # Globalization, the concept
 
-.blockquote[### Brown & Smallman (2020, 25) [Steger 2003]:
+.blockquote[## Steger:
 
-.black[.large[".orange[multidimensional] set of social .red[processes] that create, multiply, stretch, and intensify worldwide social .green[interdependencies and exchanges] while at the same time fostering in people a growing awareness of deepening connections between the local and the distant."]]] 
+.large[### .black["the .green[expansion] and .orange[intensification] of social relations and consciousness across world-time and world-space, creating a planetary .pink[interconnectedness] where local events are shaped by distant happenings, and vice-versa."]]]
 
 --
 
@@ -265,7 +265,7 @@ background-size: 100%
 
 ---
 
-# The GLOA 101 is really compromising view. For example:
+# GLOA 101 offers a .red[compromising] view. Others:
 
 --
 
@@ -400,3 +400,30 @@ background-size: 100%
 - .LARGE[political `r fa('flag', fill='red')`]
 - .LARGE[security `r fa('rocket', fill='yellow')`]
 - .LARGE[health/environment `r fa('head-side-mask', fill='orange')`]
+
+---
+
+.full-width-green[
+# But the deglobalizers (e.g., Poast 2022)
+]
+<br>
+--
+
+## `r fa("map-pin", fill='red')` Hallmark of 1990s-style globalization:
+--
+
+- .Large[expansion of open markets]
+- .Large[integrated supply chains] 
+- .Large[borderless economic interaction]
+
+--
+
+## `r fa("turn-down", fill='purple')`  Turning point: US-China trade war
+
+--
+- .Large[trade control]
+- .Large['Weaponized Interdependence' (Farrel & Newman 2023)]
+
+--
+
+## `r fa("eye", fill='green')` Russian Invasion of Ukraine; Covid-19:  the '.red[exposers]'
