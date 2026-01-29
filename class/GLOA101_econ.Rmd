@@ -525,7 +525,7 @@ background-image: url(https://www.worldbank.org/content/dam/photos/780x439/2023/
 background-position: right bottom
 background-size: 40%
 
-#.large[Development in .pink[2023?]] (World Development Report)
+#.large[Development in .pink[21C?]] (.tiny[World Development Report 2023 as an example])
 
 
 
