@@ -103,7 +103,30 @@ background-size: 100%
 
 ---
 
+background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRsuPQ387u4cNCtcnfR26raUTTEq1tMVQftRw&s)
+background-position: right
+background-size: contain
 
+
+# Before we start, some .red[terminologies] 
+
+--
+
+## 'global south'
+
+--
+
+## 'third world'
+
+--
+
+## 'less developed'
+
+--
+
+## 'post-colonial soceities'
+
+---
 
 # Economic Globalization:
 
@@ -211,6 +234,59 @@ swiid_summary %>%
 
 ---
 
+class: inverse, center, middle
+background-image: url(https://github.com/textvulture/textvulture.github.io/blob/master/images/forestBackground.jpg?raw=true)
+
+# .LARGE[But it does .red[not] mean that .yellow[all] of the critical views are wrong.]
+
+---
+## Might have come across images like these?
+
+.pull-left[
+![](https://pbs.twimg.com/media/BtSdV1mIIAAEc2b.jpg)
+]
+
+--
+
+.pull-right[
+![](https://www.ide.go.jp/library/Japanese/Publish/Reports/Collabo/images/vgvc_2023_02.jpg)
+]
+
+
+---
+
+.full-width-green[
+# Global Commodity Chain .tiny[(or, Global Value Chain -- GVC)]: .yellow[Sparke Ch.3]
+]
+<br>
+
+--
+
+## In a capitalist global economy `r fa("money-bill-transfer", fill='green')`:
+
+- .Large[production, transport, branding, and retail are spatially .purple[separated]]
+- .Large[value often captured at particular nodes (i.e., advanced economies)]
+- .Large[labor and environmental costs are displaced onto .red[peripheral] regions]
+
+--
+
+## Governments & Institutions `r fa("landmark", fill='orange')`:
+
+- .Large[regulating commodity markets (or subsidizing producers)]
+- .Large[enforcing trade rules]
+
+---
+
+### Modern GCC looks a bit .orange[different], though:
+--
+
+![](https://innovecs.com/blog/wp-content/uploads/2020/07/08_supply_chain.png)
+
+
+
+---
+
+
 class: inverse, middle, center
 background-color: black
 background-image: url(https://www.structuralguide.com/wp-content/uploads/2021/02/Pynford-underpinning-method.jpg)
@@ -256,7 +332,7 @@ background-position: bottom
 ---
 
 
-## .orange[Dominant] narratives in global political economy
+## .orange[Dominant] .green[narratives] in global political economy
 
 .right-column[
 
@@ -268,7 +344,7 @@ background-position: bottom
  
 - .large[.pink[not] by some divine power or blood line]
 - .large[`r fa("not-equal", fill='red')` discontinuity occurred]
-- .large[`r fa("feather-pointed", fill='green')` takes over.] 
+- .large[`r fa("feather-pointed", fill='green')` rationality takes over.] 
 
 ### - For .red[developing] economies: reforms taking down .pink[traditions] led by .Green[govt]
 ]
