@@ -91,7 +91,7 @@ background-size: 100%
 
 --
 
-### - be able to distinguish between different .yellow[ideas] about development
+### - be able to distinguish between different .yellow[ideas] about econ globalization
 
 --
 
@@ -148,7 +148,11 @@ background-size: contain
 
 --
 
-## Did it, though? Let's look at some data `r fa('chart-line', fill='orange')`.
+## Did it, though? What about the 'making the poor poorer' argument? 
+
+--
+
+## Let's look at some data `r fa('chart-line', fill='orange')`.
 
 ---
 
@@ -180,7 +184,7 @@ wdi2 %>%
 
 ---
 
-# Global Poverty, .Yellow[by infant mortality]
+# Global Poverty, .orange[by infant mortality]
 
 
 ```{r, message=FALSE, echo=FALSE, warning=FALSE, results="asis", fig.width=16, fig.height=7, cache=T}
@@ -202,7 +206,7 @@ wdi2 %>%
   labs(x="Year", y="Infant Mortality per 1k")
 
 ```
-
+ 
 
 ---
 
@@ -230,6 +234,16 @@ swiid_summary %>%
          
 
 ```             
+
+
+---
+
+class: inverse, center, middle
+background-image: url(https://cosmonautmag.com/media/images/sugarcane.format-webp.width-600.webp)
+background-size: 110%
+
+
+# .Large[So, does economic globalization lead to under-development and exploitation?]
 
 
 ---
@@ -286,161 +300,6 @@ background-image: url(https://github.com/textvulture/textvulture.github.io/blob/
 
 ---
 
-
-class: inverse, middle, center
-background-color: black
-background-image: url(https://www.structuralguide.com/wp-content/uploads/2021/02/Pynford-underpinning-method.jpg)
-background-size: contain
-
-# .huge[**Some theoretical underpinnings**]
-
---
-
-## mostly about .bluey['how to develop'], giving us some good ideas about how economic globalization has unfolded (.yellow[the process]) in the post-war period.
-
-
-
----
-class: top
-background-image: url(https://media.giphy.com/media/MhHmVf60oEZQQ/giphy.gif?cid=ecf05e47wyguiojdr6lp3hw89uxrsmbjrhb34txk6v0wq5ck&rid=giphy.gif&ct=g)
-background-size: contain
-background-position: bottom
-
-# It's really back and forth b/w two schools (.blue[market] vs. .red[state]).
-
---
-
-# Though often determined by global .green[circumstances].
----
-
-## .orange[Dominant] narratives in the global political economy
-
-.left-column[
-### Modernization Theory
-
-### Neoclassical Responses
-
-### Developmental State
-
-### the 2000s
-]
-
-.right-column[
-
-]
-
----
-
-
-## .orange[Dominant] .green[narratives] in global political economy
-
-.right-column[
-
-### - Weberian Tradition ('Protestant Ethic' -- but not b/c religiosity); Rustow
-
-### - What is economic growth?
-
- $$ Output = L^\alpha \times K^{1-\alpha}  $$ 
- 
-- .large[.pink[not] by some divine power or blood line]
-- .large[`r fa("not-equal", fill='red')` discontinuity occurred]
-- .large[`r fa("feather-pointed", fill='green')` rationality takes over.] 
-
-### - For .red[developing] economies: reforms taking down .pink[traditions] led by .Green[govt]
-]
-
-.left-column[
-### .red[Modernization Theory]
-
-### Critical Reactions
-
-### Developmental State
-
-### the 2000s
-]
-
-
-
----
-
-
-## .orange[Dominant] narratives in global political economy
-
-.right-column[
-.![](https://media.giphy.com/media/l0ErJaDQ2Q3onCenS/giphy.gif?cid=ecf05e47ep5910nhirzakpc9xyxnosr2hg52zqytld0ibo7e&rid=giphy.gif&ct=g)
-### - growth happened [60s]; but .purple[not] for all; many crisses
-### - Core vs. Periphery: exploitative structure .pink[deliberately] perpetuated
-### - .red[I]mport .red[S]ubstitution .red[I]ndustrialization; more gov't involvement
-]
-
-.left-column[
-### Modernization Theory
-
-### .red[Critical Reactions]
-
-### Developmental State
-
-### the 2000s
-]
-
-
----
-
-
-## .orange[Dominant] narratives in global political economy
-
-.right-column[
-![](https://media.giphy.com/media/HAvn2OeKPe61G/giphy.gif?cid=790b76119545a7aa0e2086d00d8d3a22c6ed01b806aa4094&rid=giphy.gif&ct=g)
-
-### - East Asian economies in the 70s-90s ('Four Asian Tigers' `r fa("face-grimace", fill='green')`)
-
-### - .blue[government] is actually key to success? If it is .green[autonomous] 
-
-### - cf., 'rentier state'; 'state capture'
-]
-
-.left-column[
-### Modernization Theory
-
-### Critical Responses
-
-### .red[Developmental State]
-
-### the 2000s
-]
-
----
-
-
-
-
-
-## .orange[Dominant] narratives in global political economy
-
-.right-column[
-
-### - Commodity boom (the rise of .green[BRICS]!); cheap borrowing
-
-![](https://media.giphy.com/media/JThsilCoOJKBwDAF4j/giphy.gif?cid=ecf05e474c75r5poxm8exomydcg6ecglixjs4a6gvxmly4k1&rid=giphy.gif&ct=g)
-
-### - but, Vietnam?
-
-
-]
-
-.left-column[
-### Modernization Theory
-
-### Neoclassical Responses
-
-### Developmental State
-
-### .red[the 2000s]
-]
-
-
----
-
 class: inverse, middle, right
 background-color: black
 background-image: url(https://www.aces.edu/wp-content/uploads/2020/05/shutterstock_174839018-scaled-e1588865190888.jpg)
@@ -452,17 +311,234 @@ background-image: url(https://www.aces.edu/wp-content/uploads/2020/05/shuttersto
 # For .bluey[**better**] or .red[**worse**].
 
 ---
+class: inverse, center, middle
+background-image: url(https://github.com/textvulture/textvulture.github.io/blob/master/images/greenbackground2.jpg?raw=true)
+background-size: 100%
 
-class: inverse, right, middle
-background-image: url(https://github.com/textvulture/textvulture.github.io/blob/master/images/forestBackground3.jpg?raw=true)
-background-size: cover
-
-
-# So we talked about the .red[processes] (= development).
+# .Large[The quentessential economic globalization:]
 
 --
 
-# But what about the .yellow[actors]?
+# .Large[.pink[**trade**]]
+
+--
+
+# Do we know .pink[HOW] trade is supposed to generate .bluey[develpoment]?
+
+---
+
+.full-width-green[
+# Some .hl1[textbook]-like fundamentals `r fa("book")` .tiny[(w/o indifferent curves)]
+]
+
+
+## Ricardian Free Trade
+
+.large[`r fa('triangle-exclamation', fill='red')` Really a very stylized one: .red[**not**] that this is THE reality!]
+
+--
+
+.pull-left[
+### Some assumptions
+- .Large[two economies]
+- .Large[two products, same unit value]
+- .Large[10 workers for each economy]
+- .Large[people need both products]
+]
+
+--
+
+.pull-right[
+
+![](https://c.tenor.com/cogRcZUH8rQAAAAC/gun-drunk.gif)
+]
+
+---
+
+.full-width-green[
+# Some .hl1[textbook]-like fundamentals `r fa("book")` .tiny[(w/o indifferent curves)]
+]
+
+## Ricardian Free Trade
+
+.large[`r fa('triangle-exclamation', fill='red')` Really a very stylized one: .red[**not**] that this is a reality!]
+
+
+.pull-left[
+### Some assumptions
+- .Large[two economies]
+- .Large[two products, same unit value]
+- .Large[10 workers for each economy]
+- .Large[people need both products]
+]
+
+.pull-right[
+
+### Before trade (5 workers in each sector)
+
+.Large[
+|        	| Gun 	| Tequila 	| total |
+|:------:	|:---:	|:-------:	| :-------: |
+|   US   	|  10 	|    5    	| ? |
+| Mexico 	|  2  	|    4    	| ? |
+]
+]
+
+---
+
+.full-width-green[
+# Some .hl1[textbook]-like fundamentals `r fa("book")` .tiny[(w/o indifferent curves)]
+]
+
+## Ricardian Free Trade
+
+.large[`r fa('triangle-exclamation', fill='red')` Really a very stylized one: .red[**not**] that this is a reality!]
+
+
+.pull-left[
+### Some assumptions
+- .Large[two economies]
+- .Large[two products, same unit value]
+- .Large[10 workers for each economy]
+- .Large[people need both products]
+]
+
+.pull-right[
+
+### .red[After] trade (specialization)
+
+.Large[
+|        	| Gun 	| Tequila 	        | total |
+|:------:	|:---:	|:-------:	        | :---------: |
+|   US   	|  100 	|    .green[0]    	| 75 `r fa("arrow-right")` *100*  |
+| Mexico 	|  .green[0]  	|    40    	| 30 `r fa("arrow-right")` *40*  |
+
+]
+]
+
+---
+
+class: inverse, center, middle
+background-image: url(https://raw.githubusercontent.com/textvulture/textvulture.github.io/master/images/background_glass.jpg)
+background-size: 110%
+background-color: purple
+
+
+# .huge[The key lies <br> more in '.bluey[**specialization**]' <br>and less in '.red[**free**].' ]
+
+
+
+
+
+---
+
+class: inverse, center, middle
+background-image: url(https://github.com/textvulture/textvulture.github.io/blob/master/images/forestBackground3.jpg?raw=true)
+background-size: cover
+
+# .Huge[But who are the .yellow[actors] behind all these?]
+
+---
+
+background-image: url(https://i.pinimg.com/originals/ba/7c/70/ba7c70e27433c8c580603c71bc9b29aa.gif)
+background-size: cover
+class: inverse, center, middle
+
+# .Large[To actually understand who they are, we need to go back in .yellow[history].]
+
+--
+
+# .large[.pink[What really was the motivation and mission?]]
+
+---
+
+
+class: inverse, right, bottom
+background-image: url(http://insidestory.org.au/wp-content/uploads/bretton_woods.jpg)
+background-size: cover
+
+--
+
+# .Huge[**An attempt to .pink[prevent] another World War.**]
+
+
+---
+
+.full-width-green[
+# What happened before the WW2?
+]
+
+--
+
+<br>
+<br>
+
+.pull-left[
+.pull-left[![](https://c.tenor.com/R1RcnFR9EXQAAAAC/broke-fairlyoddparents.gif) 
+# .red[currency war]]
+
+
+.pull-right[![]()
+#  ]
+]
+
+
+.pull-right[
+.pull-left[![]()
+# ]
+]
+
+---
+
+.full-width-green[
+# What happened before the WW2?
+]
+
+
+<br>
+<br>
+
+.pull-left[
+.pull-left[![](https://c.tenor.com/R1RcnFR9EXQAAAAC/broke-fairlyoddparents.gif) 
+# .red[currency war]]
+
+
+.pull-right[![](https://c.tenor.com/asi_jQogc3IAAAAC/family-guy-peter-griffin.gif)
+# .green[protectionism] ]
+]
+
+
+
+.pull-right[
+.pull-left[![]()
+# ]
+]
+
+---
+
+.full-width-green[
+# What happened before the WW2?
+]
+
+
+<br>
+<br>
+
+.pull-left[
+.pull-left[![](https://c.tenor.com/R1RcnFR9EXQAAAAC/broke-fairlyoddparents.gif) 
+# .red[currency war]]
+
+
+
+.pull-right[![](https://c.tenor.com/asi_jQogc3IAAAAC/family-guy-peter-griffin.gif)
+# .green[protectionism] ]
+]
+
+
+.pull-right[
+.pull-left[![](https://media.tenor.com/EcVflt3ciWQAAAAC/broke-poor.gif)
+# .blue[poverty]]
+]
 
 ---
 
@@ -704,4 +780,35 @@ background-size: 100%
 
 ## `r fa('pen-fancy', fill='purple')` international financial institutions (e.g., investment banks)
 
+---
 
+.full-width-blue[
+# 'But, like, why not talk more about .red[South]-.pink[South] trade?'
+]
+--
+
+## What does Guatemala's trade look like? Who's the biggest partner?
+
+--
+![](https://www.countryaah.com/wp-content/uploads/2019/06/Guatemala-Major-Imports.jpg)
+---
+
+.full-width-yellow[
+# So economic globalization is?
+]
+<br>
+--
+
+## - 'The .green[process] of increasing and deepending connectivity between global .blue[economic] actors.'
+
+--
+
+## - Maybe not a 'making the poor poorer' mechanism.
+
+--
+
+## - Not a pure economic process either.
+
+--
+
+## - Bretton Woods
