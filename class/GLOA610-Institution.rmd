@@ -11,7 +11,6 @@ output:
     seal: false
     nature:
       ratio: '16:9'
-      highlightStyle: github
 #    self-contained: TRUE
   chakra: css/libs/remark-latest.min.js
 css: ["default", 
@@ -91,68 +90,15 @@ background-size: cover
 ### - "devised ... to create order and reduce .yellow[uncertainty] in exchange"
 ]
  
-
 --
 
-
-### As the scope of transaction *grows*, the uncertainty also increases:
-
-- .Large[.orange[agency-principal] problem]
-
-- .Large[.orange[contract enforcement] problem]
+### In contrast with .pink[STRUCTURE]
 
 --
+- .Large[given, not devised]
+- .Large[uncontrollable]
+- .Large[*geography; climate; populations*]
 
-### **Institution**: .red[Impersonal enforcement `r fa("gavel")`] `r fa("arrow-right")` more transactions `r fa("arrow-right")` .bluey[development]
-
----
-
-class: center, middle
-background-image: url(https://textvulture.github.io/images/background_oldPaper.jpg)
-background-size: cover
-
-# .large[**The question really is: <br><br> .times[What Makes a .bluey[Good] Institution?**]]
-
-
----
-
-class: inverse, bottom
-background-image: url(https://media1.giphy.com/media/wR4bJk4jF5Tl6/200.gif)
-background-size: cover
-
-# .large[.yellow[This week, we need to go to the .red[history] a bit.]]
-
---
-
-# The origins of institutional strength often go .yellow[way back].
-
----
-
-class: inverse
-background-image: url(https://media.istockphoto.com/photos/chalkboard-back-to-school-theme-picture-id482968188?b=1&k=20&m=482968188&s=170667a&w=0&h=ByKSDUnnROrFuIg3wYAP2EE7e8pLVdi7_99TRSzIdxU=)
-background-size: cover
-
-# .Large[In particular, we will be talking about:]
-
---
-
-## - the concept and functions of institutions (& some data)
-
---
-
-## - the determinants and origins of institutional strength/quality
-
---
-
-- .Large[geography and colonialism]
-
---
-
-## - an application: which institution is functionally .red[better]?
-
---
-
-## .yellow[`r fa("thumbs-up")`] It is also the last week of a straight-out lecture 
 
 ---
 
@@ -164,9 +110,7 @@ background-position: right
 
 --
 
-## Addresses one of the biggest fears 
-
-## : .red[uncertainty] on .green[**property rights**]
+## Addresses one of the biggest fears: <br>.red[uncertainty] on .green[**property rights**]
 
 --
 
@@ -178,7 +122,12 @@ background-position: right
 
 --
 
-## - credibility `r fa("arrow-right")` predictability
+### - credibility `r fa("arrow-right")` predictability
+
+--
+
+### .red[Impersonal enforcement `r fa("gavel")`] <br>`r fa("arrow-right")` more transactions `r fa("arrow-right")` .bluey[development]
+
 
 ---
 
@@ -252,6 +201,45 @@ ggplot(df, aes(x = e_wbgi_gee, y=e_migdppcln)) +
 
 ---
 
+
+class: inverse, bottom
+background-image: url(https://media1.giphy.com/media/wR4bJk4jF5Tl6/200.gif)
+background-size: cover
+
+# .large[.yellow[This week, we need to go to the .red[history] a bit.]]
+
+--
+
+# The origins of institutional strength often go .yellow[way back].
+
+---
+
+class: inverse
+background-image: url(https://media.istockphoto.com/photos/chalkboard-back-to-school-theme-picture-id482968188?b=1&k=20&m=482968188&s=170667a&w=0&h=ByKSDUnnROrFuIg3wYAP2EE7e8pLVdi7_99TRSzIdxU=)
+background-size: cover
+
+# .Large[In particular, we talk about:]
+
+--
+
+## - the concept and functions of institutions (& some data)
+
+--
+
+## - the determinants and origins of institutional strength/quality
+
+--
+
+- .Large[geography and colonialism]
+
+--
+
+## - an application: which institution is functionally .red[better]?
+
+
+
+---
+
 class: inverse, center, middle
 background-image: url(https://github.com/textvulture/textvulture.github.io/blob/master/images/forestBackground3.jpg?raw=true)
 background-size: cover
@@ -307,7 +295,11 @@ background-position: right
 
 ### - Sokoloff and Engerman (2000)
 
-### - what kind of .pink[institutions]?
+--
+
+### - where do good institutions <br>come from?
+
+
 
 ---
 class: inverse, bottom
