@@ -71,6 +71,7 @@ purple{
 - <font size='2'>Jan 16: Typos corrected in 4.6 of @sec-policy.</font>
 - <font size='2'>Jan 19: 'check Canvas 4 times a week' is removed from @sec-canvas as it's redundant. </font>
 - <font size='2'>Jan 22: In @sec-mvg, the deadline is clarified for the 1st MVG (not graded--you submit one, you get the grade); inconsistency in CRD #2 deadline corrected (Apr 23)</font>
+- <font size='2'>Feb 4: Two (short) readings added to the weeks of Political Globalization and Socio-cultural Globalization</font>
 
 
 # Instructor
@@ -523,6 +524,7 @@ Student opportunity: If you prefer to speak to someone confidentially, please co
 - Reading
   - Steger Chs. 4 and 7
   - V-Dem Institute. 2025. "DEMOCRACY REPORT 202525 Years of Autocratization – Democracy Trumped?" [link](https://www.v-dem.net/documents/60/V-dem-dr__2025_lowres.pdf). pages 1-30 only.
+  - Ketchley, N., Andersen, M. S., & Sending, O. J. (2025). The Chinese are coming! US think tanks and the Belt and Road Initiative in the Middle East and North Africa. *Review of International Political Economy*, 1–31. [link](https://doi.org/10.1080/09692290.2025.2564680).
 
 
 ## Feb 19, 24: Socio-cultural globalization {.unnumbered}
@@ -531,6 +533,8 @@ Student opportunity: If you prefer to speak to someone confidentially, please co
   - Bhatt, Suhani. 2025. “Not Movies, But Mandates: China’s Influence on Hollywood.” The Economics Review (blog). [link](  https://theeconreview.com/2025/11/29/not-movies-but-mandates-chinas-influence-on-hollywood/) 
   - <red>{{< fa brands youtube >}}</red>: "Gospel of Intolerance: U.S. Evangelicals Fund Uganda Antigay Movement | Op-Docs | The New York Times" [link](https://youtu.be/qcM6GI0TUMQ?si=R_L1rQh6_mDOL4jD)
   - Shambaugh, David. 2015. “China’s Soft-Power Push.” *Foreign Affairs* 94(4): 99–107.
+  - Mahdhi, M., McIntyre, N., & Sellman, M. (2025). Sri Lankan influencer targets UK with anti-migrant Facebook pages. The Times. November 16, 2025. [link](https://www.thetimes.com/uk/crime/article/sri-lankan-influencer-geeth-sooriyapura-anti-migrant-facebook-groups-hxgjk65p9)
+
   
 ## Feb 26: Review Session {.unnumbered}
 - Bring your questions. There will be a review sheet to be distributed in advance, but the review session is by no means re-lecturing. It is led by your questions. If you don't have any questions, it will end in minutes.
