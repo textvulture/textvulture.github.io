@@ -66,6 +66,7 @@ blue {
 - <font size='2'> Jan 12: The conference participation (previoiusly Week 10) is not included anymore. A new week is added (Week 14, in this version). </font>
 - <font size='2'> Jan 14: Office Hours changed. </font>
 - <font size='2'> Jan 20: Typo and indentation corrected in @sec-read. No change in content. </font>
+- <font size='2'> Feb 5: A non-required reading added in the week of Finance</font>
 
 
 # Instructor
@@ -504,6 +505,7 @@ Those who like to present on this week might note that the primary focus is on d
   -  Eichengreen, B. and Leblang, D. (2008). Democracy and globalization. *Economics & Politics*, 20(3):289–334. <mark>not required</mark>.
   -  Rodrik, D. and Subramanian, A. (2009). Why does financial globalization disappoint? *IMF Staff Papers*, 56(1):112–138 <mark>not required</mark>.
   -  Ferguson, N. (2018). *The Ascent of Money*. New York: Penguin. <mark>not required</mark>
+  - Copelovitch, M., & Pepinsky, T. B. (2025). The Political Economy of Shitcoins. [link](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5383552). <mark>not required</mark> 
   -  Reichert-Facilides, D. (2023) New York rewrites the rules on sovereign debt restructurings. Financial Times. June 2, 2023. [https://www.ft.com/content/213aa90a-3eba-445](https://www.ft.com/content/213aa90a-3eba-4451-a509-b9d17e1d56c8) <mark>not required</mark>
   - Reuters. (2025) The 'Triple A' soeverign bond club has shrunk. Reuters. May 19, 2025. [link](https://www.reuters.com/business/finance/triple-a-sovereign-bond-club-has-shrunk-2025-05-19/?utm_campaign=trueAnthem%3A+Trending+Content&utm_medium=trueAnthem&utm_source=facebook&fbclid=IwY2xjawKYQEdleHRuA2FlbQIxMQBicmlkETE4WWpreXl4bExINGNQSFNMAR6oXF0qeDFo0Y3qqUgOw8UUqMVM5hgakl7VaVQ60O8D9_cKx-kNFWx8CDtUZA_aem_-z_hfkLGYPha5G0PyxScow). <mark>not required</mark>
   - Smith, I., Herbert, E., and Abboud, L. (2025). France joins Eurozone's 'periphery' as turmoil deepens, say investors. Financial Times. September 9, 2025. [link](https://on.ft.com/3JYbuUi)
