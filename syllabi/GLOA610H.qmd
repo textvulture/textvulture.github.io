@@ -67,7 +67,7 @@ blue {
 - <font size='2'> Jan 14: Office Hours changed. </font>
 - <font size='2'> Jan 20: Typo and indentation corrected in @sec-read. No change in content. </font>
 - <font size='2'> Feb 5: A non-required reading added in the week of Finance</font>
-
+- <font size='2'> Feb 8: In the week of Investment, Yang article is not a required reading anymore; Chilton et al. (2020) publication information update (still a not required reading) </font>
 
 # Instructor
 
@@ -519,9 +519,9 @@ Presenters might note that the focus is essentially foreign direct investment (F
   -  Blanton, S. L. and Blanton, R. G. (2007). What Attracts Foreign Investors? An Examination of Human Rights and Foreign Direct Investment. *Journal of Politics*, 69(1):143–155.
   -  Malesky, E. J. and Mosley, L. (2018). Chains of love? global production and the firm-level diffusion of labor standards. *American Journal of Political Science*, Forthcoming.
   -  Christensen, D. (2019). Concession Stands: How Mining Investments Incite Protest in Africa. *International Organization*, 73(1):65–101.
-  -  Yang, Y. (2023). Racing to the bottom?: Chinese foreign direct investment and collective labor rights. *International Interactions*, Forthcoming. DOI: [https://doi.org/10.1080/ 03050629.2023.2260934.](https://doi.org/10.1080/03050629.2023.2260934)
+  -  Yang, Y. (2023). Racing to the bottom?: Chinese foreign direct investment and collective labor rights. *International Interactions*, Forthcoming. DOI: [https://doi.org/10.1080/ <mark>not required</mark>  03050629.2023.2260934.](https://doi.org/10.1080/03050629.2023.2260934)
   - Blair, G., Christensen, D., & Wirtschafter, V. (2022). How Does Armed Conflict Shape Investment? Evidence from the Mining Sector. *Journal of Politics*, 84(1), 116–133. 
-  -  Chilton, A. S., Milner, H. V., and Tingley, D. (2018). Reciprocity and public opposition to foreign direct investment. *British Journal of Political Science*, Forthcoming. <mark>not required</mark> 
+  -  Chilton, A. S., Milner, H. V., and Tingley, D. (2020). Reciprocity and public opposition to foreign direct investment. *British Journal of Political Science*, 50(1): 129-153. <mark>not required</mark> 
   - Blattman, C. and Dercon, S. (2017). Everything we knew about sweatshops was wrong. New York Times. April 27. 2017. [link.](https://www.nytimes.com/2017/04/27/opinion/do-sweatshops-lift-workers-out-of-poverty.html) <mark>not required</mark>
   -  Giles, C., Abboud, L., and Agyemang, E. (2021). Global tax deal backers battle to win over holdout countries. Financial Times. June 29, 2021. [link.](https://www.ft.com/content/562fa83d-1af2-4002-82b8-fded22d2df51)<mark>not required</mark>
   -  Moon, C. (2015). Foreign direct investment, commitment institutions, and time horizon: How some autocrats do better than others. *International Studies Quarterly*, 59(2):344–356. <mark>not required</mark>
