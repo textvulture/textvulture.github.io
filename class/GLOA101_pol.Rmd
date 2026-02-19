@@ -381,50 +381,87 @@ background-size: 100%
 
 # UN organizations:
 
-```{r, fig.align='center', out.width="700px"}
-knitr::include_graphics("https://github.com/textvulture/textvulture.github.io/blob/master/images/UN.JPG?raw=true")
+```{r, fig.width=14, fig.align='center'}
+
+library(ggplot2)
+library(dplyr)
+library(grid)
+
+# -------------------------
+# 1) Node layout (re-spaced)
+# -------------------------
+nodes <- tibble::tribble(
+  ~id,           ~label,                               ~x,  ~y,   ~w,  ~h,
+  "un",          "United Nations (UN)",                 0,  12,  5.2, 0.9,
+  
+  # Six principal organs (spread horizontally)
+  "ga",          "General\nAssembly (GA)",              -6,  10,  3.8, 0.9,
+  "sc",          "Security Council\n(SC)",              -2,  10,  3.8, 0.9,
+  "ecosoc",      "ECOSOC",                              2,  10,  3.8, 0.9,
+  "icj",         "ICJ",                                 6,  10,  3.8, 0.9,
+  
+  "secretariat", "Secretariat",                         0,   8.3, 3.6, 0.9,
+  "trusteeship", "Trusteeship\nCouncil (inactive)",      0,   7.0, 4.2, 0.9,
+  
+  # UN system layer (lower)
+  "funds",       "Funds & Programmes\n(UNICEF, UNDP, WFP)", -5,  5.2, 5.2, 1.1,
+  "agencies",    "Specialized Agencies\n(WHO, ILO, FAO)",    5,  5.2, 5.2, 1.1
+)
+
+nodes <- nodes %>%
+  mutate(
+    xmin = x - w/2, xmax = x + w/2,
+    ymin = y - h/2, ymax = y + h/2
+  )
+
+# -------------------------
+# 2) Edges
+# -------------------------
+edges <- tibble::tribble(
+  ~from, ~to,
+  "un", "ga",
+  "un", "sc",
+  "un", "ecosoc",
+  "un", "icj",
+  "un", "secretariat",
+  "un", "trusteeship",
+  "ga", "funds",
+  "ecosoc", "agencies"
+) %>%
+  left_join(nodes %>% select(id, x, ymin), by = c("from" = "id")) %>%
+  rename(x_start = x, y_start = ymin) %>%
+  left_join(nodes %>% select(id, x, ymax), by = c("to" = "id")) %>%
+  rename(x_end = x, y_end = ymax)
+
+# -------------------------
+# 3) Plot
+# -------------------------
+ggplot() +
+  geom_segment(
+    data = edges,
+    aes(x = x_start, y = y_start, xend = x_end, yend = y_end),
+    arrow = arrow(length = unit(10, "pt"), type = "closed"),
+    linewidth = 0.6
+  ) +
+  geom_rect(
+    data = nodes,
+    aes(xmin = xmin, xmax = xmax, ymin = ymin, ymax = ymax),
+    linewidth = 0.7,
+    fill='blue'
+  ) +
+  geom_text(
+    data = nodes,
+    aes(x = x, y = y, label = label),
+    size = 8,
+    lineheight = 0.95,
+    color='white'
+    
+  ) +
+  coord_cartesian(xlim = c(-9, 9), ylim = c(4, 13), expand = FALSE) +
+  theme_void() 
+
 ```
 
----
-
-# UN organizations:
-
-```{r, fig.align='center', out.width="700px"}
-knitr::include_graphics("https://github.com/textvulture/textvulture.github.io/blob/master/images/UN1.JPG?raw=true")
-```
-
----
-
-# UN organizations:
-
-```{r, fig.align='center', out.width="700px"}
-knitr::include_graphics("https://github.com/textvulture/textvulture.github.io/blob/master/images/UN2.JPG?raw=true")
-```
-
----
-
-# UN organizations:
-
-```{r, fig.align='center', out.width="700px"}
-knitr::include_graphics("https://github.com/textvulture/textvulture.github.io/blob/master/images/UN3.JPG?raw=true")
-```
-
-
----
-
-# UN organizations:
-
-```{r, fig.align='center', out.width="700px"}
-knitr::include_graphics("https://github.com/textvulture/textvulture.github.io/blob/master/images/UN4.JPG?raw=true")
-```
-
----
-
-# UN organizations:
-
-```{r, fig.align='center', out.width="700px"}
-knitr::include_graphics("https://github.com/textvulture/textvulture.github.io/blob/master/images/UN5.JPG?raw=true")
-```
 
 ---
 
@@ -534,7 +571,10 @@ background-position: right
 ---
 
 .full-width-green[
-# Some .yellow[barriers] might be just imagined .tiny[(signs of deglobalization?)]
+# Some .yellow[barriers] might be just .pink[imagined] .tiny[(signs of deglobalization?)]
 ]
+<br>
+--
+
 
  
