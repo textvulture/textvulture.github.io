@@ -39,3 +39,147 @@ knitr::opts_chunk$set(warning = FALSE, message = FALSE, error=F, echo=F)
 options(htmltools.preserve.raw = FALSE)
 ```
 
+background-image: url(https://github.com/textvulture/textvulture.github.io/blob/master/images/culture.png?raw=true)
+background-position: right
+background-size: 50%
+
+# .huge[.pink[**Cultural** (Social)] <br> Globalization]
+
+## GLOA 101
+
+---
+
+# .hl1[We will talk about:]
+
+- .Large[the concept of cultural globalization]
+- .Large[the debate over cultural homogenization]
+- .Large[examples of cultural globalization]
+<br><br>
+--
+
+
+# .hl2[By the end of this chapter, we will be able to:]
+
+- .Large[explain the concept and examples of cultural globalization]
+- .Large[discuss how cultural globalization aﬀects people’s lives]
+
+---
+
+.full-width-blue[
+# Culture
+]
+<br>
+
+--
+
+## - “Language, music, and images” (Steger, 74)
+
+--
+
+## - .hl1[a set of beliefs, values, and practices that are learned through process of enculturation and socialization]
+<br>
+
+--
+
+<span>
+.content-box-yellow[
+# .green[**Cultural globalization**]
+.Large[Increasing interconnectedness between global cultural actors (cultures and cultural centers)] 
+]
+</span>
+
+---
+
+.full-width-green[
+## Cultural globalization started a long time ago, but accelerated very recently.
+]
+
+--
+
+.pull-left[
+<br>
+<br>
+<br>
+![](https://lh6.googleusercontent.com/proxy/6MxtozQROrmgDXT3gB5UwvhYYZpITOM2y_Z39OIRHTvlAwaKDKzjgFMXMD8j4isgO8vAqKkMSYSryQRWjRp1Ju1T5r5nW59smibIFQ)
+
+]
+
+--
+
+.pull-right[
+<br>
+<br>
+<br>
+![](https://api.time.com/wp-content/uploads/2019/07/kitchen-debate.jpg)
+
+]
+
+---
+
+background-image: url(https://i.guim.co.uk/img/media/407494cd6954b638f8c70ed94d0086b74d994a4e/0_229_3072_1843/master/3072.jpg?width=1200&height=900&quality=85&auto=format&fit=crop&s=cf820a4825994ba2361e816986e19a2c)
+background-size: 100%
+
+---
+
+.full-width-blue[
+# But it's not just 'spread.': **Hybridization**
+]
+<br>
+--
+
+<br>
+.LARGE[Where can you buy these `r fa("burger")` items?]
+
+<br>
+
+.pull-left[
+![](https://www.runningtothekitchen.com/wp-content/uploads/2024/05/samurai-burger-1-1200x675.jpg)
+]
+
+.pull-right[
+![](https://www.runningtothekitchen.com/wp-content/uploads/2024/05/mcvegan-1-1200x675.jpg)
+]
+
+
+<br>
+### - .red[Not] simply 'localization'; a whole new thing, but based on interconnectedness
+
+---
+
+
+# Media and Cultural Globalization
+
+
+## - engine of interconnectedness
+## - (modern) TV shows and movies: identity makers
+## - .red[two different directions]
+
+--
+
+  - .large[common denominator: infantilization]
+--
+
+  - .large[state apparatus: government influence]
+  
+---
+
+background-image: url(https://fox5theatre.com/wp-content/uploads/2023/08/the-meg-2-the-trench-poster.jpg)
+background-position: right
+background-size: contain
+
+# Media and Cultural Globalization
+
+
+## - engine of interconnectedness
+## - (modern) TV shows and movies: 
+  - .LARGE[identity makers]
+  
+## - .red[two different directions]
+
+
+
+  - .large[common denominator: infantilization]
+  - .large[state apparatus: government influence]
+  
+  
+  
