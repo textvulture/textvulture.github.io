@@ -146,27 +146,6 @@ background-size: 100%
 
 ---
 
-
-# Media and Cultural Globalization
-
-
-## - engine of interconnectedness
-## - (modern) TV shows and movies: identity makers
-## - .red[two different directions]
-
---
-
-  - .large[common denominator: infantilization]
---
-
-  - .large[state apparatus: government influence]
-  
----
-
-background-image: url(https://fox5theatre.com/wp-content/uploads/2023/08/the-meg-2-the-trench-poster.jpg)
-background-position: right
-background-size: contain
-
 # Media and Cultural Globalization
 
 --
@@ -180,7 +159,28 @@ background-size: contain
 ### - (modern) TV shows and movies: 
 - .Large[identity makers]
 
---
+
+
+---
+
+background-image: url(https://fox5theatre.com/wp-content/uploads/2023/08/the-meg-2-the-trench-poster.jpg)
+background-position: right
+background-size: contain
+
+# Media and Cultural Globalization
+
+
+
+### - engine of interconnectedness
+- .Large[often used as a tool for 'cultural diplomacy']
+- .Large['soft power': Shambaugh (2015)]
+
+
+
+### - (modern) TV shows and movies: 
+- .Large[identity makers]
+
+
 
 ### - .red[two different directions]
 
