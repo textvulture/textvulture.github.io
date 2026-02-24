@@ -224,11 +224,7 @@ background-size: 110%
 .full-width-green[
 # Taking advantage of cultural interconnectedness
 ]
-  
----
-
-# Making bucks out of disinformation campaign
-
+ 
 --
 
 .pull-left[
