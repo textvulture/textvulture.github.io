@@ -169,17 +169,83 @@ background-size: contain
 
 # Media and Cultural Globalization
 
+--
 
-## - engine of interconnectedness
-## - (modern) TV shows and movies: 
-  - .LARGE[identity makers]
-  
-## - .red[two different directions]
+### - engine of interconnectedness
+- .Large[often used as a tool for 'cultural diplomacy']
+- .Large['soft power': Shambaugh (2015)]
 
+--
 
+### - (modern) TV shows and movies: 
+- .Large[identity makers]
 
-  - .large[common denominator: infantilization]
-  - .large[state apparatus: government influence]
+--
+
+### - .red[two different directions]
+
+- .Large[common denominator: infantilization]
+- .Large[state apparatus: use cultural policies]
+  - .large[Chinese influence on Hollywood movies]
   
+---
+
+class: middle, center, inverse
+background-image: url(https://github.com/textvulture/textvulture.github.io/blob/master/images/forestBackground.jpg?raw=true)
+background-size: 110%
+
+# 'Interconnectedness' often doesn't mean .yellow[equal] exchanges. 
+
+--
+
+# "cultural imperialism"??
+
+---
+
+.full-width-blue[
+# Unintended Consequences: *God Loves Uganda*
+]
+<br>
+<br>
+--
+
+<iframe width="900" height="500" src="https://www.youtube.com/embed/qcM6GI0TUMQ?si=QQp85zs8eWsAt8Ti" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+---
+
+class: middle, center, inverse
+background-image: url(https://github.com/textvulture/textvulture.github.io/blob/master/images/forestBackground3.jpg?raw=true)
+background-size: 110%
+
+# But it's .pink[not] always West -> non-West
+
+---
+
+.full-width-green[
+# Taking advantage of cultural interconnectedness
+]
   
-  
+---
+
+# Making bucks out of disinformation campaign
+
+--
+
+.pull-left[
+```{r, out.width="80%"}
+knitr::include_graphics('https://www.thetimes.com/imageserver/image/%2Fe2bea28b-ffd6-42ce-bfcb-70f6e5e06a1f.png?crop=514%2C933%2C0%2C0&resize=1180&format=webp&quality=9')
+```
+]
+
+--
+
+.pull-right[
+
+```{r, out.width="50%"}
+knitr::include_graphics('https://www.thetimes.com/imageserver/image/%2Feff01462-166b-46b4-9501-675f5cf67b90.jpg?crop=1440%2C1506%2C0%2C294&resize=1180&format=webp&quality=9')
+```
+
+- .Large['Global south striking back'?]
+- .Large[cultural interconnectivity = .red[vulnerability] to manipulation]
+- .Large[advancement of media tech = increased vulnerability]
+]
