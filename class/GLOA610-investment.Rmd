@@ -142,30 +142,33 @@ background-size: 100%
 
 ---
 
-class: inverse, middle
-background-color: black
+.full-width-green[
+# Overall Pattern of FDI (recipients)
+]
 
-# .large[`r fa("crown", fill="yellow")` Who are the <br top> hosts ?]
+<br>
+--
 
-# .large[`r fa("clock", fill="red")` Does it <br> change much?]
+.pull-left[
+## .large[`r fa("crown", fill="orange")` Who are the hosts ?]
 
-# .large[`r fa("circle-exclamation", fill="green")` Does it <br> matter?]
+## .large[`r fa("clock", fill="red")` Does it change much?]
 
----
+## .large[`r fa("circle-exclamation", fill="green")` Does it matter?]
+]
 
-class: inverse, middle
+--
 
-background-color: black
-background-image: url(https://www.imf.org/wp-content/uploads/2021/12/COTW-FDI-update.gif)
-background-position: right
-background-size: contain
-
-# .large[`r fa("crown", fill="yellow")` Who are the <br top> hosts ?]
-
-# .large[`r fa("clock", fill="red")` Does it <br> change much?]
-
-# .large[`r fa("circle-exclamation", fill="green")` Does it <br> matter?]
-
+.pull-right[
+<iframe
+  src="https://public.flourish.studio/visualisation/21271771/embed"
+  width="100%"
+  height="520"
+  frameborder="0"
+  scrolling="no"
+  style="border:0;">
+</iframe>
+]
 ---
 
 class: inverse, middle
