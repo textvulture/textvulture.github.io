@@ -376,9 +376,11 @@ background-size: 100%
 --
 
 
-## - .pink[undeniable] improvement in human security areas
---
+## - New Challenges: privatization of military power
 
- 
-  - .Large[ `r fa('radio', fill='orange')` mass media effect?]
+---
+
+# Power for Hire
+
+<iframe>src="https://youtu.be/6LaSD8oFBZE?si=D7aMhiqrUFWHr3FM"</iframe>
 
