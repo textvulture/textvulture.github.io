@@ -29,7 +29,6 @@ beforeInit: "css/macros.js"
 
 ```{r setup, include=FALSE}
 # to use FontAwesome
-#htmltools::tagList(rmarkdown::html_dependency_font_awesome())
 library(dplyr)
 library(tidyr)
 library(fs)
@@ -39,13 +38,13 @@ library(ggplot2)
 library(WDI)
 knitr::opts_chunk$set(warning = FALSE, message = FALSE, error=F, echo=F)
 options(htmltools.preserve.raw = FALSE)
-library(xaringancolor)
-setup_colors(
-  red = "red",
-  green = "green",
-  blue = "blue",
-  yellow = "yellow"
-)
+# library(xaringancolor)
+# setup_colors(
+#   red = "red",
+#   green = "green",
+#   blue = "blue",
+#   yellow = "yellow"
+# )
 
 ```
 
@@ -382,5 +381,32 @@ background-size: 100%
 
 # Power for Hire
 
-<iframe>src="https://youtu.be/6LaSD8oFBZE?si=D7aMhiqrUFWHr3FM"</iframe>
+<iframe width="980" height="500" src="https://www.youtube.com/embed/6LaSD8oFBZE?si=YEuJoSKib6FiLwg1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+---
+
+.full-width-blue[
+# The Consequence .tiny[(Akcinaroglu & Radziszewski 2013)]]
+
+
+--
+<br>
+.pull-left[
+### - What happens when .orange[PMC]s are brought in to deal with .pink[rebels]?
+
+### - Sub-Saharan African States
+
+### - p(civill war termination)
+
+### - *do you have a .green[resource] deal?*
+]
+
+
+.pull-right[
+```{r, fig.align='center'}
+
+knitr::include_graphics('https://github.com/textvulture/textvulture.github.io/blob/master/images/pmc2013.png?raw=true')
+
+```
+]
 
