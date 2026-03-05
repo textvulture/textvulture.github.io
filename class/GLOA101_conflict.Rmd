@@ -339,13 +339,13 @@ wdi %>%
 
 ---
 
-# **Human Security**: Maritime Piracy <br> .tiny[graph source: Open Earth Future]
+# **Human Security**: Maritime Piracy (2025) <br> .tiny[graph source: International Commercial Crime Services]
 
 --
 
-```{r, fig.align='center', out.width="650px"}
+```{r, fig.align='center'}
 
-knitr::include_graphics('https://oneearthfuture.org/sites/default/files/piracy-trends.jpg')
+knitr::include_graphics('https://github.com/textvulture/textvulture.github.io/blob/master/images/pirates.png?raw=true')
 
 ```
 
