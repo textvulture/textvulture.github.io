@@ -12,7 +12,7 @@ output:
     nature:
       ratio: '16:9'
       highlightStyle: github
-      self-contained: TRUE
+      self-contained: false
   chakra: css/libs/remark-latest.min.js
 css: ["default", 
       "css/footer.css", 
@@ -75,9 +75,124 @@ knitr::include_graphics('qrAAPI2026.png')
 
 ```
 
+---
 
+class: inverse, center, middle
+background-image: url(https://github.com/textvulture/textvulture.github.io/blob/master/images/forestBackground.jpg?raw=true)
+background-size: 100%
 
+# .huge[**Stuff We Talk About**]
 
+--
 
+# K-pop Fans in the United States: A Data-Driven Approach
 
 ---
+
+class: inverse, center, middle
+background-image: url(https://github.com/textvulture/textvulture.github.io/blob/master/images/forestBackground.jpg?raw=true)
+background-size: 100%
+
+# .huge[**Stuff We Talk About**]
+
+# K-pop Fans .yellow[in the United States]: A Data-Driven Approach
+
+---
+
+class: inverse, center, middle
+background-image: url(https://github.com/textvulture/textvulture.github.io/blob/master/images/forestBackground.jpg?raw=true)
+background-size: 100%
+
+# .huge[**Stuff We Talk About**]
+
+# .yellow[K-pop Fans] in the United States: A Data-Driven Approach
+
+---
+
+class: inverse, center, middle
+background-image: url(https://github.com/textvulture/textvulture.github.io/blob/master/images/forestBackground.jpg?raw=true)
+background-size: 100%
+
+# .huge[Stuff We Talk About]
+
+# K-pop Fans in the United States: .yellow[A Data-Driven Approach]
+
+---
+.full-width-yellow[
+# The Big Questions
+]
+
+<br>
+<br>
+--
+
+# 1. How do fans perceive K-pop? Something .Blue[exotic] and .pink[weird]?
+
+--
+
+# 2. Does K-pop have any .orange[real-world] impact on fans?
+
+--
+
+# 3. What do .red[non-fans] think of this?
+
+---
+
+.full-width-yellow[
+# Based on four papers
+]
+<br>
+--
+
+### - Kim & Son. 2026. "Beyond the Hype: Fans' fascination and reservations about K-pop," Presented at Eastern Sociological Association Annual Meeting. Washington DC. <br> .white[.]
+
+--
+
+
+### - Kim & Son. 2025. "K-pop Fan Perceptions and Negotiation of Alternative Forms of Masculinities," *Journal of Men's Studies*, Forthcoming. <br> .white[.]
+
+--
+
+### - Son & Kim. 2025. "Contours of Fandom Political Activism," Under-Review. <br> .white[.]
+
+--
+
+### - Son. 2024. "Foreign Pop Culture and Backlash: the case of non-fan K-pop Subreddits during the pandemic," *Journal of Cultural Economics*, 48 (1): 117-143. 
+
+---
+
+background-image: url(https://media1.giphy.com/media/v1.Y2lkPTZjMDliOTUyaHAxYXAwd3A3ZDRqdjM5djZnYWU5aWl2dHJ5dDY0MHVuOXM1eTNlYSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/64aBXTVfd90zyUH2da/giphy.gif)
+background-position: center
+background-size: contain
+
+---
+
+.full-width-green[
+# I said .yellow[data]. But what kind of data?
+]
+<br>
+--
+
+.content-box-red[
+### Online Survey (N = 920)
+- .large[Conducted via Qualtrics between 2020 and 2021 (/w multiple validity checks)]
+- .large[Initial sample: 1710 participants age 17+; 920 were U.S. residents]
+]
+--
+
+.content-box-blue[
+### In-depth Interviews (N = 110)
+- .large[Conducted in two phases:].Large[Phase 1: (2020–2021); Phase 2: (2022–2023)]
+- .large[Interviews ranged from 30 minutes to 3 hours; .purple[semi-structured]]]
+
+--
+
+.content-box-yellow[
+### Sub-reddit posts text (N $\approx$ 2.5k )
+- .large[r/WeHateKpop and r/Cringetopia]]
+
+---
+
+# The likes and dislikes
+
+
