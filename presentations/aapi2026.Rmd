@@ -12,7 +12,7 @@ output:
     nature:
       ratio: '16:9'
       highlightStyle: github
-      self-contained: true
+      self-contained: false
   chakra: css/libs/remark-latest.min.js
 css: ["default", 
       "css/footer.css", 
@@ -113,7 +113,7 @@ class: inverse, center, middle
 background-image: url(https://github.com/textvulture/textvulture.github.io/blob/master/images/forestBackground.jpg?raw=true)
 background-size: 100%
 
-# .huge[Stuff We Talk About]
+# .huge[**Stuff We Talk About**]
 
 # K-pop Fans in the United States: .yellow[A Data-Driven Approach]
 
@@ -130,11 +130,11 @@ background-size: 100%
 
 --
 
-# 2. Does K-pop have any .orange[real-world] impact on fans?
+# 2. What do .red[non-fans] think of this?
 
 --
 
-# 3. What do .red[non-fans] think of this?
+# 3. Does K-pop have any .orange[real-world] impact on fans?
 
 ---
 
@@ -657,11 +657,12 @@ background-image: url(https://media3.giphy.com/media/v1.Y2lkPTZjMDliOTUyODlwaGpk
 background-size: contain
 background-position: right
 
-# .hl2[Takeaways]
+# .hl2[Takeaway]
 
 --
 
 ## - K-pop fandom is real.
+  - .large[the limits of <br>'pop-culture as soft power']
 
 --
 
