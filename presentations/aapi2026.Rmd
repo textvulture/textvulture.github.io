@@ -51,5 +51,33 @@ background-size: 20%
 
 ## .right[Byunghwan Ben Son <br> .tiny[(Associate Professor, GLOA, GMU)]]
 
+---
+
+
+# Before we start:
+
+### The slides are completely .pink[online] and you can easily access it.
+
+```{r, echo=F, include=F}
+
+# library(qrcode)
+# 
+# png(file="qrAAPI2026.png")
+# qr <- qr_code("https://textvulture.github.io/presentations/aapi2026.htm")
+# plot(qr)
+# dev.off()
+
+```
+
+```{r, fig.align='center', out.width="400px"}
+
+knitr::include_graphics('qrAAPI2026.png')
+
+```
+
+
+
+
+
 
 ---
