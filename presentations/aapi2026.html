@@ -7,6 +7,11 @@
     <script src="aapi2026_files/header-attrs-2.30/header-attrs.js"></script>
     <link href="aapi2026_files/remark-css-0.0.1/default.css" rel="stylesheet" />
     <link href="aapi2026_files/remark-css-0.0.1/default-fonts.css" rel="stylesheet" />
+    <link href="aapi2026_files/htmltools-fill-0.5.9/fill.css" rel="stylesheet" />
+    <script src="aapi2026_files/htmlwidgets-1.6.4/htmlwidgets.js"></script>
+    <script src="aapi2026_files/viz-1.8.2/viz.js"></script>
+    <link href="aapi2026_files/DiagrammeR-styles-0.2/styles.css" rel="stylesheet" />
+    <script src="aapi2026_files/grViz-binding-1.0.11/grViz.js"></script>
     <link rel="stylesheet" href="default" type="text/css" />
     <link rel="stylesheet" href="css/footer.css" type="text/css" />
     <link rel="stylesheet" href="css/color.css" type="text/css" />
@@ -159,7 +164,382 @@ background-size: contain
 
 ---
 
-# The likes and dislikes
+class: inverse, center
+background-image: url(https://miro.medium.com/v2/resize:fit:1000/0*l2ug-goAfVBRS54J.gif)
+background-color: black
+background-size: 100%
+
+# .LARGE[**.yellow[Why] are they attracted to K-pop?**]
+
+---
+
+# The likes and dislikes .tiny[(interview data, multiple answers)]
+
+.pull-left[
+![](https://github.com/textvulture/textvulture.github.io/blob/master/images/likefig.png?raw=true)
+]
+
+--
+
+.pull-right[
+![](https://github.com/textvulture/textvulture.github.io/blob/master/images/disfig.png?raw=true)
+]
+
+---
+
+.full-width-blue[
+# But the struggle is real.
+]
+--
+&lt;br&gt;
+.pull-left[
+### .blue[**Fans:**] &lt;br&gt;K-pop is high-quality music/performance.
+
+&lt;img src="https://i0.wp.com/foolishwatcher.com/wp-content/uploads/2025/03/the-office-thumbs-up-scotts-tots-yep.gif?fit=500%2C282&amp;ssl=1" alt="" width="110%" /&gt;
+]
+--
+
+.pull-right[
+### .red[**non-Fans:**] &lt;br&gt;Gay-pop; weird foreign culture
+
+&lt;img src="https://media0.giphy.com/media/KOUp2nbwHm7vy/giphy.gif" alt="" width="110%" /&gt;
+
+
+]
+
+---
+
+class: inverse, bottom
+background-image: url(https://github.com/textvulture/textvulture.github.io/blob/master/images/forestBackground4.jpg?raw=true)
+background-size: 100%
+
+# Does everybody accept K-pop (and its uniqueness)?
+
+--
+
+# After all, it's a .yellow[foreign] culture. What do those who are .pink[not fans] of K-pop think?
+
+
+---
+
+# How .orange[backlash] would come along upon .green[good news] on Korea
+
+
+<div class="grViz html-widget html-fill-item" id="htmlwidget-eff4e2c8028b9a026250" style="width:80%;height:504px;"></div>
+<script type="application/json" data-for="htmlwidget-eff4e2c8028b9a026250">{"x":{"diagram":"\ndigraph simple {\n\n  graph [\n    layout  = dot,\n    rankdir = LR,   // top → bottom\n    ranksep = 0.75,  // vertical spacing\n#    nodesep = 3   // horizontal spacing\n  ]\n\n  node [shape = circle, \n        style = filled, \n        fixsize = true,\n        width = 2,\n        fillcolor = \"#f7f7f7\",\n        fontsize = 20, fontname = \"Helvetica\"]\n\n  a [\n      label = \"Positive Portrayal\\nof Korea\",\n      fillcolor = \"#65E0F0\"\n      ]\n  b [label = \"K-pop\"]\n  c [\n      label = \"Pre-formed\\nNegative Image\\nof Korea\",\n      fillcolor = \"#F0658A\"\n      ]\n  d [\n      label = \"Backlash\",\n      fontsize = 25\n  ]\n  \n  a -> c\n  b -> c\n  c -> d\n\n \n  { rank = same; a; b }\n  \n}\n","config":{"engine":"dot","options":null}},"evals":[],"jsHooks":[]}</script>
+  
+---
+
+# Covid-19 News: .Blue['Korea was competent!'] (US news coverage)  
+
+--
+
+![](aapi2026_files/figure-html/unnamed-chunk-6-1.png)&lt;!-- --&gt;
+
+---
+
+
+background-image: url(kpopimages/subreddit_eg.png)
+background-size: contain
+background-position: right
+
+# Two (Sub)Reddits
+
+## - r/WeHateKpop (now defunct)
+
+## - r/Cringetopia
+
+--
+
+### Very likely this is .ornage[all] they know about Korea.
+
+--
+
+### K-pop skepticism = Korea skepticism
+
+--
+
+### Almost all posts are skepticism of K-pop and fans: &lt;br&gt; .purple[number of posts] = .green[strength of backlash]
+
+
+---
+
+.full-width-brown[
+## r/WeHateKpop: the effect of Pandemic News on Backlash&lt;br&gt; .tiny[(interrupted time-series analysis)]
+]
+&lt;br&gt;
+--
+
+&lt;img src="kpopimages/jce1.png" alt="" width="75%" style="display: block; margin: auto;" /&gt;
+
+
+---
+
+class: inverse, center, middle
+background-image: url(https://github.com/textvulture/textvulture.github.io/blob/master/images/forestBackground3.jpg?raw=true)
+background-size: 120%
+
+# .LARGE[But would that be a function of a different factor such as .yellow[anti-Asian racism] during the pandemic?]
+
+--
+
+## .bluey[If only there's some Asian topic not connected to K-pop...]
+
+---
+
+.full-width-brown[
+## r/Cringetopia: .bluey[K-pop] posts compared to .pink[China] posts .tiny[(Difference-in-Difference model)]
+]
+&lt;br&gt;
+--
+
+
+&lt;img src="kpopimages/jce2.png" alt="" width="75%" style="display: block; margin: auto;" /&gt;
+
+
+---
+
+# fan stigma - masculinity
+
+---
+
+background-image: url(kpopimages/gender.jpg)
+background-position: right
+background-size: 60%
+
+
+# .hl1[Fans push back]:
+
+--
+
+### - K-pop masculinity .purple[unique]
+
+--
+
+### - .green[normalization] of soft masculinty
+
+--
+
+### - .pink[Negotiating] the stigma
+
+---
+class: inverse, bottom
+background-image: url(https://media1.giphy.com/media/v1.Y2lkPTZjMDliOTUyOHl6Y21ubGpheHMwcW5kc2Z6dmI0NDRoN3Bkd2VsYWswd3VkcXA4aCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/l0ErKpKOIQgOgdaXS/200w.gif)
+background-size: 100%
+
+# .LARGE[**Beyond just being a fan.**]
+
+---
+
+
+background-image: url(https://s.france24.com/media/display/25804858-7aa7-11eb-8401-005056bf87d6/w:1280/p:3x4/MilkTea.jpg)
+background-position: right
+background-size: contain
+
+--
+
+# <svg aria-hidden="true" role="img" viewBox="0 0 448 512" style="height:1em;width:0.88em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:red;overflow:visible;position:relative;"><path d="M144 64c0-8.8 7.2-16 16-16s16 7.2 16 16c0 9.1 5.1 17.4 13.3 21.5s17.9 3.2 25.1-2.3c2.7-2 6-3.2 9.6-3.2c8.8 0 16 7.2 16 16c0 9.1 5.1 17.4 13.3 21.5s17.9 3.2 25.1-2.3c2.7-2 6-3.2 9.6-3.2c8.8 0 16 7.2 16 16c0 9.1 5.1 17.4 13.3 21.5s17.9 3.2 25.1-2.3c2.7-2 6-3.2 9.6-3.2c8.8 0 16 7.2 16 16V264c0 31.3-20 58-48 67.9c-9.6 3.4-16 12.5-16 22.6V488c0 13.3 10.7 24 24 24s24-10.7 24-24V370.2c38-20.1 64-60.1 64-106.2V160c0-35.3-28.7-64-64-64c-2.8 0-5.6 .2-8.3 .5C332.8 77.1 311.9 64 288 64c-2.8 0-5.6 .2-8.3 .5C268.8 45.1 247.9 32 224 32c-2.8 0-5.6 .2-8.3 .5C204.8 13.1 183.9 0 160 0C124.7 0 96 28.7 96 64v64.3c-11.7 7.4-22.5 16.4-32 26.9l17.8 16.1L64 155.2l-9.4 10.5C40 181.8 32 202.8 32 224.6v12.8c0 49.6 24.2 96.1 64.8 124.5l13.8-19.7L96.8 361.9l8.9 6.2c6.9 4.8 14.4 8.6 22.3 11.3V488c0 13.3 10.7 24 24 24s24-10.7 24-24V359.9c0-12.6-9.8-23.1-22.4-23.9c-7.3-.5-14.3-2.9-20.3-7.1l-13.1 18.7 13.1-18.7-8.9-6.2C96.6 303.1 80 271.3 80 237.4V224.6c0-9.9 3.7-19.4 10.3-26.8l9.4-10.5c3.8-4.2 7.9-8.1 12.3-11.6V208c0 8.8 7.2 16 16 16s16-7.2 16-16V142.3 128 64z"/></svg> K-pop fans &amp; youth activism
+
+--
+
+## - Milktea Alliance in SE Asia
+
+--
+
+## - Chilean youth protests 
+
+--
+
+## - S. Korean anti-insurrection protest
+
+--
+
+# <svg aria-hidden="true" role="img" viewBox="0 0 512 512" style="height:1em;width:1em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:blue;overflow:visible;position:relative;"><path d="M448 128l-177.6 0c1 5.2 1.6 10.5 1.6 16l0 16 32 0 144 0c8.8 0 16-7.2 16-16s-7.2-16-16-16zM224 144c0-17.7-14.3-32-32-32c0 0 0 0 0 0l-24 0c-66.3 0-120 53.7-120 120l0 48c0 52.5 33.7 97.1 80.7 113.4c-.5-3.1-.7-6.2-.7-9.4c0-20 9.2-37.9 23.6-49.7c-4.9-9-7.6-19.4-7.6-30.3c0-15.1 5.3-29 14-40c-8.8-11-14-24.9-14-40l0-40c0-13.3 10.7-24 24-24s24 10.7 24 24l0 40c0 8.8 7.2 16 16 16s16-7.2 16-16l0-40 0-40zM192 64s0 0 0 0c18 0 34.6 6 48 16l208 0c35.3 0 64 28.7 64 64s-28.7 64-64 64l-82 0c1.3 5.1 2 10.5 2 16c0 25.3-14.7 47.2-36 57.6c2.6 7 4 14.5 4 22.4c0 20-9.2 37.9-23.6 49.7c4.9 9 7.6 19.4 7.6 30.3c0 35.3-28.7 64-64 64l-64 0-24 0C75.2 448 0 372.8 0 280l0-48C0 139.2 75.2 64 168 64l24 0zm64 336c8.8 0 16-7.2 16-16s-7.2-16-16-16l-48 0-16 0c-8.8 0-16 7.2-16 16s7.2 16 16 16l64 0zm16-176c0 5.5-.7 10.9-2 16l2 0 32 0c8.8 0 16-7.2 16-16s-7.2-16-16-16l-32 0 0 16zm-24 64l-40 0c-8.8 0-16 7.2-16 16s7.2 16 16 16l48 0 16 0c8.8 0 16-7.2 16-16s-7.2-16-16-16l-24 0z"/></svg>  Does K-pop fandom drive &lt;br&gt; .pink[youth political participation]?
+
+
+---
+
+class: inverse, middle
+background-image: url(https://github.com/textvulture/textvulture.github.io/blob/master/images/forestBackground3.jpg?raw=true)
+
+# This is an important question.
+
+--
+
+# Youth politics literature:
+
+## - Young people hate .pink[politics] and don't want to be .Green[associated] with it.
+
+--
+
+## - Fans only care about .bluey[non-political] social engagement.
+
+--
+
+# *Is K-pop .yellow[different]? How (much)?*
+
+---
+
+background-image: url(kpopimages/KpopTheory.png)
+background-position: right
+background-size: contain
+
+# **The big idea**
+
+--
+
+## - Fandom is not monolithic.
+
+--
+
+## - 'What K-pop means to you' matters.
+
+--
+
+## - The broader the perception,&lt;br&gt; the more .red[tolerant] of &lt;br&gt;fellow fans' political engagement &lt;br&gt;.purple[in the name of K-pop fans].
+
+---
+
+.full-width-blue[
+# Two Political Events where the Fandom was Involved
+]
+&lt;br&gt;
+--
+
+.pull-left[
+.Large[**Partisan**: Tulsa Rally Prank]
+![](https://images.pexels.com/photos/15672731/pexels-photo-15672731/free-photo-of-soccer-stadium-stands.jpeg)
+]
+
+--
+
+.pull-right[
+.Large[**Less Partisan**: BTS-BLM]
+![](https://pbs.twimg.com/media/EaARHEUU8AIpZRz.jpg)
+]
+---
+
+.full-width-blue[
+# Argument
+]
+&lt;br&gt;&lt;br&gt;
+--
+
+.content-box-red[
+## 1: Fans who perceive K-pop as transcending entertainment are more likely to support fandom political activism than others.
+]
+
+--
+
+.content-box-green[
+## 2: This relationship is weaker for highly partisan events (Tulsa prank vs.BLM) -- *'there's a limit to it.'*
+]
+
+---
+
+.full-width-blue[
+# Data and Operationalization (survey)
+]
+&lt;br&gt;&lt;br&gt;
+--
+
+## - same data (survey + interview)
+
+--
+
+## Key Variables (survey):
+- .Large[**Outcome**: .red[Support] for fandom activism. Ordered (4 choices)]
+- .Large[**Predictor**: Perceived .red[scope] of K-pop. A factor variable (`factor`)]
+
+--
+
+## Method: ordered logit (survey)
+
+&lt;span style="font-size: 180%;"&gt;
+$$
+Attitude_k^i = \color{red}{\mathbf{\beta_1}}Effect_k^i + \mathbf{X} + ϵ_k^i
+$$
+&lt;/span&gt;
+
+
+---
+
+background-image: url(kpopimages/BLM_Tulsa.png)
+background-size: contain
+background-position: right
+
+# Survey:
+
+## Kpop Fans' &lt;br&gt; Political Engagement: &lt;br&gt; .purple[what do you think?] &lt;br&gt; (outcome variable)
+
+---
+
+background-image: url(kpopimages/effect_ologit.png)
+background-size: 80%
+background-position: bottom
+
+# Survey: ordered logit results (probabilities)
+
+---
+
+background-image: url(kpopimages/positions.png)
+background-size: 60%
+background-position: bottom
+
+# Interview: .tiny[do you support the fandom's political engagement?]
+
+---
+
+background-image: url(kpopimages/reason.png)
+background-size: contain
+background-position: right
+
+# Why? (overall)
+
+
+---
+
+.full-width-blue[
+# Findings
+]
+&lt;br&gt;
+--
+
+
+## - Fan perceptions of K-pop shape attitudes toward activism are .green[diverse].
+
+--
+
+## - Political engagement is not universally accepted within fandom, though the (.Blue[passive]) support is generally quite strong.
+
+--
+
+## - Higher .purple[partisanship] (i.e., more 'political') ⇒ lower endorsement of activism.
+
+--
+
+## - K-pop in itself might .red[not] be the key driver of youth political activism.
+
+---
+
+background-image: url(https://media3.giphy.com/media/v1.Y2lkPTZjMDliOTUyODlwaGpkcHoxa3BtajI0MmlqazJsZ25mNWQ2aXViejV6NHpsbnp3dSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/oOOeOODsCmAPC/giphy-downsized-large.gif)
+background-size: contain
+background-position: right
+
+# .hl2[Takeaways]
+
+--
+
+## - K-pop fandom is real.
+
+--
+
+## - So is backlash.
+
+--
+
+## - Fandom activism is also real, &lt;br&gt; but doesn't mean 'politics.'
+
 
 
     </textarea>
@@ -168,7 +548,7 @@ background-size: contain
 <script>var slideshow = remark.create({
   "ratio": "16:9",
   "highlightStyle": "github",
-  "self-contained": false
+  "self-contained": true
 });
 if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
   window.dispatchEvent(new Event('resize'));
