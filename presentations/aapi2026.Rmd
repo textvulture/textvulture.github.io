@@ -78,7 +78,7 @@ knitr::include_graphics('qrAAPI2026.png')
 ---
 
 class: inverse, center, middle
-background-image: url(https://github.com/textvulture/textvulture.github.io/blob/master/images/forestBackground.jpg?raw=true)
+background-image: url(https://raw.githubusercontent.com/textvulture/textvulture.github.io/refs/heads/master/images/forestBackground.jpg)
 background-size: 100%
 
 # .huge[**Stuff We Talk About**]
@@ -90,7 +90,7 @@ background-size: 100%
 ---
 
 class: inverse, center, middle
-background-image: url(https://github.com/textvulture/textvulture.github.io/blob/master/images/forestBackground.jpg?raw=true)
+background-image: url(https://raw.githubusercontent.com/textvulture/textvulture.github.io/refs/heads/master/images/forestBackground.jpg)
 background-size: 100%
 
 # .huge[**Stuff We Talk About**]
@@ -100,7 +100,7 @@ background-size: 100%
 ---
 
 class: inverse, center, middle
-background-image: url(https://github.com/textvulture/textvulture.github.io/blob/master/images/forestBackground.jpg?raw=true)
+background-image: url(https://raw.githubusercontent.com/textvulture/textvulture.github.io/refs/heads/master/images/forestBackground.jpg)
 background-size: 100%
 
 # .huge[**Stuff We Talk About**]
@@ -110,7 +110,7 @@ background-size: 100%
 ---
 
 class: inverse, center, middle
-background-image: url(https://github.com/textvulture/textvulture.github.io/blob/master/images/forestBackground.jpg?raw=true)
+background-image: url(https://raw.githubusercontent.com/textvulture/textvulture.github.io/refs/heads/master/images/forestBackground.jpg)
 background-size: 100%
 
 # .huge[**Stuff We Talk About**]
@@ -205,13 +205,13 @@ background-size: 100%
 # The likes and dislikes .tiny[(interview data, multiple answers)]
 
 .pull-left[
-![](https://github.com/textvulture/textvulture.github.io/blob/master/images/likefig.png?raw=true)
+![](https://raw.githubusercontent.com/textvulture/textvulture.github.io/refs/heads/master/images/likefig.png)
 ]
 
 --
 
 .pull-right[
-![](https://github.com/textvulture/textvulture.github.io/blob/master/images/disfig.png?raw=true)
+![](https://raw.githubusercontent.com/textvulture/textvulture.github.io/refs/heads/master/images/disfig.png)
 ]
 
 ---
@@ -243,7 +243,7 @@ knitr::include_graphics('https://media0.giphy.com/media/KOUp2nbwHm7vy/giphy.gif'
 ---
 
 class: inverse, bottom
-background-image: url(https://github.com/textvulture/textvulture.github.io/blob/master/images/forestBackground4.jpg?raw=true)
+background-image: url(https://raw.githubusercontent.com/textvulture/textvulture.github.io/refs/heads/master/images/forestBackground4.jpg)
 background-size: 100%
 
 # Does everybody accept K-pop (and its uniqueness)?
@@ -403,7 +403,7 @@ knitr::include_graphics('kpopimages/jce1.png')
 ---
 
 class: inverse, center, middle
-background-image: url(https://github.com/textvulture/textvulture.github.io/blob/master/images/forestBackground3.jpg?raw=true)
+background-image: url(https://raw.githubusercontent.com/textvulture/textvulture.github.io/refs/heads/master/images/forestBackground3.jpg)
 background-size: 120%
 
 # .LARGE[But would that be a function of a different factor such as .yellow[anti-Asian racism] during the pandemic?]
@@ -491,7 +491,7 @@ background-size: contain
 ---
 
 class: inverse, middle
-background-image: url(https://github.com/textvulture/textvulture.github.io/blob/master/images/forestBackground3.jpg?raw=true)
+background-image: url(https://raw.githubusercontent.com/textvulture/textvulture.github.io/refs/heads/master/images/forestBackground2.jpg)
 
 # This is an important question.
 
