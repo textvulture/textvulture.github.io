@@ -13,7 +13,7 @@ output:
       beforeInit: "https://platform.twitter.com/widgets.js"
       ratio: '16:9'
       highlightStyle: github
-  #    self-contained: TRUE
+      self-contained: false
   chakra: css/libs/remark-latest.min.js
 css: ["default", 
       "css/footer.css", 
