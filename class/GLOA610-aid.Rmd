@@ -78,10 +78,11 @@ To seek another’s profit<br>
 And work another’s gain* <br><br>...]
 
 ---
-<div class="full-width-tinted"><br>
-  <h1> .Large[What do people .yellow[say] about foreign aid?] </h1>
-</div><br><br>
 
+.full-width-blue[
+## What do people .yellow[say] about foreign aid?
+]
+<br>
 --
 
 .column[
@@ -110,7 +111,7 @@ knitr::include_graphics("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ
 ---
 
 class: inverse, middle
-background-image: url(https://github.com/textvulture/textvulture.github.io/blob/master/images/forestBackground2.jpg?raw=true)
+background-image: url(https://raw.githubusercontent.com/textvulture/textvulture.github.io/refs/heads/master/images/forestBackground2.jpg)
 background-size: 100%
 background-color: black
 
@@ -137,10 +138,7 @@ background-size: 100%
 # .Large[The .pink['trap'] thesis (1): <br>.yellow[Have developing countries been increasingly dependent on aid?]]
 
 ---
-
-<div class="full-width-tinted"><br>
-  <h1> .large[How much: Aid per capita (.yellow[GDPpc<5k])] </h1>
-</div><br><br>
+# How much: Aid per capita (.pink[GDPpc<5k])
 
 --
 
@@ -194,11 +192,7 @@ wdi2 %>%
 ```
 
 ---
-
-
-<div class="full-width-tinted"><br>
-  <h1> .large[Aid dependency? .pink[Aid/GNI], % (GDPpc<5k)] </h1>
-</div><br><br><br>
+# Aid dependency? .pink[Aid/GNI], % (GDPpc<5k)
 
 --
 
@@ -224,15 +218,13 @@ wdi2 %>%
 ---
 
 class: inverse, middle
-background-image: url(https://github.com/textvulture/textvulture.github.io/blob/master/images/night_background4.jpg?raw=true)
+background-image: url(https://raw.githubusercontent.com/textvulture/textvulture.github.io/refs/heads/master/images/night_background4.jpg
 background-size: 100%
 
 # .Large[The .pink['trap'] thesis (2): <br>.yellow[Has aid suppressed development in poor countries?]]
 ---
 
-<div class="full-width-tinted"><br>
-  <h1> .large[Aid/GNI and development] </h1>
-</div><br><br><br>
+# Aid/GNI and development
 
 --
 
@@ -250,7 +242,7 @@ wdi2 %>%
     geom_point(alpha=0.55, size=1) +
     labs(x="Aid per capita",
        y="GDP per capita") +
-      theme_minimal() +
+      theme_minimal(base_size = 12) +
   theme(legend.title = element_blank()) +
   theme(legend.text = element_text(size=13),
         axis.text=element_text(size=15),
@@ -309,7 +301,7 @@ Source: New York Times
 
 ---
 
-background-image: url(https://github.com/textvulture/textvulture.github.io/blob/master/images/Baker2015_app.png?raw=true)
+background-image: url(https://raw.githubusercontent.com/textvulture/textvulture.github.io/refs/heads/master/images/Baker2015_app.png)
 background-position: right
 background-size: contain
 
@@ -340,7 +332,7 @@ background-size: 100%
 ---
 
 class: inverse
-background-image: url(https://github.com/textvulture/textvulture.github.io/blob/master/images/wayBackground.jpg?raw=true)
+background-image: url(https://raw.githubusercontent.com/textvulture/textvulture.github.io/refs/heads/master/images/wayBackground.jpg)
 background-position: right
 background-size: 100%
 
@@ -365,21 +357,21 @@ background-size: 100%
 
 ```{r, cache=T, fig.align='center', out.width="700px"}
 
-knitr::include_graphics("https://github.com/textvulture/textvulture.github.io/blob/master/images/Andersen2020.JPG?raw=true")
+knitr::include_graphics("https://raw.githubusercontent.com/textvulture/textvulture.github.io/refs/heads/master/images/Andersen2020.JPG")
 
 ```
 
 ---
 
 class: center, middle, inverse
-background-image: url(https://github.com/textvulture/textvulture.github.io/blob/master/images/wayBackground2.jpg?raw=true)
+background-image: url(https://raw.githubusercontent.com/textvulture/textvulture.github.io/refs/heads/master/images/wayBackground2.jpg)
 
 # .Large[Modern aid research reveals more complicated stories.]
 
 ---
 
 class: center, middle, inverse
-background-image: url(https://github.com/textvulture/textvulture.github.io/blob/master/images/waveBackground3.jpg?raw=true)
+background-image: url(https://raw.githubusercontent.com/textvulture/textvulture.github.io/refs/heads/master/images/waveBackground3.jpg)
 background-size: 100%
 
 # .large[If it is all because of free money,]
@@ -395,7 +387,7 @@ background-size: 100%
 ---
 
 
-background-image: url(https://github.com/textvulture/textvulture.github.io/blob/master/images/Williams2018.JPG?raw=true)
+background-image: url(https://raw.githubusercontent.com/textvulture/textvulture.github.io/refs/heads/master/images/Williams2018.JPG)
 background-position: right
 background-size: contain
 
@@ -417,7 +409,7 @@ class: middle
 ---
 
 class: middle
-background-image: url(https://github.com/textvulture/textvulture.github.io/blob/master/images/Sexton2023.JPG?raw=true)
+background-image: url(https://raw.githubusercontent.com/textvulture/textvulture.github.io/refs/heads/master/images/Sexton2023.JPG)
 background-position: right
 
 # **Can aid bring about <br>.pink[peace] & .green[long-term development] <br>("heart and mind")?**
