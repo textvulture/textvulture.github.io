@@ -1,0 +1,209 @@
+---
+title: "GLOA101"
+author: "Byunghwan Son <br> George Mason University"
+date: " "
+#########################################
+linkcolor: red
+citecolor: blue
+urlcolor: blueß
+output: 
+  xaringan::moon_reader:
+    seal: false
+    nature:
+      beforeInit: "https://platform.twitter.com/widgets.js"
+      ratio: '16:9'
+      highlightStyle: github
+      self-contained: false
+  chakra: css/libs/remark-latest.min.js
+css: ["default", 
+      "css/footer.css", 
+      "css/color.css", 
+      # "css/xaringan-themer.css",
+      default-fonts]
+lib_dir: css/libs
+beforeInit: "css/macros.js"
+# seal: false  
+#bibliography: /Users/bson3/Dropbox/latex/mybib2.bib
+#remotes::install_github('yihui/xaringan', upgrade = TRUE)
+---
+
+```{r setup, include=FALSE}
+# to use FontAwesome
+library(dplyr)
+library(tidyr)
+library(fs)
+library(fontawesome)
+# library(magick)  
+library(ggplot2)
+library(WDI)
+knitr::opts_chunk$set(warning = FALSE, message = FALSE, error=F, echo=F)
+options(htmltools.preserve.raw = FALSE)
+# library(xaringancolor)
+# setup_colors(
+#   red = "red",
+#   green = "green",
+#   blue = "blue",
+#   yellow = "yellow"
+# )
+
+```
+
+class: inverse, center, middle
+background-image: url(https://www.cognyte.com/wp-content/uploads/2025/05/Transnational_Crime_1200x630.png)
+background-size: 115%
+# .Huge[Global Crimes & Terrorism]
+
+### GLOA 101
+
+---
+
+.full-width-blue[
+# Transnational Organized Crimes (TOCs) .tiny[UNODC]]
+<br>
+--
+
+### 💊 Drug trafficking
+###	🌳 Illegal logging & narco-deforestation
+###	💻 Cybercrime
+###	👥 Human trafficking
+###	🔫 Firearms trafficking
+###	⛏️ Critical minerals trafficking
+### + ☠️ Maritime Piracy
+---
+
+.full-width-blue[
+# Transnational Organized Crimes (TOCs) .tiny[UNODC]]
+<br>
+--
+
+### .hl1[💊 Drug trafficking]
+###	.hl1[🌳 Illegal logging & narco-deforestation]
+###	💻 Cybercrime
+###	.hl1[👥 Human trafficking]
+###	.hl1[🔫 Firearms trafficking]
+###	⛏️ Critical minerals trafficking
+### .hl1[+ ☠️ Maritime Piracy]
+
+---
+
+class: middle, center, inverse
+background-image: url(https://www.adb.org/sites/default/files/styles/content_media/public/content-media/7763-human-trafficking.jpg?itok=MSvBYONb)
+background-size: contain
+
+# .Huge[**.yellow[Human Trafficking]**]
+
+
+---
+
+.full-width-blue[
+# Understanding Human Trafficking
+]
+<br>
+
+--
+
+- .LARGE[🔑 .hl2[Definition]]
+	- .Large[Exploitation of people for labor or commercial sex]
+	- .Large[Conducted through:	Force; Fraud;	Coercion]
+
+--
+
+- .LARGE[⚖️ .hl2[Two Main Types]]
+	-	.Large[Sex trafficking]
+	-	.Large[Labor trafficking: .house servitude; construction; hacking]
+
+--
+
+-  .LARGE[🧩 .hl2[Core Framework (3 Elements)]]
+	1.	.Large[Acts: recruit, transport, harbor, obtain]
+	2.	.Large[Means: force, fraud, coercion (e.g., thru debt)]
+	3.	.Large[Purpose: exploitation]
+	
+---
+
+class: inverse
+background-image: url(https://www.imf.org/external/pubs/ft/fandd/2018/09/images/092018/caballero-chart1-lg.jpg)
+background-position: right
+background-size: contain
+
+# **Origins**
+
+--
+
+## - Asia-Pacific the largest 'supplier'
+
+--
+
+## - European 'periphery'
+
+--
+
+## - fewer from the rest (cost)
+
+--
+
+## - language barrier; <br>kinship network
+
+---
+
+class: top, right
+background-image: url(https://op.europa.eu/webpub/eca/special-reports/human-trafficking-09-2017/img/GR02_EN.png)
+background-size: 95%
+
+- .blue[source: UNODC 2016]
+
+---
+
+background-image: url(https://www.everycrsreport.com/files/20191030_R44953_images_9ea6320c71c6dc53b5bdeb1cbff8b937a71b3284.png)
+background-size: 80%
+
+# How much do states care? <br>.tiny[**.pink[(State Department Report 2019)]**]
+
+---
+
+.full-width-blue[
+# What is maritime piracy? .tiny[.pink[UN] .pink[C]onvention on .pink[L]aw .pink[o]f the .pink[S]ea, Article 101 (.pink[UNCLOS] 1982)]
+]
+<br><br>
+--
+
+.blockquote[
+.black[
+.Large[
+<br>
+a. any .hl1[illegal] acts of violence or detention, or any act of depredation, committed for .hl1[private ends] by the crew or the passengers of a .hl1[private ship or a private aircraft], and directed:
+
+  - on the high seas, against another ship or aircraft, or against persons or property on board such ship or aircraft;
+
+  - against a ship, aircraft, persons or property in a place .red[outside the jurisdiction of any State];
+
+b. any act of .red[voluntary participation] in the operation of a ship or of an aircraft with knowledge of facts making it a pirate ship or aircraft;
+
+]
+]
+]
+
+---
+
+---
+class: inverse
+background-image: url(https://oneearthfuture.org/sites/default/files/piracy-trends.jpg)
+background-color: black
+background-position: right
+background-size: 50%
+
+# **The trend**
+
+### - regional effort: multilateral responses 
+
+- .large[MSSP; ReCAAP]
+
+--
+
+### - made a good .yellow[pregress], but not quite enough
+
+--
+
+### - significant toll on regional .red[trade] volumes
+
+
