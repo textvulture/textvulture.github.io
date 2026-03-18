@@ -59,11 +59,11 @@ background-size: 20%
 ### The slides are completely .pink[online] and you can easily access it.
 
 ```{r, echo=F, include=F}
-
-# library(qrcode)
 # 
+# library(qrcode)
+
 # png(file="qrAAPI2026.png")
-# qr <- qr_code("https://textvulture.github.io/presentations/aapi2026.htm")
+# qr <- qr_code("https://textvulture.github.io/presentations/aapi2026.html")
 # plot(qr)
 # dev.off()
 
@@ -126,15 +126,19 @@ background-size: 100%
 <br>
 --
 
-# 1. How do fans perceive K-pop? Something .Blue[exotic] and .pink[weird]?
+## 1. How do fans perceive K-pop? Something .pink[weird]?
 
 --
 
-# 2. What do .red[non-fans] think of this?
+## 2. What do .red[non-fans] think of this? 
 
 --
 
-# 3. Does K-pop have any .orange[real-world] impact on fans?
+## 3. Do fans go .purple[beyond] just being fans?
+
+--
+
+## `r fa('lightbulb', fill='red')` A showcase of what .orange[data-driven] approach to K-pop is like.
 
 ---
 
@@ -149,7 +153,7 @@ background-size: 100%
 --
 
 
-### - Kim & Son. 2025. "K-pop Fan Perceptions and Negotiation of Alternative Forms of Masculinities," *Journal of Men's Studies*, Forthcoming. <br> .white[.]
+### - Kim & Son. 2025. "K-pop Fan Perceptions and Negotiation of Alternative Forms of Masculinities," *Journal of Men's Studies*, Forthcoming. [Link](https://journals.sagepub.com/doi/10.1177/10608265251394364) <br> .white[.]
 
 --
 
@@ -157,7 +161,7 @@ background-size: 100%
 
 --
 
-### - Son. 2024. "Foreign Pop Culture and Backlash: the case of non-fan K-pop Subreddits during the pandemic," *Journal of Cultural Economics*, 48 (1): 117-143. 
+### - Son. 2024. "Foreign Pop Culture and Backlash: the case of non-fan K-pop Subreddits during the pandemic," *Journal of Cultural Economics*, 48 (1): 117-143. [Link](https://link.springer.com/article/10.1007/s10824-023-09475-w)
 
 ---
 
@@ -250,11 +254,57 @@ background-size: 100%
 
 --
 
-# After all, it's a .yellow[foreign] culture. What do those who are .pink[not fans] of K-pop think?
+# After all, it's a .yellow[foreign] culture. What do those who are .pink[not fans] of K-pop think? ('contact theory')
 
 
 ---
+# How .orange[perceptions on foreign culture] would come along upon .green[good news]
 
+
+```{r, echo=F, out.width="80%", fig.align='center'}
+
+library(DiagrammeR)
+
+simple <- grViz("
+digraph simple {
+
+  graph [
+    layout  = dot,
+    rankdir = LR,   // top → bottom
+    ranksep = 0.75,  // vertical spacing
+#    nodesep = 3   // horizontal spacing
+  ]
+
+  node [shape = circle, 
+        style = filled, 
+        fixsize = true,
+        width = 2,
+        fillcolor = \"#f7f7f7\",
+        fontsize = 20, fontname = \"Helvetica\"]
+
+  a [
+      label = \"Positive Portrayal\\nof Korea\",
+      fillcolor = \"#65E0F0\"
+      ]
+
+  d [
+      label = \"Backlash\",
+      fontsize = 25
+  ]
+  
+
+  a -> d [style=dashed, color=gray]
+
+ 
+
+}
+")
+
+simple
+
+```
+  
+---
 # How .orange[backlash] would come along upon .green[good news] on Korea
 
 
@@ -296,6 +346,7 @@ digraph simple {
   a -> c
   b -> c
   c -> d
+  a -> d [style=dashed, color=gray]
 
  
   { rank = same; a; b }
@@ -430,9 +481,6 @@ knitr::include_graphics('kpopimages/jce2.png')
 
 ---
 
-# fan stigma - masculinity
-
----
 
 background-image: url(kpopimages/gender.jpg)
 background-position: right
@@ -443,7 +491,7 @@ background-size: 60%
 
 --
 
-### - K-pop masculinity .purple[unique]
+### - When asked about the masculinities <br>of K-pop male idols...
 
 --
 
@@ -451,7 +499,7 @@ background-size: 60%
 
 --
 
-### - .pink[Negotiating] the stigma
+### - Fan .orange[negotiation]: <br>'It's a different kind of masculinity!'
 
 ---
 class: inverse, bottom
