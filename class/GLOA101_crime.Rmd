@@ -186,24 +186,20 @@ b. any act of .red[voluntary participation] in the operation of a ship or of an 
 ---
 
 ---
-class: inverse
-background-image: url(https://oneearthfuture.org/sites/default/files/piracy-trends.jpg)
-background-color: black
+background-image: url(https://raw.githubusercontent.com/textvulture/textvulture.github.io/refs/heads/master/images/piracyTrend.png)
 background-position: right
-background-size: 50%
+background-size: contain
 
 # **The trend**
 
-### - regional effort: multilateral responses 
-
-- .large[MSSP; ReCAAP]
+## - regional effort: multilateral<br> responses (MSSP; ReCAAP)
 
 --
 
-### - made a good .yellow[pregress], but not quite enough
+## - made a good .orange[pregress],<br> but not quite enough
 
 --
 
-### - significant toll on regional .red[trade] volumes
+## - significant toll on regional .red[trade] volumes
 
 
