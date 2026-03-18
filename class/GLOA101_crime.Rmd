@@ -76,13 +76,19 @@ background-size: 115%
 <br>
 --
 
-### .hl1[💊 Drug trafficking]
-###	.hl1[🌳 Illegal logging & narco-deforestation]
+### 💊 Drug trafficking
+###	.hl1[🌳 Illegal logging & deforestation]
 ###	💻 Cybercrime
 ###	.hl1[👥 Human trafficking]
 ###	.hl1[🔫 Firearms trafficking]
 ###	⛏️ Critical minerals trafficking
 ### .hl1[+ ☠️ Maritime Piracy]
+
+---
+
+# Illegal Logging
+
+<iframe width="1000" height="500" src="https://www.youtube.com/embed/ih5ljS-3QBs?si=vEphF2vKN9J18K0a" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ---
 
@@ -184,8 +190,6 @@ b. any act of .red[voluntary participation] in the operation of a ship or of an 
 ]
 
 ---
-
----
 background-image: url(https://raw.githubusercontent.com/textvulture/textvulture.github.io/refs/heads/master/images/piracyTrend.png)
 background-position: right
 background-size: contain
@@ -201,5 +205,20 @@ background-size: contain
 --
 
 ## - significant toll on regional .red[trade] volumes
+
+---
+
+# The cause of piracy .tiny[(Jablonski & Oliver 2013)]
+
+--
+<br>
+.center[
+![](https://raw.githubusercontent.com/textvulture/textvulture.github.io/refs/heads/master/images/Jablonski.png)
+]
+
+---
+
+# Terrorism
+
 
 
