@@ -283,12 +283,12 @@ digraph simple {
         fontsize = 20, fontname = \"Helvetica\"]
 
   a [
-      label = \"Positive Portrayal\\nof Korea\",
+      label = \"Positive Portrayal\\nof a foreign country\",
       fillcolor = \"#65E0F0\"
       ]
 
   d [
-      label = \"Backlash\",
+      label = \"Backlash??\",
       fontsize = 25
   ]
   
