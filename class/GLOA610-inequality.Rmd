@@ -30,12 +30,13 @@ beforeInit: "css/macros.js"
 ```{r setup, include=FALSE}
 # to use FontAwesome
 #htmltools::tagList(rmarkdown::html_dependency_font_awesome())
-library(fs)
+#library(fs)
 library(fontawesome)
 # library(magick)  
 library(ggplot2)
 knitr::opts_chunk$set(warning = FALSE, message = FALSE, error=F, echo=F)
 options(htmltools.preserve.raw = FALSE)
+
 ```
 
 class: inverse, center, middle
@@ -46,11 +47,10 @@ background-color: black
 # .Huge[**.stretch[Poverty & Inequality]**] <br> .bluey[.LARGE[**GLOA 610**]] <br>
 
 
-```{r include=F, cache=T}
+```{r include=F}
 
 
 library(WDI)
-
 
 var = c('poverty' = 'SI.POV.DDAY',
         'GDPpc' = 'NY.GDP.PCAP.KD',
@@ -176,7 +176,7 @@ wdi2 %>%
 
 ```{r, message=FALSE, echo=FALSE, warning=FALSE, results="asis", fig.width=16, fig.height=7.5}
 
-## Startover
+load("/Users/bson3/Library/CloudStorage/OneDrive-GeorgeMasonUniversity-O365Production/data_repo/swiid9_9/swiid9_9.rda")
 
 swiid_summary %>%
   ggplot(aes(x=year,
@@ -204,7 +204,6 @@ library(ggrepel)
 library(dplyr)
 library(ggplot2)
 
-load("/Users/bson3/Library/CloudStorage/OneDrive-GeorgeMasonUniversity-O365Production/data_repo/swiid9_9/swiid9_9.rda")
 
 
 name <- c("United States", 
@@ -301,7 +300,7 @@ knitr::include_graphics('https://images.squarespace-cdn.com/content/v1/5acc1ee17
 ```
 
 
-.center[.Large[.red["Don believe that!"]]]
+.center[.Large[.red["Don't trust that!"]]]
 ]
 
 
@@ -329,6 +328,33 @@ background-position: right
 # Elephant 🐘 Story
 
 ### source: Milanovic (2020)
+
+---
+
+
+.full-width-green[
+# To eliminate poverty, how much would it cost? .tiny[(Sahoo et al. 2025)]
+]
+<br> 
+--
+
+## - To reduce extreme poverty to ~1%:
+--
+
+-	.Large[≈ .red[$318] billion/year globally]
+-	.Large[≈ 0.3% of global GDP (11% of a poor country's GDP), but only if .purple[every] poor person was identified)] 
+
+--
+
+## - So, international transfer? Foreign aid?; 'Wealth transfer'?
+
+--
+
+## - Targeted vs. Simple: effectiveness vs. efficiency  trade off
+--
+
+- .Large[targeting is cheaper (43%), but incurs admin costs]
+- .Large[data transparency]
 
 ---
 
