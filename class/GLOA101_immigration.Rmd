@@ -1,0 +1,382 @@
+---
+title: "Immigration GLOA 101"
+author: "Byunghwan Son <br> George Mason University"
+date: " "
+#########################################
+linkcolor: red
+citecolor: blue
+urlcolor: blueß
+output: 
+  xaringan::moon_reader:
+    seal: false
+    nature:
+      ratio: '16:9'
+      highlightStyle: github
+      mathjax: "default"  
+  #    self-contained: TRUE
+  chakra: css/libs/remark-latest.min.js
+css: ["default", 
+      "css/footer.css", 
+      "css/color.css", 
+      # "css/xaringan-themer.css",
+      default-fonts]
+lib_dir: css/libs
+beforeInit: "css/macros.js"
+# seal: false  
+#bibliography: /Users/bson3/Dropbox/latex/mybib2.bib
+#remotes::install_github('yihui/xaringan', upgrade = TRUE)
+
+---
+
+```{r setup, include=FALSE}
+# to use FontAwesome
+#htmltools::tagList(rmarkdown::html_dependency_font_awesome())
+library(fs)
+library(fontawesome)
+# library(magick)  
+library(ggplot2)
+knitr::opts_chunk$set(warning = FALSE, message = FALSE, error=F, echo=F)
+options(htmltools.preserve.raw = FALSE)
+```
+
+class: inverse, center, top
+background-image: url(https://news.miami.edu/_assets/images-stories/2020/05/migrationsymp_hero_940x529.jpg)
+background-size: contain
+
+# .huge[**Global Immigration**, GLOA 101] <br> <br>
+
+
+```{r results="asis", fig.width=16, fig.height=7, cache=T}
+
+
+library(refugees)
+library(ggplot2)
+library(dplyr)
+library(tidyr)
+library(scales)
+
+
+
+
+```
+
+---
+
+.full-width-blue[
+
+# .Large[Things to talk about:]
+
+]
+<br>
+--
+
+# 1. confusing terminologies and concepts
+
+--
+
+# 2. immigrants (from and to)
+
+--
+
+# 3. refugeees (from and to)
+
+--
+
+# 4. why so much hate?
+
+---
+
+
+class: inverse
+background-image: url(https://github.com/textvulture/textvulture.github.io/blob/master/images/background_leftEmpty3.jpeg?raw=true)
+background-size: 100%
+
+# .Large[Terminologies]
+
+--
+
+# - .large[.yellow[immigrants]]
+
+# - .large[.orange[refugees]]
+
+# - .large[.Green[asylum-seekers]]
+
+# - .large[.pink[migrants]]
+
+---
+
+
+class: inverse
+background-image: url(https://github.com/textvulture/textvulture.github.io/blob/master/images/background_leftEmpty3.jpeg?raw=true)
+background-size: 100%
+
+# .Large[Terminologies]
+
+## - .large[.yellow[immigrants]]: legal, documented, permanent
+
+## - .large[.orange[refugees]]: legal, documented, semi-permanent, humanitarian cause
+
+## - .large[.Green[asylum-seekers]]: undocumented, temporary
+
+## - .large[.pink[migrants]: broader
+
+
+
+---
+
+
+# Immigration 'stock' (% population) trend
+
+--
+
+```{r message=FALSE, echo=FALSE, warning=FALSE, results="asis", fig.width=16, fig.height=7, cache=T}
+
+library(ggrepel)
+
+wdi %>% 
+  drop_na(GDPpc) %>%
+  drop_na(m.stock.per) %>%
+  mutate(developed = 
+           case_when(GDPpc > 10000 ~ "developed",
+                     GDPpc < 10000 ~ "underdeveloped"
+                     )) %>%
+  mutate(large = 
+           case_when(m.stock.per > 70 & developed=="developed" ~ country,
+                     m.stock.per > 30 & developed=="underdeveloped" ~ country)) %>%
+  ggplot(aes(y=m.stock.per, 
+             x=year,
+             color=developed)) +
+  geom_label_repel(aes(label=large, color=developed), size=7) +
+  geom_smooth(se=FALSE, linetype="dashed") +
+  geom_jitter(alpha=0.1, 
+              width = 1,
+              size=8) +
+  labs(y="Migrant Stock % of population",
+       x="Year") +
+  theme_minimal() +
+  theme(legend.title = element_text(size=0),
+        legend.text = element_text(size=25),
+        axis.text=element_text(size=25),
+        axis.title=element_text(size=25))
+
+```     
+---
+
+# Refugees by .orange[Origins] .tiny[(UNHCR data including internally displaced ppl)]
+
+--
+
+.pull-left[
+
+```{r}
+
+refugees::population |>
+  filter(year == 1990) |>
+  summarise(refugees = sum(refugees, na.rm = TRUE) + 
+              sum(oip, na.rm = TRUE),
+            .by = coo_name) |>
+  slice_max(order_by = refugees, n = 10) |>
+  ggplot(aes(refugees, reorder(coo_name, refugees))) +
+  geom_col(fill = 'blue',
+           width = 0.8,
+           alpha=0.6) +
+  geom_text(aes(label = label_comma()(refugees)),
+            hjust = -0.2) +
+  scale_x_continuous(expand = expansion(mult = c(0, 0.1))) +
+  theme_minimal(base_size = 14) +
+  theme(axis.text.x = element_blank()) +
+  labs(y="",
+       title="Year: 1980") +
+  xlim(0, 7000000)
+
+ggsave(filename = 'ref1980.png')
+```
+
+]
+
+--
+
+.pull-right[
+
+```{r}
+
+refugees::population |>
+    filter(year == 2020) |>
+    summarise(refugees = sum(refugees, na.rm = TRUE) + 
+                sum(oip, na.rm = TRUE),
+              .by = coo_name) |>
+    slice_max(order_by = refugees, n = 10) |>
+    ggplot(aes(refugees, reorder(coo_name, refugees))) +
+    geom_col(fill = 'red',
+             width = 0.8,
+             alpha=0.6) +
+    geom_text(aes(label = label_comma()(refugees)),
+              hjust = 0.5) +
+    scale_x_continuous(expand = expansion(mult = c(0, 0.1))) +
+    theme_minimal(base_size = 11) +
+    theme(axis.text.x = element_blank()) +
+    labs(y="",
+         title="Year: 2020") +
+  xlim(0, 7000000)
+
+
+
+ggsave(filename = 'ref2020.png')
+
+```     
+
+]
+
+
+---
+
+# Refugees by .green[Destinations] (UNHCR data)
+
+--
+
+.pull-left[
+
+```{r}
+
+  refugees::population |>
+    filter(year == 1980) |>
+    summarise(refugees = sum(refugees, na.rm = TRUE) + 
+                sum(oip, na.rm = TRUE),
+              .by = coa_name) |>
+    slice_max(order_by = refugees, n = 10) |>
+    ggplot(aes(refugees, reorder(coa_name, refugees))) +
+    geom_col(fill = 'blue',
+             width = 0.8,
+             alpha=0.6) +
+    geom_text(aes(label = label_comma()(refugees)),
+              hjust = 0.5) +
+    scale_x_continuous(expand = expansion(mult = c(0, 0.1))) +
+    theme_minimal(base_size = 14) +
+    theme(axis.text.x = element_blank()) +
+    labs(y="",
+         title="Year: 1980") +
+  xlim(0, 4000000)
+
+
+```   
+
+]
+
+--
+
+.pull-right[
+
+```{r}
+
+
+refugees::population |>
+    filter(year == 2020) |>
+    summarise(refugees = sum(refugees, na.rm = TRUE) + 
+                sum(oip, na.rm = TRUE),
+              .by = coa_name) |>
+    slice_max(order_by = refugees, n = 10) |>
+    ggplot(aes(refugees, reorder(coa_name, refugees))) +
+    geom_col(fill = 'red',
+             width = 0.8,
+             alpha=0.6) +
+    geom_text(aes(label = label_comma()(refugees)),
+              hjust = 0.5) +
+    scale_x_continuous(expand = expansion(mult = c(0, 0.1))) +
+    theme_minimal(base_size = 14) +
+    theme(axis.text.x = element_blank()) +
+    labs(y="",
+         title="Year: 2020") +
+  xlim(0, 4000000)
+
+
+```
+
+]
+
+class: inverse, center, middle
+background-color: black
+background-image: url(https://c.tenor.com/Cw777VnGhWwAAAAC/slamming-door-shutting-door.gif)
+background-position: right
+background-size: contain
+
+# .Large[What do .bluey[hosts] think?] 
+
+--
+
+## When do they want to shut the door? `r fa("door-open")`
+
+
+
+
+---
+class: inverse, right, bottom
+background-image: url(https://www.stashmedia.tv/wp-content/uploads/Screenshot-2017-12-19-08.20.55-640x359.png)
+background-size: contain
+
+# What about .pink[Refugees]?
+
+## When are hosts reluctant? <br> .Yellow[Contact Theory]?
+
+--
+
+# **Hangartner et al. (2019)**
+
+---
+
+class: right, bottom
+background-image: url(https://raw.githubusercontent.com/textvulture/textvulture.github.io/master/images/Hangartner2019.png)
+background-size: contain
+background-position: left
+
+# What about .pink[Refugees]?
+
+## When are hosts reluctant? <br> .Yellow[Contact Theory]?
+
+# **Hangartner et al. (2019)**
+
+---
+
+# The rationale: scene 1 .tiny[(when locals are .green[familiar] with the arrivals)]
+
+<iframe width="1200" height="500" src="https://www.youtube.com/embed/-zMAICROFQ8?si=p3I3fAkqv_NMzzjh" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+
+---
+
+# The rationale: scene 2 .tiny[(when locals are .red[NOT] familiar with the arrivals)]
+
+<iframe width="1200" height="500" src="https://www.youtube.com/embed/OBXczZzZ1VU?si=cU5gznY8O7zQo0j2" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+---
+
+class: right, bottom
+background-image: url(https://raw.githubusercontent.com/textvulture/textvulture.github.io/master/images/Hangartner2019a.png)
+background-size: contain
+background-position: left
+
+
+## When are hosts reluctant? <br> .Yellow[Contact Theory]?
+
+# **Hangartner et al. (2019)**
+
+---
+
+.full-width-green[
+# What do we know:
+]
+<br>
+--
+
+## 1. (Im)Migration is nothing new, though the patterns have .orange[evolved] a bit.
+
+--
+
+## 2. Immigrats and refugees are .blue[different] in their behavioral patterns.
+
+--
+
+## 3. On the .purple[receiving] end, not so much.
+
+--
+
+## 4. More exposure tends to lead to more .red[reluctance].
