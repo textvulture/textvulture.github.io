@@ -1,0 +1,180 @@
+---
+title: "IO/NGO GLOA 101"
+author: "Byunghwan Son <br> George Mason University"
+date: " "
+#########################################
+linkcolor: red
+citecolor: blue
+urlcolor: blueß
+output: 
+  xaringan::moon_reader:
+    seal: false
+    nature:
+      ratio: '16:9'
+      highlightStyle: github
+      mathjax: "default"  
+  #    self-contained: TRUE
+  chakra: css/libs/remark-latest.min.js
+css: ["default", 
+      "css/footer.css", 
+      "css/color.css", 
+      # "css/xaringan-themer.css",
+      default-fonts]
+lib_dir: css/libs
+beforeInit: "css/macros.js"
+# seal: false  
+#bibliography: /Users/bson3/Dropbox/latex/mybib2.bib
+#remotes::install_github('yihui/xaringan', upgrade = TRUE)
+
+---
+
+```{r setup, include=FALSE}
+# to use FontAwesome
+#htmltools::tagList(rmarkdown::html_dependency_font_awesome())
+library(fs)
+library(fontawesome)
+# library(magick)  
+library(ggplot2)
+knitr::opts_chunk$set(warning = FALSE, message = FALSE, error=F, echo=F)
+options(htmltools.preserve.raw = FALSE)
+```
+
+class: center, middle, inverse
+background-image: url(https://i.makeagif.com/media/10-02-2021/vJ2tpK.gif)
+background-size: 110%
+
+# .Large[.Yellow[**International Organizations & NGOs**]]
+
+# **GLOA 101**
+
+---
+
+class: inverse
+background-image: url(https://raw.githubusercontent.com/textvulture/textvulture.github.io/refs/heads/master/images/blackboardBackground.jpg)
+background-size: 110%
+
+# **Overview**
+
+## What we talk about:
+1. .Large[Concepts / types of IOs & NGOs]
+  - .Large[more emphasis on **NGOs** as we covered IOs quite a bit]
+2. .Large[Criticisms]
+
+## You will be able to:
+1. .Large[provide .pink[examples] for each kind of IOs/NGOs]
+2. .Large[explain the diﬀerences between the .yellow[roles] that diﬀerent kinds of IOs/NGOs play]
+
+---
+
+.full-width-blue[
+# What are they?
+]
+<br>
+--
+
+.pull-left[
+
+# IOs `r fa("flag", fill='brown')`
+
+- .Large[governments are primary .red[members]]
+- .Large[often a result of political .green[compromise]]
+- .Large[.orange[coordinating] government policies]
+- .Large[often .purple[take over] nation states' roles]
+- .Large[almost always based on treaties/agreements; belongs to a hierarchy]
+]
+
+--
+
+.pull-right[
+
+# NGOs `r fa("hand", fill='red')`
+
+- .Large[.red[no] direct government participation; .green[individuals/communities] gathered around a .pink[common] goal]
+- .Large[usually aim at .orange[changing] gov't policies]
+- .Large[emerged where nation states .purple[retreated]] 
+- .Large[‘legally’ constructed: listed/recognized; non-profit; .red[not] simply 'activist groups']
+
+]
+
+---
+
+background-image: url(https://media.tenor.com/3FOVil5NxugAAAAM/game-of-thrones-shame.gif)
+background-size: 30%
+background-position: right
+
+# .hl1[How do NGOs Operate?] .tiny[only `r fa("hand-point-right", fill='red')` NAME and SHAME??]
+
+--
+
+- .LARGE[monitoring and gathering attention & <br> disseminating .purple[information]] 
+--
+
+- .LARGE[helping draft international <br>conventions/treaties] <br>.Large[e.g., Mine Ban Treaty]
+--
+
+- .LARGE[providing expert advice] <br> .Large[e.g., Amnesty Int'l `r fa("arrow-right")` UN sanctions]
+--
+
+- .LARGE[performing functions states don’t] <br>.Large[e.g., MSF; Save the Childern]
+--
+
+- .LARGE[boycotting]
+
+
+---
+
+.full-width-blue[
+# Types of NGOs
+]
+<br>
+--
+
+### Human rights NGOs: .orange[Amnesty International; Human Rights Watch; MSF] 
+
+--
+
+- .large[advocate for better human rights standard]
+- .large[report human rights abuses]
+
+### Development NGOs .blue[ConcernWorldWide; Oxfarm; WaterAid]
+
+--
+
+- .large[provide aid to support development]
+- .large[diﬀerent than Human rights NGOs?]
+
+### Environmental NGOs: .green[Green Peace; WWF; Climate Action Network]
+
+--
+
+- .large[advocacy/reports]
+- .large[technical advice]
+
+---
+
+class: inverse
+background-image: url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgwqJ6i3lfAJT_6ALbnU5_WpeJlbTBagPPYO_e5B-uFyfjSZ7PBdW9k07wewupfGTY-jzl52YrNXCD7BD3RotjPsjn_rJClwJOMTZ47c4lMlg1FLwU9qIYtVDGu3JdR6O3sbo8AZGt1H34JBg0S4M4PjblGL_tQWwZgqBHdraQiMMKvQzGaoYb0dYSLcLsx/s500/tumblr_mtny5nFTMA1rey868o1_500.gif)
+background-size: contain
+# But uh.....
+
+
+---
+
+# .red[Uninteded] Consequences
+
+--
+
+.pull-left[
+
+<iframe width="560" height="400" src="https://www.youtube.com/embed/qH4qCX4GL4k?si=7jEAwuOuhRtj4TRA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+]
+
+--
+
+.pull-right[
+
+<iframe width="560" height="400" src="https://www.youtube.com/embed/tKiovgr5x_c?si=7sf-hsdHLx7liPxH" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+]
+
