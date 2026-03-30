@@ -178,3 +178,17 @@ background-size: contain
 
 ]
 
+---
+
+.LARGE[ South-South grass-root netowrks?]
+
+--
+
+```{r, out.width="87%"}
+
+knitr::include_graphics('https://raw.githubusercontent.com/textvulture/textvulture.github.io/refs/heads/master/images/NGOnetwork.png')
+
+```
+
+
+
