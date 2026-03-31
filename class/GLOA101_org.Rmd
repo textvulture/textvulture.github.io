@@ -67,7 +67,7 @@ background-size: 110%
 ---
 
 .full-width-blue[
-# What are they?
+# What are they? The characteristics.
 ]
 <br>
 --
@@ -98,6 +98,26 @@ background-size: 110%
 
 ---
 
+## Are IOs '.hl3[neutral]' while NGOs '.hl2[biased]'? <br> .tiny[Benson & Kathman (2014): based on the .purple[UNSC resolutions]]
+
+--
+
+.pull-left[
+![](https://raw.githubusercontent.com/textvulture/textvulture.github.io/refs/heads/master/images/Benson2014_1.png)
+
+]
+
+--
+
+.pull-right[
+
+![](https://raw.githubusercontent.com/textvulture/textvulture.github.io/refs/heads/master/images/Benson2014_2.png)
+
+]
+
+
+---
+
 background-image: url(https://media.tenor.com/3FOVil5NxugAAAAM/game-of-thrones-shame.gif)
 background-size: 30%
 background-position: right
@@ -115,7 +135,7 @@ background-position: right
 - .LARGE[providing expert advice] <br> .Large[e.g., Amnesty Int'l `r fa("arrow-right")` UN sanctions]
 --
 
-- .LARGE[performing functions states don’t] <br>.Large[e.g., MSF; Save the Childern]
+- .LARGE[performing functions states don’t] <br>.Large[e.g., MSF; Save the Children]
 --
 
 - .LARGE[boycotting]
@@ -192,7 +212,7 @@ knitr::include_graphics('https://raw.githubusercontent.com/textvulture/textvultu
 
 ---
 
-# NGO - IO working together: synergie? .tiny[(Jo & Simmons 2016)]
+# NGO - IO working together: .hl3[synergie]? .tiny[(Jo & Simmons 2016)]
 
 ```{r, out.width="80%", fig.align='center'}
 
@@ -200,3 +220,24 @@ knitr::include_graphics('https://raw.githubusercontent.com/textvulture/textvultu
 
 ```
 
+---
+
+
+.full-width-blue[
+
+# What we know now.
+
+]
+<br>
+
+--
+
+## - IOs and NGOs are not perfect, but play important roles.
+
+--
+
+## - NGOs are not unicorns and prone to unintended consequences.
+
+--
+
+## - Still important actors for global governance.
