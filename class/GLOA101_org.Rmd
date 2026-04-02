@@ -98,25 +98,6 @@ background-size: 110%
 
 ---
 
-## Are IOs '.hl3[neutral]' while NGOs '.hl2[biased]'? <br> .tiny[Benson & Kathman (2014): based on the .purple[UNSC resolutions]]
-
---
-
-.pull-left[
-![](https://raw.githubusercontent.com/textvulture/textvulture.github.io/refs/heads/master/images/Benson2014_1.png)
-
-]
-
---
-
-.pull-right[
-
-![](https://raw.githubusercontent.com/textvulture/textvulture.github.io/refs/heads/master/images/Benson2014_2.png)
-
-]
-
-
----
 
 background-image: url(https://media.tenor.com/3FOVil5NxugAAAAM/game-of-thrones-shame.gif)
 background-size: 30%
@@ -200,7 +181,20 @@ background-size: contain
 
 ---
 
-.LARGE[ South-South grass-root network?]
+class: inverse
+background-image: url(https://raw.githubusercontent.com/textvulture/textvulture.github.io/refs/heads/master/images/night_background5.jpg)
+background-size: 110%
+
+# Why wouldn't they try to .pink[learn] about the locals?
+
+--
+
+# Because it's expensive. The cost of info = about .yellow[**$5bn**] annually (Sahoo et al. 2025. [link](https://www.nber.org/papers/w34583)).
+
+
+---
+
+.LARGE[.red[South-South] grass-root network??? .tiny[(environmental & human rights NGOs)]]
 
 --
 
@@ -212,16 +206,80 @@ knitr::include_graphics('https://raw.githubusercontent.com/textvulture/textvultu
 
 ---
 
+
+## Are IOs '.hl3[neutral]' while NGOs '.hl2[biased]'? <br> .tiny[Benson & Kathman (2014): based on the .purple[UNSC resolutions]]
+
+--
+
+.pull-left[
+![](https://raw.githubusercontent.com/textvulture/textvulture.github.io/refs/heads/master/images/Benson2014_1.png)
+
+]
+
+--
+
+.pull-right[
+
+![](https://raw.githubusercontent.com/textvulture/textvulture.github.io/refs/heads/master/images/Benson2014_2.png)
+
+]
+
+
+---
+
 # NGO - IO working together: .hl3[synergie]? .tiny[(Jo & Simmons 2016)]
 
-```{r, out.width="80%", fig.align='center'}
+--
+
+.pull-left[
+
+- .LARGE[Does .green[**ICC**] stop atrocities?]
+  - .Large[Many arrest warrants didn't lead to conviction.]
+  - .Large[Critics: HROs' role need to be 'amped up'.]
+  - .Large[Others: HROs are helpless.]
+
+]
+
+
+.pull-right[
+
+
+]
+
+---
+
+# NGO - IO working together: .hl3[synergie]? .tiny[(Jo & Simmons 2016)]
+
+
+
+.pull-left[
+
+- .LARGE[Does .green[**ICC**] stop atrocities?]
+  - .Large[Many arrest warrants didn't lead to conviction.]
+  - .Large[Critics: HROs' role need to be 'amped up'.]
+  - .Large[Others: HROs are helpless.]
+- .LARGE[.blue[Govt] vs. .red[Rebel] killing]
+  - .Large[ICC ratification `r fa("arrow-right")` killing `r fa("arrow-down")` (but only gov't)]
+  - .Large[deterrence effect; legitimacy seeking]
+- .LARGE[A conditional effect of HROs? (for rebels)]
+]
+
+--
+
+.pull-right[
+
+```{r, fig.align='center'}
 
 knitr::include_graphics('https://raw.githubusercontent.com/textvulture/textvulture.github.io/refs/heads/master/images/Jo2016.png')
 
 ```
+]
+
+
+
+
 
 ---
-
 
 .full-width-blue[
 
