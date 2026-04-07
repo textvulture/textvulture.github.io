@@ -1,0 +1,418 @@
+---
+title: "Human Rights GLOA 101"
+author: "Byunghwan Son <br> George Mason University"
+date: " "
+#########################################
+linkcolor: red
+citecolor: blue
+urlcolor: blueß
+output: 
+  xaringan::moon_reader:
+    seal: false
+    nature:
+      ratio: '16:9'
+      highlightStyle: github
+      mathjax: "default"  
+  #    self-contained: TRUE
+  chakra: css/libs/remark-latest.min.js
+css: ["default", 
+      "css/footer.css", 
+      "css/color.css", 
+      # "css/xaringan-themer.css",
+      default-fonts]
+lib_dir: css/libs
+beforeInit: "css/macros.js"
+# seal: false  
+#bibliography: /Users/bson3/Dropbox/latex/mybib2.bib
+#remotes::install_github('yihui/xaringan', upgrade = TRUE)
+
+---
+
+```{r setup, include=FALSE}
+# to use FontAwesome
+#htmltools::tagList(rmarkdown::html_dependency_font_awesome())
+library(fs)
+library(fontawesome)
+library(vdemdata)
+library(dplyr)
+library(tidyr)
+library(WDI)
+# library(magick)  
+library(ggplot2)
+knitr::opts_chunk$set(warning = FALSE, message = FALSE, error=F, echo=F)
+options(htmltools.preserve.raw = FALSE)
+```
+
+class: right, bottom
+background-image: url(https://www.nyc.gov/assets/cchr/images/content/NYC-Human-Rights-Street-Signs.png)
+background-size: 110%
+
+# .Huge[.yellow[**GLOA 101**]]
+
+---
+
+.full-width-green[
+
+# Overview
+
+]
+<br><br>
+--
+
+.content-box-red[
+## What we’re talking about:
+
+- .Large[concepts of human rights]
+- .Large[diﬀerent ideas about human rights]
+- .Large[current challenges]
+
+]
+
+--
+
+.content-box-yellow[
+## You will be able to:
+
+- .Large[explain the diﬀerent views on human rights]
+- .Large[discuss the challenges to global eﬀorts on human rights protection]
+]
+
+---
+
+.full-width-brown[
+# Human Rights: the idea
+]
+
+<br><br>
+--
+
+> .Large[
+- .black[The .pink[natural], .Blue[universal], and .purple[inalienable] rights to which *all* humans are entitled. .tiny[McCormick (2025), Ch. 10]]
+]
+
+--
+
+> .Large[
+- .black[Universal Declaration of Human Rights (UDHR)]
+]
+
+## - .orange[global] by definition
+
+--
+
+## - natural & universal rights?
+
+---
+
+
+.full-width-blue[
+# Different Views: Ideological Division
+]
+<br><br>
+--
+
+.content-box-yellow[
+
+### Traditional liberal view ( $\approx$  civil liberties; 'negative' rights)
+
+- .Large[free from repression (religion/politics)]
+]
+
+.content-box-red[
+
+### Socialist view ($\approx$ civil rights; 'positive' rights)
+- .Large[economic, cultural, and social rights: free from inequality, micro-aggression, marginalization, cultural appropriation, health]
+]
+
+--
+
+.content-box-blue[
+### **Post-colonial view**: right to independence, development, peace
+]
+
+---
+class: inverse, center, middle
+background-image: url(https://raw.githubusercontent.com/textvulture/textvulture.github.io/refs/heads/master/images/night_background3.jpg)
+background-size: 110%
+
+# .huge[Human rights are *complicated*.]
+
+---
+
+.full-width-green[
+
+# Are these human rights? What kind?
+]
+<br><br>
+--
+
+.pull-left[
+
+<iframe width="500" height="500" src="https://www.youtube.com/embed/i4dQZIU6p1U?si=N5TjA2iZBFbHHZkF" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+]
+
+--
+
+.pull-right[
+<iframe width="500" height="500" src="https://www.youtube.com/embed/79oRVfdk9uE?si=wqgxajDvu7GWiKgS" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+]
+
+
+---
+
+.full-width-green[
+
+# Different Views: relativism
+
+]
+<br><br>
+
+--
+
+.pull-left[
+
+## .red[Relativists]
+
+- .Large['Who are you to judge?']
+- .Large[Human rights are defined **contextually**.]
+- .Large[Cross-cultural blaming is unfair.]
+- .Large[**AU**: 'ICC imperialism']
+  - .large[most targets are in SSA]
+  - .large[selective justice]
+  - .large[infringement upon sovereignty]
+
+]
+
+
+--
+
+.pull-right[
+
+## .blue[Universalists]
+
+- .Large[Human rights are universal.]
+- .Large[*Liberal Interventionalism* (.blue['R2P'])]
+- .Large[UN; .orange[multilateral] interventions]
+- .Large[Cultural relativism is just a cover.]
+- .Large[Many ICC cases are self-reported in SSA.]
+
+]
+
+---
+
+.full-width-brown[
+# Global Efforst for Human Rights (or the lack thereof)
+]
+<br><br>
+--
+
+.pull-left[
+## .hl1[UN Comm. on Human Rights (UNCHR)]
+
+- .Large[a political, inter-govt body]
+- .Large[review of HR practices]
+- .Large[a ‘forum’ elected by ECOSOC]
+- .Large[.purple[yearly] review]
+- .Large[criticisms]
+  - .large[selective enforcement and politicization]
+  - .large['problematic' members (e.g., Sudan (Darfur); Zimbabwe; China)]
+
+]
+
+--
+
+.pull-right[
+## .hl2[UN Human Rights Council (UNHRC)]
+
+- .Large[replaced UNCHR in 2006; *still*, a political, int-govt body]
+- .Large[elected by UN GA]
+- .Large[High Commissioner for Human Rights]
+- .Large[.red[year-round] meetings]
+- .Large['universal periodic review']
+- .Large[member suspension (e.g., Libya 2011)]
+]
+
+---
+
+.full-width-blue[
+# Global Efforst for Human Rights (or the lack thereof)
+]
+<br>
+
+--
+
+.pull-left[
+# Int'l Criminal Tribunals
+
+- .LARGE[temporary, case-by-case]
+- .LARGE[Nuremberg / Tokyo (1945)]
+- .LARGE[Former Yugoslavia: ICTY (1991)]
+- .LARGE[Rwanda: ICTR (1994)]
+
+]
+
+--
+
+.pull-right[
+
+# Humanitarian Intervention
+
+- .LARGE[UN: “responsibility to protect (R2P)” (2005) `r fa("arrow-right")` “Liberal Interventionism”]
+- .LARGE[air strikes; no-fly zones; diplomatic interference]
+  - .Large[Libya (2011): the only 'uncontroversial' one]
+  - .Large[Côte d’Ivoire (2011)]
+  - .Large[Kenya (2007-8)]
+
+]
+
+---
+
+.full-width-green[
+# International Criminal Court (Rome Statute 1998; 2002)
+]
+
+.pull-left[
+### - Genocide, crimes against humanity, egregious human rights violations, and war crimes 
+
+### - Cases that occurred .red[after] 07-01-2002 in a .orange[state] that has .purple[ratified] the treaty or that is committed by a .blue[national] of such a state or in cases referred to it by the .green[UN Security Council]
+
+### - 18 judges (9-year term)
+
+### - local immunities ignored, but local .red[jurisdiction] also needs to be given up.
+]
+
+
+.pull-right[
+<br><br><br><br><br><br>
+![](https://upload.wikimedia.org/wikipedia/commons/8/83/ICC_member_states_world_map.png)
+
+]
+
+---
+
+![](https://justiceinconflict.org/wp-content/uploads/2013/05/screen-shot-2013-05-20-at-12-16-46-pm.png)
+
+
+
+---
+
+# Let's play with it a little: .tiny[Can ICC .red[convict] this person? (yes or no)]
+
+--
+
+.content-box-blue[
+### - Juan, a Russian citizen, led ethnic cleansing against indigenous people in Uruguay and fled to the United States.
+]
+
+--
+
+.content-box-red[
+### - Sipho, a South African national, committed a war crime while working as a mercernary in Afghanistan, and fled to Mongolia.
+]
+
+--
+
+.content-box-green[
+### - Agus, an Indonesian national, led a global human trafficking ring operating from Pakistan and was referred to the ICC by the UNSC.
+]
+
+--
+
+.small[All names generated by ChatGPT.]
+
+---
+
+class: inverse, center, middle
+background-image: url(https://media2.giphy.com/media/v1.Y2lkPTZjMDliOTUyN2NpMjBrbTI5OHlmd3N3eGM0a2JmcGowanR4NnFmN2J4aWFjazJnNiZlcD12MV9naWZzX3NlYXJjaCZjdD1n/lHfxDepSGlzom6f65K/giphy.gif)
+background-size: 110%
+
+# .huge[.yellow[So has it been all bad and confusing?]]
+
+---
+
+# Trend: 'negative' rights .tiny[(.blue[free from torture]; .red[free from political killing]; V-dem data)]
+
+```{r echo=FALSE, error=FALSE, message=FALSE, warning=FALSE, fig.width=20, fig.height=9, cache=TRUE}
+
+
+vdem %>%
+#  filter(e_regionpol_6C == 6) %>%
+  select(year, v2cltort, v2clkill) %>%
+  filter(year>1900) %>%
+  gather(key="variable", value="value", -year) %>%
+  ggplot(aes(x = year, y=value)) +
+  geom_smooth(aes(color=variable)) +
+  geom_point(aes(color=variable), size=2, alpha=1/20) +
+  labs(x = "year", 
+       y = "Human Rights") +
+  scale_color_manual(labels = c("Freedom From Torture", 
+                 "Freedom From Political Killing"),
+                     values = c("blue", "red")) +
+  theme_minimal() +  
+  theme(axis.text=element_text(size=30),
+        axis.title=element_text(size=35),
+        legend.position = "none",
+        legend.text=element_text(size=35),
+        legend.title = element_blank()) 
+
+```
+
+
+---
+
+# Trend: 'positive' rights (WDI; V-dem data)
+
+--
+
+.pull-left[
+
+```{r, echo=FALSE, cache=TRUE}
+
+var = c('life' = 'SP.DYN.LE00.IN'
+        )
+
+wdi <- WDI(indicator=var,
+           start=1960,
+           country = 'all',
+           end=2020,
+           extra=TRUE)
+
+
+wdi %>%
+  ggplot(aes(x = year, y=life)) +
+  geom_point(size=0.2, fill='blue', alpha=0.3) + 
+  geom_smooth(color='blue') +
+  theme_minimal(base_size = 25) + 
+  theme(legend.position = "none") +
+  labs(y="Life Expectancy")
+
+
+```
+
+]
+
+--
+
+.pull-right[
+
+```{r, cache=T}
+
+vdem %>%
+  #  filter(e_regionpol_6C == 6) %>%
+  select(year, v2svinlaut) %>%
+  filter(!is.na(v2svinlaut)) %>%
+#  group_by(year) %>%
+#  summarise(pct_yes = mean(autonomy == "yes", na.rm = TRUE)) %>%
+  ggplot(aes(x = year, y = v2svinlaut)) +
+  geom_point(size=0.1, alpha=0.2) +
+  geom_smooth(color='red', se=F) +
+  labs(x="", y="Auotnomy") +
+  theme_minimal(base_size = 25)
+
+
+```
+
+
+]
+
