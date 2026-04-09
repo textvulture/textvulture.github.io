@@ -235,6 +235,15 @@ background-size: 110%
 
 ---
 
+class: inverse, center, middle
+background-image: url(https://raw.githubusercontent.com/textvulture/textvulture.github.io/refs/heads/master/images/forestBackground.jpg)
+
+
+# .LARGE[But are there consequences (.yellow[prevention])?]
+
+
+---
+
 .full-width-blue[
 # Global Efforst for Human Rights (or the lack thereof)
 ]
@@ -263,6 +272,85 @@ background-size: 110%
   - .Large[Libya (2011): the only 'uncontroversial' one]
   - .Large[Côte d’Ivoire (2011)]
   - .Large[Kenya (2007-8)]
+
+]
+
+---
+
+
+
+class: inverse, center, middle
+background-image: url(https://raw.githubusercontent.com/textvulture/textvulture.github.io/refs/heads/master/images/night_background2.jpg)
+background-size: 110%
+
+
+# .LARGE[They all sound good but we might need something more .Green[permanent] and .pink[persistent].]
+
+
+
+---
+
+.full-width-green[
+# International Criminal Court (Rome Statute 1998; 2002)
+]
+
+--
+
+.pull-left[
+### - Genocide, crimes against humanity, egregious human rights violations, and war crimes 
+
+]
+
+
+.pull-right[
+<br><br><br><br><br><br>
+![](https://upload.wikimedia.org/wikipedia/commons/8/83/ICC_member_states_world_map.png)
+
+]
+
+---
+
+.full-width-green[
+# International Criminal Court (Rome Statute 1998; 2002)
+]
+
+.pull-left[
+### - Genocide, crimes against humanity, egregious human rights violations, and war crimes 
+
+### - Cases that occurred .red[after] 07-01-2002 in a .orange[state] that has .purple[ratified] the treaty or that is committed by a .blue[national] of such a state or in cases referred to it by the .green[UN Security Council]
+
+### - 18 judges (9-year term)
+
+
+]
+
+
+.pull-right[
+<br><br><br><br><br><br>
+![](https://upload.wikimedia.org/wikipedia/commons/8/83/ICC_member_states_world_map.png)
+
+]
+
+---
+
+.full-width-green[
+# International Criminal Court (Rome Statute 1998; 2002)
+]
+
+.pull-left[
+### - Genocide, crimes against humanity, egregious human rights violations, and war crimes 
+
+### - Cases that occurred .red[after] 07-01-2002 in a .orange[state] that has .purple[ratified] the treaty or that is committed by a .blue[national] of such a state or in cases referred to it by the .green[UN Security Council]
+
+### - 18 judges (9-year term)
+
+### - local immunities ignored, but local .red[jurisdiction] also needs to be given up.
+]
+
+
+.pull-right[
+<br><br><br><br><br><br>
+![](https://upload.wikimedia.org/wikipedia/commons/8/83/ICC_member_states_world_map.png)
 
 ]
 
@@ -416,3 +504,22 @@ vdem %>%
 
 ]
 
+---
+
+.full-width-brown[
+
+# What we talked about:
+
+]
+<br><br>
+--
+
+## - The concept of human rights seems straightfoward but is .purple[challenged] on various fronts.
+
+--
+
+## - Different types of human rights often .orange[clash].
+
+--
+
+## - Various and persistent efforts at protecting human rights .green[globally]; but still .red[limited] and .blue[contentious].
