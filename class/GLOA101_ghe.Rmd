@@ -1,5 +1,5 @@
 ---
-title: "MISC. <br> GLOA 610"
+title: "Global Health and Environment GLOA 101"
 author: "Byunghwan Son <br> George Mason University"
 date: " "
 #########################################
@@ -12,6 +12,7 @@ output:
     nature:
       ratio: '16:9'
       highlightStyle: github
+      mathjax: "default"  
   #    self-contained: TRUE
   chakra: css/libs/remark-latest.min.js
 css: ["default", 
@@ -24,27 +25,44 @@ beforeInit: "css/macros.js"
 # seal: false  
 #bibliography: /Users/bson3/Dropbox/latex/mybib2.bib
 #remotes::install_github('yihui/xaringan', upgrade = TRUE)
+
 ---
 
 ```{r setup, include=FALSE}
 # to use FontAwesome
 #htmltools::tagList(rmarkdown::html_dependency_font_awesome())
-library(dplyr)
-library(tidyr)
 library(fs)
 library(fontawesome)
+library(vdemdata)
+library(dplyr)
+library(tidyr)
+library(WDI)
 # library(magick)  
 library(ggplot2)
 knitr::opts_chunk$set(warning = FALSE, message = FALSE, error=F, echo=F)
 options(htmltools.preserve.raw = FALSE)
 ```
 
-class: left, bottom
-background-image: url(https://static.dw.com/image/41289061_303.jpg)
-background-size: contain
+class: inverse, center, middle
+background-image: url(https://www.cdc.gov/nceh/radiation/training/delete-rad-toolkit/media/images/ClimateandHealthProgramspotlight2.jpg)
+background-size: 110%
 
-# .Green[.huge[**Environment, <br> Health, <br>and Resource <br> GLOA 610**]]
+# .Huge[.Green[**Global Health & Environment**]]
 
+# .Large[GLOA 101]
+
+---
+
+.full-width-green[
+
+# Overview
+
+]
+<br><br>
+--
+
+
+---
 
 
 ```{r include=F, cache=T}
@@ -72,19 +90,6 @@ wdi <- WDI(indicator=var,
            )) 
 ```
 
----
-class: inverse, right, bottom
-background-image: url(https://cdn.dribbble.com/users/27231/screenshots/3713219/source.gif)
-background-size: cover
-
-# .Large[**.red[non-]traditional stuff <br> in global political economy**] 
-
---
-
-# **but still matters for .yellow[development]**
-
-
----
 
 .full-width-blue[
 # CO.tiny[2] Emission, $ 20 per ton, % of GNI
@@ -113,6 +118,7 @@ wdi %>%
 ```
 
 ---
+
 
 .full-width-green[
 # Air Pollution
@@ -143,6 +149,8 @@ wdi %>%
 
 ---
 
+---
+
 background-image: url(http://cdn.statcdn.com/Infographic/images/normal/17239.jpeg)
 background-size: 30%
 background-position: right
@@ -165,11 +173,13 @@ knitr::include_graphics("https://github.com/textvulture/textvulture.github.io/bl
 ```
 
 ---
+
+---
 class: inverse, middle
 background-image: url(https://github.com/textvulture/textvulture.github.io/blob/master/images/background_leftEmpty.jpg?raw=true)
 background-size: 100%
 
-# All these problems..., are they driven by economic globalization (and thus development)?
+# All these problems..., are they driven by <br> .yellow[globalization]? <br><br>What's the relationship?
 
 ---
 
@@ -179,10 +189,11 @@ background-size: 40%
 background-position: right
 
 .full-width-blue[
-Environmental Kuznets Curve
+# Environmental Kuznets Curve
 ]
 <br><br> 
 
+--
 
 ## The relationship b/w <br> .green[economic globalization] and <br> .red[environmental degradation]
 
@@ -194,45 +205,8 @@ Environmental Kuznets Curve
 
 ### - Global distributive implications
 
-
-
 ---
 
-class: inverse, center, middle
-background-color: black
-background-size: contain
-background-image: url(https://c.tenor.com/inSUlloTGjgAAAAd/tenor.gif)
-background-size: 100%
-
-# .huge[**Is .red[De-growth] the Answer? **]
-
----
-
-# What does literature say? (Kallis et al. 2018)
-
-
-.blockquote[
-### "...decoupling to stay within environmental limits is logically possible, but physically unlikely"
-]
--- 
-
-### - Economic growth is not only about wealth or .pink[greed].
---
-
-- .Large[social stabilizer (autoritarianism, otherwise)]
-
-
---
-
-### - Degrowth is politically infeasible.
-
---
-
-### - "design global, manufacture local" as a possible solution?
-
-
-
----
 
 # .orange[**Emission is going down**]
 
@@ -269,34 +243,6 @@ knitr::include_graphics("https://github.com/textvulture/textvulture.github.io/bl
 
 
 ---
-class: inverse, center, middle
-background-image: url(https://github.com/textvulture/textvulture.github.io/blob/master/images/factoryBackground1.png?raw=true)
-background-size: 100%
-
-
-# .Large[**Why are reforms so hard (.yellow[domestically])?**]
-
---
-
-# Why so difficult to be divorced with .bluey[coal] `r fa("fire", fill='red')`?
-
-
----
-class: inverse, middle
-background-image: url(https://media.cnn.com/api/v1/images/stellar/prod/230113124012-03-lutzerath-germany-coal-mine-climate-intl-restricted.jpg?c=original)
-background-position: right
-background-size: 100%
-background-color: black
-
-
-# .Large[Political .yellow[incentive] structure]
-
-# .Large[.Green[Old] problems, .red[new] issues]
-
-# - Economist (2019)
-
-
----
 
 class: inverse, center, bottom
 background-image: url(https://www.mdgsolutions.com/wp-content/uploads/2022/11/2178_twitter_1200x600_animated.gif)
@@ -307,7 +253,7 @@ background-size: 100%
 ---
 
 .full-width-green[
-# **Life Expectancy at Birth**
+# **Life Expectancy at Birth**. tiny[: Has globalization improved public health conditions?]
 ]
 <br>
 --
@@ -332,6 +278,134 @@ wdi %>%
 ```
 
 ---
+
+# Globalization also created vulberabilities.
+
+--
+
+
+.pull-left[
+<img src="https://www.simbasible.com/wp-content/uploads/2020/03/1-7.gif" width="95%">
+]
+
+--
+
+.pull-right[
+<img src="https://y.yarn.co/5ad59480-ead9-4d78-8509-c32177040be3_text.gif" width="100%">
+]
+
+--
+<br>
+
+## - .orange[Global] pandemic more likely due to the increased .red[connectivity].
+
+---
+
+
+# Global Effort: political salience `r fa("arrow-up", fill='red')` .tiny[(from McCormick 2025)]
+
+```{r, results='asis'}
+
+
+library(tibble)
+
+df <- tribble(
+  ~Dates, ~Steps_taken, ~Focus_goal,
+  
+"1851–1938",
+  "14 International Sanitary Conferences (Paris, Istanbul, Vienna, Venice, etc.)",
+  "Standardize quarantine measures for cholera, plague, and yellow fever; led to .red[1892 International Sanitary Convention].",
+  
+  "1923",
+  "Health Organization of the LN.",
+  "Epidemic control, quarantine measures, and drug standardization.",
+  
+  "1948",
+  "WHO founded.",
+  "International cooperation to improve global health conditions.",
+  
+  "1969",
+  ".blue[International Health Regulations] adopted by WHO.",
+  "Legally binding obligations for member states to prevent and respond to cross-border disease spread.",
+  
+  "1977",
+  ".purple[UNGA adopts] Global Strategy for Health for All.",
+  ".red[Universal] access to a basic level of health by 2000.",
+
+  "2002",
+  "Global Fund to Fight AIDS, Tuberculosis and Malaria founded.",
+  "Attract and leverage .green[investments]."
+)
+
+library(kableExtra)
+
+make_table <- function(n) {
+  cat(as.character(
+    kable(df[1:n, ], format = "html") |>
+      kable_styling(full_width = TRUE) |>
+      column_spec(1, width = "12%") |>
+      column_spec(2, width = "38%") |>
+      column_spec(3, width = "50%")
+  ))
+}
+
+```
+
+---
+
+# Global Effort: political salience `r fa("arrow-up", fill='red')` .tiny[(from McCormick 2025)]
+
+```{r, results='asis'}
+make_table(1)
+```
+
+---
+
+# Global Effort: political salience `r fa("arrow-up", fill='red')` .tiny[(from McCormick 2025)]
+
+
+```{r, results='asis'}
+make_table(2)
+```
+
+---
+
+# Global Effort: political salience `r fa("arrow-up", fill='red')` .tiny[(from McCormick 2025)]
+
+
+```{r, results='asis'}
+make_table(3)
+```
+
+---
+
+# Global Effort: political salience `r fa("arrow-up", fill='red')` .tiny[(from McCormick 2025)]
+
+```{r, results='asis'}
+make_table(4)
+```
+
+---
+
+# Global Effort: political salience `r fa("arrow-up", fill='red')`
+
+
+```{r, results='asis'}
+make_table(5)
+```
+
+---
+
+# Global Effort: political salience `r fa("arrow-up", fill='red')` .tiny[(from McCormick 2025)]
+
+
+```{r, results='asis'}
+make_table(6)
+```
+
+---
+
+
 
 class: inverse, right, middle
 background-image: url(https://cdn.theatlantic.com/thumbor/vuGrQmW3MKren03KqCdUxS9v5FU=/0x235:4512x2773/1600x900/media/img/mt/2017/10/AP_16301118100683/original.jpg)
@@ -361,99 +435,14 @@ background-color: black
 
 ---
 
-class: inverse, bottom, center
-background-image: url(https://static.dw.com/image/41973812_605.jpg)
-background-size: contain
-background-color: black
+.full-width-blue[
+# What we know now:
+]
+<br>
+--
+
+# - The relationship between globalization and global health/environment is .purple[complicated].
 
 --
 
-# .huge[**Is Resource Abundance <br> an '.yellow[Anti-Colonial] Weapon'?**]
-
----
-
-# OR, just a lifeline for .red[only some people] ? (Fails 2020)
-
-```{r, out.width="900px", fig.align='center', cache=T}
-
-knitr::include_graphics("https://github.com/textvulture/textvulture.github.io/blob/master/images/Fails2020.png?raw=true")
-
-```
-
----
-
-background-image: url(https://github.com/textvulture/textvulture.github.io/blob/master/images/oilCurseChatGPT.gif?raw=true)
-background-position: right
-background-size: 45%
-
-# `r fa("book-skull", fill='orange')` Often understood as 'oil-curse'
-
-## free revenue `r fa("arrow-up", fill='green')` `r fa("arrow-right")` accountability `r fa("arrow-down", fill='red')`
-
---
-
-## `r fa('book', fill='red')` Savoia & Sen (2021)
-
-### - the types of state and political institutions
-
---
-
-  - .Large[resource `r fa("arrow-right")` weak state <br>`r fa("arrow-right")` low responsiveness `r fa("arrow-right")` low welfare]
-
---
-
-  - .Large[resource `r fa("arrow-right")` better resist <br>democratization `r fa("arrow-right")` low welfare]
-
-
----
-
-# But, still, .red[some] positive effect? 
-
---
-
-```{r, cache=T, fig.width=16}
-
-wdi %>% ggplot(aes(y=log(GDPpc),
-             x=oilRent)) +
-  geom_point(aes(color=developed), alpha=0.25, size=3) +
-  geom_smooth(aes(color=developed), alpha=0.5, se=F) +
-  geom_smooth(color='black', alpha=0.5, se=F) +
-  labs(y = "GDP per capita, log-scale",
-       x = "Oil Rent (= oil money - production cost, % of GDP)") +
-  theme_minimal() +
-  theme(legend.title=element_blank(),
-        legend.text=element_text(size=25),
-        axis.text=element_text(size=25),
-        axis.title=element_text(size=15))
-
-
-```
-
----
-
-# But, still, .red[some] positive effect? (primary .pink[oil producers] only)
-
---
-
-```{r, cache=T, fig.width=16}
-
-wdi %>% 
-  filter(oilRent>10) %>%
-  ggplot(aes(y=log(GDPpc),
-             x=oilRent)) +
-  geom_point(aes(color=developed), alpha=0.25, size=3) +
-  geom_smooth(aes(color=developed), alpha=0.5, se=F) +
-  geom_smooth(color='black', alpha=0.5, se=F) +
-  labs(y = "GDP per capita, log-scale",
-       x = "Oil Rent (= oil money - production cost, % of GDP)") +
-  theme_minimal() +
-  theme(legend.title=element_text(size=25),
-        legend.text=element_text(size=25),
-        axis.text=element_text(size=25),
-        axis.title=element_text(size=15))
-
-
-```
-
-
-
+# - There have been global .orange[efforts] to improve health/environment (though the effect is sometimes questioned).
