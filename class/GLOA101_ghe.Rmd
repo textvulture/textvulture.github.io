@@ -61,6 +61,9 @@ background-size: 110%
 <br><br>
 --
 
+# - Primary issues of global environment/health and their relationship with globalization
+
+# - Global efforts and effectiveness
 
 ---
 
@@ -174,7 +177,6 @@ knitr::include_graphics("https://github.com/textvulture/textvulture.github.io/bl
 
 ---
 
----
 class: inverse, middle
 background-image: url(https://github.com/textvulture/textvulture.github.io/blob/master/images/background_leftEmpty.jpg?raw=true)
 background-size: 100%
