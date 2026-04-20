@@ -417,7 +417,7 @@ knitr::include_graphics("https://github.com/textvulture/textvulture.github.io/bl
 
 - .LARGE[Some considerations:]
 
-```{r}
+```{r, cache=T}
 
 library(dplyr)
 library(knitr)
@@ -513,11 +513,35 @@ counter .red[Chinese] growth on the tech fields
 
 ### And then, the .hl2[**Tariffs**].
 
+---
+
+.full-width-blue[
+# But challenges abound 
+]
+<br><br>
 --
 
+- .LARGE['Containment' policies are designed .green[hastily] and with .purple[hope] of global coordination.]
 
-### HOWEVER, exceptions grow (WSJ)
+--
 
+  - .Large[China: supercomputing + AI = hypersonic, stealth, and decryption weapons] (NYT 2022)
+
+--
+
+- .LARGE[US export control exemptions: short- `r fa("arrow-right")` .red[long]-term] (WSJ 2022)
+
+--
+
+  - .Large[chip industries highly dependent with each other.]
+
+--
+
+- .LARGE[Some firms and countries push back]
+
+--
+
+  - .Large[ASML, TSMC, Samsung]
 
 
 
@@ -532,7 +556,7 @@ background-position: right
 
 ---
 
-## But what about things that .red[cannot] be reshored? (e.g., .blue[cobalt]) (1)
+## Things that .red[cannot] be reshored? (e.g., .blue[cobalt]) (1)
 
 --
 
@@ -541,7 +565,7 @@ background-position: right
 
 ---
 
-## But what about things that .red[cannot] be reshored? (e.g., .blue[cobalt]) (2)
+## Things that .red[cannot] be reshored? (e.g., .blue[cobalt]) (2)
 
 .center[
 ![](https://www.ft.com/__origami/service/image/v2/images/raw/https%3A%2F%2Fd6c748xw2pzm8.cloudfront.net%2Fprod%2F560a8e10-be8a-11ed-b917-cbe2aff3902c-standard.png?dpr=1&fit=scale-down&quality=highest&source=next&width=700)]
