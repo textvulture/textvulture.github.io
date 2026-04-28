@@ -1,0 +1,283 @@
+---
+title: "Conclusion, GLOA 101"
+author: "Byunghwan Son <br> George Mason University"
+date: " "
+#########################################
+linkcolor: red
+citecolor: blue
+urlcolor: blueß
+output: 
+  xaringan::moon_reader:
+    seal: false
+    nature:
+      ratio: '16:9'
+      highlightStyle: github
+      mathjax: "default"  
+  #    self-contained: TRUE
+  chakra: css/libs/remark-latest.min.js
+css: ["default", 
+      "css/footer.css", 
+      "css/color.css", 
+      # "css/xaringan-themer.css",
+      default-fonts]
+lib_dir: css/libs
+beforeInit: "css/macros.js"
+# seal: false  
+#bibliography: /Users/bson3/Dropbox/latex/mybib2.bib
+#remotes::install_github('yihui/xaringan', upgrade = TRUE)
+
+---
+
+```{r setup, include=FALSE}
+# to use FontAwesome
+#htmltools::tagList(rmarkdown::html_dependency_font_awesome())
+library(fs)
+library(fontawesome)
+library(vdemdata)
+library(dplyr)
+library(tidyr)
+library(WDI)
+# library(magick)  
+library(ggplot2)
+knitr::opts_chunk$set(warning = FALSE, message = FALSE, error=F, echo=F)
+options(htmltools.preserve.raw = FALSE)
+```
+
+class: inverse, center, middle
+background-image: url(https://media.tenor.com/QvDDT72U7lUAAAAM/crystal-ball.gif)
+background-size: 100%
+
+# .Huge[**The Conclusion**]
+
+# .yellow[**The Future of Globalization**]
+
+# .Large[.orange[**GLOA 101**]]
+
+---
+
+class: inverse, center, middle
+background-image: url(https://raw.githubusercontent.com/textvulture/textvulture.github.io/refs/heads/master/images/background_rightEmpty.jpg)
+background-size: 100%
+
+# .Large[.times[**Definition of globalization?**]]
+
+--
+
+# .Large[.red[increasing] and .blue[intensifying]]
+
+--
+
+# .Large[.Green[connectedness] between]
+
+--
+
+# .Large[global actors.]
+
+---
+class: inverse, center, middle
+background-image: url(https://raw.githubusercontent.com/textvulture/textvulture.github.io/refs/heads/master/images/night_background8.jpg)
+background-size: 100%
+
+# First, important to see if connectedness is shrinking.
+
+```{r include=F, cache=T}
+
+library(WDI)
+
+var = c('GDPpc' = 'NY.GDP.PCAP.KN',
+        'trade' = 'TG.VAL.TOTL.GD.ZS',
+        'tariff' = 'TM.TAX.MRCH.SM.AR.ZS',
+        'tourism' = 'ST.INT.TVLR.CD',
+        'migrantStock' = 'SM.POP.TOTL',
+        'trade_all' = 'NE.TRD.GNFS.ZS'
+)
+
+wdi <- WDI(indicator=var,
+           start=1970,
+           country = 'all',
+           end=2021,
+           extra=TRUE)   %>%
+  filter(region !="Aggregates") %>%
+  mutate(developed = 
+           case_when(
+             income == "High income" ~ "Developed",
+             income == "Upper middle income" ~ "Developed",
+             income == "Lower middle income" ~ "Underdeveloped",
+             income == "Low income" ~ "Underdeveloped", 
+             TRUE ~ NA_character_
+           )) %>%
+    filter(!is.na(developed))
+
+```
+
+---
+
+# Has the volume of .red[trade] been shrinking? <br> .tiny[Merchandise Trade as % of GDP]
+
+```{r results="asis", fig.width=16, fig.height=7}
+
+wdi %>% 
+  ggplot(aes(x=year,
+             y=trade)) +
+  geom_point(# aes(color=developed),
+             size=0.5) +
+  geom_smooth(# aes(color=developed), 
+              size=2, alpha=0.5, se=F) +
+#  geom_smooth(aes(color='orange'), size=2, se=FALSE, linetype='dashed') +
+  labs(x = "YEAR",
+       y = "All Trade % of GDP") +
+  theme_minimal() +
+  # scale_color_manual(values = c("red", "orange", "blue" ),
+  #                    labels = c("developed", "Overall", "Under-developed")) +
+  theme(legend.title=element_text(size=0),
+        legend.text=element_text(size=25),
+        axis.text=element_text(size=20),
+        axis.title=element_text(size=20)) +
+  ylim(12, 25)
+
+```
+
+---
+
+# .orange[Tariff?] .green[Tourism?]
+
+--
+
+```{r results="asis", fig.width=16, fig.height=7}
+
+fig1 <- wdi %>% filter(year>1993) %>%
+  filter(tariff<50) %>%
+  ggplot(aes(x=year,
+             y=tariff,
+             group=developed)) +
+  geom_point(aes(color=developed),
+             alpha=0.25, size=2) +
+  geom_smooth(aes(color=developed), 
+              alpha=0.5) +
+  labs(x = "YEAR",
+       y = "Tariff Rates (outliers dropped)") +
+  theme_minimal() +
+  theme(legend.title=element_text(size=0),
+        legend.text=element_text(size=25),
+        axis.text=element_text(size=20),
+        axis.title=element_text(size=20),
+        legend.position = 'bottom') 
+
+fig2 <- wdi %>% filter(year>1993) %>%
+  ggplot(aes(x=year,
+             y=log(tourism),
+             group=developed)) +
+  geom_point(aes(color=developed),
+             alpha=0.25, size=2) +
+  geom_smooth(aes(color=developed), 
+              alpha=0.5) +
+  labs(x = "YEAR",
+       y = "Tourism (receipts for travel items)") +
+  theme_minimal() +
+  theme(legend.title=element_text(size=0),
+        legend.text=element_text(size=25),
+        axis.text=element_text(size=20),
+        axis.title=element_text(size=20),
+        legend.position='bottom') 
+
+```
+
+.pull-left[
+```{r}
+
+fig1
+
+```
+]
+
+--
+
+.pull-right[
+```{r}
+
+fig2
+
+```
+]
+
+---
+
+class: inverse, center, middle
+background-image: url(https://media.tenor.com/AWDoghQs_xwAAAAM/magma-lava.gif)
+background-size: 110%
+
+# .LARGE[But .yellow[some] things are brewing.]
+
+---
+
+.full-width-green[
+# What's happening? .yellow[Transitional] and uncertain phase
+]
+<br><br>
+--
+
+.LARGE[`r fa('flag', fill='red')` Long-term structural trends]
+- .Large[Rise of China and relative U.S. decline (but .red[no] 'takeover')]
+- .Large[Democratic backsliding & populism; anti-globalization backlash]
+
+--
+
+.LARGE[`r fa('flag', fill='purple')` Short-term foreign policy shocks] 
+- .Large[Reduced reliability of U.S. leadership and alliances; ally-hedge]
+-	.Large[More transactional and unilateral foreign policy]
+-	.Large[Expanded use of economic coercion (sanctions)]
+
+--
+
+.LARGE[`r fa('flag', fill='green')` Tech and Info Transformation]
+- .Large[Rise of AI and platform firms: implications for 'power']
+- .Large[Spread of misinformation and “information disorder”]
+	
+---
+
+.full-width-brown[
+# What .yellow[will] happen? .tiny[(Leeds et al. 2025)]
+]
+<br>
+--
+
+- .LARGE[`r fa("scroll", fill="blue")`1: Transformation / Fragmentation]
+	-	.Large[Emergence of rival blocs or “cliques”]
+	-	.Large[Breakdown of shared norms]
+	-	.Large[Competing governance systems (e.g., tech alliances, financial systems)]
+	
+--
+
+- .LARGE[`r fa("scroll", fill="#80BFF2")`2: Adaptation / “Muddling Through”]
+	-	.Large[Institutions persist but change functionally]
+	-	.Large[Hybrid forms of governance emerge]
+	
+--
+
+- .LARGE[`r fa("scroll", fill="#B2D8F7")`3: Continuity / Resilience: Some systems remain robust]
+	-	.Large[Global trade governance]
+	-	.Large[Territorial stability (limited return of conquest)]
+	-	.Large[Persistence of some liberal practices even in autocracies]
+
+---
+class: inverse
+background-image: url(https://raw.githubusercontent.com/textvulture/textvulture.github.io/refs/heads/master/images/background_leftEmpty3.jpeg)
+background-size: 110%
+
+
+# Hard to predict because: (Steger, ch. 8)
+
+--
+
+## `r fa("angles-up", fill='#D980F2')` 'Disjuctive globalization' :
+- .Large[different speeds/directions of changes across sectors]
+- .Large[`r fa("robot", fill='yellow')` 'disembodied (digital/AI) globalization'  taking the lead]
+
+--
+
+## `r fa("circle-nodes", fill='#80BFF2')`  'Digital migration': 
+- .Large[physically dispersed / digitally coordinated]
+
+--
+
+## 'Reglobalization'?
