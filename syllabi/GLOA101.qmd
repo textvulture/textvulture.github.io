@@ -72,6 +72,7 @@ purple{
 - <font size='2'>Jan 19: 'check Canvas 4 times a week' is removed from @sec-canvas as it's redundant. </font>
 - <font size='2'>Jan 22: In @sec-mvg, the deadline is clarified for the 1st MVG (not graded--you submit one, you get the grade); inconsistency in CRD #2 deadline corrected (Apr 23)</font>
 - <font size='2'>Feb 4: Two (short) readings added to the weeks of Political Globalization and Socio-cultural Globalization</font>
+- <font size='2'>Apr 28: The deadline for MVG#2 is extended to May 5 (midnight). </font>
 
 
 # Instructor
@@ -248,7 +249,7 @@ grading_tbl %>%
 
 ### My Views on Globalization (<purple>{{< fa video >}}</purple>, 'MVG', 5%) {#sec-mvg}
 
-- The first MVG is not graded and worth 1 % of your course grade (meaning that you submit one, you'll get 1%) -- due 11:59PM, Feb 7. The second MVG, due <red>11:59PM, April 30</red>, is worth **4 %** of your class grade.
+- The first MVG is not graded and worth 1 % of your course grade (meaning that you submit one, you'll get 1%) -- due 11:59PM, Feb 7. The second MVG, due <red>11:59PM, May 5</red>, is worth **4 %** of your class grade.
 
 - This is a video-making assignment (which is increasingly a skill set required in various occupations). In making these videos, you should keep in mind:
 
