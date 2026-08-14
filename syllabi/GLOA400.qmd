@@ -62,7 +62,9 @@ blue {
 </style>
 ```
 
-**Change log** (Bookmark this webpage. Any changes made will be specified here.) 
+**Change log** <font size=1>(Bookmark this webpage. Any changes made will be specified here.)</font> 
+
+- <font size=2>Aug 14: A subsection on IRB is added (@sec-irb).<font>
 
 # Instructor
 
@@ -308,6 +310,14 @@ If it takes a lot of effort and committing many hours, you are probably using LL
 ## Mutual Respect & Collegiality
 
 You go to college to expose yourself to people who disagree with you. Exchanges of intellectual ideas in a safe and free environment are integral to our learning. However, this should not come at the expense of civility, which is a value of a higher order. No speech or action intended to result in—or in fact resulting in—mental or physical attacks on others (e.g., a statement denying the existence or human dignity of a group of people; a speech promoting violence) will be tolerated in this classroom. You are free to hold such views, but that freedom does not override others' right to feel safe in this class.
+
+## Institutional Review Board {#sec-irb}
+
+If your research involves non-human subjects such as historical sources, public data, news articles, you can just ignore this part. If you use public information, this subsection doesn't concern you either even if it's about humans (e.g., social media posts; online comments), although it is generally recommended that you anonymize the human sources in these cases. 
+
+If you are to use a research or data collection method involving a human subject (e.g., human-facing experiment, interview, focus group, or participatory observation), you need to go through Institutional Review Board (IRB) [review](https://oria.gmu.edu/topics/human-subjects/irb-review-process/) with the university. A project that is strictly contained within a classroom, IRB could be waived. However, GLOA 400 is an IMPACT+ course, which requires the findings of all research projects to be shared outside the classroom. By definition, therefore, you will need an IRB review if your research involves a human subject. 
+
+IRB takes time, sometimes stretching through months (thorugh rarely). If you're planning on human subject research and IRB is necessary, it is strongly recommended that you file the review within the first three weeks of the semester. The system requires you to submit many different materials at the time of application, so you need to have a pretty good understanding of how you go about your project by then.
 
 ## Grading Scale
 

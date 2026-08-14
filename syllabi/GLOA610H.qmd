@@ -1,6 +1,6 @@
 ---
 title: "GLOA 610 Economic Globalization & Development"
-subtitle: Spring 2026. <br> Hybrid. F2F lecture, 4:30--6:45 PM (T) + online <br> [Krug Hall 209](https://maps.app.goo.gl/oUvvFMoMxSqvy34V7)
+subtitle: Fall 2026. <br> Hybrid. F2F lecture, 4:30 (T) + online <br> [Horizon Hall 4000](https://maps.app.goo.gl/1QbFiPeHs5xANB3f7)
 format: 
   html:
 #    math: mathjax
@@ -62,12 +62,7 @@ blue {
 
 **Change log** 
 
-- <font size='2'> Jan 12: This syllabus published.</font>
-- <font size='2'> Jan 12: The conference participation (previoiusly Week 10) is not included anymore. A new week is added (Week 14, in this version). </font>
-- <font size='2'> Jan 14: Office Hours changed. </font>
-- <font size='2'> Jan 20: Typo and indentation corrected in @sec-read. No change in content. </font>
-- <font size='2'> Feb 5: A non-required reading added in the week of Finance</font>
-- <font size='2'> Feb 8: In the week of Investment, Yang article is not a required reading anymore; Chilton et al. (2020) publication information update (still a not required reading) </font>
+- <font size='2'> No changes yet </font>
 
 # Instructor
 
@@ -91,7 +86,7 @@ Does globalization treat everybody equally (every country, every society, every 
 Two additional things to note:
 
 - This ain't <red>no</red> econ class. Nor am I an economist.
-- This is a mildly <red>hybrid</red> class. The face-to-face (4:30-6:45 PM, T) portion of the class is for lecture and in-class discussions. The asynchronous portion, implemented through our course page in Canvas, is for your presentations (see @sec-report for details).
+- This is a *mildly* hybrid class. The face-to-face (4:30-6:45 PM, T) portion of the class is for lecture and in-class discussions. The asynchronous portion, implemented through our course page in Canvas, is for your presentations (see @sec-report for details) and your classmates feedback on them.
 
 # COURSE REQUIREMENT
 
