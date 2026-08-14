@@ -482,7 +482,8 @@ The grading scale in this course follows [GMU Catalogue](https://catalog.gmu.edu
   -  Handley, K. and Limão, N. (2022). Trade policy uncertainty. *Annual Review of Economics*, 14(1):363–395. <mark>not required</mark>
   -  Autor, D. H., Dorn, D., and Hanson, G. H. (2015). Why Obama’s key trade deal with Asia would actually be good for American workers. *Washington Post*. 3. 12. 2015. <mark>not required</mark>. PDF in Canvas.
   -  Blanchard, E. J., Brown, C. P., and Shor, D. (2019). Did Trump’s Trade War Impact the 2018 Election. NBER Working Paper 26434. [link.](http://www.nber.org/papers/w26434) <mark>not required</mark>
-  -  Eichengreen, B. (2018). Trade policy and the macroeconomy. *IMF Economic Review*, Forthcoming. DOI: [https://doi.org/10.1057/s41308-018-0053-9.](https://doi.org/10.1057/s41308-018-0053-9) <mark>not required</mark>
+  -  Eichengreen, B. (2019). Trade policy and the macroeconomy. *IMF Economic Review*, 67: 4-23. <mark>not required</mark>
+  - Smith, T. (2026). The effects of traiffs on consumer credit terms. AEA Research Highlights and Featured Chart. February 2026. [link](https://www.aeaweb.org/research/chart/consumer-credit-incidence-tariffs). A required reading, but do **not** include in the summary. 
 
 ## Week 5. Feb 17.  Finance and Development {.unnumbered}
 
