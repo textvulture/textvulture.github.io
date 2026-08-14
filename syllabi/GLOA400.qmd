@@ -64,7 +64,8 @@ blue {
 
 **Change log** <font size=1>(Bookmark this webpage. Any changes made will be specified here.)</font> 
 
-- <font size=2>Aug 14: A subsection on IRB is added (@sec-irb).<font>
+- <font size=2>Aug 14: A subsection on IRB is added (@sec-irb).</font>
+- <font size=2>Aug 14: A not-required reading is added to Oct 1 </font>
 
 # Instructor
 
@@ -449,6 +450,7 @@ Mason's programs are to be free of discrimination on the basis of race, color, r
 -   Leech, Beth L. 2002. “Asking Questions: Techniques for Semistructured Interviews.” *PS: Political Science & Politics* 35(4): 665–68.
 -   Fujii, Lee Ann. 2008. “The Power of Local Ties: Popular Participation in the Rwandan Genocide.” *Security Studies* 17(3): 568–97.
 - Kim, Dae Young, and Byunghwan Son. 2025. “K-Pop Fan Perceptions and Negotiation of Alternative Forms of Masculinities.” *The Journal of Men’s Studies*: 10608265251394364. DOI: [https://doi.org/10.1177/10608265251394364](https://doi.org/10.1177/10608265251394364)
+- Soest, Christian von. 2023. “Why Do We Speak to Experts? Reviving the Strength of the Expert Interview Method.” *Perspectives on Politics* 21(1): 277–87. <mark>not required</mark>
 
 
 ## Oct 8. Presentation #1 (1)  {.unnumbered}
