@@ -1,6 +1,6 @@
 ---
 title: "GLOA 610 Economic Globalization & Development"
-subtitle: Fall 2026. <br> Hybrid. F2F lecture, 4:30 (T) + online <br> [Horizon Hall 4000](https://maps.app.goo.gl/1QbFiPeHs5xANB3f7)
+subtitle: Fall 2026. <br> Hybrid. F2F lecture, 4:30 (T) + online <br> Horizon Hall 4000[📍](https://maps.app.goo.gl/1QbFiPeHs5xANB3f7)
 format: 
   html:
 #    math: mathjax
@@ -73,7 +73,7 @@ blue {
     -   [{{< fa brands github >}} Github](https://github.com/textvulture)
     -   [{{< fa brands google-scholar >}} Google Scholar](https://scholar.google.com/citations?user=h0o27GgAAAAJ&hl=en)
 -   Office Hours
-    -   Office Hours 2:45-4:15 PM (T); 10:00-11:30AM (R). 6235 [Horizon Hall](https://maps.app.goo.gl/4QEBDLp3j4YNuVLB9)
+    -   Office Hours TR 10:15-11:45 AM. 6235 [Horizon Hall](https://maps.app.goo.gl/4QEBDLp3j4YNuVLB9)
 -   Email Communications
     -   You can email me whenever you want, but my responses to the emails sent to me after 5 pm weekdays as well as any time during the weekend will be significantly slow.
     -   For your own interest, you might want to try to use the normal working hours (9 AM to 5 PM, Monday through Friday). In your email, please indicate <red>who you are</red> and <red>which class you’re in (i.e., GLOA 610)</red>.
@@ -160,7 +160,7 @@ kbl(df,
     -   You might want to touch upon of the questions mentioned above.
     -   While there's no specific template for this assignment, a good summary would, you know, summarize *all* of the required readings of the week. It would also discuss 1) what the reasoning behind the authors' arguments is and 2) how (some of) the readings can be related to each other (e.g., A disagrees with B; C complements D; E expands F for XYZ reasons) in a {compelling} way. Again, delivering this with your own words, not jargon, is the key.
         -   Each summary accounts for 5% of your class grade.
-        -   The summary is due **7:00 pm**, the class day (right before the class, that is).
+        -   The summary is due **4:00 pm**, the class day (right before the class, that is).
 -   There is no textbook you need to purchase. Instead, the reading list for each week is specified below. But if you want to have a reasonable textbook-like foundation for what we discuss, which is pretty advanced, this should be helpful (again, not a requirement):
     -   Oatley, Thomas. 2018. *International Political Economy*. 6th ed. New York, NY: Routledge.
 -   Most of the readings are electronically available via GMU library webpage (as well as in Google Scholar [{{< fa brands google-scholar >}}](scholar.google.com)).
@@ -280,7 +280,7 @@ kbl(df,
 
 ### the logistics 
 
--   The deadline for each Report/presentation is <red>7:00 PM, Tuesday</red> (Canvas) in the week of the subject. By this time both the Report and presentation video should be submitted in the designated places in Canvas.
+-   The deadline for each Report/presentation is <red>4:00 PM, Tuesday</red> (Canvas) in the week of the subject. By this time both the Report and presentation video should be submitted in the designated places in Canvas.
 -   Each Report should not exceed 2,500 words. There is no minimum but it'll be difficult to keep it under 1,500 words.
 -   You will give a brief (10 minutes max., but preferably around 6-7 minutes) presentation of your Report via a video posted in Canvas. You <red>have to</red> have presentation slides. Your face should be visible at least for some parts of the presentation although wearing a mask is allowed.
 -   The evaluation will be based on both your presentation (2%) and paper (18%).
@@ -290,6 +290,7 @@ kbl(df,
     -   For each case report, you will also decide which topic (i.e. which week's theme) you are interested in. Pick two.
         -   Make sure your topic actually speaks directly to the topic of the week. If your report is on immigration, for example, the migrants' hardship coming through the American southern border, though important, is not a good topic. 'Why migrants choose to move to the US' is.
         -   You are not required to work on the same country for both presentations/Reports, though that's encouraged. 
+- There should be at least two weeks between your two case reports/presentations ('two-week cool-down'). If your first presentation was on Week 6, then the next one should be on Week 9 or later.
 
 ### the expectation
 
@@ -312,11 +313,11 @@ kbl(df,
 
 ## Final Exam (20%) {#sec-final}
 
--   the exam date is determined by [the University](https://registrar.gmu.edu/wp-content/uploads/Spring-2026-Final-Exam-Schedule-1.pdf). You cannot take it early or later than the designated date except for a medical emergency.
+-   the exam date is determined by [the University](https://registrar.gmu.edu/fall-2026-final-exam-schedule/). You cannot take it early or later than the designated date except for a medical emergency.
 -   This essay exam will broadly reflect one of the general themes of the seminar and answer questions about our readings. Discussing non-class readings won't be helpful (and potentially hurt your grade).
   -   It is designed in a way that if you regularly complete the readings throughout the semester, you need to put in little extra effort for it.
 -   Write an essay and submit it to Canvas (Assignment section).
--   Two questions will be given through Canvas **36** hours in advance, which is 7:30 <mark2>AM</mark2>, May 11. 
+-   Two questions will be given through Canvas **36** hours in advance, which is 7:15 <mark2>AM</mark2>, Dec 14. 
 -   36 hours are given solely for flexibility. The actual exam-taking wouldn't take more than three hours. Many of you work and/or have other important commitments. So what you are asked is simply to carve out several hours from this 36-hour window. 
   - In other words, this is not a traditional 'take-home essay' that would take up an extensive amount of time to complete. It is a regular essay-type final exam that is allowed to be taken at any time during this 36-hour window at a place convenient to you.
 -   Be familiar with the University [policy](https://academicaffairs.chss.gmu.edu/ugradpolicies/ugpolicies/final-exams) on final exams.
@@ -357,11 +358,7 @@ The guiding principles of this course are *fairness* and *transparency*.
 
 ## Feedback on Written Assignments
 
-You can expect to have written feedback on your within 10 days. Please make sure that you see the in-text comments/feedback as well as the 'comment' (explained in the video). All Case Reports with grades should include my feedback. If any of yours does not, please let me know. There will be no feedback on your unless explicitly requested.
-
-## Accommodations
-
-If you have a documented learning disability or other condition that may affect academic performance you should: 1) Make sure this documentation is on file with the Office of Disability Services (SUB I, Rm. 222; 993-2474; [www.gmu.edu/student/drc](www.gmu.edu/student/drc)) to determine the accommodations you need; and 2) Discuss with me to plan your accommodation needs. Accommodations cannot be provided unless the document from the ODS is provided in advance.
+You can expect to receive written feedback on your within 10 days through Canvas. Please make sure that you see the in-text comments/feedback as well as the 'comment'. All Case Reports with grades should include my feedback. If any of yours does not, please let me know. There will be no feedback on your summary *unless explicitly requested*.
 
 ## Academic Integrity
 
@@ -373,29 +370,25 @@ When you rely on someone else’s work, you will give that source full credit, t
 
 Academic integrity is also more than not commiting plagiarism. Lying, for example, is also an offense identified in the Honor Code. Let's build our class on the foundation of mutual respect and transparency.
 
+## Accommodations
+
+If you have a documented learning disability or other conditions that may affect academic performance you should: 1) Make sure this documentation is on file with the Office of Disability Services (SUB I, Rm. 222; 993-2474; [www.gmu.edu/student/drc](www.gmu.edu/student/drc)) to determine the accommodations you need. Accommodations cannot be provided without this process.
+
 ## Use of Artificial Intelligence
 
-A Large Language Model (LLM), commonly referred to as AI, is a double-edged sword, in that it can help you research better but doing so could easily involve plagiarism/cheating. As a general rule, making an LLM ‘write,’ be it partial or entirely, is considered unequivocal cheating (‘consulting unauthorized materials’) and a direct violation of GMU Honor Code.
+A Large Language Model (LLM), commonly referred to as AI, is a double-edged sword, in that it can help you research better but doing so could easily involve plagiarism/cheating. As a general rule, making an LLM 'write,' be it partial or entirely, is considered unequivocal cheating ('consulting unauthorized materials') and a direct violation of [GMU Academic Standard](https://academicstandards.gmu.edu/), which applies to you even if you're unaware of it. Doing so also risks committing plagiarism because your using something that does not belong to you without a citation. The writing itself has to be yours and yours only. Note that a 'light' rephrasing (e.g., altering some words) is still plagiarism. Similarly, submission of an edited version of LLM-generated writing is still considered plagiarism. That means if you ask an LLM to generate a rough draft and then submit something that you revised heavily it still counts as a violation of the Academic Standard. 
 
-Doing so also risks committing plagiarism. The writing itself has to be yours and yours only.Note that a ‘light’ rephrasing (e.g., altering some words) is still plagiarism. Similarly, submission of an edited version of LLM-generated writing is still considered plagiarism.
+LLMs could be used to employed in the *process* of research. A good example is to use an LLM in finding topics. For example, you want to work on foreign aid coming in the form of providing portable water (i.e., constructing wells), which you read an article about, but do not really know where to start. Ask LLMs to give you a list of successful and unsuccessful cases of such projects. Then you can start searching for the existing research on those specific cases.
 
-LLM could be used in the *process* of research, the result of which *you* actually write about. A good example is to use LLM in finding topics. The more you dig in, the more useful the outcome. One way to see if you are using LLM properly is to see how much time and energy you’re spending on it. If it takes a lot of effort and committing many hours of time to a task, you are probably using LLM right (as a general rule, if what it does is simply make your life more comfortable, there’s a good chance that you’re violating the Honor Code).
+This won't be a simple, over-night task. There's going to be hours spent in refining prompts and coming back to the drawing board many times. The more you dig in, the more useful the outcome. One way to see if you are using LLM properly is to see how much time and energy you're spending on it. My own use of LLM in my research is to run an iterative code that gives prompts to an LLM (using tokens) to determine the ideological leanings of millions of news headlines. I would have needed a lot of research fund to pull this through. 
 
-Another way is to use LLM to find relevant readings, although this is proven quite unreliable. A lot of 'new' AI models (which are actually based on a couple of existing AI engines) boast about how good they are at this, but so far they really haven't been.
+If it takes a lot of effort and committing many hours, you are probably using LLM right. It gets you farther than you might have without it. If what it does is simply make your life more comfortable or save you from the deadline, I'd say there's a very good chance that you're violating the Honor Code). More importantly, by doing so, *you pay quite a bit of money for a valuable research/training opportunity and then just decline it while throwing away your conscience* (and potentially throwing yourself under the bus if caught).
 
-You can also use AI to detect typos or *obvious/simple* grammar errors. However, if you let it offer basically the whole prose for you, then it's considered plagiarism. An easy way to tell this is to ask youself: "Could I come up with this kind of expression/sentence myself?" If the answer is 'no' or 'not sure,' then you have to stay away from it. Remember, this is not a writing or literature class and, however elegant, your prose is not relevant for your grades. Only clarity matters.
+<mark2>Not bothering using an LLM in the first place remains a great option.</mark2>
 
-*Not bothering using an LLM in the first place remains a great option.*
+## Mutual Respect & Collegiality
 
-## Diversity Statement
-
--   This section reflects in part Mason’s [diversity statement](https://stearnscenter.gmu.edu/purpose-and-mission/mason-diversity-statement/).
-
-George Mason University promotes a living and learning environment for outstanding growth and productivity among its students, faculty, and staff. Through its curriculum, programs, policies, procedures, services, and resources, Mason strives to maintain a quality environment for work, study and personal growth.
-
-An emphasis upon diversity and inclusion throughout the campus community is essential to achieve these goals. Diversity is broadly defined to include such characteristics as, but not limited to, race, ethnicity, gender, religion, age, disability, and sexual orientation. Diversity also entails different viewpoints, philosophies, and perspectives. Attention to these aspects of diversity will help promote a culture of inclusion and belonging, and an environment where diverse opinions, backgrounds and practices have the opportunity to be voiced, heard and respected.
-
-There’s a practical element here too. You (will) live in an increasingly diverse society where practicing inclusiveness might help you in the long run (even if you do not agree with some of these values!). It is the obligation of the student to provide faculty, within the first two weeks of the semester, with the dates of major religious holidays on which they will be absent due to religious observances.
+You go to college to expose yourself to people who disagree with you. Exchanges of intellectual ideas in a safe and free environment are integral to our learning. However, this should not come at the expense of civility, which is a value of a higher order. No speech or action intended to result in—or in fact resulting in—mental or physical attacks on others (e.g., a statement denying the existence or human dignity of a group of people; a speech promoting violence) will be tolerated in this classroom. You are free to hold such views, but that freedom does not override others' right to feel safe in this class.
 
 ## Grading Scale
 
@@ -406,8 +399,8 @@ source2 <- data.frame(
       "93.00 or higher",  
       "90.00 - 92.99",   
       "87.00 - 89.99",    
-      "83.00 - 86.99",  
-      "80.00 - 82.99",  
+      "82.00 - 86.99",  
+      "80.00 - 81.99",  
       "70.00 - 79.99",  
       "69.99 or lower"
     ),
@@ -424,6 +417,45 @@ The grading scale in this course follows [GMU Catalogue](https://catalog.gmu.edu
 -   Please note that there is no ‘round up’ of scores at the end of the semester. 92.99999, for example, is A–.
 -   CHSS strictly prohibits giving an extra assignment for the purpose of improving a grade. I adhere to this policy.
 
+### *You 'earn' grades.*
+
+A word on what a grade means in this class, because it's different from what you're used to, say, in a stat or econ course. There, a problem set has a correct answer, and your grade is what's left after points are deducted for departures from it. Here there is no correct answer to depart from. A grade is not what remains after subtraction; it is what your paper <red>earns</red>. Two written assignments can both be free of identifiable problems and still receive different scores, because one of them did something the other didn't. So the question "I fixed everything you told me to fix---why isn't this a 100?" doesn't quite make sense. Addressing my comments addresses shortcomings, but it does not by itself produce a perfection. The top of the scale is reserved for insight. Note also what this means in the other direction: I can't hand you a checklist that guarantees full marks, and I won't pretend otherwise. What I *can* do is tell you where your analysis/writing is thin, what a sharper version of your question would look like, and which parts of your work aren't carrying the weight you think they are. To this end, I will offer you a lot of questions to think about in in the feedback. I can help you get better than before. To be great, however, depends solely on the steps you make. 
+
+
+## University Common Policies {#sec-common}
+
+<blue><font size=1>*The following is a summary of Mason's [Common Course Policies](https://stearnscenter.gmu.edu/home/gmu-common-course-policies/) (August 2026), which apply to every course at the University regardless of what any individual syllabus says and we are obligated to include in the syllabi. Read the full text at the link. Anything in @sec-policy above is in addition to—never instead of—these.*</font>
+
+<font size=1>
+**Academic Standards**
+
+Mason's academic standards rest on three principles:
+
+- **Honesty**: give accurate information in all coursework, communications, and exams.
+- **Acknowledgement**: credit every contribution to your work—ideas, words, and materials from others, cited in the style of the discipline—including shared authorship on group work.
+- **Uniqueness of work**: submit only your own original effort. This covers writing, code, presentations, and exams, and it rules out self-plagiarism.
+
+Plagiarism, fabrication, and cheating are among the violations handled under [University procedures](https://academicstandards.gmu.edu/), and sanctions can be academic, disciplinary, or both.
+
+**Accommodations for Students with Disabilities**
+
+[Disability Services](https://ds.gmu.edu/) (SUB I, Suite 2500; 703-993-2474) coordinates reasonable accommodations. You can start the registration process at any point in your enrollment.
+
+**FERPA and Course Communication**
+
+Course records are governed by [FERPA](https://registrar.gmu.edu/ferpa/). You <red>must</red> use your GMU email account for anything course-related; I cannot respond to—or send course content to—a non-Mason address.
+
+**Title IX and Non-Discriminatio**
+
+Mason's programs are to be free of discrimination on the basis of race, color, religion, ethnic or national origin (including shared ancestry), sex, disability, military or veteran status, sexual orientation, gender identity or expression, age, marital or pregnancy status, genetic information, or any other protected characteristic.
+
+**Required reporting**: as a non-confidential employee, I am legally required to report to the [Office of Access, Compliance, and Community](https://oacc.gmu.edu/) (OACC), including the Title IX Coordinator, any details I learn—directly or indirectly—about discrimination or harassment. Reportable conduct includes Title VI/VII discrimination and harassment (unequal treatment, or conduct that is threatening, harmful, or humiliating) and Title IX Prohibited Conduct (sexual harassment, sexual assault, gender-based stalking, dating or domestic violence). OACC then assesses the report and may reach out to the person potentially harmed. Relevant policies: [1201](https://oacc.gmu.edu/access-services/non-discrimination), [1202](https://universitypolicy.gmu.edu/policies/sexual-harassment-policy/), [1204](https://universitypolicy.gmu.edu/policies/prohibited-relationships-with-students/). OACC: 703-993-8730, Aquia 373 (Fairfax) or Van Metre Hall Suite 222 (Mason Square).
+
+**If you want a *confidential* conversation instead**, go to one of Mason's confidential offices: [SSAC](https://ssac.gmu.edu/), [CAPS](https://caps.gmu.edu/), [Student Health Services](https://shs.gmu.edu/), or the [Ombudsperson](https://ombuds.gmu.edu/).
+
+</font>
+</blue>
+
 # READING SCHEDULE
 
   - Readings are mostly available online. If not, they can be found in Canvas ('Files' section) even if it doesn't say so.
@@ -432,7 +464,7 @@ The grading scale in this course follows [GMU Catalogue](https://catalog.gmu.edu
   -   Readings and the reading schedules are subject to change. In fact, to reflect most up-to-date events in economic and political globalization, it is not uncommon that new readings are inserted and some readings are dropped. Although I try my best to give you at least one week before such changes, it is advisable that you do not complete the reading too much in advance.
   - If links to newspapers (NYT, FT, WSJ, or The Economist) do not work, use your own search. As Mason students, you have free access to these outlets.
 
-## Week 1. Jan 20. First Day {.unnumbered}
+## Week 1. Aug 25. First Day {.unnumbered}
 
   -  Class intro. There are readings, but no reading summary yet.
   -  Set the presentation schedule.
@@ -442,7 +474,7 @@ The grading scale in this course follows [GMU Catalogue](https://catalog.gmu.edu
   -  Miller, S. (2014). Reading a Regression Table: A Guide for Students. [link.](https://svmiller.com/blog/2014/08/reading-a-regression-table-a-guide-for-students/)
     : <font size=2>You can actually understand most of the readings without reading these ‘regression tables’ and we won’t spend time on this matter unless there’s a specific question. But knowing this opens up much more intellectual opportunities. So give it a careful read.</font>
 
-## Week 2. Jan 27. What are Development and Economic Globalization? {.unnumbered}
+## Week 2. Sep 1. What are Development and Economic Globalization? {.unnumbered}
 
   -  No reading summary yet.
   -  Rapley, J. (2007). *Understanding Development: Theory and Practice in the Third World*. Lynne Rienner, Boulder. Ch. 1 & 2. <mark2>PDF in Canvas</mark2>
@@ -455,7 +487,7 @@ The grading scale in this course follows [GMU Catalogue](https://catalog.gmu.edu
   -  Solow, R. M. (1956). A contribution to the theory of economic growth. *Quarterly Journal of Economics*, 70(1):65–94. <mark>not required</mark>
   -  The Economist. (2019). “The Middle Income Spread” [link.](https://www.economist.com/graphic-detail/2017/10/11/the-middle-income-spread??fsrc=scn/fb/te/bl/ed/themiddleincomespread&fbclid=IwAR3LKWm8Qk2gaNF-I7kB90fUxFu6-b0_ZWW_TC-EzhDnWxNX6ovqMYECAdc) <mark>not required</mark>
 
-## Week 3. Feb 3. Institutions and development {.unnumbered}
+## Week 3. Sep 8. Institutions and development {.unnumbered}
 
   -  first week where you can do a reading summary.
   -  North, D. C. (1991). Institutions. *Journal of Economic Perspectives*, 5(1):97–112.
@@ -468,7 +500,7 @@ The grading scale in this course follows [GMU Catalogue](https://catalog.gmu.edu
   -  Besley, T., Burgess, R., Khan, A., and Xu, G. (2022). Bureaucracy and development. *Annual Review of Economics*, 14(1):397–424. <mark>not required</mark>
   -  Jales, H., Kang, T. H., Stein, G., and Garcia Ribeiro, F. (2018). Measuring the role of the 1959 revolution on Cuba’s economic performance. *The World Economy*, 41(8):2243–2274. <mark>not required</mark>
 
-## Week 4. Feb 10. (Modern) Trade and Development {.unnumbered}
+## Week 4. Sep 15. (Modern) Trade and Development {.unnumbered}
 
   -  first week where you can do a presentation.
   - Caliendo, L. and Parro, F. (2022). Lessons from US-China Trade Relations. *Annual Review of Economics*, 15:513–541.
@@ -485,7 +517,7 @@ The grading scale in this course follows [GMU Catalogue](https://catalog.gmu.edu
   -  Eichengreen, B. (2019). Trade policy and the macroeconomy. *IMF Economic Review*, 67: 4-23. <mark>not required</mark>
   - Smith, T. (2026). The effects of traiffs on consumer credit terms. AEA Research Highlights and Featured Chart. February 2026. [link](https://www.aeaweb.org/research/chart/consumer-credit-incidence-tariffs). A required reading, but do **not** include in the summary. 
 
-## Week 5. Feb 17.  Finance and Development {.unnumbered}
+## Week 5. Sep 22.  Finance and Development {.unnumbered}
 
 Those who like to present on this week might note that the primary focus is on debt, banking, currency, and exchange rates. 
 
@@ -506,7 +538,7 @@ Those who like to present on this week might note that the primary focus is on d
   - Reuters. (2025) The 'Triple A' soeverign bond club has shrunk. Reuters. May 19, 2025. [link](https://www.reuters.com/business/finance/triple-a-sovereign-bond-club-has-shrunk-2025-05-19/?utm_campaign=trueAnthem%3A+Trending+Content&utm_medium=trueAnthem&utm_source=facebook&fbclid=IwY2xjawKYQEdleHRuA2FlbQIxMQBicmlkETE4WWpreXl4bExINGNQSFNMAR6oXF0qeDFo0Y3qqUgOw8UUqMVM5hgakl7VaVQ60O8D9_cKx-kNFWx8CDtUZA_aem_-z_hfkLGYPha5G0PyxScow). <mark>not required</mark>
   - Smith, I., Herbert, E., and Abboud, L. (2025). France joins Eurozone's 'periphery' as turmoil deepens, say investors. Financial Times. September 9, 2025. [link](https://on.ft.com/3JYbuUi)
 
-## Week 6. Feb 24. Investment and Development {.unnumbered}
+## Week 6. sep 29. Investment and Development {.unnumbered}
 
 Presenters might note that the focus is essentially foreign direct investment (FDI) from the perspectives of host governments, originating governments, investors, and/or people involved. Some of the easiest ways to approach this topic would be to start with particular multinational corporations as they are usually the investors.
 
@@ -524,7 +556,7 @@ Presenters might note that the focus is essentially foreign direct investment (F
   -  Bechtel, M. M. (2009). The political sources of systematic investment risk. *Journal of Politics*, 71:661–677. <mark>not required</mark>
   - Jensen, N. (2008). Political risk, domestic institutions, and foreign direct investment. *Journal of Politics*, 70(4):1040–1052. <mark>not required</mark>.
 
-## Week 7. Mar 3. International Economic Organizations and Development {.unnumbered}
+## Week 7. Oct 6. International Economic Organizations and Development {.unnumbered}
 
   - *We read a bunch of very short articles in this week. For more textbook-like discussions, refer to* Copelovitch *and* Stiglitz *below*.
   -  Daoud, A., Nosrati, E., Reinsberg, B., Kentikelenis, A. E., Stubbs, T. H., and King, L. P. (2017). Impact of International Monetary Fund programs on child health. *Proceedings of the National Academy of Sciences*, 114(25):6492–6497.
@@ -541,9 +573,7 @@ Presenters might note that the focus is essentially foreign direct investment (F
   -  Abouharb, M. R. and Cingranelli, D. L. (2006). The Human Rights Effects of World Bank Structural Adjustment, 1981–2000. *International Studies Quarterly*, 50(2):233–262. <mark>not required</mark>
   -  Arauz, A. and Cashman, K. (2022). Special drawing rights one year later, by the numbers. CEPR Working Paper. Available at: [https://cepr.net/special-drawing-rightsone-year-later-by-the-numbers/.](https://cepr.net/special-drawing-rights-one-year-later-by-the-numbers/) <mark>not required</mark>
 
-## Week 8. Mar 10: Spring Recess. NO class <red>{{< fa martini-glass size=small >}}</red>  {.unnumbered}
-
-## Week 9. Mar 17. Foreign Aid {.unnumbered}
+## Week 8. Oct 13. Foreign Aid {.unnumbered}
 
 Those interested in presenting in this week should be aware that foreign aid is very diverse and any presentation would need to explain what kind of aid it is talking about. For example, 'DRC's aid dependency' would be quite a tough topic to pull off because it points to a very wide array of things. 'What happened to the food assistance to Nicaragua in 1998?' would be more doable. In addition, humanitarian, emergency, or disaster aid, usually a very important topic, would be hard to work on unless its connection to economic globalization and/or development clearly accounted for.
 
@@ -560,7 +590,7 @@ Those interested in presenting in this week should be aware that foreign aid is 
   -  Edwards, S. (2015). Economic development and the effectiveness of foreign aid: A historical perspective. *Kyklos*, 68(3):277–316. <mark>not required</mark>. An accessible primer of foreign aid history.
 
 
-## Week 10. Mar 24. Poverty & Inequality Reduction {.unnumbered}
+## Week 9. Oct 20. Poverty & Inequality Reduction {.unnumbered}
 
 Those presenting this week would want to know that there's a difference between poverty/inequality and general under-development. A developed country might still have poverty issues, for example. Avoid picking up topics of generic under-development of a country.
 
@@ -578,7 +608,7 @@ Those presenting this week would want to know that there's a difference between 
   -  Basu, K. (2006). Globalization, poverty, and inequality: What is the relationship? what can be done? *World Development*, 34:1361–1373. <mark>not required</mark>
 
 
-## Week 11. Mar 31. Political Economy of Immigration {.unnumbered}
+## Week 10. Oct 27. Political Economy of Immigration {.unnumbered}
 
 Those presenting this week are advised to **not** to focus on non-political economy dimension of the topic, such as 'the cruelty and hypocracy of the immigration policies of country X' or 'the agony of migrants.' It is important, but no directly related to our course subject. 
 
@@ -592,7 +622,10 @@ Those presenting this week are advised to **not** to focus on non-political econ
   -  Mosley, L. and Singer, D. A. (2015). Migration, labor, and the international political economy. *Annual Review of Political Science*, 18(1):283–301. <mark>not required</mark>
   -  Hainmueller, J. and Hangartner, D. (2013). Who gets a swiss passport? a natural experiment in immigrant discrimination. *American Political Science Review*, 107(1):159–187. <mark>not required</mark>
 
-## Week 12. Apr 7. Global Economic Crisis {.unnumbered}
+## Week 11. Nov 3. Election Day 🗳️. No Class.
+
+## Week 12. Nov 10. Global Economic Crisis {.unnumbered}
+
 Those presenting this week should note that we are talking about actual crises, not general economic difficulties. You should be able to point to a specific crisis as an event that occurred abruptly and quickly (e.g., Mexican peso crisis in 1994; Argentine sovereign debt default 2002). Overall economic difficulties sustained for a lengthy period of time do not count. 
 
   -  <mark2>Last</mark2> week where you can do a presentation.
@@ -607,7 +640,7 @@ Those presenting this week should note that we are talking about actual crises, 
   -  Dönmez, P. E. and Zemandl, E. J. (2019). Crisis of capitalism and (de-) politicisation of monetary policymaking: reflections from hungary and turkey. *New Political Economy*, 24(1):125– 143. <mark>not required</mark>
   -  Reinhart, C. and Reinhart, V. (2020). The pandemic depression: The global economy will never be the same. Foreign Affairs. August 6, 2020. Available at: [link.](https://www.foreignaffairs.com/articles/united-states/2020-08-06/coronavirus-depression-global-economy) <mark>not required</mark>
 
-## Week 13. Apr 14. Global Health, Environment & Resource {.unnumbered}
+## Week 13. Nov 17. Global Health, Environment & Resource {.unnumbered}
 
   -  Last week where you can do a reading summary.
   -  Savoia, A. and Sen, K. (2021). The political economy of the resource curse: A development perspective. *Annual Review of Resource Economics*, 13:203–223.
@@ -620,7 +653,7 @@ Those presenting this week should note that we are talking about actual crises, 
   - Bayer, P. and Urpelainen, J. (2016). It is all about political incentives: democracy and the renewable feed-in tariff. *The Journal of Politics*, 78(2):603–619. <mark>not required</mark>
   -  Lawrence, R. Z. (2024). Climate action: Implications for factor market reallocation. PIIE Working Paper. 24-1. [link.](https://www.piie.com/sites/default/files/2024-01/wp24-1.pdf) <mark>not required</mark>
 
-## Week 14. Apr 21. Economic Security {.unnumbered}
+## Week 14. Nov 24. Economic Security {.unnumbered}
 
   -  *The readings in this week are particularly prone to change, so stay tuned*.
   -  Poast, P. (2022). The ‘Golden Age’ of Globalization is Officially Over. World Politics Review. October 21, 2022. [link.](https://www.worldpoliticsreview.com/china-us-trade-war-globalized-economy/)
@@ -632,16 +665,16 @@ Those presenting this week should note that we are talking about actual crises, 
   -  Agarwal, R. (2023). Industrial policy and growth strategy trilemma. Finance & Development. International Monetary Fund. Available at: [link.](https://www.imf.org/en/Publications/fandd/issues/Series/Analytical-Series/industrial-policy-and-the-growth-strategy-trilemma-ruchir-agarwal?utm_medium=email&utm_source=govdelivery)
   -  Eichengreen, B. (2022). Sanctions, swift, and china’s cross-border inter-bank payments system. CSIS Briefs. May 20, 2022. [link.](https://www.csis.org/analysis/sanctions-swift-and-chinas-cross-border-interbank-payments-system)
   
-## Week 15. Apr 28. Wrap-up & Course Evaluation {.unnumbered}
-  - May 4 is the last day of the semester for the [University.](https://registrar.gmu.edu/wp-content/uploads/Spring-2026-Final-Exam-Schedule-1.pdf). The last class date possible for us, therefore, is Apr 28.
+## Week 15. Dec 1. Wrap-up & Course Evaluation {.unnumbered}
+  - Dec 7 is the last day of the semester for the [University.](https://registrar.gmu.edu/fall-2026-final-exam-schedule/). The last class date possible for us, therefore, is Dec 1.
 
 
 
   
 ## Final Exam {.unnumbered}
 
-  - <red>**May 12**</red>: Final Essay Due, 7:30 PM 
+  - <red>**Dec 15**</red>: Final Essay Due, 7:15 PM. 
   -  The final exam schedule is determined entirely by the University authority. It is thus subject to the University’s schedule change.
-  -  Essay questions made available 36 hours in advance (7:30 <mark2>AM</mark2>, May 11); no exceptions
-  -  Submission via Canvas (by 7:30 PM). So we do *not* meet.
+  -  Essay questions made available 36 hours in advance (7:15 <mark2>AM</mark2>, Dec 14); no exceptions
+  -  Submission via Canvas (by 7:15 PM). So we do *not* meet.
   - Detailed instructions will be provided as we approach the end of the semester.
