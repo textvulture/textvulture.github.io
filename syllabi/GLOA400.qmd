@@ -65,7 +65,8 @@ blue {
 **Change log** <font size=1>(Bookmark this webpage. Any changes made will be specified here.)</font> 
 
 - <font size=2>Aug 14: A subsection on IRB is added (@sec-irb).</font>
-- <font size=2>Aug 14: A not-required reading is added to Oct 1 </font>
+- <font size=2>Aug 14: A not-required reading is added to Oct 1. </font>
+- <font size=2>Aug 19: More details added to @sec-part.</font>
 
 # Instructor
 
@@ -274,6 +275,8 @@ kbl(df,
 -   Active participation in class discussion is expected of every student. As is the case in any class, we learn the most when we talk. In particular, participating in class discussions will help you navigate your own research topics and refine the research design you come up with. Try to approach other people's project in the context of 'what would I have done with that?'
 -   The evaluation of your participation rests upon my **subjective** assessment of the extent to which you contributed to our collective understanding of the class subject. In practical terms, both frequency and quality matter. There are numerous ways to offer high-quality comments. However, making points about the <red>readings</red> or comments relating class discussions to your (or your classmates') project is considered always of the highest quality. In general though, the more, the better.
 -   Engaging in your classmates' presentations (i.e., asking questions and offering feedback) is a great way of participation. To be clear, your *own* presentation is not participation (nor is the official written peer review done through the forms), meaning that you need to engage others' presentations if you want your speaking to count.
+    - There isn't a set minimum or maximum number of comments you have to make. Your comments will be evaluated holistically. That said, regularity matters in this holistic assessment. If you go without commenting on your classmates' pitch(es) or presentation(s) for two weeks in a row, it would be very much noticeable.
+  - The comments are expected to be collegial and yet constructive. Be polite, but avoid simply saying something to the effect of 'Hey I liked your presentation. That was awesome.' Give comments with actual substances. 'Have you also looked into this aspect of the case? I think it bolsters/contradicts your claim here' or 'I think this makes a great comparison with this other case that I am working on because ...' would be a much better comment. 
 -   "**What's happening in the World?**": Another great way to participate is to contribute to a brief (3-min) class discussion taking place at the beginning of every meeting. Just bring up what you found from news on global affairs (broadly defined, but *not* US-specific news) and we can discuss it together. Note that as a Mason student, you have free access to the Financial Times, the New York Times, the Economist, and many others. Check out [this link](https://infoguides.gmu.edu/news) for further information.
 -   The number of absences does not directly translate into the participation grades. However, a sustained absence (barring a medical excuse recognized by Disability Services) will have an impact. <red>five</red> or more absences by the end of the semester will lead to zero in the participation grade. Also note that absence indirectly affects your grade (since the less you're in class, that much fewer opportunities for your participation).
 

@@ -62,7 +62,7 @@ blue {
 
 **Change log** 
 
-- <font size='2'> No changes yet </font>
+- <font size='2'> Aug 19: Additional details added to @sec-part. </font>
 
 # Instructor
 
@@ -173,6 +173,9 @@ kbl(df,
 
 -   Active participation in class discussions is expected of every student in this graduate seminar. As is the case in any seminar, we learn the most when we talk. Answering my questions during the lecture and making an in-class comment on the class subject are typical--and yet very effective--ways of 'participation.'
 - Another way of participation is making an online comment on your classmates' presentation, which will be made available in Canvas. If you feel that you're not talking enough in class, this is a great way to make it up.
+  - There isn't a set minimum or maximum number of comments you have to make. Your comments will be evaluated holistically. That said, regularity matters in this holistic assessment. If you go without commenting on your classmates' presentation(s) for two weeks in a row, it would be very much noticeable.
+  - The comments are expected to be collegial and yet constructive. Be polite, but avoid simply saying something to the effect of 'Hey I liked your presentation. That was awesome.' Offer comments with actual substances. 'Have you also looked into this aspect of the case? I think it bolsters/contradicts your claim here' or 'I think this makes a great comparison with this other case that I am working on because ...' would be a much better comment. 
+  - The window for your comments is limited. It expires in a week from the class date. Comments on a presentation given for the class on September 15 (regardless of when exactly the video was uploaded) should be made no later than 4:30 pm, September 22. The presenter is expected to react to these comments.
 - Yet another way of participation is to partake in current event discussions. Every class will begin with discussions on a couple of current events related to global political economy. You might want to bring up a news article and we can discuss that. This is optional and designed to add to your participation grade. Note that as a Mason student, you have free access to the Financial Times, the New York Times, the Economist, and many others. Check out this [link.](https://infoguides.gmu.edu/news) for further information.
 -   The evaluation of your participation rests upon my **subjective** assessment of the extent to which you contributed to our collective understanding of the class subject. In practical terms, both frequency and quality matter. In general, though, questions and comments on the <red>readings</red> are considered of a much better quality than others. There's no 'right' way of participation, but roughly speaking:
 
