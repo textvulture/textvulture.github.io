@@ -67,6 +67,7 @@ blue {
 - <font size=2>Aug 14: A subsection on IRB is added (@sec-irb).</font>
 - <font size=2>Aug 14: A not-required reading is added to Oct 1. </font>
 - <font size=2>Aug 19: More details added to @sec-part.</font>
+- <font size=2>Aug 21: An error in @sec-schedule corrected. No action required. </font>
 
 # Instructor
 
@@ -393,7 +394,7 @@ Mason's programs are to be free of discrimination on the basis of race, color, r
 -   Unless familiar with quantitative methods, you will find several of the readings 'math-heavy' (though they really aren't). It is *not* the purpose of this class for you to have a line-by-line understanding of the quantitative parts of each reading. You are asked, instead, to figure out what the authors actually want to deliver through all those numbers and equations. We will work on this whenever necessary and I am more than happy to help you on this individually. I am a quanitatively-oriented scholar, but I don't require students to use quanitative methods. In fact, without taking well-sequenced method courses, it is generally not a good idea to employ a quantitative research method for your capstone project.
 -   Unless specified as <mark>not required</mark>, all the listed readings are required readings.
 -   The readings can be--and will be--added or deleted. If it happens, it should happen at least one week before the reading is due. Just bookmark this syllabus page (because I will update it online) and check it before working on the readings.
--   Most readings here are available through the [GMU library webpage](https://library.gmu.edu/). It is part of the training that you get yourself familiar with finding these academic materials in the library (your tuition money goes to GMU's subscriptions to all these academic journals--many of which are quite a lot of {{< fa dollar-sign size=small >}}). Those unavailable in the Library or free online will be made available in Canvas ('Readings' in the 'Course Contents' tab).
+-   Most readings here are available through the [GMU library webpage](https://library.gmu.edu/). It is part of the training that you get yourself familiar with finding these academic materials in the library (your tuition money goes to GMU's subscriptions to all these academic journals--many of which are quite a lot of {{< fa dollar-sign size=small >}}). Those unavailable in the Library or free online will be made available in Canvas ('Files').
 
 
 ## Aug 25. Introduction. Going over the Syllabus. {.unnumbered}
