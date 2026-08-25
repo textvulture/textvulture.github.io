@@ -266,18 +266,18 @@ background-image: url(https://preventionlane.org/wp-content/uploads/2015/02/blac
 <br>
 --
 
-<iframe src="https://textvulture.github.io/syllabi/GLOA610.html" width="110%" height="525">
+<iframe src="https://textvulture.github.io/syllabi/GLOA610H.html" width="110%" height="525">
   </iframe>
   
 ---
 
 
-class: center, top, inverse
+class: top, inverse
 
 background-image: url(https://github.com/textvulture/textvulture.github.io/blob/master/images/deskBackground3.png?raw=true)
 background-size: cover
 
-# .Large[Go to Canvas & sign up for .pink[two] spots. <br> .yellow[No] back-to-back spots.]
+# .Large[Go to Canvas & sign up for .pink[two] spots. <br> Spots need to be separated by at least .yellow[two] weeks.]
 
 ---
 
@@ -299,6 +299,10 @@ background-size: cover
 --
 
 # .large[To .pink[evaluate], you need to know the .Yellow[rules].]
+
+--
+
+## .red[Not at all] asking you to write your case report exactly like this. 
 
 ---
 
@@ -332,7 +336,7 @@ knitr::include_graphics("https://2.bp.blogspot.com/-MjVaq_H_dBE/VDFwHWtem5I/AAAA
 
 --
 
-2. .Large[Discovering .Yellow[Research Questions] (a simple question) `r fa("person-circle-question", fill='Purple')`] 
+2. .Large[Discovering .orange[Research Questions] (a simple question) `r fa("person-circle-question", fill='Purple')`] 
 
 --
 
@@ -364,7 +368,7 @@ knitr::include_graphics("https://2.bp.blogspot.com/-MjVaq_H_dBE/VDFwHWtem5I/AAAA
 
 --
 
-### variables: factors of interest whose values .Yellow[vary]
+### variables: factors of interest whose values .orange[vary]
 
 --
 
@@ -399,21 +403,23 @@ kbl(text, booktabs = T,
 
 ---
 .content-box-blue[
-## 1. Introduction (+ Literature Review)
+### 1. Introduction (+ Literature Review)
 ]
 
 .content-box-yellow[
-## 2. (Literature Review +) Argument/Hypothesis
+### 2. (Literature Review +) Argument/Hypothesis
 ]
 
 .content-box-army[
-## 3. Research Design
+### 3. Research Design
 ]
 
 .content-box-purple[
-## 4. Empirical Analysis
+### 4. Empirical Analysis
 ]
 
 .content-box-red[
-## 5. Conclusion
+### 5. Conclusion
 ]
+
+* Again, not asking you to write your case report just like this.
