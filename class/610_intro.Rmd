@@ -369,7 +369,9 @@ class: middle, center
 
 ## .Large['Announcement' section]
 
-## [Link](https://gmuedu-my.sharepoint.com/:w:/r/personal/bson3_gmu_edu/Documents/GLOA610%20signup.docx?d=w6779666c808e4ca6a452fe1253aa46ec&csf=1&web=1&e=xvlO9O)
+## [Link](https://gmuedu-my.sharepoint.com/:w:/g/personal/bson3_gmu_edu/IQAI4Dg3TJLbQZ879eZiKrOsAWnuMBAqaD-FyAiHoDPW-Aw?e=2cRjl0)
+
+### Password: 610
 
 ---
 class: center, middle
