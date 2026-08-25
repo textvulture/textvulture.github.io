@@ -397,11 +397,12 @@ Mason's programs are to be free of discrimination on the basis of race, color, r
 -   Most readings here are available through the [GMU library webpage](https://library.gmu.edu/). It is part of the training that you get yourself familiar with finding these academic materials in the library (your tuition money goes to GMU's subscriptions to all these academic journals--many of which are quite a lot of {{< fa dollar-sign size=small >}}). Those unavailable in the Library or free online will be made available in Canvas ('Files').
 
 
-## Aug 25. Introduction. Going over the Syllabus. {.unnumbered}
+## Aug 25-27. Introduction. Going over the Syllabus. {.unnumbered}
 
 -   Introduction of the class: the class begins with the assumption that by August 25, you have read this syllabus quite thoroughly.
 - **My Best Reading**: What was the single reading you liked the most in the classes that you've taken in GMU? Did it use data? What kind? There's no grade for this, but you will be asked to talk about it. 
 - If you haven't already, start thinking about your capstone project topic right now.
+
 
 
 ## Sep 1. Idea Pitch I {.unnumbered}
