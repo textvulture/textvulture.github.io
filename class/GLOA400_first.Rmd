@@ -1,0 +1,134 @@
+---
+title: "GLOA400 Intro"
+author: Son
+#########################################
+linkcolor: blue
+citecolor: blue
+urlcolor: blueß
+output: 
+  xaringan::moon_reader:
+    nature:
+      ratio: '16:9'
+      highlightStyle: github
+    seal: false
+  #    self-contained: TRUE
+  chakra: css/libs/remark-latest.min.js
+css: ["default", 
+      "css/footer.css", 
+      "css/color.css", 
+      # "css/xaringan-themer.css",
+      default-fonts]
+lib_dir: css/libs
+beforeInit: "css/macros.js"
+--- 
+
+```{r setup, include=FALSE}
+# to use FontAwesome
+#htmltools::tagList(rmarkdown::html_dependency_font_awesome())
+
+library(fontawesome)
+library(dplyr)
+library(ggplot2)
+library(tinytable)
+library(modelsummary)
+
+knitr::opts_chunk$set(warning = FALSE, message = FALSE, error=F, echo=F)
+options(htmltools.preserve.raw = FALSE) 
+
+```
+
+
+background-color: #094e0d
+class: inverse, middle
+background-image: url(https://textvulture.github.io/portrait_July2024.png)
+background-position: 23cm 2.5cm
+background-size: 20%
+
+# .large[.Large[.yellow[**Introduction**]] <br> The Bolts and Nuts] <br><br>
+----
+
+## .right[Byunghwan Ben Son <br> .tiny[(Associate Professor, GLOA, GMU)]]
+
+### .right[GLOA 400]
+
+
+---
+
+.full-width-green[
+# We want to accomplish today:
+]
+<br>
+
+--
+
+## Overview of the syllabus:
+
+--
+
+## - Course Requirements
+## - Expectation
+## - Policies
+## - Schedule
+
+---
+
+
+# Where is the syllabus?
+
+.large[URL: [textvulture.github.io/syllabi/GLOA400.html](https://textvulture.github.io/syllabi/GLOA400.html): bookmark `r fa('star', fill='orange')` it.]
+
+--
+
+<iframe src="https://textvulture.github.io/syllabi/GLOA400.html" width=1000 height=420></iframe>
+
+---
+
+background-image: url(wordcloud.png)
+background-position: 13cm 0cm
+background-size: 70%
+
+.full-width-green[
+# The Instructor
+]
+<br>
+
+--
+
+### - **PhD** in political science
+
+--
+
+### - Interests
+
+  - Politics of Global Finance
+  - Democratic Backsliding
+  - Quantitative and Mixed Methods
+  - Political communication
+
+--
+
+### [`r fa('user-graduate', fill='orange')` Google Scholar ](https://scholar.google.com/citations?user=h0o27GgAAAAJ&hl=en); [`r fa('house', fill='green')` Webpage](textvulture.github.io)
+
+--
+
+### `r fa('house-user')` Office Hours: 10:15-11:45 AM (TR)
+
+---
+
+class: inverse, center, middle
+background-image: url(https://gifdb.com/images/branded/high/detective-pikachu-looking-investigating-4tywrw3dfryoy1kw.gif)
+background-size: 110%
+
+# .LARGE[Okay, now let's go over the syllabus in detail.]
+
+---
+
+<iframe src="https://textvulture.github.io/syllabi/GLOA400.html" width=1200 height=600></iframe>
+
+---
+
+class: inverse, center, middle
+background-image: url(https://raw.githubusercontent.com/textvulture/textvulture.github.io/refs/heads/master/images/forestBackground.jpg)
+background-size: 110%
+
+# We're going to 'review' some of the things we talked about to day, so better be ready (not graded though).
