@@ -68,6 +68,8 @@ blue {
 - <font size=2>Aug 14: A not-required reading is added to Oct 1. </font>
 - <font size=2>Aug 19: More details added to @sec-part.</font>
 - <font size=2>Aug 21: An error in @sec-schedule corrected. No action required. </font>
+- <font size=2>Aug 25: An error in @sec-schedule corrected. Aug 25 -> Aug 25-27. </font>
+
 
 # Instructor
 
