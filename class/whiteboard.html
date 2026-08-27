@@ -1,0 +1,196 @@
+<style>
+/* Whiteboard */
+#whiteboard {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: 99999;
+  cursor: crosshair;
+  touch-action: none;
+}
+
+#whiteboard-controls {
+  display: none;
+  position: fixed;
+  top: 15px;
+  right: 20px;
+  z-index: 100000;
+  background: rgba(40,40,40,.85);
+  padding: 8px;
+  border-radius: 6px;
+  font-family: sans-serif;
+}
+</style>
+
+<canvas id="whiteboard"></canvas>
+
+<div id="whiteboard-controls">
+  <button onclick="clearWhiteboard()">Clear</button>
+  <button onclick="undoWhiteboard()">Undo</button>
+  <input type="color" id="penColor" value="#ff0000">
+  <input type="range" id="penWidth" min="1" max="15" value="3">
+  <button onclick="toggleWhiteboard()">Close</button>
+</div>
+
+<script>
+(function() {
+
+  const canvas = document.getElementById("whiteboard");
+  const ctx = canvas.getContext("2d");
+  const controls = document.getElementById("whiteboard-controls");
+
+  let drawing = false;
+  let history = [];
+
+  function resizeCanvas() {
+    const dpr = window.devicePixelRatio || 1;
+
+    canvas.width = window.innerWidth * dpr;
+    canvas.height = window.innerHeight * dpr;
+
+    canvas.style.width = window.innerWidth + "px";
+    canvas.style.height = window.innerHeight + "px";
+
+    ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
+    ctx.lineCap = "round";
+    ctx.lineJoin = "round";
+  }
+
+  resizeCanvas();
+  window.addEventListener("resize", resizeCanvas);
+
+  function getPosition(e) {
+    const rect = canvas.getBoundingClientRect();
+
+    return {
+      x: e.clientX - rect.left,
+      y: e.clientY - rect.top
+    };
+  }
+
+  function startDrawing(e) {
+    if (canvas.style.display === "none") return;
+
+    e.preventDefault();
+    drawing = true;
+
+    history.push(canvas.toDataURL());
+
+    const pos = getPosition(e);
+
+    ctx.beginPath();
+    ctx.moveTo(pos.x, pos.y);
+  }
+
+  function draw(e) {
+    if (!drawing) return;
+
+    e.preventDefault();
+
+    const pos = getPosition(e);
+
+    ctx.strokeStyle =
+      document.getElementById("penColor").value;
+
+    ctx.lineWidth =
+      document.getElementById("penWidth").value;
+
+    ctx.lineTo(pos.x, pos.y);
+    ctx.stroke();
+  }
+
+  function stopDrawing(e) {
+    if (!drawing) return;
+
+    e.preventDefault();
+
+    drawing = false;
+    ctx.closePath();
+  }
+
+  canvas.addEventListener("mousedown", startDrawing);
+  canvas.addEventListener("mousemove", draw);
+  canvas.addEventListener("mouseup", stopDrawing);
+  canvas.addEventListener("mouseleave", stopDrawing);
+
+  canvas.addEventListener(
+    "touchstart", startDrawing, {passive:false}
+  );
+
+  canvas.addEventListener(
+    "touchmove", draw, {passive:false}
+  );
+
+  canvas.addEventListener(
+    "touchend", stopDrawing, {passive:false}
+  );
+
+  window.toggleWhiteboard = function() {
+
+    if (canvas.style.display === "none") {
+
+      resizeCanvas();
+
+      canvas.style.display = "block";
+      controls.style.display = "block";
+
+    } else {
+
+      canvas.style.display = "none";
+      controls.style.display = "none";
+
+    }
+  };
+
+  window.clearWhiteboard = function() {
+
+    history.push(canvas.toDataURL());
+
+    ctx.clearRect(
+      0, 0,
+      window.innerWidth,
+      window.innerHeight
+    );
+  };
+
+  window.undoWhiteboard = function() {
+
+    if (history.length === 0) return;
+
+    const img = new Image();
+
+    img.onload = function() {
+
+      ctx.clearRect(
+        0, 0,
+        window.innerWidth,
+        window.innerHeight
+      );
+
+      ctx.drawImage(img, 0, 0);
+    };
+
+    img.src = history.pop();
+  };
+
+  document.addEventListener("keydown", function(e) {
+
+    if (
+      e.key.toLowerCase() === "w" &&
+      e.target.tagName !== "INPUT" &&
+      e.target.tagName !== "TEXTAREA"
+    ) {
+      toggleWhiteboard();
+    }
+
+    if (e.key === "Escape") {
+      canvas.style.display = "none";
+      controls.style.display = "none";
+    }
+  });
+
+})();
+</script>

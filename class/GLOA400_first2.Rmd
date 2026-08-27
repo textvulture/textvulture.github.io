@@ -1,0 +1,47 @@
+---
+title: "GLOA400 Intro"
+author: Son
+#########################################
+linkcolor: blue
+citecolor: blue
+urlcolor: blueß
+output: 
+  xaringan::moon_reader:
+    nature:
+      ratio: '16:9'
+      highlightStyle: github
+    seal: false
+  #    self-contained: TRUE
+  chakra: css/libs/remark-latest.min.js
+css: ["default", 
+      "css/footer.css", 
+      "css/color.css", 
+      # "css/xaringan-themer.css",
+      default-fonts]
+lib_dir: css/libs
+beforeInit: "css/macros.js"
+--- 
+
+```{r setup, include=FALSE}
+# to use FontAwesome
+#htmltools::tagList(rmarkdown::html_dependency_font_awesome())
+
+library(fontawesome)
+library(dplyr)
+library(ggplot2)
+library(tinytable)
+library(modelsummary)
+
+knitr::opts_chunk$set(warning = FALSE, message = FALSE, error=F, echo=F)
+options(htmltools.preserve.raw = FALSE) 
+
+```
+
+
+background-color: #094e0d
+class: inverse, middle
+background-image: url(https://textvulture.github.io/portrait_July2024.png)
+background-position: 23cm 2.5cm
+background-size: 20%
+
+# .large[.Large[.yellow[**Introduction**]] <br> The Bolts and Nuts] <br><br>
