@@ -140,7 +140,7 @@ background-size: 110%
 class: inverse, middle
 background-color: black
 
-# Of all the class readings you've had in Mason, what do you think was .green[best]? What .yellow[aspect] did you like it?
+# Of all the class readings you've had in Mason, what do you think was .green[best]? What .yellow[aspect] of it did you like the most?
 
 ---
 
