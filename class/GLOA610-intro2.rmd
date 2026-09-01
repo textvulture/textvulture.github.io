@@ -54,8 +54,8 @@ background-image: url(https://i.makeagif.com/media/11-27-2021/7DE0_V.gif)
 
 class: inverse, middle, center
 background-color: black
-background-image: url(https://www.structuralguide.com/wp-content/uploads/2021/02/Pynford-underpinning-method.jpg)
-background-size: contain
+background-image: url(https://www.groundworks.com/wp-content/uploads/sites/13/2021/08/piers-in-ground-cgi.jpg)
+background-size: 110%
 
 # .huge[**Some theoretical underpinnings**]
 
@@ -156,7 +156,7 @@ background-size: contain
 .![](https://media.giphy.com/media/l0ErJaDQ2Q3onCenS/giphy.gif?cid=ecf05e47ep5910nhirzakpc9xyxnosr2hg52zqytld0ibo7e&rid=giphy.gif&ct=g)
 ### - growth happened [60s]; but .purple[not] for all; many crisses [70s]
 ### - maybe the government is the problem -> austerity!
-### - cf., *the '.green[dependency]' theory* 
+### - cf., *the '.green[dependency]' theory*; 'Global South'? 
 ]
 
 .left-column[
@@ -541,11 +541,11 @@ background-position: right
 
 ---
 background-color: white
-background-image: url(https://www.worldbank.org/content/dam/photos/220x285/2024/jul/WDR-2024-cover.png)
+background-image: url(https://www.worldbank.org/content/dam/photos/220x285/2025/nov/WDR-2025-cover-3d.png)
 background-position: right
 background-size: 40%
 
-#.Large[Development in .pink[2024]]
+#.Large[Development in .pink[2025]]
 
 --
 
@@ -553,11 +553,15 @@ background-size: 40%
 
 --
 
-- .Large[In 2024, .red[slow growth] is the focus <br> (middle-income in particular).]
+- .Large[In 2025, .red[standards] are the focus.]
 
-  - .Large[ `r fa("syringe", fill='orange')` technology 'infusion']
+  - .Large[ 🏃 developing countries can't keep up.]
 
 --
 
-  - .Large[ `r fa("bomb", fill='red')` creative destruction (vs. inertia)]
+  - .Large[ ✂️ locally customized standards?]
+  
+--
+
+  - .Large[ 💸 global infrastructure investment?]
 
