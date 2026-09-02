@@ -1,7 +1,14 @@
 ---
 title: "Association of Korean Political Studies Business Meeting"
 subtitle: September 4, 2026. Boston, MA.
-format: html
+title-block-banner: "#115C6B"
+title-block-banner-color: "white"
+format: 
+  html:
+    theme: cosmo
+toc: true
+toccolor: blue
+smooth-scroll: true    
 ---
 
 # Quorum
@@ -22,7 +29,7 @@ format: html
   - The 2025-6 cohort successfully finished the season in May 2026.
   - The 2026-7 cohort is not formed. KPSC will start the first session of the season in October.
     - CfP went out in early July; three times more applicants than eventually selected.
-    - current co-conveners: Jiun Bang (Colorado College); Edward Goldring (University of Melbourne); Eun A Jo (William & Mary); Jenna Gibson (N)
+    - current co-conveners: Jiun Bang (Colorado College); Jenna Gibson (University of Notre Dame); Edward Goldring (University of Melbourne); Eun A Jo (College of William & Mary); Hyerin Seo (University of Birmingham); Sangyong Son (National University of Singapore); Byunghwan Ben Son (George Mason University)   
 
 - Two successful AKPS panels at ISA 2026 (Columbus, Ohio)
 
