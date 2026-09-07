@@ -48,3 +48,89 @@ background-image: url(https://cdn.prod.website-files.com/5d2b950d9ea87fc61f0c1f3
 # **What the webpage .yellow[doesn't] tell you.**
 
 ---
+
+background-image: url(https://raw.githubusercontent.com/textvulture/textvulture.github.io/refs/heads/master/images/gmuAC.png)
+background-position: right
+background-size: contain
+
+# 🔧 Nuts and bolts are <br>all explained <br> in the [official webpage](https://academicstandards.gmu.edu/academic-standards-code/).
+
+--
+
+## - what you need to submit
+
+## - what you can expect
+
+--
+
+# 🥹 .red[But] does it tell you <br> .Green[everything]?
+
+---
+
+class: inverse, center, middle
+background-image: url(https://media.tenor.com/ZFPKlHHJ-FMAAAAM/internet-wow.gif)
+background-size: 110%
+
+# .Huge[**.yellow[Things that I learned]**] <br> while serving the committee for 3+ years.
+
+---
+
+.full-width-green[
+# Before the submission, do know:
+]
+<br>
+
+--
+
+# 1. The committee does not conduct a .purple[separate] investigation.
+
+--
+
+## - The decision is made based .orange[solely] on the evidence you submit.
+
+--
+
+## - As a referring party, you are making an .green[argument].
+
+--
+
+# 2. Lots of cases come in as 'in abstentia'.
+
+--
+
+## - No reason to pre-emptively give up.
+
+---
+
+.full-width-blue[
+# While making the submission, do know:
+]
+<br>
+
+--
+
+# 1. .blue[Patterns] are the single most convincing evidence, particularly for CHSS cases.
+
+--
+
+## - Talk to students (for education); but also .pink[collect] evidence.
+
+--
+
+# 2. Students are .red[distressed] once a case is filed.
+
+--
+
+## - Even when they are clearly responsible.
+
+--
+
+## - AC Office is quite reliable. 
+
+---
+
+class: inverse
+background-image: url(https://media.tenor.com/8lBwt31zKXMAAAAM/i-volunteer-tribute.gif)
+background-size: 105%
+
+# .LARGE[.yellow[**This is a very important service that .red[few] faculty partake in.**]] 
