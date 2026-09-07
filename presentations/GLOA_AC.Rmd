@@ -1,0 +1,50 @@
+---
+title: "Academic Standards at GMU"
+subtitle: "What the webpage doesn't tell you."
+author: "Byunghwan Son <br> George Mason University"
+date: " "
+#########################################
+linkcolor: red
+citecolor: blue
+urlcolor: blueß
+output: 
+  xaringan::moon_reader:
+    seal: false
+    nature:
+      ratio: '16:9'
+      highlightStyle: github
+  #    self-contained: TRUE
+  chakra: css/libs/remark-latest.min.js
+css: ["default", 
+      "css/footer.css", 
+      "css/color.css", 
+      #          "xaringan-themer.css",
+      default-fonts]
+lib_dir: css/libs
+beforeInit: "css/macros.js"
+# seal: false  
+#bibliography: /Users/bson3/Dropbox/latex/mybib2.bib
+#remotes::install_github('yihui/xaringan', upgrade = TRUE)
+---
+
+```{r setup, include=FALSE}
+# to use FontAwesome
+# htmltools::tagList(rmarkdown::html_dependency_font_awesome())
+library(fs)
+options(htmltools.preserve.raw = FALSE)
+library(fontawesome)
+
+```
+
+class: inverse, middle, center
+background-color: black
+background-size: 125%
+background-image: url(https://cdn.prod.website-files.com/5d2b950d9ea87fc61f0c1f3e/5daa028e7721ae5d74817a68_dqLNOFNwqI5qonP2gsu1hsZC3zS4fwTtYuHidjGxrbFHesRCUqI6jmPjhTUqVX-OUL60EjwGQIO-V-qSo29hnCDrMn1yDjYkGg5Mgh1av4NzJWSCeSHwVD0NQERjmJ7E1T5yXymM.gif)
+
+
+
+# .huge[**Academic Standard at GMU**]
+
+# **What the webpage .yellow[doesn't] tell you.**
+
+---
