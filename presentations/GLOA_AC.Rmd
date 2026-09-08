@@ -43,7 +43,7 @@ background-image: url(https://cdn.prod.website-files.com/5d2b950d9ea87fc61f0c1f3
 
 
 
-# .huge[**Academic Standard at GMU**]
+# .huge[**Academic Standards at GMU**]
 
 # **What the webpage .yellow[doesn't] tell you.**
 
