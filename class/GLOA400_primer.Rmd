@@ -1,0 +1,542 @@
+---
+title: "GLOA400 Primer"
+author: Son
+#########################################
+linkcolor: blue
+citecolor: blue
+urlcolor: blueß
+output: 
+  xaringan::moon_reader:
+    nature:
+      ratio: '16:9'
+      highlightStyle: github
+    seal: false
+  #    self-contained: TRUE
+  chakra: css/libs/remark-latest.min.js
+css: ["default", 
+      "css/footer.css", 
+      "css/color.css", 
+      # "css/xaringan-themer.css",
+      default-fonts]
+lib_dir: css/libs
+beforeInit: "css/macros.js"
+--- 
+
+```{r setup, include=FALSE}
+# to use FontAwesome
+#htmltools::tagList(rmarkdown::html_dependency_font_awesome())
+
+library(fontawesome)
+library(dplyr)
+library(ggplot2)
+library(tinytable)
+library(modelsummary)
+
+knitr::opts_chunk$set(warning = FALSE, message = FALSE, error=F, echo=F)
+options(htmltools.preserve.raw = FALSE) 
+
+```
+
+class: inverse, center, middle
+background-color: black
+background-image: url(https://static1.squarespace.com/static/663792287f6076006c274f8d/t/66798ddf15bf551862f71f5b/1719242275199/Nuts-and-bolts.jpg?format=1500w)
+background-size: 110%
+
+
+# .Large[.Large[
+ .yellow[**Social Science Methods Primer**]
+]]
+
+# .LARGE[
+ .bluey[**GLOA 400**]]
+
+---
+
+class: inverse, center, middle
+background-image: url(https://raw.githubusercontent.com/textvulture/textvulture.github.io/refs/heads/master/images/forestBackground.jpg)
+
+# .Large[A quick note on the things that we may and may .pink[**not**] have.]
+
+
+---
+
+
+```{r, out.width="75%", fig.align='center'}
+
+knitr::include_graphics("https://raw.githubusercontent.com/textvulture/textvulture.github.io/refs/heads/master/images/methods_tree_1.png")
+
+```
+
+
+---
+
+
+```{r, out.width="75%", fig.align='center'}
+
+knitr::include_graphics("https://raw.githubusercontent.com/textvulture/textvulture.github.io/refs/heads/master/images/methods_tree_3.png")
+
+```
+
+
+---
+
+
+```{r, out.width="75%", fig.align='center'}
+
+knitr::include_graphics("https://raw.githubusercontent.com/textvulture/textvulture.github.io/refs/heads/master/images/methods_tree_4.png")
+
+```
+
+
+---
+
+
+```{r, out.width="75%", fig.align='center'}
+
+knitr::include_graphics("https://raw.githubusercontent.com/textvulture/textvulture.github.io/refs/heads/master/images/methods_tree_5.png")
+
+```
+
+
+---
+
+
+```{r, out.width="75%", fig.align='center'}
+
+knitr::include_graphics("https://raw.githubusercontent.com/textvulture/textvulture.github.io/refs/heads/master/images/methods_tree_6.png")
+
+```
+
+
+---
+
+
+class: inverse, middle, center
+background-image: url(https://github.com/textvulture/textvulture.github.io/blob/master/images/forestBackground2.jpg?raw=true)
+
+# .Huge[.ivory[**The fundamentals are important.**]]
+
+---
+class: inverse
+background-image: url(https://media4.giphy.com/media/JsTJO6J9BSsEvlxnIg/200w.gif?cid=6c09b952unpldt5y3xk5p2x8be78r9y441yt6zxggq359z9s&rid=200w.gif&ct=g)
+background-size: contain
+
+# .Huge[But,]
+
+---
+
+class: inverse, middle
+background-image: url(https://github.com/textvulture/textvulture.github.io/blob/master/images/sandwatch.jpg?raw=true)
+background-size: contain
+background-position: right
+background-color: black
+
+# Let's make the .ivory[**best**] out of it.
+
+--
+
+# We talk about:
+
+--
+
+### - what is science and how do we do it `r fa("flask", fill='#12F0DA')`
+
+--
+
+### - what does a research paper look like? `r fa('clipboard-question', fill='orange')`
+
+--
+
+### - what do we mean by the holy two-by-two table? `r fa("table-cells-large", fill='purple')`
+
+---
+
+background-image: url(https://raw.githubusercontent.com/textvulture/textvulture.github.io/master/images/halfBackground5.jpg)
+background-size: contain
+background-position: right
+background-color: #f0f4f5
+
+# What *Science* `r fa("microscope", fill='green')`?
+
+--
+
+### - Knowledge .green[accumulation]: we all make contributions to human knowledge.
+
+--
+
+```{r}
+
+knitr::include_graphics("https://2.bp.blogspot.com/-MjVaq_H_dBE/VDFwHWtem5I/AAAAAAAABBE/SB10YTB1amg/s1600/Extending%2BFrontier%2Bof%2BKnowledge.jpg")
+
+```
+
+--
+
+### - the need for standardized .green[methodology] (`r fa("not-equal", fill='red')` methods).
+
+--
+
+### - the process is .green[inference] `r fa("code-branch", fill='green')`.
+
+
+---
+
+
+# Is Social Science (very) different from National Science?
+## Are we not '.red[real]' scientists?
+
+--
+
+- .Large[We are. Quantitative, not qualitative, differences]
+
+--
+
+  - .Large[.Green[more] prone to sociocultural biases]
+  - .Large[more engageßd in less-represented voices]
+
+--
+
+- .Large[.pink[Balancing] between subjectivity and impact is important]
+
+> "Social science aims for collective knowledge but remains a social process with practices, cultures, and norms that vary across disciplines, geography, and time." (Grossmann 2021, 34)
+
+--
+
+- .Large[But the basic golden rule remains the same: .green[minimizing bias]]
+
+--
+
+  - .Large[A .green[collective] endeavor works great for this (hence, .orange[peer-reviews]).]
+
+---
+
+class: inverse, center, middle
+background-image: url(https://github.com/textvulture/textvulture.github.io/blob/master/images/wayBackground.jpg?raw=true)
+background-size: 120%
+
+# .LARGE[As the methods are .pink[standardized], their processes are pretty .red[similar] too.]
+
+
+---
+
+# The Process of (Social) Science 
+
+1. .Large[The Nature (the 'reality') `r fa("pagelines", fill='green')`]
+
+--
+
+2. .Large[Discovering .pink[Research Questions] (a simple question) `r fa("person-circle-question", fill='Purple')`] 
+
+--
+
+  - .large["There is no such thing as a logical methods of having new ideas ... [it is really] an '.red[irrational element]' or a '.red[creative intuition]'"]
+
+--
+
+  - .large[.green[tradition]; .orange[personal interests]; .bluey[boundary crossing]; .Blue[thought experiments] - but be critical, wild, and test-driving]
+
+--
+
+3. .Large[Constructing .Blue[Thesis]; .green[Theory]; .Green[Argument] `r fa("microphone-lines", fill='purple')`]
+
+--
+
+4. .Large[Identify .purple[Variables] and propose testable .red[hypotheses].]
+
+--
+
+5. .Large[Designing Empirics `r fa("chart-bar", fill='blue')`: to be talked about later]
+
+---
+
+class: inverse, bottom
+background-image: url(https://media3.giphy.com/media/v1.Y2lkPTZjMDliOTUyaGRubnJ5bWF3OXh6MGQwdnFjdTJqeGw0dnd3cnQxMGI4dHkwbHduayZlcD12MV9naWZzX3NlYXJjaCZjdD1n/SCkTcV8md46IERspXn/200w.gif)
+background-size: 100%
+
+# .LARGE[But .yellow[**wait**] a minute. Variables, theories,  hypothesis, and arguments?]
+
+---
+
+.content-box-yellow[
+# **Thesis**: the basic claim you are trying to make
+
+### - an 'association' or 'correlation'
+
+### - It is not usually a formal concept in methods textbooks, but every researcher runs into it.
+
+]
+
+## For example:
+
+### - Education → Democracy
+
+---
+
+.content-box-red[
+# **Argument**: the explanation for why things are related.
+
+### - 'why' for the thesis.
+### - usually built based on the literature
+### - many arguments -> theory/model
+]
+
+## For example:
+
+### - Education → Democracy .red[**because**] .orange[education exposes people to different ideas] and help them cultivate .purple[tolerance].
+
+### - Education → Tolerance → Democracy
+
+---
+
+.content-box-green[
+
+# **Hypothesis**: turns the argument into a prediction(s) that we can test.
+
+
+### - A statement about the .pink[observable consequences] of the argument.
+### - A good hypothesis makes a .purple[precise] prediction about the relationship between variables.
+
+]
+
+## For example:
+
+### - H1: Where education attainment is high, the public opinions supporting democracy is strong.
+
+--
+
+### - H2: Individuals with advanced degrees have strong pro-democracy opinions.
+
+--
+
+
+### - H3: Individuals with advanced degrees have high levels of political tolerance.
+
+
+---
+
+
+.content-box-blue[
+# Variable: the observable used to test the hypothesis.
+
+### - Something that can take different values across people, countries, or situations ('variation').
+
+### - Help develop/construct hypotheses.
+
+### - .red[operationalization]: from concept to observables
+]
+
+--
+
+## For example:
+
+### - Education → years of schooling; degrees
+### - Support for democracy → "*In 1-to-10 scale, how important do you think it is to have fair and competitive elections?*"
+
+
+---
+
+## Whichever method you use, it comes down to a .red[holy] table
+
+--
+
+### Remember: variables are factors of interest whose values .orange[vary].
+
+--
+
+.pull-left[
+
+```{r}
+
+library(kableExtra)
+text <- data.frame( 
+Indep.Variable = c("High", "Low"),
+No = c("A", "C"),
+Yes = c("B", "D")
+)
+
+kbl(text, 
+    booktabs = T, 
+    align=rep('c', 3)) %>%
+  kable_styling(font_size = 30) %>%
+#  row_spec(1:2, font_size = 30) %>%
+  add_header_above(c(" " = 1, 
+                     "Dependent.Var." = 2)) 
+
+```
+
+
+]
+
+--
+
+.pull-right[
+
+
+```{r}
+knitr::include_graphics("https://raw.githubusercontent.com/textvulture/textvulture.github.io/master/images/basic720.jpg")
+```
+
+]
+
+---
+
+class: middle, inverse
+background-image: url(https://github.com/textvulture/textvulture.github.io/blob/master/images/background_leftEmpty.jpg?raw=true)
+background-size: 130%
+
+# At the end of the day, most research projects look quite .yellow[similar in structure]. 
+
+--
+
+# **Yours** will too, probably.
+
+
+---
+.content-box-blue[
+### 1. **Introduction (+ Literature Review)**
+]
+
+--
+
+.content-box-yellow[
+### 2. **(Literature Review +) Argument/Hypothesis**
+]
+
+--
+
+.content-box-army[
+### 3. **Research Design**
+]
+
+--
+
+.content-box-purple[
+### 4. **Empirical Analysis**
+]
+
+--
+
+.content-box-red[
+### 5. **Conclusion**
+]
+---
+
+
+.full-width-blue[
+# Let's take an .pink[example] (not a reading).
+]
+<br>
+
+![](https://textvulture.github.io/images/Steinberg_1.JPG)
+
+---
+
+class: inverse
+background-color: black
+background-position: right
+background-image: url(https://textvulture.github.io/images/Steinberg_2.JPG)
+background-size: contain
+
+# Introduction
+
+--
+
+## - Motivation?
+
+--
+
+## - What is the .red['problem']?
+---
+
+class: inverse, middle
+background-color: black
+background-image: url(https://textvulture.github.io/images/Steinberg_3.JPG)
+background-size: contain
+
+---
+
+class: inverse, middle
+background-color: black
+background-image: url(https://textvulture.github.io/images/Steinberg_3_1.jpeg)
+background-size: contain
+
+---
+
+background-image: url(https://textvulture.github.io/images/Steinberg_4.JPG)
+background-size: contain
+
+# .right[.red[and/or argument]]
+
+---
+
+class: top, center
+background-image: url(https://textvulture.github.io/images/Steinberg_5.JPG)
+background-size: contain
+background-position: right
+
+# .Huge[.orange[**The Hypothesis**]]
+
+---
+
+
+# .Large[So the .Blue[**holy**] two-by-two table is:]
+
+```{r}
+
+library(kableExtra)
+text <- data.frame( 
+Govt.Support = c("High", "Low"),
+No = c("A", "C"),
+Yes = c("B", "D")
+)
+
+kbl(text, booktabs = T,
+    align=rep('c', 3)) %>%
+  kable_styling(font_size = 45) %>%
+  column_spec(1, bold = T, width = '10em', color = 'green') %>%
+  column_spec(2, width = "10em") %>%
+  column_spec(3, width = "10em") %>%
+  add_header_above(c(" " = 1, "Currency Crisis" = 2)) 
+
+```
+
+---
+
+class: center, bottom
+
+![](https://textvulture.github.io/images/Steinberg_6.JPG)
+
+---
+
+class: center, middle
+background-image: url(https://textvulture.github.io/images/Steinberg_7.JPG)
+background-size: contain
+
+# .Huge[.Yellow[Report the **Result**] & .red[check **robustness**]]
+
+---
+
+background-image: url(https://textvulture.github.io/images/Steinberg_8.JPG)
+background-size: contain
+
+---
+
+class: inverse
+background-color: black
+background-image: url(https://media.tenor.com/lR41lyFzdD0AAAAM/nothing-new-arun-maini.gif)
+background-size: contain
+background-position: right
+
+# This is a very condensed <br>method training.
+
+--
+
+# Nothing here is new or <br> surprising, though.
+
+--
+
+# We should be on <br> the same page now.
+
+
+ 
+ 
