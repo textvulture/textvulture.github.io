@@ -192,7 +192,7 @@ knitr::include_graphics("https://2.bp.blogspot.com/-MjVaq_H_dBE/VDFwHWtem5I/AAAA
 --
 
   - .Large[.Green[more] prone to sociocultural biases]
-  - .Large[more engageßd in less-represented voices]
+  - .Large[more engaged in less-represented voices]
 
 --
 
@@ -266,6 +266,8 @@ background-size: 100%
 
 ]
 
+--
+
 ## For example:
 
 ### - Education → Democracy
@@ -279,6 +281,8 @@ background-size: 100%
 ### - usually built based on the literature
 ### - many arguments -> theory/model
 ]
+
+--
 
 ## For example:
 
@@ -298,6 +302,8 @@ background-size: 100%
 
 ]
 
+--
+
 ## For example:
 
 ### - H1: Where education attainment is high, the public opinions supporting democracy is strong.
@@ -316,7 +322,7 @@ background-size: 100%
 
 
 .content-box-blue[
-# Variable: the observable used to test the hypothesis.
+# **Variable**: the 'observable' used to test the hypothesis.
 
 ### - Something that can take different values across people, countries, or situations ('variation').
 
