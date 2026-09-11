@@ -1,0 +1,451 @@
+---
+title: "GLOA400 LitReview"
+author: Son
+#########################################
+linkcolor: blue
+citecolor: blue
+urlcolor: blueß
+output: 
+  xaringan::moon_reader:
+    nature:
+      ratio: '16:9'
+      highlightStyle: github
+    seal: false
+  #    self-contained: TRUE
+  chakra: css/libs/remark-latest.min.js
+css: ["default", 
+      "css/footer.css", 
+      "css/color.css", 
+      # "css/xaringan-themer.css",
+      default-fonts]
+lib_dir: css/libs
+beforeInit: "css/macros.js"
+--- 
+
+```{r setup, include=FALSE}
+# to use FontAwesome
+#htmltools::tagList(rmarkdown::html_dependency_font_awesome())
+
+library(fontawesome)
+library(dplyr)
+library(ggplot2)
+library(tinytable)
+library(modelsummary)
+
+knitr::opts_chunk$set(warning = FALSE, message = FALSE, error=F, echo=F)
+options(htmltools.preserve.raw = FALSE) 
+
+```
+
+
+class: inverse, middle, center
+background-color: black
+background-image: url(https://i.gifer.com/4KPr.gif)
+background-size: 110%
+
+
+# .LARGE[**How to write a literature review <br> that doesn't .hl1[suck**]]
+
+# .times[A Practical Guide] (GLOA 400)
+
+---
+
+class: inverse, middle
+background-image: url(https://y.yarn.co/63df64d9-2848-4ea3-be69-44ef8b62739f_text.gif)
+background-size: 100%
+
+--
+
+## .yellow[Before we start, this lecture serves the role of 'checking' whether your literature review has been shaping up alright.] 
+
+--
+
+## .bluey[As emphasized many times already, you must have started working on the literature review a while ago.]
+
+
+---
+
+class: inverse, middle, center
+background-color: black
+background-image: url(https://media.tenor.com/GxfSlJG_H7AAAAAd/confusion-visible-confusion.gif)
+background-size: 120%
+
+# .huge[Why do people say <br> literature review is so .red[hard?]]
+
+--
+
+# Why do I often hear: '.hl1[there's no relevant study on this!]'
+
+---
+
+class: inverse, middle, center
+background-color: black
+
+
+# .huge[What typically happens:]
+
+---
+
+class: inverse, left, top
+background-color: black
+background-image: url(https://media.tenor.com/7YbmXq_ixXIAAAAM/zhukov.gif)
+background-size: 100%
+
+# .yellow[.Large[When you have <br> your topic sorted out:]]
+
+---
+
+class: inverse, left, bottom
+background-color: black
+background-image: url(https://media.tenor.com/5R1whvx7pOkAAAAC/lost-johntravolta.gif)
+background-size: 115%
+
+# .LARGE[But after digging in a bit:]
+
+---
+
+class: inverse
+background-image: url(https://github.com/textvulture/textvulture.github.io/blob/master/images/forestBackground2.jpg?raw=true)
+background-size: 110%
+
+# And then you just end up with a literature review that .pink[sucks].
+
+--
+
+> ## .white[Doe (1991) finds that cash transfer does not work. Xu (2005) argues that cash transfer is important. Ngo (2016) contends that cash transfer is imperialism.]
+
+--
+
+##  - .Green[Random] studies, not connected. More importantly, other than showing it is .yellow[something] about cash transfer, this kind of review does not really highlight what .pink[your study] does. 
+
+---
+
+class: inverse, right, middle
+background-color: black
+background-image: url(https://github.com/textvulture/textvulture.github.io/blob/master/images/background_rightEmpty.jpg?raw=true)
+background-size: 100%
+
+
+# .LARGE[Much of this frustration comes <br> from a misunderstanding of <br> .yellow[literature review].]
+
+--
+
+# .Large[.bluey[Some practical advice today]]
+
+---
+
+class: inverse, bottom
+background-color: #090909
+background-image: url(https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b4/Orion_aveugle_cherchant_le_soleil.jpg/1280px-Orion_aveugle_cherchant_le_soleil.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail)
+background-size: 100%
+
+--
+
+# You want to build on others' work, <br> .pink[not] find a perfect match.
+
+--
+
+# In fact, if there's a perfect match, that's really .yellow[bad] news.
+
+---
+
+class: inverse
+background-image: url(https://github.com/textvulture/textvulture.github.io/blob/master/images/background_leftEmpty3.jpeg?raw=true)
+background-size: 100%
+
+
+# .Large[Literature Review]
+
+--
+
+# .red[Literature] Review
+
+- .Large[existing studies `r fa("book", fill='green')`]
+--
+
+- .Large[existing studies on the .yellow[subject]]
+--
+
+- .Large[existing studies on the .yellow[theory]]
+
+--
+
+# Literature .red[Review]
+
+- .Large[evaluate the existing research to demonstrate what you do .orange[matters]]
+
+--
+
+  - not .pink[only] because it's a big deal in the real-world
+  
+--
+
+- .Large[identify `r fa("magnifying-glass", fill='purple')`: what is .yellow[insufficient] in the existing studies ('gap in the literature')]
+
+
+---
+
+.large[ .red[Now] it makes sense why a research paper usually looks like this:]
+
+.content-box-grey[
+### .center[Introduction]
+]
+
+.content-box-red[
+### .center[Literature Review]
+]
+
+.content-box-grey[
+### .center[Theory & Argument & Hypothesis]
+]
+
+.content-box-grey[
+### .center[Research Design & Empirical Analysis]
+]
+
+.content-box-grey[
+### .center[Conclusion]
+]
+
+---
+
+# .pink[Numerous] ways to show your research matters. For example:
+
+--
+
+.content-box-green[
+.Large[.times[there was this critical problem in the theory]]]
+--
+
+.large[.hl3[Your research]: theory-revising (should have a good insight)]
+
+--
+
+.content-box-yellow[
+.Large[.times[they are fighting over this and it's been .red[inconclusive]]]
+]
+
+--
+
+.large[.hl1[Your research]: synthesizing; empirical settling (often considered less important)]
+
+--
+
+.content-box-red[
+.Large[.times[they haven't touched upon this very important .red[area] at all]]]
+
+--
+
+.large[.hl2[Your research]: scope-expanding (not easy to be convincing)]
+
+---
+
+class: inverse, center, middle
+background-image: url(https://github.com/textvulture/textvulture.github.io/blob/master/images/background_oldPaper.jpg?raw=true)
+background-size: cover
+
+# .large[So the first step is to find a .bluey[network] of literature to see what's insufficiently done.]
+
+---
+
+class: inverse, center, middle
+background-image: url(https://media.tenor.com/1_DBOhTvniEAAAAd/library-shelves.gif)
+background-size: 120%
+
+# .LARGE[.yellow["But my topic's so .bluey[unique] that there's few studies on it."]]
+
+---
+
+# .Large[Don't give me that.]
+--
+
+## - because that ain't possible: there's always .red[something] to build on.
+
+## The only thing to .hl3[avoid:]
+
+--
+
+```{r}
+
+library(kableExtra)
+text <- data.frame(
+  variables = c("Explanatory", "Outcome", "Empirics"),
+  Explanatory= c(" ", " ", " "),
+  Outcome = c(" ", " ", " "),
+  Empirics = c(" ", " ", " ")
+)
+
+kbl(text, booktabs = T, escape = F, align=rep('c', 3)) %>%
+  kable_paper(full_width = T, html_font='Cambria') %>% 
+  add_header_above(c(" " =  1, "Existing Studies" = 3)) %>%
+  pack_rows("Your Project", 1, 3) %>%
+  row_spec(1:3, bold = T, background = '#F6F6ED') %>%
+  row_spec(0, color="Black", align='center') %>%
+  column_spec(1, background = '#EEEDF6') 
+
+```
+
+---
+
+
+# .Large[Don't give me that.]
+
+## - because that ain't possible: there's always .red[something] to build on.
+
+## The only thing to .hl3[avoid:]
+
+
+```{r}
+
+library(kableExtra)
+text <- data.frame(
+  variables = c("Explanatory", "Outcome", "Empirics"),
+  Explanatory= c("identical?", " ", " "),
+  Outcome = c(" ", "identical?", " "),
+  Empirics = c(" ", " ", "identical?")
+)
+
+text[1,2] = cell_spec(text[1,2], color = "white", background='red')
+text[2,3] = cell_spec(text[2,3], color = "white", background='red')
+text[3,4] = cell_spec(text[3,4], color = "white", background='red')
+
+kbl(text, booktabs = T, escape = F, align=rep('c', 3)) %>%
+  kable_paper(full_width = T, html_font='Cambria') %>% 
+  add_header_above(c(" " =  1, "Existing Studies" = 3)) %>%
+  pack_rows("Your Project", 1, 3) %>%
+  row_spec(1:3, bold = T, background = '#F6F6ED') %>%
+  row_spec(0, color="Black", align='center') %>%
+  column_spec(1, background = '#EEEDF6') 
+
+```
+
+---
+
+class: inverse
+background-image: url(https://raw.githubusercontent.com/textvulture/textvulture.github.io/master/images/blackboardBackground.jpg)
+background-size: 115%
+
+# What .Yellow[Helps]?
+
+--
+
+## - read and mimic (the 'literature review' sections of .yellow[academic articles])
+
+--
+
+## - have a several-sentence .yellow[summary] for each study that you draw on
+  - .Large[*usually* that's all you need]
+  
+--
+
+## - group them together (e.g., tagging)
+  - .Large[imagine a .yellow[map] of a bunch of bodies of literature]
+  - .Large[.yellow[Zotero] <img src="https://www.zotero.org/support/_media/logo/zotero_512x512x32.png" width="30" style="display: inline-block; margin: 0" /> works best for this purpose]
+  
+---
+
+# Let's see an .red[example]
+
+--
+
+![](https://raw.githubusercontent.com/textvulture/textvulture.github.io/master/images/litreview_eg0.png)
+
+---
+
+.pull-left[
+# The .red[traditional] approach
+![](https://raw.githubusercontent.com/textvulture/textvulture.github.io/master/images/litreview_eg1.png)
+
+]
+
+--
+
+.pull-right[
+
+# The .red[critique] of the tradition
+
+![](https://raw.githubusercontent.com/textvulture/textvulture.github.io/master/images/litreview_eg2.png)
+
+]
+
+---
+
+.pull-left[
+
+# .Blue[Others] are saying:
+
+![](https://raw.githubusercontent.com/textvulture/textvulture.github.io/master/images/litreview_eg3.png)
+
+]
+
+--
+
+.pull-right[
+
+# And that matters .orange[because]:
+
+![](https://raw.githubusercontent.com/textvulture/textvulture.github.io/master/images/litreview_eg4.png)
+
+
+]
+
+---
+
+.pull-left[
+
+# The alternative's .bluey[also wrong]:
+![](https://raw.githubusercontent.com/textvulture/textvulture.github.io/master/images/litreview_eg5.png)
+
+]
+
+--
+
+.pull-right[
+
+# Like, .Blue[very wrong]:
+
+![](https://raw.githubusercontent.com/textvulture/textvulture.github.io/master/images/litreview_eg6.png)
+
+]
+
+---
+
+class: inverse
+background-color: black
+
+# So maybe .bluey[a study] <br>that .yellow[overcomes] <br>these limitations is need. 
+
+---
+
+class: inverse
+background-image: url(https://media.tenor.com/nBwqHiRlhygAAAAM/i-got-what-you-need-jordan-davis.gif)
+background-size: 100%
+
+# So maybe .bluey[a study] <br>that .yellow[overcomes] <br>these limitations is need. 
+--
+
+# The job is to **.Green[convince]**!
+
+--
+
+# Avoid just saying: <br> A said a, B said b, and C said c
+
+---
+
+background-image: url(https://images.imagerenderer.com/images/artworkimages/mediumlarge/2/pirate-chief-burying-treasure-rj-gallant.jpg)
+background-size: contain
+background-position: right
+
+# Good .green[Sources] to Find <br>Literature of Your Interest
+
+--
+
+## - the literature review section <br>of any academic research <br>(and thus, the references/bibliography)
+
+--
+
+## - the 'Annual Reviews'
+
+--
+
+## - Google Scholar's "cited by"
