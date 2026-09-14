@@ -64,6 +64,7 @@ blue {
 
 - <font size='2'> Aug 19: Additional details added to @sec-part. </font>
 - <font size='2'> Aug 27: Reading change. Swanson and Kumar articles dropped. Hynek added. Week 14. </font>
+- <font size='2'> Sep 14: A short reading added in the week of Economic Security.</font>
 
 # Instructor
 
@@ -646,7 +647,7 @@ Those presenting this week should note that we are talking about actual crises, 
 
 ## Week 13. Nov 17. Global Health, Environment & Resource {.unnumbered}
 
-  -  Last week where you can do a reading summary.
+  -  **Last** week where you can do a reading summary.
   -  Savoia, A. and Sen, K. (2021). The political economy of the resource curse: A development perspective. *Annual Review of Resource Economics*, 13:203–223.
   -  Fails, M. D. (2020). Oil income and the personalization of autocratic politics. *Political Science Research and Methods*, 8(4):772–779.
   -  Son, B. and Bellinger, N. (2022). The Health Cost of Autocratization. *Journal of Development Studies*, 58(5):873–890.
@@ -667,6 +668,7 @@ Those presenting this week should note that we are talking about actual crises, 
   -  Dempsey, H. and Hook, L. China set to tighten grip over global cobalt supply as price hits 32-month low. Financial Times. March 12. 2023. Available at: [link](https://www.ft.com/content/abf28c9f-54e2-45c2-8dac-c5016bd31423?fbclid=IwAR0IART6s2ckhWDIR7jmr1ZvDWO22i9W8U1nUPi5KGx0OKfujujs5QvbvSY)
   -  Agarwal, R. (2023). Industrial policy and growth strategy trilemma. Finance & Development. International Monetary Fund. Available at: [link.](https://www.imf.org/en/Publications/fandd/issues/Series/Analytical-Series/industrial-policy-and-the-growth-strategy-trilemma-ruchir-agarwal?utm_medium=email&utm_source=govdelivery)
   -  Eichengreen, B. (2022). Sanctions, SWIFT, and China’s cross-border inter-bank payments system. CSIS Briefs. May 20, 2022. [link.](https://www.csis.org/analysis/sanctions-swift-and-chinas-cross-border-interbank-payments-system)
+  - Amodei, Dario. (2026). We Must Pace the Frontier. September, 2026. [link](https://darioamodei.com/post/we-must-pace-the-frontier)
   
 ## Week 15. Dec 1. Wrap-up & Course Evaluation {.unnumbered}
   - Dec 7 is the last day of the semester for the [University.](https://registrar.gmu.edu/fall-2026-final-exam-schedule/). The last class date possible for us, therefore, is Dec 1.

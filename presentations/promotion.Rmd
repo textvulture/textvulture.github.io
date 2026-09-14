@@ -58,15 +58,15 @@ background-size: 120%
 ---
 
 class: inverse
-background-color: black
 
-# Snapshot of Research: .yellow[18] peer-reviewed journal articles
-
+.full-width-blue[
+# Snapshot of Research: .yellow[18] peer-reviewed journal articles]
+<br><br>
 --
 
 .pull-left[
 
-# .center[.HUGE[9,970]<br>.LARGE[words <br>per paper] ]
+# .center[.huge[.Blue[9,970]]<br>words per paper ]
 
 ]
 
@@ -74,21 +74,149 @@ background-color: black
 
 .pull-right[
 
-# .center[.Huge[.Large[.pink[9.2 %]]] average acceptance rate <br> .tiny[(some journals do not disclose the data)]]
+# .center[.huge[.pink[9.2 %]]<br> average acceptance rate* ]
 
 ]
+
+<br>
+--
+
+.pull-left[
+
+# .center[.huge[.orange[10/18]<br>] solo-authored]
+
+]
+
+--
+
+.pull-right[
+
+# .center[.huge[.yellow[3]<br>] current R&R]
+]
+
+---
+
+.full-width-blue[
+# Four Research Programs
+]
+<br><br>
+--
+
+.pull-left[
+.content-box-blue[
+## Global Political Economy
+
+- .large[political events/institutions: financial outcomes]
+
+]
+]
+
+--
+
+.pull-right[
+.content-box-red[
+## Comparative Autocratization
+
+- .large[processes and consequences of democratic backsliding]
+]
+]
+
+<br>
+
+--
+
+.pull-left[
+.content-box-green[
+## Public Opinions
+
+- .large[what do people think about democracy & political institutions?]
+]
+]
+
+--
+
+.pull-right[
+.content-box-yellow[
+## Political Communication
+
+- .large[political behaviors found in media/platforms]
+]
+]
+
 
 
 ---
 
-
-# Research Areas of Published Research
+.full-width-blue[
+# Research Areas of Published Research]
 
 ```{r}
 
 knitr::include_graphics('publication_brickwall.png')
 
 ```
+
+---
+.full-width-blue[
+# Going forward:
+]
+<br>
+--
+
+# - Complete the current .purple[seven in-progress] projects.
+
+# - A .red[book] on South Korean insurrection experience.
+
+# - A .green[book] on a positivist approach to K-pop fans' political and social behaviors .tiny[(w/ Dae Young Kim)].
+
+
+---
+
+.full-width-green[
+# Impact and Recognition
+]
+<br><br>
+
+--
+
+.pull-left[
+.content-box-yellow[
+## Direct policy impact
+ .Large[🤝 GAO report citation (economic sanctions)]]
+]
+
+--
+
+.pull-right[
+.content-box-red[
+## Media recognition
+.Large[📺 MSNBC, Bloomberg, AFP]<br>
+.Large[🇰🇷 Korea & Beyond]
+]
+]
+<br>
+--
+
+.pull-left[
+.content-box-green[
+## Regular Think Tank Invitations
+.Large[📆 policy forums]<br>
+.Large[🚪 closed-door high-level talks]
+]
+]
+
+--
+
+.pull-right[
+.content-box-blue[
+## In-discipline recognition
+.Large[🏆 Paper award]<br>
+.Large[🪑 Leadership roles]
+]
+
+]
+
+
 
 
 ---
@@ -101,8 +229,26 @@ background-size: 120%
 # .Huge[.LARGE[**Teaching**]]
 
 ---
+
+class: inverse, center, middle
+background-image: url(https://raw.githubusercontent.com/textvulture/textvulture.github.io/refs/heads/master/images/night_background4.jpg)
+background-size: 100%
+
+
+# .LARGE[I've taught .pink[almost all] GLOA courses] <br> .tiny[, except for GLOA 600 and 386-8 (only very recently developed)].
+
+--
+
+.left[# But in particular,
+### - GLOA 610 (Economic Globalization & Development) <br>- GLOA 605 (Interdiscplinary Research Methods)  <br>- GLOA 615.yellow[-section] (Globalization in Asia) <br>- GLOA 396.yellow[-section] (Global Politics & Revolutions)
+]
+
+---
+
 .full-width-green[
-## Student Evaluations (average of all questions)]
+## Student Evaluations (average of .red[all] questions)]
+
+--
 
 ```{r, out.width="77%%", fig.align='center'}
 
@@ -113,16 +259,30 @@ knitr::include_graphics('average_fixed.png')
 ---
 
 .full-width-green[
+## Student Evaluation .violet[Response] Rates.
+]
+
+--
+
+```{r, out.width="60%", fig.align='center'}
+
+knitr::include_graphics('responseRates.png')
+
+```
+
+---
+
+
+.full-width-green[
 ## Student Evaluations (written)]
+
+--
 
 ```{r, out.width="60%", fig.align='center'}
 
 knitr::include_graphics('wordcloud1.png')
 
 ```
-
-
-
 
 ---
 
@@ -132,3 +292,66 @@ background-image: url(https://media.licdn.com/dms/image/v2/C4D12AQH6fKBfcbANrQ/a
 background-size: 120%
 
 # .Huge[.LARGE[**Service**]]
+
+---
+.full-width-yellow[
+# Multi-dimensional (& likely excessive) Service
+]
+<br><br>
+
+--
+
+
+.pull-left[
+.content-box-green[
+## For GLOA
+- .Large[Committees (standing/search)]
+- .Large[Presence]
+]
+]
+
+--
+
+.pull-right[
+.content-box-yellow[
+## For CHSS
+- .Large[KSC & Minor]
+- .Large[Committees & other LAUs]
+]
+]
+
+--
+
+.pull-left[
+.content-box-blue[
+## For University
+- .Large[Academic Standard]
+- .Large[Photo modeling]
+]
+]
+
+--
+
+.pull-right[
+.content-box-red[
+## For Discipline
+- .Large[.Blue[Reviewer]; D&C; Editorial B]
+- .Large[AKPS; KPSC]
+]
+]
+
+---
+.full-width-brown[
+# So, in conclusion:
+]
+
+<br><br><br><br><br>
+
+--
+
+
+```{r, out.width="120%"}
+
+knitr::include_graphics('eval_fun.png')
+
+```
