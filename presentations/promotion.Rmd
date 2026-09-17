@@ -1,5 +1,5 @@
 ---
-title: "Research Presentation"
+title: "Presentation"
 author: "Byunghwan Son <br> George Mason University"
 date: " "
 #########################################
@@ -41,7 +41,7 @@ background-image: url(mugshot2025a_circle.png)
 background-position: 23cm 2.5cm
 background-size: 20%
 
-# .Large[**RPT Presentation**] <br> .yellow[13 years of research, teaching, and service]<br><br><br>
+# .LARGE[**RPT Presentation**] <br> .yellow[A decade] of .bluey[research], .pink[teaching], and .orange[service]<br><br><br>
 ----
 
 ## .right[Byunghwan Ben Son <br> .tiny[(Associate Professor, GLOA)]]
@@ -58,9 +58,10 @@ background-size: 120%
 ---
 
 class: inverse
+background-color: black
 
 .full-width-blue[
-# Snapshot of Research: .yellow[18] peer-reviewed journal articles]
+# Research Snapshots: .yellow[18] peer-reviewed journal articles]
 <br><br>
 --
 
@@ -97,7 +98,7 @@ class: inverse
 ---
 
 .full-width-blue[
-# Four Research Programs
+# **Four Research Areas**
 ]
 <br><br>
 --
@@ -149,29 +150,67 @@ class: inverse
 
 .full-width-blue[
 # Research Areas of Published Research]
+]
 
-```{r}
+```{r, fig.width=14}
+library(dplyr)
+library(ggplot2)
 
-knitr::include_graphics('publication_brickwall.png')
+
+pubs <- read_csv("publication_categories.csv")
+
+pubs_long <- pubs |>
+  mutate(
+    status = if_else(str_detect(publication, "_underreview$"), "Under review", "Published"),
+    publication = fct_reorder(publication, year)
+  ) |>
+  pivot_longer(
+    cols = c(global_political_economy, comparative_autocratization,
+             public_opinion, political_communication),
+    names_to = "category",
+    values_to = "included"
+  ) |>
+  filter(included == "Yes") |>
+  mutate(category = recode(category,
+    global_political_economy   = "Global Political Economy",
+    comparative_autocratization = "Comparative Autocratization",
+    public_opinion              = "Public Opinion",
+    political_communication     = "Political Communication"
+  )) |>
+  mutate(category = factor(category, levels = c(
+    "Global Political Economy",
+    "Comparative Autocratization",
+    "Public Opinion",
+    "Political Communication"
+  )))
+
+ggplot(pubs_long, aes(x = publication, y = category, fill = category, alpha = status)) +
+  geom_tile(width = 0.95, height = 0.85, color = "white", linewidth = 1) +
+  scale_fill_manual(values = c(
+    "Global Political Economy"    = "#1b9e77",
+    "Comparative Autocratization" = "#d95f02",
+    "Public Opinion"              = "#7570b3",
+    "Political Communication"     = "#e7298a"
+  )) +
+  scale_alpha_manual(values = 
+                       c("Published" = 1, "Under review" = 0.35), 
+                     guide = "none") +
+  labs(
+#    title = "Research Programs by Publication",
+    x = NULL,
+    y = NULL
+  ) +
+  theme_minimal(base_size = 20) +
+  theme(
+    legend.position = "none",
+    axis.text.x = element_text(angle = 60, hjust = 1),
+    panel.grid.major = element_line(color = "gray85", linewidth = 0.3),
+    panel.grid.minor = element_blank()
+  )
 
 ```
 
 ---
-.full-width-blue[
-# Going forward:
-]
-<br>
---
-
-# - Complete the current .purple[seven in-progress] projects.
-
-# - A .red[book] on South Korean insurrection experience.
-
-# - A .green[book] on a positivist approach to K-pop fans' political and social behaviors .tiny[(w/ Dae Young Kim)].
-
-
----
-
 .full-width-green[
 # Impact and Recognition
 ]
@@ -221,6 +260,21 @@ knitr::include_graphics('publication_brickwall.png')
 
 ---
 
+.full-width-blue[
+# Going forward:
+]
+<br>
+--
+
+## - Completing the current .purple[seven in-progress] projects.
+
+## - A .red[book] on South Korean insurrection experience.
+
+## - A .green[book] on a positivist approach to K-pop fans' political and social behaviors .tiny[(w/ Dae Young Kim)].
+
+
+---
+
 class: inverse, center, middle
 background-color: black
 background-image: url(https://images.pexels.com/photos/37865915/pexels-photo-37865915/free-photo-of-black-and-white-empty-classroom-interior.jpeg)
@@ -246,7 +300,7 @@ background-size: 100%
 ---
 
 .full-width-green[
-## Student Evaluations (average of .red[all] questions)]
+## Student Evaluations (averages of .pink[all] questions)]
 
 --
 
@@ -355,3 +409,7 @@ background-size: 120%
 knitr::include_graphics('eval_fun.png')
 
 ```
+
+.right[
+### - GLOA 610, Spring 2026
+]
