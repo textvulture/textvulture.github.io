@@ -133,7 +133,7 @@ background-position: 95% 70%
 background-size: 25%
 
 
-.content-box-yellow[
+.full-width-yellow[
 # .center[.orange[Traditional] Text Analysis]
 ]
 
@@ -237,8 +237,8 @@ background-size: 100%
 
 ---
 
-.content-box-red[
-# .center[.red[Critical] Discourse Analysis]
+.full-width-brown[
+# .center[.pink[Critical] Discourse Analysis]
 ]
 
 ### :texts are but .green[social constructs] and cannot be explained w/o contexts
