@@ -234,6 +234,29 @@ $$y_{ijt} = \alpha\frac{x_{it} \times x_{jt}}{d_{ijt}}$$]
 ![](https://github.com/textvulture/textvulture.github.io/blob/master/images/Fitzgerald2014.png?raw=true)
 ]
 
+---
+
+.full-width-green[
+#  But isn't it a .yellow[brain drain]? New Approaches (Clemens 2025)
+]
+<br>
+--
+
+
+##  `r fa("baby", fill='blue')` Labor is not abundant anymore; .red[not] only in manual labor (.green[med/tech])
+
+--
+
+## `r fa("earth-asia", fill='red')` The world is much more .red[mobile] than before.
+
+--
+
+## `r fa("lightbulb", fill='orange')`  .purple[G]lobal .purple[S]kill .purple[P]artnership
+
+--
+
+### - some trained labor remain home
+### - some may come back eventually
 
 
 ---
@@ -256,7 +279,7 @@ background-size: contain
 
 # Hainmueller et al. (2015)
 
-## - .Yellow[Economic Interests?]
+## - .Orange[Economic Interests?]
 ## - .Green[Affinity?]
 ## - .pink[Ethnocentrism?]
 
