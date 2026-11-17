@@ -238,7 +238,7 @@ background-size: 100%
 
 ```{r, out.width="550px"}
 
-knitr::include_graphics("https://github.com/textvulture/textvulture.github.io/blob/master/images/economistCO2.png?raw=true")
+knitr::include_graphics("https://raw.githubusercontent.com/textvulture/textvulture.github.io/refs/heads/master/images/economistCO2.png")
 
 ```
 
@@ -263,7 +263,7 @@ background-position: right
 
 ```{r, out.width="550px"}
 
-knitr::include_graphics("https://github.com/textvulture/textvulture.github.io/blob/master/images/economistCO2.png?raw=true")
+knitr::include_graphics("https://raw.githubusercontent.com/textvulture/textvulture.github.io/refs/heads/master/images/economistCO2.png")
 
 ```
 
