@@ -572,8 +572,52 @@ background-position: right
 
 ---
 
+.full-width-blue[
+# Corporate .yellow[Double] Key (Hynek 2026)
+]
+<br>
+--
+
+- .Large[It's not all about states: *corporate chokehold*].
+
+--
+
+|  | **ASML** | **TSMC** |
+|---|---|---|
+| **Infrastructural embedment** |  |  |
+| **Authority relocation** |  |  |
+| **Temporal lock-in** |  |  |
+
+
+---
+
+.full-width-blue[
+# Corporate .yellow[Double] Key (Hynek 2026)
+]
+<br>
+
+- .Large[It's not all about states: *corporate chokehold*].
+
+
+
+|  | **ASML** | **TSMC** |
+|---|---|---|
+| **Infrastructural embedment** | Chipmakers need ASML’s .red[special machines]. | Chip designers need TSMC’s fabs to turn their designs into advanced chips. |
+| **Authority relocation** | ASML helps decide whether its machines can .Blue[keep running] by providing parts and service. | TSMC decides which chip designs are ready, which customers get factory space, and when production happens. |
+| **Temporal lock-in** | A chipmaker can’t quickly replace ASML’s machines or learn how to use different ones. | Customers can’t quickly move production elsewhere because new fabs must prove they can make the chips well. |
+
+--
+
+- .Large[The get-arounds for nation states?: .red[onshoring]; .Blue[packaging alternatives]; .orange[market competition]?]
+
+--
+
+- .Large[The US can strike back too.]
+
+---
+
 class: inverse, left, bottom
 background-image: url(https://i.gifer.com/1jyg.gif)
 background-size: 100%
 
-# .Large[May or May Not Be Deglobalization]
+# .Large[So is it deglobalization or not?]
