@@ -616,6 +616,16 @@ background-position: right
 
 ---
 
+.full-width-green[
+# Choke Point Warfare .small[(Farrell, Newman, and Tan 2026)]]
+<br>
+--
+
+<br>
+> .black[.LARGE[Historically effective ways of limiting trade disputes may fail in chokepoint warfare. In traditional tariff wars, governments often try to match .orange[like with like], responding to a butter tariff with a countertariff on eggs. .hl1[Maintaining proportionality is much harder when economic security risks are diverse], when different chokepoints confer different kinds of leverage, and when countries that want to retaliate against the weaponization of one network have to turn to different networks to respond.]]
+
+---
+
 class: inverse, left, bottom
 background-image: url(https://i.gifer.com/1jyg.gif)
 background-size: 100%
